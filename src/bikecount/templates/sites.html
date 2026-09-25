@@ -1,0 +1,371 @@
+<title>__TITLE__</title>
+<style>
+/* flag wash reuses --band tokens */
+:root {
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --ring: rgba(11, 11, 11, 0.10);
+  --s1: #2a78d6;
+  --s2: #eb6834;
+  --s3: #1baf7a;
+  --s4: #eda100;
+  --band: rgba(82, 81, 78, 0.10);
+  --band-edge: rgba(82, 81, 78, 0.45);
+  --warn: #fab219;
+  --warn-wash: rgba(250, 178, 25, 0.16);
+  --event: #4a3aa7;
+  --select: rgba(42, 120, 214, 0.12);
+  --btn: #f0efec;
+  --btn-on: #0b0b0b;
+  --btn-on-ink: #fcfcfb;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --ring: rgba(255, 255, 255, 0.10);
+    --s1: #3987e5;
+    --s2: #d95926;
+    --s3: #199e70;
+    --s4: #c98500;
+    --band: rgba(195, 194, 183, 0.10);
+    --band-edge: rgba(195, 194, 183, 0.40);
+    --warn-wash: rgba(250, 178, 25, 0.14);
+    --event: #9085e9;
+    --select: rgba(57, 135, 229, 0.18);
+    --btn: #262624;
+    --btn-on: #ffffff;
+    --btn-on-ink: #1a1a19;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d;
+  --surface: #1a1a19;
+  --ink: #ffffff;
+  --ink-2: #c3c2b7;
+  --muted: #898781;
+  --grid: #2c2c2a;
+  --axis: #383835;
+  --ring: rgba(255, 255, 255, 0.10);
+  --s1: #3987e5;
+  --s2: #d95926;
+  --s3: #199e70;
+  --s4: #c98500;
+  --band: rgba(195, 194, 183, 0.10);
+  --band-edge: rgba(195, 194, 183, 0.40);
+  --warn-wash: rgba(250, 178, 25, 0.14);
+  --event: #9085e9;
+  --select: rgba(57, 135, 229, 0.18);
+  --btn: #262624;
+  --btn-on: #ffffff;
+  --btn-on-ink: #1a1a19;
+}
+* { box-sizing: border-box; }
+body { background: var(--page); color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.page { max-width: 1120px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 48px; display: grid; gap: 18px; }
+header { display: grid; gap: 6px; }
+.eyebrow { margin: 0; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 0; font-size: 26px; line-height: 1.2; font-weight: 650; text-wrap: balance; }
+.meta { margin: 0; color: var(--ink-2); }
+.notes { margin: 4px 0 0; padding-left: 18px; max-width: 80ch; color: var(--ink-2); display: grid; gap: 2px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.group .label { color: var(--muted); font-size: 12px; margin-right: 2px; }
+.group button, select { font: inherit; font-size: 13px; border: 1px solid var(--ring); background: var(--btn); color: var(--ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+select { border-radius: 8px; padding: 5px 10px; max-width: 100%; }
+.group button[aria-pressed="true"] { background: var(--btn-on); color: var(--btn-on-ink); }
+button:focus-visible, select:focus-visible, svg:focus-visible { outline: 2px solid var(--s1); outline-offset: 2px; }
+.hint { color: var(--muted); font-size: 12px; }
+.card { position: relative; background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 16px 16px 8px; display: grid; gap: 4px; }
+.chart-head { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; justify-content: space-between; }
+.chart-title { margin: 0; font-size: 14px; font-weight: 600; }
+.chart-sub { margin: 0; color: var(--muted); font-size: 12px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0; padding: 0; list-style: none; font-size: 12px; color: var(--ink-2); }
+.legend li { display: flex; align-items: center; gap: 6px; }
+.key-line { width: 16px; height: 2px; border-radius: 1px; }
+.key-band { width: 12px; height: 12px; border-radius: 2px; background: var(--band); border: 1px dashed var(--band-edge); }
+.key-warn { width: 12px; height: 12px; border-radius: 2px; background: var(--warn-wash); border-top: 3px solid var(--warn); }
+.key-event { width: 2px; height: 12px; background: var(--event); }
+svg { display: block; width: 100%; overflow: visible; touch-action: pan-y; }
+svg text { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+svg .annot { fill: var(--ink-2); font-size: 11px; }
+.lanes-head { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; justify-content: space-between; margin-top: 12px; }
+svg .lane-label { fill: var(--ink-2); font-size: 11px; }
+.flaglist { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.flaglist li { display: grid; grid-template-columns: 190px 190px 1fr; gap: 10px; font-size: 13px; padding: 6px 0; border-bottom: 1px solid var(--grid); }
+.flaglist .chk { font-weight: 600; }
+.flaglist .when { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.flaglist .det { color: var(--ink-2); }
+.empty { color: var(--muted); font-size: 13px; margin: 0; }
+@media (max-width: 640px) { .flaglist li { grid-template-columns: 1fr; gap: 2px; } }
+.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--ring); border-radius: 8px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12); padding: 8px 10px; font-size: 12px; min-width: 220px; display: grid; gap: 4px; z-index: 2; }
+.tip[hidden] { display: none; }
+.tip .date { color: var(--ink-2); font-weight: 600; }
+.tip .row { display: grid; grid-template-columns: 14px 1fr auto; gap: 6px; align-items: center; }
+.tip .row .v { color: var(--ink); font-weight: 650; font-variant-numeric: tabular-nums; text-align: right; }
+.tip .row .n { color: var(--ink-2); }
+.tip .flag { color: var(--ink-2); border-top: 1px solid var(--grid); padding-top: 4px; }
+.tip .key { width: 14px; height: 2px; border-radius: 1px; }
+details.tablebox { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 12px 16px; }
+details.tablebox summary { cursor: pointer; font-weight: 600; }
+.table-wrap { overflow-x: auto; margin-top: 10px; max-height: 420px; overflow-y: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 5px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--muted); font-weight: 500; font-size: 12px; position: sticky; top: 0; background: var(--surface); }
+.lede-note { margin: 6px 0 0; max-width: 78ch; color: var(--ink-2); }
+.note { color: var(--muted); font-size: 12px; margin: 0; max-width: 80ch; }
+@media (max-width: 560px) { h1 { font-size: 21px; } }
+</style>
+
+<main class="page">
+  <header>
+    <p class="eyebrow" id="eyebrow"></p>
+    <h1 id="title"></h1>
+    <p class="meta" id="meta"></p>
+    <p class="lede-note" id="intro">__INTRO__</p>
+  </header>
+
+  <div class="controls">
+    <div class="group">
+      <label class="label" for="site">Site</label>
+      <select id="site"></select>
+    </div>
+    <div class="group" role="group" aria-label="Smoothing">
+      <span class="label">Show</span>
+      <button type="button" id="s-1" data-smooth="1">Daily</button>
+      <button type="button" id="s-7" data-smooth="7" aria-pressed="true">7-day average</button>
+      <button type="button" id="s-28" data-smooth="28">28-day average</button>
+    </div>
+    <span class="hint">Drag across the chart to zoom · double-click to reset</span>
+  </div>
+
+  <section class="card" id="card">
+    <div class="chart-head">
+      <p class="chart-title">Bikes per day, by direction (cleaned)</p>
+      <ul class="legend" id="legend" aria-label="Legend"></ul>
+    </div>
+    <svg id="main" tabindex="0" role="img" aria-label="Cleaned bikes per day by direction"></svg>
+    <div class="lanes-head"><p class="chart-title">Flagged for review</p><p class="chart-sub">One row per check. Automatic fixes are not shown here.</p></div>
+    <svg id="lanes" role="img" aria-label="Periods flagged for review, by check"></svg>
+    <div class="tip" id="tip" hidden></div>
+  </section>
+
+  <section class="card">
+    <p class="chart-title">Flags at this site</p>
+    <ul class="flaglist" id="flaglist"></ul>
+  </section>
+  <p class="note">Source: TfNSW walking and cycling counts, 15-minute data cleaned by <code>bikecount clean</code>. A day is drawn only when at least 90 of its 96 slots are valid after cleaning.</p>
+</main>
+
+<script>
+const DATA = __DATA__;
+const CHECKS = [
+  ["spike", "Spike"], ["level", "Level shift"], ["direction", "Direction split"],
+  ["bad_values", "Bad values"], ["flat", "Flat run"], ["even_only", "Even-only"], ["event", "Event"],
+];
+const COLORS = ["--s1", "--s2", "--s3", "--s4"];
+const DAY = 86400000;
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const NS = "http://www.w3.org/2000/svg";
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+const fmtN = v => Math.round(v).toLocaleString("en-AU");
+const fmtDate = t => { const d = new Date(t); return `${["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][d.getUTCDay()]} ${d.getUTCDate()} ${MON[d.getUTCMonth()]} ${d.getUTCFullYear()}`; };
+const fmtShort = s => { const d = new Date(s + "T00:00:00Z"); return `${d.getUTCDate()} ${MON[d.getUTCMonth()]} ${d.getUTCFullYear()}`; };
+const parse = s => Date.parse(s + "T00:00:00Z");
+function niceMax(v) { if (v <= 0) return 10; const p = Math.pow(10, Math.floor(Math.log10(v))); for (const m of [1, 1.2, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10]) if (m * p >= v) return m * p; return 10 * p; }
+
+let cur = null, range = null, smooth = 7, hover = null;
+
+function load(idx) {
+  const site = DATA[idx];
+  let t0 = Infinity, t1 = -Infinity;
+  for (const d of site.dirs) { t0 = Math.min(t0, parse(d.rows[0][0])); t1 = Math.max(t1, parse(d.rows[d.rows.length - 1][0])); }
+  const n = Math.round((t1 - t0) / DAY) + 1;
+  const T = Array.from({ length: n }, (_, i) => t0 + i * DAY);
+  const series = site.dirs.map((d, k) => {
+    const s = { key: d.key, name: d.orient + (d.inout && !["NA", "NONE", ""].includes(d.inout) ? ` (${d.inout})` : ""), color: COLORS[k % 4], tot: new Array(n).fill(null) };
+    for (const [ds, tot] of d.rows) s.tot[Math.round((parse(ds) - t0) / DAY)] = tot;
+    return s;
+  });
+  const flags = site.flags.map(f => ({ ...f, t0: parse(f.start), t1: parse(f.end) + DAY }));
+  cur = { site, T, series, flags };
+  applySmooth();
+  range = [T[0], T[n - 1] + DAY];
+  document.getElementById("eyebrow").textContent = `${DATA.length > 1 ? `Site ${idx + 1} of ${DATA.length} · ` : ""}site ${site.site} · ${site.tech} ${site.counter_id}`;
+  document.getElementById("title").textContent = site.name.replace(" - ", ", ");
+  document.getElementById("meta").textContent = [site.suburb && `${site.suburb}, ${site.lga} LGA`, site.facility, site.tech === "CAMERA" && site.location && `camera covers: ${site.location}`].filter(Boolean).join(" · ");
+  const lg = document.getElementById("legend"); lg.replaceChildren();
+  const addKey = (cls, color, text) => { const li = document.createElement("li"); const k = document.createElement("span"); k.className = cls; if (color) k.style.background = css(color); li.append(k, document.createTextNode(text)); lg.appendChild(li); };
+  for (const s of series) addKey("key-line", s.color, s.name);
+  addKey("key-band", null, "Flagged for review");
+  const fl = document.getElementById("flaglist"); fl.replaceChildren();
+  if (!flags.length) { const li = document.createElement("li"); li.className = "empty"; li.textContent = "No flags: nothing at this site needs review."; fl.appendChild(li); }
+  for (const f of flags) {
+    const li = document.createElement("li");
+    const a = document.createElement("span"); a.className = "chk"; a.textContent = (CHECKS.find(c => c[0] === f.check) || [0, f.check])[1] + (f.dir ? ` · ${series.find(s => s.key === f.dir)?.name || "dir " + f.dir}` : "");
+    const b = document.createElement("span"); b.className = "when"; b.textContent = f.start === f.end ? fmtShort(f.start) : `${fmtShort(f.start)} – ${fmtShort(f.end)}`;
+    const c = document.createElement("span"); c.className = "det"; c.textContent = f.detail;
+    li.append(a, b, c); fl.appendChild(li);
+  }
+}
+
+function applySmooth() {
+  const w = smooth, half = Math.floor(w / 2);
+  for (const s of cur.series) {
+    const a = s.tot, n = a.length;
+    if (w === 1) { s.val = a.slice(); continue; }
+    s.val = new Array(n).fill(null);
+    let sum = 0, cnt = 0;
+    const add = (j, sign) => { if (j < 0 || j >= n || a[j] == null) return; sum += sign * a[j]; cnt += sign; };
+    for (let j = -half; j <= half; j++) add(j, 1);
+    for (let i = 0; i < n; i++) {
+      if (i > 0) { add(i + half, 1); add(i - half - 1, -1); }
+      if (a[i] != null && cnt >= Math.ceil(w / 2)) s.val[i] = sum / cnt;
+    }
+  }
+}
+
+const M = { l: 52, r: 16, t: 14, b: 24 };
+const mainSvg = document.getElementById("main"), laneSvg = document.getElementById("lanes");
+let geo = null;
+function xTicks(t0, t1) {
+  const span = (t1 - t0) / DAY, out = [], y0 = new Date(t0).getUTCFullYear(), y1 = new Date(t1).getUTCFullYear();
+  if (span > 1500) { for (let y = y0; y <= y1; y++) { const t = Date.UTC(y, 0, 1); if (t >= t0 && t <= t1) out.push([t, String(y)]); } }
+  else if (span > 60) { const st = span > 700 ? 6 : span > 250 ? 3 : 1; for (let y = y0; y <= y1; y++) for (let m = 0; m < 12; m += st) { const t = Date.UTC(y, m, 1); if (t >= t0 && t <= t1) out.push([t, m === 0 ? String(y) : MON[m]]); } }
+  else { for (let t = Math.ceil(t0 / DAY) * DAY; t <= t1; t += DAY) { const d = new Date(t); if (d.getUTCDay() === 1) out.push([t, `${d.getUTCDate()} ${MON[d.getUTCMonth()]}`]); } }
+  return out;
+}
+function visible() {
+  const T = cur.T;
+  const i0 = Math.max(0, Math.ceil((range[0] - T[0]) / DAY));
+  const i1 = Math.min(T.length - 1, Math.floor((range[1] - T[0]) / DAY) - 1);
+  return [i0, Math.max(i0, i1)];
+}
+function render() {
+  const [i0, i1] = visible(), T = cur.T;
+  const W = Math.max(320, mainSvg.parentElement.clientWidth - 32), H = 300;
+  const iw = W - M.l - M.r, ih = H - M.t - M.b;
+  const x = t => M.l + ((t - range[0]) / (range[1] - range[0])) * iw;
+  let m = 0; for (const s of cur.series) for (let i = i0; i <= i1; i++) if (s.val[i] != null) m = Math.max(m, s.val[i]);
+  const raw = Math.max(m * 1.05, 4) / 4, p = Math.pow(10, Math.floor(Math.log10(raw)));
+  const step = [1, 2, 2.5, 5, 10].map(k => k * p).find(s => s >= raw);
+  const ymax = step * 4, y = v => M.t + ih - (v / ymax) * ih;
+  geo = { x, y, W, iw, ih };
+  mainSvg.setAttribute("viewBox", `0 0 ${W} ${H}`); mainSvg.setAttribute("height", H); mainSvg.replaceChildren();
+  const clip = f => [Math.max(range[0], f.t0), Math.min(range[1], f.t1)];
+  for (const f of cur.flags) { const [a, b] = clip(f); if (b <= a) continue; el("rect", { x: x(a), y: M.t, width: Math.max(1.5, x(b) - x(a)), height: ih, fill: css("--band") }, mainSvg); }
+  for (const f of [0, 0.25, 0.5, 0.75, 1]) {
+    const v = f * ymax;
+    el("line", { x1: M.l, x2: M.l + iw, y1: y(v), y2: y(v), stroke: f === 0 ? css("--axis") : css("--grid") }, mainSvg);
+    el("text", { x: M.l - 8, y: y(v) + 4, "text-anchor": "end" }, mainSvg).textContent = fmtN(v);
+  }
+  for (const [t, label] of xTicks(range[0], range[1])) {
+    el("line", { x1: x(t), x2: x(t), y1: M.t + ih, y2: M.t + ih + 4, stroke: css("--axis") }, mainSvg);
+    el("text", { x: x(t), y: H - 6, "text-anchor": "middle" }, mainSvg).textContent = label;
+  }
+  for (const s of cur.series) {
+    let d = "", pen = false;
+    for (let i = i0; i <= i1; i++) { const v = s.val[i]; if (v == null) { pen = false; continue; } d += (pen ? "L" : "M") + x(T[i] + DAY / 2).toFixed(1) + " " + y(v).toFixed(1); pen = true; }
+    el("path", { d, fill: "none", stroke: css(s.color), "stroke-width": smooth === 1 ? 1.2 : 1.8, "stroke-linejoin": "round", "stroke-linecap": "round" }, mainSvg);
+  }
+  geo.cross = el("line", { y1: M.t, y2: M.t + ih, stroke: css("--ink-2"), visibility: "hidden" }, mainSvg);
+  geo.dots = cur.series.map(s => el("circle", { r: 4, fill: css(s.color), stroke: css("--surface"), "stroke-width": 2, visibility: "hidden" }, mainSvg));
+  geo.sel = el("rect", { y: M.t, height: ih, fill: css("--select"), visibility: "hidden" }, mainSvg);
+  // lanes
+  const present = CHECKS.filter(([k]) => cur.flags.some(f => f.check === k));
+  const rows = present.length ? present : [["none", "No flags"]];
+  const LH = 20, LW = W, LHt = rows.length * LH + 6;
+  laneSvg.setAttribute("viewBox", `0 0 ${LW} ${LHt}`); laneSvg.setAttribute("height", LHt); laneSvg.replaceChildren();
+  rows.forEach(([k, label], r) => {
+    const yy = r * LH + 3;
+    el("line", { x1: M.l, x2: M.l + iw, y1: yy + LH / 2, y2: yy + LH / 2, stroke: css("--grid") }, laneSvg);
+    el("text", { x: M.l - 8, y: yy + LH / 2 + 4, "text-anchor": "end", class: "lane-label" }, laneSvg).textContent = label;
+    for (const f of cur.flags.filter(f => f.check === k)) {
+      const [a, b] = clip(f); if (b <= a) continue;
+      el("rect", { x: x(a), y: yy + 4, width: Math.max(3, x(b) - x(a)), height: LH - 8, rx: 2, fill: css("--ink-2") }, laneSvg);
+    }
+  });
+  drawHover();
+}
+
+const tip = document.getElementById("tip"), card = document.getElementById("card");
+function drawHover() {
+  const [i0, i1] = visible(); const show = hover != null && hover >= i0 && hover <= i1;
+  geo.cross.setAttribute("visibility", show ? "visible" : "hidden"); geo.dots.forEach(d => d.setAttribute("visibility", "hidden"));
+  if (!show) { tip.hidden = true; return; }
+  const t = cur.T[hover], px = geo.x(t + DAY / 2);
+  geo.cross.setAttribute("x1", px); geo.cross.setAttribute("x2", px);
+  cur.series.forEach((s, k) => { const v = s.val[hover]; if (v == null) return; geo.dots[k].setAttribute("cx", px); geo.dots[k].setAttribute("cy", geo.y(v)); geo.dots[k].setAttribute("visibility", "visible"); });
+  tip.replaceChildren();
+  const add = (cls, text) => { const d = document.createElement("div"); d.className = cls; d.textContent = text; tip.appendChild(d); };
+  add("date", fmtDate(t) + (smooth > 1 ? ` · ${smooth}-day average` : ""));
+  let any = false;
+  for (const s of cur.series) {
+    if (s.val[hover] == null) continue; any = true;
+    const row = document.createElement("div"); row.className = "row";
+    const key = document.createElement("span"); key.className = "key"; key.style.background = css(s.color);
+    const n = document.createElement("span"); n.className = "n"; n.textContent = s.name;
+    const v = document.createElement("span"); v.className = "v"; v.textContent = fmtN(s.val[hover]);
+    row.append(key, n, v); tip.appendChild(row);
+  }
+  if (!any) add("n", "No complete data this day");
+  for (const f of cur.flags) if (t >= f.t0 && t < f.t1) add("flag", `${(CHECKS.find(c => c[0] === f.check) || [0, f.check])[1]}: ${f.detail}`);
+  tip.hidden = false;
+  const tw = tip.offsetWidth, left = px + 16;
+  tip.style.left = (left + 14 + tw > card.clientWidth - 8 ? left - tw - 14 : left + 14) + "px"; tip.style.top = "56px";
+}
+
+let drag = null;
+const toT = ev => { const r = mainSvg.getBoundingClientRect(); return range[0] + ((((ev.clientX - r.left) / r.width) * geo.W - M.l) / geo.iw) * (range[1] - range[0]); };
+const toI = t => Math.min(cur.T.length - 1, Math.max(0, Math.floor((t - cur.T[0]) / DAY)));
+mainSvg.addEventListener("pointermove", ev => {
+  const t = toT(ev); hover = toI(Math.min(Math.max(t, range[0]), range[1] - 1));
+  if (drag) { const lo = Math.max(M.l, geo.x(Math.min(drag.t, t))), hi = Math.min(M.l + geo.iw, geo.x(Math.max(drag.t, t))); geo.sel.setAttribute("x", lo); geo.sel.setAttribute("width", Math.max(0, hi - lo)); geo.sel.setAttribute("visibility", "visible"); }
+  drawHover();
+});
+mainSvg.addEventListener("pointerleave", () => { hover = null; drawHover(); });
+mainSvg.addEventListener("pointerdown", ev => { drag = { t: toT(ev), x: ev.clientX }; mainSvg.setPointerCapture(ev.pointerId); });
+mainSvg.addEventListener("pointerup", ev => {
+  if (!drag) return; const t = toT(ev), moved = Math.abs(ev.clientX - drag.x) > 8;
+  const a = Math.max(Math.min(drag.t, t), cur.T[0]), b = Math.min(Math.max(drag.t, t), cur.T[cur.T.length - 1] + DAY);
+  drag = null; geo.sel.setAttribute("visibility", "hidden");
+  if (moved && b - a >= 5 * DAY) { range = [a, b]; render(); }
+});
+mainSvg.addEventListener("dblclick", () => { range = [cur.T[0], cur.T[cur.T.length - 1] + DAY]; render(); });
+mainSvg.addEventListener("keydown", ev => {
+  if (ev.key !== "ArrowLeft" && ev.key !== "ArrowRight") return; ev.preventDefault();
+  const [i0, i1] = visible();
+  if (hover == null || hover < i0 || hover > i1) hover = ev.key === "ArrowLeft" ? i1 : i0;
+  else hover = Math.min(i1, Math.max(i0, hover + (ev.key === "ArrowLeft" ? -1 : 1) * (ev.shiftKey ? 30 : 1)));
+  drawHover();
+});
+mainSvg.addEventListener("blur", () => { hover = null; drawHover(); });
+for (const b of document.querySelectorAll("[data-smooth]")) b.addEventListener("click", () => {
+  smooth = Number(b.dataset.smooth); applySmooth();
+  for (const o of document.querySelectorAll("[data-smooth]")) o.setAttribute("aria-pressed", String(o === b));
+  render();
+});
+const sel = document.getElementById("site");
+DATA.forEach((d, i) => { const o = document.createElement("option"); o.value = i; o.textContent = `${i + 1}. ${d.name} (${d.tech.toLowerCase()}, ${d.flags.length} flag${d.flags.length === 1 ? "" : "s"})`; sel.appendChild(o); });
+sel.addEventListener("change", () => { hover = null; load(Number(sel.value)); render(); });
+
+load(0); render();
+let rt;
+window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(render, 80); });
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
