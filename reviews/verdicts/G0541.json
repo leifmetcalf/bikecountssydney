@@ -1,0 +1,38 @@
+{
+  "group": "G0541",
+  "decisions": [
+    {"action": "direction_unreliable", "SITE_SK": 541, "DIRECTION_SK": null, "start": "2018-05-15", "end": "2019-04-02", "confidence": "high",
+     "diagnosis": "In the first installation of Ecocounter 234 the direction split is wrong: 312 carries both the AM and PM commuter peaks and 313 only a small share, while the site total tracks neighbours normally.",
+     "evidence": "Sep-Nov 2018 hourly: 312 peaks 141 at 08h and 116 at 17h, 313 only 48 and 29 (312:313 about 2.6:1); from Feb 2020 onward 312 has the AM peak and 313 the PM peak and daily totals are near 1:1 (as with the new counter, 836 vs 795). Weekday total vs Bourke St (554) is 0.9-1.0 through 2018-19, the same as in 2020-21."},
+    {"action": "missing", "SITE_SK": 541, "DIRECTION_SK": null, "start": "2019-04-03", "end": "2019-04-15", "confidence": "medium",
+     "diagnosis": "The counter was failing in the days before it went dead on 2019-04-15, and it missed parts of the day, mainly the PM peak.",
+     "evidence": "Ratio to Prince Alfred Pk (267) is 1.1-1.35 on March 2019 weekdays but 0.83-1.02 on 3, 4, 8, 11 and 12 Apr; on 11 Apr the 17h count is 30+9 against the usual ~150; ratio to 554 falls from 0.9 to 0.55."},
+    {"action": "missing", "SITE_SK": 541, "DIRECTION_SK": null, "start": "2020-01-13", "end": "2020-01-24", "confidence": "medium",
+     "diagnosis": "When the counter restarted after the 2019 outage it was unstable: it undercounted and split directions wrongly until 24 Jan 2020.",
+     "evidence": "Weekday ratio to 554: 0.69 (13th, partial day), 0.72 (15th), 0.29, 0.19, 0.17, 0.56 on 21-24 Jan, then 1.0-1.08 from 28 Jan. On 17-19 Jan 312 shows the PM peak (86 and 83 at 16-17h) and outweighs 313 by about 3:1, where it was 1:1 elsewhere in 2020."},
+    {"action": "restore", "SITE_SK": 541, "DIRECTION_SK": null, "start": "2020-02-08", "end": "2020-02-10", "confidence": "medium",
+     "diagnosis": "zero_outage removed real low counts during the 9 Feb 2020 Sydney rainstorm; the counter kept recording scattered bikes all day.",
+     "evidence": "9 Feb raw is 27 and 30, with 1-4 bikes in most hours spread across the whole day; Bourke St (554) fell to 137 that day against about 950 on a normal Sunday; 10 Feb resumes normally (109 at 08h in 312)."},
+    {"action": "restore", "SITE_SK": 541, "DIRECTION_SK": 313, "start": "2020-11-16", "end": "2020-11-30", "confidence": "high",
+     "diagnosis": "When the counter moved to two genuine channels per slot, duplicate_load wrongly dropped the second channel in slots where both channels happened to hold the same small count.",
+     "evidence": "2020-11-19 channels: most slots are complementary pairs such as [8,0] and [3,18]; the slots that were cut were pairs like [1,1] (01:45) and [2,2] (22:45), about 1-6 bikes a day; 312 in the same period was not changed."},
+    {"action": "missing", "SITE_SK": 541, "DIRECTION_SK": null, "start": "2024-10-29", "end": "2025-04-16", "confidence": "high",
+     "diagnosis": "Ecocounter 234 failed at the end of October 2024; the few fragments recorded afterwards are partial, intermittent days.",
+     "evidence": "Warnings and zeros from 29 Oct; 2024-11-27 (a Wednesday) counts as a complete day at 171 and 199, against about 900 each normally, with zero hours 06-07h and 10-19h; the 26 Nov and 15 Dec fragments cover only the evening hours (256 in one hour on 15 Dec). Weekly ratio to 554 drops to 0.21."}
+  ],
+  "series": [
+    {"SITE_SK": 541, "name": "Eastbound / citybound (Ecocounter 2018-2024)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 234, "DIRECTION_SK": 312, "start": null, "end": null}],
+     "evidence": "312 (North East, citybound) carries the AM peak from 2020. It is kept apart from the Metrocount series: an 11-month gap and a different vendor mean its comparability cannot be tested."},
+    {"SITE_SK": 541, "name": "Westbound / outbound (Ecocounter 2018-2024)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 234, "DIRECTION_SK": 313, "start": null, "end": null}],
+     "evidence": "313 (South West, not citybound) carries the PM peak from 2020. It is kept apart from the Metrocount counter for the same reason."},
+    {"SITE_SK": 541, "name": "Eastbound / citybound (Metrocount 2025-)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 354, "DIRECTION_SK": 1746, "start": null, "end": null}],
+     "evidence": "1746 (East, citybound) has the AM peak (167 at 08h) and matches 312's flow. The counters never overlapped; 541 later reads about 24% above Mar 2024, and neighbours 554 and 550 rose 27-37% across their own counter replacements, so real growth and a vendor offset cannot be separated."},
+    {"SITE_SK": 541, "name": "Westbound / outbound (Metrocount 2025-)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 354, "DIRECTION_SK": 1745, "start": null, "end": null}],
+     "evidence": "1745 (West) has the PM peak (161 at 17h) and matches 313's flow. It is kept separate across the Oct 2024 - Sep 2025 gap and the change of vendor."}
+  ],
+  "summary": "Wilson St at Eveleigh was counted by an Ecocounter piezo from 2018 to Oct 2024, with outages Apr 2019 - Jan 2020 and Jul 2022, and by a Metrocount piezo from Sep 2025. The Ecocounter's direction split is wrong in 2018-19; it had unstable spells before its April 2019 failure and at its Jan 2020 restart, and after Oct 2024 it produced only broken fragments. Its many whole-day duplicate loads (2022-2024) were correctly halved by the automatic fixes. Two small automatic fixes are reversed (the 9 Feb 2020 storm and a Nov 2020 two-channel false duplicate), and old and new counters are kept as separate series because their comparability across the 11-month gap cannot be tested."
+}

@@ -1,0 +1,104 @@
+{
+  "group": "G0560",
+  "decisions": [
+    {
+      "action": "restore",
+      "SITE_SK": 560,
+      "DIRECTION_SK": 331,
+      "start": "2014-10-06",
+      "end": "2014-10-10",
+      "confidence": "medium",
+      "diagnosis": "The path had not fully opened yet, so the near-zero counts are real; zero_outage wrongly removed them in one direction only.",
+      "evidence": "Over the same slots 331 recorded 7 bikes (raw) and 330 recorded 15. 330 read 2, 2, 1 bikes/day on 7-9 Oct 2014 and 0-6/day through Aug-Sep 2014; normal use (~120-200/day each way) begins 10-11 Oct."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 560,
+      "DIRECTION_SK": 331,
+      "start": "2016-06-19",
+      "end": "2016-06-20",
+      "confidence": "medium",
+      "diagnosis": "A wet, quiet Sunday was flagged as an outage in one direction, but the low counts are real.",
+      "evidence": "On 19 Jun 2016 331 recorded 25 raw (15 after cleaning) and 330 recorded 31. Anzac Br counted 71/70 that day against ~700-800 on nearby weekdays, and 20 Jun is normal (181 raw)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 560,
+      "DIRECTION_SK": null,
+      "start": "2020-11-16",
+      "end": "2020-11-30",
+      "confidence": "high",
+      "diagnosis": "From 16 Nov 2020 each direction has two genuine channels whose values differ from slot to slot; duplicate_load dropped the second channel wherever the two happened to be equal.",
+      "evidence": "Channels on 20 Nov 2020 have different values, e.g. [4,0], [1,9], [9,1], and equal pairs like [1,1] are coincidences. Raw daily totals (274-316 on weekdays) match the single-record level of 7-15 Nov (285-328), and Dec 2020 onward (two records, no fix) sits at the same level. The fix removed about 5% (3711->3479 slots' worth)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 560,
+      "DIRECTION_SK": null,
+      "start": "2021-08-23",
+      "end": "2021-08-25",
+      "confidence": "high",
+      "diagnosis": "A day of heavy rain (24 Aug 2021) cut riding everywhere; the trickle counts are real, not an outage.",
+      "evidence": "Site total on 23/24/25 Aug: 335/31/234 raw. Neighbours on the same days: Anzac Br 673/68/401 and Union St 716/113/626. Both directions kept counting 0-2 bikes per slot throughout."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 560,
+      "name": "Southbound/citybound (Ecocounter 2014-2022)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 229,
+          "DIRECTION_SK": 331,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Citybound direction with a morning peak (41/h at 08:00). It probably carries the same flow as 370/1778, which has the same profile, but the second counter is from a different vendor and started after a gap of nearly 3 years, and its ratio to Anzac Br drifts (0.26-0.66), so the two cannot be shown to read comparably. Kept as a separate series."
+    },
+    {
+      "SITE_SK": 560,
+      "name": "Northbound/outbound (Ecocounter 2014-2022)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 229,
+          "DIRECTION_SK": 330,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Outbound direction with an evening peak (35/h at 17:00). It matches 370/1777 in shape, but calibration across the 2022-2025 gap and the change of vendor cannot be checked, so it is kept separate."
+    },
+    {
+      "SITE_SK": 560,
+      "name": "Eastbound/citybound (Metrocount 2025-)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 370,
+          "DIRECTION_SK": 1778,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Citybound direction with a morning peak (34-42/h at 08:00), the same flow as 229/331 but kept separate because the two counters cannot be shown to read comparably."
+    },
+    {
+      "SITE_SK": 560,
+      "name": "Westbound/outbound (Metrocount 2025-)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 370,
+          "DIRECTION_SK": 1777,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Outbound direction with an evening peak (22-41/h at 17:00), the same flow as 229/330 but kept separate because the two counters cannot be shown to read comparably."
+    }
+  ],
+  "summary": "Blackwattle Bay Park was counted by an Ecocounter piezo from Aug 2014 to Dec 2021, and the automatic fixes correctly set its long all-zero outages to missing; a Metrocount has counted there since Nov 2025 and looks clean. Four automatic fixes are reversed: three zero_outage runs that were real low traffic (the path opening in Oct 2014 and two rain days) and a duplicate_load in Nov 2020 that dropped genuine second-channel records. The two counters' directions match by hourly profile (331~1778 citybound, 330~1777 outbound), but they are kept as separate series because comparability across the 3-year gap and the change of vendor cannot be shown."
+}

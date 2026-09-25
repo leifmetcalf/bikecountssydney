@@ -5,7 +5,7 @@ channel records summed the way the TfNSW dashboard does.
 
 Automatic fixes, applied in this order (each only touches slots that still have a count):
   warning                records with status "warning" (always 0): missing
-  duplicate_load         extra records that exactly repeat the slot's other records (the same data loaded twice): dropped
+  duplicate_record       extra records that exactly repeat the slot's other records: dropped
   duplicate_measurement  a single-record direction carrying a second record that tracks the first: keep the first
   halved                 runs where every non-zero count is even and the level is about double its surroundings
   impossible_count       a slot far beyond anything the direction records: missing
@@ -42,12 +42,12 @@ ZERO_RUN_EXPECTED = 20  # a zero run is an outage once this many bikes would nor
 WHOLE_DAY_SHARE = 0.8  # it held this share of a normal day's traffic and
 OUTAGE_MAX_SHARE = 0.1  # recorded under this share of it, or
 ONE_SIDED_SHARE = 0.5  # the counter's other directions carried this share of their normal traffic meanwhile
-DUP_LOAD_MIN_PAIRED = 20  # non-zero repeated slots a direction-day needs before its extra records count as a duplicate load
+DUP_RECORD_MIN_PAIRED = 20  # non-zero repeated slots a run of days needs before its extra records count as duplicates
 ISLAND_SLOTS = 4  # non-zero bursts this short between zeros are part of an outage
 OUTAGE_CHUNKS = 8  # the outage rule runs on this many groups of counters in turn
 HOURLY_MIN_NONZERO = 8  # a day whose non-zero slots (at least this many) all share one quarter-hour is hourly data
 
-AUTO_FIXES = ["warning", "duplicate_load", "duplicate_measurement", "halved", "impossible_count", "corrupt_day", "zero_outage"]
+AUTO_FIXES = ["warning", "duplicate_record", "duplicate_measurement", "halved", "impossible_count", "corrupt_day", "zero_outage"]
 FIXES = AUTO_FIXES + ["review_missing", "review_halved", "review_restored"]
 ACTIONS = {"keep", "missing", "halve", "direction_unreliable", "restore", "uncertain"}
 COMPLETE_SLOTS = 90  # a day counts as complete with this many of its 96 slots valid
@@ -144,12 +144,12 @@ def mark(slots: pl.DataFrame, where: pl.Expr, fix: str, value: pl.Expr | None = 
 
 
 # --- automatic fixes -----------------------------------------------------------
-def duplicate_loads(slots: pl.DataFrame, counts_dir: Path) -> pl.DataFrame:
+def duplicate_records(slots: pl.DataFrame, counts_dir: Path) -> pl.DataFrame:
     """Direction-slots whose extra records exactly repeat other records in the slot, with the count of one copy (`dedup`).
 
     A slot with more records than its direction usually has that month (the month's most common daily mode) is a
-    duplicate load when its extra records can all be matched to identical records. A run of consecutive days with extra
-    records qualifies when every such slot matches, and at least DUP_LOAD_MIN_PAIRED of them repeat a non-zero count.
+    duplicate when its extra records can all be matched to identical records. A run of consecutive days with extra
+    records qualifies when every such slot matches, and at least DUP_RECORD_MIN_PAIRED of them repeat a non-zero count.
     Where the choice is ambiguous the largest repeats are dropped.
     """
     month = pl.col("date").dt.truncate("1mo").alias("month")
@@ -170,7 +170,8 @@ def duplicate_loads(slots: pl.DataFrame, counts_dir: Path) -> pl.DataFrame:
     per_slot = values.group_by("DIRECTION_SK", "date", "slot").agg(
         (pl.col("k").sum() - pl.col("usual").first()).alias("excess"),
         (v * pl.col("k")).sum().alias("total"),
-        v.repeat_by(pl.col("k") // 2).flatten().sort(descending=True).alias("repeats"),  # values that occur in pairs, once per pair
+        # values that occur in pairs, once per pair (an unpaired value's empty list flattens to a null)
+        v.repeat_by(pl.col("k") // 2).flatten().drop_nulls().sort(descending=True).alias("repeats"),
     )
     dropped = pl.col("repeats").list.head(pl.col("excess")).list.sum()
     per_slot = per_slot.with_columns((pl.col("repeats").list.len() >= pl.col("excess")).alias("matched"), dropped.alias("dropped"))
@@ -179,7 +180,7 @@ def duplicate_loads(slots: pl.DataFrame, counts_dir: Path) -> pl.DataFrame:
     )
     runs = runs_of(days, ["DIRECTION_SK"], "date", "extra")
     runs = runs.with_columns(
-        (pl.col("matched").all() & (pl.col("paired").sum() >= DUP_LOAD_MIN_PAIRED)).over("DIRECTION_SK", "run").alias("ok")
+        (pl.col("matched").all() & (pl.col("paired").sum() >= DUP_RECORD_MIN_PAIRED)).over("DIRECTION_SK", "run").alias("ok")
     ).filter("ok").select("DIRECTION_SK", "date")
     return per_slot.join(runs, on=["DIRECTION_SK", "date"]).select("DIRECTION_SK", "date", "slot", (pl.col("total") - pl.col("dropped")).alias("dedup"))
 
@@ -340,12 +341,12 @@ def auto_fix(slots: pl.DataFrame, wd: pl.DataFrame, counts_dir: Path) -> tuple[p
     slots = slots.with_columns(hourly_binned(slots))
     slots = mark(slots, pl.col("warning"), "warning")
 
-    slots = slots.join(duplicate_loads(slots, counts_dir), on=["DIRECTION_SK", "date", "slot"], how="left")
-    slots = mark(slots, pl.col("dedup").is_not_null(), "duplicate_load", pl.col("dedup").cast(pl.UInt16)).drop("dedup")
-    load_days = slots.filter(pl.col("fix") == "duplicate_load").select(*KEYS, "date").unique().with_columns(pl.lit(True).alias("hit"))
-    loads = runs_of(load_days, KEYS, "date", "hit").group_by(*KEYS, "run").agg(
+    slots = slots.join(duplicate_records(slots, counts_dir), on=["DIRECTION_SK", "date", "slot"], how="left")
+    slots = mark(slots, pl.col("dedup").is_not_null(), "duplicate_record", pl.col("dedup").cast(pl.UInt16)).drop("dedup")
+    dup_days = slots.filter(pl.col("fix") == "duplicate_record").select(*KEYS, "date").unique().with_columns(pl.lit(True).alias("hit"))
+    repeats = runs_of(dup_days, KEYS, "date", "hit").group_by(*KEYS, "run").agg(
         pl.col("date").min().alias("start"), pl.col("date").max().alias("end"), pl.len().alias("days")
-    ).select(*KEYS, "start", "end", "days", pl.lit("duplicate_load").alias("fix"))
+    ).select(*KEYS, "start", "end", "days", pl.lit("duplicate_record").alias("fix"))
 
     dups = duplicate_runs(slots)
     slots = slots.join(run_days(dups, "fix").rename({"fix": "dup"}), on=["DIRECTION_SK", "date"], how="left")
@@ -363,7 +364,7 @@ def auto_fix(slots: pl.DataFrame, wd: pl.DataFrame, counts_dir: Path) -> tuple[p
     slots = expected_counts(slots, day_stats(slots))
     slots = mark(slots, outage_mask(slots), "zero_outage").drop("expected")
 
-    fixes = pl.concat([loads, doubled.filter(pl.col("fix") == "halved").drop("median_day"), dups], how="diagonal_relaxed").sort(*KEYS, "start")
+    fixes = pl.concat([repeats, doubled.filter(pl.col("fix") == "halved").drop("median_day"), dups], how="diagonal_relaxed").sort(*KEYS, "start")
     return slots, fixes
 
 

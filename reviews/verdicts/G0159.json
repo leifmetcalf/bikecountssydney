@@ -1,0 +1,23 @@
+{
+  "group": "G0159",
+  "decisions": [
+    {"action": "halve", "SITE_SK": 159, "DIRECTION_SK": null, "start": "2024-05-03", "end": "2024-05-22",
+      "confidence": "high",
+      "diagnosis": "Tube counter reported every detection twice for 20 days in both directions; the automatic halving did not catch it.",
+      "evidence": "0 odd slots on all 40 direction-days (28-69 non-zero slots each) vs 60-90 odd slots per day before and after; boundaries are exact (odd counts on 2024-05-02 and 2024-05-23); weeks of 13 and 20 May raw 6088 and 4689 vs about 3000 in the surrounding weeks; halved values track neighbour site 161 (both at about half their normal level 3-9 May)."},
+    {"action": "restore", "SITE_SK": 159, "DIRECTION_SK": null, "start": "2021-03-13", "end": "2021-03-23",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine low counts on very wet days (14 March and the 18-23 March 2021 storms); the counter kept recording scattered bikes in both directions.",
+      "evidence": "Raw site totals 43 (14 Mar), 15/54/64/98 (20-23 Mar) vs neighbours 161: 62, 28/41/42/69 and 255: 56, 34/60/111/110 on the same days; both directions show scattered 1-3 counts all day, not a dead sensor; 71 was kept on 14 Mar while 72 was removed."},
+    {"action": "restore", "SITE_SK": 159, "DIRECTION_SK": 72, "start": "2021-08-23", "end": "2021-08-25",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed direction 72 on a genuine washout day (24 Aug 2021) and the adjacent evening/morning, while direction 71 at the same low level was kept.",
+      "evidence": "2021-08-24 raw 16 (71) and 15 (72) vs neighbour 161 at 20 that day (normally about 550); 72 shows scattered single bikes through the day."},
+    {"action": "restore", "SITE_SK": 159, "DIRECTION_SK": null, "start": "2023-12-24", "end": "2023-12-24",
+      "confidence": "medium",
+      "diagnosis": "The quiet Christmas Eve afternoon is genuine; the counter failure starts on 25 Dec, not at midday on the 24th.",
+      "evidence": "The afternoon of 24 Dec still has 18 (71) and 31 (72) bikes in scattered slots; neighbour 161 was also quiet that afternoon (155 for the day); from 25 Dec to 8 Jan the site records 0-9 bikes/day while 161 records 235-590, so that period correctly stays missing."}
+  ],
+  "series": [],
+  "summary": "Single tube counter (89) on the Alexandra Canal shared path, Feb 2021 to Sep 2024, with two well-balanced directions. It had a doubled period (3-22 May 2024) that the automatic fixes missed, plus a correctly halved day (19 Feb 2022) and a genuine 25 Dec 2023 to 9 Jan 2024 outage. Several zero_outage removals on rain days (March and August 2021, Christmas Eve 2023) should be restored because nearby counters show the same drops; the 6 Nov 2022 south-west morning surge is a real event."
+}

@@ -1,0 +1,482 @@
+{
+ "group": "G0569",
+ "decisions": [
+  {
+   "action": "restore",
+   "SITE_SK": 569,
+   "DIRECTION_SK": 1838,
+   "start": "2025-12-30",
+   "end": "2026-01-26",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~44/day before vs 1812+1838 ~46/day after 9 Mar"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 569,
+   "DIRECTION_SK": 1838,
+   "start": "2026-01-28",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~44/day before vs 1812+1838 ~46/day after 9 Mar"
+  },
+  {
+   "action": "direction_unreliable",
+   "SITE_SK": 569,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Before the second direction was set up on 9 Mar 2026, both directions of travel at this zone were reported under DIRECTION_SK 1838, so the site total is right but the split is not.",
+   "evidence": "1838 has ~1.9 records/slot until 8 Mar, then 1.0 from 10 Mar when the other direction starts; weekday raw ~44/day before vs 1812+1838 ~46/day after 9 Mar"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 570,
+   "DIRECTION_SK": 1820,
+   "start": "2025-12-30",
+   "end": "2026-01-26",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~650/day before vs 1820+1839 470-690/day after; e.g. 10 Feb 07:30 records 18 and 12"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 570,
+   "DIRECTION_SK": 1820,
+   "start": "2026-01-28",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~650/day before vs 1820+1839 470-690/day after; e.g. 10 Feb 07:30 records 18 and 12"
+  },
+  {
+   "action": "direction_unreliable",
+   "SITE_SK": 570,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Before the second direction was set up on 9 Mar 2026, both directions of travel at this zone were reported under DIRECTION_SK 1820, so the site total is right but the split is not.",
+   "evidence": "1820 has ~1.9 records/slot until 8 Mar, then 1.0 from 10 Mar when the other direction starts; weekday raw ~650/day before vs 1820+1839 470-690/day after; e.g. 10 Feb 07:30 records 18 and 12"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 571,
+   "DIRECTION_SK": 1817,
+   "start": "2025-12-30",
+   "end": "2026-01-26",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~650/day before vs 1805+1817 450-640/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 571,
+   "DIRECTION_SK": 1817,
+   "start": "2026-01-28",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~650/day before vs 1805+1817 450-640/day after"
+  },
+  {
+   "action": "direction_unreliable",
+   "SITE_SK": 571,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Before the second direction was set up on 9 Mar 2026, both directions of travel at this zone were reported under DIRECTION_SK 1817, so the site total is right but the split is not.",
+   "evidence": "1817 has ~1.9 records/slot until 8 Mar, then 1.0 from 10 Mar when the other direction starts; weekday raw ~650/day before vs 1805+1817 450-640/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 572,
+   "DIRECTION_SK": 1828,
+   "start": "2025-12-30",
+   "end": "2026-01-26",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~475/day before vs 1804+1828 290-380/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 572,
+   "DIRECTION_SK": 1828,
+   "start": "2026-01-28",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~475/day before vs 1804+1828 290-380/day after"
+  },
+  {
+   "action": "direction_unreliable",
+   "SITE_SK": 572,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Before the second direction was set up on 9 Mar 2026, both directions of travel at this zone were reported under DIRECTION_SK 1828, so the site total is right but the split is not.",
+   "evidence": "1828 has ~1.9 records/slot until 8 Mar, then 1.0 from 10 Mar when the other direction starts; weekday raw ~475/day before vs 1804+1828 290-380/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 573,
+   "DIRECTION_SK": 1851,
+   "start": "2025-12-30",
+   "end": "2026-01-26",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~220/day before vs 1835+1851 150-200/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 573,
+   "DIRECTION_SK": 1851,
+   "start": "2026-01-28",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~220/day before vs 1835+1851 150-200/day after"
+  },
+  {
+   "action": "direction_unreliable",
+   "SITE_SK": 573,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Before the second direction was set up on 9 Mar 2026, both directions of travel at this zone were reported under DIRECTION_SK 1851, so the site total is right but the split is not.",
+   "evidence": "1851 has ~1.9 records/slot until 8 Mar, then 1.0 from 10 Mar when the other direction starts; weekday raw ~220/day before vs 1835+1851 150-200/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 574,
+   "DIRECTION_SK": 1848,
+   "start": "2025-12-30",
+   "end": "2026-01-26",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~1200/day before vs 1825+1848 1130-1370/day after; e.g. 3 Mar 08:00 records 21 and 10"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 574,
+   "DIRECTION_SK": 1848,
+   "start": "2026-01-28",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~1200/day before vs 1825+1848 1130-1370/day after; e.g. 3 Mar 08:00 records 21 and 10"
+  },
+  {
+   "action": "direction_unreliable",
+   "SITE_SK": 574,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Before the second direction was set up on 9 Mar 2026, both directions of travel at this zone were reported under DIRECTION_SK 1848, so the site total is right but the split is not.",
+   "evidence": "1848 has ~1.9 records/slot until 8 Mar, then 1.0 from 10 Mar when the other direction starts; weekday raw ~1200/day before vs 1825+1848 1130-1370/day after; e.g. 3 Mar 08:00 records 21 and 10"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 575,
+   "DIRECTION_SK": 1853,
+   "start": "2025-12-30",
+   "end": "2026-01-26",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; 1853 (1.6 records/slot) + sparse 1852 ~74/day before vs ~75/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 575,
+   "DIRECTION_SK": 1853,
+   "start": "2026-01-28",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; 1853 (1.6 records/slot) + sparse 1852 ~74/day before vs ~75/day after"
+  },
+  {
+   "action": "direction_unreliable",
+   "SITE_SK": 575,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Before the second direction was set up on 9 Mar 2026, both directions of travel at this zone were reported under DIRECTION_SK 1853, so the site total is right but the split is not.",
+   "evidence": "1853 has ~1.9 records/slot until 8 Mar, then 1.0 from 10 Mar when the other direction starts; 1853 (1.6 records/slot) + sparse 1852 ~74/day before vs ~75/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 576,
+   "DIRECTION_SK": 1813,
+   "start": "2025-12-30",
+   "end": "2026-01-26",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~36/day before vs 1813+1830 ~40/day after"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 576,
+   "DIRECTION_SK": 1813,
+   "start": "2026-01-28",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Until 9 Mar 2026 this direction carried two records per slot, one per direction of travel, so duplicate_measurement/duplicate_load threw away the other direction's real counts.",
+   "evidence": "records differ slot by slot (not copies); raw is about the sum of both directions after the split and clean is about half; weekday raw ~36/day before vs 1813+1830 ~40/day after"
+  },
+  {
+   "action": "direction_unreliable",
+   "SITE_SK": 576,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09",
+   "confidence": "high",
+   "diagnosis": "Before the second direction was set up on 9 Mar 2026, both directions of travel at this zone were reported under DIRECTION_SK 1813, so the site total is right but the split is not.",
+   "evidence": "1813 has ~1.9 records/slot until 8 Mar, then 1.0 from 10 Mar when the other direction starts; weekday raw ~36/day before vs 1813+1830 ~40/day after"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 574,
+   "DIRECTION_SK": null,
+   "start": "2026-08-29",
+   "end": "2026-08-29",
+   "confidence": "medium",
+   "diagnosis": "45-minute burst on Sat 29 Aug appears only in this footpath zone, with no matching flow in the zones riders would have come through, so it looks like misclassification (e.g. a crowd of pedestrians), not bikes.",
+   "evidence": "1848 17:15-17:45 = 676/575/389 (p99.5 of a slot is 45); 1825 123/134; day 2759 vs ~800 on other Saturdays; 570/572/576 normal that day; adds ~1800 to the week"
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 569,
+   "name": "East (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1812,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 569,
+   "name": "West (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1838,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 570,
+   "name": "North (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1820,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 570,
+   "name": "South (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1839,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 571,
+   "name": "West (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1805,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 571,
+   "name": "East (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1817,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 572,
+   "name": "East (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1804,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 572,
+   "name": "West (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1828,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 573,
+   "name": "South (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1835,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 573,
+   "name": "North (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1851,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 574,
+   "name": "East (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1825,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 574,
+   "name": "West (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1848,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 575,
+   "name": "West (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1852,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 575,
+   "name": "East (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1853,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 576,
+   "name": "South",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1813,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  },
+  {
+   "SITE_SK": 576,
+   "name": "North",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1830,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera 383; each zone direction has its own DIRECTION_SK and no other counter covers this zone (the direction split before 9 Mar 2026 is handled as direction_unreliable)."
+  }
+ ],
+ "summary": "One Secure Agility camera (383) covers 8 zones at the Cooks to Cove Greenway / Marion St intersection from 29 Dec 2025. Until 9 Mar 2026 each zone reported both directions of travel as two records under one DIRECTION_SK. The automatic duplicate fixes wrongly halved these counts, so the raw values are restored and the direction split is marked unreliable. Apart from that, the 27 Jan catch-up dump (rightly removed) and a probable misclassification burst at site 574 on 29 Aug, the data after March is clean and stable."
+}

@@ -1,0 +1,29 @@
+{
+  "group": "G0188",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 188, "DIRECTION_SK": null, "start": "2022-04-01", "end": "2026-04-19", "confidence": "medium",
+      "diagnosis": "After reinstatement the counter carries only 1-3 bikes per direction per day, and TfNSW marks every direction-day with zero bikes as a warning, so these warning days are genuine zero days, not outages.",
+      "evidence": "Not one non-warning direction-day in the whole record has a raw total of 0. From 2022 the non-warning days run 1:380, 2:193, 3:85 (dir 197), which implies about as many zero days as one-bike days. 494 warning days fall on one direction while the other direction counted bikes on the same unit. The runs where both directions are warned (at most 7 days, e.g. 2022-07-01..07 and 2025-08-15..21) are surrounded by days of 0-2 bikes. The warnings leave only about 50% of days complete."},
+    {"action": "uncertain", "SITE_SK": 188, "DIRECTION_SK": null, "start": "2022-04-01", "end": "2026-04-19", "confidence": "medium",
+      "diagnosis": "The level after reinstatement (following the light rail works) is about a quarter of the 2019-20 level and the daily profile has changed, so it may reflect a sensor that has lost sensitivity or a changed path layout rather than real traffic.",
+      "evidence": "In 2019-20 there were 7-9 bikes/day per direction (up to 16 in COVID autumn 2020). From 2022 to 2026 there are 1-3. Nearby Parramatta Rvr S site 186 only fell from about 70-85 to 35-75. The weekday profile had morning activity from 06-08h in 2019; since 2022 there is almost nothing before 09h and most bikes come at 17-21h."},
+    {"action": "uncertain", "SITE_SK": 188, "DIRECTION_SK": null, "start": "2024-11-18", "end": "2024-11-20", "confidence": "low",
+      "diagnosis": "A three-day burst in both directions at the same slots, most likely maintenance or works vehicles crossing the strip or a one-off group, not ordinary riding.",
+      "evidence": "2024-11-19 had 37 bikes in dir 218 against a usual 1-3. Both directions rise in the same slots: 11:30 has 13 and 9, 07:00 has 5 and 7, 15:00 has 4 and 8. Nothing like it happens elsewhere after 2022."}
+  ],
+  "series": [
+    {"SITE_SK": 188, "name": "Eastbound (citybound) 2019-2020", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 187, "DIRECTION_SK": 197, "start": null, "end": "2020-07-17"}],
+      "evidence": "Counter 187 before it was decommissioned for the light rail works."},
+    {"SITE_SK": 188, "name": "Eastbound (citybound) 2022-2026", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 187, "DIRECTION_SK": 197, "start": "2022-04-01", "end": null}],
+      "evidence": "The same counter ID was reinstated after a 21-month gap. It reads about 25% of its former level with a different daily profile, while its neighbours fell only about 30%, so it is not comparable to the earlier period."},
+    {"SITE_SK": 188, "name": "Westbound 2019-2020", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 187, "DIRECTION_SK": 218, "start": null, "end": "2020-07-17"}],
+      "evidence": "Counter 187 before it was decommissioned for the light rail works."},
+    {"SITE_SK": 188, "name": "Westbound 2022-2026", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 187, "DIRECTION_SK": 218, "start": "2022-04-01", "end": null}],
+      "evidence": "The same counter ID was reinstated after a 21-month gap. It reads about 25% of its former level with a different daily profile, while its neighbours fell only about 30%, so it is not comparable to the earlier period."}
+  ],
+  "summary": "Site 188 is a very quiet piezo site: 7-9 bikes/day per direction in 2019-20, then after the light rail works about 2/day from April 2022. At that level TfNSW's warning days are really zero-bike days and should be restored. It is uncertain whether the post-2022 level is real or a sensor or layout change, so the record is split into separate pre- and post-works series per direction."
+}

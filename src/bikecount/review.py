@@ -247,7 +247,7 @@ problems that only move counts between 15-minute slots within a day matter littl
 ## Automatic fixes already applied (column `fix`)
 
 - `warning`: warning records set to missing.
-- `duplicate_load`: in a slot with more records than the direction usually has that month, extra
+- `duplicate_record`: in a slot with more records than the direction usually has that month, extra
   records that exactly repeat other records in the slot are dropped (over runs of days where every
   such slot matches, at least 20 of them non-zero).
 - `duplicate_measurement`: a direction that normally has one record per slot carries a second record

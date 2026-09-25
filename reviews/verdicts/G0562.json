@@ -1,0 +1,15 @@
+{
+  "group": "G0562",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 562, "DIRECTION_SK": 1787, "start": "2026-05-17", "end": "2026-05-17",
+      "confidence": "medium",
+      "diagnosis": "A single isolated 15-minute spike northbound, most likely a sensor artefact, inflates the day and its week.",
+      "evidence": "11:45 slot on Sun 17 May = 140 (direction's next-highest slot all year is 28; adjacent slots 4 and 3; southbound 1 in the same slot; no rise at nearby counters 538/540/541/550/553/555); day total 329 vs about 190 for other Sundays, north/south ratio 1.85 vs typical 1.11."},
+    {"action": "uncertain", "SITE_SK": 562, "DIRECTION_SK": 1787, "start": "2026-02-07", "end": "2026-02-07",
+      "confidence": "low",
+      "diagnosis": "An isolated northbound late-evening spike could be a sensor artefact or a group ride.",
+      "evidence": "20:45 slot on Sat 7 Feb = 82 (adjacent slots 1 and 0; southbound 1; nearby counters show no rise); adds about 80 to a weekly total of 1624."}
+  ],
+  "series": [],
+  "summary": "The single Metrocount piezo counter (375) on the Belmont St to Buckland St shared path has complete, single-record data from 28 Nov 2025 to 22 Sep 2026, with no automatic fixes, no outages and steady weekly totals (about 1300-2000 per direction) that follow the holidays and seasons. The only faults are isolated single-slot northbound spikes: 140 bikes on 17 May 2026, set to missing, and 82 bikes on 7 Feb 2026, flagged as uncertain. A 54-bike slot on 20 Dec 2025 is kept because southbound also rose (14), which suggests a real group ride. The site has one counter and shares it with no other site, so no series needs defining."
+}

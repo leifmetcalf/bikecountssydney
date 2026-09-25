@@ -1,0 +1,1478 @@
+{
+ "group": "G0432",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 432,
+   "DIRECTION_SK": null,
+   "start": "2024-10-29",
+   "end": "2024-11-04",
+   "confidence": "medium",
+   "diagnosis": "Camera 313 undercounted several zones for a week just before its detection level changed on 7 Nov 2024.",
+   "evidence": "1261 fell from ~60/day to 10-20/day and 1300 from ~35 to 6-20 on 29 Oct-4 Nov 2024, both back to 75/35 on 5 Nov"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 435,
+   "DIRECTION_SK": null,
+   "start": "2024-10-29",
+   "end": "2024-11-04",
+   "confidence": "medium",
+   "diagnosis": "Camera 313 undercounted several zones for a week just before its detection level changed on 7 Nov 2024.",
+   "evidence": "1230/1299 fell from ~20/day to 0-8/day on 29 Oct-4 Nov 2024 (1230 had warnings 30-31 Oct)"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2024-10-29",
+   "end": "2024-11-04",
+   "confidence": "medium",
+   "diagnosis": "Camera 313 undercounted several zones for a week just before its detection level changed on 7 Nov 2024.",
+   "evidence": "1268/1384 fell from ~25/day to 0-8/day on 29 Oct-4 Nov 2024"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 438,
+   "DIRECTION_SK": 1227,
+   "start": "2024-10-29",
+   "end": "2024-11-04",
+   "confidence": "medium",
+   "diagnosis": "Camera 313 undercounted several zones for a week just before its detection level changed on 7 Nov 2024.",
+   "evidence": "1227 fell from ~250/day to 90-150/day while the opposite direction 1409 held ~260-330/day"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 439,
+   "DIRECTION_SK": 1372,
+   "start": "2024-10-29",
+   "end": "2024-11-04",
+   "confidence": "medium",
+   "diagnosis": "Camera 313 undercounted several zones for a week just before its detection level changed on 7 Nov 2024.",
+   "evidence": "1372 fell from ~130/day to 32-65/day on 29 Oct-4 Nov 2024, recovering to 121 on 5 Nov"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 433,
+   "DIRECTION_SK": null,
+   "start": "2024-10-29",
+   "end": "2024-11-04",
+   "confidence": "low",
+   "diagnosis": "Crossing zone 1327 ran about half its usual level during camera 313's week-long partial undercount.",
+   "evidence": "1327 23-63/day vs ~80/day either side"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2024-11-07",
+   "end": "2024-11-07",
+   "confidence": "high",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1384 1206 (max slot 242) vs median 31, on camera reconfiguration day"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2024-11-10",
+   "end": "2024-11-10",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 155 / 1384 268 vs medians 24/31"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2024-12-29",
+   "end": "2024-12-29",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 873 vs median 32"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-01-12",
+   "end": "2025-01-12",
+   "confidence": "high",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1384 858 (one slot 440) vs median 56"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-01-19",
+   "end": "2025-01-19",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 394 / 1384 505, slots up to 220/281 vs typical max 3-4"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-01-24",
+   "end": "2025-01-24",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 221 / 1384 386 vs medians 52/79"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-02-02",
+   "end": "2025-02-02",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1384 317 (slot 184) vs median 86"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-02-16",
+   "end": "2025-02-16",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 296 / 1384 893 (slot 472)"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-02-19",
+   "end": "2025-02-19",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 897 with 260+/slot for an hour vs median 45"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-02-28",
+   "end": "2025-02-28",
+   "confidence": "high",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1384 1095 (slot 580) vs median 79"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-04-04",
+   "end": "2025-04-04",
+   "confidence": "high",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 4432 / 1384 3281, 150-390 per slot 19:00-23:00 vs median 42/64"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-06-07",
+   "end": "2025-06-08",
+   "confidence": "high",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1384 3302 on 8 Jun with 100-380 per slot 06:30-09:45; 7 Jun 154/231"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 453 / 1384 1209 vs medians 51/53"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-09-26",
+   "end": "2025-09-27",
+   "confidence": "high",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 3217 on 27 Sep with 100-330 per slot 05:30-11:00; 26 Sep 308/320 vs ~60/92"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-10-06",
+   "end": "2025-10-06",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 357 / 1384 745 (slot 483)"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-10-08",
+   "end": "2025-10-09",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 669 and 1811, 1384 697 and 558, vs medians ~70/98"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-10-16",
+   "end": "2025-10-16",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 245 (slot 88) vs median 67"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-10-27",
+   "end": "2025-10-28",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 383 and 467 (slots to 120) vs median ~58"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-11-03",
+   "end": "2025-11-03",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 814 / 1384 572 vs 57/86"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-11-05",
+   "end": "2025-11-05",
+   "confidence": "medium",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1384 575 (slot 269) vs median 86"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2025-12-21",
+   "end": "2025-12-21",
+   "confidence": "high",
+   "diagnosis": "False-detection burst on the Flinders St east footpath: far more 'bicycles' per 15 minutes than the zone's normal maximum of 3-5, not seen in any neighbouring zone.",
+   "evidence": "1268 1295 / 1384 2905 with 330-1058 per slot 19:00-20:15"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 436,
+   "DIRECTION_SK": null,
+   "start": "2024-11-07",
+   "end": "2025-12-30",
+   "confidence": "low",
+   "diagnosis": "After the Nov 2024 reconfiguration this footpath zone often shows smaller bursts (slots of 20-60 vs a usual max of 3-5); the worst days are set missing, the rest may still be inflated.",
+   "evidence": "about 55 days with a slot >= 20; typical daily max 3-5"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 432,
+   "DIRECTION_SK": null,
+   "start": "2025-04-03",
+   "end": "2025-04-03",
+   "confidence": "medium",
+   "diagnosis": "Both footpath directions ran at 5-10x their level all day with no matching rise in any other zone.",
+   "evidence": "1261 1045 / 1300 1324 vs ~200/130 on surrounding days; 1342, 1327 normal"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 432,
+   "DIRECTION_SK": null,
+   "start": "2025-04-08",
+   "end": "2025-04-08",
+   "confidence": "medium",
+   "diagnosis": "Both footpath directions ran at 5-7x their level all day with no matching rise in any other zone.",
+   "evidence": "1261 1170 / 1300 922 vs ~180/125; other zones normal"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 434,
+   "DIRECTION_SK": 1415,
+   "start": "2024-06-08",
+   "end": "2024-06-08",
+   "confidence": "medium",
+   "diagnosis": "Burst of false detections in a zone that normally counts about 1-10 bikes a day.",
+   "evidence": "1415 209 vs median 1"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 434,
+   "DIRECTION_SK": 1415,
+   "start": "2025-07-22",
+   "end": "2025-07-25",
+   "confidence": "medium",
+   "diagnosis": "Bursts of false detections in a zone that normally counts about 10 bikes a day.",
+   "evidence": "1415 175 on 22 Jul and 174 on 25 Jul vs median 10"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 434,
+   "DIRECTION_SK": 1415,
+   "start": "2025-10-02",
+   "end": "2025-10-22",
+   "confidence": "medium",
+   "diagnosis": "A three-week run of inflated counts in a zone that normally counts about 10-15 bikes a day, including night-time counts.",
+   "evidence": "1415 daily 60-265 on most days (780 on 17 Oct) vs median 11-14; weekly 543 and 1136 vs ~100"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 434,
+   "DIRECTION_SK": null,
+   "start": "2025-10-17",
+   "end": "2025-10-17",
+   "confidence": "medium",
+   "diagnosis": "Both directions inflated, with counts through the night.",
+   "evidence": "1415 780, 1342 404 vs medians 11/~200"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 434,
+   "DIRECTION_SK": null,
+   "start": "2025-12-02",
+   "end": "2025-12-02",
+   "confidence": "medium",
+   "diagnosis": "Both directions inflated, with 15-40 per slot through the evening and night.",
+   "evidence": "1415 717, 1342 946 vs medians 16/214"
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 432,
+   "name": "South East (IN, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1261,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 432,
+   "name": "South East (IN, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1261,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 432,
+   "name": "South East (IN, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1261,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 432,
+   "name": "North West (OUT, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1300,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 432,
+   "name": "North West (OUT, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1300,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 432,
+   "name": "North West (OUT, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1300,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 433,
+   "name": "North (NONE, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1327,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 433,
+   "name": "North (NONE, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1327,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 433,
+   "name": "North (NONE, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1327,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 434,
+   "name": "South East (OUT, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1342,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 434,
+   "name": "South East (OUT, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1342,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 434,
+   "name": "South East (OUT, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1342,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 434,
+   "name": "North West (IN, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1415,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 434,
+   "name": "North West (IN, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1415,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 434,
+   "name": "North West (IN, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1415,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 435,
+   "name": "North West (IN, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1230,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 435,
+   "name": "North West (IN, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1230,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 435,
+   "name": "North West (IN, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1230,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 435,
+   "name": "South East (OUT, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1299,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 435,
+   "name": "South East (OUT, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1299,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 435,
+   "name": "South East (OUT, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1299,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 436,
+   "name": "North (IN, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1268,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 436,
+   "name": "North (IN, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1268,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 436,
+   "name": "North (IN, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1268,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 436,
+   "name": "South (OUT, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1384,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 436,
+   "name": "South (OUT, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1384,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 436,
+   "name": "South (OUT, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1384,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 437,
+   "name": "South East (IN, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1231,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 437,
+   "name": "South East (IN, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1231,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 437,
+   "name": "South East (IN, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1231,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 437,
+   "name": "North West (OUT, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1369,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 437,
+   "name": "North West (OUT, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1369,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 437,
+   "name": "North West (OUT, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1369,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 438,
+   "name": "South East (NONE, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1227,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 438,
+   "name": "South East (NONE, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1227,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 438,
+   "name": "South East (NONE, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1227,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 438,
+   "name": "North West (NONE, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1409,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 438,
+   "name": "North West (NONE, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1409,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 438,
+   "name": "North West (NONE, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1409,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "North (NONE, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1216,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "North (NONE, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1216,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "North (NONE, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1216,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "South (NONE, counter 313) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1372,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "South (NONE, counter 313) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1372,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "South (NONE, counter 313) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 313,
+     "DIRECTION_SK": 1372,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "South East (NONE, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1436,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "South East (NONE, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1436,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "South East (NONE, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1436,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "North West (NONE, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1437,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "North West (NONE, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1437,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 439,
+   "name": "North West (NONE, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1437,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates. Site 439 carries two cameras' zones at the same time: 313's Flinders St N/S zones (1216 ~5/day, 1372) and 314's SE/NW zone (1436/1437, levels 1.2-2x of 1372 and ~80x of 1216, tracking Oxford St mixed traffic 1227/1409 more than Flinders St); they are not the same flow and may overlap, so they stay separate series."
+  },
+  {
+   "SITE_SK": 440,
+   "name": "South (OUT, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1233,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 440,
+   "name": "South (OUT, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1233,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 440,
+   "name": "South (OUT, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1233,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 440,
+   "name": "North (IN, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1238,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 440,
+   "name": "North (IN, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1238,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 440,
+   "name": "North (IN, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1238,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 441,
+   "name": "South (OUT, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1324,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 441,
+   "name": "South (OUT, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1324,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 441,
+   "name": "North (IN, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1395,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 442,
+   "name": "South East (IN, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1272,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 442,
+   "name": "South East (IN, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1272,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 442,
+   "name": "South East (IN, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1272,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 442,
+   "name": "North West (OUT, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1283,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 442,
+   "name": "North West (OUT, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1283,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 442,
+   "name": "North West (OUT, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1283,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 443,
+   "name": "North (OUT, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1281,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 443,
+   "name": "North (OUT, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1281,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 443,
+   "name": "North (OUT, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1281,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 443,
+   "name": "South (IN, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1387,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 443,
+   "name": "South (IN, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1387,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 443,
+   "name": "South (IN, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1387,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 444,
+   "name": "North (NONE, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1229,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 444,
+   "name": "North (NONE, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1229,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 444,
+   "name": "North (NONE, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1229,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 444,
+   "name": "South (NONE, counter 314) to Aug 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1319,
+     "start": null,
+     "end": "2024-08-28"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 444,
+   "name": "South (NONE, counter 314) Aug-Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1319,
+     "start": "2024-08-29",
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 444,
+   "name": "South (NONE, counter 314) from Nov 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1319,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection level changed on 29 Aug 2024 (about 2x in most zones of both cameras overnight) and again on 7 Nov 2024 (a further 2-5x, e.g. 1229 ~130 -> ~700/day, 1261 ~60 -> ~200/day), while the Bourke St piezo 130 m away (site 542) stayed flat at ~1,600-1,800/day; the regimes are not comparable, so each counter-direction is split into separate series at those dates."
+  },
+  {
+   "SITE_SK": 491,
+   "name": "North West (NONE, counter 314)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1421,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Zone of camera 314 with no site metadata, active only 25 Mar-9 Apr 2024 alongside all of 314's other zones; kept as its own series."
+  },
+  {
+   "SITE_SK": 491,
+   "name": "South East (NONE, counter 314)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 314,
+     "DIRECTION_SK": 1422,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Zone of camera 314 with no site metadata, active only 25 Mar-9 Apr 2024 alongside all of 314's other zones; kept as its own series."
+  }
+ ],
+ "summary": "Two intersection cameras (313, 314) at Oxford St/Flinders St, Taylor Square: both changed detection level overnight on 29 Aug 2024 and 7 Nov 2024 (together 3-6x in most zones) while a nearby piezo stayed flat, so every direction is split into separate series at those dates. Camera 313 undercounted several zones on 29 Oct-4 Nov 2024 (set missing), and the Flinders St east footpath (436), and to a lesser degree zones 432 and 434, show recurring false-detection bursts of hundreds per slot that are set missing day by day; the Jul-Aug 2025 dips and the 2025 shifts between Oxford St zones look like weather and roadworks and are kept."
+}

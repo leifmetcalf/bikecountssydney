@@ -1,0 +1,15 @@
+{
+  "group": "G0565",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 565, "DIRECTION_SK": 1795, "start": "2025-06-30", "end": "2025-07-03",
+      "confidence": "high",
+      "diagnosis": "zero_outage flagged a genuine low-traffic (wet weather) spell in the North direction; the South direction on the same counter fell identically, so the raw counts are real.",
+      "evidence": "Raw N/S daily totals: Jun 30 200/172, Jul 1 7/11, Jul 2 25/18, Jul 3 111/118; hour-by-hour N and S track each other (e.g. Jul 2 13:00-17:00 both 1-5 per hour); N clean 0 on Jul 1-2 while S kept; week of 2025-06-30 clean 1103 vs raw 1138."},
+    {"action": "restore", "SITE_SK": 565, "DIRECTION_SK": 1795, "start": "2025-09-09", "end": "2025-09-11",
+      "confidence": "high",
+      "diagnosis": "zero_outage flagged a genuine low-traffic (wet weather) spell in the North direction; the South direction fell by the same amount, so the raw counts are real.",
+      "evidence": "Raw N/S daily totals: Sep 9 140/125, Sep 10 18/17, Sep 11 45/37; N nonzero slots scattered through the day as in S; comparable whole-site dips with no fix occur 2025-07-30..08-03 (N 16-47, S 15-43) and 2025-08-19..08-22; week of 2025-09-08 clean 1217 vs raw 1243."}
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo counter (378) on the Pittwater Rd shared path at North Narrabeen, running continuously from 2024-12-10 to 2026-09-20 with one record per slot, a stable North/South split (about 1.1:1) and no gaps. The only changes are two zero_outage fixes on the North direction (2025-06-30..07-03 and 2025-09-09..11) that removed real wet-weather lows mirrored exactly by the South direction; these should be restored. No series definition is needed."
+}

@@ -1,0 +1,262 @@
+{
+  "group": "G0547",
+  "decisions": [
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 328,
+      "start": "2014-08-07",
+      "end": "2014-10-13",
+      "confidence": "high",
+      "diagnosis": "Counter 239 fault: direction 328 reads zero for weeks with isolated bursts of hundreds in single night-time slots, which the automatic fix kept because direction 329 was also dead.",
+      "evidence": "Daily 0 on 2014-08-08..10-12 except 1684 (09-16, 823 at 18:30, 267 at 03:30), 1085 (09-18), 3617 (09-19, 1637 at 01:15), 245 (10-03, single slot); 2014-08-07 only 175 vs ~750; 2014-10-13 1982 with 1424 at 02:15; normal ~650-850 weekdays before and after."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2017-02-04",
+      "end": "2017-02-04",
+      "confidence": "high",
+      "diagnosis": "Spurious counts: a Saturday with 500-1100 per slot from 12:00 to 16:30.",
+      "evidence": "Day 14414 vs 287-805 on adjacent days; slots 12:00-16:00 mostly 518-1114 against 2-10 on normal Saturdays; opposite direction 266 that day."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2017-12-04",
+      "end": "2017-12-04",
+      "confidence": "high",
+      "diagnosis": "Single-slot spike.",
+      "evidence": "18:30 slot 779 between 11 and 6; day 1212 vs usual ~850 weekday."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2017-12-27",
+      "end": "2017-12-27",
+      "confidence": "high",
+      "diagnosis": "Evening spikes on a holiday-period day.",
+      "evidence": "18:30 108, 19:45 169, 20:00 936 against neighbours 3-8; day 1577 vs ~470 median."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 328,
+      "start": "2012-08-28",
+      "end": "2012-08-28",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "18:15 slot 317 between 45 and 43; day 1062 vs ~750"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 328,
+      "start": "2015-11-10",
+      "end": "2015-11-10",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "08:30 slot 280 between 17 and 19 (PM-peak direction, AM slot); day 1151"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 328,
+      "start": "2017-09-07",
+      "end": "2017-09-07",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "08:30 slot 263 between 7 and 12; day 941"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2013-01-05",
+      "end": "2013-01-05",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "Saturday 11:30 slot 258 between 6 and 13; day 674 vs ~300 Saturday"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2013-08-17",
+      "end": "2013-08-17",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "Saturday 19:30 slot 255 between 0 and 1; day 563 vs ~300 Saturday"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2015-02-04",
+      "end": "2015-02-04",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "15:45 slot 265 between 9 and 9; day 1260"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2017-02-07",
+      "end": "2017-02-07",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "06:45 slot 131 between 16 and 16, 19:45 slot 140 between 1 and 2; day 698"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2017-10-30",
+      "end": "2017-10-30",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "06:15 slot 221 between 11 and 12; day 1085"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2017-11-22",
+      "end": "2017-11-22",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "slot 314 (plus 125) against neighbours ~50; day 1133"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2018-03-12",
+      "end": "2018-03-12",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "18:00 slot 160 between 17 and 12; day 1177"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2018-04-11",
+      "end": "2018-04-11",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "18:00 slot 180 between 22 and 16; day 1134"
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2018-05-04",
+      "end": "2018-05-04",
+      "confidence": "medium",
+      "diagnosis": "Isolated single-slot spike of spurious counts (sensor glitch) adding roughly 150-300 bikes to the day.",
+      "evidence": "18:45 slot 325 between 26 and 1; day 1143"
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 568,
+      "DIRECTION_SK": 329,
+      "start": "2019-09-13",
+      "end": "2019-09-13",
+      "confidence": "low",
+      "diagnosis": "Citybound AM peak about three times normal on one Friday, alternating high and low slots; could be an organised ride or a glitch.",
+      "evidence": "Day 1500 vs 880-965 on the other weekdays; 07:00-09:00 slots 58,120,34,65,141,242,44,186,207 vs ~40-70 normally; outbound 612 normal."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 568,
+      "name": "King St citybound (eastbound, AM peak), counter 239",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 239,
+          "DIRECTION_SK": 329,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Direction 329 (flagged citybound) peaks 07:00-09:00 (144/h at 08:00); ran 2012-01-20..2023-02-18. Kept separate from counter 366: 2.7-year gap and 366 reads ~44% above 239's Nov 2022 level vs ~25% growth on Harbour Bridge counter 156, so comparability cannot be established."
+    },
+    {
+      "SITE_SK": 568,
+      "name": "King St outbound (westbound, PM peak), counter 239",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 239,
+          "DIRECTION_SK": 328,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Direction 328 peaks 17:00-18:00 (116/h). Separate from counter 366 for the same reasons as the citybound series."
+    },
+    {
+      "SITE_SK": 568,
+      "name": "King St citybound (eastbound, AM peak), counter 366",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 366,
+          "DIRECTION_SK": 1770,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Counter 366 direction 1770 is the same counter recorded under site 547 (2025-10-23..2026-02-15) and site 568 (from 2026-02-16) with no break in level (e.g. Tue 1269 vs 1261, same AM-peak profile 215 vs 221/h at 08:00); one series across both SITE_SKs (listed identically under 547 and 568; count it once)."
+    },
+    {
+      "SITE_SK": 568,
+      "name": "King St outbound (westbound, PM peak), counter 366",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 366,
+          "DIRECTION_SK": 1769,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Counter 366 direction 1769 continuous across the site-547 to site-568 relabel on 2026-02-16 (Tue 1087 vs 1086; PM peak 177 vs 182/h at 17:00); one series across both SITE_SKs (listed identically under 547 and 568; count it once)."
+    },
+    {
+      "SITE_SK": 547,
+      "name": "King St citybound (eastbound, AM peak), counter 366",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 366,
+          "DIRECTION_SK": 1770,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Counter 366 direction 1770 is the same counter recorded under site 547 (2025-10-23..2026-02-15) and site 568 (from 2026-02-16) with no break in level (e.g. Tue 1269 vs 1261, same AM-peak profile 215 vs 221/h at 08:00); one series across both SITE_SKs (listed identically under 547 and 568; count it once)."
+    },
+    {
+      "SITE_SK": 547,
+      "name": "King St outbound (westbound, PM peak), counter 366",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 366,
+          "DIRECTION_SK": 1769,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Counter 366 direction 1769 continuous across the site-547 to site-568 relabel on 2026-02-16 (Tue 1087 vs 1086; PM peak 177 vs 182/h at 17:00); one series across both SITE_SKs (listed identically under 547 and 568; count it once)."
+    }
+  ],
+  "summary": "King St cycleway west of Kent St: Ecocounter 239 (2012-2023, 4 channels per direction) is mostly clean apart from a 2014 Aug-Oct fault with night-time bursts on direction 328, a 14,414-bike Saturday in Feb 2017 and a run of single-slot spikes on direction 329 (mostly 2017-2018), all set missing. Metrocount 366 (Oct 2025 onward) is clean and moved from site 547 to site 568 on 2026-02-16 without a break, so each of its directions is one series across both sites. After a 2.7-year gap 366 reads about 44% above 239's last level, more than neighbouring growth, so the two counters are kept as separate series; 329 and 1770 are the citybound AM-peak flow and 328 and 1769 the outbound PM-peak flow."
+}

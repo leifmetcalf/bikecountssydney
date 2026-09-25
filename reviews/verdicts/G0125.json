@@ -1,0 +1,31 @@
+{
+  "group": "G0125",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 125, "DIRECTION_SK": null, "start": "2015-08-04", "end": "2017-12-01", "confidence": "high",
+      "diagnosis": "During a long disruption (probably the path closed for M4 widening works) the counter logged mostly warning days, and the days in between are bursts that register at the same moments in both directions (work vehicles or plant crossing the strip), not cyclists.",
+      "evidence": "Weekly totals fell from ~80-110 per direction to 0-10 from 2015-07-29; 55-80% of days are warnings to Nov 2017; remaining days show identical burst slots in both directions, e.g. 2015-12-17 0815-0830 26+22 vs 24+29, 2017-08-01 1515-1530 32+45 vs 33+46, 2017-11-17 1200 26 vs 25; weekday daytime only; scattered two-way riding with no paired bursts resumes from 2017-12-02 (~6/day, rising to ~11/day by Jan 2018)."},
+    {"action": "missing", "SITE_SK": 125, "DIRECTION_SK": 50, "start": "2013-02-15", "end": "2013-02-28", "confidence": "medium",
+      "diagnosis": "South West direction roughly tripled for two weeks and took on the North East direction's afternoon peak as well as its own morning peak, so it seems to have counted riders going the other way too; North East stayed normal.",
+      "evidence": "Dir 50 was 53-108/day (ordinary days) against 16-31 before and 26-35 after; dir 49 steady at 20-36; mean per hour at 15-16h: dir50 7.1/8.1 vs 0.9/1.9 before and 1.0/2.5 after, matching dir49's 4.6/5.4; ends abruptly 2013-03-01."},
+    {"action": "missing", "SITE_SK": 125, "DIRECTION_SK": null, "start": "2011-11-02", "end": "2011-11-02", "confidence": "medium",
+      "diagnosis": "Installation day: counting starts mid-afternoon, so the day is partial.",
+      "evidence": "First count at 15:30 (dir49 11 all after 15:30, dir50 1); following days 9-22 per direction."},
+    {"action": "missing", "SITE_SK": 125, "DIRECTION_SK": null, "start": "2012-03-15", "end": "2012-03-15", "confidence": "medium",
+      "diagnosis": "Restart day after a 4-month warning gap: counts begin only in the late afternoon.",
+      "evidence": "First counts at 15:45 (dir50) and 18:00 (dir49); totals 2 and 7, compared with 10-23 on the days after."},
+    {"action": "missing", "SITE_SK": 125, "DIRECTION_SK": null, "start": "2018-10-16", "end": "2018-10-16", "confidence": "medium",
+      "diagnosis": "Restart day after a 12-day warning outage: zero all day except one count at 22:45, so the counter was not recording.",
+      "evidence": "dir49 0, dir50 1 (22:45); days on either side 3-19."},
+    {"action": "missing", "SITE_SK": 125, "DIRECTION_SK": null, "start": "2021-10-08", "end": "2021-10-08", "confidence": "low",
+      "diagnosis": "Last day before a 9-month gap: counts stop at 11:00, so the day looks truncated.",
+      "evidence": "No counts after 11:00 (dir49) or 09:00 (dir50), while ordinary days have counts until evening; the data then stops until 2022-07-04."},
+    {"action": "missing", "SITE_SK": 125, "DIRECTION_SK": null, "start": "2022-07-04", "end": "2022-07-04", "confidence": "low",
+      "diagnosis": "Restart day after the 2021-22 gap: counts begin only at 13:45, so the day is partial.",
+      "evidence": "First count 13:45 (dir49 total 7, dir50 total 1); the next days are 4-16."},
+    {"action": "uncertain", "SITE_SK": 125, "DIRECTION_SK": null, "start": "2015-07-29", "end": "2015-08-03", "confidence": "low",
+      "diagnosis": "A sudden drop to 1-6 bikes a day at the start of the disruption: this could be a real path closure with a few riders still using it, or the start of the counter fault.",
+      "evidence": "Daily totals 1-6 per direction against 7-19 in the preceding weeks; the scattered single counts do not show the paired bursts seen later."}
+  ],
+  "series": [],
+  "summary": "Site 125 has a single piezo counter (119) with two directions, and it reads plausibly for 2011-2015 and from Dec 2017 onward, including real growth to about 40 bikes per day per direction in 2025-26. From Aug 2015 to Nov 2017 the path appears to have been disrupted: the counter produced mostly warning days, and the days in between were bursts recorded at the same moments in both directions, which are not cyclists, so this period is set to missing. The other decisions are a two-week over-count in the South West direction in Feb 2013 and several partial start and stop days; there is only one counter, so no series needs defining."
+}

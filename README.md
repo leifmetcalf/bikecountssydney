@@ -51,11 +51,11 @@ is the load date. `Status` is 0 (good) or 1 (warning); warning records always ha
 | `counts_15min.parquet` | One row per direction and slot: `SITE_SK`, `COUNTER_SK`, `DIRECTION_SK`, `date`, `time` (local start of the slot), `workday` (weekday other than a public holiday), `records` (raw records in the slot, from the load that carries its count), `raw` (sum of all records, as the dashboard shows), `count` (cleaned; null = missing), `fix` (why `count` differs from `raw`), `direction_unreliable` (a reviewer found the split between directions wrong; the total is fine), `hourly_binned` (early hourly data: each hour's count sits in one of its four slots) |
 | `weekly.parquet` | Bikes per series and week (Monday to Sunday) over the week's complete days: `SITE_SK`, `series`, `week`, `bikes`, `complete_days` (7 = a full week), `direction_unreliable` |
 | `series.csv` | The counter-directions making up each series (reviewed ones, and one series per counter-direction elsewhere) |
-| `fixes.csv` | Runs fixed automatically (duplicate loads, verified doubling, duplicate measurements) |
+| `fixes.csv` | Runs fixed automatically (duplicate records, verified doubling, duplicate measurements) |
 | `review_groups.csv` | `SITE_SK` -> review group |
 
 Automatic fixes (see `clean.py`) are the rules reliable enough to apply unseen: warning records,
-duplicate loads (extra records that exactly repeat the slot's other records), duplicate measurements,
+duplicate records (extra records that exactly repeat the slot's other records), duplicate measurements,
 verified doubling (even-only runs at ~2x the surrounding level), impossible counts and the rest of that
 counter-day, and zero outages. A zero run counts as an outage only when the counter stopped for most of
 a day's traffic, or when its other directions kept counting meanwhile; shorter lulls in every direction

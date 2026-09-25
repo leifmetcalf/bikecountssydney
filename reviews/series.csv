@@ -1,0 +1,130 @@
+review_group,SITE_SK,series,COUNTER_SK,DIRECTION_SK,start,end,confidence,reviewer,status
+G0169,169,"Bridge Rd eastbound (citybound, NE)",179,92,,2025-06-12,medium,count-reviewer,proposed
+G0169,169,"Bridge Rd eastbound (citybound, NE)",329,1866,2026-05-22,,medium,count-reviewer,proposed
+G0169,169,Bridge Rd eastbound counted by the westbound-lane counter (contraflow),394,1863,,,medium,count-reviewer,proposed
+G0169,169,"Bridge Rd westbound (outbound, SW)",159,91,,2024-06-04,medium,count-reviewer,proposed
+G0169,169,"Bridge Rd westbound (outbound, SW)",337,1585,2024-06-06,2025-06-12,medium,count-reviewer,proposed
+G0169,169,"Bridge Rd westbound (outbound, SW)",394,1864,2026-05-22,,medium,count-reviewer,proposed
+G0169,169,Bridge Rd westbound counted by the eastbound-lane counter (contraflow),329,1865,,,medium,count-reviewer,proposed
+G0169,548,King St eastbound,329,1549,,2025-10-30,high,count-reviewer,proposed
+G0169,548,King St eastbound,361,1760,2025-10-31,,high,count-reviewer,proposed
+G0169,548,King St westbound,329,1550,,2025-10-30,high,count-reviewer,proposed
+G0169,548,King St westbound,361,1759,2025-10-31,,high,count-reviewer,proposed
+G0188,188,Eastbound (citybound) 2019-2020,187,197,,2020-07-17,medium,count-reviewer,proposed
+G0188,188,Eastbound (citybound) 2022-2026,187,197,2022-04-01,,medium,count-reviewer,proposed
+G0188,188,Westbound 2019-2020,187,218,,2020-07-17,medium,count-reviewer,proposed
+G0188,188,Westbound 2022-2026,187,218,2022-04-01,,medium,count-reviewer,proposed
+G0432,432,"North West (OUT, counter 313) Aug-Nov 2024",313,1300,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,432,"North West (OUT, counter 313) from Nov 2024",313,1300,2024-11-07,,medium,count-reviewer,proposed
+G0432,432,"North West (OUT, counter 313) to Aug 2024",313,1300,,2024-08-28,medium,count-reviewer,proposed
+G0432,432,"South East (IN, counter 313) Aug-Nov 2024",313,1261,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,432,"South East (IN, counter 313) from Nov 2024",313,1261,2024-11-07,,medium,count-reviewer,proposed
+G0432,432,"South East (IN, counter 313) to Aug 2024",313,1261,,2024-08-28,medium,count-reviewer,proposed
+G0432,433,"North (NONE, counter 313) Aug-Nov 2024",313,1327,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,433,"North (NONE, counter 313) from Nov 2024",313,1327,2024-11-07,,medium,count-reviewer,proposed
+G0432,433,"North (NONE, counter 313) to Aug 2024",313,1327,,2024-08-28,medium,count-reviewer,proposed
+G0432,434,"North West (IN, counter 313) Aug-Nov 2024",313,1415,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,434,"North West (IN, counter 313) from Nov 2024",313,1415,2024-11-07,,medium,count-reviewer,proposed
+G0432,434,"North West (IN, counter 313) to Aug 2024",313,1415,,2024-08-28,medium,count-reviewer,proposed
+G0432,434,"South East (OUT, counter 313) Aug-Nov 2024",313,1342,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,434,"South East (OUT, counter 313) from Nov 2024",313,1342,2024-11-07,,medium,count-reviewer,proposed
+G0432,434,"South East (OUT, counter 313) to Aug 2024",313,1342,,2024-08-28,medium,count-reviewer,proposed
+G0432,435,"North West (IN, counter 313) Aug-Nov 2024",313,1230,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,435,"North West (IN, counter 313) from Nov 2024",313,1230,2024-11-07,,medium,count-reviewer,proposed
+G0432,435,"North West (IN, counter 313) to Aug 2024",313,1230,,2024-08-28,medium,count-reviewer,proposed
+G0432,435,"South East (OUT, counter 313) Aug-Nov 2024",313,1299,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,435,"South East (OUT, counter 313) from Nov 2024",313,1299,2024-11-07,,medium,count-reviewer,proposed
+G0432,435,"South East (OUT, counter 313) to Aug 2024",313,1299,,2024-08-28,medium,count-reviewer,proposed
+G0432,436,"North (IN, counter 313) Aug-Nov 2024",313,1268,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,436,"North (IN, counter 313) from Nov 2024",313,1268,2024-11-07,,medium,count-reviewer,proposed
+G0432,436,"North (IN, counter 313) to Aug 2024",313,1268,,2024-08-28,medium,count-reviewer,proposed
+G0432,436,"South (OUT, counter 313) Aug-Nov 2024",313,1384,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,436,"South (OUT, counter 313) from Nov 2024",313,1384,2024-11-07,,medium,count-reviewer,proposed
+G0432,436,"South (OUT, counter 313) to Aug 2024",313,1384,,2024-08-28,medium,count-reviewer,proposed
+G0432,437,"North West (OUT, counter 313) Aug-Nov 2024",313,1369,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,437,"North West (OUT, counter 313) from Nov 2024",313,1369,2024-11-07,,medium,count-reviewer,proposed
+G0432,437,"North West (OUT, counter 313) to Aug 2024",313,1369,,2024-08-28,medium,count-reviewer,proposed
+G0432,437,"South East (IN, counter 313) Aug-Nov 2024",313,1231,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,437,"South East (IN, counter 313) from Nov 2024",313,1231,2024-11-07,,medium,count-reviewer,proposed
+G0432,437,"South East (IN, counter 313) to Aug 2024",313,1231,,2024-08-28,medium,count-reviewer,proposed
+G0432,438,"North West (NONE, counter 313) Aug-Nov 2024",313,1409,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,438,"North West (NONE, counter 313) from Nov 2024",313,1409,2024-11-07,,medium,count-reviewer,proposed
+G0432,438,"North West (NONE, counter 313) to Aug 2024",313,1409,,2024-08-28,medium,count-reviewer,proposed
+G0432,438,"South East (NONE, counter 313) Aug-Nov 2024",313,1227,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,438,"South East (NONE, counter 313) from Nov 2024",313,1227,2024-11-07,,medium,count-reviewer,proposed
+G0432,438,"South East (NONE, counter 313) to Aug 2024",313,1227,,2024-08-28,medium,count-reviewer,proposed
+G0432,439,"North (NONE, counter 313) Aug-Nov 2024",313,1216,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,439,"North (NONE, counter 313) from Nov 2024",313,1216,2024-11-07,,medium,count-reviewer,proposed
+G0432,439,"North (NONE, counter 313) to Aug 2024",313,1216,,2024-08-28,medium,count-reviewer,proposed
+G0432,439,"North West (NONE, counter 314) Aug-Nov 2024",314,1437,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,439,"North West (NONE, counter 314) from Nov 2024",314,1437,2024-11-07,,medium,count-reviewer,proposed
+G0432,439,"North West (NONE, counter 314) to Aug 2024",314,1437,,2024-08-28,medium,count-reviewer,proposed
+G0432,439,"South (NONE, counter 313) Aug-Nov 2024",313,1372,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,439,"South (NONE, counter 313) from Nov 2024",313,1372,2024-11-07,,medium,count-reviewer,proposed
+G0432,439,"South (NONE, counter 313) to Aug 2024",313,1372,,2024-08-28,medium,count-reviewer,proposed
+G0432,439,"South East (NONE, counter 314) Aug-Nov 2024",314,1436,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,439,"South East (NONE, counter 314) from Nov 2024",314,1436,2024-11-07,,medium,count-reviewer,proposed
+G0432,439,"South East (NONE, counter 314) to Aug 2024",314,1436,,2024-08-28,medium,count-reviewer,proposed
+G0432,440,"North (IN, counter 314) Aug-Nov 2024",314,1238,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,440,"North (IN, counter 314) from Nov 2024",314,1238,2024-11-07,,medium,count-reviewer,proposed
+G0432,440,"North (IN, counter 314) to Aug 2024",314,1238,,2024-08-28,medium,count-reviewer,proposed
+G0432,440,"South (OUT, counter 314) Aug-Nov 2024",314,1233,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,440,"South (OUT, counter 314) from Nov 2024",314,1233,2024-11-07,,medium,count-reviewer,proposed
+G0432,440,"South (OUT, counter 314) to Aug 2024",314,1233,,2024-08-28,medium,count-reviewer,proposed
+G0432,441,"North (IN, counter 314) from Nov 2024",314,1395,2024-11-07,,medium,count-reviewer,proposed
+G0432,441,"South (OUT, counter 314) Aug-Nov 2024",314,1324,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,441,"South (OUT, counter 314) from Nov 2024",314,1324,2024-11-07,,medium,count-reviewer,proposed
+G0432,442,"North West (OUT, counter 314) Aug-Nov 2024",314,1283,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,442,"North West (OUT, counter 314) from Nov 2024",314,1283,2024-11-07,,medium,count-reviewer,proposed
+G0432,442,"North West (OUT, counter 314) to Aug 2024",314,1283,,2024-08-28,medium,count-reviewer,proposed
+G0432,442,"South East (IN, counter 314) Aug-Nov 2024",314,1272,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,442,"South East (IN, counter 314) from Nov 2024",314,1272,2024-11-07,,medium,count-reviewer,proposed
+G0432,442,"South East (IN, counter 314) to Aug 2024",314,1272,,2024-08-28,medium,count-reviewer,proposed
+G0432,443,"North (OUT, counter 314) Aug-Nov 2024",314,1281,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,443,"North (OUT, counter 314) from Nov 2024",314,1281,2024-11-07,,medium,count-reviewer,proposed
+G0432,443,"North (OUT, counter 314) to Aug 2024",314,1281,,2024-08-28,medium,count-reviewer,proposed
+G0432,443,"South (IN, counter 314) Aug-Nov 2024",314,1387,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,443,"South (IN, counter 314) from Nov 2024",314,1387,2024-11-07,,medium,count-reviewer,proposed
+G0432,443,"South (IN, counter 314) to Aug 2024",314,1387,,2024-08-28,medium,count-reviewer,proposed
+G0432,444,"North (NONE, counter 314) Aug-Nov 2024",314,1229,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,444,"North (NONE, counter 314) from Nov 2024",314,1229,2024-11-07,,medium,count-reviewer,proposed
+G0432,444,"North (NONE, counter 314) to Aug 2024",314,1229,,2024-08-28,medium,count-reviewer,proposed
+G0432,444,"South (NONE, counter 314) Aug-Nov 2024",314,1319,2024-08-29,2024-11-06,medium,count-reviewer,proposed
+G0432,444,"South (NONE, counter 314) from Nov 2024",314,1319,2024-11-07,,medium,count-reviewer,proposed
+G0432,444,"South (NONE, counter 314) to Aug 2024",314,1319,,2024-08-28,medium,count-reviewer,proposed
+G0432,491,"North West (NONE, counter 314)",314,1421,,,medium,count-reviewer,proposed
+G0432,491,"South East (NONE, counter 314)",314,1422,,,medium,count-reviewer,proposed
+G0541,541,Eastbound / citybound (Ecocounter 2018-2024),234,312,,,medium,count-reviewer,proposed
+G0541,541,Eastbound / citybound (Metrocount 2025-),354,1746,,,medium,count-reviewer,proposed
+G0541,541,Westbound / outbound (Ecocounter 2018-2024),234,313,,,medium,count-reviewer,proposed
+G0541,541,Westbound / outbound (Metrocount 2025-),354,1745,,,medium,count-reviewer,proposed
+G0547,547,"King St citybound (eastbound, AM peak), counter 366",366,1770,,,high,count-reviewer,rejected
+G0547,547,"King St outbound (westbound, PM peak), counter 366",366,1769,,,high,count-reviewer,rejected
+G0547,568,"King St citybound (eastbound, AM peak), counter 239",239,329,,,high,count-reviewer,proposed
+G0547,568,"King St citybound (eastbound, AM peak), counter 366",366,1770,,,high,count-reviewer,proposed
+G0547,568,"King St outbound (westbound, PM peak), counter 239",239,328,,,high,count-reviewer,proposed
+G0547,568,"King St outbound (westbound, PM peak), counter 366",366,1769,,,high,count-reviewer,proposed
+G0551,551,"Northbound (Ecocounter, 2015-2025)",233,332,,,high,count-reviewer,proposed
+G0551,551,"Northbound (MetroCount, 2025-)",367,1771,,,medium,count-reviewer,proposed
+G0551,551,"Southbound (Ecocounter, 2015-2025)",233,333,,,high,count-reviewer,proposed
+G0551,551,"Southbound (MetroCount, 2025-)",367,1772,,,medium,count-reviewer,proposed
+G0560,560,Eastbound/citybound (Metrocount 2025-),370,1778,,,medium,count-reviewer,proposed
+G0560,560,Northbound/outbound (Ecocounter 2014-2022),229,330,,,medium,count-reviewer,proposed
+G0560,560,Southbound/citybound (Ecocounter 2014-2022),229,331,,,medium,count-reviewer,proposed
+G0560,560,Westbound/outbound (Metrocount 2025-),370,1777,,,medium,count-reviewer,proposed
+G0569,569,East (IN),383,1812,,,high,count-reviewer,proposed
+G0569,569,West (OUT),383,1838,,,high,count-reviewer,proposed
+G0569,570,North (IN),383,1820,,,high,count-reviewer,proposed
+G0569,570,South (OUT),383,1839,,,high,count-reviewer,proposed
+G0569,571,East (OUT),383,1817,,,high,count-reviewer,proposed
+G0569,571,West (IN),383,1805,,,high,count-reviewer,proposed
+G0569,572,East (OUT),383,1804,,,high,count-reviewer,proposed
+G0569,572,West (IN),383,1828,,,high,count-reviewer,proposed
+G0569,573,North (OUT),383,1851,,,high,count-reviewer,proposed
+G0569,573,South (IN),383,1835,,,high,count-reviewer,proposed
+G0569,574,East (IN),383,1825,,,high,count-reviewer,proposed
+G0569,574,West (OUT),383,1848,,,high,count-reviewer,proposed
+G0569,575,East (OUT),383,1853,,,high,count-reviewer,proposed
+G0569,575,West (IN),383,1852,,,high,count-reviewer,proposed
+G0569,576,North,383,1830,,,high,count-reviewer,proposed
+G0569,576,South,383,1813,,,high,count-reviewer,proposed
