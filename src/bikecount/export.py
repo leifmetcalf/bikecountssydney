@@ -1,4 +1,4 @@
-"""Chart pages from the cleaned counts: daily totals per direction, with review flags and events marked."""
+"""Chart pages from the cleaned counts: daily totals per direction, with review decisions and events marked."""
 
 import html
 import json
@@ -26,12 +26,12 @@ def random_pairs(counts: Path, n: int, seed: int, min_days: int = 365) -> list[t
     return random.Random(seed).sample(pairs, min(n, len(pairs)))
 
 
-def payload(counts: Path, queue_csv: Path, raw: Path, events_csv: Path, pairs: list[tuple[int, int]]) -> list[dict]:
+def payload(counts: Path, decisions_csv: Path, raw: Path, events_csv: Path, pairs: list[tuple[int, int]]) -> list[dict]:
     sel = pl.DataFrame(pairs, schema={"SITE_SK": pl.Int16, "COUNTER_SK": pl.Int16}, orient="row")
     day = daily(counts).join(sel.lazy(), on=["SITE_SK", "COUNTER_SK"]).sort("date").collect()
     read = lambda name, key: {r[key]: r for r in pl.read_csv(raw / name, infer_schema_length=0).to_dicts()}
     sites, counters, directions = read("sites.csv", "SITE_SK"), read("counters.csv", "COUNTER_SK"), read("directions.csv", "DIRECTION_SK")
-    queue = pl.read_csv(queue_csv, infer_schema_length=0)
+    decisions = pl.read_csv(decisions_csv, infer_schema_length=0).filter(pl.col("status") != "rejected") if decisions_csv.exists() else None
     events = pl.read_csv(events_csv, infer_schema_length=0) if events_csv.exists() else None
     out = []
     for site_sk, counter_sk in pairs:
@@ -42,15 +42,17 @@ def payload(counts: Path, queue_csv: Path, raw: Path, events_csv: Path, pairs: l
             g, d = x.filter(pl.col("DIRECTION_SK") == d_sk), directions.get(str(d_sk), {})
             rows = [[str(dt), tot if valid >= MIN_VALID_SLOTS else None] for dt, tot, valid in g.select("date", "tot", "valid").iter_rows()]
             dirs.append({"key": str(d_sk), "orient": d.get("Orientation description", str(d_sk)), "inout": d.get("Location in/out") or "", "rows": rows})
-        q = queue.filter((pl.col("SITE_SK") == str(site_sk)) & (pl.col("COUNTER_SK") == str(counter_sk)))
-        flags = [{"check": r["check"], "dir": r["DIRECTION_SK"], "start": r["start"], "end": r["end"], "detail": r["detail"]} for r in q.to_dicts()]
+        marks = []
+        if decisions is not None:
+            for r in decisions.filter(pl.col("SITE_SK") == str(site_sk)).to_dicts():
+                marks.append({"kind": r["action"], "dir": r["DIRECTION_SK"], "start": r["start"], "end": r["end"], "detail": f"{r['diagnosis']} ({r['status']})"})
         if events is not None:
             for e in events.filter(pl.col("sites").str.split(";").list.contains(str(site_sk))).to_dicts():
-                flags.append({"check": "event", "dir": None, "start": e["date"], "end": e["end_date"], "detail": f"{e['name']}: {e['effect']}"})
+                marks.append({"kind": "event", "dir": None, "start": e["date"], "end": e["end_date"], "detail": f"{e['name']}: {e['effect']}"})
         out.append({
             "site": str(site_sk), "name": s.get("Site name", f"Site {site_sk}"), "suburb": s.get("Suburb") or "", "lga": s.get("LGA") or "",
             "facility": s.get("Facility description") or "", "location": s.get("Location name") or "",
-            "counter_id": c.get("Counter ID", ""), "tech": c.get("Technology", ""), "dirs": dirs, "flags": flags,
+            "counter_id": c.get("Counter ID", ""), "tech": c.get("Technology", ""), "dirs": dirs, "marks": marks,
         })
     return out
 

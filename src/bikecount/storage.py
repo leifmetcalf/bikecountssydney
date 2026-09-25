@@ -20,7 +20,7 @@ import polars as pl
 import pyarrow.parquet as pq
 
 RAW = Path("data/raw/cycling")  # downloaded records and dimension tables
-CLEAN = Path("data/clean/cycling")  # cleaned counts, fixes and the review queue
+CLEAN = Path("data/clean/cycling")  # cleaned counts, fixes and review groups
 EVENTS = Path("events.csv")
 DECISIONS = Path("review_decisions.csv")
 

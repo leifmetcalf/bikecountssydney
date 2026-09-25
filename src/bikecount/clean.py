@@ -1,22 +1,24 @@
-"""Clean the raw 15-minute cycling counts and build a queue of suspect periods for review.
+"""Clean the raw 15-minute cycling counts: automatic fixes, then reviewers' decisions.
 
 The unit is a direction-slot: one direction's count for one 15-minute slot (0-95) of one date, with any
 channel records summed the way the TfNSW dashboard does.
 
 Automatic fixes, applied in this order (each only touches slots that still have a count):
   warning                records with status "warning" (always 0): missing
+  duplicate_load         extra records that exactly repeat the slot's other records (the same data loaded twice): dropped
   duplicate_measurement  a single-record direction carrying a second record that tracks the first: keep the first
   halved                 runs where every non-zero count is even and the level is about double its surroundings
   impossible_count       a slot far beyond anything the direction records: missing
   corrupt_day            the rest of a counter-day that produced an impossible count: missing
-  zero_outage            zeros where many bikes were expected, plus short bursts between two such outages: missing
+  zero_outage            zeros where many bikes were expected, lasting most of a day or while the counter's other
+                         directions kept counting, plus short bursts between two such outages: missing
 
 Some early data is hourly: each hour's count sits in one of its four slots and the other three are 0. Those
 direction-days are marked `hourly_binned` and left out of the zero-outage rule, whose "zeros" they are not.
 
-Everything else that looks wrong goes to the review queue for a person (or an agent) to decide, including
-even-only runs that are not verifiably doubled (normal level, or nothing to compare with): evenness proves
-something is off but not what. Decisions recorded in review_decisions.csv are applied last.
+Everything else is left to review: every review group is reviewed in full (see review.py), and the
+decisions recorded in reviews/decisions.csv are applied last. Weekly totals are built per series, one continuous
+line per direction of travel at a site, as reviewers defined them in reviews/series.csv.
 """
 
 from pathlib import Path
@@ -36,41 +38,45 @@ REFERENCE_DAYS = 60  # days either side of a run used as its reference level
 IMPOSSIBLE_RATIO = 20  # a slot this many times its direction's 99.9th percentile, and
 IMPOSSIBLE_MIN = 200  # at least this many bikes, is a fault
 BASELINE_WINDOW = 29  # informative days in the rolling median behind the expected count
-ZERO_RUN_EXPECTED = 20  # a zero run is an outage once this many bikes would normally have passed
-ISLAND_SLOTS = 4  # non-zero bursts this short between two outages are part of the outage
+ZERO_RUN_EXPECTED = 20  # a zero run is an outage once this many bikes would normally have passed, and either
+WHOLE_DAY_SHARE = 0.8  # it held this share of a normal day's traffic and
+OUTAGE_MAX_SHARE = 0.1  # recorded under this share of it, or
+ONE_SIDED_SHARE = 0.5  # the counter's other directions carried this share of their normal traffic meanwhile
+DUP_LOAD_MIN_PAIRED = 20  # non-zero repeated slots a direction-day needs before its extra records count as a duplicate load
+ISLAND_SLOTS = 4  # non-zero bursts this short between zeros are part of an outage
+OUTAGE_CHUNKS = 8  # the outage rule runs on this many groups of counters in turn
 HOURLY_MIN_NONZERO = 8  # a day whose non-zero slots (at least this many) all share one quarter-hour is hourly data
 
-# --- review checks -----------------------------------------------------------
-SPIKE_RATIO = 4.0
-SPIKE_MIN_BIKES = 50
-MIN_NORMAL = 10  # directions quieter than this (bikes/day) are too noisy for ratio checks
-LEVEL_RATIO = 2.0  # monthly level vs the direction's own norm, after removing network-wide swings
-SPLIT_SHIFT = 0.15  # change in a direction's share of the site total
-FLAT_RUN_SLOTS = 8  # identical non-zero counts in a row
-FLAT_MIN_VALUE = 5
-
-FIXES = [
-    "warning", "duplicate_measurement", "halved", "impossible_count", "corrupt_day", "zero_outage",
-    "review_missing", "review_halved",
-]
-ACTIONS = {"keep", "missing", "halve", "direction_unreliable"}
-QUEUE_COLUMNS = ["flag_id", "review_group", "check", "SITE_SK", "COUNTER_SK", "DIRECTION_SK", "start", "end", "days", "detail", "default_action"]
+AUTO_FIXES = ["warning", "duplicate_load", "duplicate_measurement", "halved", "impossible_count", "corrupt_day", "zero_outage"]
+FIXES = AUTO_FIXES + ["review_missing", "review_halved", "review_restored"]
+ACTIONS = {"keep", "missing", "halve", "direction_unreliable", "restore", "uncertain"}
+COMPLETE_SLOTS = 90  # a day counts as complete with this many of its 96 slots valid
 
 
 # --- slot table ----------------------------------------------------------------
 def build_slots(counts_dir: Path) -> pl.DataFrame:
-    """Direction-slots from the raw records: all records summed (`raw`), status-good records summed (`good`)."""
+    """Direction-slots from the raw records: all records summed (`raw`), as the dashboard shows.
+
+    A slot's records can come from two loads: recent data often gets a second record in the next day's load, and
+    one of the two is 0. `records` and `first` describe the load with the most bikes (the earlier one on a tie),
+    its date is `load`, and IDs are only compared within it: TfNSW numbers the rows of each load from 1.
+    """
     count = pl.col("TOTAL_15MIN_COUNT")
-    return (
+    per_load = (
         pl.scan_parquet(counts_dir / "*.parquet")
-        .group_by(*KEYS, "date", "slot")
+        .group_by(*KEYS, "date", "slot", pl.col("ADDED_UPDATED_DATETIME_SYDNEY").alias("load"))
         .agg(
-            count.sum().cast(pl.UInt16).alias("raw"),
-            count.filter(pl.col("Status") == 0).sum().cast(pl.UInt16).alias("good"),
-            pl.len().cast(pl.UInt8).alias("records"),
+            count.sum().alias("n"),
+            pl.len().alias("records"),
             count.sort_by("ID").first().alias("first"),
             (pl.col("Status") != 0).any().alias("warning"),
         )
+    )
+    main = pl.col("records", "first", "load").sort_by("n", "load", descending=[True, False]).first()
+    return (
+        per_load.group_by(*KEYS, "date", "slot")
+        .agg(pl.col("n").sum().cast(pl.UInt16).alias("raw"), main, pl.col("warning").any())
+        .with_columns(pl.col("records").cast(pl.UInt8))
         .sort(*KEYS, "date", "slot")
         .collect(engine="streaming")
     )
@@ -137,17 +143,47 @@ def mark(slots: pl.DataFrame, where: pl.Expr, fix: str, value: pl.Expr | None = 
     )
 
 
-def fmt(template: str, *exprs) -> pl.Expr:
-    """Fill each {} in template with an expression rendered as text (null renders as "?")."""
-    parts = template.split("{}")
-    out = [pl.lit(parts[0])]
-    for e, lit in zip(exprs, parts[1:]):
-        e = pl.col(e) if isinstance(e, str) else e
-        out += [e.cast(pl.Utf8).fill_null("?"), pl.lit(lit)]
-    return pl.concat_str(out)
-
-
 # --- automatic fixes -----------------------------------------------------------
+def duplicate_loads(slots: pl.DataFrame, counts_dir: Path) -> pl.DataFrame:
+    """Direction-slots whose extra records exactly repeat other records in the slot, with the count of one copy (`dedup`).
+
+    A slot with more records than its direction usually has that month (the month's most common daily mode) is a
+    duplicate load when its extra records can all be matched to identical records. A run of consecutive days with extra
+    records qualifies when every such slot matches, and at least DUP_LOAD_MIN_PAIRED of them repeat a non-zero count.
+    Where the choice is ambiguous the largest repeats are dropped.
+    """
+    month = pl.col("date").dt.truncate("1mo").alias("month")
+    daily_mode = slots.group_by("DIRECTION_SK", "date").agg(pl.col("records").mode().min().alias("m"))
+    usual = daily_mode.group_by("DIRECTION_SK", month).agg(pl.col("m").mode().min().alias("usual"))
+    extra = (
+        slots.select("DIRECTION_SK", "date", "slot", "load", "records", month).join(usual, on=["DIRECTION_SK", "month"])
+        .filter(pl.col("records") > pl.col("usual")).select("DIRECTION_SK", "date", "slot", "load", "usual")
+    )
+    values = (
+        pl.scan_parquet(counts_dir / "*.parquet")
+        .select("DIRECTION_SK", "date", "slot", pl.col("ADDED_UPDATED_DATETIME_SYDNEY").alias("load"), "TOTAL_15MIN_COUNT")
+        .join(extra.lazy(), on=["DIRECTION_SK", "date", "slot", "load"])
+        .group_by("DIRECTION_SK", "date", "slot", "usual", "TOTAL_15MIN_COUNT").agg(pl.len().alias("k"))
+        .collect(engine="streaming")
+    )
+    v = pl.col("TOTAL_15MIN_COUNT").cast(pl.Int64)
+    per_slot = values.group_by("DIRECTION_SK", "date", "slot").agg(
+        (pl.col("k").sum() - pl.col("usual").first()).alias("excess"),
+        (v * pl.col("k")).sum().alias("total"),
+        v.repeat_by(pl.col("k") // 2).flatten().sort(descending=True).alias("repeats"),  # values that occur in pairs, once per pair
+    )
+    dropped = pl.col("repeats").list.head(pl.col("excess")).list.sum()
+    per_slot = per_slot.with_columns((pl.col("repeats").list.len() >= pl.col("excess")).alias("matched"), dropped.alias("dropped"))
+    days = per_slot.group_by("DIRECTION_SK", "date").agg(
+        pl.col("matched").all(), (pl.col("dropped") > 0).sum().alias("paired"), pl.lit(True).alias("extra"),
+    )
+    runs = runs_of(days, ["DIRECTION_SK"], "date", "extra")
+    runs = runs.with_columns(
+        (pl.col("matched").all() & (pl.col("paired").sum() >= DUP_LOAD_MIN_PAIRED)).over("DIRECTION_SK", "run").alias("ok")
+    ).filter("ok").select("DIRECTION_SK", "date")
+    return per_slot.join(runs, on=["DIRECTION_SK", "date"]).select("DIRECTION_SK", "date", "slot", (pl.col("total") - pl.col("dropped")).alias("dedup"))
+
+
 def duplicate_runs(slots: pl.DataFrame) -> pl.DataFrame:
     """Runs of days where a single-record direction carries a second record that tracks the first slot by slot.
 
@@ -157,7 +193,7 @@ def duplicate_runs(slots: pl.DataFrame) -> pl.DataFrame:
     single = slots.group_by("DIRECTION_SK").agg(pl.col("records").mode().first().alias("modal")).filter(pl.col("modal") == 1)
     two = pl.col("records") == 2
     a = pl.col("first").cast(pl.Float64)
-    b = (pl.col("good") - pl.col("first")).cast(pl.Float64)
+    b = (pl.col("raw") - pl.col("first")).cast(pl.Float64)
     day = slots.join(single, on="DIRECTION_SK").group_by(*KEYS, "date").agg(
         (two.mean() >= 0.9).alias("two"), two.sum().alias("n"),
         a.filter(two).sum().alias("a"), b.filter(two).sum().alias("b"),
@@ -206,21 +242,15 @@ def doubling_runs(day: pl.DataFrame) -> pl.DataFrame:
 
 
 def baselines(day: pl.DataFrame) -> pl.DataFrame:
-    """Typical daily total for every direction-day (`baseline`), and for the same day class (`b_class`)."""
-    rolling = lambda by: pl.col("tot").cast(pl.Float64).rolling_median(BASELINE_WINDOW, center=True, min_samples=5).over(by)
+    """Typical daily total for every direction-day (`baseline`): the lower of the nearest rolling medians either side."""
     inf = day.filter(pl.col("tot") > 0).sort("DIRECTION_SK", "date").with_columns(
-        rolling("DIRECTION_SK").alias("b"), rolling(["DIRECTION_SK", "workday"]).alias("b_class")
+        pl.col("tot").cast(pl.Float64).rolling_median(BASELINE_WINDOW, center=True, min_samples=5).over("DIRECTION_SK").alias("b")
     )
-    allday = day.select("DIRECTION_SK", "date", "workday").sort("DIRECTION_SK", "date")
+    allday = day.select("DIRECTION_SK", "date").sort("DIRECTION_SK", "date")
     b = inf.select("DIRECTION_SK", "date", "b")
     back = allday.join_asof(b, on="date", by="DIRECTION_SK", strategy="backward", check_sortedness=False)
     fwd = allday.join_asof(b.rename({"b": "b_fwd"}), on="date", by="DIRECTION_SK", strategy="forward", check_sortedness=False)
-    out = back.join(fwd.select("DIRECTION_SK", "date", "b_fwd"), on=["DIRECTION_SK", "date"]).with_columns(
-        pl.min_horizontal("b", "b_fwd").alias("baseline")
-    )
-    cls = inf.filter(pl.col("b_class").is_not_null()).select("DIRECTION_SK", "workday", "date", "b_class").sort("DIRECTION_SK", "workday", "date")
-    out = out.sort("DIRECTION_SK", "workday", "date").join_asof(cls, on="date", by=["DIRECTION_SK", "workday"], strategy="nearest", check_sortedness=False)
-    return out.select("DIRECTION_SK", "date", "baseline", "b_class")
+    return back.join(fwd, on=["DIRECTION_SK", "date"]).select("DIRECTION_SK", "date", pl.min_horizontal("b", "b_fwd").alias("baseline"))
 
 
 def expected_counts(slots: pl.DataFrame, day: pl.DataFrame) -> pl.DataFrame:
@@ -235,7 +265,7 @@ def expected_counts(slots: pl.DataFrame, day: pl.DataFrame) -> pl.DataFrame:
     enough = full.join(day.select("DIRECTION_SK", "date", "workday"), on=["DIRECTION_SK", "date"]).group_by("DIRECTION_SK", "workday").len("full_days")
     prof = prof.join(enough, on=["DIRECTION_SK", "workday"]).filter(pl.col("full_days") >= 7).select("DIRECTION_SK", "workday", "slot", "share")
     return (
-        slots.join(baselines(day).select("DIRECTION_SK", "date", "baseline"), on=["DIRECTION_SK", "date"], how="left")
+        slots.join(baselines(day), on=["DIRECTION_SK", "date"], how="left")
         .join(prof, on=["DIRECTION_SK", "workday", "slot"], how="left")
         .join(net, on=["workday", "slot"], how="left")
         .with_columns((pl.col("baseline").fill_null(0) * pl.coalesce("share", "net_share")).alias("expected"))
@@ -252,25 +282,70 @@ def hourly_binned(slots: pl.DataFrame) -> pl.Series:
     return slots.select(((nz.sum().over(by) >= HOURLY_MIN_NONZERO) & (quarter.filter(nz).n_unique().over(by) == 1)).alias("hourly_binned"))["hourly_binned"]
 
 
-def outage_mask(slots: pl.DataFrame) -> pl.Expr:
-    """Zero runs with at least ZERO_RUN_EXPECTED expected bikes, plus short non-zero bursts between two of them."""
+def outage_mask(slots: pl.DataFrame) -> pl.Series:
+    """Slots where a counter stopped counting (see `outages`), computed a few counters at a time to bound memory."""
+    cols = slots.select("SITE_SK", "COUNTER_SK", "DIRECTION_SK", "date", "slot", "count", "expected", "hourly_binned").with_row_index("i")
+    chunk = (pl.col("COUNTER_SK").cast(pl.Int32).abs() % OUTAGE_CHUNKS).alias("chunk")
+    parts = [outages(part) for part in cols.with_columns(chunk).partition_by("chunk", include_key=False)]
+    return pl.concat(parts).sort("i")["out"]
+
+
+def outages(s: pl.DataFrame) -> pl.DataFrame:
+    """Row index `i` and `out` for slots where a counter stopped counting: two kinds of outage.
+
+    - A stretch of zeros, and of short bursts (ISLAND_SLOTS or fewer) between zeros, that held most of a normal day's
+      traffic (WHOLE_DAY_SHARE) of which it recorded under OUTAGE_MAX_SHARE.
+    - A run of zeros while the counter's other directions kept counting (ONE_SIDED_SHARE of their normal traffic).
+    Either needs zeros where ZERO_RUN_EXPECTED bikes would normally have passed. Shorter lulls in every direction at
+    once stay zeros: rain or a closure empties a path too.
+    """
     t, d = pl.col("t"), pl.col("DIRECTION_SK")
-    zero = (pl.col("count") == 0) & ~pl.col("hourly_binned")
-    new_run = ~zero | ~zero.shift(1) | (t != t.shift(1) + 1) | (d != d.shift(1))
-    s = slots.with_columns(slot_time().alias("t")).with_columns(new_run.fill_null(True).cum_sum().alias("zrun"))
-    s = s.with_columns((zero & (pl.when(zero).then(pl.col("expected")).sum().over("zrun") >= ZERO_RUN_EXPECTED)).fill_null(False).alias("out"))
-    out_t = pl.when("out").then(t)
-    between = out_t.backward_fill().over(d) - out_t.forward_fill().over(d)
-    island = pl.col("count").is_not_null() & ~pl.col("hourly_binned") & (between <= ISLAND_SLOTS + 1)
-    return s.select(pl.col("out") | island.fill_null(False))["out"]
+    live = ~pl.col("hourly_binned") & pl.col("count").is_not_null()
+    zero, nonzero = live & (pl.col("count") == 0), live & (pl.col("count") > 0)
+    runs = lambda flag: (~flag | ~flag.shift(1) | (t != t.shift(1) + 1) | (d != d.shift(1))).fill_null(True).cum_sum()
+    s = s.with_columns(slot_time().alias("t")).with_columns(zero.alias("zero"), runs(zero).alias("zrun"), runs(nonzero).alias("burst"))
+    quiet = pl.col("zero") | (nonzero & (nonzero.sum().over("burst") <= ISLAND_SLOTS))
+    s = s.with_columns(quiet.alias("quiet")).with_columns(runs(pl.col("quiet")).alias("stretch"))
+    valid_exp = pl.when(pl.col("count").is_not_null()).then(pl.col("expected")).otherwise(0)
+    s = s.with_columns(
+        # the counter's other directions in the same slot
+        (pl.col("count").cast(pl.Int64).sum().over("SITE_SK", "COUNTER_SK", "t") - pl.col("count").cast(pl.Int64).fill_null(0)).alias("other_n"),
+        (valid_exp.sum().over("SITE_SK", "COUNTER_SK", "t") - valid_exp).alias("other_exp"),
+        pl.col("expected").sum().over("DIRECTION_SK", "date").alias("day_exp"),
+    )
+    on_zeros = lambda c, by: pl.when("zero").then(pl.col(c)).sum().over(by)
+    s = s.with_columns(
+        on_zeros("expected", "zrun").alias("run_exp"), on_zeros("other_n", "zrun").alias("run_other_n"), on_zeros("other_exp", "zrun").alias("run_other_exp"),
+        on_zeros("expected", "stretch").alias("stretch_zero_exp"),
+        pl.col("expected").sum().over("stretch").alias("stretch_exp"), pl.col("count").cast(pl.Int64).sum().over("stretch").alias("stretch_n"),
+        pl.col("day_exp").max().over("stretch").alias("stretch_day_exp"),
+        # bursts count only between two zeros of the stretch
+        pl.col("zero").cum_sum().over("stretch").alias("zeros_before"), pl.col("zero").cum_sum(reverse=True).over("stretch").alias("zeros_after"),
+    )
+    stopped = (
+        (pl.col("stretch_zero_exp") >= ZERO_RUN_EXPECTED) & (pl.col("stretch_exp") >= WHOLE_DAY_SHARE * pl.col("stretch_day_exp"))
+        & (pl.col("stretch_n") <= OUTAGE_MAX_SHARE * pl.col("stretch_exp"))
+        & (pl.col("zero") | ((pl.col("zeros_before") > 0) & (pl.col("zeros_after") > 0)))
+    )
+    one_sided = (
+        pl.col("zero") & (pl.col("run_exp") >= ZERO_RUN_EXPECTED)
+        & (pl.col("run_other_exp") >= ZERO_RUN_EXPECTED) & (pl.col("run_other_n") >= ONE_SIDED_SHARE * pl.col("run_other_exp"))
+    )
+    return s.select("i", (stopped | one_sided).fill_null(False).alias("out"))
 
 
-def auto_fix(slots: pl.DataFrame, wd: pl.DataFrame) -> tuple[pl.DataFrame, pl.DataFrame, pl.DataFrame]:
-    """Apply the automatic fixes in order. Returns the slot table with `count` and `fix`, the fixed runs,
-    and the even-only runs left for review."""
-    slots = with_workday(slots, wd).with_columns(pl.col("good").alias("count"), pl.lit(None, dtype=pl.Utf8).alias("fix"))
+def auto_fix(slots: pl.DataFrame, wd: pl.DataFrame, counts_dir: Path) -> tuple[pl.DataFrame, pl.DataFrame]:
+    """Apply the automatic fixes in order. Returns the slot table with `count` and `fix`, and the fixed runs."""
+    slots = with_workday(slots, wd).with_columns(pl.col("raw").alias("count"), pl.lit(None, dtype=pl.Utf8).alias("fix"))
     slots = slots.with_columns(hourly_binned(slots))
     slots = mark(slots, pl.col("warning"), "warning")
+
+    slots = slots.join(duplicate_loads(slots, counts_dir), on=["DIRECTION_SK", "date", "slot"], how="left")
+    slots = mark(slots, pl.col("dedup").is_not_null(), "duplicate_load", pl.col("dedup").cast(pl.UInt16)).drop("dedup")
+    load_days = slots.filter(pl.col("fix") == "duplicate_load").select(*KEYS, "date").unique().with_columns(pl.lit(True).alias("hit"))
+    loads = runs_of(load_days, KEYS, "date", "hit").group_by(*KEYS, "run").agg(
+        pl.col("date").min().alias("start"), pl.col("date").max().alias("end"), pl.len().alias("days")
+    ).select(*KEYS, "start", "end", "days", pl.lit("duplicate_load").alias("fix"))
 
     dups = duplicate_runs(slots)
     slots = slots.join(run_days(dups, "fix").rename({"fix": "dup"}), on=["DIRECTION_SK", "date"], how="left")
@@ -288,152 +363,11 @@ def auto_fix(slots: pl.DataFrame, wd: pl.DataFrame) -> tuple[pl.DataFrame, pl.Da
     slots = expected_counts(slots, day_stats(slots))
     slots = mark(slots, outage_mask(slots), "zero_outage").drop("expected")
 
-    fixes = pl.concat([doubled.filter(pl.col("fix") == "halved").drop("median_day"), dups], how="vertical_relaxed").sort(*KEYS, "start")
-    return slots, fixes, doubled.filter(pl.col("fix") != "halved")
+    fixes = pl.concat([loads, doubled.filter(pl.col("fix") == "halved").drop("median_day"), dups], how="diagonal_relaxed").sort(*KEYS, "start")
+    return slots, fixes
 
 
-# --- review queue ------------------------------------------------------------
-def even_flags(runs: pl.DataFrame) -> pl.DataFrame:
-    """Even-only runs that are not verifiably doubled: kept as downloaded until reviewed."""
-    r = runs.filter(pl.col("fix") != "halved")
-    return r.select(
-        pl.lit("even_only").alias("check"), *KEYS, "start", "end", "days",
-        fmt("every non-zero count even for {} days at {} bikes/day; level vs surroundings {}", "days", pl.col("median_day").round(0).cast(pl.Int64),
-            pl.col("level_ratio").round(2).cast(pl.Utf8).fill_null("unknown (nothing to compare with)")).alias("detail"),
-        pl.when(pl.col("fix") == "halved_unverified").then(pl.lit("halve")).otherwise(pl.lit("missing")).alias("default_action"),
-    )
-
-
-def spike_flags(day: pl.DataFrame, base: pl.DataFrame, events: pl.DataFrame) -> pl.DataFrame:
-    d = day.join(base, on=["DIRECTION_SK", "date"], how="left").join(events, on=["SITE_SK", "date"], how="anti")
-    d = d.with_columns((pl.col("tot") / pl.col("b_class")).alias("x")).with_columns(
-        ((pl.col("x") >= SPIKE_RATIO) & (pl.col("tot") >= SPIKE_MIN_BIKES) & (pl.col("b_class") >= MIN_NORMAL)).fill_null(False).alias("spike")
-    )
-    g = runs_of(d, KEYS, "date", "spike").group_by(*KEYS, "run").agg(
-        pl.col("date").min().alias("start"), pl.col("date").max().alias("end"), pl.len().alias("days"),
-        pl.col("x").max().alias("xmax"), pl.col("tot").max().alias("max_day"), pl.col("b_class").median().alias("normal"),
-    )
-    return g.filter((pl.col("days") >= 2) | (pl.col("xmax") >= 2 * SPIKE_RATIO)).select(
-        pl.lit("spike").alias("check"), *KEYS, "start", "end", "days",
-        fmt("up to {} bikes/day, {}x the normal {}/day", "max_day", pl.col("xmax").round(1), pl.col("normal").round(0).cast(pl.Int64)).alias("detail"),
-        pl.lit("missing").alias("default_action"),
-    )
-
-
-def month_index(month: pl.Expr) -> pl.Expr:
-    return month.dt.year().cast(pl.Int32) * 12 + month.dt.month().cast(pl.Int32)
-
-
-def month_end(month: pl.Expr) -> pl.Expr:
-    return month.dt.offset_by("1mo") - pl.duration(days=1)
-
-
-def level_flags(day: pl.DataFrame) -> pl.DataFrame:
-    """Months where a direction runs far from its own norm, after dividing out swings shared by the whole network."""
-    m = (
-        day.filter(pl.col("valid") >= 88)
-        .group_by(*KEYS, pl.col("date").dt.truncate("1mo").alias("month"))
-        .agg(pl.col("tot").mean().alias("m"), pl.len().alias("n_days"))
-        .filter((pl.col("n_days") >= 10) & (pl.col("m") > 0))
-        .with_columns(pl.col("m").median().over("DIRECTION_SK").alias("norm"))
-        .filter(pl.col("norm") >= MIN_NORMAL)
-        .with_columns((pl.col("m") / pl.col("norm")).alias("r"))
-        .with_columns((pl.col("r") / pl.col("r").median().over("month")).alias("z"))
-        .with_columns(((pl.col("z") < 1 / LEVEL_RATIO) | (pl.col("z") > LEVEL_RATIO)).alias("off"), month_index(pl.col("month")).alias("mi"))
-    )
-    g = runs_of(m, KEYS, "mi", "off").group_by(*KEYS, "run").agg(
-        pl.col("month").min().alias("start"), month_end(pl.col("month").max()).alias("end"), pl.len().alias("months"),
-        pl.col("z").median(), pl.col("m").median().alias("level"), pl.col("norm").first(),
-    )
-    return g.filter((pl.col("months") >= 2) | (pl.col("z") < 1 / (2 * LEVEL_RATIO)) | (pl.col("z") > 2 * LEVEL_RATIO)).select(
-        pl.lit("level").alias("check"), *KEYS, "start", "end", ((pl.col("end") - pl.col("start")).dt.total_days() + 1).alias("days"),
-        fmt("{} months at {}/day vs its usual {}/day ({}x after allowing for network-wide changes)",
-            "months", pl.col("level").round(0).cast(pl.Int64), pl.col("norm").round(0).cast(pl.Int64), pl.col("z").round(2)).alias("detail"),
-        pl.lit("keep").alias("default_action"),
-    )
-
-
-def direction_flags(slots: pl.DataFrame, cameras: pl.Series) -> pl.DataFrame:
-    """Two-direction counters whose split, or morning/evening pattern ("peak flip"), departs from their norm."""
-    s = slots.filter(~pl.col("COUNTER_SK").is_in(cameras.implode()) & pl.col("count").is_not_null() & pl.col("workday"))
-    pairs = s.group_by("SITE_SK", "COUNTER_SK").agg(pl.col("DIRECTION_SK").unique().sort().alias("dirs")).filter(pl.col("dirs").list.len() == 2)
-    s = s.join(pairs.select("SITE_SK", "COUNTER_SK", pl.col("dirs").list.get(0).alias("A")), on=["SITE_SK", "COUNTER_SK"])
-    h, c, is_a = pl.col("slot") // 4, pl.col("count"), pl.col("DIRECTION_SK") == pl.col("A")
-    am, pm = h.is_between(7, 9), h.is_between(16, 18)
-    agg = (
-        s.group_by("SITE_SK", "COUNTER_SK", pl.col("date").dt.truncate("1mo").alias("month"))
-        .agg(
-            c.filter(is_a).sum().alias("a"), c.sum().alias("tot"),
-            c.filter(is_a & am).sum().alias("a_am"), c.filter(am).sum().alias("am"),
-            c.filter(is_a & pm).sum().alias("a_pm"), c.filter(pm).sum().alias("pm"),
-            pl.col("date").n_unique().alias("n_days"),
-        )
-        .filter((pl.col("n_days") >= 10) & (pl.col("tot") >= 30 * pl.col("n_days")))
-        .with_columns((pl.col("a") / pl.col("tot")).alias("share"), (pl.col("a_am") / pl.col("am") - pl.col("a_pm") / pl.col("pm")).alias("flip"))
-        .with_columns(
-            pl.col("share").median().over("SITE_SK", "COUNTER_SK").alias("share_norm"),
-            pl.col("flip").median().over("SITE_SK", "COUNTER_SK").alias("flip_norm"),
-        )
-        .with_columns(
-            (((pl.col("share") - pl.col("share_norm")).abs() >= SPLIT_SHIFT)
-             | ((pl.col("flip_norm").abs() >= 0.3) & ((pl.col("flip") - pl.col("flip_norm")).abs() >= 0.4))).fill_null(False).alias("off"),
-            month_index(pl.col("month")).alias("mi"),
-        )
-    )
-    g = runs_of(agg, ["SITE_SK", "COUNTER_SK"], "mi", "off").group_by("SITE_SK", "COUNTER_SK", "run").agg(
-        pl.col("month").min().alias("start"), month_end(pl.col("month").max()).alias("end"), pl.len().alias("months"),
-        pl.col("share").median(), pl.col("share_norm").first(), pl.col("flip").median(), pl.col("flip_norm").first(),
-    )
-    return g.select(
-        pl.lit("direction").alias("check"), "SITE_SK", "COUNTER_SK", pl.lit(None, dtype=pl.Int16).alias("DIRECTION_SK"), "start", "end",
-        ((pl.col("end") - pl.col("start")).dt.total_days() + 1).alias("days"),
-        fmt("{} months: first direction carries {} of weekday bikes (usually {}); morning-minus-evening share {} (usually {})",
-            "months", pl.col("share").round(2), pl.col("share_norm").round(2), pl.col("flip").round(2), pl.col("flip_norm").round(2)).alias("detail"),
-        pl.lit("direction_unreliable").alias("default_action"),
-    )
-
-
-def flat_flags(slots: pl.DataFrame) -> pl.DataFrame:
-    """Days with the same non-zero count repeated in FLAT_RUN_SLOTS or more consecutive slots."""
-    t = slot_time()
-    same = (pl.col("count") == pl.col("count").shift(1)) & (t == t.shift(1) + 1) & (pl.col("DIRECTION_SK") == pl.col("DIRECTION_SK").shift(1))
-    s = slots.select(*KEYS, "date", "slot", "count").with_columns((~same.fill_null(False)).cum_sum().alias("frun"))
-    runs = s.filter(pl.col("count") >= FLAT_MIN_VALUE).group_by(*KEYS, "frun").agg(
-        pl.len().alias("n"), pl.col("date").min().alias("date"), pl.col("count").first().alias("value")
-    )
-    days = runs.filter(pl.col("n") >= FLAT_RUN_SLOTS).group_by(*KEYS, "date").agg(pl.col("n").max(), pl.col("value").first()).with_columns(pl.lit(True).alias("flat"))
-    g = runs_of(days, KEYS, "date", "flat", gap=3).group_by(*KEYS, "run").agg(
-        pl.col("date").min().alias("start"), pl.col("date").max().alias("end"), pl.len().alias("flat_days"), pl.col("n").max(), pl.col("value").first()
-    )
-    return g.select(
-        pl.lit("flat").alias("check"), *KEYS, "start", "end", ((pl.col("end") - pl.col("start")).dt.total_days() + 1).alias("days"),
-        fmt("{} day(s) with the same count ({}) repeated for up to {} consecutive 15-minute slots", "flat_days", "value", "n").alias("detail"),
-        pl.lit("missing").alias("default_action"),
-    )
-
-
-def bad_value_flags(slots: pl.DataFrame) -> pl.DataFrame:
-    """Days where the impossible-count rule fired, listed for manual inspection."""
-    bad = slots.filter(pl.col("fix") == "impossible_count").group_by(*KEYS, "date").agg(
-        pl.col("raw").sort(descending=True).head(5).cast(pl.Utf8).str.join(", ").alias("values"), pl.len().alias("n")
-    )
-    return bad.select(
-        pl.lit("bad_values").alias("check"), *KEYS, pl.col("date").alias("start"), pl.col("date").alias("end"), pl.lit(1).alias("days"),
-        fmt("{} slot(s) with impossible counts, largest {}; the counter-day is set to missing automatically", "n", "values").alias("detail"),
-        pl.lit("missing").alias("default_action"),
-    )
-
-
-def load_events(events_csv: Path) -> pl.DataFrame:
-    if not events_csv.exists():
-        return pl.DataFrame(schema={"date": pl.Date, "SITE_SK": pl.Int16})
-    ev = pl.read_csv(events_csv, infer_schema_length=0)
-    return ev.select(
-        pl.date_ranges(pl.col("date").str.to_date(), pl.col("end_date").str.to_date()).alias("date"),
-        pl.col("sites").str.split(";").alias("SITE_SK"),
-    ).explode("date").explode("SITE_SK").with_columns(pl.col("SITE_SK").cast(pl.Int16))
-
-
+# --- review groups and decisions --------------------------------------------
 def review_groups(slots: pl.DataFrame) -> pl.DataFrame:
     """Sites linked by a shared counter, or counters by a shared site, are reviewed together.
 
@@ -460,69 +394,123 @@ def review_groups(slots: pl.DataFrame) -> pl.DataFrame:
     )
 
 
-def review_queue(slots: pl.DataFrame, even_runs: pl.DataFrame, raw: Path, events_csv: Path) -> pl.DataFrame:
-    day = day_stats(slots)
-    cameras = pl.read_csv(raw / "counters.csv", infer_schema_length=0).filter(pl.col("Technology") == "CAMERA")["COUNTER_SK"].cast(pl.Int16)
-    parts = [
-        even_flags(even_runs),
-        spike_flags(day, baselines(day), load_events(events_csv)),
-        level_flags(day),
-        direction_flags(slots, cameras),
-        flat_flags(slots),
-        bad_value_flags(slots),
-    ]
-    q = pl.concat(
-        [p.with_columns(*[pl.col(k).cast(pl.Int16) for k in KEYS], pl.col("days").cast(pl.Int32)) for p in parts], how="vertical_relaxed"
-    )
-    target = pl.col("DIRECTION_SK").cast(pl.Utf8).fill_null(fmt("c{}", "COUNTER_SK"))
-    q = q.with_columns(fmt("{}:{}:{}:{}", "check", "SITE_SK", target, "start").alias("flag_id")).join(review_groups(slots), on="SITE_SK", how="left")
-    return q.select(QUEUE_COLUMNS).sort("review_group", "SITE_SK", "start", "check")
+def apply_decisions(slots: pl.DataFrame, decisions_csv: Path) -> pl.DataFrame:
+    """Apply reviewers' decisions (all except those with status "rejected").
 
-
-# --- decisions and outputs ---------------------------------------------------
-def apply_review(slots: pl.DataFrame, queue: pl.DataFrame, decisions_csv: Path) -> pl.DataFrame:
-    """Mark each slot with the checks that flagged it, and apply any recorded decisions."""
-    q = queue.with_columns(pl.date_ranges("start", "end").alias("date")).explode("date")
-    keys = slots.select(*KEYS).unique()
-    direct = q.filter(pl.col("DIRECTION_SK").is_not_null()).select("flag_id", "check", "DIRECTION_SK", "date")
-    # counter-level flags cover every direction of that counter at the site
-    counter = q.filter(pl.col("DIRECTION_SK").is_null()).drop("DIRECTION_SK").join(keys, on=["SITE_SK", "COUNTER_SK"]).select("flag_id", "check", "DIRECTION_SK", "date")
-    days = pl.concat([direct, counter])
-    if decisions_csv.exists():
-        dec = pl.read_csv(decisions_csv, infer_schema_length=0).select("flag_id", "action")
-        bad = dec.filter(~pl.col("action").is_in(sorted(ACTIONS)))
-        if bad.height:
-            raise SystemExit(f"unknown actions in {decisions_csv}: {bad.rows()}")
-        days = days.join(dec, on="flag_id", how="left")
-    else:
-        days = days.with_columns(pl.lit(None, dtype=pl.Utf8).alias("action"))
-    per_day = days.group_by("DIRECTION_SK", "date").agg(
-        pl.col("check").unique().sort().str.join(",").alias("flags"), pl.col("action").drop_nulls().unique().alias("actions")
+    A decision covers SITE_SK, DIRECTION_SK (blank: every direction at the site) and start..end. `restore` undoes the
+    automatic fixes (count = raw) and is applied before `missing` and `halve`.
+    """
+    if not decisions_csv.exists():
+        return slots.with_columns(pl.lit(False).alias("direction_unreliable"))
+    dec = pl.read_csv(decisions_csv, infer_schema_length=0).filter(pl.col("status") != "rejected")
+    bad = dec.filter(~pl.col("action").is_in(sorted(ACTIONS)))
+    if bad.height:
+        raise SystemExit(f"unknown actions in {decisions_csv}: {bad.select('action').unique().rows()}")
+    days = (
+        dec.filter(pl.col("action").is_in(["restore", "missing", "halve", "direction_unreliable"]))
+        .select(
+            pl.col("SITE_SK").cast(pl.Int16), pl.col("DIRECTION_SK").cast(pl.Int16), "action",
+            pl.date_ranges(pl.col("start").str.to_date(), pl.col("end").str.to_date()).alias("date"),
+        )
+        .explode("date")
     )
+    keys = slots.select("SITE_SK", "DIRECTION_SK").unique()
+    # a blank DIRECTION_SK covers every direction at the site
+    days = pl.concat([
+        days.filter(pl.col("DIRECTION_SK").is_not_null()),
+        days.filter(pl.col("DIRECTION_SK").is_null()).drop("DIRECTION_SK").join(keys, on="SITE_SK").select(days.columns),
+    ])
+    per_day = days.group_by("DIRECTION_SK", "date").agg(pl.col("action").unique().alias("actions"))
     slots = slots.join(per_day, on=["DIRECTION_SK", "date"], how="left")
     act = pl.col("actions")
+    restore = act.list.contains("restore").fill_null(False) & pl.col("fix").is_in(AUTO_FIXES)
+    slots = slots.with_columns(
+        pl.when(restore).then(pl.col("raw")).otherwise(pl.col("count")).alias("count"),
+        pl.when(restore).then(pl.lit("review_restored")).otherwise(pl.col("fix")).alias("fix"),
+    )
     slots = mark(slots, act.list.contains("missing"), "review_missing")
     slots = mark(slots, act.list.contains("halve"), "review_halved", pl.col("count") // 2)
     return slots.with_columns(act.list.contains("direction_unreliable").fill_null(False).alias("direction_unreliable")).drop("actions")
 
 
-def run(raw: Path, out: Path, cache: Path, events_csv: Path, decisions_csv: Path) -> None:
+# --- series and weekly totals -------------------------------------------------
+def series_parts(slots: pl.DataFrame, series_csv: Path, raw: Path) -> pl.DataFrame:
+    """The counter-directions making up each series: SITE_SK, series, COUNTER_SK, DIRECTION_SK, start, end, match_site.
+
+    Reviewed series (all except those with status "rejected") take a counter-direction's data under any site. Every
+    counter-direction they leave out becomes a series of its own at its site (`match_site`), named after its direction,
+    and after its counter too where the site has several counters.
+    """
+    schema = {"SITE_SK": pl.Int16, "series": pl.Utf8, "COUNTER_SK": pl.Int16, "DIRECTION_SK": pl.Int16, "start": pl.Date, "end": pl.Date}
+    reviewed = pl.DataFrame(schema=schema)
+    if series_csv.exists():
+        reviewed = pl.read_csv(series_csv, infer_schema_length=0).filter(pl.col("status") != "rejected").select(
+            pl.col("SITE_SK").cast(pl.Int16), "series", pl.col("COUNTER_SK").cast(pl.Int16), pl.col("DIRECTION_SK").cast(pl.Int16),
+            pl.col("start").str.to_date(), pl.col("end").str.to_date(),
+        )
+    pairs = slots.select(*KEYS).unique().with_columns((pl.col("COUNTER_SK").n_unique().over("SITE_SK") > 1).alias("several"))
+    rest = pairs.join(reviewed.select("COUNTER_SK", "DIRECTION_SK").unique(), on=["COUNTER_SK", "DIRECTION_SK"], how="anti")
+    dims = lambda name, key, *cols: pl.read_csv(raw / name, infer_schema_length=0).select(pl.col(key).cast(pl.Int16), *cols)
+    rest = rest.join(dims("directions.csv", "DIRECTION_SK", "Orientation description", "Location in/out"), on="DIRECTION_SK", how="left")
+    rest = rest.join(dims("counters.csv", "COUNTER_SK", "Counter ID"), on="COUNTER_SK", how="left")
+    inout = pl.col("Location in/out")
+    name = pl.concat_str(
+        pl.col("Orientation description").fill_null(pl.col("DIRECTION_SK").cast(pl.Utf8)),
+        pl.when(inout.is_in(["IN", "OUT"])).then(pl.concat_str(pl.lit(" ("), inout, pl.lit(")"))).otherwise(pl.lit("")),
+        pl.when("several").then(pl.concat_str(pl.lit(" [counter "), pl.col("Counter ID"), pl.lit("]"))).otherwise(pl.lit("")),
+    )
+    defaults = rest.select("SITE_SK", name.alias("series"), "COUNTER_SK", "DIRECTION_SK", pl.lit(None, pl.Date).alias("start"),
+                           pl.lit(None, pl.Date).alias("end"), pl.col("SITE_SK").alias("match_site"))
+    reviewed = reviewed.with_columns(pl.lit(None, pl.Int16).alias("match_site"))
+    return pl.concat([reviewed, defaults]).sort("SITE_SK", "series", "COUNTER_SK", "DIRECTION_SK")
+
+
+def weekly(final: pl.DataFrame, parts: pl.DataFrame) -> pl.DataFrame:
+    """Bikes per series and week (Monday to Sunday) over the week's complete days; `complete_days` = 7 is a full week.
+
+    A series-day is complete when every part with data that day has COMPLETE_SLOTS valid slots.
+    `direction_unreliable` marks weeks where a reviewer found the split between directions wrong on some day.
+    """
+    x = final.select("SITE_SK", "COUNTER_SK", "DIRECTION_SK", "date", "count", "direction_unreliable").join(
+        parts.rename({"SITE_SK": "series_site"}), on=["COUNTER_SK", "DIRECTION_SK"]
+    ).filter(
+        (pl.col("match_site").is_null() | (pl.col("match_site") == pl.col("SITE_SK")))
+        & (pl.col("start").is_null() | (pl.col("date") >= pl.col("start")))
+        & (pl.col("end").is_null() | (pl.col("date") <= pl.col("end")))
+    )
+    part_day = x.group_by("series_site", "series", "COUNTER_SK", "DIRECTION_SK", "date").agg(
+        pl.col("count").cast(pl.Int64).sum().alias("bikes"), pl.col("count").is_not_null().sum().alias("valid"),
+        pl.col("direction_unreliable").any(),
+    )
+    day = part_day.group_by("series_site", "series", "date").agg(
+        pl.col("bikes").sum(), (pl.col("valid") >= COMPLETE_SLOTS).all().alias("complete"), pl.col("direction_unreliable").any(),
+    )
+    return (
+        day.filter("complete").group_by("series_site", "series", pl.col("date").dt.truncate("1w").alias("week"))
+        .agg(pl.col("bikes").sum(), pl.len().cast(pl.UInt8).alias("complete_days"), pl.col("direction_unreliable").any())
+        .rename({"series_site": "SITE_SK"}).sort("SITE_SK", "series", "week")
+    )
+
+
+def run(raw: Path, out: Path, cache: Path, decisions_csv: Path, series_csv: Path) -> None:
     out.mkdir(parents=True, exist_ok=True)
     slots = load_slots(raw, cache)
-    print(f"{slots.height:,} direction-slots from {slots['records'].cast(pl.Int64).sum():,} raw records")
-    fixed, fixes, even_runs = auto_fix(slots, workdays(raw))
+    print(f"{slots.height:,} direction-slots")
+    fixed, fixes = auto_fix(slots, workdays(raw), raw / "counts")
     fixes.write_csv(out / "fixes.csv")
-    for fix, n in fixed.group_by("fix").len().sort("len", descending=True).iter_rows():
+    review_groups(fixed).sort("review_group", "SITE_SK").write_csv(out / "review_groups.csv")
+    final = apply_decisions(fixed, decisions_csv)
+    for fix, n in final.group_by("fix").len().sort("len", descending=True).iter_rows():
         print(f"  {fix or 'unchanged'}: {n:,} slots")
-    queue = review_queue(fixed, even_runs, raw, events_csv)
-    queue.write_csv(out / "review_queue.csv")
-    print(f"review queue: {queue.height} flags at {queue['SITE_SK'].n_unique()} sites -> {out / 'review_queue.csv'}")
-    for check, n in queue.group_by("check").len().sort("len", descending=True).iter_rows():
-        print(f"  {check}: {n}")
-    final = apply_review(fixed, queue, decisions_csv).select(
+    final = final.select(
         *KEYS, "date", slot_start(pl.col("date"), pl.col("slot")).alias("time"), "workday", "records",
         pl.col("raw").cast(pl.UInt16), pl.col("count").cast(pl.UInt16),
-        pl.col("fix").cast(pl.Enum(FIXES)), pl.col("flags").cast(pl.Categorical), "direction_unreliable", "hourly_binned",
+        pl.col("fix").cast(pl.Enum(FIXES)), "direction_unreliable", "hourly_binned",
     )
     write_parquet(final.sort(*KEYS, "time"), out / "counts_15min.parquet")
     print(f"cleaned counts -> {out / 'counts_15min.parquet'}")
+    parts = series_parts(final, series_csv, raw)
+    parts.write_csv(out / "series.csv")
+    week = weekly(final, parts)
+    write_parquet(week, out / "weekly.parquet")
+    print(f"{week.height:,} series-weeks in {parts.select('SITE_SK', 'series').n_unique():,} series -> {out / 'weekly.parquet'}")
