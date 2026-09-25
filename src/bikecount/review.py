@@ -239,19 +239,24 @@ problems that only move counts between 15-minute slots within a day matter littl
 - A **slot** is a 15-minute interval, 0 (00:00-00:14) to 95 (23:45-23:59), in local Sydney clock time.
 - A **record** is one row as published by TfNSW. `raw` is the sum of a slot's records, as the TfNSW
   dashboard shows it. `count` is after the automatic fixes below; null means set to missing.
-- Records have a status: "good", or "warning" (always a count of 0; TfNSW's marker for missing data).
+- Records have a status: "good", or "warning" (always a count of 0). TfNSW flags many, not all, days
+  with a zero total this way; warning records are treated as zeros like any other.
+- VivaCity cameras publish their slots in UTC. The cleaned data (`clean`, `daily`, `weekly`, ...) is
+  shifted to Sydney time; `raw` and `channels` show the times as published.
+- Some camera feeds leave out zero slots for some zones. Where a camera direction has data in a week
+  but no zero slot, its absent slots on days the camera published anything are added as zeros
+  (`records` = 0).
 - `hourly_binned` marks days where each hour's count sits in one of its four slots and the other
   three are 0 (some early data is hourly).
 - Speeds are reported by some counters only.
 
 ## Automatic fixes already applied (column `fix`)
 
-- `warning`: warning records set to missing.
 - `duplicate_record`: in a slot with more records than the direction usually has that month, extra
   records that exactly repeat other records in the slot are dropped (over runs of days where every
   such slot matches, at least 20 of them non-zero).
 - `duplicate_measurement`: a direction that normally has one record per slot carries a second record
-  that tracks the first slot by slot; the first record is kept.
+  that tracks the first slot by slot; the first record is kept. Not applied to cameras.
 - `halved`: a run of days where every non-zero count is even, at about twice the level of the
   surrounding weeks; counts divided by 2.
 - `impossible_count`: a slot more than 20 times the direction's 99.9th percentile (and at least 200);
@@ -259,7 +264,9 @@ problems that only move counts between 15-minute slots within a day matter littl
 - `zero_outage`: set to missing where the direction's usual pattern implies at least 20 bikes in its
   zeros, and either (a) a stretch of zeros and of bursts of 4 slots or fewer between zeros would
   normally have held at least 80% of a day's bikes and recorded under 10% of them (the bursts are set
-  missing too), or (b) a run of zeros while the counter's other directions carried at least half their
+  missing too), unless the stretch still recorded at least 2% of them and the counter's other directions
+  recorded between 2% and 50% of their usual bikes meanwhile, or (b) a run of pure zeros that would
+  normally have held at least 80% of a day's bikes, or (c) a run of zeros while the counter's other directions carried at least half their
   usual bikes. Other zeros are kept. Not applied to hourly_binned days.
 
 ## What to do

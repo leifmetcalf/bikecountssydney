@@ -54,13 +54,18 @@ is the load date. `Status` is 0 (good) or 1 (warning); warning records always ha
 | `fixes.csv` | Runs fixed automatically (duplicate records, verified doubling, duplicate measurements) |
 | `review_groups.csv` | `SITE_SK` -> review group |
 
-Automatic fixes (see `clean.py`) are the rules reliable enough to apply unseen: warning records,
-duplicate records (extra records that exactly repeat the slot's other records), duplicate measurements,
-verified doubling (even-only runs at ~2x the surrounding level), impossible counts and the rest of that
-counter-day, and zero outages. A zero run counts as an outage only when the counter stopped for most of
-a day's traffic, or when its other directions kept counting meanwhile; shorter lulls in every direction
-at once stay zeros, since rain or a closure empties a path too. Hourly days are exempt. Everything else
-is left to review.
+Before the fixes, two feed quirks are undone: VivaCity cameras publish slots in UTC (shifted to Sydney
+time), and some camera feeds leave out zero slots for some zones (added as zeros, `records` = 0, on days
+the camera published data). Warning records are always 0 and are treated as zeros like any other.
+
+Automatic fixes (see `clean.py`) are the rules reliable enough to apply unseen: duplicate records (extra
+records that exactly repeat the slot's other records), duplicate measurements (not on cameras), verified
+doubling (even-only runs at ~2x the surrounding level), impossible counts and the rest of that
+counter-day, and zero outages. Zeros count as an outage when a whole day's worth of traffic is missing
+(a run of pure zeros, or a stretch recording under 10% of normal while the counter's other directions
+were dead or normal), or when the counter's other directions kept counting normally meanwhile. Lulls where
+every direction is quiet but still counting stay zeros, since rain or a closure empties a path too.
+Hourly days are exempt. Everything else is left to review.
 
 A **series** is one continuous line of counts for one direction of travel at a site. Where a counter
 was replaced, or several counters ran at a site, reviewers define which counter-directions make up

@@ -3,15 +3,20 @@
 The unit is a direction-slot: one direction's count for one 15-minute slot (0-95) of one date, with any
 channel records summed the way the TfNSW dashboard does.
 
+Before the fixes, two quirks of the feeds are undone: VivaCity cameras timestamp in UTC (shifted to Sydney time),
+and some camera feeds leave out zero slots (filled as 0 on days the camera published data). Records with status
+"warning" are always 0; TfNSW flags many zero-total days this way, and they are judged like any other zeros.
+
 Automatic fixes, applied in this order (each only touches slots that still have a count):
-  warning                records with status "warning" (always 0): missing
   duplicate_record       extra records that exactly repeat the slot's other records: dropped
   duplicate_measurement  a single-record direction carrying a second record that tracks the first: keep the first
+                         (not cameras, whose zones can report both directions under one ID)
   halved                 runs where every non-zero count is even and the level is about double its surroundings
   impossible_count       a slot far beyond anything the direction records: missing
   corrupt_day            the rest of a counter-day that produced an impossible count: missing
-  zero_outage            zeros where many bikes were expected, lasting most of a day or while the counter's other
-                         directions kept counting, plus short bursts between two such outages: missing
+  zero_outage            zeros where many bikes were expected, lasting most of a day while the counter's other
+                         directions were dead or normal (not merely quiet), or while they kept counting normally,
+                         plus short bursts between zeros: missing
 
 Some early data is hourly: each hour's count sits in one of its four slots and the other three are 0. Those
 direction-days are marked `hourly_binned` and left out of the zero-outage rule, whose "zeros" they are not.
@@ -28,6 +33,8 @@ import polars as pl
 from .storage import slot_start, write_parquet
 
 KEYS = ["SITE_SK", "COUNTER_SK", "DIRECTION_SK"]
+SYDNEY = "Australia/Sydney"
+UTC_VENDORS = ["VivaCity"]  # cameras whose slots are in UTC: their daily profile peaks at 21-23h and 07-09h
 
 # --- automatic fixes ---------------------------------------------------------
 DUP_TOTAL_RATIO = 1.25  # a second record within this ratio of the first, and
@@ -42,12 +49,13 @@ ZERO_RUN_EXPECTED = 20  # a zero run is an outage once this many bikes would nor
 WHOLE_DAY_SHARE = 0.8  # it held this share of a normal day's traffic and
 OUTAGE_MAX_SHARE = 0.1  # recorded under this share of it, or
 ONE_SIDED_SHARE = 0.5  # the counter's other directions carried this share of their normal traffic meanwhile
+QUIET_MIN_SHARE = 0.02  # every direction still recording this share of normal (others under ONE_SIDED_SHARE): a quiet path
 DUP_RECORD_MIN_PAIRED = 20  # non-zero repeated slots a run of days needs before its extra records count as duplicates
 ISLAND_SLOTS = 4  # non-zero bursts this short between zeros are part of an outage
 OUTAGE_CHUNKS = 8  # the outage rule runs on this many groups of counters in turn
 HOURLY_MIN_NONZERO = 8  # a day whose non-zero slots (at least this many) all share one quarter-hour is hourly data
 
-AUTO_FIXES = ["warning", "duplicate_record", "duplicate_measurement", "halved", "impossible_count", "corrupt_day", "zero_outage"]
+AUTO_FIXES = ["duplicate_record", "duplicate_measurement", "halved", "impossible_count", "corrupt_day", "zero_outage"]
 FIXES = AUTO_FIXES + ["review_missing", "review_halved", "review_restored"]
 ACTIONS = {"keep", "missing", "halve", "direction_unreliable", "restore", "uncertain"}
 COMPLETE_SLOTS = 90  # a day counts as complete with this many of its 96 slots valid
@@ -62,30 +70,62 @@ def build_slots(counts_dir: Path) -> pl.DataFrame:
     its date is `load`, and IDs are only compared within it: TfNSW numbers the rows of each load from 1.
     """
     count = pl.col("TOTAL_15MIN_COUNT")
+    utc = counters(counts_dir.parent).filter(pl.col("Vendor name").is_in(UTC_VENDORS))["COUNTER_SK"].implode()
+    local = (
+        (pl.col("date").cast(pl.Datetime("ms")) + pl.duration(minutes=pl.col("slot").cast(pl.Int64) * 15))
+        .dt.replace_time_zone("UTC").dt.convert_time_zone(SYDNEY)
+    )
+    shift = pl.col("COUNTER_SK").is_in(utc)
     per_load = (
         pl.scan_parquet(counts_dir / "*.parquet")
+        .with_columns(
+            pl.when(shift).then(local.dt.date()).otherwise(pl.col("date")).alias("date"),
+            pl.when(shift).then((local.dt.hour() * 4 + local.dt.minute() // 15).cast(pl.UInt8)).otherwise(pl.col("slot")).alias("slot"),
+        )
         .group_by(*KEYS, "date", "slot", pl.col("ADDED_UPDATED_DATETIME_SYDNEY").alias("load"))
         .agg(
             count.sum().alias("n"),
             pl.len().alias("records"),
             count.sort_by("ID").first().alias("first"),
-            (pl.col("Status") != 0).any().alias("warning"),
         )
     )
     main = pl.col("records", "first", "load").sort_by("n", "load", descending=[True, False]).first()
-    return (
+    slots = (
         per_load.group_by(*KEYS, "date", "slot")
-        .agg(pl.col("n").sum().cast(pl.UInt16).alias("raw"), main, pl.col("warning").any())
+        .agg(pl.col("n").sum().cast(pl.UInt16).alias("raw"), main)
         .with_columns(pl.col("records").cast(pl.UInt8))
-        .sort(*KEYS, "date", "slot")
         .collect(engine="streaming")
     )
+    return fill_absent(slots, counters(counts_dir.parent).filter(pl.col("Technology") == "CAMERA")["COUNTER_SK"])
+
+
+def fill_absent(slots: pl.DataFrame, cameras: pl.Series) -> pl.DataFrame:
+    """Add the slots a camera feed left out, as zeros (`records` 0).
+
+    Some camera feeds stop publishing zero counts for some zones (VivaCity from Feb 2025, several Secure Agility
+    cameras from Oct 2025), later leaving out a zone's whole zero days. A camera direction with data in a week but no
+    zero slot at all is such a feed: on each day of that week on which the camera published anything, its absent
+    slots count 0. Days on which the camera published nothing stay absent.
+    """
+    week = pl.col("date").dt.truncate("1w").alias("week")
+    cam = slots.filter(pl.col("COUNTER_SK").is_in(cameras.implode()))
+    omits = cam.group_by("SITE_SK", "COUNTER_SK", "DIRECTION_SK", week).agg((pl.col("raw") == 0).any().alias("zeros")).filter(~pl.col("zeros"))
+    days = cam.select("COUNTER_SK", "date", week).unique()
+    grid = (
+        omits.join(days, on=["COUNTER_SK", "week"]).drop("week", "zeros")
+        .join(pl.DataFrame({"slot": pl.arange(0, 96, eager=True).cast(pl.UInt8)}), how="cross")
+    )
+    absent = grid.join(slots, on=["DIRECTION_SK", "date", "slot"], how="anti").select(
+        *KEYS, "date", "slot", pl.lit(0, pl.UInt16).alias("raw"), pl.lit(0, pl.UInt8).alias("records"),
+    )
+    return pl.concat([slots, absent], how="diagonal_relaxed").sort(*KEYS, "date", "slot")
 
 
 def load_slots(raw: Path, cache: Path) -> pl.DataFrame:
-    """The slot table, rebuilt only when a raw file is newer than the cached copy."""
+    """The slot table, rebuilt only when a raw file (or this module) is newer than the cached copy."""
     counts_dir = raw / "counts"
-    newest = max(p.stat().st_mtime for p in counts_dir.glob("*.parquet"))
+    inputs = [*counts_dir.glob("*.parquet"), raw / "counters.csv", Path(__file__)]
+    newest = max(p.stat().st_mtime for p in inputs)
     if cache.exists() and cache.stat().st_mtime >= newest:
         return pl.read_parquet(cache)
     slots = build_slots(counts_dir)
@@ -101,6 +141,10 @@ def workdays(raw: Path) -> pl.DataFrame:
         pl.col("Date").str.slice(0, 10).str.to_date().alias("date"),
         (pl.col("Day type") == "Weekday (excl. PH)").alias("workday"),
     )
+
+
+def counters(raw: Path) -> pl.DataFrame:
+    return pl.read_csv(raw / "counters.csv", infer_schema_length=0).select(pl.col("COUNTER_SK").cast(pl.Int16), "Technology", "Vendor name")
 
 
 def with_workday(df: pl.DataFrame, wd: pl.DataFrame) -> pl.DataFrame:
@@ -295,7 +339,10 @@ def outages(s: pl.DataFrame) -> pl.DataFrame:
     """Row index `i` and `out` for slots where a counter stopped counting: two kinds of outage.
 
     - A stretch of zeros, and of short bursts (ISLAND_SLOTS or fewer) between zeros, that held most of a normal day's
-      traffic (WHOLE_DAY_SHARE) of which it recorded under OUTAGE_MAX_SHARE.
+      traffic (WHOLE_DAY_SHARE) of which it recorded under OUTAGE_MAX_SHARE - unless this direction still recorded
+      QUIET_MIN_SHARE and the counter's other directions were quiet but counting too (between QUIET_MIN_SHARE and
+      ONE_SIDED_SHARE of normal): then the whole path was quiet, as in a storm or a closure.
+    - A run of pure zeros that held most of a normal day's traffic (WHOLE_DAY_SHARE).
     - A run of zeros while the counter's other directions kept counting (ONE_SIDED_SHARE of their normal traffic).
     Either needs zeros where ZERO_RUN_EXPECTED bikes would normally have passed. Shorter lulls in every direction at
     once stay zeros: rain or a closure empties a path too.
@@ -316,30 +363,38 @@ def outages(s: pl.DataFrame) -> pl.DataFrame:
     )
     on_zeros = lambda c, by: pl.when("zero").then(pl.col(c)).sum().over(by)
     s = s.with_columns(
-        on_zeros("expected", "zrun").alias("run_exp"), on_zeros("other_n", "zrun").alias("run_other_n"), on_zeros("other_exp", "zrun").alias("run_other_exp"),
+        on_zeros("expected", "zrun").alias("run_exp"), pl.when("zero").then(pl.col("day_exp")).max().over("zrun").alias("run_day_exp"), on_zeros("other_n", "zrun").alias("run_other_n"), on_zeros("other_exp", "zrun").alias("run_other_exp"),
         on_zeros("expected", "stretch").alias("stretch_zero_exp"),
+        pl.col("other_n").sum().over("stretch").alias("stretch_other_n"), pl.col("other_exp").sum().over("stretch").alias("stretch_other_exp"),
         pl.col("expected").sum().over("stretch").alias("stretch_exp"), pl.col("count").cast(pl.Int64).sum().over("stretch").alias("stretch_n"),
         pl.col("day_exp").max().over("stretch").alias("stretch_day_exp"),
         # bursts count only between two zeros of the stretch
         pl.col("zero").cum_sum().over("stretch").alias("zeros_before"), pl.col("zero").cum_sum(reverse=True).over("stretch").alias("zeros_after"),
     )
+    # every direction low but still counting, this one included: the path was quiet (rain, a closure), not the sensor
+    other_share = pl.col("stretch_other_n") / pl.col("stretch_other_exp")
+    quiet_path = (
+        (pl.col("stretch_other_exp") >= ZERO_RUN_EXPECTED) & other_share.is_between(QUIET_MIN_SHARE, ONE_SIDED_SHARE, closed="left")
+        & (pl.col("stretch_n") >= QUIET_MIN_SHARE * pl.col("stretch_exp"))
+    )
     stopped = (
         (pl.col("stretch_zero_exp") >= ZERO_RUN_EXPECTED) & (pl.col("stretch_exp") >= WHOLE_DAY_SHARE * pl.col("stretch_day_exp"))
-        & (pl.col("stretch_n") <= OUTAGE_MAX_SHARE * pl.col("stretch_exp"))
+        & (pl.col("stretch_n") <= OUTAGE_MAX_SHARE * pl.col("stretch_exp")) & ~quiet_path
         & (pl.col("zero") | ((pl.col("zeros_before") > 0) & (pl.col("zeros_after") > 0)))
     )
+    # a whole day's worth of pure zeros: storms and closures leave a few bikes, sparse zones' stretches never end
+    zero_day = pl.col("zero") & (pl.col("run_exp") >= ZERO_RUN_EXPECTED) & (pl.col("run_exp") >= WHOLE_DAY_SHARE * pl.col("run_day_exp"))
     one_sided = (
         pl.col("zero") & (pl.col("run_exp") >= ZERO_RUN_EXPECTED)
         & (pl.col("run_other_exp") >= ZERO_RUN_EXPECTED) & (pl.col("run_other_n") >= ONE_SIDED_SHARE * pl.col("run_other_exp"))
     )
-    return s.select("i", (stopped | one_sided).fill_null(False).alias("out"))
+    return s.select("i", (stopped | zero_day | one_sided).fill_null(False).alias("out"))
 
 
 def auto_fix(slots: pl.DataFrame, wd: pl.DataFrame, counts_dir: Path) -> tuple[pl.DataFrame, pl.DataFrame]:
     """Apply the automatic fixes in order. Returns the slot table with `count` and `fix`, and the fixed runs."""
     slots = with_workday(slots, wd).with_columns(pl.col("raw").alias("count"), pl.lit(None, dtype=pl.Utf8).alias("fix"))
     slots = slots.with_columns(hourly_binned(slots))
-    slots = mark(slots, pl.col("warning"), "warning")
 
     slots = slots.join(duplicate_records(slots, counts_dir), on=["DIRECTION_SK", "date", "slot"], how="left")
     slots = mark(slots, pl.col("dedup").is_not_null(), "duplicate_record", pl.col("dedup").cast(pl.UInt16)).drop("dedup")
@@ -348,7 +403,8 @@ def auto_fix(slots: pl.DataFrame, wd: pl.DataFrame, counts_dir: Path) -> tuple[p
         pl.col("date").min().alias("start"), pl.col("date").max().alias("end"), pl.len().alias("days")
     ).select(*KEYS, "start", "end", "days", pl.lit("duplicate_record").alias("fix"))
 
-    dups = duplicate_runs(slots)
+    cameras = counters(counts_dir.parent).filter(pl.col("Technology") == "CAMERA")["COUNTER_SK"].implode()
+    dups = duplicate_runs(slots.filter(~pl.col("COUNTER_SK").is_in(cameras)))
     slots = slots.join(run_days(dups, "fix").rename({"fix": "dup"}), on=["DIRECTION_SK", "date"], how="left")
     slots = mark(slots, pl.col("dup").is_not_null() & (pl.col("records") == 2), "duplicate_measurement", pl.col("first")).drop("dup")
 
