@@ -1,0 +1,6 @@
+{
+  "group": "G0553",
+  "decisions": [],
+  "series": [],
+  "summary": "Site 553 (George St (E), S of Cleveland St, Redfern) has one Metrocount piezo counter (364) that ran from 2025-10-23 to 2026-09-22 with full coverage: one record per slot, no warnings, no automatic fixes, and no nulls. Daily totals (434-2290 across both directions), odd-slot share (53%), maximum slots (86 N, 69 S) and overnight-only zero runs (17 slots at most) all look normal. The hourly profiles stay the same all year (North/citybound peaks at 08:00, South at 17:00), and the drift from North leading by about 10% to an even split from late January 2026 is gradual, so it looks like real riding rather than a fault. The whole record stands, with one series per direction."
+}

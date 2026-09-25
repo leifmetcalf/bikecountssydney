@@ -24,6 +24,11 @@ the data.
   action to undo one where it was wrong.
 - **TfNSW's own metadata** for the sites, counters and directions, including TfNSW's site comments.
 - **Calendar data** (public and school holidays) and `events.csv`, labelled as a hand-curated list.
+- **A default of trusting the data**: a fault needs a good explanation that the data bears out
+  (the example given is even counts at twice the usual level, which the automatic `halved` fix
+  already describes); small spikes and dips are plausibly noise or real riding. Added after the
+  first round, where reviewers removed single unusual slots, including a group ride that a nearby
+  counter confirmed.
 - **Encouragement to look at the raw 15-minute records** as well as the summaries, because you
   can sometimes learn things from them that summaries don't show.
 - **Tool documentation**: function signatures and neutral placeholder examples.

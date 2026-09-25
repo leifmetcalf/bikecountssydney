@@ -1,0 +1,25 @@
+{
+  "group": "G0097",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 97, "DIRECTION_SK": null, "start": "2012-09-19", "end": "2012-09-19", "confidence": "high",
+     "diagnosis": "Installation day: the counter only recorded the last part of the day, but the earlier zeros are marked good so it looks like a complete day.",
+     "evidence": "1 East / 4 West that day, against 61 / 45 on 2012-09-20 and roughly 45 / 38 per day from Sep to Dec 2012; the neighbouring site 96 starts on 2012-09-20."},
+    {"action": "missing", "SITE_SK": 97, "DIRECTION_SK": null, "start": "2015-03-03", "end": "2015-03-03", "confidence": "medium",
+     "diagnosis": "Restart day after a 26-month warning gap: every slot is zero until 09:00, so the East morning peak is missing.",
+     "evidence": "East 16 / West 30, against 54 / 52 the next day; East usually carries 5-9 bikes an hour between 05:00 and 07:00; the neighbouring site 96 read normally that day (17 / 19)."},
+    {"action": "missing", "SITE_SK": 97, "DIRECTION_SK": null, "start": "2015-03-20", "end": "2015-03-20", "confidence": "medium",
+     "diagnosis": "Restart day after a warning gap (Mar 6-19): every slot is zero until about 08:30, which cuts off the morning peak.",
+     "evidence": "East 28 / West 30, against about 45 on other March 2015 weekdays; site 96 has counts from 05:00 that morning."},
+    {"action": "missing", "SITE_SK": 97, "DIRECTION_SK": null, "start": "2015-07-09", "end": "2015-07-09", "confidence": "medium",
+     "diagnosis": "An isolated day between warning gaps with every slot zero until about 10:30, so the day is only partly counted.",
+     "evidence": "East 16 / West 29, with no counts before 10:30; site 96 also only starts around midday that day, which points to a maintenance visit."},
+    {"action": "missing", "SITE_SK": 97, "DIRECTION_SK": null, "start": "2015-11-19", "end": "2015-11-19", "confidence": "medium",
+     "diagnosis": "Restart day after a warning gap: every slot is zero until about 09:30, so the East morning peak is missing.",
+     "evidence": "East 14 / West 23, against 35-46 East on the following weekdays; site 96 has counts through the morning that day."},
+    {"action": "missing", "SITE_SK": 97, "DIRECTION_SK": null, "start": "2016-11-16", "end": "2016-11-16", "confidence": "medium",
+     "diagnosis": "Restart day after 10 months of warnings: every slot is zero until 11:00, although site 96 recorded bikes from 08:00 to 11:00.",
+     "evidence": "No counts before slot 44 in either direction; site 96, 70 m away, had 8-10 bikes before 11:00 that day."}
+  ],
+  "series": [],
+  "summary": "A single MetroCount piezo on the Fox St shared path. It gave clean data from Sep to Dec 2012, then almost only warnings until Nov 2016, with short spells of data in Mar, Jul and Nov 2015, Jan 2016 and Nov 2016; no automatic fix other than warning applies. The only faults are partial install or restart days whose unrecorded hours carry good-status zeros, and these are set to missing. The low counts on 2016-01-04 to 01-06 and the odd daytime-heavy pattern on 2016-11-17 and 11-18 also appear at the neighbouring site 96, so they are real riding and are kept."
+}

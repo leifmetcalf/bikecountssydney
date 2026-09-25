@@ -1,0 +1,287 @@
+{
+ "group": "G0205",
+ "decisions": [
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2021-08-23",
+   "end": "2021-08-25",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2021-08-24 raw: 205=8, 206=9, 207=4, 198=11, 176=23 (normal days ~600-1400); flagged window 205=123 vs 182-239 scaled from neighbours."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 352,
+   "start": "2021-08-31",
+   "end": "2021-09-01",
+   "confidence": "high",
+   "diagnosis": "Zeros are in the dusk-to-dawn window, when this path is normally empty (hourly means under 1 bike after 18:00 in winter, 0 from 20:00 to 04:00); the other direction and site 207 were equally quiet.",
+   "evidence": "352 zeros start 17:30; 353 went 21 then 1 then 0 at 17:30-18:00; 352 normally 0-5 after 17:30 that fortnight."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 352,
+   "start": "2021-09-07",
+   "end": "2021-09-10",
+   "confidence": "high",
+   "diagnosis": "Zeros are in the dusk-to-dawn window, when this path is normally empty (hourly means under 1 bike after 18:00 in winter, 0 from 20:00 to 04:00); the other direction and site 207 were equally quiet.",
+   "evidence": "352 zeros from 17:30/17:45 to ~05:00 on 09-07/08 and 09-09/10; normal evenings in Sep 2021 show 352 at 0-7 from 17:45 onward."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2021-11-25",
+   "end": "2021-11-27",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2021-11-26 raw: 205=22, 206=23, 207=11, 198=39, 176=47; flagged window 205=116 vs 101-190 scaled."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 352,
+   "start": "2022-03-07",
+   "end": "2022-03-09",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage. (March 2022 floods)",
+   "evidence": "2022-03-08: 352=10, 353=12 (353 not flagged), 206=21, 207=10, 198=31, 176=23."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 352,
+   "start": "2022-04-05",
+   "end": "2022-04-08",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2022-04-07: 352=6, 353=7, 206=8, 207=5, 198=33, 176=27; 2022-04-06: 352=30 vs 353=45."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2022-05-18",
+   "end": "2022-05-19",
+   "confidence": "medium",
+   "diagnosis": "Zeros are in the dusk-to-dawn window, when this path is normally empty (hourly means under 1 bike after 18:00 in winter, 0 from 20:00 to 04:00); the other direction and site 207 were equally quiet.",
+   "evidence": "353 zeros 17:15-06:15; 352 had 15 in the same window, 207 had 5 (scaled 11)."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2022-06-30",
+   "end": "2022-07-07",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage. (early July 2022 floods)",
+   "evidence": "2022-07-02..06: 205 14-23/day, 206 14-23, 207 10-19, 198 10-32, 176 17-42; window 205=180 vs 265-313 scaled."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 352,
+   "start": "2022-09-23",
+   "end": "2022-09-24",
+   "confidence": "high",
+   "diagnosis": "Zeros are in the dusk-to-dawn window, when this path is normally empty (hourly means under 1 bike after 18:00 in winter, 0 from 20:00 to 04:00); the other direction and site 207 were equally quiet.",
+   "evidence": "352 zeros 17:30-06:15; 353 had 14; 207 had 12 (scaled 28)."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2022-10-23",
+   "end": "2022-10-24",
+   "confidence": "medium",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2022-10-24 both directions low (352=48, 353=47); window 205=60 vs 50-86 scaled from 207/198/176."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2023-01-05",
+   "end": "2023-01-07",
+   "confidence": "medium",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2023-01-06: 352=21, 353=27, 206=34, 207=31, 198=62; window 205=51 vs 74-104 scaled."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2023-06-27",
+   "end": "2023-06-29",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2023-06-28: 205=39, 206=30, 207=17, 198=69, 176=85; window 205=47 vs 207-scaled 54."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2023-07-03",
+   "end": "2023-07-05",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2023-07-04: 205=22, 206=14, 207=13, 198=49, 176=69; window 205=74 vs 207-scaled 67."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2023-12-19",
+   "end": "2023-12-21",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2023-12-20: 205=29, 206=26, 207=18, 176=67; window 205=47 vs 207-scaled 53."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2024-04-04",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage. (April 2024 heavy rain)",
+   "evidence": "2024-04-05: 205=15, 207=12, 176=23; window 205=22 vs 207=18 (since Feb 2024 205 and 207 carry the same flow, monthly totals within 1%)."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2024-06-13",
+   "end": "2024-06-14",
+   "confidence": "high",
+   "diagnosis": "Zeros are in the dusk-to-dawn window, when this path is normally empty (hourly means under 1 bike after 18:00 in winter, 0 from 20:00 to 04:00); the other direction and site 207 were equally quiet.",
+   "evidence": "353 zeros 16:45-06:15; 352 had 14, 207 had 19 in the same window."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 352,
+   "start": "2024-06-21",
+   "end": "2024-06-23",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2024-06-22: 352=10, 353=19, 207=28, 176=20; window 205=30 vs 207=30."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2024-08-07",
+   "end": "2024-08-08",
+   "confidence": "high",
+   "diagnosis": "Zeros are in the dusk-to-dawn window, when this path is normally empty (hourly means under 1 bike after 18:00 in winter, 0 from 20:00 to 04:00); the other direction and site 207 were equally quiet.",
+   "evidence": "353 zeros 17:30-06:15; 352 had 11, 207 had 19."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2024-08-21",
+   "end": "2024-08-22",
+   "confidence": "high",
+   "diagnosis": "Zeros are in the dusk-to-dawn window, when this path is normally empty (hourly means under 1 bike after 18:00 in winter, 0 from 20:00 to 04:00); the other direction and site 207 were equally quiet.",
+   "evidence": "353 zeros 17:30-06:00; 352 had 18, 207 had 31."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2024-09-25",
+   "end": "2024-09-27",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2024-09-26: 205=10, 207=10, 176=17; window 205=55 vs 207=58."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2025-03-28",
+   "end": "2025-03-29",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2025-03-29: 205=67, 207=52, 198=56; window 205=23 vs 207=24."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2025-05-22",
+   "end": "2025-05-23",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2025-05-22/23: 352=15/20, 353=15/23, 207=28/50, 198=52/69; window 205=29 vs 207=28."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2025-06-30",
+   "end": "2025-07-03",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2025-07-01: 205=20, 207=23, 198=20, 176=21; window 205=63 vs 207=73."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2025-09-09",
+   "end": "2025-09-11",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2025-09-10: 205=23, 207=22, 198=42, 176=45; window 205=68 vs 207=71."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2025-10-28",
+   "end": "2025-10-30",
+   "confidence": "high",
+   "diagnosis": "Both directions and every nearby counter fell to a few percent of normal together (a weather or flood day), so the zeros are real low riding, not an outage.",
+   "evidence": "2025-10-29: 352=25, 353=19, 207=51, 198=92; window 205=59 vs 207=66."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2026-04-08",
+   "end": "2026-04-11",
+   "confidence": "medium",
+   "diagnosis": "A local closure at the River Walk / Louise Sauvage junction: three separate counters (205, 206, 207) fell together while sites 198 and 176 stayed normal, so the low counts are real.",
+   "evidence": "2026-04-09/10: 205=27/37, 206=15/23, 207=14/19 vs 198=621/508, 176=755/734; window 205=118 vs 207=97."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 205,
+   "DIRECTION_SK": 353,
+   "start": "2026-08-12",
+   "end": "2026-08-13",
+   "confidence": "high",
+   "diagnosis": "Zeros are in the dusk-to-dawn window, when this path is normally empty (hourly means under 1 bike after 18:00 in winter, 0 from 20:00 to 04:00); the other direction and site 207 were equally quiet.",
+   "evidence": "353 zeros 17:30-06:30; 352 had 22, 207 had 35."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 205,
+   "DIRECTION_SK": null,
+   "start": "2024-05-30",
+   "end": "2024-05-30",
+   "confidence": "low",
+   "diagnosis": "205 read ~0 all day while 207 (same flow since Feb 2024) still counted ~50 bikes 05:00-10:00 before both went to 0; this could be a morning dropout at 205 followed by a real closure, so the automatic missing is left in place.",
+   "evidence": "05:00-10:00: 205 = 4 (both dirs) vs 207 = 93; 11:00-19:00 both ~0; site 176 normal (619)."
+  }
+ ],
+ "series": [],
+ "summary": "One Metrocount piezo counter (243) on River Walk has run cleanly since June 2021 with one record per slot, no doubling and no direction problems. Almost every zero_outage fix sits on a rain or flood day, or a local closure, when every nearby counter dropped just as much, or in the dusk-to-dawn hours when this path is always empty; those fixes are restored. Short daytime one-direction dropouts in mid-2021 and on 2022-03-26 stay missing, as does 2024-05-30. The drop in level from Feb 2024 is real: at the same time site 206 went dark and 207 rose to match 205, which looks like the River Walk leg east of the junction closing."
+}

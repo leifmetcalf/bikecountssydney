@@ -1,0 +1,1297 @@
+{
+ "group": "G0389",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 09:00 on the day before the 2023-09-28..10-09 all-direction outage (32 bikes vs ~100-200 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2023-10-10",
+   "end": "2023-10-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 09:00 on the day the camera came back from the 2023-09-28..10-09 outage (70 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: no counts in any direction before 17:00, then 3-4 bikes per hour until midnight (22 bikes vs ~100 usual)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2023-11-29",
+   "end": "2023-11-29",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 17:00 on the day after the 2023-11-21..28 outage (12 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-07",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: counts stop after 08:00 on the day before the 2024-06-08..11 outage (14 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Partial-day camera outage adjoining a whole-counter outage: the counter recorded only part of the day, and the rest shows as good zeros or whole-day warnings.",
+   "evidence": "Whole camera: nothing before 14:00 on the day after the 2024-06-08..11 outage (49 bikes)."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 389,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 390,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 391,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 392,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 393,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 394,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 395,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 396,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 397,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 398,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2023-10-11",
+   "end": "2023-11-09",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2023-11-11",
+   "end": "2023-11-20",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2023-11-30",
+   "end": "2024-06-06",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 399,
+   "DIRECTION_SK": null,
+   "start": "2024-06-13",
+   "end": "2025-06-30",
+   "confidence": "high",
+   "diagnosis": "Up to 2025-06 this camera published a whole day of warning records for any direction that detected no bikes that day; on days the camera was otherwise running these are true zero days, so warning_missing understates completeness (restore to 0).",
+   "evidence": "Warnings are always whole direction-days (never partial days); they cover 45-75% of days on the 1-2 bike/day crossing and footpath zones but only ~3.5% on the busy zones, which only warn on the 24 all-direction outage days; no good day ever totals 0; from 2025-07 warnings stop and zero days simply have no rows. Excluded: all-direction outages 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11, plus the partial days set missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 395,
+   "DIRECTION_SK": 748,
+   "start": "2025-10-21",
+   "end": "2025-10-21",
+   "confidence": "high",
+   "diagnosis": "A stray whole-day warning on a 1-2 bike/day crossing zone on a day the camera was running; it is a zero day.",
+   "evidence": "Only warning after 2025-06-24; the other 21 directions total 151 bikes that day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 396,
+   "DIRECTION_SK": 786,
+   "start": "2024-06-14",
+   "end": "2024-06-14",
+   "confidence": "medium",
+   "diagnosis": "Weekday midday burst in one footpath zone only, with no matching OUT flow anywhere at the intersection, so it is almost certainly misclassified road users (pedestrians or similar), not bikes.",
+   "evidence": "786 = 481 (usual weekday ~30), 400 of them in 11:00-12:30 with 141 in one slot; the camera totals IN 521 vs OUT 75; riders are counted IN and OUT at a camera, so the unmatched excess is phantom."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 396,
+   "DIRECTION_SK": 786,
+   "start": "2024-06-17",
+   "end": "2024-06-17",
+   "confidence": "medium",
+   "diagnosis": "Weekday midday burst in one footpath zone only, with no matching OUT flow anywhere at the intersection, so it is almost certainly misclassified road users (pedestrians or similar), not bikes.",
+   "evidence": "786 = 307, 250 of them in 10:30-12:00; camera IN 321 vs OUT 32; riders are counted IN and OUT at a camera, so the unmatched excess is phantom."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 396,
+   "DIRECTION_SK": 786,
+   "start": "2024-05-24",
+   "end": "2024-09-11",
+   "confidence": "low",
+   "diagnosis": "Smaller weekday midday one-direction bursts of the same kind as 2024-06-14/17 may also be misclassifications.",
+   "evidence": "2024-05-24 133 (74 in 13:30-13:45), 2024-06-20 107, 2024-07-01 118, 2024-09-11 142; camera IN-OUT excess 80-90 on those days vs typically near 0."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 390,
+   "DIRECTION_SK": 759,
+   "start": "2023-07-13",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Step change in detection from 2024-11-08 on this road-lane zone that persists to 2026 and is not seen in the other zones, so data before and after may not be comparable (earlier data probably under-detects road riders).",
+   "evidence": "Mean bikes/day 2.7-3.1 (Dec-Mar 2023/24, Aug-Oct 2024) vs 11-12 (Dec-Mar 2024/25, 2025/26); neighbouring zones 717/786/805 rose only ~10-30%; after the step the weekend 06:00-09:00 road-rider peak appears clearly."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 390,
+   "DIRECTION_SK": 939,
+   "start": "2023-07-13",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Step change in detection from 2024-11-08 on this road-lane zone that persists to 2026 and is not seen in the other zones, so data before and after may not be comparable (earlier data probably under-detects road riders).",
+   "evidence": "Mean bikes/day 7-8 (Dec-Mar 2023/24, Aug-Oct 2024) vs 25-27 (Dec-Mar 2024/25, 2025/26); neighbouring zones 717/786/805 rose only ~10-30%; after the step the weekend 06:00-09:00 road-rider peak appears clearly."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 398,
+   "DIRECTION_SK": 710,
+   "start": "2023-07-13",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Step change in detection from 2024-11-08 on this road-lane zone that persists to 2026 and is not seen in the other zones, so data before and after may not be comparable (earlier data probably under-detects road riders).",
+   "evidence": "Mean bikes/day 7-9 (Dec-Mar 2023/24, Aug-Oct 2024) vs 16-21 (Dec-Mar 2024/25, 2025/26); neighbouring zones 717/786/805 rose only ~10-30%; after the step the weekend 06:00-09:00 road-rider peak appears clearly."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 399,
+   "DIRECTION_SK": 743,
+   "start": "2023-07-13",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Step change in detection from 2024-11-08 on this road-lane zone that persists to 2026 and is not seen in the other zones, so data before and after may not be comparable (earlier data probably under-detects road riders).",
+   "evidence": "Mean bikes/day 0.8-0.9 (Dec-Mar 2023/24, Aug-Oct 2024) vs 2.2-2.9 (Dec-Mar 2024/25, 2025/26); neighbouring zones 717/786/805 rose only ~10-30%; after the step the weekend 06:00-09:00 road-rider peak appears clearly."
+  }
+ ],
+ "series": [],
+ "summary": "One Secure Agility camera (286) at Lawrence Hargrave Dr / Rawson St, Coledale, split into 11 zones with 22 directions; most crossing and footpath zones carry only 1-2 bikes a day and the busiest (786) ~35. Until mid-2025 the camera published zero-bike direction-days as whole-day warnings, which should be restored to 0; genuine outages are 2023-09-28..10-09, 2023-11-21..28 and 2024-06-08..11 plus partial edge days. The Sydney to the Gong rides (2024-11-03, 2025-11-02) are real; two phantom bursts on 786 in June 2024 should go; the road-lane zones 759/939/710/743 step up from 2024-11-08, apparently a detection change."
+}

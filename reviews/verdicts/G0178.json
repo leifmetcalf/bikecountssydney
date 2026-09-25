@@ -1,0 +1,28 @@
+{
+  "group": "G0178",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 178, "DIRECTION_SK": 113, "start": "2015-04-03", "end": "2015-04-05", "confidence": "high",
+      "diagnosis": "zero_outage removed real low counts over a wet Easter weekend; both directions and the neighbouring Shrimptons Ck counter collapsed the same way.",
+      "evidence": "Raw 113/114 on 3-5 Apr: 49/13, 8/6, 104/50; site 177 on the same days: 13+16, 9+5, 76+74, against about 200 on normal days."},
+    {"action": "restore", "SITE_SK": 178, "DIRECTION_SK": 113, "start": "2016-06-05", "end": "2016-06-06", "confidence": "high",
+      "diagnosis": "zero_outage removed real near-zero riding during the June 2016 East Coast Low storm.",
+      "evidence": "Raw 113/114 on 5 Jun: 2/1; site 177: 0/1; 6 Jun 90/60 against 60/59 at site 177."},
+    {"action": "restore", "SITE_SK": 178, "DIRECTION_SK": 113, "start": "2016-06-18", "end": "2016-06-20", "confidence": "high",
+      "diagnosis": "zero_outage removed real low weekend counts, probably from rain; the other direction and site 177 were just as low.",
+      "evidence": "Raw 113/114 on 18-19 Jun: 27/28 and 13/9; site 177: 42/39 and 11/11."},
+    {"action": "restore", "SITE_SK": 178, "DIRECTION_SK": 114, "start": "2017-06-06", "end": "2017-06-11", "confidence": "high",
+      "diagnosis": "zero_outage removed a real week of very low riding; 113 (kept) and site 177 fell by the same amount at the same time.",
+      "evidence": "Raw 114 on 7-10 Jun: 10, 5, 4, 14; 113: 22, 10, 18, 15; site 177 totals 51, 42, 88, 38; normal weekdays are about 280 here and 175 at 177."},
+    {"action": "restore", "SITE_SK": 178, "DIRECTION_SK": null, "start": "2018-11-27", "end": "2018-11-29", "confidence": "high",
+      "diagnosis": "zero_outage removed real low counts during the 28 Nov 2018 Sydney record rainstorm.",
+      "evidence": "Raw 113/114 on 28 Nov: 18/10; site 177: 11/10; both sites recovered to 70/44 and 67/62 on 29 Nov."},
+    {"action": "restore", "SITE_SK": 178, "DIRECTION_SK": 113, "start": "2019-03-15", "end": "2019-03-18", "confidence": "medium",
+      "diagnosis": "zero_outage removed low weekend counts that the unflagged other direction confirms; the likely cause is wet weather.",
+      "evidence": "Raw 113/114 on 16-17 Mar: 13/15 and 6/3 (114 kept); site 177 also low at 30/29 and 21/21."},
+    {"action": "restore", "SITE_SK": 178, "DIRECTION_SK": 114, "start": "2024-11-29", "end": "2024-12-01", "confidence": "medium",
+      "diagnosis": "zero_outage removed a real low Saturday, probably wet; 113 was also low and site 177 was well below normal.",
+      "evidence": "Raw 113/114 on 30 Nov: 18/4; 29 Nov: 36/38 while site 177 had 36/35; site 177 on 30 Nov: 35/34."}
+  ],
+  "series": [],
+  "summary": "One Metrocount piezo counter, running from Aug 2014 to Sep 2026 with one record per slot and no duplication or halving. A 15 Dec 2023 to 5 Nov 2024 run of zeros is correctly set to missing. Most zero_outage fixes removed real storm or rain lows that the neighbouring Shrimptons Ck counter (site 177) confirms, so they are restored. The level after 2024 is about 10% below late 2023 while site 177 rose, but the hourly profiles and direction split are unchanged, so it is kept as is."
+}

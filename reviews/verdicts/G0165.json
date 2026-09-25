@@ -1,0 +1,15 @@
+{
+  "group": "G0165",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 165, "DIRECTION_SK": null, "start": "2023-10-10", "end": "2023-10-19",
+      "confidence": "high",
+      "diagnosis": "Counter outage: both directions stop at 07:00 on 10 Oct (the East direction's all-day zeros were not caught by zero_outage), warning records run from 11 to 18 Oct, and counting only resumes around 14:30 on 19 Oct.",
+      "evidence": "10 Oct East raw 13 (all before 07:00, then 68 straight zero slots on a weekday vs ~110-140/day around it); West 3; 11-18 Oct all warnings; 19 Oct zeros until 14:30 in both directions (East 43, West 57 for the day vs 150/92 on 20 Oct)."},
+    {"action": "missing", "SITE_SK": 165, "DIRECTION_SK": null, "start": "2024-04-23", "end": "2024-04-23",
+      "confidence": "high",
+      "diagnosis": "Last day of the record is partial: both directions read zero from 10:30 onward, consistent with the tube counter being removed.",
+      "evidence": "Slots 42-95 all zero in both directions; day total 59 East / 17 West vs 114 / 90 the previous day."}
+  ],
+  "series": [],
+  "summary": "Single temporary Metrocount tube counter (162) on the Sydney Park Rd bicycle path, June 2021 to April 2024, with a clean, consistent record and one record per slot throughout. The automatic halving of 19 Feb 2022 is correct (every non-zero slot even, 282 vs ~130 bikes); low days elsewhere (e.g. 2-4 Jul 2022, Mar 2022) fall in both directions proportionally and look like wet weather. Only the October 2023 outage (including the uncaught zero day on 10 Oct and the partial restart day 19 Oct) and the partial final day need setting to missing; with one counter, each direction is its own series."
+}

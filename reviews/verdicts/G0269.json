@@ -1,0 +1,25 @@
+{
+  "group": "G0269",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 269, "DIRECTION_SK": 346, "start": "2020-02-09", "end": "2020-02-09", "confidence": "medium",
+      "diagnosis": "zero_outage removed a genuine near-empty day during the February 2020 Sydney deluge; the counter was working and the other direction's matching low count was kept.",
+      "evidence": "raw 346=6 (spread over 4 hours), 347=11 kept; Anzac Pde (106) 7 vs ~700 normal, Bourke St (554) 137 vs ~1300; 7-8 Feb also low at all sites."},
+    {"action": "restore", "SITE_SK": 269, "DIRECTION_SK": 346, "start": "2021-03-14", "end": "2021-03-14", "confidence": "medium",
+      "diagnosis": "zero_outage removed a genuine wet-day low count; neighbours fell by the same proportion.",
+      "evidence": "raw 346=15 over 7 hours, 347=16 kept; site total 31 vs 753 day before; Anzac Pde 29 (vs 262-682), Prince Alfred Pk 133 (vs 626-1172), Buckland St 3."},
+    {"action": "restore", "SITE_SK": 269, "DIRECTION_SK": null, "start": "2021-03-20", "end": "2021-03-20", "confidence": "medium",
+      "diagnosis": "zero_outage removed genuine low counts on the first day of the March 2021 flood rains; the following wet days (21-23 Mar) at the same low level were kept.",
+      "evidence": "raw 346=5, 347=5 (only 1 kept); 21-23 Mar 56/77/104 bikes; Prince Alfred Pk 84, Buckland St 2 on 20 Mar."},
+    {"action": "uncertain", "SITE_SK": 269, "DIRECTION_SK": null, "start": "2021-12-07", "end": "2021-12-07", "confidence": "low",
+      "diagnosis": "A single day of data inside a 25-day both-direction outage (17 Nov-11 Dec 2021) with a daily total at a normal level but an hourly profile shifted several hours early, suggesting a clock fault or buffered data dump.",
+      "evidence": "total 550 (346=220, 347=330) vs ~550-650 normal weekday; 347 peaks 02-03h (44, 54) vs normal 05-07h; 346 peaks 05h (55) vs normal 07h; nothing after 17h."},
+    {"action": "uncertain", "SITE_SK": 269, "DIRECTION_SK": null, "start": "2022-03-26", "end": "2022-03-26", "confidence": "low",
+      "diagnosis": "Isolated day of data while the failing counter was otherwise reporting zeros; profile is plausible but level is low relative to neighbours.",
+      "evidence": "284 bikes (Sat) vs ~800 typical weekend; ratio to Bourke St 554 0.33 vs usual ~0.45-0.5; 25, 27, 29-31 Mar all zero."},
+    {"action": "missing", "SITE_SK": 269, "DIRECTION_SK": null, "start": "2022-03-28", "end": "2022-03-28", "confidence": "medium",
+      "diagnosis": "Partial-day report from the failing counter: the whole weekday morning peak is zero in both directions, so the day total is an undercount.",
+      "evidence": "05:00-07:59 zero both directions (normal weekday 05-08h ~150 bikes combined) and 09h zero; total 262 vs ~550-650; ratio to Bourke St 0.25; surrounding days zero."}
+  ],
+  "series": [],
+  "summary": "Single Ecocounter piezo (counter 236) at South Dowling St with two directions, data reported hourly in the first slot of each hour throughout, and consistent levels and direction split (N/S ~0.72) from June 2019 to mid-November 2021. Automatic fixes correctly removed the 17 Nov-11 Dec 2021 outage, the 16-17 Feb 2022 partial days and the failing period from late February 2022, but also removed genuine storm-day lows on 9 Feb 2020, 14 Mar 2021 and 20 Mar 2021, which should be restored. The isolated days of data inside the outages (7 Dec 2021 with a shifted profile, 26 and 28 Mar 2022) are doubtful; 28 Mar 2022 is missing its morning peak and should be set to missing."
+}

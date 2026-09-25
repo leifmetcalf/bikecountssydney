@@ -1,0 +1,1104 @@
+{
+ "group": "G0464",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 464,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 465,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 467,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 468,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 469,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 470,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 471,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 473,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 474,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera only began counting about 17:00, so the day's zeros before then are not observations.",
+   "evidence": "First non-zero slot in every zone is 17:00-19:00 on 2024-03-25; camera total 161 vs ~340-450 on following days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 464,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 464,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 465,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 465,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-08",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2025-01-17",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 467,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 467,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 468,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 468,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 469,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 469,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 470,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 470,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 471,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 471,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 473,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 473,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 474,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-09-27",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 474,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2025-06-30",
+   "confidence": "medium",
+   "diagnosis": "Until mid-2025 TfNSW marked every whole day with a zero total in a zone as 'warning'; with the rest of the camera counting normally these are genuine zero days (after July 2025 such days are simply not published).",
+   "evidence": "Every warning covers a full 96-slot day and there is not one non-warning zero day in any zone in the whole record; warnings hit mainly the 1-2 bikes/day zones (e.g. 1347/1393 on ~45% of days, 1328 on 56% before Nov 2024) while other zones on the same days counted normally. The camera-wide outage 2024-09-28..10-03 (all 22 zones zero) is excluded."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 464,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 465,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 467,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 468,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 469,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 470,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 471,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 473,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 474,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "medium",
+   "diagnosis": "Camera detection level before 2024-11-08 appears lower than afterwards; counts may be undercounts and are not comparable with later data (split into separate series).",
+   "evidence": "Nearly every zone rose overnight on 2024-11-08 (e.g. 1275 39->113, 1289 29->64, 1206 16->32, 1270 11->27, 1295 8->18; camera 371->640) and held that level for two years; mid-2024 camera totals fell to ~130/day vs ~400 in April 2024."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2026-07-25",
+   "end": "2026-08-14",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Sydney Park Rd west road zone during what looks like works at the intersection: bursts in both directions in working hours with no matching flow in any adjacent zone.",
+   "evidence": "1251 rose from ~60/day to 266-744/day (week 2026-07-27 2744 vs ~300-400), 1275 from ~75 to 186-528/day, with paired bursts of 20-48 per 15 min (e.g. 2026-07-29 08:15-09:00, 2026-08-04 13:00 113 in an hour); 471, 465, 464 and 473/1322 unchanged."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2026-08-15",
+   "end": "2026-08-28",
+   "confidence": "low",
+   "diagnosis": "Tail of the works period: westbound still somewhat high and eastbound unusually low; may be real diversion or residual detection problems.",
+   "evidence": "1251 43-95/day vs ~40-60 in Sep 2026; 1275 11-43/day vs ~50-70 before and after."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 473,
+   "DIRECTION_SK": 1209,
+   "start": "2026-07-25",
+   "end": "2026-08-28",
+   "confidence": "low",
+   "diagnosis": "Mitchell Rd north-east departures fell to about a quarter for five weeks while the opposite direction was unaffected; could be a lane closure during works or lost tracking in an obstructed zone.",
+   "evidence": "1209 12-34/day (from ~80-100) from 2026-07-25 to 08-28, back to 72-103 from 08-29; 1322 steady at ~25-50/day."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2024-09-09",
+   "end": "2025-01-16",
+   "confidence": "low",
+   "diagnosis": "The Mitchell Rd NW path zone recorded almost nothing for four months (path closure or dead zone), so its warning days are left missing rather than restored.",
+   "evidence": "1290 and 1354 fell from ~2-4/day to ~0 (mostly warning zero days, 70-80% of slots), unaffected by the 2024-11-08 step, and resumed from 2025-01-17."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 464,
+   "name": "Sydney Park Rd parking crossing, eastbound - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1292,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 464,
+   "name": "Sydney Park Rd parking crossing, eastbound - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1292,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 464,
+   "name": "Sydney Park Rd parking crossing, westbound - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1386,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 464,
+   "name": "Sydney Park Rd parking crossing, westbound - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1386,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 465,
+   "name": "Sydney Park Rd north path W of Mitchell Rd, westbound (out) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1347,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 465,
+   "name": "Sydney Park Rd north path W of Mitchell Rd, westbound (out) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1347,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 465,
+   "name": "Sydney Park Rd north path W of Mitchell Rd, eastbound (in) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1393,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 465,
+   "name": "Sydney Park Rd north path W of Mitchell Rd, eastbound (in) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1393,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 466,
+   "name": "Mitchell Rd NW path, north-east (out) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1290,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 466,
+   "name": "Mitchell Rd NW path, north-east (out) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1290,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 466,
+   "name": "Mitchell Rd NW path, south-west (in) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1354,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 466,
+   "name": "Mitchell Rd NW path, south-west (in) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1354,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 467,
+   "name": "Mitchell Rd crossing, eastbound - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1289,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 467,
+   "name": "Mitchell Rd crossing, eastbound - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1289,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 467,
+   "name": "Mitchell Rd crossing, westbound - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1340,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 467,
+   "name": "Mitchell Rd crossing, westbound - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1340,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 468,
+   "name": "Mitchell Rd SE path, north-east (out) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1328,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 468,
+   "name": "Mitchell Rd SE path, north-east (out) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1328,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 468,
+   "name": "Mitchell Rd SE path, south-west (in) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1359,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 468,
+   "name": "Mitchell Rd SE path, south-west (in) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1359,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 469,
+   "name": "Sydney Park Rd north path E of Mitchell Rd, eastbound (out) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1288,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 469,
+   "name": "Sydney Park Rd north path E of Mitchell Rd, eastbound (out) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1288,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 469,
+   "name": "Sydney Park Rd north path E of Mitchell Rd, westbound (in) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1404,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 469,
+   "name": "Sydney Park Rd north path E of Mitchell Rd, westbound (in) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1404,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 470,
+   "name": "Sydney Park Rd crossing E of Mitchell Rd, southbound - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1313,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 470,
+   "name": "Sydney Park Rd crossing E of Mitchell Rd, southbound - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1313,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 470,
+   "name": "Sydney Park Rd crossing E of Mitchell Rd, northbound - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1379,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 470,
+   "name": "Sydney Park Rd crossing E of Mitchell Rd, northbound - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1379,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 471,
+   "name": "Sydney Park Rd parking access, northbound (in) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1252,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 471,
+   "name": "Sydney Park Rd parking access, northbound (in) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1252,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 471,
+   "name": "Sydney Park Rd parking access, southbound (out) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1295,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 471,
+   "name": "Sydney Park Rd parking access, southbound (out) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1295,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 472,
+   "name": "Sydney Park Rd road W of Mitchell Rd, westbound (out) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1251,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 472,
+   "name": "Sydney Park Rd road W of Mitchell Rd, westbound (out) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1251,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 472,
+   "name": "Sydney Park Rd road W of Mitchell Rd, eastbound (in) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1275,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 472,
+   "name": "Sydney Park Rd road W of Mitchell Rd, eastbound (in) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1275,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 473,
+   "name": "Mitchell Rd road N of Sydney Park Rd, north-east (out) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1209,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 473,
+   "name": "Mitchell Rd road N of Sydney Park Rd, north-east (out) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1209,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 473,
+   "name": "Mitchell Rd road N of Sydney Park Rd, south-west (in) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1322,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 473,
+   "name": "Mitchell Rd road N of Sydney Park Rd, south-west (in) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1322,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 474,
+   "name": "Sydney Park Rd road E of Mitchell Rd, westbound (in) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1206,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 474,
+   "name": "Sydney Park Rd road E of Mitchell Rd, westbound (in) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1206,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  },
+  {
+   "SITE_SK": 474,
+   "name": "Sydney Park Rd road E of Mitchell Rd, eastbound (out) - to 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1270,
+     "start": null,
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "Camera C0001601 zone; nearly every zone of the camera stepped up 1.5-2.5x overnight on 2024-11-08 (camera total 371 on 11-07 -> 640 on 11-08, sustained), a detection/configuration change, so earlier counts are kept as a separate series."
+  },
+  {
+   "SITE_SK": 474,
+   "name": "Sydney Park Rd road E of Mitchell Rd, eastbound (out) - from 2024-11-08",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1270,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "Camera C0001601 zone after the 2024-11-08 detection step; level consistent through 2026-09."
+  }
+ ],
+ "summary": "One Secure Agility camera (C0001601) at Sydney Park Rd & Mitchell Rd, St Peters, with 11 zones and 22 directions from 2024-03-25. The record is mostly sound: the installation day is dropped, TfNSW 'warning' days (whole zero days in a working camera) are restored as zeros, and false detections in the Sydney Park Rd west road zone during apparent works in late July to mid August 2026 are set missing. A camera-wide step up of about 1.8x on 2024-11-08 marks a detection change, so each direction is split into series before and after that date."
+}

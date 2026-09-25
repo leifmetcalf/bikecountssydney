@@ -1,0 +1,64 @@
+{
+  "group": "G0161",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 161, "DIRECTION_SK": null, "start": "2022-02-11", "end": "2022-05-27", "confidence": "medium",
+     "diagnosis": "Counter 106 began undercounting on 11 Feb 2022, with the north-east direction hit hardest, and did not recover before the counter was replaced.",
+     "evidence": "Site 161 relative to Alexandra Canal (159, same counter throughout): 0.86-1.17 daily and 0.9-1.07 weekly to 10 Feb, then 0.45 on 12, 14 and 15 Feb and 0.37-0.51 weekly until 23 May. Relative to Hawthorne Canal (162): about 1.1, then 0.5-0.8. Dir 75/76 fell from about 0.9 to 0.55-0.65. Replacement counter 163 puts the site back at about 1.1 times site 162 and 0.75-0.8 times site 159."},
+    {"action": "missing", "SITE_SK": 161, "DIRECTION_SK": 511, "start": "2024-01-12", "end": "2024-02-08", "confidence": "medium",
+     "diagnosis": "The north-east direction of counter 163 dropped counts on and off while the south-west direction kept reading normally.",
+     "evidence": "Normally 511 is about 0.9 of 509. In this period it read 27-60 on many days while 509 read 150-335, for example 23 Jan (37 vs 192), 25 Jan (27 vs 158) and 1 Feb (27 vs 153). Site 509 against site 162 stayed near its usual 0.5. The fault cleared on 9 Feb (168 vs 202)."},
+    {"action": "missing", "SITE_SK": 161, "DIRECTION_SK": 511, "start": "2024-04-16", "end": "2024-04-24", "confidence": "medium",
+     "diagnosis": "The same one-direction dropout on 511 came back before the counter failed completely.",
+     "evidence": "511/509 fell to 42/121, 22/128, 103/241, 79/174 and 101/211, against about 0.9 before 15 Apr."},
+    {"action": "missing", "SITE_SK": 161, "DIRECTION_SK": null, "start": "2024-04-25", "end": "2024-04-28", "confidence": "high",
+     "diagnosis": "The whole counter failed from the afternoon of 25 Apr until the warning outage on 29 Apr, and the zero_outage fix caught only part of it.",
+     "evidence": "509 had 0-3 per hour after 16:00 on 25 Apr. 26-28 Apr totals were 42, 32 and 7 against 322-511 at site 162 and 413-580 at site 159."},
+    {"action": "missing", "SITE_SK": 161, "DIRECTION_SK": null, "start": "2024-05-09", "end": "2024-05-09", "confidence": "low",
+     "diagnosis": "Both directions went to zero from mid-afternoon on the day before the 10-15 May warning outage.",
+     "evidence": "Every hour after 15:00 was 0 in both directions, and the day total was 70 against 214 at site 162. The afternoon is normally the south-west direction's peak."},
+    {"action": "missing", "SITE_SK": 161, "DIRECTION_SK": 511, "start": "2024-06-17", "end": "2024-07-05", "confidence": "medium",
+     "diagnosis": "The north-east direction dropped counts on and off again, until the service outage of 6-10 Jul.",
+     "evidence": "511/509 was 50/94, 30/115, 29/137, 36/121, 71/183, 20/88 and 14/69, against about 0.9 before (239/232 on 16 Jun) and after (90/125 to 142/149 from 11 Jul)."},
+    {"action": "uncertain", "SITE_SK": 161, "DIRECTION_SK": 509, "start": "2024-07-01", "end": "2024-07-05", "confidence": "low",
+     "diagnosis": "The south-west direction may also have been under-reading in the week before the service outage.",
+     "evidence": "509/site 162 was 0.33-0.60 on 1-5 Jul, against about 0.5-0.78 either side. This is not clearly beyond weather noise."},
+    {"action": "missing", "SITE_SK": 161, "DIRECTION_SK": 511, "start": "2024-09-03", "end": "2024-09-07", "confidence": "medium",
+     "diagnosis": "The north-east direction dropped counts again, until the 8-12 Sep outage.",
+     "evidence": "511/509 was 105/140 (partly zero_outage), 109/173, 35/150, 47/162 and 79/206, against about 0.9 before and after."},
+    {"action": "missing", "SITE_SK": 170, "DIRECTION_SK": null, "start": "2022-10-03", "end": "2022-10-31", "confidence": "medium",
+     "diagnosis": "Counter 164 began to fail on the afternoon of 3 Oct 2022, and the east direction almost stopped registering, until the counter was removed.",
+     "evidence": "Site 170/site 542 was 0.21-0.26 weekly for the whole of 2022 to Sep, then 0.11, 0.09, 0.13 and 0.15. Relative to site 168 it went from 1.02-1.13 to 0.41-0.62. Dir 88 was 9-29 a day on 4-17 Oct, against about 0.45 of 87 before; after that it was about 0.25 of 87."},
+    {"action": "uncertain", "SITE_SK": 170, "DIRECTION_SK": null, "start": "2022-08-02", "end": "2022-08-06", "confidence": "low",
+     "diagnosis": "Counts dropped for five weekdays in a way that looks like a daytime obstruction or works, either a real diversion or a counter problem.",
+     "evidence": "Both directions were 0-2 per hour from 10:00 to 15:00 and the west-bound AM peak was 9 against 47 on 1 Aug. Site 170/site 542 was 0.16 that week against 0.23-0.26 in the weeks either side, while sites 542 and 168 were normal."}
+  ],
+  "series": [
+    {"SITE_SK": 161, "name": "North East (citybound)", "confidence": "medium",
+     "parts": [
+       {"COUNTER_SK": 106, "DIRECTION_SK": 76, "start": "2021-02-23", "end": "2021-11-04"},
+       {"COUNTER_SK": 106, "DIRECTION_SK": 75, "start": "2021-11-05", "end": "2022-05-27"},
+       {"COUNTER_SK": 163, "DIRECTION_SK": 511, "start": null, "end": null}
+     ],
+     "evidence": "Counter 106's direction labels swapped around 4/5 Nov 2021. Before that, dir 76 (labelled SW) had the AM peak (AM/PM 2-3.6 pre-lockdown) and was about 0.85 of dir 75. From 5 Nov, dir 75 (NE) has the AM peak (AM/PM 1.6-2.9), matching counter 163's dir 511 (NE, AM/PM 2-4, about 0.9 of 509). Counter 106 ended 27 May 2022 and counter 163 started 29 May 2022. Site 161 read about 1.1 times the Hawthorne Canal counts (site 162) before and after the swap, so the counters look comparable. Against site 159 the counters differ by about 15%, but site 162 fell by the same amount relative to 159."},
+    {"SITE_SK": 161, "name": "South West", "confidence": "medium",
+     "parts": [
+       {"COUNTER_SK": 106, "DIRECTION_SK": 75, "start": "2021-02-23", "end": "2021-11-04"},
+       {"COUNTER_SK": 106, "DIRECTION_SK": 76, "start": "2021-11-05", "end": "2022-05-27"},
+       {"COUNTER_SK": 163, "DIRECTION_SK": 509, "start": null, "end": null}
+     ],
+     "evidence": "This series mirrors the north-east one. Before 5 Nov 2021, counter 106's dir 75 (labelled NE) carried the PM-peaked, slightly larger flow. After that, dir 76 carries it, as does counter 163's dir 509 (SW, PM peak, AM/PM about 0.5-0.7)."},
+    {"SITE_SK": 170, "name": "West (citybound)", "confidence": "high",
+     "parts": [
+       {"COUNTER_SK": 163, "DIRECTION_SK": 85, "start": null, "end": null},
+       {"COUNTER_SK": 164, "DIRECTION_SK": 87, "start": null, "end": null}
+     ],
+     "evidence": "Counter 164 replaced 163 after a two-week gap (12-26 Oct 2021). Both West directions have a strong 8am peak and are about 2.2-2.5 times the East flow. Site 170 was about 1.18-1.22 times site 168 on counter 163 (May-Jun 2021) and 1.13-1.19 times on counter 164 (Nov 2021-Jan 2022)."},
+    {"SITE_SK": 170, "name": "East", "confidence": "high",
+     "parts": [
+       {"COUNTER_SK": 163, "DIRECTION_SK": 86, "start": null, "end": null},
+       {"COUNTER_SK": 164, "DIRECTION_SK": 88, "start": null, "end": null}
+     ],
+     "evidence": "Both East directions peak at 17-18h and have matching profiles and levels (about 100-110 a day on weekdays). The site as a whole reads the same against site 168 on both counters."}
+  ],
+  "summary": "Site 161 (Cooks River at Steel Park) used tube counter 106 until May 2022 and then counter 163. Counter 106 swapped its direction labels around 5 Nov 2021, so the series undo the swap, and it under-read by about half from 11 Feb 2022 until it was replaced. Counter 163's north-east tube kept losing counts in bouts in 2024 (Jan-Feb, Apr, Jun-Jul, Sep), and the whole counter failed in late April 2024. At site 170 (Fitzroy St), counters 163 and 164 read consistently in turn, except for a failure of counter 164 in October 2022 before it was removed."
+}

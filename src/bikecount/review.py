@@ -268,6 +268,11 @@ Review the group's whole record. Record a decision for every period whose data s
 for anything you cannot settle. Periods you do not mention are kept as they are. Real changes
 (weather, holidays, closures, new infrastructure, events) are not faults.
 
+Assume the data is correct unless you have a good explanation of how it went wrong, and the data
+bears that explanation out. For example, every count being even at twice the usual level is strong
+evidence of double counting. Small spikes and dips are plausibly noise or real riding, and are not
+faults just because they are unusual.
+
 Actions:
 - `missing`: the values are wrong and cannot be recovered; set them to missing.
 - `halve`: the values are exactly doubled.

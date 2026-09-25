@@ -1,0 +1,20 @@
+{
+  "group": "G0545",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 545, "DIRECTION_SK": null, "start": "2026-02-26", "end": "2026-02-27",
+      "confidence": "high",
+      "diagnosis": "Counter 358 dropped out in both directions from about 20:45 on 26 Feb to midnight and again from 14:00 on 27 Feb to early 28 Feb; the zeros were left in place (except part of the south direction) and the days are far too low.",
+      "evidence": "Site total vs Castlereagh St N of Bathurst (557), normally 0.93-1.04 (0.98 on weekdays): 0.79 on 26 Feb (968 vs 1225) and 0.28 on 27 Feb (302 vs 1090). In 2-hour blocks on 27 Feb from 14:00 to 24:00, 545 counted 0,0,7,0,0 while 557 counted 150-176 and 544 counted 248-424. There is also a stray 36 in the 00:00 south slot on 27 Feb. The ratio is back to 1.02 on 28 Feb."}
+  ],
+  "series": [
+    {"SITE_SK": 545, "name": "Northbound (citybound)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 227, "DIRECTION_SK": 338, "start": null, "end": null},
+                {"COUNTER_SK": 358, "DIRECTION_SK": 1753, "start": null, "end": null}],
+      "evidence": "Replacement piezo at the same site after a gap from Apr to Oct 2025 (no overlap). Weekday ratio to King St counter 329, which ran continuously: 0.96-1.05 in Dec 2024-Apr 2025 vs 1.03/1.02 in Oct/Nov 2025. Ratio to Pitt St counter 332: 1.07-1.17 before vs 1.13/1.11 after. N/S split 0.84 (Mar 2025) vs 0.85 (Nov 2025)."},
+    {"SITE_SK": 545, "name": "Southbound", "confidence": "high",
+      "parts": [{"COUNTER_SK": 227, "DIRECTION_SK": 339, "start": null, "end": null},
+                {"COUNTER_SK": 358, "DIRECTION_SK": 1754, "start": null, "end": null}],
+      "evidence": "Same replacement as northbound. Level against continuously running neighbours (329, 332) is unchanged across the 2025 gap, and the split between directions is kept."}
+  ],
+  "summary": "Castlereagh St (Haymarket) was counted by 4-channel Ecocounter piezo 227 from 2016 to Jun 2025 and by Metrocount piezo 358 from Oct 2025; comparisons with continuously running neighbours show the two read alike, so each direction forms one series. The automatic fixes (exact duplicate loads 2022-2024, outages in Jan 2021 and Apr-Jun 2025) are right. The only fault they missed is a two-part outage on 26-27 Feb 2026, now set to missing."
+}

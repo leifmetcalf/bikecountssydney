@@ -1,0 +1,474 @@
+{
+ "group": "G0404",
+ "decisions": [
+  {
+   "action": "halve",
+   "SITE_SK": 404,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera duplicate load on 2024-08-04: every non-zero slot is even at about twice the usual level; the automatic fix halved only sites 405 and 422.",
+   "evidence": "1176: 36 bikes in 16 non-zero slots, all even (median 13); 1142: 10 in 4, all even; normally only 10-32% of non-zero slots are even, and every zone of camera 301 is all-even that day"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 406,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera duplicate load on 2024-08-04: every non-zero slot is even at about twice the usual level; the automatic fix halved only sites 405 and 422.",
+   "evidence": "1138: 46 in 17 slots all even (median 25); 1140: 10 in 4 all even; normally only 10-32% of non-zero slots are even, and every zone of camera 301 is all-even that day"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 411,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera duplicate load on 2024-08-04: every non-zero slot is even at about twice the usual level; the automatic fix halved only sites 405 and 422.",
+   "evidence": "1157: 44 in 16 slots all even (median 22); 1105: 26 in 10 all even; normally only 10-32% of non-zero slots are even, and every zone of camera 301 is all-even that day"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 414,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "medium",
+   "diagnosis": "Whole-camera duplicate load on 2024-08-04: every non-zero slot is even at about twice the usual level; the automatic fix halved only sites 405 and 422.",
+   "evidence": "1150: 8 in 3 slots, 1194: 4 in 1 slot, all even; normally only 10-32% of non-zero slots are even, and every zone of camera 301 is all-even that day"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 427,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera duplicate load on 2024-08-04: every non-zero slot is even at about twice the usual level; the automatic fix halved only sites 405 and 422.",
+   "evidence": "1135: 34 in 14 slots all even (median 11); 1160: 32 in 13 all even (median 12); normally only 10-32% of non-zero slots are even, and every zone of camera 301 is all-even that day"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 404,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Whole-camera duplicate load on 2024-10-24 (site 422 already halved automatically): every non-zero slot even.",
+   "evidence": "1176: 32 in 11 slots all even (median 19); 1142: 8 in 4; typical even share of non-zero slots 10-32%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 405,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Whole-camera duplicate load on 2024-10-24 (site 422 already halved automatically): every non-zero slot even.",
+   "evidence": "1101: 32 in 16 slots all even; 1173: 42 in 18 all even; typical even share of non-zero slots 10-32%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 406,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Whole-camera duplicate load on 2024-10-24 (site 422 already halved automatically): every non-zero slot even.",
+   "evidence": "1138: 38 in 12 all even (median 23); 1140: 18 in 8 all even; typical even share of non-zero slots 10-32%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 411,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Whole-camera duplicate load on 2024-10-24 (site 422 already halved automatically): every non-zero slot even.",
+   "evidence": "1157: 54 in 13 all even (median 28); 1105: 42 in 16 all even (median 18); typical even share of non-zero slots 10-32%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 427,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "medium",
+   "diagnosis": "Whole-camera duplicate load on 2024-10-24 (site 422 already halved automatically): every non-zero slot even.",
+   "evidence": "1135: 14 in 6; 1160: 10 in 5, all even; typical even share of non-zero slots 10-32%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 406,
+   "DIRECTION_SK": 1140,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "medium",
+   "diagnosis": "Same-day duplicate as the automatically halved 406/1138: all non-zero slots even.",
+   "evidence": "18 bikes in 8 non-zero slots, all even (median 10); even share normally 15%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 406,
+   "DIRECTION_SK": 1140,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "medium",
+   "diagnosis": "Duplicate load: all non-zero slots even at above-usual level.",
+   "evidence": "20 bikes in 9 non-zero slots, all even (median 15); even share normally 15%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 411,
+   "DIRECTION_SK": null,
+   "start": "2025-09-29",
+   "end": "2025-09-29",
+   "confidence": "high",
+   "diagnosis": "Site-day duplicate load: both directions all-even at 2-3x the usual level (the automatic fix caught the similar 2025-10-06/07 days but not this one).",
+   "evidence": "1157: 116 in 19 slots all even (median 36); 1105: 42 in 17 all even (median 21)"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 404,
+   "DIRECTION_SK": null,
+   "start": "2025-10-06",
+   "end": "2025-10-06",
+   "confidence": "high",
+   "diagnosis": "Site-day duplicate load on the same day that 411 was halved automatically: both directions all-even.",
+   "evidence": "1176: 40 in 17 slots all even (median 23); 1142: 14 in 7 all even (median 9)"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 411,
+   "DIRECTION_SK": 1105,
+   "start": "2025-11-14",
+   "end": "2025-11-14",
+   "confidence": "medium",
+   "diagnosis": "Duplicate load: all non-zero slots even.",
+   "evidence": "36 bikes in 13 non-zero slots all even (median 20); even share normally 17%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 404,
+   "DIRECTION_SK": 1142,
+   "start": "2025-11-26",
+   "end": "2025-11-26",
+   "confidence": "medium",
+   "diagnosis": "Duplicate load: all non-zero slots even at about 3x the usual level.",
+   "evidence": "20 bikes in 7 non-zero slots all even (median 7); even share normally 12%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 411,
+   "DIRECTION_SK": 1105,
+   "start": "2025-11-27",
+   "end": "2025-11-27",
+   "confidence": "medium",
+   "diagnosis": "Duplicate load: all non-zero slots even.",
+   "evidence": "30 bikes in 13 non-zero slots all even (median 23); even share normally 17%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 404,
+   "DIRECTION_SK": 1142,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "low",
+   "diagnosis": "Probable duplicate load: all non-zero slots even at 2.5x the usual level.",
+   "evidence": "10 bikes in 5 non-zero slots all even (median 4); even share normally 12%"
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 414,
+   "DIRECTION_SK": 1150,
+   "start": "2025-12-27",
+   "end": "2025-12-27",
+   "confidence": "low",
+   "diagnosis": "Probable duplicate load: all non-zero slots even at 5x the usual level.",
+   "evidence": "10 bikes in 5 non-zero slots all even (median 2); even share normally 10%"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 404,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2026-03-18",
+   "confidence": "high",
+   "diagnosis": "Camera 301's slots are stamped in UTC, not Sydney time: counts need shifting +10 h (AEST) / +11 h (AEDT), which moves Monday-morning riding (local 00:00-10/11:00) into the previous week; no action in the list fits, so it is flagged here.",
+   "evidence": "Hourly profiles at every zone peak at 20-22 and 5-7 and are near zero at 13-18; morning peak is at 20-21 in January (AEDT) and 21-22 in June-August (AEST); the nearby camera 302 (site 423) peaks at 08 and 17; duplicate-load days align to 00:00-23:45 of these UTC dates"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 405,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2026-03-18",
+   "confidence": "high",
+   "diagnosis": "Camera 301's slots are stamped in UTC, not Sydney time: counts need shifting +10 h (AEST) / +11 h (AEDT), which moves Monday-morning riding (local 00:00-10/11:00) into the previous week; no action in the list fits, so it is flagged here.",
+   "evidence": "Hourly profiles at every zone peak at 20-22 and 5-7 and are near zero at 13-18; morning peak is at 20-21 in January (AEDT) and 21-22 in June-August (AEST); the nearby camera 302 (site 423) peaks at 08 and 17; duplicate-load days align to 00:00-23:45 of these UTC dates"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 406,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2026-03-18",
+   "confidence": "high",
+   "diagnosis": "Camera 301's slots are stamped in UTC, not Sydney time: counts need shifting +10 h (AEST) / +11 h (AEDT), which moves Monday-morning riding (local 00:00-10/11:00) into the previous week; no action in the list fits, so it is flagged here.",
+   "evidence": "Hourly profiles at every zone peak at 20-22 and 5-7 and are near zero at 13-18; morning peak is at 20-21 in January (AEDT) and 21-22 in June-August (AEST); the nearby camera 302 (site 423) peaks at 08 and 17; duplicate-load days align to 00:00-23:45 of these UTC dates"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 411,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2026-03-18",
+   "confidence": "high",
+   "diagnosis": "Camera 301's slots are stamped in UTC, not Sydney time: counts need shifting +10 h (AEST) / +11 h (AEDT), which moves Monday-morning riding (local 00:00-10/11:00) into the previous week; no action in the list fits, so it is flagged here.",
+   "evidence": "Hourly profiles at every zone peak at 20-22 and 5-7 and are near zero at 13-18; morning peak is at 20-21 in January (AEDT) and 21-22 in June-August (AEST); the nearby camera 302 (site 423) peaks at 08 and 17; duplicate-load days align to 00:00-23:45 of these UTC dates"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 414,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2026-03-18",
+   "confidence": "high",
+   "diagnosis": "Camera 301's slots are stamped in UTC, not Sydney time: counts need shifting +10 h (AEST) / +11 h (AEDT), which moves Monday-morning riding (local 00:00-10/11:00) into the previous week; no action in the list fits, so it is flagged here.",
+   "evidence": "Hourly profiles at every zone peak at 20-22 and 5-7 and are near zero at 13-18; morning peak is at 20-21 in January (AEDT) and 21-22 in June-August (AEST); the nearby camera 302 (site 423) peaks at 08 and 17; duplicate-load days align to 00:00-23:45 of these UTC dates"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 422,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2026-03-18",
+   "confidence": "high",
+   "diagnosis": "Camera 301's slots are stamped in UTC, not Sydney time: counts need shifting +10 h (AEST) / +11 h (AEDT), which moves Monday-morning riding (local 00:00-10/11:00) into the previous week; no action in the list fits, so it is flagged here.",
+   "evidence": "Hourly profiles at every zone peak at 20-22 and 5-7 and are near zero at 13-18; morning peak is at 20-21 in January (AEDT) and 21-22 in June-August (AEST); the nearby camera 302 (site 423) peaks at 08 and 17; duplicate-load days align to 00:00-23:45 of these UTC dates"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 427,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2026-03-18",
+   "confidence": "high",
+   "diagnosis": "Camera 301's slots are stamped in UTC, not Sydney time: counts need shifting +10 h (AEST) / +11 h (AEDT), which moves Monday-morning riding (local 00:00-10/11:00) into the previous week; no action in the list fits, so it is flagged here.",
+   "evidence": "Hourly profiles at every zone peak at 20-22 and 5-7 and are near zero at 13-18; morning peak is at 20-21 in January (AEDT) and 21-22 in June-August (AEST); the nearby camera 302 (site 423) peaks at 08 and 17; duplicate-load days align to 00:00-23:45 of these UTC dates"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 427,
+   "DIRECTION_SK": null,
+   "start": "2025-05-14",
+   "end": "2026-03-18",
+   "confidence": "medium",
+   "diagnosis": "Abrupt ~10x step in both directions of the bridge-path zone from mid-afternoon 14 May 2025 with no matching rise in the camera's other zones; it could be a new link opening or a zone/classification reconfiguration.",
+   "evidence": "Mean bikes/day 1135: 8.6 -> 75.6, 1160: 4.0 -> 63.8 (Mar-May vs May-Jul 2025), rising to ~100/90 by Sep-Oct 2025; other zones of camera 301 change by <20%; weekday and weekend means similar before and after"
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 404,
+   "name": "Noller Pde road northbound (out)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1142,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 404,
+   "name": "Noller Pde road southbound (in)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1176,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 405,
+   "name": "Noller Pde path S northbound (out)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1101,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 405,
+   "name": "Noller Pde path S southbound (in)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1173,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 406,
+   "name": "Alfred St road northbound (out)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1138,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 406,
+   "name": "Alfred St road southbound (in)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1140,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 411,
+   "name": "River Rd W road westbound (in)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1105,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 411,
+   "name": "River Rd W road eastbound (out)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1157,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 414,
+   "name": "River Rd W path RHS westbound (in)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1150,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 414,
+   "name": "River Rd W path RHS eastbound (out)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1194,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 422,
+   "name": "River Rd W path LHS southbound (in)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1119,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 422,
+   "name": "River Rd W path LHS northbound (out)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1133,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 427,
+   "name": "River Rd bridge path northbound (out)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1135,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  },
+  {
+   "SITE_SK": 427,
+   "name": "River Rd bridge path southbound (in)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 301,
+     "DIRECTION_SK": 1160,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Camera 301 zone; one counter-direction for the whole record, no other counter at this zone."
+  }
+ ],
+ "summary": "Seven zones of one VivaCity camera (301) at the Noller Pde/Alfred St/River Rd intersection, Parramatta, Oct 2023-Mar 2026, with no counter changes. Faults are single-day duplicate loads (every slot even, often camera- or site-wide) that the automatic halving missed on several days, and timestamps that are in UTC rather than Sydney time; from 2025-02-06 the feed omits most zero slots (days show 20-35 valid slots) but daily totals remain continuous, so absent slots are zeros rather than missing. The bridge-path zone (427) steps up about tenfold from 2025-05-14; this is flagged as unresolved, and the Dec 2025 swap between the River Rd W path (422) and road (411) looks like a real diversion."
+}

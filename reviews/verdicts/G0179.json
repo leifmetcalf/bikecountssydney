@@ -1,0 +1,227 @@
+{
+ "group": "G0179",
+ "decisions": [
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 186,
+   "start": "2022-02-02",
+   "end": "2022-02-02",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "185 had 4 bikes spread 06:45-19:00; adjacent days 11 and 36; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2022-02-26",
+   "end": "2022-02-26",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 2; start of the late-Feb 2022 wet spell; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2022-03-29",
+   "end": "2022-03-29",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 1; March 2022 wet month, adjacent totals 11 and 17; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 186,
+   "start": "2022-04-06",
+   "end": "2022-04-06",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "185 had 1; next day total 4; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 186,
+   "start": "2022-05-20",
+   "end": "2022-05-20",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "185 had 1; wet May 2022, 2022-05-12 recorded total 2 without a flag; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2022-06-03",
+   "end": "2022-06-03",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 4; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2022-10-05",
+   "end": "2022-10-05",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 1; next day total 10; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2023-01-06",
+   "end": "2023-01-06",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 2 (07:45, 16:30); at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2023-10-27",
+   "end": "2023-10-27",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 2 (08:30, 16:00); previous day total 7; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 186,
+   "start": "2023-11-25",
+   "end": "2023-11-25",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "185 had 2 (09:30, 10:30); at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2024-04-05",
+   "end": "2024-04-05",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 1; previous day total 11 (Apr 2024 heavy rain); at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 1; next day total 2; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 186,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "185 had 2; previous day total 1; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 185,
+   "start": "2025-08-01",
+   "end": "2025-08-01",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "186 had 1; adjacent totals 8 and 5, 2025-07-30 total 2 unflagged; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": 186,
+   "start": "2025-09-10",
+   "end": "2025-09-10",
+   "confidence": "medium",
+   "diagnosis": "TfNSW flagged a zero direction-day as warning, but the same unit counted the other direction that day on a wet/low-riding day, so the zero is a real count.",
+   "evidence": "185 had 1; at this site warning status occurs on exactly the 40 direction-days whose raw total is 0, always whole days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": null,
+   "start": "2021-11-26",
+   "end": "2021-11-26",
+   "confidence": "low",
+   "diagnosis": "Both directions zero in the middle of a very wet low-riding spell in which the unit also recorded 0-2 bike days without a flag; the zero is plausibly real rather than an outage.",
+   "evidence": "adjacent day totals 3+4=7 and 9; site mean ~25/day"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": null,
+   "start": "2022-03-02",
+   "end": "2022-03-02",
+   "confidence": "low",
+   "diagnosis": "Both directions zero in the middle of a very wet low-riding spell in which the unit also recorded 0-2 bike days without a flag; the zero is plausibly real rather than an outage.",
+   "evidence": "2022-03-01 total 7, 2022-03-03 total 2 (unflagged); March 2022 floods"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": null,
+   "start": "2022-03-08",
+   "end": "2022-03-08",
+   "confidence": "low",
+   "diagnosis": "Both directions zero in the middle of a very wet low-riding spell in which the unit also recorded 0-2 bike days without a flag; the zero is plausibly real rather than an outage.",
+   "evidence": "2022-03-07 total 5, 2022-03-06 total 7"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": null,
+   "start": "2022-05-11",
+   "end": "2022-05-11",
+   "confidence": "low",
+   "diagnosis": "Both directions zero in the middle of a very wet low-riding spell in which the unit also recorded 0-2 bike days without a flag; the zero is plausibly real rather than an outage.",
+   "evidence": "2022-05-10 total 9, 2022-05-12 total 2 (unflagged)"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 179,
+   "DIRECTION_SK": null,
+   "start": "2022-07-01",
+   "end": "2022-07-06",
+   "confidence": "medium",
+   "diagnosis": "Early-July 2022 flood week: unit recorded 1 bike on 07-01 and 07-05 (so it was working); the zero direction-days are real near-zero riding.",
+   "evidence": "daily totals 07-01..07-06: 1,0,0,0,1,0; 06-30 total 16, 07-07 total 37"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 179,
+   "DIRECTION_SK": null,
+   "start": "2022-07-10",
+   "end": "2022-07-10",
+   "confidence": "low",
+   "diagnosis": "Both directions zero on a Sunday between normal days; could be rain or a one-day outage, left missing.",
+   "evidence": "totals 07-09 34, 07-10 0, 07-11 22"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 179,
+   "DIRECTION_SK": null,
+   "start": "2022-09-03",
+   "end": "2022-09-03",
+   "confidence": "low",
+   "diagnosis": "Both directions zero on a Saturday; next day was low (8) so rain is possible, but an outage cannot be ruled out; left missing.",
+   "evidence": "totals 09-02 21, 09-03 0, 09-04 8"
+  }
+ ],
+ "series": [],
+ "summary": "Single Metrocount piezo (counter 167) on the Pellizzer Blvd shared path, Kellyville, 2021-10-18 to 2026-09-20, one record per slot, low volume (~12-26 bikes/day per direction) with balanced East/West and no doubling, duplicates or level shifts. The only automatic fix is 'warning', which here marks exactly every direction-day with a zero total; most of these fall on rainy days where the same unit counted 0-4 bikes in the other direction, so they are restored as real zeros, while isolated zero days between normal days (2022-07-10, 2022-07-16 West, 2022-09-03, 2025-10-20) stay missing. No series definition is needed."
+}

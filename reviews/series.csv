@@ -1,4 +1,32 @@
 review_group,SITE_SK,series,COUNTER_SK,DIRECTION_SK,start,end,confidence,reviewer,status
+G0161,161,North East (citybound),106,75,2021-11-05,2022-05-27,medium,count-reviewer,proposed
+G0161,161,North East (citybound),106,76,2021-02-23,2021-11-04,medium,count-reviewer,proposed
+G0161,161,North East (citybound),163,511,,,medium,count-reviewer,proposed
+G0161,161,South West,106,75,2021-02-23,2021-11-04,medium,count-reviewer,proposed
+G0161,161,South West,106,76,2021-11-05,2022-05-27,medium,count-reviewer,proposed
+G0161,161,South West,163,509,,,medium,count-reviewer,proposed
+G0161,170,East,163,86,,,high,count-reviewer,proposed
+G0161,170,East,164,88,,,high,count-reviewer,proposed
+G0161,170,West (citybound),163,85,,,high,count-reviewer,proposed
+G0161,170,West (citybound),164,87,,,high,count-reviewer,proposed
+G0162,162,Northbound (citybound),104,81,,,medium,count-reviewer,proposed
+G0162,162,Northbound (citybound),148,597,2022-06-01,2025-11-10,medium,count-reviewer,proposed
+G0162,162,Northbound (citybound),148,617,2025-11-11,,medium,count-reviewer,proposed
+G0162,162,Southbound,104,82,,,medium,count-reviewer,proposed
+G0162,162,Southbound,148,597,2025-11-11,,medium,count-reviewer,proposed
+G0162,162,Southbound,148,617,2022-06-01,2025-11-10,medium,count-reviewer,proposed
+G0162,175,Eastbound,148,78,,,high,count-reviewer,proposed
+G0162,175,Eastbound,211,250,2026-06-09,,high,count-reviewer,proposed
+G0162,175,Eastbound,211,252,,2026-06-08,high,count-reviewer,proposed
+G0162,175,Westbound (citybound),148,77,,,high,count-reviewer,proposed
+G0162,175,Westbound (citybound),211,250,,2026-06-08,high,count-reviewer,proposed
+G0162,175,Westbound (citybound),211,252,2026-06-09,,high,count-reviewer,proposed
+G0168,168,Eastbound,161,90,,2022-05-27,medium,count-reviewer,proposed
+G0168,168,Eastbound,251,508,2022-05-28,2026-04-22,medium,count-reviewer,proposed
+G0168,168,Eastbound,251,510,2026-04-23,,medium,count-reviewer,proposed
+G0168,168,Westbound (citybound),161,89,,2022-05-27,medium,count-reviewer,proposed
+G0168,168,Westbound (citybound),251,508,2026-04-23,,medium,count-reviewer,proposed
+G0168,168,Westbound (citybound),251,510,2022-05-28,2026-04-22,medium,count-reviewer,proposed
 G0169,169,"Bridge Rd eastbound (citybound, NE)",179,92,,2025-06-12,medium,count-reviewer,proposed
 G0169,169,"Bridge Rd eastbound (citybound, NE)",329,1866,2026-05-22,,medium,count-reviewer,proposed
 G0169,169,Bridge Rd eastbound counted by the westbound-lane counter (contraflow),394,1863,,,medium,count-reviewer,proposed
@@ -14,6 +42,20 @@ G0188,188,Eastbound (citybound) 2019-2020,187,197,,2020-07-17,medium,count-revie
 G0188,188,Eastbound (citybound) 2022-2026,187,197,2022-04-01,,medium,count-reviewer,proposed
 G0188,188,Westbound 2019-2020,187,218,,2020-07-17,medium,count-reviewer,proposed
 G0188,188,Westbound 2022-2026,187,218,2022-04-01,,medium,count-reviewer,proposed
+G0404,404,Noller Pde road northbound (out),301,1142,,,high,count-reviewer,proposed
+G0404,404,Noller Pde road southbound (in),301,1176,,,high,count-reviewer,proposed
+G0404,405,Noller Pde path S northbound (out),301,1101,,,high,count-reviewer,proposed
+G0404,405,Noller Pde path S southbound (in),301,1173,,,high,count-reviewer,proposed
+G0404,406,Alfred St road northbound (out),301,1138,,,high,count-reviewer,proposed
+G0404,406,Alfred St road southbound (in),301,1140,,,high,count-reviewer,proposed
+G0404,411,River Rd W road eastbound (out),301,1157,,,high,count-reviewer,proposed
+G0404,411,River Rd W road westbound (in),301,1105,,,high,count-reviewer,proposed
+G0404,414,River Rd W path RHS eastbound (out),301,1194,,,high,count-reviewer,proposed
+G0404,414,River Rd W path RHS westbound (in),301,1150,,,high,count-reviewer,proposed
+G0404,422,River Rd W path LHS northbound (out),301,1133,,,high,count-reviewer,proposed
+G0404,422,River Rd W path LHS southbound (in),301,1119,,,high,count-reviewer,proposed
+G0404,427,River Rd bridge path northbound (out),301,1135,,,high,count-reviewer,proposed
+G0404,427,River Rd bridge path southbound (in),301,1160,,,high,count-reviewer,proposed
 G0432,432,"North West (OUT, counter 313) Aug-Nov 2024",313,1300,2024-08-29,2024-11-06,medium,count-reviewer,proposed
 G0432,432,"North West (OUT, counter 313) from Nov 2024",313,1300,2024-11-07,,medium,count-reviewer,proposed
 G0432,432,"North West (OUT, counter 313) to Aug 2024",313,1300,,2024-08-28,medium,count-reviewer,proposed
@@ -94,10 +136,62 @@ G0432,444,"South (NONE, counter 314) from Nov 2024",314,1319,2024-11-07,,medium,
 G0432,444,"South (NONE, counter 314) to Aug 2024",314,1319,,2024-08-28,medium,count-reviewer,proposed
 G0432,491,"North West (NONE, counter 314)",314,1421,,,medium,count-reviewer,proposed
 G0432,491,"South East (NONE, counter 314)",314,1422,,,medium,count-reviewer,proposed
+G0464,464,"Sydney Park Rd parking crossing, eastbound - from 2024-11-08",318,1292,2024-11-08,,medium,count-reviewer,proposed
+G0464,464,"Sydney Park Rd parking crossing, eastbound - to 2024-11-07",318,1292,,2024-11-07,medium,count-reviewer,proposed
+G0464,464,"Sydney Park Rd parking crossing, westbound - from 2024-11-08",318,1386,2024-11-08,,medium,count-reviewer,proposed
+G0464,464,"Sydney Park Rd parking crossing, westbound - to 2024-11-07",318,1386,,2024-11-07,medium,count-reviewer,proposed
+G0464,465,"Sydney Park Rd north path W of Mitchell Rd, eastbound (in) - from 2024-11-08",318,1393,2024-11-08,,medium,count-reviewer,proposed
+G0464,465,"Sydney Park Rd north path W of Mitchell Rd, eastbound (in) - to 2024-11-07",318,1393,,2024-11-07,medium,count-reviewer,proposed
+G0464,465,"Sydney Park Rd north path W of Mitchell Rd, westbound (out) - from 2024-11-08",318,1347,2024-11-08,,medium,count-reviewer,proposed
+G0464,465,"Sydney Park Rd north path W of Mitchell Rd, westbound (out) - to 2024-11-07",318,1347,,2024-11-07,medium,count-reviewer,proposed
+G0464,466,"Mitchell Rd NW path, north-east (out) - from 2024-11-08",318,1290,2024-11-08,,medium,count-reviewer,proposed
+G0464,466,"Mitchell Rd NW path, north-east (out) - to 2024-11-07",318,1290,,2024-11-07,medium,count-reviewer,proposed
+G0464,466,"Mitchell Rd NW path, south-west (in) - from 2024-11-08",318,1354,2024-11-08,,medium,count-reviewer,proposed
+G0464,466,"Mitchell Rd NW path, south-west (in) - to 2024-11-07",318,1354,,2024-11-07,medium,count-reviewer,proposed
+G0464,467,"Mitchell Rd crossing, eastbound - from 2024-11-08",318,1289,2024-11-08,,medium,count-reviewer,proposed
+G0464,467,"Mitchell Rd crossing, eastbound - to 2024-11-07",318,1289,,2024-11-07,medium,count-reviewer,proposed
+G0464,467,"Mitchell Rd crossing, westbound - from 2024-11-08",318,1340,2024-11-08,,medium,count-reviewer,proposed
+G0464,467,"Mitchell Rd crossing, westbound - to 2024-11-07",318,1340,,2024-11-07,medium,count-reviewer,proposed
+G0464,468,"Mitchell Rd SE path, north-east (out) - from 2024-11-08",318,1328,2024-11-08,,medium,count-reviewer,proposed
+G0464,468,"Mitchell Rd SE path, north-east (out) - to 2024-11-07",318,1328,,2024-11-07,medium,count-reviewer,proposed
+G0464,468,"Mitchell Rd SE path, south-west (in) - from 2024-11-08",318,1359,2024-11-08,,medium,count-reviewer,proposed
+G0464,468,"Mitchell Rd SE path, south-west (in) - to 2024-11-07",318,1359,,2024-11-07,medium,count-reviewer,proposed
+G0464,469,"Sydney Park Rd north path E of Mitchell Rd, eastbound (out) - from 2024-11-08",318,1288,2024-11-08,,medium,count-reviewer,proposed
+G0464,469,"Sydney Park Rd north path E of Mitchell Rd, eastbound (out) - to 2024-11-07",318,1288,,2024-11-07,medium,count-reviewer,proposed
+G0464,469,"Sydney Park Rd north path E of Mitchell Rd, westbound (in) - from 2024-11-08",318,1404,2024-11-08,,medium,count-reviewer,proposed
+G0464,469,"Sydney Park Rd north path E of Mitchell Rd, westbound (in) - to 2024-11-07",318,1404,,2024-11-07,medium,count-reviewer,proposed
+G0464,470,"Sydney Park Rd crossing E of Mitchell Rd, northbound - from 2024-11-08",318,1379,2024-11-08,,medium,count-reviewer,proposed
+G0464,470,"Sydney Park Rd crossing E of Mitchell Rd, northbound - to 2024-11-07",318,1379,,2024-11-07,medium,count-reviewer,proposed
+G0464,470,"Sydney Park Rd crossing E of Mitchell Rd, southbound - from 2024-11-08",318,1313,2024-11-08,,medium,count-reviewer,proposed
+G0464,470,"Sydney Park Rd crossing E of Mitchell Rd, southbound - to 2024-11-07",318,1313,,2024-11-07,medium,count-reviewer,proposed
+G0464,471,"Sydney Park Rd parking access, northbound (in) - from 2024-11-08",318,1252,2024-11-08,,medium,count-reviewer,proposed
+G0464,471,"Sydney Park Rd parking access, northbound (in) - to 2024-11-07",318,1252,,2024-11-07,medium,count-reviewer,proposed
+G0464,471,"Sydney Park Rd parking access, southbound (out) - from 2024-11-08",318,1295,2024-11-08,,medium,count-reviewer,proposed
+G0464,471,"Sydney Park Rd parking access, southbound (out) - to 2024-11-07",318,1295,,2024-11-07,medium,count-reviewer,proposed
+G0464,472,"Sydney Park Rd road W of Mitchell Rd, eastbound (in) - from 2024-11-08",318,1275,2024-11-08,,medium,count-reviewer,proposed
+G0464,472,"Sydney Park Rd road W of Mitchell Rd, eastbound (in) - to 2024-11-07",318,1275,,2024-11-07,medium,count-reviewer,proposed
+G0464,472,"Sydney Park Rd road W of Mitchell Rd, westbound (out) - from 2024-11-08",318,1251,2024-11-08,,medium,count-reviewer,proposed
+G0464,472,"Sydney Park Rd road W of Mitchell Rd, westbound (out) - to 2024-11-07",318,1251,,2024-11-07,medium,count-reviewer,proposed
+G0464,473,"Mitchell Rd road N of Sydney Park Rd, north-east (out) - from 2024-11-08",318,1209,2024-11-08,,medium,count-reviewer,proposed
+G0464,473,"Mitchell Rd road N of Sydney Park Rd, north-east (out) - to 2024-11-07",318,1209,,2024-11-07,medium,count-reviewer,proposed
+G0464,473,"Mitchell Rd road N of Sydney Park Rd, south-west (in) - from 2024-11-08",318,1322,2024-11-08,,medium,count-reviewer,proposed
+G0464,473,"Mitchell Rd road N of Sydney Park Rd, south-west (in) - to 2024-11-07",318,1322,,2024-11-07,medium,count-reviewer,proposed
+G0464,474,"Sydney Park Rd road E of Mitchell Rd, eastbound (out) - from 2024-11-08",318,1270,2024-11-08,,medium,count-reviewer,proposed
+G0464,474,"Sydney Park Rd road E of Mitchell Rd, eastbound (out) - to 2024-11-07",318,1270,,2024-11-07,medium,count-reviewer,proposed
+G0464,474,"Sydney Park Rd road E of Mitchell Rd, westbound (in) - from 2024-11-08",318,1206,2024-11-08,,medium,count-reviewer,proposed
+G0464,474,"Sydney Park Rd road E of Mitchell Rd, westbound (in) - to 2024-11-07",318,1206,,2024-11-07,medium,count-reviewer,proposed
 G0541,541,Eastbound / citybound (Ecocounter 2018-2024),234,312,,,medium,count-reviewer,proposed
 G0541,541,Eastbound / citybound (Metrocount 2025-),354,1746,,,medium,count-reviewer,proposed
 G0541,541,Westbound / outbound (Ecocounter 2018-2024),234,313,,,medium,count-reviewer,proposed
 G0541,541,Westbound / outbound (Metrocount 2025-),354,1745,,,medium,count-reviewer,proposed
+G0544,544,"New counter, AM-peak flow (labelled West)",357,1752,,,high,count-reviewer,proposed
+G0544,544,"New counter, PM-peak flow (labelled East)",357,1751,,,high,count-reviewer,proposed
+G0544,544,"Old counter, AM-peak flow (labelled East)",228,340,,,high,count-reviewer,proposed
+G0544,544,"Old counter, PM-peak flow (labelled West)",228,341,,,high,count-reviewer,proposed
+G0545,545,Northbound (citybound),227,338,,,high,count-reviewer,proposed
+G0545,545,Northbound (citybound),358,1753,,,high,count-reviewer,proposed
+G0545,545,Southbound,227,339,,,high,count-reviewer,proposed
+G0545,545,Southbound,358,1754,,,high,count-reviewer,proposed
 G0547,547,"King St citybound (eastbound, AM peak), counter 366",366,1770,,,high,count-reviewer,rejected
 G0547,547,"King St outbound (westbound, PM peak), counter 366",366,1769,,,high,count-reviewer,rejected
 G0547,568,"King St citybound (eastbound, AM peak), counter 239",239,329,,,high,count-reviewer,proposed

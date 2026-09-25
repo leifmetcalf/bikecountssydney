@@ -1,0 +1,25 @@
+{
+  "group": "G0158",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 158, "DIRECTION_SK": 94, "start": "2021-08-23", "end": "2021-08-25", "confidence": "high",
+      "diagnosis": "zero_outage removed a genuinely quiet spell; the other direction was just as low, so the counter was working.",
+      "evidence": "2021-08-24 raw 93=29, 94=24; hour by hour 94 tracks 93 (e.g. 07-09h 3/3, 17h 5/4), so this was not a dead tube."},
+    {"action": "restore", "SITE_SK": 158, "DIRECTION_SK": 94, "start": "2022-07-01", "end": "2022-07-04", "confidence": "high",
+      "diagnosis": "zero_outage removed real low counts during the very wet early-July 2022 weekend; both directions dropped together.",
+      "evidence": "Raw 93/94 were 17/13 on 07-02 and 23/16 on 07-03; dir 94 had non-zero slots all through the flagged stretch at the same level as dir 93."},
+    {"action": "missing", "SITE_SK": 158, "DIRECTION_SK": 93, "start": "2024-03-07", "end": "2024-03-07", "confidence": "medium",
+      "diagnosis": "Dir 93 undercounted all day just before an outage, which points to a damaged tube; dir 94 looked normal.",
+      "evidence": "93=193 vs 94=579; 93 17h=20 vs 93-141 on the days before; 93 was at about 20-30% of normal in every hour."},
+    {"action": "missing", "SITE_SK": 158, "DIRECTION_SK": null, "start": "2024-03-08", "end": "2024-03-08", "confidence": "high",
+      "diagnosis": "Counter was out until noon on a weekday (dir 93 read all zeros, dir 94 near zeros), then recovered, so the day is partial.",
+      "evidence": "00-11h: 93 read 0 in every hour; 94 read 11 in total vs about 400 normally before noon; both were normal from 12h on."},
+    {"action": "missing", "SITE_SK": 158, "DIRECTION_SK": null, "start": "2024-05-23", "end": "2024-05-23", "confidence": "high",
+      "diagnosis": "Both directions read exactly zero from 00:00 to 12:59 on a Thursday (counter outage, probably maintenance), so the day total is partial.",
+      "evidence": "Every slot from 00:00 to 12:45 was 0 in both directions; the adjacent weekdays had about 150-200 bikes in the 7-8h peak alone."},
+    {"action": "direction_unreliable", "SITE_SK": 158, "DIRECTION_SK": null, "start": "2023-09-18", "end": "2026-09-22", "confidence": "high",
+      "diagnosis": "Direction labels swapped around midday on 2023-09-18 (tube reinstalled reversed): the commute peaks flip from one direction to the other with no change in the total.",
+      "evidence": "Share of the weekday 7-9h peak in dir 93 (NW, citybound) was 0.73-0.77 every month from 2022-03 to 2023-08, then 0.22-0.28 every month from 2023-10; on 09-18 dir 93 carried both the AM (187 vs 64) and PM (193 vs 71) peaks; the site total was steady across the change."}
+  ],
+  "series": [],
+  "summary": "A single Metrocount tube counter (2021-06 to 2026-09) with very clean, continuous data; the halving on 2022-02-19 is correct (all 145 non-zero slots even). Two zero_outage fixes on dir 94 removed genuinely quiet days and should be restored, and two partial-day outages plus one day of undercounting in 2024 should be set missing. From midday 2023-09-18 the two direction labels are swapped, so the split is wrong from then on but the totals are right."
+}
