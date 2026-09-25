@@ -1,0 +1,27 @@
+{
+  "group": "G0201",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 201, "DIRECTION_SK": null, "start": "2021-03-13", "end": "2021-03-14",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed a real wet-weather lull (Sat evening to Sun afternoon); riding resumed normally and the adjacent counters show the same near-zero hours.",
+      "evidence": "14 Mar raw 6/1 here vs 11/7 at site 200 and 8/8 at site 202; same zero hours 20:00-13:00 at all three sites; 13 Mar daytime normal (63/55)."},
+    {"action": "restore", "SITE_SK": 201, "DIRECTION_SK": null, "start": "2021-03-19", "end": "2021-03-20",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros during the March 2021 NSW floods; both adjacent counters are also at zero across the same hours.",
+      "evidence": "20 Mar raw 2/1 here, 1/1 at site 200, 0/0 at site 202; zero hours identical at all six directions; 21-22 Mar still single digits everywhere."},
+    {"action": "restore", "SITE_SK": 201, "DIRECTION_SK": null, "start": "2022-03-07", "end": "2022-03-09",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real near-zero riding in the March 2022 flood rains; 207 kept its low counts and 229 matches it and the neighbours.",
+      "evidence": "7-8 Mar raw 4/3 and 1/1 here vs 8/4, 3/2 at site 200 and 7/6, 3/2 at site 202; 9 Mar morning zeros shared by all sites."},
+    {"action": "restore", "SITE_SK": 201, "DIRECTION_SK": null, "start": "2022-07-01", "end": "2022-07-05",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros during the July 2022 floods; the whole junction was near-empty for those days.",
+      "evidence": "2-3 Jul raw 0/0 here, 1/0 and 0/0 at site 200, 1/1 and 0/0 at site 202; 1-6 Jul single digits at every counter, normal again 7 Jul."},
+    {"action": "restore", "SITE_SK": 201, "DIRECTION_SK": 207, "start": "2024-01-15", "end": "2024-01-15",
+      "confidence": "medium",
+      "diagnosis": "A low day that the adjacent counters also show; the zeros look like real riding, not an outage.",
+      "evidence": "15 Jan raw 5 (207) and 9 (229) vs 7/8 at site 200 and 14/9 at site 202; days either side are 25-50."}
+  ],
+  "series": [],
+  "summary": "Single piezo counter 181 on the NW T-way shared path at Toongabbie, with stable, balanced directions from Mar 2021 to Sep 2026 and a real lockdown peak in Jul-Oct 2021. Every zero_outage fix except the one around 2025-10-20 falls on rain or flood days, and the co-located counters at sites 200 and 202 match them hour for hour, so these fixes are restored. The 2025-10-20 all-warning zero day, which is zero at all three adjacent counters, stays missing as a data gap."
+}

@@ -1,0 +1,806 @@
+{
+ "group": "G0314",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2023-08-29",
+   "end": "2023-09-01",
+   "confidence": "high",
+   "diagnosis": "Continuous phantom detections in both directions of this zone for 3.5 days, including 30-40 per hour overnight, while every other zone of the camera stayed at its usual level.",
+   "evidence": "Daily 814/875 392/658, 394/502, 414/589, 247/418 vs usual ~126/19; 875 had 27-41 bikes per hour from 01:00-07:00 on 1 Sep; rest of camera at 1.0-1.1x usual."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": 875,
+   "start": "2024-01-17",
+   "end": "2024-01-17",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "875: 228 vs median 37 (6.2x); other zones 0.9x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": 875,
+   "start": "2024-04-16",
+   "end": "2024-04-17",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "875: 221 and 380 vs median ~33 (7-11x), 89 bikes between 00:00 and 05:00 on 17 Apr; other zones 1.1-1.2x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": 875,
+   "start": "2024-09-26",
+   "end": "2024-09-26",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "875: 240 vs median 37 (6.5x); other zones 0.55x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2025-12-11",
+   "end": "2025-12-15",
+   "confidence": "high",
+   "diagnosis": "Multi-day phantom detections in both directions of this zone, peaking at 30-47 per 15 minutes around 01:00-02:00 while the adjacent George St zone 325 recorded 0-2.",
+   "evidence": "Daily 814/875: 424/700, 639/792, 668/769, 476/463, 521/482 vs medians ~191/99; night (00-05h) counts 206-460 vs usual ~15; rest of camera 0.8-1.2x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": 875,
+   "start": "2025-12-27",
+   "end": "2025-12-27",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "875: 463 vs median 106 (4.4x); other zones 1.0x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2026-01-09",
+   "end": "2026-01-10",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "814/875: 586/532 and 680/1005 vs medians ~196/105 (3-9.5x); other zones 1.0-1.5x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": 875,
+   "start": "2026-02-16",
+   "end": "2026-02-16",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "875: 385 vs median 87 (4.4x); other zones 0.83x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2026-02-27",
+   "end": "2026-02-27",
+   "confidence": "high",
+   "diagnosis": "Both directions of this zone recorded 40-140 bikes per hour from 07:00 to 17:00 while adjacent zones recorded 0-13 per hour.",
+   "evidence": "814/875: 658/925 vs medians 152/79 (4.3x/11.7x); other zones 0.8x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2026-03-20",
+   "end": "2026-03-21",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "814/875: 551/280 and 597/481 vs medians ~153/78 (3.6-6.2x), with 200+ overnight on 21 Mar; other zones 0.96-1.12x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2026-04-12",
+   "end": "2026-04-12",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "814/875: 728/517 vs medians 163/82 (4.5x/6.3x); other zones 0.93x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 326,
+   "DIRECTION_SK": 875,
+   "start": "2026-08-13",
+   "end": "2026-08-13",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "875: 511 vs median 111 (4.6x); other zones 1.2x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2026-01-07",
+   "end": "2026-01-07",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "847/905: 382/611 vs medians 117/140 (3.3x/4.4x); other zones 1.17x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2026-01-25",
+   "end": "2026-01-25",
+   "confidence": "low",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "847/905: 461/706 vs medians 139/159 (3.3x/4.4x); other zones 1.47x, so part may be a real event."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2026-04-13",
+   "end": "2026-04-13",
+   "confidence": "high",
+   "diagnosis": "Both directions of this zone recorded 100-185 bikes per hour from 17:00 to 23:00 on a Monday while the other zones recorded under 10 per hour.",
+   "evidence": "847/905: 1184/845 vs medians 157/187 (7.5x/4.5x); other zones 0.97x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2026-08-18",
+   "end": "2026-08-18",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "847/905: 726/477 vs medians 117/146 (6.2x/3.3x); other zones 0.83x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2026-04-10",
+   "end": "2026-04-10",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "700/792: 552/421 vs medians 108/67 (5.1x/6.3x); other zones 1.14x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 314,
+   "DIRECTION_SK": 700,
+   "start": "2026-09-03",
+   "end": "2026-09-03",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "700: 393 vs median 70 (5.6x); other zones 1.25x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2024-01-05",
+   "end": "2024-01-05",
+   "confidence": "high",
+   "diagnosis": "A lane zone that normally sees about 1 bike a day recorded hundreds in both directions on one day with no matching rise elsewhere.",
+   "evidence": "690/761: 323/194 vs medians 1/0; other zones 1.22x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 324,
+   "DIRECTION_SK": 746,
+   "start": "2023-09-18",
+   "end": "2023-09-18",
+   "confidence": "high",
+   "diagnosis": "A lane zone that normally sees a few bikes a day recorded hundreds in one direction on one day with no matching rise elsewhere.",
+   "evidence": "746: 322 vs median 3; other zones 1.05x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2024-04-19",
+   "end": "2024-04-19",
+   "confidence": "high",
+   "diagnosis": "A lane zone that normally sees a few bikes a day recorded hundreds in both directions on one day with no matching rise elsewhere.",
+   "evidence": "746/929: 208/165 vs medians 2/4; other zones 1.09x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2024-09-11",
+   "end": "2024-09-11",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "738/809: 204/257 vs medians 27/32 (7.6x/8x); other zones 1.13x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 327,
+   "DIRECTION_SK": 809,
+   "start": "2025-12-03",
+   "end": "2025-12-03",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "809: 375 vs median 64 (5.9x); other zones 1.21x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 327,
+   "DIRECTION_SK": 738,
+   "start": "2026-08-03",
+   "end": "2026-08-03",
+   "confidence": "low",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "738: 464 vs median 115 (4.0x); other zones 0.84x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-11",
+   "confidence": "low",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "738/809: 561/310 vs medians 112/74 (5x/4.2x), single slots up to 99; other zones 1.4x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2026-09-23",
+   "end": "2026-09-23",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "738/809: 1320/373 vs medians 139/90 (9.5x/4.2x); other zones 0.94x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2026-02-04",
+   "end": "2026-02-04",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "869/906: 320/196 vs medians 70/44 (4.6x/4.5x), single slot of 84; other zones 1.25x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 328,
+   "DIRECTION_SK": 869,
+   "start": "2026-02-13",
+   "end": "2026-02-13",
+   "confidence": "high",
+   "diagnosis": "One direction recorded 820 bikes in the 07:00 hour (519 in one slot) against a usual 1-2 per hour, with nothing matching elsewhere.",
+   "evidence": "869: 934 vs median 68 (13.7x); other zones 0.86x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 328,
+   "DIRECTION_SK": 906,
+   "start": "2026-03-04",
+   "end": "2026-03-04",
+   "confidence": "low",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "906: 196 vs median 46 (4.3x); other zones 1.06x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 328,
+   "DIRECTION_SK": 906,
+   "start": "2026-03-12",
+   "end": "2026-03-12",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "906: 325 vs median 33 (9.8x); other zones 1.12x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2026-03-30",
+   "end": "2026-03-30",
+   "confidence": "medium",
+   "diagnosis": "Phantom burst confined to one camera zone: counts several times the zone's usual level with no matching rise in any other zone of the intersection, so the extra detections are not through-riders.",
+   "evidence": "869/906: 289/182 vs medians 35/27 (8.3x/6.7x); other zones 1.24x."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2026-08-14",
+   "end": "2026-08-14",
+   "confidence": "high",
+   "diagnosis": "Both directions carried single 15-minute slots of 112 and 290 bikes against a usual level of a few per slot, with nothing matching elsewhere.",
+   "evidence": "869/906: 392/825 vs medians 90/70 (4.4x/11.8x); other zones 1.18x."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2026-01-20",
+   "end": "2026-03-03",
+   "confidence": "medium",
+   "diagnosis": "Both directions of Margaret St fell abruptly by about 95% for six weeks and recovered abruptly, on the same day that 328 (George St W north) rose; this may be a zone occlusion or reassignment, or a real footpath closure/diversion.",
+   "evidence": "327 738/809: ~137/98 per day to 19 Jan, then 3-17 per day 20 Jan-3 Mar, ~100+/60+ from 4 Mar; 328 869/906 rose from ~20-45 to ~55-90 per day on 20 Jan; other zones steady."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2026-01-20",
+   "end": "2026-03-20",
+   "confidence": "low",
+   "diagnosis": "Level roughly doubled on the day 327 collapsed and returned in late March; could be a real diversion or detections moved from the 327 zone.",
+   "evidence": "328 weekly 869/906: ~265/191 in mid-Jan, 419-1402/268-713 from 19 Jan to mid-Mar, 190/180 by week of 23 Mar."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2026-06-16",
+   "end": "2026-09-24",
+   "confidence": "low",
+   "diagnosis": "Curtin Pl went from about 2 bikes a day per direction to about 170, balanced by direction and with a lunchtime peak; could be a real diversion into the lane (328 also rose) or a changed zone definition.",
+   "evidence": "324 746/929 monthly means: 1-3/day Dec 2025-May 2026, 24/30 Jun, 168/174 Jul, 188/191 Aug; stepped up from 16 Jun over two weeks."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 314,
+   "name": "East, 2022 counter 250",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 250,
+     "DIRECTION_SK": 501,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Counter 250 ran only 8-23 Jun 2022 with East/West orientation; it cannot be matched to counter 278's North/South zones a year later, so it stands alone."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "West, 2022 counter 250",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 250,
+     "DIRECTION_SK": 505,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Counter 250 ran only 8-23 Jun 2022 with East/West orientation; it cannot be matched to counter 278's North/South zones a year later, so it stands alone."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "South (IN, citybound), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 700,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "South (IN, citybound), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 700,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "North (OUT), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 792,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "North (OUT), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 792,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "East, 2022 counter 250",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 250,
+     "DIRECTION_SK": 506,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Counter 250 ran only 8-23 Jun 2022; it cannot be shown to read comparably to counter 278's zone (which sees ~1 bike a day), so it stands alone."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "West, 2022 counter 250",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 250,
+     "DIRECTION_SK": 507,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Counter 250 ran only 8-23 Jun 2022; it cannot be shown to read comparably to counter 278's zone (which sees ~1 bike a day), so it stands alone."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "East (OUT), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 690,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "East (OUT), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 690,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "West (IN), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 761,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "West (IN), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 761,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 324,
+   "name": "West (IN), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 746,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 324,
+   "name": "West (IN), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 746,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 324,
+   "name": "East (OUT), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 929,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 324,
+   "name": "East (OUT), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 929,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 325,
+   "name": "South (OUT), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 847,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 325,
+   "name": "South (OUT), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 847,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 325,
+   "name": "North (IN), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 905,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 325,
+   "name": "North (IN), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 905,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 326,
+   "name": "North (IN), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 814,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 326,
+   "name": "North (IN), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 814,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 326,
+   "name": "South (OUT), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 875,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 326,
+   "name": "South (OUT), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 875,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 327,
+   "name": "West (OUT), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 738,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 327,
+   "name": "West (OUT), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 738,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 327,
+   "name": "East (IN), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 809,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 327,
+   "name": "East (IN), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 809,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 328,
+   "name": "North (OUT), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 869,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 328,
+   "name": "North (OUT), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 869,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 328,
+   "name": "South (IN), 2023-2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 906,
+     "start": "2023-07-01",
+     "end": "2024-09-30"
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  },
+  {
+   "SITE_SK": 328,
+   "name": "South (IN), from Nov 2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 906,
+     "start": "2025-11-01",
+     "end": null
+    }
+   ],
+   "evidence": "Counter 278 was down from May 2024 to Nov 2025 and came back reading very differently: every zone's level rose 2-5x (e.g. 325 South 33 to 145 a day, Sep 2024 vs Sep 2026) and the camera's IN/OUT ratio moved from ~2.3 to ~1.2, so the two periods are not comparable and are kept as separate series."
+  }
+ ],
+ "summary": "Counter 278 is a VivaCity camera covering seven footpath/lane zones at George St / Margaret St / Curtin Pl; it produced all-zero records from 12 May to 28 Aug 2024 (already set missing), then went silent until 27 Nov 2025 and came back reading 2-5x higher with a much more balanced IN/OUT split, so each zone is split into 2023-2024 and post-2025 series; counter 250 was a two-week 2022 trial kept as its own series. The camera throws frequent single-zone phantom bursts (days at 4-14x the zone's usual level with no matching flow in any other zone, often overnight), and the clear ones are set missing, above all in George St W zone 326. Three level changes in 2026 (Margaret St 327 collapsing Jan-Mar while 328 rose, and Curtin Pl 324 jumping from ~2 to ~170 a day from mid-June) are flagged as uncertain."
+}

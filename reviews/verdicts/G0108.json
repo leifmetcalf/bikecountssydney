@@ -1,0 +1,11 @@
+{
+  "group": "G0108",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 108, "DIRECTION_SK": null, "start": "2019-11-27", "end": "2020-03-06",
+      "confidence": "medium",
+      "diagnosis": "After the counter failed on 2019-11-26 it reported only all-zero days plus four Friday daytime fragments (14, 21, 28 Feb and 6 Mar 2020), which the zero_outage fix left partly valid; these fragments are not usable as the site's weekly flow.",
+      "evidence": "Dec 2019-Jan 2020 raw 0 every day; Feb-Mar 2020 non-zero slots only on Fridays about 11:30-19:00, weekly clean totals 58/15, 58/34, 101/49, 49/32 against about 600-900 per direction per week in Oct-Nov 2019; 2020-02-28 19:00 slot has 30 and 21 bikes against a usual slot maximum under 10; 0 complete days in any of these weeks."}
+  ],
+  "series": [],
+  "summary": "Site 108 (Lang Rd bridge, Cooks River) has one Metrocount piezo counter (95) with good data from late September 2017 to 25 November 2019, broken by short outages in 2019 that zero_outage handles correctly. The low days that come just before those outages (e.g. 29-30 Aug and 17-18 Sep 2019) also show at the neighbouring Hawthorne Canal counter, so they are wet weather and are kept. The sharp drop in early October 2018, from about 230 to about 100 bikes per day per direction, lasts for more than a year. Midday and weekend leisure riding fell much more than commute peaks, which does not fit a loss of sensor sensitivity, so it is kept as a real change. The only change is to set the fragmentary data from the dead period, 27 Nov 2019 to 6 Mar 2020, to missing."
+}

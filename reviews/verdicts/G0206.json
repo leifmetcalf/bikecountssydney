@@ -1,0 +1,27 @@
+{
+  "group": "G0206",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 206, "DIRECTION_SK": null, "start": "2023-07-11", "end": "2023-07-14",
+      "confidence": "high",
+      "diagnosis": "River Walk east of the junction was closed during working hours on 10-14 July 2023 and riders were diverted onto Louise Sauvage Path, so the near-zero daytime counts are real, not an outage.",
+      "evidence": "206 daily 15/2/7/1 (212) and 11/2/5/2 (227) on 10-13 Jul versus ~200 normally; meanwhile 207 rose to ~240/180 per direction (normally ~130/100) and matched 205 (168/244, 177/235); on 14 Jul 206 is zero until 10:00 then normal, while 207 carries the morning flow."},
+    {"action": "restore", "SITE_SK": 206, "DIRECTION_SK": 212, "start": "2022-08-29", "end": "2022-08-30",
+      "confidence": "medium",
+      "diagnosis": "Evening/overnight zeros (17:15-06:15) are genuine low riding (likely rain), not an outage.",
+      "evidence": "Same evening all directions at 206 and 207 were near zero (227: 0 in hours 17-18, 4 bikes after; 207_199: 1 in hour 17, 0 in 18); 206_212 day total 138 versus 144 on 227."},
+    {"action": "restore", "SITE_SK": 206, "DIRECTION_SK": 212, "start": "2023-06-07", "end": "2023-06-08",
+      "confidence": "medium",
+      "diagnosis": "Evening/overnight zeros (17:30-06:00) are genuine low riding, not an outage.",
+      "evidence": "All four directions at 206/207 read 0 from 18:00 that evening; 212 day total 157 versus 164 on 227; 8 Jun totals low everywhere (89/98 at 206, 78/51 at 207)."},
+    {"action": "restore", "SITE_SK": 206, "DIRECTION_SK": 227, "start": "2022-04-21", "end": "2022-04-21",
+      "confidence": "medium",
+      "diagnosis": "A two-hour midday lull (13:00-14:45) seen at every nearby counter, likely a shower; zeros are real.",
+      "evidence": "Slots 52-60: 207_199 total 4, 207_216 total 6, 206_212 total 16 (mostly 1s); 227 day total 171 versus 169 on 212."},
+    {"action": "restore", "SITE_SK": 206, "DIRECTION_SK": 212, "start": "2023-04-14", "end": "2023-04-14",
+      "confidence": "medium",
+      "diagnosis": "Short late-morning lull (11:15-12:15) matched at every nearby counter; zeros are real.",
+      "evidence": "Slots 45-49: 207_199 total 7, 207_216 total 0, 206_227 mostly 0-2 after a burst of 16; 212 and 227 both total 110 that day."}
+  ],
+  "series": [],
+  "summary": "A single piezo counter on River Walk east of Louise Sauvage Pathway reads 150-420 bikes/day per direction until early February 2024, then drops to about 1-5/day for good; this is a real closure or rerouting, not a fault, because from 8-11 Feb 2024 the adjacent Louise Sauvage Path counter (site 207) roughly doubles and then tracks the River Walk west counter (site 205) almost exactly, while 205 is unchanged; the same pattern appears for a daytime closure on 10-14 July 2023. The post-closure data is kept as is, including the automatic zero_outage gaps in Dec 2024-May 2025, where weeks of pure zeros are implausible even at ~1 bike/day and matter little either way; the five pre-closure zero_outage fixes removed real zeros (the July 2023 closure and rain lulls seen at every neighbouring counter) and are restored. There is only one counter, so each direction is its own series."
+}

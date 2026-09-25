@@ -1,0 +1,11 @@
+{
+  "group": "G0210",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 210, "DIRECTION_SK": 245, "start": "2018-10-14", "end": "2018-10-14",
+      "confidence": "medium",
+      "diagnosis": "The eastbound zeros 07:45-08:30 that zero_outage set missing are real: they fall exactly while an organised mass ride passed westbound, and the eastbound sensor recorded normally before and after, including its own 172-bike burst at 10:30.",
+      "evidence": "Westbound 26/98/108/166/98 in 08:00-09:00 slots (763 for the day, an annual mid-October Sunday ride also seen 2015-10-18, 2016-10-16, 2017-10-15, 2019-10-13); eastbound 1 at 07:30, 1 at 08:45, 400 for the day; only 4 slots affected, and the raw value is 0 either way."}
+  ],
+  "series": [],
+  "summary": "Site 210 has a single Metrocount piezo (counter 194) that ran without a break from June 2015 to October 2025, with one record per slot, no zero days and almost no automatic fixes; the two directions track each other closely all through. Unusual days fit real causes: an annual mid-October Sunday mass ride westbound, low days in heavy rain or floods (e.g. June 2016, February 2020, March 2021, March and July 2022) with a normal direction split, and an eastbound group burst on 2025-03-11. The only change is to restore four eastbound zero slots on 2018-10-14 that zero_outage removed during the westbound mass ride."
+}

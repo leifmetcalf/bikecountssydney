@@ -1,0 +1,13 @@
+{
+  "group": "G0196",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 196, "DIRECTION_SK": null, "start": "2021-03-19", "end": "2021-03-21", "confidence": "medium",
+      "diagnosis": "The zero_outage zeros fall in the March 2021 flood rain, when riding nearly stopped; they are real low counts, not a counter outage.",
+      "evidence": "Daily raw N/S 03-18 33/18, 03-19 59/18, 03-20 3/0, 03-21 7/5, 03-22 18/10; neighbour 194 (0.5 km) fell the same way: 03-20 6/3, 03-21 17/6; the counter recorded riders in both directions on either side of the zeros."},
+    {"action": "restore", "SITE_SK": 196, "DIRECTION_SK": 214, "start": "2022-07-03", "end": "2022-07-04", "confidence": "medium",
+      "diagnosis": "The zero_outage zeros on North fall in the early-July 2022 flood rain, when riding collapsed; South and the neighbouring site show the same near-zero days.",
+      "evidence": "196 raw N/S 07-02 8/5, 07-03 1/4, 07-04 8/7, 07-05 8/8; neighbour 194 07-03 4/1, 07-04 9/6; normal days are about 100/50."}
+  ],
+  "series": [],
+  "summary": "Site 196 has one Metrocount piezo counter (203), with clean single-record data from Feb 2021 to Sep 2026. The counter works throughout. The only fault is the full-day outage on 2025-10-20, which the automatic fix already sets missing correctly (every neighbouring site also reads 0 that day). Two short zero_outage fixes, in the March 2021 and July 2022 floods, removed real near-zero riding and should be restored. The South spikes on 2022-10-16 (1878) and 2025-10-12 (2410) are an organised Sunday morning ride that also shows at sites 198, 205 and 207. From 2026-09-07, South roughly doubles (about 1200 a week, up from about 600) while direction 243 at the East-side site 194 drops by a similar amount. This looks like a real diversion from one side of Silverwater Rd to the other, not a fault."
+}

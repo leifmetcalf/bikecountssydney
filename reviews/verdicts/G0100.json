@@ -1,0 +1,13 @@
+{
+  "group": "G0100",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 100, "DIRECTION_SK": 43, "start": "2013-02-15", "end": "2013-02-28", "confidence": "high",
+      "diagnosis": "South East direction also counted the North West riders (a direction-detection fault), so its counts are inflated by roughly the other direction's flow while North West stays at its normal level.",
+      "evidence": "Dir 43 averaged 403/day in Feb 2013 vs 244 in Jan and 233 in Mar, and went from ~0.6x dir 44 to 1.6-1.9x it on every day 15-28 Feb; dir 43 >= dir 44 in 98-100% of non-zero slots (vs ~50% on other days) with slot correlation 0.88-0.96 (vs ~0.5); the excess matches dir 44's hourly profile (e.g. 17h: 67 vs usual 18, dir 44 46); dir 44 stays at 250-500/day, and the pattern ends by 1 Mar."},
+    {"action": "missing", "SITE_SK": 100, "DIRECTION_SK": null, "start": "2019-10-18", "end": "2019-10-18", "confidence": "high",
+      "diagnosis": "Final day of the record: the counter stopped at 11:00 and the rest of the day is recorded as zeros, so the day total is truncated.",
+      "evidence": "Both directions count normally 04:00-10:45 (142/134) then 52 consecutive zero slots from 11:00 to 23:45, including the PM peak that normally carries ~40% of dir 44's bikes; no data after this date."}
+  ],
+  "series": [],
+  "summary": "Single unknown counter on the Iron Cove Bridge shared path (2011-04 to 2019-10) with one record per slot; long outages (Feb 2014-Sep 2015, Mar-Jun 2017 intermittent, Feb 2018-Sep 2019 with only Friday fragments) are already handled by zero_outage and those fixes look right. The one real fault is 15-28 Feb 2013, when the South East direction also counted North West riders; that fortnight of dir 43 is set missing, as is the truncated final day 2019-10-18. Levels before and after the outages are consistent, so the site stays one series per direction."
+}

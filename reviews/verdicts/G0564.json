@@ -1,0 +1,15 @@
+{
+  "group": "G0564",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 564, "DIRECTION_SK": null, "start": "2024-12-29", "end": "2024-12-29",
+      "confidence": "medium",
+      "diagnosis": "The zero_outage trim cut the evening of the last good day before the outage, but the counter was still counting sparse late-night riders until 23:45.",
+      "evidence": "After 20:30 the raw counts are 1,3,0,0,1,...,1,0,1 (North) and 3,0,0,1,1 (South), which fits normal late-evening traffic; restoring them gives complete days of 164 and 268 bikes. The outage of pure zeros starts on 2024-12-30."},
+    {"action": "restore", "SITE_SK": 564, "DIRECTION_SK": null, "start": "2025-10-14", "end": "2025-10-14",
+      "confidence": "medium",
+      "diagnosis": "The zero_outage trim cut the overnight hours of the first day back after the outage, but that morning's slots show the counter was already live.",
+      "evidence": "There is 1 bike at 01:15 (North) and 2 at 05:00 (South), then normal dawn counts from 05:30; the raw totals are 98 and 152, in line with the days that follow (89-198 and 108-249)."}
+  ],
+  "series": [],
+  "summary": "This is a single Metrocount piezo counter on The Strand at Dee Why with one record per slot and a plausible North/South split (South about 1.3-1.5 times North). It recorded pure zeros in both directions from 2024-12-30 to 2025-10-13 (288 days), which zero_outage already sets to missing, and the rest of the record has normal seasonal variation with no doubling or spikes. The only changes are to restore the few real night-time counts that the automatic trim removed on the two days at the edges of the outage."
+}

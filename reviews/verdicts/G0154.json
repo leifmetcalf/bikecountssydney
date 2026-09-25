@@ -1,0 +1,28 @@
+{
+  "group": "G0154",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 154, "DIRECTION_SK": null, "start": "2020-02-08", "end": "2020-02-10", "confidence": "medium",
+     "diagnosis": "Near-zero counts in both directions during the February 2020 Sydney deluge are real low riding, not an outage.",
+     "evidence": "Both directions fall together: 02-07 5/8, 02-08 9/14, 02-09 0/1, 02-10 44/39, then back to 94/95 on 02-11; zero_outage removed only one direction's zeros in places."},
+    {"action": "restore", "SITE_SK": 154, "DIRECTION_SK": 109, "start": "2020-07-26", "end": "2020-07-27", "confidence": "medium",
+     "diagnosis": "Low westbound counts match the equally low, unfixed eastbound counts on the same wet days.",
+     "evidence": "109 raw 2/6 vs 110 raw 3/11 (110 kept as is); both recover together 07-28 14/23 and 07-29 69/83."},
+    {"action": "restore", "SITE_SK": 154, "DIRECTION_SK": 110, "start": "2021-08-23", "end": "2021-08-25", "confidence": "medium",
+     "diagnosis": "Eastbound zeros on 2021-08-24 match westbound's 1 bike that day (kept), so the day was genuinely empty.",
+     "evidence": "08-23 46/33, 08-24 1/0, 08-25 42/29; 109 was not fixed and shows the same dip."},
+    {"action": "restore", "SITE_SK": 154, "DIRECTION_SK": 109, "start": "2022-07-02", "end": "2022-07-07", "confidence": "medium",
+     "diagnosis": "Westbound near-zero days in the early-July 2022 flood rain match the unfixed eastbound counts.",
+     "evidence": "109/110 raw: 07-02 1/1, 07-03 2/2, 07-04 3/1, 07-05 2/1, 07-06 1/2, 07-07 23/11; only 109 was partly set missing."},
+    {"action": "missing", "SITE_SK": 154, "DIRECTION_SK": 110, "start": "2022-06-14", "end": "2022-07-25", "confidence": "medium",
+     "diagnosis": "Eastbound abruptly undercounted from 2022-06-14 until a maintenance visit on 2022-07-26, after which the usual split returned.",
+     "evidence": "110/109 ratio ~0.9 through 2022-06-13 (e.g. 06-13 49/36) then ~0.45 from 06-14 (38/13, 46/20, 30/16 ...), site total fell from ~60 to ~45/day; after 07-29 ratio back to ~0.8 (Aug 32 vs 25/day)."},
+    {"action": "missing", "SITE_SK": 154, "DIRECTION_SK": null, "start": "2022-07-26", "end": "2022-07-26", "confidence": "high",
+     "diagnosis": "Technician test hits during a maintenance visit, followed by the counter going silent.",
+     "evidence": "10:30-12:00 slots of 115, 53, 18 (109) and 12, 103, 116, 68 (110) against ~20-30 bikes per day; day totals 190/347 vs median 19/8."},
+    {"action": "missing", "SITE_SK": 154, "DIRECTION_SK": 110, "start": "2022-08-04", "end": "2022-08-04", "confidence": "medium",
+     "diagnosis": "A single midday slot of 30 during a partial outage is another test/fault artefact.",
+     "evidence": "110 at 12:45 = 30 with the rest of the day 1-2 per slot (day 40 vs ~20 typical); 109 went silent after 12:45 the same day."}
+  ],
+  "series": [],
+  "summary": "Single piezo counter (109) on the Ernest St shared path, 2017-2026, with gaps Oct 2021-Feb 2022 and Sep 2022-Sep 2023 (the latter already set missing by zero_outage). The main faults are an eastbound undercount from 2022-06-14 until a maintenance visit on 2022-07-26 (whose test hits are set missing), and a few rain-day zeros wrongly removed by zero_outage that are restored. The level after the Oct 2021-Feb 2022 gap is about half the 2017-2021 level and stays lower relative to Ridge St through 2024; it is left as is (possibly Warringah Freeway works or a reinstalled sensor), but trend comparisons across that gap should be treated with care."
+}

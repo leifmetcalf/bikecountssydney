@@ -1,0 +1,377 @@
+{
+ "group": "G0360",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 360,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 360,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 360,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 361,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 361,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 361,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 362,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 362,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 362,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 363,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 363,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 363,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 364,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 364,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 364,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 365,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 365,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 365,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 366,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 366,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 366,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 367,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 367,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 367,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 368,
+   "DIRECTION_SK": null,
+   "start": "2023-07-27",
+   "end": "2023-07-31",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage: every zone reports zeros for five full days; low-volume zones kept these zeros as real.",
+   "evidence": "All 18 directions raw 0 on 2023-07-27..31 vs ~77 bikes/day camera total on surrounding days; zero_outage caught only the busier zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 368,
+   "DIRECTION_SK": null,
+   "start": "2025-11-26",
+   "end": "2025-11-27",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage from about 12:45 on 11-26 to 12:15 on 11-27: all zones zero or unpublished, only site 360 caught by zero_outage.",
+   "evidence": "Camera raw 0 over 2025-11-26 12:45 to 11-27 12:15 vs 184-320 bikes in the same window in the surrounding weeks; many directions have only 3-8 valid slots on 11-26."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 368,
+   "DIRECTION_SK": null,
+   "start": "2026-08-11",
+   "end": "2026-08-12",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage from 14:15 on 08-11 to 12:15 on 08-12, ending in a single 12:30 slot holding a backlog dump; only site 360 caught.",
+   "evidence": "All zones raw 0 across the window (expected ~190 bikes from adjacent weeks); 12:30 slot on 08-12 has 271 bikes (360/781 59, 360/739 40, 366/732 32) vs a day total ~250; dump is ~1.4x the missed window so cannot be trusted as a redistribution."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 360,
+   "DIRECTION_SK": null,
+   "start": "2023-12-03",
+   "end": "2023-12-03",
+   "confidence": "low",
+   "diagnosis": "Whole camera near-zero all day including 10:00-17:00 while the Settlers Walk/NW Tway counters 5 km away were normal; possibly a partial outage with published zeros, possibly weather.",
+   "evidence": "Camera total 21 bikes vs median ~100; hours 10-16 all zero; sites 200-202 normal hourly profile that day. Applies to all sites 360-368."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 360,
+   "DIRECTION_SK": null,
+   "start": "2024-11-07",
+   "end": "2026-09-24",
+   "confidence": "low",
+   "diagnosis": "Sudden simultaneous level step on 2024-11-07/08 in several zones, persisting unchanged, consistent with a camera reconfiguration or classifier change but could be a real new flow.",
+   "evidence": "Monthly bikes/day Oct->Dec 2024: 360/739 14->27, 360/781 22->44, 362/699 6->15, 365/773 6->12, 366/732 3->18; hourly profile keeps its shape at ~2x; zones 363/696, 364, 367, 368 unchanged."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 362,
+   "DIRECTION_SK": null,
+   "start": "2024-11-07",
+   "end": "2026-09-24",
+   "confidence": "low",
+   "diagnosis": "Sudden simultaneous level step on 2024-11-07/08 in several zones, persisting unchanged, consistent with a camera reconfiguration or classifier change but could be a real new flow.",
+   "evidence": "Monthly bikes/day Oct->Dec 2024: 360/739 14->27, 360/781 22->44, 362/699 6->15, 365/773 6->12, 366/732 3->18; hourly profile keeps its shape at ~2x; zones 363/696, 364, 367, 368 unchanged."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 365,
+   "DIRECTION_SK": null,
+   "start": "2024-11-07",
+   "end": "2026-09-24",
+   "confidence": "low",
+   "diagnosis": "Sudden simultaneous level step on 2024-11-07/08 in several zones, persisting unchanged, consistent with a camera reconfiguration or classifier change but could be a real new flow.",
+   "evidence": "Monthly bikes/day Oct->Dec 2024: 360/739 14->27, 360/781 22->44, 362/699 6->15, 365/773 6->12, 366/732 3->18; hourly profile keeps its shape at ~2x; zones 363/696, 364, 367, 368 unchanged."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 366,
+   "DIRECTION_SK": null,
+   "start": "2024-11-07",
+   "end": "2026-09-24",
+   "confidence": "low",
+   "diagnosis": "Sudden simultaneous level step on 2024-11-07/08 in several zones, persisting unchanged, consistent with a camera reconfiguration or classifier change but could be a real new flow.",
+   "evidence": "Monthly bikes/day Oct->Dec 2024: 360/739 14->27, 360/781 22->44, 362/699 6->15, 365/773 6->12, 366/732 3->18; hourly profile keeps its shape at ~2x; zones 363/696, 364, 367, 368 unchanged."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 364,
+   "DIRECTION_SK": 829,
+   "start": "2023-09-06",
+   "end": "2023-09-27",
+   "confidence": "medium",
+   "diagnosis": "zero_outage misfired on a near-empty zone; its zeros are consistent with its normal ~0.2 bikes/day while the rest of the camera was normal.",
+   "evidence": "364/829 averages 0-1 bike/day in 2023; raw over the run is 3 bikes; all other zones report normally."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 367,
+   "DIRECTION_SK": 757,
+   "start": "2023-07-15",
+   "end": "2023-07-26",
+   "confidence": "medium",
+   "diagnosis": "zero_outage misfired on a near-empty road-lane zone (northbound Sunnyholt Rd) whose zeros are its normal level.",
+   "evidence": "367/757 carries ~0.1-0.3 bikes/day throughout (3-9 bikes/month in 2024-25); raw 8 bikes over Jul-Dec 2023; other zones normal during these runs."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 367,
+   "DIRECTION_SK": 757,
+   "start": "2023-08-01",
+   "end": "2023-12-01",
+   "confidence": "medium",
+   "diagnosis": "zero_outage misfired on a near-empty road-lane zone (northbound Sunnyholt Rd) whose zeros are its normal level.",
+   "evidence": "367/757 carries ~0.1-0.3 bikes/day throughout (3-9 bikes/month in 2024-25); raw 8 bikes over Jul-Dec 2023; other zones normal during these runs."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 367,
+   "DIRECTION_SK": 757,
+   "start": "2024-05-07",
+   "end": "2024-06-26",
+   "confidence": "medium",
+   "diagnosis": "zero_outage misfired on a near-empty road-lane zone (northbound Sunnyholt Rd) whose zeros are its normal level.",
+   "evidence": "367/757 carries ~0.1-0.3 bikes/day throughout (3-9 bikes/month in 2024-25); raw 8 bikes over Jul-Dec 2023; other zones normal during these runs."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 367,
+   "DIRECTION_SK": 757,
+   "start": "2025-05-16",
+   "end": "2025-06-17",
+   "confidence": "medium",
+   "diagnosis": "zero_outage misfired on a near-empty road-lane zone (northbound Sunnyholt Rd) whose zeros are its normal level.",
+   "evidence": "367/757 carries ~0.1-0.3 bikes/day throughout (3-9 bikes/month in 2024-25); raw 8 bikes over Jul-Dec 2023; other zones normal during these runs."
+  }
+ ],
+ "series": [],
+ "summary": "Single VivaCity-style camera (counter 282) covering nine zones at Sunnyholt Rd / Devitt St, Blacktown, with no counter changes, so every counter-direction is its own series. The Jan-Mar 2024 outage is already handled; three shorter camera-wide outages (Jul 2023, Nov 2025, Aug 2026 with a backlog dump) are set missing for all zones, and zero_outage misfires on two near-empty zones are restored. A sudden ~2x step in several zones from 2024-11-07 is flagged uncertain as a possible camera reconfiguration."
+}

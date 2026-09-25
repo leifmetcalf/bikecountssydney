@@ -1,0 +1,6 @@
+{
+  "group": "G0555",
+  "decisions": [],
+  "series": [],
+  "summary": "Single Metrocount piezo counter (374) at Bourke Rd (W), Alexandria, with complete, single-record data in both directions from 2025-11-08 to 2026-09-22; weekly totals are steady (about 2,100-4,000 per direction) with only the expected Christmas, mid-January weekend and winter dips mirrored in both directions, and no doubling, duplicates or outages. The only automatic fix, a zero_outage on 2026-02-04 20:45-22:45 for the South West direction (9 zeros where about 17 bikes are usual while North East kept counting), is plausible and negligible for the weekly total, so it is left in place; no series definition is needed."
+}

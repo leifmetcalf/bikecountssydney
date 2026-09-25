@@ -1,0 +1,27 @@
+{
+  "group": "G0456",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 462, "DIRECTION_SK": null, "start": "2026-08-05", "end": "2026-08-07",
+      "confidence": "medium",
+      "diagnosis": "Weeknight bursts of 'bicycles' on the New Line Rd mixed-traffic zone, equal in both directions around 21:00-02:00, look like camera misclassification (probably night works or vehicles) rather than riding.",
+      "evidence": "Daily 1264/1267: 35/54, 125/138, 39/32 on Aug 5-7 vs usual 2-10; on Aug 6, 01:00-02:00 alone had 51 N and 67 S (typical night hour ~0); the week of Aug 3 is 215/249 vs 40-90 in the weeks around it; weekday daytime counts those days were normal."},
+    {"action": "uncertain", "SITE_SK": 461, "DIRECTION_SK": null, "start": "2026-08-06", "end": "2026-08-07",
+      "confidence": "low",
+      "diagnosis": "The same night of odd activity (Aug 6 23:00 to Aug 7 04:00) lifts the Castle Hill Rd SW footpath zone, which may be misclassification from the same cause.",
+      "evidence": "1246/1250 nights 13-16 and 6-15 vs usual 0-2; daily 15-16 vs usual 1-4."},
+    {"action": "uncertain", "SITE_SK": 463, "DIRECTION_SK": null, "start": "2026-08-05", "end": "2026-08-07",
+      "confidence": "low",
+      "diagnosis": "Moderately high night counts on the Castle Hill Rd mixed-traffic zone at the same time as the New Line Rd burst.",
+      "evidence": "1374 night totals 7, 13, 27 on Aug 5-7 (daily 10-28 vs usual ~4); 1335 is roughly normal by day."},
+    {"action": "uncertain", "SITE_SK": 462, "DIRECTION_SK": null, "start": "2026-07-09", "end": "2026-07-10",
+      "confidence": "low",
+      "diagnosis": "Smaller night bursts on the New Line Rd road zone, of the same kind as Aug 5-7.",
+      "evidence": "Night (21:00-03:59) totals 20/19 and 12/15 for 1264/1267 vs usual ~0-2; the week of Jul 6 is 72/78 vs 20-40."},
+    {"action": "uncertain", "SITE_SK": 462, "DIRECTION_SK": null, "start": "2026-09-01", "end": "2026-09-01",
+      "confidence": "low",
+      "diagnosis": "Another night burst on the road zone with the same pattern.",
+      "evidence": "Night totals 21/13 for 1264/1267; daily 30/27 vs usual 5-12."}
+  ],
+  "series": [],
+  "summary": "Group G0456 is a single VivaCity camera (counter 317) covering eight zones at Castle Hill Rd and New Line Rd, West Pennant Hills. It counts few bikes (about 1-15 per zone per day) and no automatic fixes were applied. Since June 2025 the feed leaves out whole days with zero bikes for the quiet zones, where it used to publish them as warning zeros; those days are real zeros, but their weeks now show as incomplete. The main fault is a run of weeknight bursts on the New Line Rd road zone (462) on 5-7 Aug 2026, which I set to missing. Smaller bursts of the same kind (Jul 9-10, Sep 1, and the other zones on Aug 5-7) are left in and marked uncertain."
+}

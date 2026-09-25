@@ -1,0 +1,23 @@
+{
+  "group": "G0322",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 322, "DIRECTION_SK": null,
+      "start": "2022-10-01", "end": "2022-10-10", "confidence": "medium",
+      "diagnosis": "Counter outage from the afternoon of 2022-09-30 to the afternoon of 2022-10-11; zero_outage already nulls the zeros, but four stray single counts in this period stay valid and give week 2022-10-03 a total of 2.",
+      "evidence": "Site total 0-1 bikes/day on 2022-10-01..10 (single counts on 10-01 12:00, 10-02 13:15, 10-03 21:00, 10-09 17:30) against 40-60/day before and after; nearby Epping Rd site 273 normal at 5-37/day; no known event; a path closure cannot be ruled out, but the counter stops mid-afternoon on a Friday and resumes mid-afternoon on a Tuesday, which fits an equipment fault."},
+    {"action": "restore", "SITE_SK": 322, "DIRECTION_SK": 642,
+      "start": "2022-07-02", "end": "2022-07-03", "confidence": "medium",
+      "diagnosis": "zero_outage removed real near-zero riding during the early-July 2022 Sydney rain and flooding.",
+      "evidence": "642 still counted bikes on both days (05:45, 15:45 on 07-02; 21:00, 21:30 on 07-03); 635 had 4 and 1; nearby site 273 fell to 3 and 6/day (normal ~30)."},
+    {"action": "restore", "SITE_SK": 322, "DIRECTION_SK": 635,
+      "start": "2024-06-22", "end": "2024-06-22", "confidence": "medium",
+      "diagnosis": "zero_outage removed a real low-riding wet Saturday.",
+      "evidence": "Site total 6 (635: 2, 642: 4) against 38-45 on neighbouring days; nearby sites dropped the same way that day (177: 9 vs 87-88, 273: 4 vs 18-26)."},
+    {"action": "restore", "SITE_SK": 322, "DIRECTION_SK": null,
+      "start": "2025-08-01", "end": "2025-08-03", "confidence": "medium",
+      "diagnosis": "zero_outage removed real low riding during a wet spell; the counter kept registering bikes throughout.",
+      "evidence": "Site totals 12, 1, 10 (642 counted at 12:45 on 08-02); nearby 177 had 42, 22, 27 and 273 had 17, 9, 16, all about 15-30% of their normal level (177 ~140, 273 ~45), matching 322's drop from ~55."}
+  ],
+  "series": [],
+  "summary": "Site 322 has one piezo counter with one record per slot. The data is clean apart from two real outages: 1-11 Oct 2022 at this counter only, and 20 Oct 2025, when the whole feed was down (every nearby site reads 0). zero_outage handled both correctly, apart from four stray single counts in Oct 2022, which are now set to missing. The other zero_outage fixes (Jul 2022, Jun 2024, Aug 2025) fell on wet days when nearby counters dropped by the same proportion, so the raw values are restored; one counter with no shared sites means no series needs defining."
+}

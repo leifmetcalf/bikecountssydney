@@ -1,0 +1,27 @@
+{
+  "group": "G0120",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 120, "DIRECTION_SK": 23, "start": "2013-02-15", "end": "2013-02-28",
+      "confidence": "high",
+      "diagnosis": "For exactly these two weeks the northbound record also contains the southbound bikes (it reads as the two-way total), so its values cannot be separated out and are wrong.",
+      "evidence": "Daily 23/24 ratio steps from 0.85-1.1 to 1.9-2.4 on 2013-02-15 and back to ~1.0 on 2013-03-01; northbound >= southbound in 99.9% of non-zero slots (796/797) vs 55-58% before and after; northbound hourly profile = its own normal profile + the southbound profile (e.g. 17h: 9.1+16.6 vs 28.5); site 119 (a different counter nearby) shows the same fault on the same dates."},
+    {"action": "missing", "SITE_SK": 120, "DIRECTION_SK": 23, "start": "2011-12-16", "end": "2011-12-25",
+      "confidence": "medium",
+      "diagnosis": "The counter stopped after about 13:00 on 2011-12-16, but the northbound zeros around that were kept as valid (16 Dec counts 37 as a complete day, and a lone 15-bike glitch slot on 19 Dec survives), while southbound was already set missing.",
+      "evidence": "Both directions have no counts after 13:00 on 16 Dec and almost only zeros until 9 Jan 2012; 19 Dec 17:45 has 15 northbound and 3 southbound in a single slot with zeros all around it; normal days are about 90-115 bikes."},
+    {"action": "restore", "SITE_SK": 120, "DIRECTION_SK": 23, "start": "2011-07-21", "end": "2011-07-22",
+      "confidence": "medium",
+      "diagnosis": "zero_outage flagged the zeros on low days that the other direction shows were real (likely rain), so the raw zeros should stand.",
+      "evidence": "Northbound 2 and 5 bikes compared with southbound 3 and 7 on fully valid days; both directions were also low on 20 Jul (14/10) and 23 Jul (21/27)."},
+    {"action": "restore", "SITE_SK": 120, "DIRECTION_SK": 24, "start": "2019-06-03", "end": "2019-06-04",
+      "confidence": "medium",
+      "diagnosis": "zero_outage flagged southbound zeros on a low day that northbound shows was real, so the raw zeros should stand.",
+      "evidence": "4 Jun 2019: southbound 5 bikes compared with northbound 10 on a fully valid day; 5 Jun was also low in both directions (20/20); 3 Jun was 53 vs 68."},
+    {"action": "uncertain", "SITE_SK": 120, "DIRECTION_SK": 24, "start": "2019-02-25", "end": "2019-08-18",
+      "confidence": "low",
+      "diagnosis": "Southbound ran about 15% below northbound for six months, when the two were otherwise balanced; this could be a real change of route or the sensor under-reading, and the onset and end are gradual.",
+      "evidence": "Weekly 24/23 ratio of 0.77-0.91 from late Feb to mid-Aug 2019, compared with 0.95-1.05 in 2018 and from 19 Aug 2019 on; the ratio does not step on a single date; no parity or channel anomaly."}
+  ],
+  "series": [],
+  "summary": "A single MetroCount piezo (counter 103) on the Hawthorne Canal path, 2011-2020, with balanced directions and plausible seasonal, storm (Feb 2020) and COVID (Apr 2020 surge) patterns. The one clear fault is 2013-02-15 to 2013-02-28, when the northbound record held the two-way total (the same fault shows on the same dates at site 119), so it is set missing. Beyond that there is a tidy-up at the Dec 2011 outage edge, two restores of genuine near-zero rain days, and a southbound deficit of about 15% in Mar-Aug 2019 left as uncertain; the automatic outage fixes are otherwise correct."
+}

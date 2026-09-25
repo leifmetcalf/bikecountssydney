@@ -1,0 +1,19 @@
+{
+  "group": "G0267",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 267, "DIRECTION_SK": 342, "start": "2016-12-19", "end": "2016-12-21",
+      "confidence": "high",
+      "diagnosis": "The northbound direction was set missing only as corrupt_day because the southbound direction carried impossible early-morning counts; the northbound slots themselves are normal.",
+      "evidence": "342 raw 552/695/609 per day with a normal commute profile (8am hour 154/174/135) against 673-735 on the preceding weekdays; the junk (3175, 4070, 2477 bikes per hour at 3-4am) is only in 343."},
+    {"action": "missing", "SITE_SK": 267, "DIRECTION_SK": null, "start": "2022-05-21", "end": "2023-03-03",
+      "confidence": "high",
+      "diagnosis": "The counter was failing: it reported only sporadic bursts of counts, with many all-zero days, until it came back at full level on 2023-03-04.",
+      "evidence": "Before this, 342/343 ran 600-700/400-500 bikes on weekdays with about 75-80 non-zero slots a day; from 21 May 2022 the days kept by the automatic fixes hold 0-260 (monthly means 8-83 and 5-47) in 2-25 non-zero slots, often one isolated 10-23 count per slot. On 2023-03-06 the counts are back at 624/483."},
+    {"action": "missing", "SITE_SK": 267, "DIRECTION_SK": null, "start": "2023-05-11", "end": "2023-12-04",
+      "confidence": "high",
+      "diagnosis": "A second failure lasted until the counter went offline: long runs of zeros, impossible bursts, a replay of May 2023 data, and sporadic low counts.",
+      "evidence": "2023-09-05..09-10 are slot-for-slot copies of 2023-05-02,03,04,06,07,01 (75-79 matching non-zero slots per day in both directions, e.g. 368/233 and 262/204 on both 06 May and 08 Sep; Friday 08 Sep carries Saturday 06 May's pattern); 2023-07-12 keeps 1057 in 2 slots; 2023-09-20 has 265 in 4 slots; Oct-Nov days hold 0-111 in a few slots."}
+  ],
+  "series": [],
+  "summary": "Site 267 has one piezo counter (230) with two directions. It is reliable from Aug 2015 to 20 May 2022 and from 4 Mar to 10 May 2023. From 21 May 2022 to 3 Mar 2023 it reported only sporadic, far-too-low counts, and after 10 May 2023 it produced zeros, impossible spikes and a replay of early-May 2023 data. Both of those periods are set to missing, and the northbound counts for 19-21 Dec 2016, which were set missing only because of the southbound junk, are restored."
+}

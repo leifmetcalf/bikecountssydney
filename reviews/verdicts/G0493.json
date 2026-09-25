@@ -1,0 +1,867 @@
+{
+ "group": "G0493",
+ "decisions": [
+  {
+   "action": "uncertain",
+   "SITE_SK": 493,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 494,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 495,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 496,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 497,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 498,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 499,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 500,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 501,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 502,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 503,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 504,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-09-26",
+   "confidence": "low",
+   "diagnosis": "Camera zone configuration or detection appears to change on 2024-09-26/27: afterwards the whole camera reads ~70% higher and the split between zones shifts, so the early period may not be comparable with the rest.",
+   "evidence": "Weekly total 700-800 up to week of 2024-09-23, 1100-1500 from 2024-09-30 onward as a step; 501/1459 (S OUT) drops from 13-25/day to ~5/day at the same date while 504/1471 rises from ~4 to ~14/day; camera-wide IN/OUT balanced before (5263 vs 5218) but IN 41% above OUT afterwards (68904 vs 48894); 2024-09-26 itself only 18 bikes."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 497,
+   "DIRECTION_SK": null,
+   "start": "2024-08-13",
+   "end": "2024-09-07",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on footpath zone 497, which normally carries 0-1 bikes a day in each direction, so a few weeks of zeros are expected.",
+   "evidence": "497/1573 and 497/1574 raw weekly totals 0-4 and 0-2 in Jun-Jul 2024 with several zero weeks; rest of the camera normal (100-160/day) through the fixed period."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 504,
+   "DIRECTION_SK": 1471,
+   "start": "2025-05-21",
+   "end": "2025-05-23",
+   "confidence": "low",
+   "diagnosis": "Zeros coincide with a camera-wide wet-weather slump (every zone including road zone 502 low), so the zeros are plausibly real rather than an outage.",
+   "evidence": "Camera daily totals 67, 54, 78 vs ~135-195 around; 502 down to 21-30/day; 504/1471 at 4 on 05-21 before zero run."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 501,
+   "DIRECTION_SK": 1516,
+   "start": "2025-07-01",
+   "end": "2025-07-02",
+   "confidence": "low",
+   "diagnosis": "Zeros fall on a camera-wide collapse (storm days), every other zone was also near zero, so the zeros are consistent with real riding.",
+   "evidence": "Camera totals 16 and 76 vs ~160-200; all other zones 0-6/day; only 8 and 14 of 24 directions even published a non-empty day."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 493,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 494,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 495,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 496,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 497,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 498,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 499,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 500,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 501,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 503,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 504,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-11",
+   "confidence": "low",
+   "diagnosis": "All zones except road zone 502 nearly stop counting while 502 stays at a normal or higher level, which could be a partly obscured view or heavy rain.",
+   "evidence": "2025-09-10: 502 = 91 (peak 22 at 18:00), all other zones together 26 vs usual ~120-180; 2025-09-11: 502 = 47, others 51; zero_outage already removed 504/1471 zeros."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 493,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 494,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 495,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 496,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 497,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 498,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 499,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 500,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 501,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 502,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 503,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 504,
+   "DIRECTION_SK": null,
+   "start": "2025-10-02",
+   "end": "2025-10-02",
+   "confidence": "high",
+   "diagnosis": "Camera stopped counting at 16:00 but kept publishing zeros for the rest of the day, just before a 39-day outage.",
+   "evidence": "Hourly camera totals 5-27 through 15:00, then 0 for 16:00-23:59 (normal PM peak 30-50/h); no data 2025-10-03 to 2025-11-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 493,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 494,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 495,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 496,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 497,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 498,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 499,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 500,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 501,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 502,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 503,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 504,
+   "DIRECTION_SK": null,
+   "start": "2025-11-10",
+   "end": "2025-11-10",
+   "confidence": "high",
+   "diagnosis": "Restart day after the outage: zeros published for every slot until 21:00, only 5 directions reported.",
+   "evidence": "Only 480 records (5 directions); counts 0 from 00:00 to 20:59, then 8, 7, 2 in 21-23h; day total 17 vs ~210."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 493,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 494,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 495,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 496,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 497,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 498,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 499,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 500,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 501,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 502,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 503,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 504,
+   "DIRECTION_SK": null,
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "confidence": "high",
+   "diagnosis": "Restart day after an 8-day outage: zeros published for 00:00-11:59 before counting resumed.",
+   "evidence": "Hourly camera totals 0 for hours 0-11 (normal AM 20-60/h), then 2-19/h; no data 2026-07-29 to 2026-08-04."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 493,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 494,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 495,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 496,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 497,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 498,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 499,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 500,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 501,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 502,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 503,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 504,
+   "DIRECTION_SK": null,
+   "start": "2026-09-24",
+   "end": "2026-09-24",
+   "confidence": "medium",
+   "diagnosis": "Last, partially published day: records were published the same day and slots after 16:00 are zeros for every zone.",
+   "evidence": "ADDED_UPDATED 2026-09-24; hourly totals 5-12 through 15:00, then 0 for 16:00-23:59 on a Thursday (normal PM peak 30-50/h)."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 493,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 494,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 495,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 496,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 497,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 498,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 499,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 500,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 501,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 502,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 503,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 504,
+   "DIRECTION_SK": null,
+   "start": "2026-01-18",
+   "end": "2026-01-18",
+   "confidence": "low",
+   "diagnosis": "All zones read zero from midnight to 10:00 on a Sunday, which may be a morning outage or heavy rain (the previous day was also low).",
+   "evidence": "Sunday 06:00-09:59 usually 25-60 bikes camera-wide, here 0; day total 112 vs ~180; 2026-01-17 total 87."
+  }
+ ],
+ "series": [],
+ "summary": "Single Secure Agility camera (322) covering 12 zones at Gipps St / Broughton St, Concord, from June 2024; it has only one counter so each counter-direction is its own series. The camera publishes explicit zeros around outages (2025-10-02 PM, 2025-11-10, 2026-08-05 AM, and the partial last day 2026-09-24), and those days are set missing; zero_outage fixes on the near-empty zone 497 and on storm days are restored. A step change around 2024-09-26 (level +70%, a changed zone split, and IN/OUT no longer balanced) makes the first four months uncertain."
+}

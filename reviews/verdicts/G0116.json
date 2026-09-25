@@ -1,0 +1,27 @@
+{
+  "group": "G0116",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 116, "DIRECTION_SK": 34, "start": "2013-02-15", "end": "2013-02-28",
+      "confidence": "high",
+      "diagnosis": "South records carry the North counts on top of their own (both directions summed into direction 34), so the South and site totals are inflated.",
+      "evidence": "Dir 34 >= dir 33 in 1340 of 1344 slots (reference fortnight: 351 slots lower); dir 34 ~1.9x dir 33 daily (e.g. 692 vs 368 on 16 Feb) while dir 33 stays at its usual level; switches on at 00:00 15 Feb and off by 1 Mar; the identical artefact appears on the same dates at site 114 (dir 35 = 35+36)."},
+    {"action": "missing", "SITE_SK": 116, "DIRECTION_SK": null, "start": "2015-06-14", "end": "2015-06-21",
+      "confidence": "high",
+      "diagnosis": "Phantom detections: bursts of near-identical counts in both directions slot by slot, including overnight, not real riders.",
+      "evidence": "e.g. 16 Jun 21:15-23:15 ~200/slot in both directions (212/212, 207/207), 01:15 138/138; 42 slots on 16 Jun with both >=30 and within 8%; daily raw 11739 on 16 Jun vs ~250 normal; week of 15 Jun raw 12330/12165 vs ~1300; such paired slots otherwise almost never occur."},
+    {"action": "uncertain", "SITE_SK": 116, "DIRECTION_SK": null, "start": "2016-02-15", "end": "2016-05-31",
+      "confidence": "low",
+      "diagnosis": "Possible partial undercount, mainly southbound (dir 34), but weekends often look normal so a real local change cannot be ruled out.",
+      "evidence": "Dir 34/33 falls from 0.96 to 0.67 (Apr 2016) and recovers by Aug; site 116/114 median weekday ratio 0.62 and weekend 0.53 in Apr 2016 vs ~1.0-1.2 normally; week of 7 Mar weekdays 29-91 while the weekend was 722/713."},
+    {"action": "missing", "SITE_SK": 116, "DIRECTION_SK": null, "start": "2017-04-24", "end": "2018-02-04",
+      "confidence": "medium",
+      "diagnosis": "A failing sensor misses most bikes, especially in cool early mornings, and ends in phantom bursts; the neighbouring M7 counter shows no such drop.",
+      "evidence": "Weekday median 61 (Sep 2017) and 109 (Oct) vs 214/274 at site 114 (normally 116/114 ~1.0-1.1); weekday 05-08h to 10-14h ratio 0.0-0.3 May-Nov 2017 vs 0.6-1.3 at 114; dir 34 > dir 33 in ~75% of slots (normally ~47%); 29-30 Jan and 3 Feb 2018 phantom bursts up to 526/621 per slot in both directions (3 Feb raw 9051)."},
+    {"action": "uncertain", "SITE_SK": 116, "DIRECTION_SK": null, "start": "2018-12-03", "end": "2018-12-16",
+      "confidence": "low",
+      "diagnosis": "Weekday counts unusually low for two weeks, with no neighbour to check against; could be weather or sensor trouble.",
+      "evidence": "Weekday daily totals 10-86 (Dec 2016 weekdays ~200-400, Jan 2019 ~220-370) while weekends 93-412."}
+  ],
+  "series": [],
+  "summary": "Site 116 has one piezo counter (92), so no series needs defining. Its data is clean until 2013. From April 2013 a logger fault keeps only about Friday to Monday of each week, and from May 2019 only part of each Friday; zero_outage has already set the lost days to missing. I set to missing a period in Feb 2013 where direction 34 also carries direction 33's counts, phantom bursts in June 2015, and an undercount from April 2017 to early February 2018 that ends in phantom bursts. The 2016 and December 2018 dips stay as they are but are flagged as uncertain."
+}

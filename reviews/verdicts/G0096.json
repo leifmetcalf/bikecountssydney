@@ -1,0 +1,25 @@
+{
+  "group": "G0096",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 96, "DIRECTION_SK": null, "start": "2016-05-25", "end": "2017-09-10", "confidence": "medium",
+      "diagnosis": "From late May 2016 the counts stop looking like path riding and look like weekday works traffic (the path presumably closed or disturbed by roadworks): weekends near zero, and both directions counted in the same slots with near-equal counts, with symmetric bursts.",
+      "evidence": "Share of active slots with both directions non-zero rises from 0.11-0.24 (2015 to mid-May 2016) to 0.45-0.77 in every fortnight to early Sep 2017, then drops back to about 0.19; weekday/weekend daily totals move from about 35/30 to e.g. 14/4 (2016-Q3), 47/7 (2017-Q1); bursts such as 2017-02-01 15:45 at 65 N / 65 S, and 290/288 that day against a 30/day norm; 2016-12-01/02 midday bursts 74/72 and 76/85."},
+    {"action": "missing", "SITE_SK": 96, "DIRECTION_SK": null, "start": "2017-09-19", "end": "2017-09-19", "confidence": "medium",
+      "diagnosis": "A two-slot symmetric burst that is not bike traffic, the same kind as in the works period.",
+      "evidence": "08:30-08:45: 43+35 N and 51+30 S, giving a day of 84/89 against about 15/day on nearby days."},
+    {"action": "missing", "SITE_SK": 96, "DIRECTION_SK": null, "start": "2018-01-27", "end": "2018-01-30", "confidence": "medium",
+      "diagnosis": "Overnight bursts in both directions, most likely night-works vehicles crossing the sensor.",
+      "evidence": "Night (21:00-05:00) counts of 42 and 65 on 01-28/01-29 with single slots up to 35 at midnight; normal nights carry 0-5."},
+    {"action": "missing", "SITE_SK": 96, "DIRECTION_SK": null, "start": "2018-03-05", "end": "2018-03-09", "confidence": "high",
+      "diagnosis": "Large symmetric bursts at night and at dawn, not bikes.",
+      "evidence": "Day totals of 235, 127, 176 and 251 against about 30; 2018-03-08 23:45 to 03-09 00:15 has 49/61, 41/70, 27/28 per slot; neighbour site 125 on the same M4 path had 15-30/day."},
+    {"action": "uncertain", "SITE_SK": 96, "DIRECTION_SK": null, "start": "2018-03-10", "end": "2018-03-31", "confidence": "low",
+      "diagnosis": "Mostly plausible, but with recurring 06:00-07:00 bursts and some night counts that may be works traffic; the level is about 2x neighbour site 125.",
+      "evidence": "Daily totals of 17-58 (site 125: 7-35); the 06h hour carries up to 20 on some days; night counts of 13-22 on 03-17, 03-19 and 03-24."},
+    {"action": "missing", "SITE_SK": 96, "DIRECTION_SK": null, "start": "2018-04-01", "end": "2019-02-01", "confidence": "high",
+      "diagnosis": "Counts are dominated by evening and night bursts that are not bikes, then the counter fails: intermittent all-zero days from 2018-05-21 and near-zero from June 2018 until it goes offline, while the same M4 path 1 km away carries steady traffic.",
+      "evidence": "Night share 0.29-0.71 in April 2018 (normally about 0.05); 2018-04-12/13 have 309 and 448 bikes, mostly 21:30-23:59 at up to 58/slot; April-May 96 = 40-50/day per direction against site 125 at 10-12; from Jul 2018 96 has 0-1/day against 125 at 10-13/day per direction."}
+  ],
+  "series": [],
+  "summary": "A single MetroCount piezo on the M4 shared path west of Fox St, Holroyd; 2012-09 to mid-May 2016 is clean and consistent (about 15-25/day per direction, level with site 125 on the same path). From late May 2016 to early Sep 2017 the counts look like works traffic rather than riders (symmetric N/S slots, no weekend riding), and from 2018 night-works bursts and then a failing sensor make the data unusable from April 2018 to the end; these periods are set missing. There is only one counter, so no series are defined."
+}

@@ -1,0 +1,190 @@
+{
+  "group": "G0428",
+  "decisions": [
+    {
+      "action": "missing",
+      "SITE_SK": 430,
+      "DIRECTION_SK": null,
+      "start": "2025-12-20",
+      "end": "2025-12-31",
+      "confidence": "high",
+      "diagnosis": "The crossing zone S of the Anzac Br ramp crossing counted hundreds of phantom bikes per 15 minutes on several days, almost certainly other road users or crowds misclassified as bicycles, while every other zone of the same camera stayed normal.",
+      "evidence": "Daily totals 1215/1223: 12-20 1338/31189 (up to 1187 per slot for 8 hours), 12-27 2893/2285, 12-28 2675/2118, 12-29 251/3955, 12-30 4865/4462, 12-31 1252/2866, 12-22/23 76/40 and 246/167, against a usual 5-20 per day; sites 428/429 stayed at 90-270 per day with no matching rise."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 430,
+      "DIRECTION_SK": null,
+      "start": "2025-12-11",
+      "end": "2025-12-11",
+      "confidence": "medium",
+      "diagnosis": "The same misclassification burst on a smaller scale: an afternoon of counts many times the zone's usual daily total, with no rise in the other zones.",
+      "evidence": "1215/1223 180/126 on the day (51/36 in the 14:00 slot) against 5-20 per day on the days around it; 1253/1348 were normal at 136/235."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 430,
+      "DIRECTION_SK": null,
+      "start": "2026-01-02",
+      "end": "2026-01-02",
+      "confidence": "medium",
+      "diagnosis": "A short afternoon burst like the December faults, with no rise in the other zones.",
+      "evidence": "1215/1223 56/163 (96 in the 15:30 slot on 1223) against about 5-25 per day on the days around it."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 428,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-10-01",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera stepped up 2-4x between 1 and 3 Oct 2024, in school holidays, and IN/OUT only balanced from then on, which points to a change in detection or calibration rather than in riding, so the earlier level may be undercounted.",
+      "evidence": "Sep 2024 vs Nov 2024 mean per day: 1247 23->81, 1253 33->87, 1348 69->124, 1334 15->39, 431 zones about doubled; camera IN total/OUT total was 92/59 (Sep 2024) and 109/63 (Mar-Jun 2024), but 173/176 in Nov 2024 and about 349/338 in Feb 2026; the hour-of-day profiles keep the same shape, only scaled; 26-30 Sep were unusually low just before the step."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 429,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-10-01",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera stepped up 2-4x between 1 and 3 Oct 2024, in school holidays, and IN/OUT only balanced from then on, which points to a change in detection or calibration rather than in riding, so the earlier level may be undercounted.",
+      "evidence": "Sep 2024 vs Nov 2024 mean per day: 1247 23->81, 1253 33->87, 1348 69->124, 1334 15->39, 431 zones about doubled; camera IN total/OUT total was 92/59 (Sep 2024) and 109/63 (Mar-Jun 2024), but 173/176 in Nov 2024 and about 349/338 in Feb 2026; the hour-of-day profiles keep the same shape, only scaled; 26-30 Sep were unusually low just before the step."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 430,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-10-01",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera stepped up 2-4x between 1 and 3 Oct 2024, in school holidays, and IN/OUT only balanced from then on, which points to a change in detection or calibration rather than in riding, so the earlier level may be undercounted.",
+      "evidence": "Sep 2024 vs Nov 2024 mean per day: 1247 23->81, 1253 33->87, 1348 69->124, 1334 15->39, 431 zones about doubled; camera IN total/OUT total was 92/59 (Sep 2024) and 109/63 (Mar-Jun 2024), but 173/176 in Nov 2024 and about 349/338 in Feb 2026; the hour-of-day profiles keep the same shape, only scaled; 26-30 Sep were unusually low just before the step."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 431,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-10-01",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera stepped up 2-4x between 1 and 3 Oct 2024, in school holidays, and IN/OUT only balanced from then on, which points to a change in detection or calibration rather than in riding, so the earlier level may be undercounted.",
+      "evidence": "Sep 2024 vs Nov 2024 mean per day: 1247 23->81, 1253 33->87, 1348 69->124, 1334 15->39, 431 zones about doubled; camera IN total/OUT total was 92/59 (Sep 2024) and 109/63 (Mar-Jun 2024), but 173/176 in Nov 2024 and about 349/338 in Feb 2026; the hour-of-day profiles keep the same shape, only scaled; 26-30 Sep were unusually low just before the step."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 428,
+      "name": "Crossing eastbound (citybound)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 312,
+          "DIRECTION_SK": 1247,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Only camera 312 has run at this zone; each zone of the camera is its own flow."
+    },
+    {
+      "SITE_SK": 428,
+      "name": "Crossing westbound",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 312,
+          "DIRECTION_SK": 1334,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Only camera 312 has run at this zone."
+    },
+    {
+      "SITE_SK": 429,
+      "name": "West path N of crossing southbound",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 312,
+          "DIRECTION_SK": 1253,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Only camera 312 has run at this zone."
+    },
+    {
+      "SITE_SK": 429,
+      "name": "West path N of crossing northbound",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 312,
+          "DIRECTION_SK": 1348,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Only camera 312 has run at this zone."
+    },
+    {
+      "SITE_SK": 430,
+      "name": "West path S of crossing southbound",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 312,
+          "DIRECTION_SK": 1215,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Only camera 312 has run at this zone."
+    },
+    {
+      "SITE_SK": 430,
+      "name": "West path S of crossing northbound",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 312,
+          "DIRECTION_SK": 1223,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Only camera 312 has run at this zone."
+    },
+    {
+      "SITE_SK": 431,
+      "name": "Ramp roadway northbound",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 312,
+          "DIRECTION_SK": 1375,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Only camera 312 has run at this zone."
+    },
+    {
+      "SITE_SK": 431,
+      "name": "Ramp roadway southbound",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 312,
+          "DIRECTION_SK": 1410,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Only camera 312 has run at this zone."
+    }
+  ],
+  "summary": "One VivaCity camera (312) covers four zones at the Pyrmont Bridge Rd ramp to Anzac Bridge. Its 2.5-month outage in mid-2024 is already set missing by zero_outage. Site 430 had misclassification bursts in December 2025 (up to 31,189 phantom bikes a day), which are set missing. A sudden 2-4x step across all zones in early October 2024 is flagged as uncertain, because it looks like a calibration change. The July 2026 rise at sites 429/430 looks like real riding and is kept."
+}

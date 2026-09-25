@@ -1,0 +1,3540 @@
+{
+ "group": "G0400",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2023-11-24",
+   "end": "2023-12-11",
+   "confidence": "medium",
+   "diagnosis": "Camera view/zone fault before the zones were redefined: counts collapse in most zones while the footpath zone 402 jumps.",
+   "evidence": "Camera total 337 and 615 bikes/week vs ~1200 before; 403 crossing 0-5/day (was ~55), 401 cyclepath 0-2/day, while 402 rose from ~1 to 5-14/day; zone levels changed again on 2023-12-12 and 2024-01-22."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2023-11-24",
+   "end": "2023-12-11",
+   "confidence": "medium",
+   "diagnosis": "Camera view/zone fault before the zones were redefined: counts collapse in most zones while the footpath zone 402 jumps.",
+   "evidence": "Camera total 337 and 615 bikes/week vs ~1200 before; 403 crossing 0-5/day (was ~55), 401 cyclepath 0-2/day, while 402 rose from ~1 to 5-14/day; zone levels changed again on 2023-12-12 and 2024-01-22."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2023-11-24",
+   "end": "2023-12-11",
+   "confidence": "medium",
+   "diagnosis": "Camera view/zone fault before the zones were redefined: counts collapse in most zones while the footpath zone 402 jumps.",
+   "evidence": "Camera total 337 and 615 bikes/week vs ~1200 before; 403 crossing 0-5/day (was ~55), 401 cyclepath 0-2/day, while 402 rose from ~1 to 5-14/day; zone levels changed again on 2023-12-12 and 2024-01-22."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2023-11-24",
+   "end": "2023-12-11",
+   "confidence": "medium",
+   "diagnosis": "Camera view/zone fault before the zones were redefined: counts collapse in most zones while the footpath zone 402 jumps.",
+   "evidence": "Camera total 337 and 615 bikes/week vs ~1200 before; 403 crossing 0-5/day (was ~55), 401 cyclepath 0-2/day, while 402 rose from ~1 to 5-14/day; zone levels changed again on 2023-12-12 and 2024-01-22."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2023-11-24",
+   "end": "2023-12-11",
+   "confidence": "medium",
+   "diagnosis": "Camera view/zone fault before the zones were redefined: counts collapse in most zones while the footpath zone 402 jumps.",
+   "evidence": "Camera total 337 and 615 bikes/week vs ~1200 before; 403 crossing 0-5/day (was ~55), 401 cyclepath 0-2/day, while 402 rose from ~1 to 5-14/day; zone levels changed again on 2023-12-12 and 2024-01-22."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "medium",
+   "diagnosis": "Day on which the camera zones were redefined (sites 416-418 created); counts mix the old and new zone geometry.",
+   "evidence": "400_1115 52 (old ~70, new ~8), 403 21/32 (old ~25, new ~60); 416-418 start this day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "medium",
+   "diagnosis": "Day on which the camera zones were redefined (sites 416-418 created); counts mix the old and new zone geometry.",
+   "evidence": "400_1115 52 (old ~70, new ~8), 403 21/32 (old ~25, new ~60); 416-418 start this day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "medium",
+   "diagnosis": "Day on which the camera zones were redefined (sites 416-418 created); counts mix the old and new zone geometry.",
+   "evidence": "400_1115 52 (old ~70, new ~8), 403 21/32 (old ~25, new ~60); 416-418 start this day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "medium",
+   "diagnosis": "Day on which the camera zones were redefined (sites 416-418 created); counts mix the old and new zone geometry.",
+   "evidence": "400_1115 52 (old ~70, new ~8), 403 21/32 (old ~25, new ~60); 416-418 start this day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "medium",
+   "diagnosis": "Day on which the camera zones were redefined (sites 416-418 created); counts mix the old and new zone geometry.",
+   "evidence": "400_1115 52 (old ~70, new ~8), 403 21/32 (old ~25, new ~60); 416-418 start this day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "medium",
+   "diagnosis": "Day on which the camera zones were redefined (sites 416-418 created); counts mix the old and new zone geometry.",
+   "evidence": "400_1115 52 (old ~70, new ~8), 403 21/32 (old ~25, new ~60); 416-418 start this day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "medium",
+   "diagnosis": "Day on which the camera zones were redefined (sites 416-418 created); counts mix the old and new zone geometry.",
+   "evidence": "400_1115 52 (old ~70, new ~8), 403 21/32 (old ~25, new ~60); 416-418 start this day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "medium",
+   "diagnosis": "Day on which the camera zones were redefined (sites 416-418 created); counts mix the old and new zone geometry.",
+   "evidence": "400_1115 52 (old ~70, new ~8), 403 21/32 (old ~25, new ~60); 416-418 start this day."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-03-06",
+   "end": "2024-03-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-03-06",
+   "end": "2024-03-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-03-06",
+   "end": "2024-03-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-03-06",
+   "end": "2024-03-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-03-06",
+   "end": "2024-03-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-03-06",
+   "end": "2024-03-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06",
+   "end": "2024-04-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 403,
+   "DIRECTION_SK": 1117,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": 1195,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 402,
+   "DIRECTION_SK": 1149,
+   "start": "2024-05-20",
+   "end": "2024-06-14",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed a run of zeros in a footpath direction that normally carries almost nothing.",
+   "evidence": "402_1149 averages ~0.3 bikes/day (Mar-Jul 2024 raw 0.0-0.3/day, with 10+ day zero runs in March); the camera's other zones, including 402_1177, counted normally."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling continued from 2024-08-04 until about 10:00; the rest of the day is normal, so the day total is inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling continued from 2024-08-04 until about 10:00; the rest of the day is normal, so the day total is inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling continued from 2024-08-04 until about 10:00; the rest of the day is normal, so the day total is inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling continued from 2024-08-04 until about 10:00; the rest of the day is normal, so the day total is inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling continued from 2024-08-04 until about 10:00; the rest of the day is normal, so the day total is inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling continued from 2024-08-04 until about 10:00; the rest of the day is normal, so the day total is inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling continued from 2024-08-04 until about 10:00; the rest of the day is normal, so the day total is inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling continued from 2024-08-04 until about 10:00; the rest of the day is normal, so the day total is inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Camera-wide tripling: every non-zero slot in every zone is a multiple of 3 at about three times the usual level; there is no divide-by-3 action.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Camera-wide tripling: every non-zero slot in every zone is a multiple of 3 at about three times the usual level; there is no divide-by-3 action.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Camera-wide tripling: every non-zero slot in every zone is a multiple of 3 at about three times the usual level; there is no divide-by-3 action.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Camera-wide tripling: every non-zero slot in every zone is a multiple of 3 at about three times the usual level; there is no divide-by-3 action.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Camera-wide tripling: every non-zero slot in every zone is a multiple of 3 at about three times the usual level; there is no divide-by-3 action.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Camera-wide tripling: every non-zero slot in every zone is a multiple of 3 at about three times the usual level; there is no divide-by-3 action.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Camera-wide tripling: every non-zero slot in every zone is a multiple of 3 at about three times the usual level; there is no divide-by-3 action.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Camera-wide tripling: every non-zero slot in every zone is a multiple of 3 at about three times the usual level; there is no divide-by-3 action.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling (after the tripled 2024-10-03) until about 10:00, normal afterwards; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling (after the tripled 2024-10-03) until about 10:00, normal afterwards; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling (after the tripled 2024-10-03) until about 10:00, normal afterwards; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling (after the tripled 2024-10-03) until about 10:00, normal afterwards; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling (after the tripled 2024-10-03) until about 10:00, normal afterwards; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling (after the tripled 2024-10-03) until about 10:00, normal afterwards; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling (after the tripled 2024-10-03) until about 10:00, normal afterwards; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling (after the tripled 2024-10-03) until about 10:00, normal afterwards; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling from about 11:00 (continuing through 2024-10-25) with normal counts before; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling from about 11:00 (continuing through 2024-10-25) with normal counts before; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling from about 11:00 (continuing through 2024-10-25) with normal counts before; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling from about 11:00 (continuing through 2024-10-25) with normal counts before; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling from about 11:00 (continuing through 2024-10-25) with normal counts before; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling from about 11:00 (continuing through 2024-10-25) with normal counts before; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling from about 11:00 (continuing through 2024-10-25) with normal counts before; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubling from about 11:00 (continuing through 2024-10-25) with normal counts before; day total inflated by an unrecoverable amount.",
+   "evidence": "Hourly camera-wide check: 0 values not divisible by the multiplier in the affected hours (e.g. 403 69/69 slots multiples of 3 on 2024-10-03), normal odd share in the other hours."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": 1181,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Camera-wide doubled day: every non-zero slot in every zone is even at about twice the usual level; the automatic halving caught only the busiest directions.",
+   "evidence": "Across the camera 0 odd values among ~140-220 non-zero slots (normally ~75% odd); zone totals 1.5-4x the surrounding median; days in Sydney-time."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-02-06",
+   "end": "2025-02-07",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:00-08:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:00-08:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:00-08:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:00-08:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:00-08:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:00-08:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:00-08:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:00-08:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-04-17",
+   "end": "2025-04-17",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 06:30-14:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-04-17",
+   "end": "2025-04-17",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 06:30-14:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-04-17",
+   "end": "2025-04-17",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 06:30-14:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-04-17",
+   "end": "2025-04-17",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 06:30-14:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-04-17",
+   "end": "2025-04-17",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 06:30-14:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-04-17",
+   "end": "2025-04-17",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 06:30-14:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-04-17",
+   "end": "2025-04-17",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 06:30-14:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-04-17",
+   "end": "2025-04-17",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 06:30-14:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 17:00 and a false burst in 416; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 17:00 and a false burst in 416; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 17:00 and a false burst in 416; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 17:00 and a false burst in 416; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 17:00 and a false burst in 416; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 17:00 and a false burst in 416; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 17:00 and a false burst in 416; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-01",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 17:00 and a false burst in 416; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-07-02",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-07-14",
+   "end": "2025-07-14",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-07-14",
+   "end": "2025-07-14",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-07-14",
+   "end": "2025-07-14",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-07-14",
+   "end": "2025-07-14",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-07-14",
+   "end": "2025-07-14",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-07-14",
+   "end": "2025-07-14",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-07-14",
+   "end": "2025-07-14",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-07-14",
+   "end": "2025-07-14",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-15",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-15",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-15",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-15",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-15",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-15",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-15",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-15",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-18",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-18",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-18",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-18",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-18",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-18",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-18",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-18",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:15; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:45-09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:45-09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:45-09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:45-09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:45-09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:45-09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:45-09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 03:45-09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-08-03",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-08-03",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-08-03",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-08-03",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-08-03",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-08-03",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-08-03",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-08-03",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records before 07:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-22",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-22",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-22",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-22",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-22",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-22",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-22",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-22",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records after 09:30; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-09-01",
+   "end": "2025-12-31",
+   "confidence": "low",
+   "diagnosis": "Frequent zone-specific multiplied windows in this period; low-count zones (400, 402, 416, 417) may carry doubled windows too short to detect.",
+   "evidence": "Detected multiplied windows on 30+ site-days Sep-Dec 2025, mostly 401/403/407/418."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-09-01",
+   "end": "2025-12-31",
+   "confidence": "low",
+   "diagnosis": "Frequent zone-specific multiplied windows in this period; low-count zones may carry doubled windows too short to detect.",
+   "evidence": "Detected multiplied windows on 30+ site-days Sep-Dec 2025, mostly 401/403/407/418."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-09-01",
+   "end": "2025-12-31",
+   "confidence": "low",
+   "diagnosis": "Frequent zone-specific multiplied windows in this period; low-count zones may carry doubled windows too short to detect.",
+   "evidence": "Detected multiplied windows on 30+ site-days Sep-Dec 2025, mostly 401/403/407/418."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-09-01",
+   "end": "2025-12-31",
+   "confidence": "low",
+   "diagnosis": "Frequent zone-specific multiplied windows in this period; low-count zones may carry doubled windows too short to detect.",
+   "evidence": "Detected multiplied windows on 30+ site-days Sep-Dec 2025, mostly 401/403/407/418."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-09-04",
+   "end": "2025-09-04",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-09-04",
+   "end": "2025-09-04",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-09-04",
+   "end": "2025-09-04",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-09-04",
+   "end": "2025-09-04",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 12:15-17:00 on a Saturday; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 12:15-17:00 on a Saturday; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 12:15-17:00 on a Saturday; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 12:15-17:00 on a Saturday; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 12:15-17:00 on a Saturday; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 12:15-17:00 on a Saturday; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 12:15-17:00 on a Saturday; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 12:15-17:00 on a Saturday; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-09-08",
+   "end": "2025-09-10",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-09-08",
+   "end": "2025-09-08",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-09-08",
+   "end": "2025-09-08",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-10",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-10",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-10",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-09-11",
+   "end": "2025-09-11",
+   "confidence": "high",
+   "diagnosis": "False detections in the footpath zone: a short burst of 'bicycles' at an implausible time and level.",
+   "evidence": "~110 bikes in 416 between 02:45 and 04:00 (usual 4/day) while other zones were quiet"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-09-16",
+   "end": "2025-09-16",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-09-16",
+   "end": "2025-09-17",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-09-16",
+   "end": "2025-09-16",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-09-17",
+   "end": "2025-09-17",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-09-17",
+   "end": "2025-09-17",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-09-17",
+   "end": "2025-09-17",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-09-29",
+   "end": "2025-09-30",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-09-30",
+   "end": "2025-09-30",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-09-30",
+   "end": "2025-09-30",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-09-30",
+   "end": "2025-09-30",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-10-03",
+   "end": "2025-10-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 15:00-22:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-10-03",
+   "end": "2025-10-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 15:00-22:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 402,
+   "DIRECTION_SK": null,
+   "start": "2025-10-03",
+   "end": "2025-10-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 15:00-22:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-10-03",
+   "end": "2025-10-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 15:00-22:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-10-03",
+   "end": "2025-10-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 15:00-22:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-10-03",
+   "end": "2025-10-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 15:00-22:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-10-03",
+   "end": "2025-10-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 15:00-22:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-10-03",
+   "end": "2025-10-03",
+   "confidence": "medium",
+   "diagnosis": "Camera outage for part of the day: in this period absent slots are not filled with zeros, so the day's total is short.",
+   "evidence": "Camera-wide no records 15:00-22:45; normally every daytime 15-minute slot has a record in some zone (median largest daytime gap 1 h)."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-10-05",
+   "end": "2025-10-05",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-10-07",
+   "end": "2025-10-08",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-10-07",
+   "end": "2025-10-08",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-10-07",
+   "end": "2025-10-08",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-10-07",
+   "end": "2025-10-08",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 417,
+   "DIRECTION_SK": null,
+   "start": "2025-10-08",
+   "end": "2025-10-08",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-10-09",
+   "end": "2025-10-09",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-10-10",
+   "end": "2025-10-10",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-10-10",
+   "end": "2025-10-11",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-10-10",
+   "end": "2025-10-11",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-10-10",
+   "end": "2025-10-11",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-10-19",
+   "end": "2025-10-19",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-10-19",
+   "end": "2025-10-20",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-10-19",
+   "end": "2025-10-20",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-10-19",
+   "end": "2025-10-20",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2025-11-13",
+   "end": "2025-11-13",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-11-15",
+   "end": "2025-11-16",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-11-15",
+   "end": "2025-11-16",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-11-16",
+   "end": "2025-11-16",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 416,
+   "DIRECTION_SK": null,
+   "start": "2025-11-23",
+   "end": "2025-11-23",
+   "confidence": "medium",
+   "diagnosis": "False detections in the footpath zone: a short burst of 'bicycles' at an implausible time and level.",
+   "evidence": "24 bikes in 416 in 06:30-07:00 (usual 4/day), none elsewhere in that burst"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": "2025-11-29",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": "2025-11-28",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2025-12-28",
+   "end": "2025-12-29",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2025-12-30",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2025-12-29",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2025-12-29",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 400,
+   "DIRECTION_SK": null,
+   "start": "2026-02-13",
+   "end": "2026-02-13",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 401,
+   "DIRECTION_SK": null,
+   "start": "2026-02-18",
+   "end": "2026-02-18",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2026-02-19",
+   "end": "2026-02-19",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 407,
+   "DIRECTION_SK": null,
+   "start": "2026-02-19",
+   "end": "2026-02-19",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 418,
+   "DIRECTION_SK": null,
+   "start": "2026-02-19",
+   "end": "2026-02-19",
+   "confidence": "medium",
+   "diagnosis": "Zone doubled for (almost) the whole day: a run of even-only slot values covering at least 90% of the zone's bikes, at about twice the usual level.",
+   "evidence": "Both directions of the zone even-only over >=90% of the day's bikes (chance of such a run <1e-7 at this zone's usual even share); day total ~1.5-2.9x the 29-day median."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 403,
+   "DIRECTION_SK": null,
+   "start": "2026-02-20",
+   "end": "2026-02-20",
+   "confidence": "medium",
+   "diagnosis": "Part of the day is multiplied (contiguous windows where every slot is a multiple of 2 or 3, e.g. 403 on 2025-10-07 doubled to 16:00 then tripled), so the day total is inflated and cannot be recovered at day level.",
+   "evidence": "Runs of slot values all divisible by 2 or 3 with chance <1e-7 at the zone's usual rate; estimated excess 13-67% of the day's bikes."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 400,
+   "name": "Alfred St road southbound (OUT), zones v1",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1115,
+     "start": null,
+     "end": "2023-11-23"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 400,
+   "name": "Alfred St road southbound (OUT), zones v2",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1115,
+     "start": "2023-12-12",
+     "end": "2024-01-21"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 400,
+   "name": "Alfred St road southbound (OUT), zones v3",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1115,
+     "start": "2024-01-23",
+     "end": null
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 400,
+   "name": "Alfred St road northbound (IN), zones v1",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1155,
+     "start": null,
+     "end": "2023-11-23"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 400,
+   "name": "Alfred St road northbound (IN), zones v2",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1155,
+     "start": "2023-12-12",
+     "end": "2024-01-21"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 400,
+   "name": "Alfred St road northbound (IN), zones v3",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1155,
+     "start": "2024-01-23",
+     "end": null
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 401,
+   "name": "Alfred St cycleway southbound (OUT)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1129,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series. Level similar before and after the 2024-01-22 zone redefinition."
+  },
+  {
+   "SITE_SK": 401,
+   "name": "Alfred St cycleway northbound (IN)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1144,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series. Level similar before and after the 2024-01-22 zone redefinition."
+  },
+  {
+   "SITE_SK": 402,
+   "name": "Alfred St footpath RHS near southbound (OUT)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1149,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series. Level similar before and after the 2024-01-22 zone redefinition."
+  },
+  {
+   "SITE_SK": 402,
+   "name": "Alfred St footpath RHS near northbound (IN)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1177,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series. Level similar before and after the 2024-01-22 zone redefinition."
+  },
+  {
+   "SITE_SK": 403,
+   "name": "Alfred St crossing westbound (IN), zones v1",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1111,
+     "start": null,
+     "end": "2023-11-23"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 403,
+   "name": "Alfred St crossing westbound (IN), zones v2",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1111,
+     "start": "2023-12-12",
+     "end": "2024-01-21"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 403,
+   "name": "Alfred St crossing westbound (IN), zones v3",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1111,
+     "start": "2024-01-23",
+     "end": null
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 403,
+   "name": "Alfred St crossing eastbound (OUT), zones v1",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1117,
+     "start": null,
+     "end": "2023-11-23"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 403,
+   "name": "Alfred St crossing eastbound (OUT), zones v2",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1117,
+     "start": "2023-12-12",
+     "end": "2024-01-21"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 403,
+   "name": "Alfred St crossing eastbound (OUT), zones v3",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1117,
+     "start": "2024-01-23",
+     "end": null
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 407,
+   "name": "Alfred St footpath LHS far northbound (IN), zones v1",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1095,
+     "start": null,
+     "end": "2023-11-23"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 407,
+   "name": "Alfred St footpath LHS far northbound (IN), zones v2",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1095,
+     "start": "2023-12-12",
+     "end": "2024-01-21"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 407,
+   "name": "Alfred St footpath LHS far northbound (IN), zones v3",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1095,
+     "start": "2024-01-23",
+     "end": null
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 407,
+   "name": "Alfred St footpath LHS far southbound (OUT), zones v1",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1181,
+     "start": null,
+     "end": "2023-11-23"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 407,
+   "name": "Alfred St footpath LHS far southbound (OUT), zones v2",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1181,
+     "start": "2023-12-12",
+     "end": "2024-01-21"
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 407,
+   "name": "Alfred St footpath LHS far southbound (OUT), zones v3",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1181,
+     "start": "2024-01-23",
+     "end": null
+    }
+   ],
+   "evidence": "One camera zone whose geometry was redefined twice (2023-11-24/12-12 and 2024-01-22, when zones 416-418 were added); levels jump at each change (400_1115 ~15 -> ~70 -> ~8/day, 403 ~55 -> ~25 -> ~60, 407_1095 ~2 -> ~40 -> ~55), so the periods are not comparable."
+  },
+  {
+   "SITE_SK": 416,
+   "name": "Alfred St footpath LHS near northbound (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1139,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series."
+  },
+  {
+   "SITE_SK": 416,
+   "name": "Alfred St footpath LHS near southbound (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1166,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series."
+  },
+  {
+   "SITE_SK": 417,
+   "name": "M4 shared path westbound (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1143,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series."
+  },
+  {
+   "SITE_SK": 417,
+   "name": "M4 shared path eastbound (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1161,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series."
+  },
+  {
+   "SITE_SK": 418,
+   "name": "Alfred St footpath RHS far southbound (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1104,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series."
+  },
+  {
+   "SITE_SK": 418,
+   "name": "Alfred St footpath RHS far northbound (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 300,
+     "DIRECTION_SK": 1195,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; the camera appears under all eight zone sites but each zone counts different bikes, so each direction is its own series."
+  }
+ ],
+ "summary": "One VivaCity camera at Alfred St, Parramatta, split into eight zones. The main fault is multiplied counts: whole days on which the camera published every zone doubled (14 days in 2024-25, only partly caught by the automatic halving) or tripled (2024-10-03), and from Sep 2025 zone-specific windows doubled or tripled within a day; these are halved or set missing. The zones were redefined in Nov 2023-Jan 2024 (road, crossing and far-footpath zones get separate series per configuration, and the degraded 2023-11-24..12-11 spell is missing). From 2025-02-06 the feed leaves out most zero slots, so days look incomplete, but hourly totals match 2024 and the absent slots are zeros; only real partial-day outages are set missing. The 417 M4 path and 407_1181 decline to near zero during 2025 and are kept as real."
+}

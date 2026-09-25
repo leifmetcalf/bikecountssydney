@@ -1,0 +1,23 @@
+{
+  "group": "G0189",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 189, "DIRECTION_SK": 208, "start": "2020-02-08", "end": "2020-02-10",
+      "confidence": "medium",
+      "diagnosis": "The zeros set missing by zero_outage match the real near-zero riding on a flooded river path during the February 2020 storms.",
+      "evidence": "Direction 211 of the same counter recorded 1, 0, 2 on these days (not fixed); the adjacent site 188 (0 km, counter 187) recorded 0 in both directions on 5-9 Feb 2020, then 2-7 per day again from 10 Feb."},
+    {"action": "restore", "SITE_SK": 189, "DIRECTION_SK": 208, "start": "2022-10-04", "end": "2022-10-10",
+      "confidence": "medium",
+      "diagnosis": "Zero_outage removed a few days of zeros at a site that averages about 4 bikes a day, while the counter kept counting the other direction and the neighbouring site was equally quiet (wet early October 2022).",
+      "evidence": "Direction 208 raw was 2, 0, 0, 0, 0, 0, 1; direction 211 recorded 1, 1, 0, 1, 0, 0, 1 over the same days; site 188 recorded 0-2 per direction per day."},
+    {"action": "restore", "SITE_SK": 189, "DIRECTION_SK": 211, "start": "2025-05-31", "end": "2025-06-07",
+      "confidence": "medium",
+      "diagnosis": "The zeros set missing by zero_outage fall in a very quiet spell that is also recorded by direction 208 and the adjacent site, so they are real low riding.",
+      "evidence": "Direction 208 recorded 0 on each of 1-7 June 2025 (unfixed); site 188 recorded 0-4 per direction per day; direction 211 had already fallen to 0-5 per day in the second half of May."},
+    {"action": "missing", "SITE_SK": 189, "DIRECTION_SK": null, "start": "2025-06-08", "end": "2025-06-08",
+      "confidence": "high",
+      "diagnosis": "A midnight dump of counts (probably a backlog released after a reset) that cannot be real riding: the day's whole total sits in the first one or two slots.",
+      "evidence": "At 00:00 on Sunday 8 June 2025, 208 recorded 121 and 211 recorded 142, plus 6 at 00:15 in 208 and 0 for the rest of the day; the largest slot in six years otherwise is 19 and the 99.9th percentile is 2-3; site 188 recorded 0 that day. The week total becomes 127/143 against 5-26 in nearby weeks."}
+  ],
+  "series": [],
+  "summary": "One Metrocount piezo at the Church St offramp counts very light flows (1-14 bikes/day per direction). It ran from Mar 2019 to Jul 2020 and from Apr 2022 to Jun 2025, with a gap for the light rail works. The automatic zero_outage fixes for April-May 2019 (8 weeks of pure zeros in both directions) stand. Three short zero_outage fixes (Feb 2020 floods, Oct 2022, early Jun 2025) are restored because the other direction and the adjacent site 188 were just as quiet. A spurious midnight dump of 121/142 bikes on 2025-06-08 is set missing."
+}

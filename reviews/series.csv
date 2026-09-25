@@ -1,4 +1,18 @@
 review_group,SITE_SK,series,COUNTER_SK,DIRECTION_SK,start,end,confidence,reviewer,status
+G0101,101,Northbound,156,66,,2018-10-12,medium,count-reviewer,proposed
+G0101,101,Northbound,156,66,2021-06-21,,medium,count-reviewer,proposed
+G0101,101,Northbound,157,70,2021-03-11,2021-06-20,medium,count-reviewer,proposed
+G0101,101,Southbound (citybound),156,65,,2021-03-18,high,count-reviewer,proposed
+G0101,101,Southbound (citybound),156,65,2021-03-27,,high,count-reviewer,proposed
+G0101,101,Southbound (citybound),157,69,2021-03-19,2021-03-26,high,count-reviewer,proposed
+G0106,106,"AM-peak direction (likely northbound, citybound)",160,7,2022-07-30,,high,count-reviewer,proposed
+G0106,106,"AM-peak direction (likely northbound, citybound)",160,8,,2021-10-08,high,count-reviewer,proposed
+G0106,106,PM-peak direction (likely southbound),160,7,,2021-10-08,high,count-reviewer,proposed
+G0106,106,PM-peak direction (likely southbound),160,8,2022-07-30,,high,count-reviewer,proposed
+G0124,124,Eastbound (outbound),139,48,,,medium,count-reviewer,proposed
+G0124,124,Eastbound (outbound),262,660,,,medium,count-reviewer,proposed
+G0124,124,Westbound (citybound),139,47,,,medium,count-reviewer,proposed
+G0124,124,Westbound (citybound),262,664,,,medium,count-reviewer,proposed
 G0161,161,North East (citybound),106,75,2021-11-05,2022-05-27,medium,count-reviewer,proposed
 G0161,161,North East (citybound),106,76,2021-02-23,2021-11-04,medium,count-reviewer,proposed
 G0161,161,North East (citybound),163,511,,,medium,count-reviewer,proposed
@@ -38,10 +52,385 @@ G0169,548,King St eastbound,329,1549,,2025-10-30,high,count-reviewer,proposed
 G0169,548,King St eastbound,361,1760,2025-10-31,,high,count-reviewer,proposed
 G0169,548,King St westbound,329,1550,,2025-10-30,high,count-reviewer,proposed
 G0169,548,King St westbound,361,1759,2025-10-31,,high,count-reviewer,proposed
+G0172,172,Kembla St northbound (2021-22 tube),174,102,,,medium,count-reviewer,proposed
+G0172,172,Kembla St northbound (2022-24 tube),256,567,,,medium,count-reviewer,proposed
+G0172,172,Kembla St southbound (2021-22 tube),174,101,,,medium,count-reviewer,proposed
+G0172,172,Kembla St southbound (2022-24 tube),256,586,,,medium,count-reviewer,proposed
+G0174,174,Eastbound (citybound),108,79,,,high,count-reviewer,proposed
+G0174,174,Eastbound (citybound),210,251,2022-01-18,2022-07-26,high,count-reviewer,proposed
+G0174,174,Eastbound (citybound),210,251,2022-11-01,2024-10-17,high,count-reviewer,proposed
+G0174,174,Eastbound (citybound),210,253,2022-07-27,2022-10-31,high,count-reviewer,proposed
+G0174,174,Eastbound (citybound),210,253,2024-10-18,,high,count-reviewer,proposed
+G0174,174,Westbound (outbound),108,80,,,high,count-reviewer,proposed
+G0174,174,Westbound (outbound),210,251,2022-07-27,2022-10-31,high,count-reviewer,proposed
+G0174,174,Westbound (outbound),210,251,2024-10-18,,high,count-reviewer,proposed
+G0174,174,Westbound (outbound),210,253,2022-01-18,2022-07-26,high,count-reviewer,proposed
+G0174,174,Westbound (outbound),210,253,2022-11-01,2024-10-17,high,count-reviewer,proposed
+G0181,181,Northbound (away from city),186,202,,,high,count-reviewer,proposed
+G0181,181,Northbound (away from city),212,254,,,high,count-reviewer,proposed
+G0181,181,Southbound (citybound),186,234,,,high,count-reviewer,proposed
+G0181,181,Southbound (citybound),212,255,,,high,count-reviewer,proposed
+G0183,183,Eastbound,190,193,,,medium,count-reviewer,proposed
+G0183,183,Eastbound,213,257,,,medium,count-reviewer,proposed
+G0183,183,Westbound,190,230,,,medium,count-reviewer,proposed
+G0183,183,Westbound,213,256,,,medium,count-reviewer,proposed
+G0186,186,Eastbound,189,204,,,medium,count-reviewer,proposed
+G0186,186,Eastbound,219,280,,,medium,count-reviewer,proposed
+G0186,186,Eastbound,259,639,,,medium,count-reviewer,proposed
+G0186,186,Westbound,189,203,,,medium,count-reviewer,proposed
+G0186,186,Westbound,219,267,,,medium,count-reviewer,proposed
+G0186,186,Westbound,259,637,,,medium,count-reviewer,proposed
+G0187,187,Eastbound,200,225,,,high,count-reviewer,proposed
+G0187,187,Eastbound,258,638,,,high,count-reviewer,proposed
+G0187,187,Westbound,200,213,,,high,count-reviewer,proposed
+G0187,187,Westbound,258,640,,,high,count-reviewer,proposed
 G0188,188,Eastbound (citybound) 2019-2020,187,197,,2020-07-17,medium,count-reviewer,proposed
 G0188,188,Eastbound (citybound) 2022-2026,187,197,2022-04-01,,medium,count-reviewer,proposed
 G0188,188,Westbound 2019-2020,187,218,,2020-07-17,medium,count-reviewer,proposed
 G0188,188,Westbound 2022-2026,187,218,2022-04-01,,medium,count-reviewer,proposed
+G0190,190,Northbound / north-east (towards Parramatta CBD),197,192,,,high,count-reviewer,proposed
+G0190,190,Northbound / north-east (towards Parramatta CBD),299,1088,,,high,count-reviewer,proposed
+G0190,190,Northbound / north-east (towards Parramatta CBD),391,1857,,,high,count-reviewer,proposed
+G0190,190,Southbound / south-west,197,201,,,high,count-reviewer,proposed
+G0190,190,Southbound / south-west,299,1087,,,high,count-reviewer,proposed
+G0190,190,Southbound / south-west,391,1859,,,high,count-reviewer,proposed
+G0191,191,"Eastbound / southbound (larger flow, 07:00 peak)",198,219,,,high,count-reviewer,proposed
+G0191,191,"Eastbound / southbound (larger flow, 07:00 peak)",221,296,,,high,count-reviewer,proposed
+G0191,191,"Eastbound / southbound (larger flow, 07:00 peak)",298,1089,,,high,count-reviewer,proposed
+G0191,191,"Eastbound / southbound (larger flow, 07:00 peak)",342,1719,,,high,count-reviewer,proposed
+G0191,191,"Eastbound / southbound (larger flow, 07:00 peak)",348,1734,,,high,count-reviewer,proposed
+G0191,191,"Westbound / northbound (smaller flow, 08:00 peak)",198,236,,,high,count-reviewer,proposed
+G0191,191,"Westbound / northbound (smaller flow, 08:00 peak)",221,293,,,high,count-reviewer,proposed
+G0191,191,"Westbound / northbound (smaller flow, 08:00 peak)",298,1086,,,high,count-reviewer,proposed
+G0191,191,"Westbound / northbound (smaller flow, 08:00 peak)",342,1720,,,high,count-reviewer,proposed
+G0191,191,"Westbound / northbound (smaller flow, 08:00 peak)",348,1733,,,high,count-reviewer,proposed
+G0191,192,"Offramp direction A (07-08 AM peak, 15:00 school spike)",199,240,,,medium,count-reviewer,proposed
+G0191,192,"Offramp direction A (07-08 AM peak, 15:00 school spike)",327,1546,,,medium,count-reviewer,proposed
+G0191,192,"Offramp direction A (07-08 AM peak, 15:00 school spike)",335,1581,,,medium,count-reviewer,proposed
+G0191,192,"Offramp direction A (07-08 AM peak, 15:00 school spike)",393,1861,,,medium,count-reviewer,proposed
+G0191,192,Offramp direction B (16-17 PM peak),199,249,,,medium,count-reviewer,proposed
+G0191,192,Offramp direction B (16-17 PM peak),327,1544,,,medium,count-reviewer,proposed
+G0191,192,Offramp direction B (16-17 PM peak),335,1582,,,medium,count-reviewer,proposed
+G0191,192,Offramp direction B (16-17 PM peak),393,1862,,,medium,count-reviewer,proposed
+G0191,192,"Offramp, counter 342 'East' (short deployment)",342,1856,,,low,count-reviewer,proposed
+G0191,192,"Offramp, counter 342 'West' (short deployment)",342,1855,,,low,count-reviewer,proposed
+G0199,199,Atkins St north-west (out),185,190,,,high,count-reviewer,proposed
+G0199,199,Atkins St south-east (in),185,241,,,high,count-reviewer,proposed
+G0199,563,Manly Dam Loop northbound,185,1790,,,high,count-reviewer,proposed
+G0199,563,Manly Dam Loop northbound,382,1790,,,high,count-reviewer,proposed
+G0199,563,Manly Dam Loop southbound,185,1789,,,high,count-reviewer,proposed
+G0199,563,Manly Dam Loop southbound,382,1789,,,high,count-reviewer,proposed
+G0256,256,Eastbound (citybound),223,320,,,high,count-reviewer,proposed
+G0256,256,Eastbound (citybound),274,678,,2023-08-18,high,count-reviewer,proposed
+G0256,256,Eastbound (from Aug 2023),274,678,2023-08-19,,medium,count-reviewer,proposed
+G0256,256,Westbound,223,321,,,high,count-reviewer,proposed
+G0256,256,Westbound,274,676,,2023-08-18,high,count-reviewer,proposed
+G0256,256,Westbound (from Aug 2023),274,676,2023-08-19,,medium,count-reviewer,proposed
+G0286,286,Moore Park Rd eastbound (OUT),248,376,,,high,count-reviewer,proposed
+G0286,286,Moore Park Rd westbound (IN),248,364,,,high,count-reviewer,proposed
+G0286,287,Carrington Dr northbound (IN),248,381,,,high,count-reviewer,proposed
+G0286,287,Carrington Dr southbound (OUT),248,418,,,high,count-reviewer,proposed
+G0286,289,Moore Park Rd path eastbound,248,479,,,high,count-reviewer,proposed
+G0286,289,Moore Park Rd path westbound,248,484,,,high,count-reviewer,proposed
+G0286,317,Moore Park Rd south path eastbound (OUT),248,467,,,high,count-reviewer,proposed
+G0286,317,Moore Park Rd south path westbound (IN),248,468,,,high,count-reviewer,proposed
+G0314,314,"East, 2022 counter 250",250,501,,,high,count-reviewer,proposed
+G0314,314,"North (OUT), 2023-2024",278,792,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,314,"North (OUT), from Nov 2025",278,792,2025-11-01,,medium,count-reviewer,proposed
+G0314,314,"South (IN, citybound), 2023-2024",278,700,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,314,"South (IN, citybound), from Nov 2025",278,700,2025-11-01,,medium,count-reviewer,proposed
+G0314,314,"West, 2022 counter 250",250,505,,,high,count-reviewer,proposed
+G0314,320,"East (OUT), 2023-2024",278,690,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,320,"East (OUT), from Nov 2025",278,690,2025-11-01,,medium,count-reviewer,proposed
+G0314,320,"East, 2022 counter 250",250,506,,,high,count-reviewer,proposed
+G0314,320,"West (IN), 2023-2024",278,761,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,320,"West (IN), from Nov 2025",278,761,2025-11-01,,medium,count-reviewer,proposed
+G0314,320,"West, 2022 counter 250",250,507,,,high,count-reviewer,proposed
+G0314,324,"East (OUT), 2023-2024",278,929,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,324,"East (OUT), from Nov 2025",278,929,2025-11-01,,medium,count-reviewer,proposed
+G0314,324,"West (IN), 2023-2024",278,746,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,324,"West (IN), from Nov 2025",278,746,2025-11-01,,medium,count-reviewer,proposed
+G0314,325,"North (IN), 2023-2024",278,905,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,325,"North (IN), from Nov 2025",278,905,2025-11-01,,medium,count-reviewer,proposed
+G0314,325,"South (OUT), 2023-2024",278,847,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,325,"South (OUT), from Nov 2025",278,847,2025-11-01,,medium,count-reviewer,proposed
+G0314,326,"North (IN), 2023-2024",278,814,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,326,"North (IN), from Nov 2025",278,814,2025-11-01,,medium,count-reviewer,proposed
+G0314,326,"South (OUT), 2023-2024",278,875,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,326,"South (OUT), from Nov 2025",278,875,2025-11-01,,medium,count-reviewer,proposed
+G0314,327,"East (IN), 2023-2024",278,809,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,327,"East (IN), from Nov 2025",278,809,2025-11-01,,medium,count-reviewer,proposed
+G0314,327,"West (OUT), 2023-2024",278,738,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,327,"West (OUT), from Nov 2025",278,738,2025-11-01,,medium,count-reviewer,proposed
+G0314,328,"North (OUT), 2023-2024",278,869,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,328,"North (OUT), from Nov 2025",278,869,2025-11-01,,medium,count-reviewer,proposed
+G0314,328,"South (IN), 2023-2024",278,906,2023-07-01,2024-09-30,medium,count-reviewer,proposed
+G0314,328,"South (IN), from Nov 2025",278,906,2025-11-01,,medium,count-reviewer,proposed
+G0329,329,North West (IN),279,745,,,high,count-reviewer,proposed
+G0329,329,"South East (OUT), from 2024-11-29",279,689,2024-11-29,,medium,count-reviewer,proposed
+G0329,329,"South East (OUT), to 2024-11-28",279,689,,2024-11-28,medium,count-reviewer,proposed
+G0329,330,"North East (IN), from 2024-11-29",279,817,2024-11-29,,medium,count-reviewer,proposed
+G0329,330,"North East (IN), to 2024-11-28",279,817,,2024-11-28,medium,count-reviewer,proposed
+G0329,330,"South West (OUT), from 2024-11-29",279,879,2024-11-29,,medium,count-reviewer,proposed
+G0329,330,"South West (OUT), to 2024-11-28",279,879,,2024-11-28,medium,count-reviewer,proposed
+G0329,331,"North West (OUT), from 2024-11-29",279,716,2024-11-29,,medium,count-reviewer,proposed
+G0329,331,"North West (OUT), to 2024-11-28",279,716,,2024-11-28,medium,count-reviewer,proposed
+G0329,331,"South East (IN), from 2024-11-29",279,827,2024-11-29,,medium,count-reviewer,proposed
+G0329,331,"South East (IN), to 2024-11-28",279,827,,2024-11-28,medium,count-reviewer,proposed
+G0329,332,North West,279,900,,,high,count-reviewer,proposed
+G0329,332,South East,279,723,,,high,count-reviewer,proposed
+G0329,333,North East (IN),279,872,,,high,count-reviewer,proposed
+G0329,333,South West (OUT),279,764,,,high,count-reviewer,proposed
+G0329,334,North West,279,807,,,high,count-reviewer,proposed
+G0329,334,South East,279,766,,,high,count-reviewer,proposed
+G0329,335,"North East, from 2024-11-29",279,953,2024-11-29,,medium,count-reviewer,proposed
+G0329,335,"North East, to 2024-11-28",279,953,,2024-11-28,medium,count-reviewer,proposed
+G0329,335,"South West, from 2024-11-29",279,701,2024-11-29,,medium,count-reviewer,proposed
+G0329,335,"South West, to 2024-11-28",279,701,,2024-11-28,medium,count-reviewer,proposed
+G0329,336,"North West, from 2024-11-29",279,826,2024-11-29,,medium,count-reviewer,proposed
+G0329,336,"North West, to 2024-11-28",279,826,,2024-11-28,medium,count-reviewer,proposed
+G0329,336,"South East, from 2024-11-29",279,802,2024-11-29,,medium,count-reviewer,proposed
+G0329,336,"South East, to 2024-11-28",279,802,,2024-11-28,medium,count-reviewer,proposed
+G0329,337,North West,279,883,,,high,count-reviewer,proposed
+G0329,337,South East,279,798,,,high,count-reviewer,proposed
+G0338,338,King St - East of Pitt St Eastbound (OUT) from 2 Oct 2024,280,758,2024-10-02,,medium,count-reviewer,proposed
+G0338,338,King St - East of Pitt St Eastbound (OUT) to 1 Oct 2024,280,758,,2024-10-01,medium,count-reviewer,proposed
+G0338,338,King St - East of Pitt St Westbound (OUT) from 2 Oct 2024,280,859,2024-10-02,,medium,count-reviewer,proposed
+G0338,338,King St - East of Pitt St Westbound (OUT) to 1 Oct 2024,280,859,,2024-10-01,medium,count-reviewer,proposed
+G0338,339,King St crossing - East of Pitt St Northbound (OUT) from 2 Oct 2024,280,867,2024-10-02,,medium,count-reviewer,proposed
+G0338,339,King St crossing - East of Pitt St Northbound (OUT) to 1 Oct 2024,280,867,,2024-10-01,medium,count-reviewer,proposed
+G0338,339,King St crossing - East of Pitt St Southbound (IN) from 2 Oct 2024,280,731,2024-10-02,,medium,count-reviewer,proposed
+G0338,339,King St crossing - East of Pitt St Southbound (IN) to 1 Oct 2024,280,731,,2024-10-01,medium,count-reviewer,proposed
+G0338,340,Pitt St - South of King St Northbound (IN) from 2 Oct 2024,280,769,2024-10-02,,medium,count-reviewer,proposed
+G0338,340,Pitt St - South of King St Northbound (IN) to 1 Oct 2024,280,769,,2024-10-01,medium,count-reviewer,proposed
+G0338,340,Pitt St - South of King St Southbound (IN) from 2 Oct 2024,280,698,2024-10-02,,medium,count-reviewer,proposed
+G0338,340,Pitt St - South of King St Southbound (IN) to 1 Oct 2024,280,698,,2024-10-01,medium,count-reviewer,proposed
+G0338,341,King St (S) - West of Pitt St Eastbound (IN) from 2 Oct 2024,280,736,2024-10-02,,medium,count-reviewer,proposed
+G0338,341,King St (S) - West of Pitt St Eastbound (IN) to 1 Oct 2024,280,736,,2024-10-01,medium,count-reviewer,proposed
+G0338,341,King St (S) - West of Pitt St Westbound (OUT) from 2 Oct 2024,280,849,2024-10-02,,medium,count-reviewer,proposed
+G0338,341,King St (S) - West of Pitt St Westbound (OUT) to 1 Oct 2024,280,849,,2024-10-01,medium,count-reviewer,proposed
+G0338,342,King St crossing - West of Pitt St Northbound (NONE) from 2 Oct 2024,280,741,2024-10-02,,medium,count-reviewer,proposed
+G0338,342,King St crossing - West of Pitt St Northbound (NONE) to 1 Oct 2024,280,741,,2024-10-01,medium,count-reviewer,proposed
+G0338,342,King St crossing - West of Pitt St Southbound (OUT) from 2 Oct 2024,280,892,2024-10-02,,medium,count-reviewer,proposed
+G0338,342,King St crossing - West of Pitt St Southbound (OUT) to 1 Oct 2024,280,892,,2024-10-01,medium,count-reviewer,proposed
+G0338,343,King St (bicycle path) - West of Pitt St Eastbound (IN) from 2 Oct 2024,280,949,2024-10-02,,medium,count-reviewer,proposed
+G0338,343,King St (bicycle path) - West of Pitt St Eastbound (IN) to 1 Oct 2024,280,949,,2024-10-01,medium,count-reviewer,proposed
+G0338,343,King St (bicycle path) - West of Pitt St Westbound (OUT) from 2 Oct 2024,280,703,2024-10-02,,medium,count-reviewer,proposed
+G0338,343,King St (bicycle path) - West of Pitt St Westbound (OUT) to 1 Oct 2024,280,703,,2024-10-01,medium,count-reviewer,proposed
+G0338,344,Pitt St - North of King St Northbound (OUT) from 2 Oct 2024,280,718,2024-10-02,,medium,count-reviewer,proposed
+G0338,344,Pitt St - North of King St Northbound (OUT) to 1 Oct 2024,280,718,,2024-10-01,medium,count-reviewer,proposed
+G0338,344,Pitt St - North of King St Southbound (IN) from 2 Oct 2024,280,842,2024-10-02,,medium,count-reviewer,proposed
+G0338,344,Pitt St - North of King St Southbound (IN) to 1 Oct 2024,280,842,,2024-10-01,medium,count-reviewer,proposed
+G0338,345,King St (bicycle path) - East of Pitt St Eastbound (OUT) from 2 Oct 2024,280,838,2024-10-02,,medium,count-reviewer,proposed
+G0338,345,King St (bicycle path) - East of Pitt St Eastbound (OUT) to 1 Oct 2024,280,838,,2024-10-01,medium,count-reviewer,proposed
+G0338,345,King St (bicycle path) - East of Pitt St Westbound (IN) from 2 Oct 2024,280,936,2024-10-02,,medium,count-reviewer,proposed
+G0338,345,King St (bicycle path) - East of Pitt St Westbound (IN) to 1 Oct 2024,280,936,,2024-10-01,medium,count-reviewer,proposed
+G0338,346,King St - West of Pitt St Eastbound (IN) from 2 Oct 2024,280,719,2024-10-02,,medium,count-reviewer,proposed
+G0338,346,King St - West of Pitt St Eastbound (IN) to 1 Oct 2024,280,719,,2024-10-01,medium,count-reviewer,proposed
+G0338,346,King St - West of Pitt St Westbound (OUT) from 2 Oct 2024,280,799,2024-10-02,,medium,count-reviewer,proposed
+G0338,346,King St - West of Pitt St Westbound (OUT) to 1 Oct 2024,280,799,,2024-10-01,medium,count-reviewer,proposed
+G0347,347,"Swanson St - East of Railway Pde East (OUT), 2023-07 to 2024-01 config",281,750,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,347,"Swanson St - East of Railway Pde East (OUT), 2024-01 to 2024-10 config",281,750,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,347,"Swanson St - East of Railway Pde East (OUT), from 2024-10 config",281,750,2024-10-02,,medium,count-reviewer,proposed
+G0347,347,"Swanson St - East of Railway Pde West (IN), 2023-07 to 2024-01 config",281,753,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,347,"Swanson St - East of Railway Pde West (IN), 2024-01 to 2024-10 config",281,753,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,347,"Swanson St - East of Railway Pde West (IN), from 2024-10 config",281,753,2024-10-02,,medium,count-reviewer,proposed
+G0347,348,"Swanson St crossing - East of Railway Pde North (OUT), 2023-07 to 2024-01 config",281,947,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,348,"Swanson St crossing - East of Railway Pde North (OUT), 2024-01 to 2024-10 config",281,947,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,348,"Swanson St crossing - East of Railway Pde North (OUT), from 2024-10 config",281,947,2024-10-02,,medium,count-reviewer,proposed
+G0347,348,"Swanson St crossing - East of Railway Pde South (IN), 2023-07 to 2024-01 config",281,770,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,348,"Swanson St crossing - East of Railway Pde South (IN), 2024-01 to 2024-10 config",281,770,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,348,"Swanson St crossing - East of Railway Pde South (IN), from 2024-10 config",281,770,2024-10-02,,medium,count-reviewer,proposed
+G0347,349,"Swanson St (S) - East of Railway Pde East (OUT), 2023-07 to 2024-01 config",281,737,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,349,"Swanson St (S) - East of Railway Pde East (OUT), 2024-01 to 2024-10 config",281,737,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,349,"Swanson St (S) - East of Railway Pde East (OUT), from 2024-10 config",281,737,2024-10-02,,medium,count-reviewer,proposed
+G0347,349,"Swanson St (S) - East of Railway Pde West (IN), 2023-07 to 2024-01 config",281,787,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,349,"Swanson St (S) - East of Railway Pde West (IN), 2024-01 to 2024-10 config",281,787,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,349,"Swanson St (S) - East of Railway Pde West (IN), from 2024-10 config",281,787,2024-10-02,,medium,count-reviewer,proposed
+G0347,350,"Bridge St (E) - South of Swanson St North (IN), 2023-07 to 2024-01 config",281,951,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,350,"Bridge St (E) - South of Swanson St North (IN), 2024-01 to 2024-10 config",281,951,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,350,"Bridge St (E) - South of Swanson St North (IN), from 2024-10 config",281,951,2024-10-02,,medium,count-reviewer,proposed
+G0347,350,"Bridge St (E) - South of Swanson St South (OUT), 2023-07 to 2024-01 config",281,914,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,350,"Bridge St (E) - South of Swanson St South (OUT), 2024-01 to 2024-10 config",281,914,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,350,"Bridge St (E) - South of Swanson St South (OUT), from 2024-10 config",281,914,2024-10-02,,medium,count-reviewer,proposed
+G0347,351,"Bridge St (W) - South of Swanson St North (IN), 2023-07 to 2024-01 config",281,916,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,351,"Bridge St (W) - South of Swanson St North (IN), 2024-01 to 2024-10 config",281,916,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,351,"Bridge St (W) - South of Swanson St North (IN), from 2024-10 config",281,916,2024-10-02,,medium,count-reviewer,proposed
+G0347,351,"Bridge St (W) - South of Swanson St South (OUT), 2023-07 to 2024-01 config",281,688,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,351,"Bridge St (W) - South of Swanson St South (OUT), 2024-01 to 2024-10 config",281,688,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,351,"Bridge St (W) - South of Swanson St South (OUT), from 2024-10 config",281,688,2024-10-02,,medium,count-reviewer,proposed
+G0347,352,"Swanson St (S) - West of Railway Pde East (IN), 2023-07 to 2024-01 config",281,816,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,352,"Swanson St (S) - West of Railway Pde East (IN), 2024-01 to 2024-10 config",281,816,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,352,"Swanson St (S) - West of Railway Pde East (IN), from 2024-10 config",281,816,2024-10-02,,medium,count-reviewer,proposed
+G0347,352,"Swanson St (S) - West of Railway Pde West (OUT), 2023-07 to 2024-01 config",281,946,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,352,"Swanson St (S) - West of Railway Pde West (OUT), 2024-01 to 2024-10 config",281,946,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,352,"Swanson St (S) - West of Railway Pde West (OUT), from 2024-10 config",281,946,2024-10-02,,medium,count-reviewer,proposed
+G0347,353,"Swanson St crossing - West of Railway Pde North (NONE), 2023-07 to 2024-01 config",281,907,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,353,"Swanson St crossing - West of Railway Pde North (NONE), 2024-01 to 2024-10 config",281,907,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,353,"Swanson St crossing - West of Railway Pde North (NONE), from 2024-10 config",281,907,2024-10-02,,medium,count-reviewer,proposed
+G0347,353,"Swanson St crossing - West of Railway Pde South (NONE), 2023-07 to 2024-01 config",281,705,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,353,"Swanson St crossing - West of Railway Pde South (NONE), 2024-01 to 2024-10 config",281,705,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,353,"Swanson St crossing - West of Railway Pde South (NONE), from 2024-10 config",281,705,2024-10-02,,medium,count-reviewer,proposed
+G0347,354,"Swanson St - West of Railway Pde East (IN), 2023-07 to 2024-01 config",281,858,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,354,"Swanson St - West of Railway Pde East (IN), 2024-01 to 2024-10 config",281,858,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,354,"Swanson St - West of Railway Pde East (IN), from 2024-10 config",281,858,2024-10-02,,medium,count-reviewer,proposed
+G0347,354,"Swanson St - West of Railway Pde West (OUT), 2023-07 to 2024-01 config",281,944,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,354,"Swanson St - West of Railway Pde West (OUT), 2024-01 to 2024-10 config",281,944,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,354,"Swanson St - West of Railway Pde West (OUT), from 2024-10 config",281,944,2024-10-02,,medium,count-reviewer,proposed
+G0347,355,"Swanson St (N) - West of Railway Pde East (IN), 2023-07 to 2024-01 config",281,820,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,355,"Swanson St (N) - West of Railway Pde East (IN), 2024-01 to 2024-10 config",281,820,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,355,"Swanson St (N) - West of Railway Pde East (IN), from 2024-10 config",281,820,2024-10-02,,medium,count-reviewer,proposed
+G0347,355,"Swanson St (N) - West of Railway Pde West (OUT), 2023-07 to 2024-01 config",281,866,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,355,"Swanson St (N) - West of Railway Pde West (OUT), 2024-01 to 2024-10 config",281,866,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,355,"Swanson St (N) - West of Railway Pde West (OUT), from 2024-10 config",281,866,2024-10-02,,medium,count-reviewer,proposed
+G0347,356,"Railway Pde (W) - North of Swanson St North East (OUT), 2023-07 to 2024-01 config",281,756,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,356,"Railway Pde (W) - North of Swanson St North East (OUT), 2024-01 to 2024-10 config",281,756,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,356,"Railway Pde (W) - North of Swanson St North East (OUT), from 2024-10 config",281,756,2024-10-02,,medium,count-reviewer,proposed
+G0347,356,"Railway Pde (W) - North of Swanson St South West (IN), 2023-07 to 2024-01 config",281,778,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,356,"Railway Pde (W) - North of Swanson St South West (IN), 2024-01 to 2024-10 config",281,778,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,356,"Railway Pde (W) - North of Swanson St South West (IN), from 2024-10 config",281,778,2024-10-02,,medium,count-reviewer,proposed
+G0347,357,"Railway Pde crossing - North of Swanson St East (IN), 2023-07 to 2024-01 config",281,890,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,357,"Railway Pde crossing - North of Swanson St East (IN), 2024-01 to 2024-10 config",281,890,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,357,"Railway Pde crossing - North of Swanson St East (IN), from 2024-10 config",281,890,2024-10-02,,medium,count-reviewer,proposed
+G0347,357,"Railway Pde crossing - North of Swanson St West (OUT), 2023-07 to 2024-01 config",281,711,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,357,"Railway Pde crossing - North of Swanson St West (OUT), 2024-01 to 2024-10 config",281,711,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,357,"Railway Pde crossing - North of Swanson St West (OUT), from 2024-10 config",281,711,2024-10-02,,medium,count-reviewer,proposed
+G0347,358,"Railway Pde - North of Swanson St North (OUT), 2023-07 to 2024-01 config",281,767,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,358,"Railway Pde - North of Swanson St North (OUT), 2024-01 to 2024-10 config",281,767,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,358,"Railway Pde - North of Swanson St North (OUT), from 2024-10 config",281,767,2024-10-02,,medium,count-reviewer,proposed
+G0347,358,"Railway Pde - North of Swanson St South (IN), 2023-07 to 2024-01 config",281,841,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,358,"Railway Pde - North of Swanson St South (IN), 2024-01 to 2024-10 config",281,841,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,358,"Railway Pde - North of Swanson St South (IN), from 2024-10 config",281,841,2024-10-02,,medium,count-reviewer,proposed
+G0347,359,"Railway Pde (bicycle path) - North of Swanson St North (OUT), 2023-07 to 2024-01 config",281,726,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,359,"Railway Pde (bicycle path) - North of Swanson St North (OUT), 2024-01 to 2024-10 config",281,726,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,359,"Railway Pde (bicycle path) - North of Swanson St North (OUT), from 2024-10 config",281,726,2024-10-02,,medium,count-reviewer,proposed
+G0347,359,"Railway Pde (bicycle path) - North of Swanson St South (IN), 2023-07 to 2024-01 config",281,788,2023-07-12,2024-01-23,medium,count-reviewer,proposed
+G0347,359,"Railway Pde (bicycle path) - North of Swanson St South (IN), 2024-01 to 2024-10 config",281,788,2024-01-24,2024-10-01,medium,count-reviewer,proposed
+G0347,359,"Railway Pde (bicycle path) - North of Swanson St South (IN), from 2024-10 config",281,788,2024-10-02,,medium,count-reviewer,proposed
+G0369,369,"Kingsway road eastbound (from 2024-09-18, redrawn zones)",283,721,2024-09-18,,high,count-reviewer,proposed
+G0369,369,"Kingsway road eastbound (to 2024-08-27, original zones)",283,721,,2024-09-17,high,count-reviewer,proposed
+G0369,369,"Kingsway road westbound (from 2024-09-18, redrawn zones)",283,882,2024-09-18,,high,count-reviewer,proposed
+G0369,369,"Kingsway road westbound (to 2024-08-27, original zones)",283,882,,2024-09-17,high,count-reviewer,proposed
+G0369,370,"Kingsway crossing northbound (from 2024-09-18, redrawn zones)",283,706,2024-09-18,,medium,count-reviewer,proposed
+G0369,370,"Kingsway crossing northbound (to 2024-08-27, original zones)",283,706,,2024-09-17,medium,count-reviewer,proposed
+G0369,370,"Kingsway crossing southbound (from 2024-09-18, redrawn zones)",283,830,2024-09-18,,medium,count-reviewer,proposed
+G0369,370,"Kingsway crossing southbound (to 2024-08-27, original zones)",283,830,,2024-09-17,medium,count-reviewer,proposed
+G0369,371,"Kingsway south footpath east of Central Rd, eastbound (from 2024-09-18)",283,876,2024-09-18,,high,count-reviewer,proposed
+G0369,371,"Kingsway south footpath east of Central Rd, westbound (from 2024-09-18)",283,925,2024-09-18,,high,count-reviewer,proposed
+G0369,372,"Westfield entrance footpath northbound (from 2024-09-18, redrawn zones)",283,782,2024-09-18,,high,count-reviewer,proposed
+G0369,372,"Westfield entrance footpath northbound (to 2024-08-27, original zones)",283,782,,2024-09-17,high,count-reviewer,proposed
+G0369,372,"Westfield entrance footpath southbound (from 2024-09-18, redrawn zones)",283,863,2024-09-18,,high,count-reviewer,proposed
+G0369,372,"Westfield entrance footpath southbound (to 2024-08-27, original zones)",283,863,,2024-09-17,high,count-reviewer,proposed
+G0369,373,"Kingsway south footpath west of Central Rd, eastbound (from 2024-09-18)",283,751,2024-09-18,,high,count-reviewer,proposed
+G0369,373,"Kingsway south footpath west of Central Rd, westbound (from 2024-09-18)",283,722,2024-09-18,,high,count-reviewer,proposed
+G0374,374,Oxford St E of Bronte Rd East OUT (2023-07 to 2024-11-06),284,856,,2024-11-06,medium,count-reviewer,proposed
+G0374,374,Oxford St E of Bronte Rd East OUT (2024-11-12 to 2025-01-15),284,856,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,374,Oxford St E of Bronte Rd East OUT (2025-01-16 to 2025-11-19),284,856,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,374,Oxford St E of Bronte Rd East OUT (from 2026-01-14),284,856,2026-01-01,,medium,count-reviewer,proposed
+G0374,374,Oxford St E of Bronte Rd West IN (2023-07 to 2024-11-06),284,695,,2024-11-06,medium,count-reviewer,proposed
+G0374,374,Oxford St E of Bronte Rd West IN (2024-11-12 to 2025-01-15),284,695,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,374,Oxford St E of Bronte Rd West IN (2025-01-16 to 2025-11-19),284,695,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,374,Oxford St E of Bronte Rd West IN (from 2026-01-14),284,695,2026-01-01,,medium,count-reviewer,proposed
+G0374,375,Oxford St (S) footpath E of Bronte Rd East OUT (2023-07 to 2024-11-06),284,727,,2024-11-06,medium,count-reviewer,proposed
+G0374,375,Oxford St (S) footpath E of Bronte Rd East OUT (2024-11-12 to 2025-01-15),284,727,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,375,Oxford St (S) footpath E of Bronte Rd East OUT (2025-01-16 to 2025-11-19),284,727,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,375,Oxford St (S) footpath E of Bronte Rd East OUT (from 2026-01-14),284,727,2026-01-01,,medium,count-reviewer,proposed
+G0374,375,Oxford St (S) footpath E of Bronte Rd West IN (2023-07 to 2024-11-06),284,913,,2024-11-06,medium,count-reviewer,proposed
+G0374,375,Oxford St (S) footpath E of Bronte Rd West IN (2024-11-12 to 2025-01-15),284,913,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,375,Oxford St (S) footpath E of Bronte Rd West IN (2025-01-16 to 2025-11-19),284,913,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,375,Oxford St (S) footpath E of Bronte Rd West IN (from 2026-01-14),284,913,2026-01-01,,medium,count-reviewer,proposed
+G0374,376,Bronte Rd (E) footpath North IN (2023-07 to 2024-11-06),284,937,,2024-11-06,medium,count-reviewer,proposed
+G0374,376,Bronte Rd (E) footpath North IN (2024-11-12 to 2025-01-15),284,937,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,376,Bronte Rd (E) footpath North IN (2025-01-16 to 2025-11-19),284,937,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,376,Bronte Rd (E) footpath North IN (from 2026-01-14),284,937,2026-01-01,,medium,count-reviewer,proposed
+G0374,376,Bronte Rd (E) footpath South OUT (2023-07 to 2024-11-06),284,931,,2024-11-06,medium,count-reviewer,proposed
+G0374,376,Bronte Rd (E) footpath South OUT (2024-11-12 to 2025-01-15),284,931,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,376,Bronte Rd (E) footpath South OUT (2025-01-16 to 2025-11-19),284,931,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,376,Bronte Rd (E) footpath South OUT (from 2026-01-14),284,931,2026-01-01,,medium,count-reviewer,proposed
+G0374,377,Bronte Rd S of Oxford St North IN (2023-07 to 2024-11-06),284,921,,2024-11-06,medium,count-reviewer,proposed
+G0374,377,Bronte Rd S of Oxford St North IN (2024-11-12 to 2025-01-15),284,921,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,377,Bronte Rd S of Oxford St North IN (2025-01-16 to 2025-11-19),284,921,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,377,Bronte Rd S of Oxford St North IN (from 2026-01-14),284,921,2026-01-01,,medium,count-reviewer,proposed
+G0374,377,Bronte Rd S of Oxford St South OUT (2023-07 to 2024-11-06),284,777,,2024-11-06,medium,count-reviewer,proposed
+G0374,377,Bronte Rd S of Oxford St South OUT (2024-11-12 to 2025-01-15),284,777,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,377,Bronte Rd S of Oxford St South OUT (2025-01-16 to 2025-11-19),284,777,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,377,Bronte Rd S of Oxford St South OUT (from 2026-01-14),284,777,2026-01-01,,medium,count-reviewer,proposed
+G0374,378,Bronte Rd crossing East (2023-07 to 2024-11-06),284,898,,2024-11-06,medium,count-reviewer,proposed
+G0374,378,Bronte Rd crossing East (2024-11-12 to 2025-01-15),284,898,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,378,Bronte Rd crossing East (2025-01-16 to 2025-11-19),284,898,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,378,Bronte Rd crossing East (from 2026-01-14),284,898,2026-01-01,,medium,count-reviewer,proposed
+G0374,378,Bronte Rd crossing West (2023-07 to 2024-11-06),284,837,,2024-11-06,medium,count-reviewer,proposed
+G0374,378,Bronte Rd crossing West (2024-11-12 to 2025-01-15),284,837,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,378,Bronte Rd crossing West (2025-01-16 to 2025-11-19),284,837,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,378,Bronte Rd crossing West (from 2026-01-14),284,837,2026-01-01,,medium,count-reviewer,proposed
+G0374,379,Bronte Rd (W) footpath North IN (2023-07 to 2024-11-06),284,922,,2024-11-06,medium,count-reviewer,proposed
+G0374,379,Bronte Rd (W) footpath North IN (2024-11-12 to 2025-01-15),284,922,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,379,Bronte Rd (W) footpath North IN (2025-01-16 to 2025-11-19),284,922,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,379,Bronte Rd (W) footpath North IN (from 2026-01-14),284,922,2026-01-01,,medium,count-reviewer,proposed
+G0374,379,Bronte Rd (W) footpath South OUT (2023-07 to 2024-11-06),284,776,,2024-11-06,medium,count-reviewer,proposed
+G0374,379,Bronte Rd (W) footpath South OUT (2024-11-12 to 2025-01-15),284,776,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,379,Bronte Rd (W) footpath South OUT (2025-01-16 to 2025-11-19),284,776,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,379,Bronte Rd (W) footpath South OUT (from 2026-01-14),284,776,2026-01-01,,medium,count-reviewer,proposed
+G0374,380,Oxford St W of Bronte Rd East IN (2023-07 to 2024-11-06),284,891,,2024-11-06,medium,count-reviewer,proposed
+G0374,380,Oxford St W of Bronte Rd East IN (2024-11-12 to 2025-01-15),284,891,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,380,Oxford St W of Bronte Rd East IN (2025-01-16 to 2025-11-19),284,891,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,380,Oxford St W of Bronte Rd East IN (from 2026-01-14),284,891,2026-01-01,,medium,count-reviewer,proposed
+G0374,380,Oxford St W of Bronte Rd West OUT (2023-07 to 2024-11-06),284,893,,2024-11-06,medium,count-reviewer,proposed
+G0374,380,Oxford St W of Bronte Rd West OUT (2024-11-12 to 2025-01-15),284,893,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,380,Oxford St W of Bronte Rd West OUT (2025-01-16 to 2025-11-19),284,893,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,380,Oxford St W of Bronte Rd West OUT (from 2026-01-14),284,893,2026-01-01,,medium,count-reviewer,proposed
+G0374,381,Grosvenor St N of Oxford St North OUT (2023-07 to 2024-11-06),284,930,,2024-11-06,medium,count-reviewer,proposed
+G0374,381,Grosvenor St N of Oxford St North OUT (2024-11-12 to 2025-01-15),284,930,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,381,Grosvenor St N of Oxford St North OUT (2025-01-16 to 2025-11-19),284,930,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,381,Grosvenor St N of Oxford St North OUT (from 2026-01-14),284,930,2026-01-01,,medium,count-reviewer,proposed
+G0374,381,Grosvenor St N of Oxford St South IN (2023-07 to 2024-11-06),284,873,,2024-11-06,medium,count-reviewer,proposed
+G0374,381,Grosvenor St N of Oxford St South IN (2024-11-12 to 2025-01-15),284,873,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,381,Grosvenor St N of Oxford St South IN (2025-01-16 to 2025-11-19),284,873,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,381,Grosvenor St N of Oxford St South IN (from 2026-01-14),284,873,2026-01-01,,medium,count-reviewer,proposed
+G0374,382,Grosvenor St crossing East OUT (2023-07 to 2024-11-06),284,845,,2024-11-06,medium,count-reviewer,proposed
+G0374,382,Grosvenor St crossing East OUT (2024-11-12 to 2025-01-15),284,845,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,382,Grosvenor St crossing East OUT (2025-01-16 to 2025-11-19),284,845,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,382,Grosvenor St crossing East OUT (from 2026-01-14),284,845,2026-01-01,,medium,count-reviewer,proposed
+G0374,382,Grosvenor St crossing West IN (2023-07 to 2024-11-06),284,932,,2024-11-06,medium,count-reviewer,proposed
+G0374,382,Grosvenor St crossing West IN (2024-11-12 to 2025-01-15),284,932,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,382,Grosvenor St crossing West IN (2025-01-16 to 2025-11-19),284,932,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,382,Grosvenor St crossing West IN (from 2026-01-14),284,932,2026-01-01,,medium,count-reviewer,proposed
+G0374,383,Grosvenor St (W) footpath North OUT (2023-07 to 2024-11-06),284,779,,2024-11-06,medium,count-reviewer,proposed
+G0374,383,Grosvenor St (W) footpath North OUT (2024-11-12 to 2025-01-15),284,779,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,383,Grosvenor St (W) footpath North OUT (2025-01-16 to 2025-11-19),284,779,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,383,Grosvenor St (W) footpath North OUT (from 2026-01-14),284,779,2026-01-01,,medium,count-reviewer,proposed
+G0374,383,Grosvenor St (W) footpath South IN (2023-07 to 2024-11-06),284,896,,2024-11-06,medium,count-reviewer,proposed
+G0374,383,Grosvenor St (W) footpath South IN (2024-11-12 to 2025-01-15),284,896,2024-11-07,2025-01-15,medium,count-reviewer,proposed
+G0374,383,Grosvenor St (W) footpath South IN (2025-01-16 to 2025-11-19),284,896,2025-01-16,2025-12-31,medium,count-reviewer,proposed
+G0374,383,Grosvenor St (W) footpath South IN (from 2026-01-14),284,896,2026-01-01,,medium,count-reviewer,proposed
+G0400,400,"Alfred St road northbound (IN), zones v1",300,1155,,2023-11-23,medium,count-reviewer,proposed
+G0400,400,"Alfred St road northbound (IN), zones v2",300,1155,2023-12-12,2024-01-21,medium,count-reviewer,proposed
+G0400,400,"Alfred St road northbound (IN), zones v3",300,1155,2024-01-23,,medium,count-reviewer,proposed
+G0400,400,"Alfred St road southbound (OUT), zones v1",300,1115,,2023-11-23,medium,count-reviewer,proposed
+G0400,400,"Alfred St road southbound (OUT), zones v2",300,1115,2023-12-12,2024-01-21,medium,count-reviewer,proposed
+G0400,400,"Alfred St road southbound (OUT), zones v3",300,1115,2024-01-23,,medium,count-reviewer,proposed
+G0400,401,Alfred St cycleway northbound (IN),300,1144,,,medium,count-reviewer,proposed
+G0400,401,Alfred St cycleway southbound (OUT),300,1129,,,medium,count-reviewer,proposed
+G0400,402,Alfred St footpath RHS near northbound (IN),300,1177,,,medium,count-reviewer,proposed
+G0400,402,Alfred St footpath RHS near southbound (OUT),300,1149,,,medium,count-reviewer,proposed
+G0400,403,"Alfred St crossing eastbound (OUT), zones v1",300,1117,,2023-11-23,medium,count-reviewer,proposed
+G0400,403,"Alfred St crossing eastbound (OUT), zones v2",300,1117,2023-12-12,2024-01-21,medium,count-reviewer,proposed
+G0400,403,"Alfred St crossing eastbound (OUT), zones v3",300,1117,2024-01-23,,medium,count-reviewer,proposed
+G0400,403,"Alfred St crossing westbound (IN), zones v1",300,1111,,2023-11-23,medium,count-reviewer,proposed
+G0400,403,"Alfred St crossing westbound (IN), zones v2",300,1111,2023-12-12,2024-01-21,medium,count-reviewer,proposed
+G0400,403,"Alfred St crossing westbound (IN), zones v3",300,1111,2024-01-23,,medium,count-reviewer,proposed
+G0400,407,"Alfred St footpath LHS far northbound (IN), zones v1",300,1095,,2023-11-23,medium,count-reviewer,proposed
+G0400,407,"Alfred St footpath LHS far northbound (IN), zones v2",300,1095,2023-12-12,2024-01-21,medium,count-reviewer,proposed
+G0400,407,"Alfred St footpath LHS far northbound (IN), zones v3",300,1095,2024-01-23,,medium,count-reviewer,proposed
+G0400,407,"Alfred St footpath LHS far southbound (OUT), zones v1",300,1181,,2023-11-23,medium,count-reviewer,proposed
+G0400,407,"Alfred St footpath LHS far southbound (OUT), zones v2",300,1181,2023-12-12,2024-01-21,medium,count-reviewer,proposed
+G0400,407,"Alfred St footpath LHS far southbound (OUT), zones v3",300,1181,2024-01-23,,medium,count-reviewer,proposed
+G0400,416,Alfred St footpath LHS near northbound (IN),300,1139,,,high,count-reviewer,proposed
+G0400,416,Alfred St footpath LHS near southbound (OUT),300,1166,,,high,count-reviewer,proposed
+G0400,417,M4 shared path eastbound (OUT),300,1161,,,high,count-reviewer,proposed
+G0400,417,M4 shared path westbound (IN),300,1143,,,high,count-reviewer,proposed
+G0400,418,Alfred St footpath RHS far northbound (IN),300,1195,,,high,count-reviewer,proposed
+G0400,418,Alfred St footpath RHS far southbound (OUT),300,1104,,,high,count-reviewer,proposed
 G0404,404,Noller Pde road northbound (out),301,1142,,,high,count-reviewer,proposed
 G0404,404,Noller Pde road southbound (in),301,1176,,,high,count-reviewer,proposed
 G0404,405,Noller Pde path S northbound (out),301,1101,,,high,count-reviewer,proposed
@@ -56,6 +445,14 @@ G0404,422,River Rd W path LHS northbound (out),301,1133,,,high,count-reviewer,pr
 G0404,422,River Rd W path LHS southbound (in),301,1119,,,high,count-reviewer,proposed
 G0404,427,River Rd bridge path northbound (out),301,1135,,,high,count-reviewer,proposed
 G0404,427,River Rd bridge path southbound (in),301,1160,,,high,count-reviewer,proposed
+G0428,428,Crossing eastbound (citybound),312,1247,,,high,count-reviewer,proposed
+G0428,428,Crossing westbound,312,1334,,,high,count-reviewer,proposed
+G0428,429,West path N of crossing northbound,312,1348,,,high,count-reviewer,proposed
+G0428,429,West path N of crossing southbound,312,1253,,,high,count-reviewer,proposed
+G0428,430,West path S of crossing northbound,312,1223,,,high,count-reviewer,proposed
+G0428,430,West path S of crossing southbound,312,1215,,,high,count-reviewer,proposed
+G0428,431,Ramp roadway northbound,312,1375,,,high,count-reviewer,proposed
+G0428,431,Ramp roadway southbound,312,1410,,,high,count-reviewer,proposed
 G0432,432,"North West (OUT, counter 313) Aug-Nov 2024",313,1300,2024-08-29,2024-11-06,medium,count-reviewer,proposed
 G0432,432,"North West (OUT, counter 313) from Nov 2024",313,1300,2024-11-07,,medium,count-reviewer,proposed
 G0432,432,"North West (OUT, counter 313) to Aug 2024",313,1300,,2024-08-28,medium,count-reviewer,proposed
@@ -136,6 +533,36 @@ G0432,444,"South (NONE, counter 314) from Nov 2024",314,1319,2024-11-07,,medium,
 G0432,444,"South (NONE, counter 314) to Aug 2024",314,1319,,2024-08-28,medium,count-reviewer,proposed
 G0432,491,"North West (NONE, counter 314)",314,1421,,,medium,count-reviewer,proposed
 G0432,491,"South East (NONE, counter 314)",314,1422,,,medium,count-reviewer,proposed
+G0445,445,Northbound across Alison Rd (Oct-Nov 2024 layout),315,1266,2024-10-17,2024-11-07,medium,count-reviewer,proposed
+G0445,445,Northbound across Alison Rd (first layout),315,1266,2024-03-25,2024-07-11,medium,count-reviewer,proposed
+G0445,445,Northbound across Alison Rd (first layout),315,1266,2024-10-04,2024-10-16,medium,count-reviewer,proposed
+G0445,445,Southbound across Alison Rd (Oct-Nov 2024 layout),315,1263,2024-10-17,2024-11-07,medium,count-reviewer,proposed
+G0445,445,Southbound across Alison Rd (first layout),315,1263,2024-03-25,2024-07-11,medium,count-reviewer,proposed
+G0445,445,Southbound across Alison Rd (first layout),315,1263,2024-10-04,2024-10-16,medium,count-reviewer,proposed
+G0445,446,North-west on north path W of Doncaster (Oct-Nov 2024 layout),315,1307,2024-10-17,2024-11-07,medium,count-reviewer,proposed
+G0445,446,North-west on north path W of Doncaster (to 16 Oct 2024),315,1307,2024-03-26,2024-07-11,low,count-reviewer,proposed
+G0445,446,North-west on north path W of Doncaster (to 16 Oct 2024),315,1307,2024-10-04,2024-10-16,low,count-reviewer,proposed
+G0445,446,South-east on north path W of Doncaster (Oct-Nov 2024 layout),315,1301,2024-10-17,2024-11-07,medium,count-reviewer,proposed
+G0445,446,South-east on north path W of Doncaster (to 16 Oct 2024),315,1301,2024-03-26,2024-07-11,low,count-reviewer,proposed
+G0445,446,South-east on north path W of Doncaster (to 16 Oct 2024),315,1301,2024-10-04,2024-10-16,low,count-reviewer,proposed
+G0445,447,North-west on north path E of Doncaster,315,1296,2024-07-11,2024-10-03,medium,count-reviewer,proposed
+G0445,447,North-west on north path E of Doncaster,315,1296,2024-11-08,,medium,count-reviewer,proposed
+G0445,447,North-west on north path E of Doncaster (Oct-Nov 2024 layout),315,1296,2024-10-17,2024-11-07,medium,count-reviewer,proposed
+G0445,447,North-west on north path E of Doncaster (first layout),315,1296,2024-03-25,2024-07-10,medium,count-reviewer,proposed
+G0445,447,North-west on north path E of Doncaster (first layout),315,1296,2024-10-04,2024-10-16,medium,count-reviewer,proposed
+G0445,447,South-east on north path E of Doncaster,315,1411,2024-07-11,2024-10-03,medium,count-reviewer,proposed
+G0445,447,South-east on north path E of Doncaster,315,1411,2024-11-08,,medium,count-reviewer,proposed
+G0445,447,South-east on north path E of Doncaster (Oct-Nov 2024 layout),315,1411,2024-10-17,2024-11-07,medium,count-reviewer,proposed
+G0445,447,South-east on north path E of Doncaster (first layout),315,1411,2024-03-25,2024-07-10,medium,count-reviewer,proposed
+G0445,447,South-east on north path E of Doncaster (first layout),315,1411,2024-10-04,2024-10-16,medium,count-reviewer,proposed
+G0445,448,North-west on Alison Rd W of Doncaster (11 Jul-3 Oct 2024),315,1377,2024-07-11,2024-10-03,medium,count-reviewer,proposed
+G0445,448,North-west on Alison Rd W of Doncaster (17 Oct-7 Nov 2024),315,1377,2024-10-17,2024-11-07,medium,count-reviewer,proposed
+G0445,448,North-west on Alison Rd W of Doncaster (4-16 Oct 2024),315,1377,2024-10-04,2024-10-16,medium,count-reviewer,proposed
+G0445,448,North-west on Alison Rd W of Doncaster (to 10 Jul 2024),315,1377,2024-03-25,2024-07-10,medium,count-reviewer,proposed
+G0445,448,South-east on Alison Rd W of Doncaster (11 Jul-3 Oct 2024),315,1392,2024-07-11,2024-10-03,medium,count-reviewer,proposed
+G0445,448,South-east on Alison Rd W of Doncaster (17 Oct-7 Nov 2024),315,1392,2024-10-17,2024-11-07,medium,count-reviewer,proposed
+G0445,448,South-east on Alison Rd W of Doncaster (4-16 Oct 2024),315,1392,2024-10-04,2024-10-16,medium,count-reviewer,proposed
+G0445,448,South-east on Alison Rd W of Doncaster (to 10 Jul 2024),315,1392,2024-03-25,2024-07-10,medium,count-reviewer,proposed
 G0464,464,"Sydney Park Rd parking crossing, eastbound - from 2024-11-08",318,1292,2024-11-08,,medium,count-reviewer,proposed
 G0464,464,"Sydney Park Rd parking crossing, eastbound - to 2024-11-07",318,1292,,2024-11-07,medium,count-reviewer,proposed
 G0464,464,"Sydney Park Rd parking crossing, westbound - from 2024-11-08",318,1386,2024-11-08,,medium,count-reviewer,proposed
@@ -180,10 +607,58 @@ G0464,474,"Sydney Park Rd road E of Mitchell Rd, eastbound (out) - from 2024-11-
 G0464,474,"Sydney Park Rd road E of Mitchell Rd, eastbound (out) - to 2024-11-07",318,1270,,2024-11-07,medium,count-reviewer,proposed
 G0464,474,"Sydney Park Rd road E of Mitchell Rd, westbound (in) - from 2024-11-08",318,1206,2024-11-08,,medium,count-reviewer,proposed
 G0464,474,"Sydney Park Rd road E of Mitchell Rd, westbound (in) - to 2024-11-07",318,1206,,2024-11-07,medium,count-reviewer,proposed
+G0484,484,North West (from 2024-11-08),320,1236,2024-11-08,,medium,count-reviewer,proposed
+G0484,484,North West (to 2024-11-07),320,1236,,2024-11-07,medium,count-reviewer,proposed
+G0484,484,South East (from 2024-11-08),320,1297,2024-11-08,,medium,count-reviewer,proposed
+G0484,484,South East (to 2024-11-07),320,1297,,2024-11-07,medium,count-reviewer,proposed
+G0484,485,North East (from 2024-11-08),320,1407,2024-11-08,,medium,count-reviewer,proposed
+G0484,485,North East (to 2024-11-07),320,1407,,2024-11-07,medium,count-reviewer,proposed
+G0484,485,South West (from 2024-11-08),320,1309,2024-11-08,,medium,count-reviewer,proposed
+G0484,485,South West (to 2024-11-07),320,1309,,2024-11-07,medium,count-reviewer,proposed
+G0484,486,North West (from 2024-11-08),320,1366,2024-11-08,,medium,count-reviewer,proposed
+G0484,486,North West (to 2024-11-07),320,1366,,2024-11-07,medium,count-reviewer,proposed
+G0484,486,South East (from 2024-11-08),320,1293,2024-11-08,,medium,count-reviewer,proposed
+G0484,486,South East (to 2024-11-07),320,1293,,2024-11-07,medium,count-reviewer,proposed
+G0484,487,North East (from 2024-11-08),320,1222,2024-11-08,,medium,count-reviewer,proposed
+G0484,487,North East (to 2024-11-07),320,1222,,2024-11-07,medium,count-reviewer,proposed
+G0484,487,South West (from 2024-11-08),320,1346,2024-11-08,,medium,count-reviewer,proposed
+G0484,487,South West (to 2024-11-07),320,1346,,2024-11-07,medium,count-reviewer,proposed
+G0484,488,North East (IN) (from 2024-11-08),320,1389,2024-11-08,,medium,count-reviewer,proposed
+G0484,488,North East (IN) (to 2024-11-07),320,1389,,2024-11-07,medium,count-reviewer,proposed
+G0484,488,South West (OUT) (from 2024-11-08),320,1376,2024-11-08,,medium,count-reviewer,proposed
+G0484,488,South West (OUT) (to 2024-11-07),320,1376,,2024-11-07,medium,count-reviewer,proposed
+G0484,489,East (IN) (from 2024-11-08),320,1329,2024-11-08,,medium,count-reviewer,proposed
+G0484,489,East (IN) (to 2024-11-07),320,1329,,2024-11-07,medium,count-reviewer,proposed
+G0484,489,West (OUT) (from 2024-11-08),320,1381,2024-11-08,,medium,count-reviewer,proposed
+G0484,489,West (OUT) (to 2024-11-07),320,1381,,2024-11-07,medium,count-reviewer,proposed
+G0484,490,North West (from 2024-11-08),320,1431,2024-11-08,,medium,count-reviewer,proposed
+G0484,490,North West (to 2024-11-07),320,1431,,2024-11-07,medium,count-reviewer,proposed
+G0484,490,South East (from 2024-11-08),320,1433,2024-11-08,,medium,count-reviewer,proposed
+G0484,490,South East (to 2024-11-07),320,1433,,2024-11-07,medium,count-reviewer,proposed
+G0537,537,"Northbound (towards city, morning-peak direction)",333,1564,,,medium,count-reviewer,proposed
+G0537,537,"Northbound (towards city, morning-peak direction)",351,1739,,,medium,count-reviewer,proposed
+G0537,537,"Southbound (away from city, evening-peak direction)",333,1562,,,medium,count-reviewer,proposed
+G0537,537,"Southbound (away from city, evening-peak direction)",351,1740,,,medium,count-reviewer,proposed
+G0538,538,Henderson Rd path eastbound (citybound),331,1559,,,high,count-reviewer,proposed
+G0538,538,Henderson Rd path eastbound (citybound),353,1743,,,high,count-reviewer,proposed
+G0538,538,Henderson Rd path westbound,331,1560,,,high,count-reviewer,proposed
+G0538,538,Henderson Rd path westbound,353,1744,,,high,count-reviewer,proposed
+G0540,540,Geddes Ave eastbound,328,1557,,,high,count-reviewer,proposed
+G0540,540,Geddes Ave eastbound,350,1737,,,high,count-reviewer,proposed
+G0540,540,Geddes Ave westbound,328,1558,,,high,count-reviewer,proposed
+G0540,540,Geddes Ave westbound,350,1738,,,high,count-reviewer,proposed
 G0541,541,Eastbound / citybound (Ecocounter 2018-2024),234,312,,,medium,count-reviewer,proposed
 G0541,541,Eastbound / citybound (Metrocount 2025-),354,1746,,,medium,count-reviewer,proposed
 G0541,541,Westbound / outbound (Ecocounter 2018-2024),234,313,,,medium,count-reviewer,proposed
 G0541,541,Westbound / outbound (Metrocount 2025-),354,1745,,,medium,count-reviewer,proposed
+G0542,542,"Citybound (labelled East), MetroCount 2025-",355,1747,,,medium,count-reviewer,proposed
+G0542,542,"Northbound (citybound), Ecocounter 2013-2025",231,322,,,medium,count-reviewer,proposed
+G0542,542,"Outbound (labelled West), MetroCount 2025-",355,1748,,,medium,count-reviewer,proposed
+G0542,542,"Southbound (outbound), Ecocounter 2013-2025",231,323,,,medium,count-reviewer,proposed
+G0543,543,College St northbound (citybound),330,1553,,2025-10-02,high,count-reviewer,proposed
+G0543,543,College St northbound (citybound),356,1749,2025-10-03,,high,count-reviewer,proposed
+G0543,543,College St southbound,330,1554,,2025-10-02,high,count-reviewer,proposed
+G0543,543,College St southbound,356,1750,2025-10-03,,high,count-reviewer,proposed
 G0544,544,"New counter, AM-peak flow (labelled West)",357,1752,,,high,count-reviewer,proposed
 G0544,544,"New counter, PM-peak flow (labelled East)",357,1751,,,high,count-reviewer,proposed
 G0544,544,"Old counter, AM-peak flow (labelled East)",228,340,,,high,count-reviewer,proposed
@@ -198,14 +673,42 @@ G0547,568,"King St citybound (eastbound, AM peak), counter 239",239,329,,,high,c
 G0547,568,"King St citybound (eastbound, AM peak), counter 366",366,1770,,,high,count-reviewer,proposed
 G0547,568,"King St outbound (westbound, PM peak), counter 239",239,328,,,high,count-reviewer,proposed
 G0547,568,"King St outbound (westbound, PM peak), counter 366",366,1769,,,high,count-reviewer,proposed
+G0549,549,Northbound (Ecocounter 2012-2020),238,326,,,medium,count-reviewer,proposed
+G0549,549,Northbound (Metrocount 2025-),365,1767,,,medium,count-reviewer,proposed
+G0549,549,Southbound (Ecocounter 2012-2020),238,327,,,medium,count-reviewer,proposed
+G0549,549,Southbound (Metrocount 2025-),365,1768,,,medium,count-reviewer,proposed
+G0550,550,Northbound (citybound),226,336,,,medium,count-reviewer,proposed
+G0550,550,Northbound (citybound),362,1762,,,medium,count-reviewer,proposed
+G0550,550,Southbound (outbound),226,337,,,medium,count-reviewer,proposed
+G0550,550,Southbound (outbound),362,1761,,,medium,count-reviewer,proposed
 G0551,551,"Northbound (Ecocounter, 2015-2025)",233,332,,,high,count-reviewer,proposed
 G0551,551,"Northbound (MetroCount, 2025-)",367,1771,,,medium,count-reviewer,proposed
 G0551,551,"Southbound (Ecocounter, 2015-2025)",233,333,,,high,count-reviewer,proposed
 G0551,551,"Southbound (MetroCount, 2025-)",367,1772,,,medium,count-reviewer,proposed
+G0552,552,"AM-peak direction (towards city), Ecocounter 241",241,351,,,high,count-reviewer,proposed
+G0552,552,"AM-peak direction (towards city), Metrocount 360",360,1757,,,high,count-reviewer,proposed
+G0552,552,"PM-peak direction (from city), Ecocounter 241",241,350,,,high,count-reviewer,proposed
+G0552,552,"PM-peak direction (from city), Metrocount 360",360,1758,,,high,count-reviewer,proposed
+G0554,554,"Bourke St northbound (citybound), EcoCounter 2016-2025",225,334,,,medium,count-reviewer,proposed
+G0554,554,"Bourke St northbound (citybound), MetroCount 2025-",363,1763,,,medium,count-reviewer,proposed
+G0554,554,"Bourke St southbound, EcoCounter 2016-2025",225,335,,,medium,count-reviewer,proposed
+G0554,554,"Bourke St southbound, MetroCount 2025-",363,1764,,,medium,count-reviewer,proposed
+G0559,559,Northbound,332,1551,,2025-11-19,high,count-reviewer,proposed
+G0559,559,Northbound,368,1773,2025-11-20,,high,count-reviewer,proposed
+G0559,559,Northbound,380,1800,,,high,count-reviewer,proposed
+G0559,559,Northbound,387,1800,,,high,count-reviewer,proposed
+G0559,559,Southbound,332,1552,,2025-11-19,high,count-reviewer,proposed
+G0559,559,Southbound,368,1774,2025-11-20,,high,count-reviewer,proposed
+G0559,559,Southbound,380,1799,,,high,count-reviewer,proposed
+G0559,559,Southbound,387,1799,,,high,count-reviewer,proposed
 G0560,560,Eastbound/citybound (Metrocount 2025-),370,1778,,,medium,count-reviewer,proposed
 G0560,560,Northbound/outbound (Ecocounter 2014-2022),229,330,,,medium,count-reviewer,proposed
 G0560,560,Southbound/citybound (Ecocounter 2014-2022),229,331,,,medium,count-reviewer,proposed
 G0560,560,Westbound/outbound (Metrocount 2025-),370,1777,,,medium,count-reviewer,proposed
+G0561,561,Epsom Rd eastbound,240,348,,,medium,count-reviewer,proposed
+G0561,561,Epsom Rd eastbound,371,1779,,,medium,count-reviewer,proposed
+G0561,561,Epsom Rd westbound (citybound),240,349,,,medium,count-reviewer,proposed
+G0561,561,Epsom Rd westbound (citybound),371,1780,,,medium,count-reviewer,proposed
 G0569,569,East (IN),383,1812,,,high,count-reviewer,proposed
 G0569,569,West (OUT),383,1838,,,high,count-reviewer,proposed
 G0569,570,North (IN),383,1820,,,high,count-reviewer,proposed
@@ -222,3 +725,7 @@ G0569,575,East (OUT),383,1853,,,high,count-reviewer,proposed
 G0569,575,West (IN),383,1852,,,high,count-reviewer,proposed
 G0569,576,North,383,1830,,,high,count-reviewer,proposed
 G0569,576,South,383,1813,,,high,count-reviewer,proposed
+G0577,577,Greenway northeast,384,1824,,,high,count-reviewer,proposed
+G0577,577,Greenway southwest,384,1816,,,high,count-reviewer,proposed
+G0577,578,Old Canterbury Rd footpath eastbound,384,1849,,,high,count-reviewer,proposed
+G0577,578,Old Canterbury Rd footpath westbound,384,1846,,,high,count-reviewer,proposed

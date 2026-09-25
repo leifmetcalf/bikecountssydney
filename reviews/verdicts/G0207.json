@@ -1,0 +1,23 @@
+{
+  "group": "G0207",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 207, "DIRECTION_SK": 216, "start": "2021-08-23", "end": "2021-08-24",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed a genuinely near-empty day (heavy weather) that every nearby counter shared.",
+      "evidence": "2021-08-24: 207 S 3 / N 1 bikes (S kept, N set missing); neighbours 176 11/12, 198 5/6, 205 4/4 against ~200-300 the days either side."},
+    {"action": "restore", "SITE_SK": 207, "DIRECTION_SK": 199, "start": "2022-03-29", "end": "2022-03-29",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed midday zeros on a region-wide very low (wet) day; the opposite direction was also near zero and kept.",
+      "evidence": "207 S 7 / N 10 raw; 205 25/24, 198 27/24, 176 43/41 vs ~150-200 on 28 and 30 March; N also had zeros from 07:00 to 15:30."},
+    {"action": "restore", "SITE_SK": 207, "DIRECTION_SK": 199, "start": "2024-10-02", "end": "2024-10-02",
+      "confidence": "medium",
+      "diagnosis": "Five midday zero slots set missing on a low day that neighbours shared; the opposite direction shows the same lull.",
+      "evidence": "207 S 101 / N 110 vs ~300 on 1 Oct; 205 110/104 vs 301/316; N direction 0-1 bikes per slot in the same late-morning window."},
+    {"action": "restore", "SITE_SK": 207, "DIRECTION_SK": 216, "start": "2026-04-08", "end": "2026-04-10",
+      "confidence": "medium",
+      "diagnosis": "Near-zero counts in both directions at 207 and at adjacent 205 while more distant counters were normal, which suggests a local path closure (real traffic loss), not a counter fault; S was kept but N set missing.",
+      "evidence": "207 S 48/7/9 and N 55/7/10 raw on 8-10 Apr (usual ~250-350); 205 48/48, 9/18, 16/21; 198 and 176 normal (~300-400); both directions still register occasional bikes at matching times."}
+  ],
+  "series": [],
+  "summary": "One Metrocount piezo counter with two directions from June 2021 to September 2026, one record per slot, directions tracking each other closely (S/N ratio ~1.1-1.4) and with no doubling or level faults. The single-direction surges on 16 Oct 2022 and 12 Oct 2025 (2005 and 2691 southbound, 08:00-11:00 Sunday) also appear at 205 and 198, so they are an organised ride and are kept; the 20 Oct 2025 all-zero day matches a network-wide outage and its automatic fix stands. Several zero_outage fixes hit one direction only on days when both directions and the neighbouring counters were genuinely very low (weather, and a local closure in April 2026), so those are restored."
+}

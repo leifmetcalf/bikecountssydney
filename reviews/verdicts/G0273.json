@@ -1,0 +1,6 @@
+{
+  "group": "G0273",
+  "decisions": [],
+  "series": [],
+  "summary": "A single MetroCount piezo counter (246) on the Epping Rd shared path records a low-volume, well-balanced flow (about 10-30 bikes per day each way) from Apr 2022 to Nov 2025, with one record per slot, no even-count or duplicate patterns, and no spikes (max slot 15). The only automatic fix, a zero_outage of both directions from late 19 Oct to early 21 Oct 2025 (a flat ~30-hour zero run on a site that normally carries 40-50 bikes/day), is correct and kept; the low days of 2-8 Jul 2022 and 5 Apr 2024 match known Sydney heavy-rain events and are real; the 5 Nov - 23 Dec 2024 gap is simply unpublished. With one counter and no shared sites, each direction is its own series."
+}

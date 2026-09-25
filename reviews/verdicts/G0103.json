@@ -1,0 +1,11 @@
+{
+  "group": "G0103",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 103, "DIRECTION_SK": 5, "start": "2013-02-15", "end": "2013-02-21",
+      "confidence": "high",
+      "diagnosis": "The South East (citybound) channel counted bikes in both directions for a week: its counts equal its normal flow plus the North West flow slot by slot, so the direction's total is inflated about twofold and cannot be separated reliably.",
+      "evidence": "Daily SE/NW ratio 2.02-2.12 on all 7 days (e.g. 19 Feb SE 2352 vs NW 1131; normally ratio ~1.0, 14 Feb 1012/1043, 22 Feb 786/731). SE gains an evening peak it never has (16-17h: 314/353 vs NW 286/333; normal SE 16-17h ~24/22), nonzero slots rise from ~68 to 82-84, NW stays at its normal level; odd counts present so not an exact doubling."}
+  ],
+  "series": [],
+  "summary": "Anzac Bridge shared path has one Piezo counter (107) for the whole 2011-2026 record, with very balanced directions and long outages in 2015, 2020-21 and 2021-24 that the automatic zero_outage fixes already set to missing. The one fault is 15-21 Feb 2013, when the citybound (SE) direction also counted the North West flow, roughly doubling it; that week is set to missing for direction 5. Other extremes are real: Spring Cycle Sundays (16 Oct 2011, 21 Oct 2012, NW only) and storm or holiday days such as 11 Jun 2012, 5 Jun 2016, 9 Feb 2020, 14 Mar 2021 and 24 Aug 2021, which neighbouring counters show too."
+}

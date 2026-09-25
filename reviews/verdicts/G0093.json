@@ -1,0 +1,17 @@
+{
+  "group": "G0093",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 93, "DIRECTION_SK": null, "start": "2018-06-08", "end": "2018-06-08",
+      "confidence": "high",
+      "diagnosis": "An isolated burst in the middle of a multi-year dead period, with both directions recording near-identical counts slot by slot at about 250 per 15 minutes, is a test or disturbance of the sensor, not riders.",
+      "evidence": "Direction 51 had 3462 and direction 52 had 3455 in 22 slots from 10:30 to 16:30, e.g. 12:15 was 257 in both and 13:00 was 251 and 250; the site's normal level is about 15 per direction per day with a maximum slot of about 8; every other day from 2013-11-15 to 2018-09 is all zeros."
+    },
+    {"action": "missing", "SITE_SK": 93, "DIRECTION_SK": null, "start": "2018-06-09", "end": "2019-09-12",
+      "confidence": "high",
+      "diagnosis": "The counter was only partly working inside the 2013-11 to 2019-09 outage, picking up a few scattered hits, so the days that survived the automatic zero_outage fix badly undercount.",
+      "evidence": "The surviving weeks total 17/30 (week of 2018-12-03, 7 complete days), 5/2 (week of 2018-12-31) and 3 to 12 elsewhere, against about 100 per direction per week before 2013-11 and after 2019-09-14; most days in this span are pure zeros that were already set missing."
+    }
+  ],
+  "series": [],
+  "summary": "Warringah Fwy north of Ernest St is one Metrocount piezo counter with two directions and a low flow of about 10-20 bikes per direction per day. It was out from 2013-11-15 to 2019-09-13 (already set missing automatically) and had shorter outages in 2020 and 2021 that were handled correctly. Inside that outage, a sensor burst on 2018-06-08 (about 3460 per direction, identical in both) and sparse partial-detection counts from late 2018 to 2019 are set missing. The MetroCount comment about missing hits from 16/07/21 to 13/08/21 is not borne out: counts in that window match or exceed the weeks around it, so the data is kept."
+}

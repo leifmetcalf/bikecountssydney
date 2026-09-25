@@ -1,0 +1,32 @@
+{
+  "group": "G0286",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 287, "DIRECTION_SK": null, "start": "2022-11-15", "end": "2023-04-26",
+     "confidence": "high",
+     "diagnosis": "On most nights from mid-November 2022 until the April 2023 outage, the camera counted phantom 'bicycles' in both Carrington Dr zones between about 00:00 and 05:00 (sometimes also 22:00-24:00), in blocks that start on the hour and stop sharply at 05:00, with near-equal counts in each direction; the camera's other zones stayed at zero during those hours.",
+     "evidence": "00:00-05:00 totals of 381/418 were 773/656 on 2022-11-18, 960/819 on 2023-02-28, 1089/1111 on 2023-04-24, with a steady 30-50 per 15-min slot, against 0-5 per night before Nov 2022 and after May 2023, and 0-4 on 289/286/317 on the same nights. The mean 22:00-05:00 count per direction rose from about 5/day to 100-320/day (Feb-Apr 2023 about 300/day, 40-60% of the daily total), which inflates weekly totals (e.g. 7847/5920 in the week of 2023-04-10 against about 3500/2000 normally). Daytime (06-21h) levels are in line with other months, but nearly every week in the range has phantom nights."},
+    {"action": "direction_unreliable", "SITE_SK": 287, "DIRECTION_SK": null, "start": "2022-06-01", "end": "2022-06-20",
+     "confidence": "medium",
+     "diagnosis": "Before the camera was reconfigured on 2022-06-21 (when sites 286 and 317 were added), the Carrington Dr directions look swapped: in that period the southbound zone has the citybound morning peak that the northbound zone carries afterwards, and the other way round.",
+     "evidence": "Workday 07-08h means were 418: 44/50 and 381: 26/35 during 2022-06-01..20; from 2022-06-21 they were 381: 48/57 and 418: 25/22, and the northbound zone keeps the morning peak for the rest of the record. Daily totals flip from 381<418 (e.g. 267 vs 350) to 381>418 (e.g. 501 vs 398) overnight on 06-21."},
+    {"action": "uncertain", "SITE_SK": 287, "DIRECTION_SK": 418, "start": "2023-07-12", "end": "2024-04-27",
+     "confidence": "low",
+     "diagnosis": "Southbound Carrington Dr dropped about 30% in a single step across the Jun-Jul 2023 camera outage while northbound did not change, which points to the zone being redefined when the camera came back (the level may not match the level before the outage).",
+     "evidence": "The 418/381 daily ratio was 0.55-0.75 in June 2023 and 0.33-0.50 from 2023-07-12 onward. Daytime means were 418 about 215/day in June 2023 and 138-213 afterwards, while 381 stayed at about 330-490. Over the same outage, 286/376 rose from about 35 to about 60/day."},
+    {"action": "uncertain", "SITE_SK": 317, "DIRECTION_SK": null, "start": "2022-08-14", "end": "2022-08-16",
+     "confidence": "low",
+     "diagnosis": "A three-day burst on the Moore Park Rd south shared path at about 15-25 times its usual level with a daytime profile, which could be a diversion, an event crowd or misclassified pedestrians; the other zones show no matching drop.",
+     "evidence": "317/467 was 468/408/398 and 317/468 was 325/140/314 per day, against about 10-40 on the days either side. The weekly totals were 563 and 917 against about 150 normally. 287 and 289 were normal on those days."}
+  ],
+  "series": [
+    {"SITE_SK": 286, "name": "Moore Park Rd westbound (IN)", "confidence": "high", "parts": [{"COUNTER_SK": 248, "DIRECTION_SK": 364, "start": null, "end": null}], "evidence": "Single camera zone direction; the only counter at the site."},
+    {"SITE_SK": 286, "name": "Moore Park Rd eastbound (OUT)", "confidence": "high", "parts": [{"COUNTER_SK": 248, "DIRECTION_SK": 376, "start": null, "end": null}], "evidence": "Single camera zone direction; the only counter at the site."},
+    {"SITE_SK": 287, "name": "Carrington Dr northbound (IN)", "confidence": "high", "parts": [{"COUNTER_SK": 248, "DIRECTION_SK": 381, "start": null, "end": null}], "evidence": "Single camera zone direction; the only counter at the site."},
+    {"SITE_SK": 287, "name": "Carrington Dr southbound (OUT)", "confidence": "high", "parts": [{"COUNTER_SK": 248, "DIRECTION_SK": 418, "start": null, "end": null}], "evidence": "Single camera zone direction; the only counter at the site."},
+    {"SITE_SK": 289, "name": "Moore Park Rd path eastbound", "confidence": "high", "parts": [{"COUNTER_SK": 248, "DIRECTION_SK": 479, "start": null, "end": null}], "evidence": "Single camera zone direction; the only counter at the site."},
+    {"SITE_SK": 289, "name": "Moore Park Rd path westbound", "confidence": "high", "parts": [{"COUNTER_SK": 248, "DIRECTION_SK": 484, "start": null, "end": null}], "evidence": "Single camera zone direction; the only counter at the site."},
+    {"SITE_SK": 317, "name": "Moore Park Rd south path eastbound (OUT)", "confidence": "high", "parts": [{"COUNTER_SK": 248, "DIRECTION_SK": 467, "start": null, "end": null}], "evidence": "Single camera zone direction; the only counter at the site."},
+    {"SITE_SK": 317, "name": "Moore Park Rd south path westbound (IN)", "confidence": "high", "parts": [{"COUNTER_SK": 248, "DIRECTION_SK": 468, "start": null, "end": null}], "evidence": "Single camera zone direction; the only counter at the site."}
+  ],
+  "summary": "One VivaCity-style camera (counter 248) covers four zones at Oxford St / Moore Park Rd, with no counter changes; each zone direction is its own series. The main fault is phantom overnight counts (00:00-05:00) on Carrington Dr (287) from mid-November 2022 to April 2023, which inflate weekly totals by up to 60%; that period is set to missing. The 287 directions look swapped before the 2022-06-21 reconfiguration, and a step down in 287 southbound after the July 2023 outage and a 3-day burst on 317 in August 2022 are flagged as uncertain; the automatic zero_outage fixes for the Nov 2022, Apr-May 2023 and Jun-Jul 2023 outages look right."
+}

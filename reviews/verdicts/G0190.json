@@ -1,0 +1,190 @@
+{
+  "group": "G0190",
+  "decisions": [
+    {
+      "action": "missing",
+      "SITE_SK": 190,
+      "DIRECTION_SK": null,
+      "start": "2026-03-01",
+      "end": "2026-04-19",
+      "confidence": "high",
+      "diagnosis": "Counter 299 failed in its last seven weeks: southbound (1087) collapsed to a fraction of normal and northbound (1088) became erratic, then both read about a third of normal until removal.",
+      "evidence": "Site 190 / site 191 (10 m away) daily ratio 0.91-0.96 for years and through Feb 2026, then 0.27-1.72 from 2026-03-01 (e.g. 03-01: 78 S vs 397 N; 04-07..04-17 ratio 0.27-0.36); 1087 weekly 1051-1560 in Feb falls to 220-589; replacement counter 391 from 2026-04-22 returns to ratio 0.95."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 192,
+      "start": "2020-02-08",
+      "end": "2020-02-10",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190: 13/0/25 NE, 14/0/4 SW; 191: 17/0/24 and 13/0/30 (Feb 2020 storm)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 201,
+      "start": "2020-02-08",
+      "end": "2020-02-10",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190: 13/0/25 NE, 14/0/4 SW; 191: 17/0/24 and 13/0/30 (Feb 2020 storm)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 192,
+      "start": "2020-07-26",
+      "end": "2020-07-27",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 NE 2 and 7 bikes; 191 5/3 and 10/10."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 201,
+      "start": "2021-03-20",
+      "end": "2021-03-20",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 SW 2 bikes; 191 3 and 5 (March 2021 floods)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 192,
+      "start": "2021-03-22",
+      "end": "2021-03-23",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 NE 3 and 9; 191 3/5 and 8/13 (March 2021 floods)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 192,
+      "start": "2021-10-15",
+      "end": "2021-10-15",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 NE 157 with 93 valid slots, 191 175/165: an ordinary day, only a few overnight zeros removed."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 192,
+      "start": "2022-02-07",
+      "end": "2022-02-07",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 NE 87, 191 99/112: wet day, a few zeros removed."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 201,
+      "start": "2022-02-22",
+      "end": "2022-02-23",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 SW 44 and 50; 191 37/52 and 52/58 (wet week)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 201,
+      "start": "2022-03-07",
+      "end": "2022-03-09",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 SW 5/0/33; 191 12/7, 2/0, 30/34 (March 2022 floods)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 201,
+      "start": "2022-07-02",
+      "end": "2022-07-06",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 SW 13/0/3/0/8; 191 22/21, 0/0, 4/5, 2/1, 6/9 (July 2022 floods)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 192,
+      "start": "2022-07-03",
+      "end": "2022-07-06",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 NE 1/1/1/2; 191 0/0, 4/5, 2/1, 6/9 (July 2022 floods)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 190,
+      "DIRECTION_SK": 1088,
+      "start": "2024-01-15",
+      "end": "2024-01-15",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine near-zero riding on a heavy-rain day; the adjacent site 191 recorded the same near-zero counts.",
+      "evidence": "190 N 7, S 3; 191 9 and 3 on the same day."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 190,
+      "name": "Northbound / north-east (towards Parramatta CBD)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 197,
+          "DIRECTION_SK": 192,
+          "start": null,
+          "end": null
+        },
+        {
+          "COUNTER_SK": 299,
+          "DIRECTION_SK": 1088,
+          "start": null,
+          "end": null
+        },
+        {
+          "COUNTER_SK": 391,
+          "DIRECTION_SK": 1857,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Consecutive replacements at the same spot with no overlap; all three directions have the 08:00 weekday peak and are the smaller direction (192<201, 1088<1087, 1857<1859); site total / adjacent site 191 total is 0.93-0.96 under every counter, so levels are comparable."
+    },
+    {
+      "SITE_SK": 190,
+      "name": "Southbound / south-west",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 197,
+          "DIRECTION_SK": 201,
+          "start": null,
+          "end": null
+        },
+        {
+          "COUNTER_SK": 299,
+          "DIRECTION_SK": 1087,
+          "start": null,
+          "end": null
+        },
+        {
+          "COUNTER_SK": 391,
+          "DIRECTION_SK": 1859,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Consecutive replacements with no overlap; all three have the 07:00 weekday peak and are the larger direction; site/191 ratio stable at ~0.95 across counters 197, 299 and 391."
+    }
+  ],
+  "summary": "Site 190 on the Parramatta River north path ran three consecutive Metrocount piezos (197, 299, 391); they track the adjacent site 191 at a steady 0.93-0.96 ratio, so each direction forms one continuous series. Counter 299 failed from 2026-03-01 until its replacement on 2026-04-22, so both directions are set missing for that period. The genuine outages (2019-04-29 to 2019-09-30, 2022-05-16 to 2022-05-18, 2024-12-24 to 2025-01-03, 2025-10-20) are handled correctly by zero_outage, but its flags on heavy-rain days are restored because site 191 recorded the same near-zero counts."
+}

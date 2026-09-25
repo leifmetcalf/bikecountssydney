@@ -1,0 +1,15 @@
+{
+  "group": "G0561",
+  "decisions": [],
+  "series": [
+    {"SITE_SK": 561, "name": "Epsom Rd eastbound", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 240, "DIRECTION_SK": 348, "start": null, "end": null},
+                {"COUNTER_SK": 371, "DIRECTION_SK": 1779, "start": null, "end": null}],
+      "evidence": "Ecocounter 240 (to 2025-04-02) was replaced at the same site by Metrocount 371 (from 2025-11-08), with no overlap. Both have the same East/West labels, the same hourly profile with a PM peak (17-19h), and the same East/West split of about 1.7-1.8. East runs at 210/day in Mar 2025 on 240 and 257/day in Mar 2026 on 371 (+22%). The old counter was already rising fast (157 in Mar 2024, 210 in Mar 2025), and nearby Alison Rd rose about 19% over the same year, so the new counter reads comparably."},
+    {"SITE_SK": 561, "name": "Epsom Rd westbound (citybound)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 240, "DIRECTION_SK": 349, "start": null, "end": null},
+                {"COUNTER_SK": 371, "DIRECTION_SK": 1780, "start": null, "end": null}],
+      "evidence": "This is the West counterpart of the eastbound series: the same site, the same citybound flag and the same hourly shape. West runs at 119/day in Mar 2025 on 240 and 144/day in Mar 2026 on 371 (+21%), which matches the eastbound change, so the direction split is kept (1.76 vs 1.78)."}
+  ],
+  "summary": "Epsom Rd (Zetland) was counted by Ecocounter 240 from Dec 2020 to Apr 2025 and by Metrocount 371 from Nov 2025. The automatic fixes handle all the faults. Duplicate records on scattered days are exactly doubled and are dropped correctly. Zero outages (Apr-May 2022, 1-3 Jul 2023, 30 Jan-16 Feb 2026) are set to missing, and nothing else needs to change. The two counters are joined into one series per direction, because direction labels, hourly profiles, the direction split and the level (in line with strong local growth) all match across the seven-month gap."
+}

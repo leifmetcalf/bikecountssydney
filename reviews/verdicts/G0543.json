@@ -1,0 +1,15 @@
+{
+  "group": "G0543",
+  "decisions": [],
+  "series": [
+    {"SITE_SK": 543, "name": "College St northbound (citybound)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 330, "DIRECTION_SK": 1553, "start": null, "end": "2025-10-02"},
+                {"COUNTER_SK": 356, "DIRECTION_SK": 1749, "start": "2025-10-03", "end": null}],
+      "evidence": "Counter 356 replaced 330 at the same site on 2025-10-02; on that overlap day both counted the same bikes (North 780 vs 813, AM peak 435 vs 456), so 356 reads about 4% higher, which is comparable; late-Sep 2025 weekdays on 330 (~840) match early-Oct weekdays on 356 (~800-900)."},
+    {"SITE_SK": 543, "name": "College St southbound", "confidence": "high",
+      "parts": [{"COUNTER_SK": 330, "DIRECTION_SK": 1554, "start": null, "end": "2025-10-02"},
+                {"COUNTER_SK": 356, "DIRECTION_SK": 1750, "start": "2025-10-03", "end": null}],
+      "evidence": "Same replacement; on 2025-10-02 South read 636 on 330 vs 673 on 356 (PM peak 298 vs 323), about 6% higher, comparable; overlap day taken from 330 only because both counted the same bikes."}
+  ],
+  "summary": "Counter 330 reported every slot doubled (all counts even, twice the later level) from the start on 2024-01-05 to 2024-05-19; the automatic halving covers exactly that span and is correct. The zero_outage fixes (Jan, Jun and Sep-Oct 2024, Feb 2025, 2025-10-23) cover real multi-day dead periods, and the low 2024-06-22 is rain seen at neighbouring sites too, so no changes are needed. Counter 356 replaced 330 on 2025-10-02 and a one-day overlap shows it reads within about 5% of 330, so each direction becomes one continuous series."
+}

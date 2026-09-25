@@ -1,0 +1,13 @@
+{
+  "group": "G0163",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 163, "DIRECTION_SK": 103, "start": "2026-07-29", "end": "2026-09-22", "confidence": "medium",
+      "diagnosis": "Westbound counts fall steadily from 29 Jul 2026 while eastbound holds or rises and nearby Moore Park Rd rises, which may be a tube losing westbound detections or may be a real diversion of westbound riders.",
+      "evidence": "E/W daily ratio 0.87-0.98 through 28 Jul 2026, then 1.2-1.3 in Aug and 1.5-2.3 in Sep; westbound 405/day in Sep 2026 against 677 in Sep 2025 (-40%), eastbound 720 against 617 (+17%), site 168 total 891 against 655 (+36%); eastbound hourly profile keeps its shape (PM peak about 100/h, AM about 34/h), so no westbound riders are being logged as eastbound; westbound median speed rises 22.3 to 23.7 km/h; no zero runs or even-count pattern."},
+    {"action": "uncertain", "SITE_SK": 163, "DIRECTION_SK": 104, "start": "2022-11-23", "end": "2022-12-12", "confidence": "low",
+      "diagnosis": "Eastbound falls about 25% relative to westbound for three weeks just before the step change of 13 Dec 2022, which could be works at the site or partial undercounting.",
+      "evidence": "E/W ratio 0.70-0.81 before 23 Nov 2022, 0.47-0.78 (mostly 0.51-0.67) from 23 Nov to 12 Dec, then 0.85-1.05 from 13 Dec; westbound and Spring St (site 164) show no matching drop."}
+  ],
+  "series": [],
+  "summary": "Site 163 has a single tube counter with one record per slot. The automatic fixes are correct: zero_outage covers the Aug 2021 outage before the 1/9/21 reinstall, 12-19 Jul 2023 and 23 Oct 2025, and halved fixes 19 Feb 2022, where every slot count is even at about twice the usual level. On 13 Dec 2022 both directions step up about 50% overnight, and eastbound speed rises about 2.5 km/h, while neighbouring sites are flat; this looks like a change in the path layout rather than a fault, but levels before and after may not be directly comparable. From late Jul 2026 westbound falls while eastbound does not, and this is left uncertain."
+}

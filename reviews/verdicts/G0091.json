@@ -1,0 +1,13 @@
+{
+  "group": "G0091",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 91, "DIRECTION_SK": null, "start": "2017-02-13", "end": "2018-12-28", "confidence": "high",
+     "diagnosis": "Counter failure: for almost two years it recorded only fragments of a few Friday afternoons (roughly 13:30-19:00) and zeros otherwise, so every week's total is a small fraction of the real flow; direction 2 also keeps whole days of zeros (e.g. 2018-04-07..19, 2018-06-30..07-12, 2018-07-28..08-02) that the automatic fix did not catch.",
+     "evidence": "Before: ~22 and ~12 bikes/day (dir 1/2); during: non-zero slots almost only on Fridays, 1-17 bikes in 1-45 valid slots, e.g. 2017-08-04 13 bikes all between 13:30 and 19:00; dir 2 monthly mean shows 0.0 in 2018-04/06/07/08 from 96-slot zero days while dir 1 is set missing on the same days."},
+    {"action": "missing", "SITE_SK": 91, "DIRECTION_SK": null, "start": "2019-02-21", "end": "2019-04-05", "confidence": "high",
+     "diagnosis": "The same Friday-fragment failure returned after a working spell (2018-12-29 to 2019-02-20) and lasted until full recording resumed on 2019-04-06; direction 2 keeps a whole zero day (2019-02-21).",
+     "evidence": "2019-03: raw ~1 bike/day, counts only on Fridays (3-10 bikes in 16-24 slots); from 2019-04-06 back to 21-38 (dir 1) and 5-15 (dir 2) bikes/day on 96 slots."}
+  ],
+  "series": [],
+  "summary": "Single piezo counter (170) on the Gore Hill Fwy offramp path at Merremburn Ave, about 22 and 10 bikes/day south-east and north-west. From February 2017 to early April 2019 (apart from a working spell from late December 2018 to February 2019) it recorded only Friday-afternoon fragments and zeros, so that span is set missing. The large rises in Jan-Mar 2025 and Aug-Sep 2025 are real: the adjacent main path counter (site 92, 10 m away) fell to near zero in exactly those weeks, and the diverted riders show clear commuter peaks here; other automatic zero-outage fixes match simultaneous outages at site 92 and stand."
+}

@@ -1,0 +1,15 @@
+{
+  "group": "G0550",
+  "decisions": [],
+  "series": [
+    {"SITE_SK": 550, "name": "Northbound (citybound)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 226, "DIRECTION_SK": 336, "start": null, "end": null},
+                {"COUNTER_SK": 362, "DIRECTION_SK": 1762, "start": null, "end": null}],
+      "evidence": "Both directions have the same AM-peak commuter profile (8am 73.6 vs 85.5 bikes/h, Feb-Apr 2025 vs 2026); the Metrocount replaced the Ecocounter after a 5.5-month gap with no overlap, and the site total's year-on-year change (Feb +1%, Mar-Apr +29%) closely tracks the continuous Alison Rd tube counter at site 158 (Feb 0%, Mar-Apr +27%), so the new counter reads comparably."},
+    {"SITE_SK": 550, "name": "Southbound (outbound)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 226, "DIRECTION_SK": 337, "start": null, "end": null},
+                {"COUNTER_SK": 362, "DIRECTION_SK": 1761, "start": null, "end": null}],
+      "evidence": "Both directions have the same PM-peak profile (5pm 66.2 vs 75.8 bikes/h); the north/south ratio is similar on both counters (about 1.15 on 226 in Mar 2025 and 1.19 on 362 in Mar 2026), and the site's level change across the counter gap matches the year-on-year change at the continuous site 158."}
+  ],
+  "summary": "George St (W) Waterloo was counted by an Ecocounter piezo (2016-05 to 2025-05) and then by a Metrocount piezo (from 2025-10), with no overlap. The automatic fixes handle the record well: whole-day zero outages in both directions (June 2018, Dec 2020-Jan 2021, Aug-Sep 2022, end of June 2023) are set missing, and many days in 2022-2024 whose 4-channel records were loaded twice (8 records per slot, sometimes only some channels) are correctly de-duplicated; no further changes are needed. The replacement counter's level matches the trend at a continuous nearby counter, so each direction is one series across both counters."
+}

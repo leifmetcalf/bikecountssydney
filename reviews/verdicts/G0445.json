@@ -1,0 +1,414 @@
+{
+ "group": "G0445",
+ "decisions": [
+  {
+   "action": "halve",
+   "SITE_SK": 447,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2026-09-24",
+   "confidence": "high",
+   "diagnosis": "Every count in both directions of this zone is even for 2.5 years, i.e. each bicycle is reported twice.",
+   "evidence": "1296 and 1411 have no odd 15-minute value in any month 2024-03 to 2026-09 (tens of thousands of non-zero slots); value distribution is an exact doubled copy of the odd/even distribution at zone 445 of the same camera; records_per_slot = 1 so it is not a duplicate record."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 446,
+   "DIRECTION_SK": null,
+   "start": "2024-03-26",
+   "end": "2024-11-07",
+   "confidence": "high",
+   "diagnosis": "All counts in this zone are even, so each bicycle is reported twice, as at zone 447 of the same camera.",
+   "evidence": "1301: 376 twos, 0 ones, 64 fours, 0 threes; 1307: 155 twos, 0 odd values; single record per slot."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 448,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-07",
+   "confidence": "high",
+   "diagnosis": "All counts in this zone are even, so each bicycle is reported twice, as at zone 447 of the same camera.",
+   "evidence": "1377: 1703/682/338/181 slots of 2/4/6/8 and none odd; 1392: 2583/902/381/206 and none odd; single record per slot."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 445,
+   "DIRECTION_SK": null,
+   "start": "2024-07-12",
+   "end": "2024-10-03",
+   "confidence": "medium",
+   "diagnosis": "At about 11:00 on 2024-07-11 the camera zones were reconfigured and the crossing zone stopped covering the crossing until the configuration reverted overnight into 2024-10-04.",
+   "evidence": "1263/1266 fell from ~160/215 a day (Apr) to 1-5 a day in the same hour that zones 447 and 448 jumped (447 NW 36 -> 186/day, 448 NW 0 -> 54), and returned to 167/225 on 2024-10-04 in the same night 447 fell back; tube 158 on Alison Rd 0.4 km away shows no change (403-458/day each way Jul-Oct)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 446,
+   "DIRECTION_SK": null,
+   "start": "2024-07-12",
+   "end": "2024-10-03",
+   "confidence": "medium",
+   "diagnosis": "Same zone reconfiguration as the crossing zone: this zone recorded nothing from 2024-07-11 to 2024-10-03 while the other zones changed step-wise.",
+   "evidence": "1301/1307 0 every day 2024-07-12..2024-10-03 after 2-14 raw a day before and 2-4 a day on 2024-10-04..16; zero_outage already set most of Aug-Sep missing."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 445,
+   "name": "Southbound across Alison Rd (first layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1263,
+     "start": "2024-03-25",
+     "end": "2024-07-11"
+    },
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1263,
+     "start": "2024-10-04",
+     "end": "2024-10-16"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1263 reads ~160/day in Apr and ~165/day on 4-16 Oct, so the two first-layout periods are comparable."
+  },
+  {
+   "SITE_SK": 445,
+   "name": "Northbound across Alison Rd (first layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1266,
+     "start": "2024-03-25",
+     "end": "2024-07-11"
+    },
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1266,
+     "start": "2024-10-04",
+     "end": "2024-10-16"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1266 reads ~215/day in Apr and ~220/day on 4-16 Oct."
+  },
+  {
+   "SITE_SK": 445,
+   "name": "Southbound across Alison Rd (Oct-Nov 2024 layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1263,
+     "start": "2024-10-17",
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. From 17 Oct 1263 fell to ~50/day, not comparable."
+  },
+  {
+   "SITE_SK": 445,
+   "name": "Northbound across Alison Rd (Oct-Nov 2024 layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1266,
+     "start": "2024-10-17",
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. From 17 Oct 1266 fell to ~80/day, not comparable."
+  },
+  {
+   "SITE_SK": 446,
+   "name": "South-east on north path W of Doncaster (to 16 Oct 2024)",
+   "confidence": "low",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1301,
+     "start": "2024-03-26",
+     "end": "2024-07-11"
+    },
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1301,
+     "start": "2024-10-04",
+     "end": "2024-10-16"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. Both periods read a few bikes a day."
+  },
+  {
+   "SITE_SK": 446,
+   "name": "North-west on north path W of Doncaster (to 16 Oct 2024)",
+   "confidence": "low",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1307,
+     "start": "2024-03-26",
+     "end": "2024-07-11"
+    },
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1307,
+     "start": "2024-10-04",
+     "end": "2024-10-16"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. Both periods read a few bikes a day."
+  },
+  {
+   "SITE_SK": 446,
+   "name": "South-east on north path W of Doncaster (Oct-Nov 2024 layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1301,
+     "start": "2024-10-17",
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1301 jumped from ~2 to ~40 raw/day on 17 Oct."
+  },
+  {
+   "SITE_SK": 446,
+   "name": "North-west on north path W of Doncaster (Oct-Nov 2024 layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1307,
+     "start": "2024-10-17",
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby."
+  },
+  {
+   "SITE_SK": 447,
+   "name": "North-west on north path E of Doncaster",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1296,
+     "start": "2024-07-11",
+     "end": "2024-10-03"
+    },
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1296,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1296 reads 190/188 raw/day in Aug/Sep 2024 and 172-259 in 2025-26; ratio to tube 158 westbound ~0.45 (2024) vs 0.31-0.46 (Dec 2024-2026). Only zone continuing after Nov 2024."
+  },
+  {
+   "SITE_SK": 447,
+   "name": "South-east on north path E of Doncaster",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1411,
+     "start": "2024-07-11",
+     "end": "2024-10-03"
+    },
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1411,
+     "start": "2024-11-08",
+     "end": null
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1411 reads 179/203 raw/day Aug/Sep 2024 and 145-213 in 2025-26 spring months; tracks tube 158 week by week after Nov 2024."
+  },
+  {
+   "SITE_SK": 447,
+   "name": "North-west on north path E of Doncaster (first layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1296,
+     "start": "2024-03-25",
+     "end": "2024-07-10"
+    },
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1296,
+     "start": "2024-10-04",
+     "end": "2024-10-16"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1296 ~87/day in Apr and ~90/day 4-16 Oct, about half the later level."
+  },
+  {
+   "SITE_SK": 447,
+   "name": "South-east on north path E of Doncaster (first layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1411,
+     "start": "2024-03-25",
+     "end": "2024-07-10"
+    },
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1411,
+     "start": "2024-10-04",
+     "end": "2024-10-16"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1411 26/day in Apr vs 179-203 later."
+  },
+  {
+   "SITE_SK": 447,
+   "name": "North-west on north path E of Doncaster (Oct-Nov 2024 layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1296,
+     "start": "2024-10-17",
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1296 ~20/day."
+  },
+  {
+   "SITE_SK": 447,
+   "name": "South-east on north path E of Doncaster (Oct-Nov 2024 layout)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1411,
+     "start": "2024-10-17",
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. 1411 ~5/day."
+  },
+  {
+   "SITE_SK": 448,
+   "name": "North-west on Alison Rd W of Doncaster (to 10 Jul 2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1377,
+     "start": "2024-03-25",
+     "end": "2024-07-10"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. Road zone levels differ in every layout (1392 ~30, ~55, ~400, ~650 raw/day)."
+  },
+  {
+   "SITE_SK": 448,
+   "name": "North-west on Alison Rd W of Doncaster (11 Jul-3 Oct 2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1377,
+     "start": "2024-07-11",
+     "end": "2024-10-03"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby."
+  },
+  {
+   "SITE_SK": 448,
+   "name": "North-west on Alison Rd W of Doncaster (4-16 Oct 2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1377,
+     "start": "2024-10-04",
+     "end": "2024-10-16"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby."
+  },
+  {
+   "SITE_SK": 448,
+   "name": "North-west on Alison Rd W of Doncaster (17 Oct-7 Nov 2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1377,
+     "start": "2024-10-17",
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby."
+  },
+  {
+   "SITE_SK": 448,
+   "name": "South-east on Alison Rd W of Doncaster (to 10 Jul 2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1392,
+     "start": "2024-03-25",
+     "end": "2024-07-10"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby. Road zone levels differ in every layout (1392 ~30, ~55, ~400, ~650 raw/day)."
+  },
+  {
+   "SITE_SK": 448,
+   "name": "South-east on Alison Rd W of Doncaster (11 Jul-3 Oct 2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1392,
+     "start": "2024-07-11",
+     "end": "2024-10-03"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby."
+  },
+  {
+   "SITE_SK": 448,
+   "name": "South-east on Alison Rd W of Doncaster (4-16 Oct 2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1392,
+     "start": "2024-10-04",
+     "end": "2024-10-16"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby."
+  },
+  {
+   "SITE_SK": 448,
+   "name": "South-east on Alison Rd W of Doncaster (17 Oct-7 Nov 2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 315,
+     "DIRECTION_SK": 1392,
+     "start": "2024-10-17",
+     "end": "2024-11-07"
+    }
+   ],
+   "evidence": "The camera changed zone configuration at ~11:00 2024-07-11, overnight into 2024-10-04 (reverting to the first layout) and at ~11:00 2024-10-17, with step changes of opposite sign in different zones the same hour and no change at tube 158 nearby."
+  }
+ ],
+ "summary": "One VivaCity camera (315) at Alison Rd & Doncaster Ave; zones 446, 447 and 448 report every bicycle twice (all counts even throughout) and are halved, while the crossing zone 445 is not doubled. The camera's zone layout changed at 11:00 on 2024-07-11, overnight into 2024-10-04 (back to the first layout) and at 11:00 on 2024-10-17, so the crossing and 446 zones are set missing for Jul 12-Oct 3 and each zone is split into series by layout. Only zone 447 continued after Nov 2024; after halving it tracks tube 158 nearby closely, and its Jul-Oct 2024 run is joined to it."
+}

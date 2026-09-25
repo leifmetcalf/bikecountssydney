@@ -1,0 +1,11 @@
+{
+  "group": "G0160",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 160, "DIRECTION_SK": 74, "start": "2021-08-23", "end": "2021-08-25",
+      "confidence": "high",
+      "diagnosis": "The near-zero Tuesday 2021-08-24 was a real area-wide collapse in riding (likely severe weather), not an outage; zero_outage wrongly blanked West for the day and adjacent night slots while keeping East.",
+      "evidence": "2021-08-24 raw East 18, West 21 (vs ~900/~700 on surrounding days), counts scattered through the day in both directions; neighbours equally collapsed that day: site 162 637->20->457, site 98 194->5->113, site 119 81->4->70."}
+  ],
+  "series": [],
+  "summary": "A single Metrocount tube counter (102) on the Dobroyd Pde bicycle path ran continuously from Feb 2021 to Sep 2026 with a stable East/West split (weekly ratio 1.04-1.69, median 1.27); the Jul-Oct 2021 high level is the lockdown riding boom and the low weeks match neighbours in wet weather. The automatic fixes are right except one: halving 2022-02-19 (every non-zero slot in both directions even, 124 slots, twice a normal Saturday) and the outages of 2022-07-29..08-01, 2024-10-07..10 (neighbours normal) and the network-wide gap on 2025-10-23 stand, but West on 2021-08-24 should be restored as a real area-wide low day. No series definitions are needed since there is only one counter at the site."
+}

@@ -1,0 +1,23 @@
+{
+  "group": "G0094",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 94, "DIRECTION_SK": null, "start": "2022-09-27", "end": "2022-09-29",
+      "confidence": "high",
+      "diagnosis": "Sensor fault: every detection on these days is logged at zero speed, and daily counts jump about tenfold in both directions at once.",
+      "evidence": "Daily raw N/S 63/70, 62/64, 65/62 against 2-10 on the days either side; all 130 non-zero slots have median speed 0.0, while zero speeds turn up in only 8 slots across 2012-2021."},
+    {"action": "missing", "SITE_SK": 94, "DIRECTION_SK": null, "start": "2022-10-04", "end": "2022-10-07",
+      "confidence": "high",
+      "diagnosis": "Same zero-speed false-detection fault as late September, with inflated counts in both directions.",
+      "evidence": "Daily raw N/S 108/112, 24/27, 28/29, 54/54 against 3-11 on the days either side; all 148 non-zero slots have median speed 0.0."},
+    {"action": "missing", "SITE_SK": 94, "DIRECTION_SK": null, "start": "2022-11-08", "end": "2023-09-29",
+      "confidence": "high",
+      "diagnosis": "The counter failed on 2022-11-08 and never recovered; what remains is scattered single counts, zero-speed detections and runs of zeros that the automatic fix did not catch.",
+      "evidence": "From 2022-11-09 on, almost every day is 0. The counts left in 2023-04-18..20 and 2023-08-29..30 are all at zero speed. South keeps zero days at 96 valid slots for 2023-07-15..19 and 2023-08-31..09-15 (1 bike in 17 days, against about 10/day before)."},
+    {"action": "uncertain", "SITE_SK": 94, "DIRECTION_SK": 53, "start": "2021-07-22", "end": "2021-07-23",
+      "confidence": "low",
+      "diagnosis": "The automatic fix set South missing from 2021-07-21 18:00 to 2021-07-24 10:30 but kept North's 0 and 1 on those days; North may have been partly down as well, or the days may really have been quiet in lockdown.",
+      "evidence": "North logged 0 (warning) on 07-22 and 1 on 07-23 against about 7/day around them; North did record counts at 23:15 on 07-21 and 21:30 on 07-23, so its sensor was alive."}
+  ],
+  "series": [],
+  "summary": "Site 94 has one Piezo counter (AN435NEC), so each direction is its own series. It carries 5-12 bikes a day per direction, and the automatic zero_outage fixes handle the outages in 2014, 2021-03 and the intermittent failures of 2021-08/09 well. Seven days in late Sep/early Oct 2022 are false detections, all logged at zero speed and about ten times normal, and the counter was dead from 2022-11-08 to the end; all of these are set to missing."
+}

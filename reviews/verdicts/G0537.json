@@ -1,0 +1,15 @@
+{
+  "group": "G0537",
+  "decisions": [],
+  "series": [
+    {"SITE_SK": 537, "name": "Northbound (towards city, morning-peak direction)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 333, "DIRECTION_SK": 1564, "start": null, "end": null},
+                {"COUNTER_SK": 351, "DIRECTION_SK": 1739, "start": null, "end": null}],
+      "evidence": "Counter 333's labels are swapped relative to 351: 333 'South' (1564) has the 08:00 peak (35 vs 13-22/h) and weaker evening peak in every period, exactly like 351 'North' (1739, 41-45 vs 23/h at 08:00), which is the plausible citybound direction. Levels are comparable: the site total went from 1414/day (Apr 2025) to 2029/day (Apr 2026), +43%, in line with continuous neighbours 168 (+48%) and 158 (+34%) and replaced counters 554/550 (+43-44%)."},
+    {"SITE_SK": 537, "name": "Southbound (away from city, evening-peak direction)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 333, "DIRECTION_SK": 1562, "start": null, "end": null},
+                {"COUNTER_SK": 351, "DIRECTION_SK": 1740, "start": null, "end": null}],
+      "evidence": "333 'North' (1562) has a weak morning peak and the stronger 17-19h evening peak, matching 351 'South' (1740) (08:00 22-25/h, 18:00 74-93/h); the two counters don't overlap (4-month gap May-Sep 2025), and the level change matches regional growth at neighbours."}
+  ],
+  "summary": "Gadigal Ave cycleway, Zetland: counter 333 (Oct 2023-May 2025) doubled every count until 2024-05-19 (0 odd values in ~34k non-zero slots, raw ~1100/day falling to ~550 overnight on 2024-05-20), and the automatic halving is correct; the one full-day zero on 2025-10-23 (both directions of counter 351) is rightly set missing. Counter 333's direction labels are swapped relative to replacement counter 351, so the series join 333 South with 351 North and 333 North with 351 South. The ~43% year-on-year rise across the counter change matches growth at continuous neighbouring counters, so the two counters are joined into one series per direction."
+}

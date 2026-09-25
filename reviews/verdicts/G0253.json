@@ -1,0 +1,31 @@
+{
+  "group": "G0253",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 253, "DIRECTION_SK": 315, "start": "2012-08-07", "end": "2012-08-27",
+      "confidence": "high",
+      "diagnosis": "When the North East channel died at about 07:30 on 7 Aug 2012, the South West channel began recording several times the site's whole bike flow, so these are not SW bike counts.",
+      "evidence": "The NE count fell to 0 on 2012-08-07 (the zero_outage fix already covers it). SW rose from 40-65/day to 172-514/day, 60-78 non-zero slots a day and a midday plateau of 16-29/h, when the whole site normally carries about 110/day."},
+    {"action": "missing", "SITE_SK": 253, "DIRECTION_SK": null, "start": "2013-02-21", "end": "2013-06-04",
+      "confidence": "high",
+      "diagnosis": "After the six-month outage the counter came back faulty: the directions look swapped, and the SW channel counts 3-5 times the site's bike flow, including a long SW dropout from 27 to 31 May and a 316/394 spike on 1 Jun.",
+      "evidence": "SW ran 170-536/day (month means 294-374) against about 60-75 in the months either side. NE ran about 85/day with a PM peak, although NE is normally the AM-peak direction, and SW showed an AM peak of 42/h at 08:00. Readings return to the normal mirror pattern from 2013-06-05."},
+    {"action": "missing", "SITE_SK": 253, "DIRECTION_SK": 314, "start": "2013-06-05", "end": "2013-08-14",
+      "confidence": "medium",
+      "diagnosis": "Straight after the malfunction and reset of 1 Jun 2013, the NE channel reads about a third of its usual share, while SW is at its normal level, so NE is undercounting.",
+      "evidence": "NE averaged 16/day in Jun-Jul 2013 against 37-44 in winter 2012 and 54-55 in winter 2014, while SW was 65-74, matching 2012. NE's share was 19% against 42-47% in every other pre-2017 period."},
+    {"action": "restore", "SITE_SK": 253, "DIRECTION_SK": 315, "start": "2018-06-02", "end": "2018-06-04",
+      "confidence": "medium",
+      "diagnosis": "After the 2017-18 gap the counter came back with SW at a new, lower level, and zero_outage wrongly blanked SW's first days, which show steady low counts in line with the weeks that follow.",
+      "evidence": "Raw SW was 13, 15 and 18 on these days, spread across the day in 1s and 2s, against 9-41/day through the rest of June 2018. NE was live throughout."},
+    {"action": "restore", "SITE_SK": 253, "DIRECTION_SK": 315, "start": "2022-08-27", "end": "2022-08-28",
+      "confidence": "low",
+      "diagnosis": "zero_outage removed SW counts on a weekend just after the 2022 outage ended, but the raw slots show a working channel carrying a light weekend flow.",
+      "evidence": "Raw SW was 13 and 36 bikes, with scattered 1-3 counts through the day. NE was uncorrected on the same days with 22 and 30."},
+    {"action": "direction_unreliable", "SITE_SK": 253, "DIRECTION_SK": null, "start": "2018-06-01", "end": "2025-08-01",
+      "confidence": "medium",
+      "diagnosis": "Since the 2018 reinstallation, the NE/SW split drifts and swings in ways the 2012-2017 record never shows, which suggests direction misclassification.",
+      "evidence": "In 2012-2017 NE held the AM peak and SW the PM peak (2014: NE 11.4/h at 08:00, SW 13.9/h at 18:00). In 2019 NE carried both peaks (7.0 and 8.5/h) while SW was about 25/day. In 2023-24 SW carried both peaks. Weekly NE fell from about 300 to about 150 in May 2023 and Feb 2024 while SW rose by a similar amount, with weekly totals roughly steady at 620-690."}
+  ],
+  "series": [],
+  "summary": "Site 253 (St Johns Rd, Glebe) has a single Piezo counter, so each direction is its own series. Two early fault periods (Aug 2012 and Feb-Jun 2013) record far more than the site's bikes and should be set missing, along with NE's undercount in Jun-Aug 2013; two small zero_outage over-corrections should be restored. Since the 2018 reinstallation the total looks plausible but the split between directions is unreliable."
+}

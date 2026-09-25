@@ -1,0 +1,11 @@
+{
+  "group": "G0182",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 182, "DIRECTION_SK": null,
+      "start": "2022-03-20", "end": "2022-05-15", "confidence": "low",
+      "diagnosis": "In its last two months the counter dropped out intermittently (whole-day zeros, already set missing by zero_outage), and the days it did record may be undercounted, though their hourly profiles look normal.",
+      "evidence": "Whole-day zeros on 2022-03-21..27, 04-24..05-04 and 05-13 while adjacent site 195 recorded 44-654/dir/day; 221/195 ratio fell from about 0.18 in Feb 2022 to 0.12 in Apr 2022 (239: 0.26 to 0.21), e.g. Easter 2022-04-17 26/53 vs 544/489 at 195; this may also be seasonal."}
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo (counter 196) on the MacArthur St offramp from the Parramatta River north path, 2019-03 to 2022-05; no other counter shares the site, so there are no series to define. The sharp fall from about 300 to about 80 bikes/dir/day on 2021-04-01 is real: the adjacent river-level path counter (site 195) opened that day and took the through traffic, about 400-1900/day. The ramp still carried more when the river path flooded in March 2021 and March 2022. The long outages in Jul-Sep 2019, Feb 2021 and spring 2022 are correctly set missing by zero_outage. The only open question is possible undercounting in the counter's last two months (low confidence)."
+}

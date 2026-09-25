@@ -1,0 +1,40 @@
+{
+  "group": "G0549",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 549, "DIRECTION_SK": 327, "start": "2012-07-08", "end": "2012-07-08",
+      "confidence": "medium",
+      "diagnosis": "On the day the counter came back from a two-day outage, southbound records isolated bursts far above anything seen before or since, most likely maintenance or testing artefacts.",
+      "evidence": "Sunday total 2268 against 200-300 on normal Sundays. Single slots of 200, 411, 321, 195, 195, 184 and 122 sit next to slots of 5-17, and 411 is the site's all-time slot maximum. Northbound that day was a normal 210."},
+    {"action": "missing", "SITE_SK": 549, "DIRECTION_SK": 326, "start": "2013-09-20", "end": "2013-12-08",
+      "confidence": "medium",
+      "diagnosis": "The northbound sensor mostly stopped detecting for 11 weeks, with an abrupt start and an abrupt full recovery, while nearby counters were normal.",
+      "evidence": "Weekly northbound fell from 3700-3960 to 310-850 (about 13%), then was back at 3314 in the week of 9 Dec. The workday AM peak at 08h fell from 142 to 10 bikes/h, so the usual AM-peak shape is gone. Over the same weeks King St (568) and the Harbour Bridge (101) held steady at 4600-5500 and 7300-8500."},
+    {"action": "uncertain", "SITE_SK": 549, "DIRECTION_SK": 327, "start": "2013-09-20", "end": "2013-12-08",
+      "confidence": "low",
+      "diagnosis": "Southbound also dropped by about 45% in exactly the same window as the northbound failure, which could be partial sensor degradation or a real local diversion.",
+      "evidence": "Weekly southbound fell from 4460-4800 to 1750-2720 and was back at 4313 on 9 Dec. The daily shape was kept (PM peak 94 against 158 before), and the neighbours at 568 and 101 were unchanged."},
+    {"action": "missing", "SITE_SK": 549, "DIRECTION_SK": 326, "start": "2015-02-10", "end": "2015-04-23",
+      "confidence": "high",
+      "diagnosis": "After the late-2014 outage the northbound channel came back almost dead, recording only a trickle, while southbound was normal.",
+      "evidence": "Northbound 0-21 per day (mean about 11) with no AM peak, while southbound ran 750-930 on workdays. Northbound was back to 683-746 from 27 Apr 2015."},
+    {"action": "missing", "SITE_SK": 549, "DIRECTION_SK": 326, "start": "2016-06-23", "end": "2018-06-01",
+      "confidence": "high",
+      "diagnosis": "The northbound sensor failed partway through 23 Jun 2016 and recorded only a trickle for almost two years until it was repaired.",
+      "evidence": "On 23 Jun 2016 northbound had 249 bikes from only 25 non-zero slots, then 4-25 per day (monthly means 8-16) through 1 Jun 2018 with about 1 bike/h all day. Southbound held its normal 409-711 per day, so the missing riders were not counted in the other direction. Northbound was 550 on 4 Jun 2018."}
+  ],
+  "series": [
+    {"SITE_SK": 549, "name": "Northbound (Ecocounter 2012-2020)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 238, "DIRECTION_SK": 326, "start": null, "end": null}],
+      "evidence": "The Ecocounter piezo's usable data ended in May 2020 (all zeros through Aug 2023), and the Metrocount started in Oct 2025 after a five-year gap. Against the Harbour Bridge, the new unit reads about 40% higher relative to 2019, which cannot be told apart from real growth, so the two are kept as separate series."},
+    {"SITE_SK": 549, "name": "Southbound (Ecocounter 2012-2020)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 238, "DIRECTION_SK": 327, "start": null, "end": null}],
+      "evidence": "Same reasoning: a five-year gap before the replacement counter, with a different vendor, so comparability cannot be checked."},
+    {"SITE_SK": 549, "name": "Northbound (Metrocount 2025-)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 365, "DIRECTION_SK": 1767, "start": null, "end": null}],
+      "evidence": "Replacement counter from 23 Oct 2025, kept separate from the old unit because of the gap."},
+    {"SITE_SK": 549, "name": "Southbound (Metrocount 2025-)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 365, "DIRECTION_SK": 1768, "start": null, "end": null}],
+      "evidence": "Replacement counter from 23 Oct 2025, kept separate from the old unit because of the gap."}
+  ],
+  "summary": "The Kent St Ecocounter's northbound channel failed repeatedly: it recorded a trickle from 10 Feb to 23 Apr 2015 and from 23 Jun 2016 to 1 Jun 2018, and about 13% of normal from 20 Sep to 8 Dec 2013 (when southbound also dropped about 45%, which is left uncertain). There was also a one-day burst of southbound artefacts on 8 Jul 2012, and the long zero outages, including the dead counter from Jun 2020 to Aug 2023, are already handled by zero_outage. The 2025 Metrocount replacement looks clean, but after a five-year gap it is kept as separate series."
+}

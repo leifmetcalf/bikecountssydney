@@ -1,0 +1,27 @@
+{
+  "group": "G0200",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 200, "DIRECTION_SK": null, "start": "2021-03-18", "end": "2021-03-20",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed genuine near-zero counts during the March 2021 NSW floods; the counter kept recording scattered bikes in both directions.",
+      "evidence": "Site totals 13/43/2 on 18-20 Mar vs 69 on 17 Mar; neighbouring counters at the same junction (sites 201/202) show 11-35 then 3/0 on 20 Mar, and site 122 had 0 on 20-21 Mar; single bikes recorded throughout the flagged stretches."},
+    {"action": "restore", "SITE_SK": 200, "DIRECTION_SK": 196, "start": "2021-08-24", "end": "2021-08-25",
+      "confidence": "medium",
+      "diagnosis": "Westbound zeros on a very wet day were real low riding, not an outage.",
+      "evidence": "Eastbound recorded only 8 all day on 24 Aug; sites 201/202/122 had 5/12/9 vs 77/97/55 the day before; westbound resumed normally at 07:15 on 25 Aug."},
+    {"action": "restore", "SITE_SK": 200, "DIRECTION_SK": null, "start": "2022-03-07", "end": "2022-03-08",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed true near-zero counts during the March 2022 floods.",
+      "evidence": "Site 200 totals 12 and 5; sites 201/202 had 7/13 and 2/5 vs 38/58 a week earlier, and they also show long zero runs at the same times."},
+    {"action": "restore", "SITE_SK": 200, "DIRECTION_SK": null, "start": "2022-07-01", "end": "2022-07-04",
+      "confidence": "medium",
+      "diagnosis": "Zeros during the early-July 2022 Sydney flood event reflect no riding; all three counters at this junction show the same near-zero pattern with isolated bikes either side.",
+      "evidence": "Site 200 totals 14/1/0/4; sites 201/202 had 4/12, 0/2, 0/0, 2/5 vs 62/88 the week before; single bikes on 2 Jul 00:30 appear on both 200 and 202."},
+    {"action": "restore", "SITE_SK": 200, "DIRECTION_SK": 196, "start": "2023-04-29", "end": "2023-04-30",
+      "confidence": "medium",
+      "diagnosis": "Westbound zeros from late morning 29 Apr to 09:15 30 Apr coincide with near-zero riding at the neighbouring counters on a wet day.",
+      "evidence": "Eastbound recorded about 2 bikes in the same window; sites 201/202 had 9/9 on 29 Apr vs 63/119 a week earlier, and site 202 also has a zero run then."}
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo (counter 180) on Settlers Walk with two stable directions, one record per slot and no doubling or channel issues; levels track the adjacent NW Tway counters (sites 201/202) throughout, including the 2021 lockdown rise. Most zero_outage fixes are fine or immaterial (e.g. 2025-10-20 is a genuine outage shared with sites 201/202, and the counter is offline 2026-03-19 to 2026-08-13), but on five flood/heavy-rain spells the removed zeros were real near-zero riding and are restored. Other short zero stretches (2021-11-21, 2021-11-26, 2024-04-05, 2024-11-29/30, 2025-08-20/21, 2025-09-10) are left as automatically fixed since neighbours suggest a few bikes were missed."
+}

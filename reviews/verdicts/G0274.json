@@ -1,0 +1,1137 @@
+{
+ "group": "G0274",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 274,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-22",
+   "confidence": "medium",
+   "diagnosis": "Commissioning period: the camera's zones were reconfigured on 2022-06-23, and before that these zones read far outside the range of every later period.",
+   "evidence": "Median daily bikes before vs after 23 Jun 2022: 274 645/627 vs 143/141 (with 50-100 bikes 00-05h on several nights), 277 145/159 vs 395/414, 279 26/16 vs 118/131, 275 120/53 vs 214/122; the step is on the same day in all four zones and later periods range 72-640 for 277 and 94-191 for 279."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-22",
+   "confidence": "medium",
+   "diagnosis": "Commissioning period: the camera's zones were reconfigured on 2022-06-23, and before that these zones read far outside the range of every later period.",
+   "evidence": "Median daily bikes before vs after 23 Jun 2022: 274 645/627 vs 143/141 (with 50-100 bikes 00-05h on several nights), 277 145/159 vs 395/414, 279 26/16 vs 118/131, 275 120/53 vs 214/122; the step is on the same day in all four zones and later periods range 72-640 for 277 and 94-191 for 279."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 277,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-22",
+   "confidence": "medium",
+   "diagnosis": "Commissioning period: the camera's zones were reconfigured on 2022-06-23, and before that these zones read far outside the range of every later period.",
+   "evidence": "Median daily bikes before vs after 23 Jun 2022: 274 645/627 vs 143/141 (with 50-100 bikes 00-05h on several nights), 277 145/159 vs 395/414, 279 26/16 vs 118/131, 275 120/53 vs 214/122; the step is on the same day in all four zones and later periods range 72-640 for 277 and 94-191 for 279."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 279,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-22",
+   "confidence": "medium",
+   "diagnosis": "Commissioning period: the camera's zones were reconfigured on 2022-06-23, and before that these zones read far outside the range of every later period.",
+   "evidence": "Median daily bikes before vs after 23 Jun 2022: 274 645/627 vs 143/141 (with 50-100 bikes 00-05h on several nights), 277 145/159 vs 395/414, 279 26/16 vs 118/131, 275 120/53 vs 214/122; the step is on the same day in all four zones and later periods range 72-640 for 277 and 94-191 for 279."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 274,
+   "DIRECTION_SK": null,
+   "start": "2024-10-02",
+   "end": "2024-10-02",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 444 over 1 day(s) against a usual 260 per day (up to 1.7x); 221 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2023-07-26",
+   "end": "2023-07-27",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 19871 over 2 day(s) against a usual 241 per day (up to 47.7x); 3304 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2023-09-15",
+   "end": "2023-09-17",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 8833 over 3 day(s) against a usual 354 per day (up to 14.1x); 1791 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2023-09-22",
+   "end": "2023-09-22",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 3423 over 1 day(s) against a usual 355 per day (up to 9.6x); 2 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2023-10-18",
+   "end": "2023-10-19",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 7468 over 2 day(s) against a usual 370 per day (up to 12.7x); 1308 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10",
+   "end": "2023-11-10",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1850 over 1 day(s) against a usual 364 per day (up to 5.1x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2023-12-05",
+   "end": "2023-12-06",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 6645 over 2 day(s) against a usual 351 per day (up to 10.1x); 1444 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2025-01-19",
+   "end": "2025-01-20",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 5364 over 2 day(s) against a usual 407 per day (up to 7.1x); 1944 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 275,
+   "DIRECTION_SK": null,
+   "start": "2025-02-26",
+   "end": "2025-02-27",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 5534 over 2 day(s) against a usual 516 per day (up to 6.4x); 447 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 276,
+   "DIRECTION_SK": null,
+   "start": "2022-07-09",
+   "end": "2022-07-09",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1293 over 1 day(s) against a usual 394 per day (up to 3.3x); 3 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 276,
+   "DIRECTION_SK": null,
+   "start": "2022-07-17",
+   "end": "2022-07-17",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1289 over 1 day(s) against a usual 401 per day (up to 3.2x); 4 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 276,
+   "DIRECTION_SK": null,
+   "start": "2022-08-07",
+   "end": "2022-08-07",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1357 over 1 day(s) against a usual 340 per day (up to 4.0x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 276,
+   "DIRECTION_SK": null,
+   "start": "2022-09-18",
+   "end": "2022-09-18",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 626 over 1 day(s) against a usual 266 per day (up to 2.3x); 72 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 276,
+   "DIRECTION_SK": null,
+   "start": "2023-09-02",
+   "end": "2023-09-02",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 2177 over 1 day(s) against a usual 263 per day (up to 8.3x); 7 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 276,
+   "DIRECTION_SK": null,
+   "start": "2023-12-02",
+   "end": "2023-12-02",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 956 over 1 day(s) against a usual 274 per day (up to 3.5x); 6 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 276,
+   "DIRECTION_SK": null,
+   "start": "2024-11-24",
+   "end": "2024-11-26",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 6986 over 3 day(s) against a usual 361 per day (up to 9.9x); 1782 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 276,
+   "DIRECTION_SK": null,
+   "start": "2025-02-10",
+   "end": "2025-02-12",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 3448 over 3 day(s) against a usual 430 per day (up to 2.9x); 422 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 277,
+   "DIRECTION_SK": null,
+   "start": "2023-03-25",
+   "end": "2023-03-25",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 2572 over 1 day(s) against a usual 583 per day (up to 4.4x); 2 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2022-07-08",
+   "end": "2022-07-08",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1799 over 1 day(s) against a usual 503 per day (up to 3.6x); 7 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2022-07-16",
+   "end": "2022-07-16",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 1000 over 1 day(s) against a usual 457 per day (up to 2.2x); 113 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2022-08-04",
+   "end": "2022-08-05",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 2275 over 2 day(s) against a usual 336 per day (up to 3.4x); 3 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2022-08-12",
+   "end": "2022-08-12",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1035 over 1 day(s) against a usual 310 per day (up to 3.3x); 5 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-02-12",
+   "end": "2023-02-12",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 514 over 1 day(s) against a usual 81 per day (up to 6.3x); 57 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-05-16",
+   "end": "2023-05-16",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 806 over 1 day(s) against a usual 255 per day (up to 3.2x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-06-17",
+   "end": "2023-06-17",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 919 over 1 day(s) against a usual 276 per day (up to 3.3x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-07-13",
+   "end": "2023-07-13",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 948 over 1 day(s) against a usual 144 per day (up to 6.6x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-07-16",
+   "end": "2023-07-18",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 2352 over 3 day(s) against a usual 162 per day (up to 5.1x); 19 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-08-16",
+   "end": "2023-08-16",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 546 over 1 day(s) against a usual 164 per day (up to 3.3x); 139 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-08-20",
+   "end": "2023-08-20",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 581 over 1 day(s) against a usual 160 per day (up to 3.6x); 16 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-08-26",
+   "end": "2023-08-26",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1224 over 1 day(s) against a usual 170 per day (up to 7.2x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-08-30",
+   "end": "2023-08-30",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1103 over 1 day(s) against a usual 170 per day (up to 6.5x); 15 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-09-04",
+   "end": "2023-09-05",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 3988 over 2 day(s) against a usual 174 per day (up to 13.6x); 808 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-09-10",
+   "end": "2023-09-12",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 4912 over 3 day(s) against a usual 175 per day (up to 12.2x); 1821 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-09-14",
+   "end": "2023-09-14",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 820 over 1 day(s) against a usual 175 per day (up to 4.7x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-09-25",
+   "end": "2023-09-26",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 1391 over 2 day(s) against a usual 214 per day (up to 4.2x); 262 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-10-01",
+   "end": "2023-10-02",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 5536 over 2 day(s) against a usual 222 per day (up to 12.8x); 1897 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-10-06",
+   "end": "2023-10-12",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 38458 over 7 day(s) against a usual 233 per day (up to 33.2x); 10878 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-10-19",
+   "end": "2023-10-19",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 595 over 1 day(s) against a usual 291 per day (up to 2.0x); 281 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-10-22",
+   "end": "2023-10-22",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 880 over 1 day(s) against a usual 291 per day (up to 3.0x); 92 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-10-31",
+   "end": "2023-11-03",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 7365 over 4 day(s) against a usual 237 per day (up to 16.4x); 3372 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-11-19",
+   "end": "2023-11-19",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1255 over 1 day(s) against a usual 221 per day (up to 5.7x); 13 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-11-23",
+   "end": "2023-11-23",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 700 over 1 day(s) against a usual 221 per day (up to 3.2x); 2 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-12-12",
+   "end": "2023-12-12",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 3872 over 1 day(s) against a usual 236 per day (up to 16.4x); 46 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-12-15",
+   "end": "2023-12-15",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 763 over 1 day(s) against a usual 234 per day (up to 3.3x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2023-12-22",
+   "end": "2023-12-23",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 1697 over 2 day(s) against a usual 231 per day (up to 4.2x); 176 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2024-03-28",
+   "end": "2024-03-28",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 4202 over 1 day(s) against a usual 228 per day (up to 18.5x); 1913 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2024-05-02",
+   "end": "2024-05-06",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 7540 over 5 day(s) against a usual 321 per day (up to 7.1x); 759 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2024-09-29",
+   "end": "2024-09-29",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 643 over 1 day(s) against a usual 204 per day (up to 3.1x); 2 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2024-11-26",
+   "end": "2024-11-27",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 3027 over 2 day(s) against a usual 243 per day (up to 6.8x); 1238 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2024-12-18",
+   "end": "2024-12-19",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 9594 over 2 day(s) against a usual 248 per day (up to 23.8x); 5147 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2025-01-02",
+   "end": "2025-01-02",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 526 over 1 day(s) against a usual 243 per day (up to 2.2x); 104 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2025-01-04",
+   "end": "2025-01-06",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 2912 over 3 day(s) against a usual 247 per day (up to 4.6x); 95 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2025-01-11",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 6183 over 3 day(s) against a usual 220 per day (up to 13.3x); 1707 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 279,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2023-10-23",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 3007 over 1 day(s) against a usual 269 per day (up to 11.2x); 7 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2022-08-07",
+   "end": "2022-08-07",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 545 over 1 day(s) against a usual 174 per day (up to 3.1x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2023-02-16",
+   "end": "2023-02-16",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 974 over 1 day(s) against a usual 97 per day (up to 10.0x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2023-07-30",
+   "end": "2023-07-30",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 2377 over 1 day(s) against a usual 88 per day (up to 26.9x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2023-09-02",
+   "end": "2023-09-02",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1798 over 1 day(s) against a usual 110 per day (up to 16.3x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2023-09-04",
+   "end": "2023-09-04",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 446 over 1 day(s) against a usual 108 per day (up to 4.1x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2023-09-30",
+   "end": "2023-09-30",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 949 over 1 day(s) against a usual 122 per day (up to 7.8x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2023-11-24",
+   "end": "2023-11-24",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 566 over 1 day(s) against a usual 130 per day (up to 4.4x); 29 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2023-12-02",
+   "end": "2023-12-02",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 925 over 1 day(s) against a usual 131 per day (up to 7.1x); 3 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2023-12-08",
+   "end": "2023-12-08",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 657 over 1 day(s) against a usual 126 per day (up to 5.2x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2024-11-24",
+   "end": "2024-11-26",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 6846 over 3 day(s) against a usual 180 per day (up to 20.3x); 1986 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2024-12-04",
+   "end": "2024-12-04",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 711 over 1 day(s) against a usual 192 per day (up to 3.7x); 180 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2024-12-21",
+   "end": "2024-12-21",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 826 over 1 day(s) against a usual 198 per day (up to 4.2x); 2 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2025-02-03",
+   "end": "2025-02-03",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1491 over 1 day(s) against a usual 214 per day (up to 7.0x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2025-02-09",
+   "end": "2025-02-12",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 5400 over 4 day(s) against a usual 225 per day (up to 9.3x); 356 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-06-25",
+   "end": "2022-06-25",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1768 over 1 day(s) against a usual 159 per day (up to 11.1x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-07-29",
+   "end": "2022-07-29",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1295 over 1 day(s) against a usual 288 per day (up to 4.5x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-08-02",
+   "end": "2022-08-02",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1091 over 1 day(s) against a usual 298 per day (up to 3.7x); 21 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-08-07",
+   "end": "2022-08-07",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 966 over 1 day(s) against a usual 298 per day (up to 3.2x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-09-09",
+   "end": "2022-09-09",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1005 over 1 day(s) against a usual 317 per day (up to 3.2x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-09-16",
+   "end": "2022-09-16",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1229 over 1 day(s) against a usual 337 per day (up to 3.6x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-09-19",
+   "end": "2022-09-20",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 3833 over 2 day(s) against a usual 334 per day (up to 7.4x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-10-05",
+   "end": "2022-10-05",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1975 over 1 day(s) against a usual 326 per day (up to 6.1x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-10-16",
+   "end": "2022-10-16",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1739 over 1 day(s) against a usual 326 per day (up to 5.3x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-10-25",
+   "end": "2022-10-25",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1280 over 1 day(s) against a usual 234 per day (up to 5.5x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-11-09",
+   "end": "2022-11-09",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 435 over 1 day(s) against a usual 86 per day (up to 5.0x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2023-05-15",
+   "end": "2023-05-16",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1029 over 2 day(s) against a usual 136 per day (up to 4.0x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2023-05-22",
+   "end": "2023-05-23",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1469 over 2 day(s) against a usual 143 per day (up to 6.7x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2023-05-29",
+   "end": "2023-05-29",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 477 over 1 day(s) against a usual 145 per day (up to 3.3x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2023-05-31",
+   "end": "2023-05-31",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1171 over 1 day(s) against a usual 145 per day (up to 8.1x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2023-06-11",
+   "end": "2023-06-11",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 912 over 1 day(s) against a usual 145 per day (up to 6.3x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2023-06-13",
+   "end": "2023-06-13",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 635 over 1 day(s) against a usual 145 per day (up to 4.4x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2023-06-17",
+   "end": "2023-06-17",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 517 over 1 day(s) against a usual 154 per day (up to 3.4x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2024-05-04",
+   "end": "2024-05-04",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 577 over 1 day(s) against a usual 48 per day (up to 12.0x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2024-05-11",
+   "end": "2024-05-13",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 2015 over 3 day(s) against a usual 48 per day (up to 20.5x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2024-09-26",
+   "end": "2024-09-26",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1348 over 1 day(s) against a usual 318 per day (up to 4.2x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2024-11-05",
+   "end": "2024-11-05",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 464 over 1 day(s) against a usual 132 per day (up to 3.5x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2024-11-25",
+   "end": "2024-11-25",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 564 over 1 day(s) against a usual 124 per day (up to 4.5x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2024-12-20",
+   "end": "2024-12-21",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1036 over 2 day(s) against a usual 84 per day (up to 6.2x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2025-01-30",
+   "end": "2025-01-30",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 634 over 1 day(s) against a usual 83 per day (up to 7.6x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2025-02-06",
+   "end": "2025-02-08",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1797 over 3 day(s) against a usual 89 per day (up to 9.5x); 3 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2025-02-21",
+   "end": "2025-02-21",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 494 over 1 day(s) against a usual 108 per day (up to 4.6x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 285,
+   "DIRECTION_SK": null,
+   "start": "2022-07-01",
+   "end": "2022-07-01",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1248 over 1 day(s) against a usual 134 per day (up to 9.3x); 0 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 285,
+   "DIRECTION_SK": null,
+   "start": "2022-12-10",
+   "end": "2022-12-10",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 1610 over 1 day(s) against a usual 108 per day (up to 14.9x); 2 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 285,
+   "DIRECTION_SK": null,
+   "start": "2023-09-11",
+   "end": "2023-09-11",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly and runs through the night.",
+   "evidence": "Zone total 913 over 1 day(s) against a usual 167 per day (up to 5.5x); 65 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 285,
+   "DIRECTION_SK": null,
+   "start": "2023-11-21",
+   "end": "2023-11-21",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 738 over 1 day(s) against a usual 179 per day (up to 4.1x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 285,
+   "DIRECTION_SK": null,
+   "start": "2024-11-26",
+   "end": "2024-11-29",
+   "confidence": "high",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 10581 over 4 day(s) against a usual 212 per day (up to 20.1x); 20 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 316,
+   "DIRECTION_SK": null,
+   "start": "2022-09-17",
+   "end": "2022-09-17",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts in this camera zone: a burst of hundreds of detections an hour with near-equal IN and OUT, confined to this one zone, that starts and stops abruptly.",
+   "evidence": "Zone total 432 over 1 day(s) against a usual 108 per day (up to 4.0x); 1 counted 00:00-05:00 against a usual 0-5; neighbouring zones of the camera show no matching rise."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 274,
+   "DIRECTION_SK": null,
+   "start": "2022-11-08",
+   "end": "2023-04-29",
+   "confidence": "medium",
+   "diagnosis": "After the camera restart of 5-7 Nov 2022 this zone reads far lower, and it recovers at the next restart in May 2023; this may be a detection change, but the camera's zone levels drift at every restart, so which level is right is unclear.",
+   "evidence": "Median daily both directions, Sep-Oct 2022 / Nov 2022-Apr 2023 / May-Jun 2023: 274 338/155/197, 277 1317/575/869, 278 658/102/286, 282 261/96/233, 283 331/38/148, 284 362/111/312, 316 118/45/76; zones 275, 276 and 279 hold level through both restarts."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 277,
+   "DIRECTION_SK": null,
+   "start": "2022-11-08",
+   "end": "2023-04-29",
+   "confidence": "medium",
+   "diagnosis": "After the camera restart of 5-7 Nov 2022 this zone reads far lower, and it recovers at the next restart in May 2023; this may be a detection change, but the camera's zone levels drift at every restart, so which level is right is unclear.",
+   "evidence": "Median daily both directions, Sep-Oct 2022 / Nov 2022-Apr 2023 / May-Jun 2023: 274 338/155/197, 277 1317/575/869, 278 658/102/286, 282 261/96/233, 283 331/38/148, 284 362/111/312, 316 118/45/76; zones 275, 276 and 279 hold level through both restarts."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 278,
+   "DIRECTION_SK": null,
+   "start": "2022-11-08",
+   "end": "2023-04-29",
+   "confidence": "medium",
+   "diagnosis": "After the camera restart of 5-7 Nov 2022 this zone reads far lower, and it recovers at the next restart in May 2023; this may be a detection change, but the camera's zone levels drift at every restart, so which level is right is unclear.",
+   "evidence": "Median daily both directions, Sep-Oct 2022 / Nov 2022-Apr 2023 / May-Jun 2023: 274 338/155/197, 277 1317/575/869, 278 658/102/286, 282 261/96/233, 283 331/38/148, 284 362/111/312, 316 118/45/76; zones 275, 276 and 279 hold level through both restarts."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 282,
+   "DIRECTION_SK": null,
+   "start": "2022-11-08",
+   "end": "2023-04-29",
+   "confidence": "medium",
+   "diagnosis": "After the camera restart of 5-7 Nov 2022 this zone reads far lower, and it recovers at the next restart in May 2023; this may be a detection change, but the camera's zone levels drift at every restart, so which level is right is unclear.",
+   "evidence": "Median daily both directions, Sep-Oct 2022 / Nov 2022-Apr 2023 / May-Jun 2023: 274 338/155/197, 277 1317/575/869, 278 658/102/286, 282 261/96/233, 283 331/38/148, 284 362/111/312, 316 118/45/76; zones 275, 276 and 279 hold level through both restarts."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-11-08",
+   "end": "2023-04-29",
+   "confidence": "medium",
+   "diagnosis": "After the camera restart of 5-7 Nov 2022 this zone reads far lower, and it recovers at the next restart in May 2023; this may be a detection change, but the camera's zone levels drift at every restart, so which level is right is unclear.",
+   "evidence": "Median daily both directions, Sep-Oct 2022 / Nov 2022-Apr 2023 / May-Jun 2023: 274 338/155/197, 277 1317/575/869, 278 658/102/286, 282 261/96/233, 283 331/38/148, 284 362/111/312, 316 118/45/76; zones 275, 276 and 279 hold level through both restarts."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 284,
+   "DIRECTION_SK": null,
+   "start": "2022-11-08",
+   "end": "2023-04-29",
+   "confidence": "medium",
+   "diagnosis": "After the camera restart of 5-7 Nov 2022 this zone reads far lower, and it recovers at the next restart in May 2023; this may be a detection change, but the camera's zone levels drift at every restart, so which level is right is unclear.",
+   "evidence": "Median daily both directions, Sep-Oct 2022 / Nov 2022-Apr 2023 / May-Jun 2023: 274 338/155/197, 277 1317/575/869, 278 658/102/286, 282 261/96/233, 283 331/38/148, 284 362/111/312, 316 118/45/76; zones 275, 276 and 279 hold level through both restarts."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 316,
+   "DIRECTION_SK": null,
+   "start": "2022-11-08",
+   "end": "2023-04-29",
+   "confidence": "medium",
+   "diagnosis": "After the camera restart of 5-7 Nov 2022 this zone reads far lower, and it recovers at the next restart in May 2023; this may be a detection change, but the camera's zone levels drift at every restart, so which level is right is unclear.",
+   "evidence": "Median daily both directions, Sep-Oct 2022 / Nov 2022-Apr 2023 / May-Jun 2023: 274 338/155/197, 277 1317/575/869, 278 658/102/286, 282 261/96/233, 283 331/38/148, 284 362/111/312, 316 118/45/76; zones 275, 276 and 279 hold level through both restarts."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 283,
+   "DIRECTION_SK": null,
+   "start": "2022-06-23",
+   "end": "2025-02-27",
+   "confidence": "low",
+   "diagnosis": "The level of this footpath zone jumps at almost every camera restart, and short phantom bursts are frequent, so its long-run level is unreliable.",
+   "evidence": "Median daily both directions by period between outages: 279 (Jun-Aug 2022), 331 (Sep-Oct 2022), 38 (Nov 2022-Apr 2023), 148 (May-Jun 2023), 53 (Jul-Dec 2023), 47 (Mar-May 2024), 315 (Sep-Oct 2024), 94-120 (Nov 2024-Feb 2025)."
+  }
+ ],
+ "series": [],
+ "summary": "One Secure Agility camera (counter 247) covering 11 zones at Oxford St / Queen St / Lang Rd, Paddington, with many whole-camera outages that are already missing. The main faults are about 100 zone-day episodes of phantom counts: bursts of hundreds of detections an hour, split near-evenly between IN and OUT, confined to one zone, often running overnight. They are worst on 278 (Queen St north footpath) and 275 in Sep-Dec 2023 and on 276, 282 and 285 in late Nov 2024, and are set missing. The June 2022 commissioning weeks read outside all later levels for 274/275/277/279 and are set missing. Zone levels also shift at camera restarts, most clearly Nov 2022-Apr 2023, which is recorded as uncertain. The site has one counter, so no series are defined."
+}

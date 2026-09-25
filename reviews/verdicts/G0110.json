@@ -1,0 +1,267 @@
+{
+  "group": "G0110",
+  "decisions": [
+    {
+      "action": "missing",
+      "SITE_SK": 110,
+      "DIRECTION_SK": null,
+      "start": "2011-07-26",
+      "end": "2011-07-26",
+      "confidence": "medium",
+      "diagnosis": "Installation day: the counter only started counting at about 12:15, so both directions' day totals are partial (dir 28's unflagged morning zeros are not real).",
+      "evidence": "No count in either direction before 12:15; dir 27 then 7 and dir 28 48 against 41-58 per direction on the following days."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2013-02-08",
+      "end": "2013-02-21",
+      "confidence": "high",
+      "diagnosis": "Dir 27 sensor fault: first a near-total dropout, then a week in which it also registers the northbound (dir 28) riders, roughly doubling its count.",
+      "evidence": "Feb 8-14: dir 27 0-16/day against dir 28 49-94/day. Feb 15-21: dir 27 134-219/day against dir 28 63-108 (usual ratio about 1:1), with a PM peak of 28.6/h at 16h mirroring dir 28 (dir 27's normal PM level is 2-3/h), not all-even. Dir 27 median speed was 10-15 against its usual 7 for the whole episode, and everything returned to normal on Feb 22."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2013-12-27",
+      "end": "2014-01-02",
+      "confidence": "high",
+      "diagnosis": "Dir 27 sensor fault with the same fingerprint as Feb 2013: counts collapse while dir 28 is normal.",
+      "evidence": "Dir 27 3-19/day against dir 28 56-113/day (ratio 0.07-0.21, usually about 1), dir 27 median speed 10-11 against usual 6-7; normal again from 2014-01-03 (78 vs 110)."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2011-11-25",
+      "end": "2011-11-26",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 3 bikes vs 59 expected in same slots"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2011-12-11",
+      "end": "2011-12-12",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 2 vs 29.5 expected"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2012-03-07",
+      "end": "2012-03-08",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 5 vs 30.7 expected; day totals 3 vs 4 on 03-08"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2012-04-18",
+      "end": "2012-04-19",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 also zero-flagged; 5 bikes vs 128 expected"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2012-06-10",
+      "end": "2012-06-12",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 also near zero (7 bikes in ~40 h incl. Queen's Birthday), counter still logging speeds"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2013-02-28",
+      "end": "2013-03-01",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 recorded 4 all day on 03-01, same as dir 27's 4"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2013-06-23",
+      "end": "2013-06-24",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 3 vs 46 expected"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2013-06-28",
+      "end": "2013-06-29",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 also zero-flagged, 8 bikes vs 76 expected"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2014-08-16",
+      "end": "2014-08-17",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 5 vs 76 expected; day totals 15 vs 20"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2015-04-03",
+      "end": "2015-04-04",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 0 vs 60 expected; neighbours 177/178 14 bikes each on 04-04 vs 160-209 normal"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2016-01-05",
+      "end": "2016-01-06",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 0 vs 58 expected; neighbours 16-39 vs 132-158 normal"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2016-06-04",
+      "end": "2016-06-05",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 0 vs 52 expected; neighbours 1-4 bikes/day (June 2016 east coast low)"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 27,
+      "start": "2017-03-03",
+      "end": "2017-03-04",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding at the low-level Browns Waterhole crossing), and the counter was still working.",
+      "evidence": "dir 28 3 vs 59 expected; neighbours 39-40 on 03-04 vs 164-217 normal"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2012-04-18",
+      "end": "2012-04-19",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 0 vs 72 expected over the same slots"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2012-06-10",
+      "end": "2012-06-12",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 0 vs 67 expected"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2012-12-25",
+      "end": "2012-12-26",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "Christmas Day; dir 27 4 vs 50 expected, day totals 5 vs 3"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2013-01-28",
+      "end": "2013-01-29",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 5 vs 82 expected (ex-TC Oswald rain); day totals 12/15 vs 17/25"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2013-04-19",
+      "end": "2013-04-20",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 1 vs 73 expected; day totals 4 vs 3 on 04-20"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2013-06-01",
+      "end": "2013-06-02",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 1 vs 62 expected; day totals 6 vs 3"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2013-06-28",
+      "end": "2013-06-29",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 also zero-flagged, 0 bikes"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2015-04-03",
+      "end": "2015-04-04",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 2 vs 102 expected; neighbours 14 each on 04-04"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2015-04-21",
+      "end": "2015-04-22",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 2 vs 77 expected; neighbours 14-30/day vs 153-183 (April 2015 storm)"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 110,
+      "DIRECTION_SK": 28,
+      "start": "2016-06-04",
+      "end": "2016-06-05",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed real zeros: both directions collapsed together (rain/flooding or a holiday), and the counter was still working.",
+      "evidence": "dir 27 3 vs 107 expected; neighbours 1-4 bikes/day"
+    }
+  ],
+  "series": [],
+  "summary": "Single piezo counter (149) on the Browns Waterhole shared path, 2011-07 to 2018-02, with clean one-record data and an even directional split. Two dir-27 sensor faults (Feb 8-21 2013, including a week of double registration of northbound riders, and Dec 27 2013-Jan 2 2014) are set missing, as is the partial installation day. Many zero_outage flags covered real near-zero riding on storm/flood days, confirmed by the other direction and neighbouring counters, and are restored; the one-direction overnight flags and the 2017-05-19..26 counter outage are left as the automatic fix set them."
+}

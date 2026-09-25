@@ -1,0 +1,11 @@
+{
+  "group": "G0164",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 164, "DIRECTION_SK": 106,
+      "start": "2025-07-09", "end": "2025-08-12", "confidence": "high",
+      "diagnosis": "The eastbound tube channel under-detected for five weeks (a partial sensor fault, likely a loose or damaged tube on the eastbound side) while westbound on the same counter and both directions at nearby Oxford St (site 163) stayed normal.",
+      "evidence": "East/West daily ratio is 0.94-1.17 before and after the period, but 0.15-0.41 from 2025-07-09 to 2025-08-11, with brief partial recoveries on 08-03/08-04 and 08-12 (0.63), and back to 0.98 on 08-13; weekly East fell to 1339/864/666/652/950 against West at 3124/3120/3182/1770/2539; the eastbound hourly shape kept its 17-18h peak at about 20% of its usual level; site 163's ratio to its neighbour held at about 0.8 for the West direction."}
+  ],
+  "series": [],
+  "summary": "Site 164 has one tube counter (169) that ran from July 2021 to July 2026. Its level rose steadily from about 80-150 to about 700 bikes per day per direction, and site 163 nearby shows that the rise is real growth, not a fault. The automatic zero_outage fixes (Aug 2021, Nov-Dec 2021, Aug-Sep 2022, Jan 2024, May 2024, Oct 2025) and the one-day halving on 2022-02-19 (every slot even, 300/400 halved to 150/200 to match the days around it) are correct. The one fault to fix is an eastbound under-count from 2025-07-09 to 2025-08-12, which is set to missing."
+}

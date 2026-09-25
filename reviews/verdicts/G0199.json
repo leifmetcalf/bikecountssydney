@@ -1,0 +1,29 @@
+{
+  "group": "G0199",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 199, "DIRECTION_SK": null, "start": "2023-10-26", "end": "2023-11-16", "confidence": "high",
+      "diagnosis": "The Atkins St arm was closed and its riders diverted, so the zeros zero_outage removed were real and the counter was working.",
+      "evidence": "From 2023-08-17 to midday 2023-11-16 site 199 fell from about 2000 to 10-45 bikes/week per direction. Over the same weeks the adjacent SW arm, site 197 (20 m away), rose from about 300 to about 1900/week, and it dropped back to about 250 once 199 recovered on 2023-11-16 (first bikes 12:30). The data around the zeros is non-zero at 0-6/day and has a weekend pattern."},
+    {"action": "restore", "SITE_SK": 199, "DIRECTION_SK": 241, "start": "2022-07-03", "end": "2022-07-03", "confidence": "high",
+      "diagnosis": "Near-zero day during the early-July 2022 wet spell, and the neighbouring counter also recorded zero, so these are real zeros.",
+      "evidence": "Raw 2 (dir 190 had 8), with 38 slots nulled. Site 197 recorded 0 in both directions that day, and both sites stayed low from 2022-07-01 to 2022-07-06."},
+    {"action": "restore", "SITE_SK": 563, "DIRECTION_SK": 1789, "start": "2025-03-28", "end": "2026-08-18", "confidence": "medium",
+      "diagnosis": "The zero_outage runs at Manly Dam fall in wet spells and match weather-related trail closures, not counter outages.",
+      "evidence": "Each flagged run has low days on either side that decline and recover gradually: 2025-05 has 4-39/day for weeks, 2025-07-30 to 08-22 has 0-16/day, and 2025-06-30 has 60, then 0, 1 and 2, then 20 and 79. These are not abrupt drops from normal levels. The counter keeps publishing single bikes in the North direction (1790) on the same days."}
+  ],
+  "series": [
+    {"SITE_SK": 563, "name": "Manly Dam Loop southbound", "confidence": "high",
+      "parts": [{"COUNTER_SK": 185, "DIRECTION_SK": 1789, "start": null, "end": null}, {"COUNTER_SK": 382, "DIRECTION_SK": 1789, "start": null, "end": null}],
+      "evidence": "Both records carry the same counter ID TH411VV6, and the handover is seamless (185 ends 2026-02-08, 382 starts 2026-02-09) with no overlap. Weekly levels match: 725 in the last 185 week, then 694 and 757 in the first 382 weeks."},
+    {"SITE_SK": 563, "name": "Manly Dam Loop northbound", "confidence": "high",
+      "parts": [{"COUNTER_SK": 185, "DIRECTION_SK": 1790, "start": null, "end": null}, {"COUNTER_SK": 382, "DIRECTION_SK": 1790, "start": null, "end": null}],
+      "evidence": "Same TH411VV6 unit, re-registered in Feb 2026. Both counters record about 1 bike/day northbound, consistent with a mostly one-way loop."},
+    {"SITE_SK": 199, "name": "Atkins St north-west (out)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 185, "DIRECTION_SK": 190, "start": null, "end": null}],
+      "evidence": "Only counter 185 ran at site 199 (2021-02 to 2024-01). It moved to site 563 later, where it records under different directions."},
+    {"SITE_SK": 199, "name": "Atkins St south-east (in)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 185, "DIRECTION_SK": 241, "start": null, "end": null}],
+      "evidence": "Only counter 185 ran at site 199 (2021-02 to 2024-01). It moved to site 563 later, where it records under different directions."}
+  ],
+  "summary": "Site 199 data is sound. Its three-month collapse (Aug-Nov 2023) is a real closure and diversion, because the adjacent site 197 picked up the flow, so the zero_outage nulls there and on the July 2022 flood day are restored. Counter TH411VV6 later moved to Manly Dam (site 563), where it was re-registered as counter 382 in Feb 2026 with a seamless handover, so each direction there is one series. Its zero runs follow wet-weather lows and are restored, and the near-zero northbound flow is plausibly real on a one-way trail."
+}

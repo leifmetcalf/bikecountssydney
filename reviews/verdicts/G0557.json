@@ -1,0 +1,11 @@
+{
+  "group": "G0557",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 557, "DIRECTION_SK": null,
+      "start": "2026-08-11", "end": "2026-08-12", "confidence": "low",
+      "diagnosis": "Both directions drop abruptly to zero from 20:30 on 11 Aug to about 02:00-03:00 on 12 Aug; this could be a short counter outage or an overnight closure of the cycleway, and the data cannot tell which.",
+      "evidence": "South 8, 2 then 0 from 20:30 (26 zero slots), North 6, 6 then 0 (22 zero slots); a usual evening from 20:30 carries ~140 South and ~70 North bikes, ~2% of the week's combined total; the next evening (12 Aug) is normal (South 14-18 per slot at 20:30-21:00)."}
+  ],
+  "series": [],
+  "summary": "Site 557 (Castlereagh St north of Bathurst St) has one Metrocount piezo counter with one record per slot, full coverage from 2025-11-08 to 2026-09-22 and no automatic fixes. Levels are steady and the direction profiles are plausible (North/citybound AM peak, South PM peak); dips are whole days that hit both directions together (holidays, likely rain) and are kept. The only oddity is a ~6-hour simultaneous zero run in both directions on the night of 11-12 Aug 2026, left as uncertain because it is small and could be a real closure."
+}

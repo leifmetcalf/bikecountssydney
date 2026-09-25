@@ -1,0 +1,19 @@
+{
+  "group": "G0111",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 111, "DIRECTION_SK": null, "start": "2011-07-26", "end": "2016-12-14", "confidence": "medium",
+      "diagnosis": "The zero_outage fixes before the counter's failure (about 20 short stretches, e.g. 2012-06-11, 2013-02-23, 2015-06-17) fall on wet days when the nearby M7 counter also nearly stopped, so the zeros are real low riding on a ~25 bikes/day path.",
+      "evidence": "M7 (site 114, median ~160/day per direction) read 3/4 on 2012-06-11, 36/14 on 2013-02-23, 28/23 on 2015-06-17, 5/8 on 2015-04-21, 10/11 on 2016-01-05; on these days the other direction at 111 was also 0-5 and was kept, so the fixes are inconsistent between directions."},
+    {"action": "missing", "SITE_SK": 111, "DIRECTION_SK": null, "start": "2016-12-15", "end": "2019-03-29", "confidence": "high",
+      "diagnosis": "The counter failed on 2016-12-15: after that it logs only in scattered bursts, mostly on Fridays, with both directions often reading identical slot values, and from October 2018 only zeros, so no week's total can be trusted.",
+      "evidence": "Before the failure every day had 96 valid slots at 10-40/day per direction; after it, weekly valid share is 0-0.4 with nearly all non-zero days on Fridays (2017-02 to 2018-09); on 2018-04 to 2018-09 Fridays, directions 15 and 16 match slot for slot (e.g. 2018-07-27: 31 and 31 in the same 13 slots); complete days in 2018-01 read 75-80/day, about 3 times the site's usual level."},
+    {"action": "uncertain", "SITE_SK": 111, "DIRECTION_SK": null, "start": "2016-06-04", "end": "2016-08-05", "confidence": "low",
+      "diagnosis": "Both directions fell to 4-6 bikes/day (about a third of the spring level and far below earlier winters), while M7 dropped only about 20%; this could be real (e.g. local works or a detour) or failing sensitivity six months before the counter failed.",
+      "evidence": "Monthly mean per direction: May 2016 15/15, June 6/6, July 4/5, Aug 11/10, Oct 22/24; June 2015 26/27; M7 June 2016 154/119 vs May 195/165. The daily profile stays normal-shaped and the two directions stay balanced, and full weekend peaks returned from 2016-08-06."},
+    {"action": "uncertain", "SITE_SK": 111, "DIRECTION_SK": null, "start": "2013-02-08", "end": "2013-02-28", "confidence": "low",
+      "diagnosis": "The direction split moved from about 1:1 to about 1:4 (East:West) for three weeks and reset after the zero day on 2013-03-01, which may be misclassified direction; but the total looks plausible and M7 showed a similar split change at the same time.",
+      "evidence": "2013-02-15 to 02-28: East 6-17/day, West 23-83/day (ratio ~0.2); before 02-08 and from 03-02 the ratio was ~0.8-1.2; M7 split went from ~1.2 to ~2.4 in the same weeks."}
+  ],
+  "series": [],
+  "summary": "Site 111 is a quiet shared path (about 20-40 bikes/day per direction) with one Metrocount piezo that read well from July 2011 until it failed on 2016-12-15; after that its scattered, Friday-only, often identical-by-direction records up to 2019 should all be missing. The automatic zero_outage fixes before the failure fall on rain days that the nearby M7 counter confirms, so they should be restored. A deep dip in June-July 2016 and a three-week direction skew in February 2013 remain uncertain."
+}

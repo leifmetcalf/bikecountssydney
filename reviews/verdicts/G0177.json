@@ -1,0 +1,19 @@
+{
+  "group": "G0177",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 177, "DIRECTION_SK": null,
+      "start": "2022-05-24", "end": "2022-05-26", "confidence": "high",
+      "diagnosis": "The counter was failing just before its six-month gap: almost every slot is zero apart from single-slot lumps of 25 to 83 bikes that cannot be real riding.",
+      "evidence": "115: 48 at 2022-05-24 11:30 and 55 at 05-26 09:00, otherwise 0-1 per slot; 116: 25 at 05-24 11:45, 83 at 05-26 09:00 and 21 at 13:15; only 1-4 non-zero slots per day against about 30 normally; the next data starts 2022-11-04."},
+    {"action": "restore", "SITE_SK": 177, "DIRECTION_SK": 116,
+      "start": "2016-11-13", "end": "2016-11-13", "confidence": "medium",
+      "diagnosis": "zero_outage masked the evening of the last day before the Nov-Dec 2016 outage, but direction 116 was still counting normally until about 21:15.",
+      "evidence": "116 raw 79, clean 63; the masked 16:30-21:15 slots hold 0-3 bikes each (16 in total), in line with 115 which kept counting until 22:00 on the same day."},
+    {"action": "restore", "SITE_SK": 177, "DIRECTION_SK": 116,
+      "start": "2016-12-26", "end": "2016-12-26", "confidence": "medium",
+      "diagnosis": "zero_outage masked 00:00-17:00 on the first day after the outage, although direction 116 recorded normal riding from 06:30.",
+      "evidence": "116 raw 56, clean 21; the masked slots from 06:30 hold 0-3 bikes each (35 in total), similar to 115's 57 for the day, which was kept."}
+  ],
+  "series": [],
+  "summary": "The site has one Metrocount piezo counter (150) with two directions and a clean record from 2014-08 to 2026-09: one record per slot, and the automatic zero_outage fixes correctly cover short outages plus a six-week one in Nov-Dec 2016. Three days of failing-counter lumps in May 2022, before the six-month gap, are set to missing, and two partial days that zero_outage over-masked on direction 116 at the edges of the 2016 outage are restored. The drop from about 90 to about 55-65 bikes per direction per day across 2021-2022 looks real: the commuter peaks halved while off-peak riding held, and the COVID lockdown surges in 2020 and 2021 are also real."
+}

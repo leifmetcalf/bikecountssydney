@@ -1,0 +1,19 @@
+{
+  "group": "G0123",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 123, "DIRECTION_SK": null,
+      "start": "2017-04-24", "end": "2017-05-18", "confidence": "low",
+      "diagnosis": "Level halves in both directions just before the counter clearly starts under-reading, but the commuter profile is still present, so early sensor degradation cannot be told apart from a real drop.",
+      "evidence": "About 13-14 bikes/day per direction vs 26-28 in March 2017 and 30-40 on 3-7 April; the southbound 08:00 peak is 2.1/h vs 6.3/h in March, and the shape is kept."},
+    {"action": "missing", "SITE_SK": 123, "DIRECTION_SK": null,
+      "start": "2017-05-19", "end": "2017-08-19", "confidence": "high",
+      "diagnosis": "The counter under-read after the May 2017 outage: counts fall to a few bikes a day with no commuter peaks, and they come back to the earlier level right after the August 2017 outage and service.",
+      "evidence": "6-9 bikes/day per direction in June-July 2017 with a flat hourly profile (southbound 07-08h about 1/h vs 5-6/h in Feb-Mar 2017); after the 11-19 Aug outage it returns straight away to 20-30/day with the AM-south/PM-north peaks, while the nearby river sites (124, 210) held steady or rose."},
+    {"action": "missing", "SITE_SK": 123, "DIRECTION_SK": null,
+      "start": "2017-11-17", "end": "2019-04-26", "confidence": "high",
+      "diagnosis": "The counter was failing: it records only in short bursts that start on Friday middays (service visits) and fade to zero within a few days, so the zero and low days it kept are not real traffic.",
+      "evidence": "Data resumes on Fridays (1 Dec, 8 Dec, 15 Dec, 11 May, 25 May, 22 Jun, 6 Jul) at around 12:30-13:00 and then runs e.g. 10, 3, 9, 0, 0, 0 or 7, 6, 5, 1, 0, 0 bikes/day; full-day zeros are kept on days such as 15-17 May 2018, 26-28 Jun 2018 and 1-5 Jul 2018; the 2018 on-days average about 5/day vs 22-25/day in mid-November 2017, and the replacement site 186 read 40-80/day per direction in 2019."}
+  ],
+  "series": [],
+  "summary": "Single piezo counter 121 on the Elizabeth St Bridge shared path, reading about 60-100 bikes/day per direction from 2011 to 2015 and declining through 2016, with long outages that the automatic zero_outage fix already handles. The two-week southbound surge in late February 2013 is kept as real, because the M4 cycleway counter (site 125) dropped on exactly the same dates, which points to a detour. From mid-2017 the counter failed: it under-read with no commuter peaks from May to August 2017, and from mid-November 2017 to the end of its record it only recorded in fading bursts after Friday visits, so both periods are set to missing."
+}

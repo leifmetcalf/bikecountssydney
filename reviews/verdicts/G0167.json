@@ -1,0 +1,11 @@
+{
+  "group": "G0167",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 167, "DIRECTION_SK": 97, "start": "2022-04-29", "end": "2022-04-29",
+      "confidence": "high",
+      "diagnosis": "The temporary tube counter was removed about 10:00 on its last day; direction 97's zeros after that were kept while direction 98's were already set missing, so the day is incomplete.",
+      "evidence": "Both directions count normally to 09:45-10:00 (97: 53, 98: 31 by then vs ~150-200 on prior days) then pure zeros to midnight in both; 98 already zero_outage from 10:00, 97 left as 96 valid slots."}
+  ],
+  "series": [],
+  "summary": "Site 167 is a single temporary Metrocount tube counter (24 Jun 2021 to 29 Apr 2022) with a stable, plausible two-direction record. The automatic fixes look right: the all-zero outage from the evening of 3 July to the morning of 8 July 2021 in both directions, and the halving of 19 Feb 2022, when every count in both directions was even at twice the neighbouring days. The only change is setting 29 Apr 2022 in direction 97 to missing, because the counter was removed mid-morning; low days in late Nov 2021 and 24 Aug 2021 are spread across the whole day, consistent with rain and lockdown, and are kept."
+}

@@ -1,0 +1,11 @@
+{
+  "group": "G0204",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 204, "DIRECTION_SK": 194, "start": "2025-03-23", "end": "2025-03-23",
+      "confidence": "medium",
+      "diagnosis": "The zero_outage fix blanked a 10:15-12:30 run of zeros in North East on a quiet, likely wet Sunday. The same piezo unit kept counting South West, so the zeros are plausibly real.",
+      "evidence": "Nearby sites also had a low day: the adjacent site 203 had 27 bikes all day and 1 bike between 10:00 and 13:59, and sites 194 and 196 fell to about 120 from about 280-350 the day before. North East recorded 20 bikes in the morning and 12 in the afternoon, and South West recorded 15 during the blanked window. It is only 10 slots, and restoring them adds 0 bikes to the week."}
+  ],
+  "series": [],
+  "summary": "A single Metrocount piezo on the Louise Sauvage Path has two directions and one record per slot. Its counts are clean from June 2021 to September 2026, with balanced directions and no doubling or duplicates. Its high 2021 lockdown levels and its low days (for example 2021-08-24 and early July 2022) also show at nearby sites, so they are real. The automatic zero_outage fix for 2025-10-19 to 2025-10-21 is correct (both directions read zero all day on 10-20), and the only change is restoring the 10 genuine zero slots for North East on 2025-03-23."
+}

@@ -1,0 +1,22 @@
+{
+  "group": "G0181",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 181, "DIRECTION_SK": 255, "start": "2023-06-02", "end": "2023-06-10", "confidence": "medium",
+      "diagnosis": "Southbound sensor produced spurious detections, mostly overnight, while northbound stayed normal; the inflated counts cannot be separated from real riding.",
+      "evidence": "00:00-05:59 southbound counts of 16, 39, 10, 18, 18 on Jun 2/4/5/6/8 (9, 5, 7, 4, 5, 9 bikes per hour through the night on Sun Jun 4), against no more than 7 on any other day of the site's 4.5-year record; daily totals of 81, 52, 53, 46 against about 15-20 before and after; weekly 247 and 273 against 110-130; northbound 254 unchanged at 19-29 per day."
+    }
+  ],
+  "series": [
+    {"SITE_SK": 181, "name": "Northbound (away from city)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 186, "DIRECTION_SK": 202, "start": null, "end": null},
+                {"COUNTER_SK": 212, "DIRECTION_SK": 254, "start": null, "end": null}],
+      "evidence": "Counter 212 replaced 186 at the same site after a two-week gap (186 ends 2021-11-30, 212 starts 2021-12-15), and both are RidePod 5920 piezo units. Levels match across the change: Nov 2021 13/day, Dec 2021 14/day and Jan 2022 22/day. Both counters show the same afternoon-peaked hourly profile, and in both this direction is busier than southbound."
+    },
+    {"SITE_SK": 181, "name": "Southbound (citybound)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 186, "DIRECTION_SK": 234, "start": null, "end": null},
+                {"COUNTER_SK": 212, "DIRECTION_SK": 255, "start": null, "end": null}],
+      "evidence": "Same like-for-like replacement. Levels match: Nov 2021 12/day, Dec 2021 14/day and Jan 2022 14/day. Both counters show the same distinctive 04:00 bump (0.9 per hour in each) and a flatter daytime profile."
+    }
+  ],
+  "summary": "Site 181 was counted by two identical RidePod piezo counters in turn, 186 (2019-03 to 2021-11) and then 212 (2021-12 to 2023-07). They read comparably, so each direction is one series. The automatic zero_outage fix correctly removes a dead period from 2019-04-28 to 2019-09-30. The only fault left is a burst of spurious, largely overnight southbound counts from 2023-06-02 to 06-10, which is set to missing."
+}

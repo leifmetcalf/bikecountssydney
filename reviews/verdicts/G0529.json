@@ -1,0 +1,77 @@
+{
+  "group": "G0529",
+  "decisions": [
+    {
+      "action": "restore",
+      "SITE_SK": 529,
+      "DIRECTION_SK": 1576,
+      "start": "2024-04-05",
+      "end": "2024-04-06",
+      "confidence": "medium",
+      "diagnosis": "Zeros set missing by zero_outage are real near-zero riding on a wet day, matched by the other direction.",
+      "evidence": "2024-04-05 (major storm) daily 3/3 both directions; 1576 run 85 slots 0 bikes vs 1575 2 bikes"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 529,
+      "DIRECTION_SK": 1575,
+      "start": "2024-06-01",
+      "end": "2024-06-02",
+      "confidence": "medium",
+      "diagnosis": "Zeros set missing by zero_outage are real near-zero riding on a wet day, matched by the other direction.",
+      "evidence": "2024-06-01 daily 2 vs 5; 1575 run 110 slots 0 bikes vs 1576 6 bikes; 06-02 totals 45/40 normal"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 529,
+      "DIRECTION_SK": 1576,
+      "start": "2024-06-30",
+      "end": "2024-07-01",
+      "confidence": "medium",
+      "diagnosis": "Zeros set missing by zero_outage are real near-zero riding on a wet day, matched by the other direction.",
+      "evidence": "2024-06-30 daily 2/7, 07-01 9/18; 1576 run 79 slots 0 bikes vs 1575 2 bikes"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 529,
+      "DIRECTION_SK": 1576,
+      "start": "2024-09-26",
+      "end": "2024-09-27",
+      "confidence": "medium",
+      "diagnosis": "Zeros set missing by zero_outage are real near-zero riding on a wet day, matched by the other direction.",
+      "evidence": "daily 3/3 and 9/7; 1576 run 81 slots 0 vs 1575 2"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 529,
+      "DIRECTION_SK": null,
+      "start": "2025-05-22",
+      "end": "2025-05-23",
+      "confidence": "medium",
+      "diagnosis": "Zeros set missing by zero_outage are real near-zero riding on a wet day, matched by the other direction.",
+      "evidence": "2025-05-21/22 daily 7/8 and 1/2 both directions (wet spell); runs of 85 and 75 slots with 0 bikes vs 1 and 3 in the other direction"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 529,
+      "DIRECTION_SK": 1576,
+      "start": "2025-07-30",
+      "end": "2025-07-31",
+      "confidence": "medium",
+      "diagnosis": "Zeros set missing by zero_outage are real near-zero riding on a wet day, matched by the other direction.",
+      "evidence": "daily 2/4 and 9/12 amid a week of 5-10/day in both directions; 1576 run 89 slots 0 vs 1575 1"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 529,
+      "DIRECTION_SK": 1576,
+      "start": "2025-08-20",
+      "end": "2025-08-20",
+      "confidence": "medium",
+      "diagnosis": "Zeros set missing by zero_outage are real near-zero riding on a wet day, matched by the other direction.",
+      "evidence": "daily 4/3; 1576 run 50 slots 0 vs 1575 3"
+    }
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo counter on the Milson Park shared path (Westmead), running Dec 2023 to Aug 2026 at one record per slot with no doubling, duplicates or level shifts; the two directions track each other closely. The only real fault is 2025-10-20, an all-zero warning day inside a busy month, which the automatic zero_outage fix already sets missing. The other zero_outage runs fall on wet days when both directions were close to zero, so those zeros are restored as real."
+}

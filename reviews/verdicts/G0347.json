@@ -1,0 +1,1390 @@
+{
+ "group": "G0347",
+ "decisions": [
+  {
+   "action": "restore",
+   "SITE_SK": 358,
+   "DIRECTION_SK": 767,
+   "start": "2023-07-31",
+   "end": "2024-03-04",
+   "confidence": "high",
+   "diagnosis": "zero_outage removed genuine zeros from a near-empty road zone while the camera was running.",
+   "evidence": "Direction carries ~0.1 bikes/day (raw 0-4 per month) while all other zones of the camera counted normally; zero_outage set 26k slots of genuine zeros missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 358,
+   "DIRECTION_SK": 767,
+   "start": "2024-03-28",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "zero_outage removed genuine zeros from a near-empty road zone while the camera was running.",
+   "evidence": "Direction carries ~0.1 bikes/day (raw 0-4 per month) while all other zones of the camera counted normally; zero_outage set 26k slots of genuine zeros missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 358,
+   "DIRECTION_SK": 767,
+   "start": "2025-06-21",
+   "end": "2025-06-23",
+   "confidence": "high",
+   "diagnosis": "zero_outage removed genuine zeros from a near-empty road zone while the camera was running.",
+   "evidence": "Direction carries ~0.1 bikes/day (raw 0-4 per month) while all other zones of the camera counted normally; zero_outage set 26k slots of genuine zeros missing."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 348,
+   "DIRECTION_SK": 770,
+   "start": "2023-09-26",
+   "end": "2023-10-18",
+   "confidence": "high",
+   "diagnosis": "zero_outage removed genuine zeros from a near-empty crossing zone while the camera was running.",
+   "evidence": "Zone averages ~0.1-0.3 bikes/day; the flagged days fall outside the camera-wide outages (2024-03-05..27, 2025-05-05..06-20) with every other zone counting normally."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 348,
+   "DIRECTION_SK": 770,
+   "start": "2024-02-27",
+   "end": "2024-03-04",
+   "confidence": "high",
+   "diagnosis": "zero_outage removed genuine zeros from a near-empty crossing zone while the camera was running.",
+   "evidence": "Zone averages ~0.1-0.3 bikes/day; the flagged days fall outside the camera-wide outages (2024-03-05..27, 2025-05-05..06-20) with every other zone counting normally."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 348,
+   "DIRECTION_SK": 947,
+   "start": "2024-03-28",
+   "end": "2024-04-03",
+   "confidence": "high",
+   "diagnosis": "zero_outage removed genuine zeros from a near-empty crossing zone after the camera came back.",
+   "evidence": "Zone averages ~0.1-0.3 bikes/day; the flagged days fall outside the camera-wide outages (2024-03-05..27, 2025-05-05..06-20) with every other zone counting normally."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 348,
+   "DIRECTION_SK": 947,
+   "start": "2024-04-20",
+   "end": "2024-05-13",
+   "confidence": "high",
+   "diagnosis": "zero_outage removed genuine zeros from a near-empty crossing zone while the camera was running.",
+   "evidence": "Zone averages ~0.1-0.3 bikes/day; the flagged days fall outside the camera-wide outages (2024-03-05..27, 2025-05-05..06-20) with every other zone counting normally."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 348,
+   "DIRECTION_SK": null,
+   "start": "2025-01-01",
+   "end": "2025-01-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage 2025-01-01..06; zeros kept in low-volume zones are outage zeros, not real.",
+   "evidence": "Camera total 1298 on 2024-12-31, then 192 (Jan 1), 54 (Jan 3), 0 (Jan 4-5), with busy zones set missing by zero_outage; low-volume zones keep 96 zero slots on Jan 4-5 although the camera was down."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 357,
+   "DIRECTION_SK": null,
+   "start": "2025-01-01",
+   "end": "2025-01-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage 2025-01-01..06; zeros kept in low-volume zones are outage zeros, not real.",
+   "evidence": "Camera total 1298 on 2024-12-31, then 192 (Jan 1), 54 (Jan 3), 0 (Jan 4-5), with busy zones set missing by zero_outage; low-volume zones keep 96 zero slots on Jan 4-5 although the camera was down."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 358,
+   "DIRECTION_SK": null,
+   "start": "2025-01-01",
+   "end": "2025-01-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage 2025-01-01..06; zeros kept in low-volume zones are outage zeros, not real.",
+   "evidence": "Camera total 1298 on 2024-12-31, then 192 (Jan 1), 54 (Jan 3), 0 (Jan 4-5), with busy zones set missing by zero_outage; low-volume zones keep 96 zero slots on Jan 4-5 although the camera was down."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 349,
+   "DIRECTION_SK": 737,
+   "start": "2025-01-01",
+   "end": "2025-01-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage 2025-01-01..06; zeros kept in low-volume zones are outage zeros, not real.",
+   "evidence": "Camera total 1298 on 2024-12-31, then 192 (Jan 1), 54 (Jan 3), 0 (Jan 4-5), with busy zones set missing by zero_outage; low-volume zones keep 96 zero slots on Jan 4-5 although the camera was down."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 350,
+   "DIRECTION_SK": 914,
+   "start": "2025-01-01",
+   "end": "2025-01-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage 2025-01-01..06; zeros kept in low-volume zones are outage zeros, not real.",
+   "evidence": "Camera total 1298 on 2024-12-31, then 192 (Jan 1), 54 (Jan 3), 0 (Jan 4-5), with busy zones set missing by zero_outage; low-volume zones keep 96 zero slots on Jan 4-5 although the camera was down."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 347,
+   "DIRECTION_SK": 753,
+   "start": "2025-01-01",
+   "end": "2025-01-06",
+   "confidence": "medium",
+   "diagnosis": "Camera outage 2025-01-01..06; zeros kept in low-volume zones are outage zeros, not real.",
+   "evidence": "Camera total 1298 on 2024-12-31, then 192 (Jan 1), 54 (Jan 3), 0 (Jan 4-5), with busy zones set missing by zero_outage; low-volume zones keep 96 zero slots on Jan 4-5 although the camera was down."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 347,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 348,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 349,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 350,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 351,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 352,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 353,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 354,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 355,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 356,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 357,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 358,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 359,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-10-01",
+   "confidence": "medium",
+   "diagnosis": "Camera detection/zone configuration changed on 2024-01-24 and 2024-10-02; counts before 2024-10-02 are not comparable with later counts and likely undercount.",
+   "evidence": "Two abrupt camera-wide steps at ~15:00 on weekdays with no change at nearby piezos (538, 541, 254): 2024-01-24 every zone x1.5-3 (camera 4123/wk -> 9329/wk; Henderson Rd flat), 2024-10-02 zone-specific x1-15 (750 1.8->27/day, 858 134->302); IN/OUT balance improved 0.84 -> 0.95 after Oct 2024, so earlier periods probably undercount."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 348,
+   "DIRECTION_SK": null,
+   "start": "2025-06-21",
+   "end": "2026-09-24",
+   "confidence": "low",
+   "diagnosis": "Absent days in near-empty zones are probably zero counts, not outages.",
+   "evidence": "After mid-2025 the feed omits zero slots for tiny zones and many whole zero days are absent (e.g. 767 has 9-19 days/month while the camera reports every day), so weekly totals for these zones are incomplete though near zero."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 358,
+   "DIRECTION_SK": null,
+   "start": "2025-06-21",
+   "end": "2026-09-24",
+   "confidence": "low",
+   "diagnosis": "Absent days in near-empty zones are probably zero counts, not outages.",
+   "evidence": "After mid-2025 the feed omits zero slots for tiny zones and many whole zero days are absent (e.g. 767 has 9-19 days/month while the camera reports every day), so weekly totals for these zones are incomplete though near zero."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 349,
+   "DIRECTION_SK": 737,
+   "start": "2025-06-21",
+   "end": "2026-09-24",
+   "confidence": "low",
+   "diagnosis": "Absent days in near-empty zones are probably zero counts, not outages.",
+   "evidence": "After mid-2025 the feed omits zero slots for tiny zones and many whole zero days are absent (e.g. 767 has 9-19 days/month while the camera reports every day), so weekly totals for these zones are incomplete though near zero."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 347,
+   "name": "Swanson St - East of Railway Pde East (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 750,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 347,
+   "name": "Swanson St - East of Railway Pde East (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 750,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 347,
+   "name": "Swanson St - East of Railway Pde East (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 750,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 347,
+   "name": "Swanson St - East of Railway Pde West (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 753,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 347,
+   "name": "Swanson St - East of Railway Pde West (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 753,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 347,
+   "name": "Swanson St - East of Railway Pde West (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 753,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 348,
+   "name": "Swanson St crossing - East of Railway Pde South (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 770,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 348,
+   "name": "Swanson St crossing - East of Railway Pde South (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 770,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 348,
+   "name": "Swanson St crossing - East of Railway Pde South (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 770,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 348,
+   "name": "Swanson St crossing - East of Railway Pde North (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 947,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 348,
+   "name": "Swanson St crossing - East of Railway Pde North (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 947,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 348,
+   "name": "Swanson St crossing - East of Railway Pde North (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 947,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 349,
+   "name": "Swanson St (S) - East of Railway Pde East (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 737,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 349,
+   "name": "Swanson St (S) - East of Railway Pde East (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 737,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 349,
+   "name": "Swanson St (S) - East of Railway Pde East (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 737,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 349,
+   "name": "Swanson St (S) - East of Railway Pde West (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 787,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 349,
+   "name": "Swanson St (S) - East of Railway Pde West (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 787,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 349,
+   "name": "Swanson St (S) - East of Railway Pde West (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 787,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 350,
+   "name": "Bridge St (E) - South of Swanson St South (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 914,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 350,
+   "name": "Bridge St (E) - South of Swanson St South (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 914,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 350,
+   "name": "Bridge St (E) - South of Swanson St South (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 914,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 350,
+   "name": "Bridge St (E) - South of Swanson St North (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 951,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 350,
+   "name": "Bridge St (E) - South of Swanson St North (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 951,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 350,
+   "name": "Bridge St (E) - South of Swanson St North (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 951,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 351,
+   "name": "Bridge St (W) - South of Swanson St South (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 688,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 351,
+   "name": "Bridge St (W) - South of Swanson St South (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 688,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 351,
+   "name": "Bridge St (W) - South of Swanson St South (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 688,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 351,
+   "name": "Bridge St (W) - South of Swanson St North (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 916,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 351,
+   "name": "Bridge St (W) - South of Swanson St North (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 916,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 351,
+   "name": "Bridge St (W) - South of Swanson St North (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 916,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 352,
+   "name": "Swanson St (S) - West of Railway Pde East (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 816,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 352,
+   "name": "Swanson St (S) - West of Railway Pde East (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 816,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 352,
+   "name": "Swanson St (S) - West of Railway Pde East (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 816,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 352,
+   "name": "Swanson St (S) - West of Railway Pde West (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 946,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 352,
+   "name": "Swanson St (S) - West of Railway Pde West (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 946,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 352,
+   "name": "Swanson St (S) - West of Railway Pde West (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 946,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 353,
+   "name": "Swanson St crossing - West of Railway Pde South (NONE), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 705,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 353,
+   "name": "Swanson St crossing - West of Railway Pde South (NONE), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 705,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 353,
+   "name": "Swanson St crossing - West of Railway Pde South (NONE), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 705,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 353,
+   "name": "Swanson St crossing - West of Railway Pde North (NONE), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 907,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 353,
+   "name": "Swanson St crossing - West of Railway Pde North (NONE), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 907,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 353,
+   "name": "Swanson St crossing - West of Railway Pde North (NONE), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 907,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 354,
+   "name": "Swanson St - West of Railway Pde East (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 858,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 354,
+   "name": "Swanson St - West of Railway Pde East (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 858,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 354,
+   "name": "Swanson St - West of Railway Pde East (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 858,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 354,
+   "name": "Swanson St - West of Railway Pde West (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 944,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 354,
+   "name": "Swanson St - West of Railway Pde West (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 944,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 354,
+   "name": "Swanson St - West of Railway Pde West (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 944,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 355,
+   "name": "Swanson St (N) - West of Railway Pde East (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 820,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 355,
+   "name": "Swanson St (N) - West of Railway Pde East (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 820,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 355,
+   "name": "Swanson St (N) - West of Railway Pde East (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 820,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 355,
+   "name": "Swanson St (N) - West of Railway Pde West (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 866,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 355,
+   "name": "Swanson St (N) - West of Railway Pde West (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 866,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 355,
+   "name": "Swanson St (N) - West of Railway Pde West (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 866,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 356,
+   "name": "Railway Pde (W) - North of Swanson St North East (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 756,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 356,
+   "name": "Railway Pde (W) - North of Swanson St North East (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 756,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 356,
+   "name": "Railway Pde (W) - North of Swanson St North East (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 756,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 356,
+   "name": "Railway Pde (W) - North of Swanson St South West (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 778,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 356,
+   "name": "Railway Pde (W) - North of Swanson St South West (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 778,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 356,
+   "name": "Railway Pde (W) - North of Swanson St South West (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 778,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 357,
+   "name": "Railway Pde crossing - North of Swanson St West (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 711,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 357,
+   "name": "Railway Pde crossing - North of Swanson St West (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 711,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 357,
+   "name": "Railway Pde crossing - North of Swanson St West (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 711,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 357,
+   "name": "Railway Pde crossing - North of Swanson St East (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 890,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 357,
+   "name": "Railway Pde crossing - North of Swanson St East (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 890,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 357,
+   "name": "Railway Pde crossing - North of Swanson St East (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 890,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 358,
+   "name": "Railway Pde - North of Swanson St North (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 767,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 358,
+   "name": "Railway Pde - North of Swanson St North (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 767,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 358,
+   "name": "Railway Pde - North of Swanson St North (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 767,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 358,
+   "name": "Railway Pde - North of Swanson St South (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 841,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 358,
+   "name": "Railway Pde - North of Swanson St South (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 841,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 358,
+   "name": "Railway Pde - North of Swanson St South (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 841,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 359,
+   "name": "Railway Pde (bicycle path) - North of Swanson St North (OUT), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 726,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 359,
+   "name": "Railway Pde (bicycle path) - North of Swanson St North (OUT), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 726,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 359,
+   "name": "Railway Pde (bicycle path) - North of Swanson St North (OUT), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 726,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 359,
+   "name": "Railway Pde (bicycle path) - North of Swanson St South (IN), 2023-07 to 2024-01 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 788,
+     "start": "2023-07-12",
+     "end": "2024-01-23"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 359,
+   "name": "Railway Pde (bicycle path) - North of Swanson St South (IN), 2024-01 to 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 788,
+     "start": "2024-01-24",
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  },
+  {
+   "SITE_SK": 359,
+   "name": "Railway Pde (bicycle path) - North of Swanson St South (IN), from 2024-10 config",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 281,
+     "DIRECTION_SK": 788,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Single camera; split at the detection steps of 2024-01-24 (all zones ~x2) and 2024-10-02 (zone-specific up to x15), which neighbouring counters do not show, so the levels are not comparable."
+  }
+ ],
+ "summary": "One VivaCity camera covering 13 zones at Erskineville Rd / Swanson St, 2023-07 to 2026-09, with camera-wide outages in March 2024, early January 2025 and May-June 2025 that the automatic fixes mostly handle. The counts step up abruptly mid-afternoon on 2024-01-24 (all zones about x2) and 2024-10-02 (zone-specific, up to x15) while nearby counters stay flat, so each direction is split into three series at those dates. zero_outage wrongly removed genuine zeros in near-empty zones (767, 770, 947), which are restored, and outage zeros kept in low-volume zones in January 2025 are set missing."
+}

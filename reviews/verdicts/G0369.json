@@ -1,0 +1,282 @@
+{
+  "group": "G0369",
+  "decisions": [
+    {
+      "action": "missing",
+      "SITE_SK": 371,
+      "DIRECTION_SK": null,
+      "start": "2023-07-01",
+      "end": "2024-09-17",
+      "confidence": "high",
+      "diagnosis": "The Kingsway (S) east-of-Central-Rd footpath zone was effectively not counting before the camera was reconfigured on 2024-09-18, so its zeros are not real.",
+      "evidence": "About 14 months pre-restart: 925 had 57 bikes over 372 days and 876 had 15 over 240 days (max 6/day); from 2024-09-18 the same zone carries 8-20/day each in Oct 2024, rising to 30-40/day."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 373,
+      "DIRECTION_SK": null,
+      "start": "2023-07-01",
+      "end": "2024-09-17",
+      "confidence": "high",
+      "diagnosis": "The Kingsway (S) west-of-Central-Rd footpath zone was effectively not counting before the camera was reconfigured on 2024-09-18.",
+      "evidence": "Pre-restart: 722 had 7 bikes over 178 days and 751 had 12 over 108 days (max 2/day); after 2024-09-18 each direction carries 2-9/day."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 371,
+      "DIRECTION_SK": null,
+      "start": "2024-12-29",
+      "end": "2024-12-29",
+      "confidence": "high",
+      "diagnosis": "False detections: sustained counts of 25-50 per slot in both directions of a footpath zone, starting and stopping abruptly (16:00-22:00), with nothing similar in the neighbouring zones.",
+      "evidence": "876/925 = 412/489 against typical 25-45/day; 17:00 hour 132/179 bikes; 369, 370, 372 and 373 normal that day."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 371,
+      "DIRECTION_SK": null,
+      "start": "2024-12-31",
+      "end": "2024-12-31",
+      "confidence": "high",
+      "diagnosis": "False detections: sustained 50-90 per slot on a footpath from 09:45 to 22:45, abrupt start, a gap from 15:00 to 16:45, and no matching rise in other zones.",
+      "evidence": "876/925 = 1045/2198 against typical 25-45/day; 925 had 254-284 per hour from 10:00 to 13:00."
+    },
+    {
+      "action": "missing",
+      "SITE_SK": 371,
+      "DIRECTION_SK": null,
+      "start": "2025-01-02",
+      "end": "2025-01-05",
+      "confidence": "medium",
+      "diagnosis": "The same false-detection pattern in this footpath zone, with blocks of high counts in daytime and evening that start and stop sharply and appear in no other zone.",
+      "evidence": "876/925 daily: 64/109, 113/390, 178/896, 820/1483 against typical 25-45/day; 2025-01-05 had 69/75 per slot at 10:00, and every other zone was normal."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 369,
+      "name": "Kingsway road eastbound (to 2024-08-27, original zones)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 721,
+          "start": null,
+          "end": "2024-09-17"
+        }
+      ],
+      "evidence": "Before the camera outage (2024-08-28 to 2024-09-17) East averaged 12-27/day and West 3-11/day with no weekend-morning peak; afterwards East is 0-3/day and West has a 45/h Saturday/Sunday 6-8am road-ride peak, so the zone was redrawn and the two periods are not comparable."
+    },
+    {
+      "SITE_SK": 369,
+      "name": "Kingsway road eastbound (from 2024-09-18, redrawn zones)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 721,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Before the camera outage (2024-08-28 to 2024-09-17) East averaged 12-27/day and West 3-11/day with no weekend-morning peak; afterwards East is 0-3/day and West has a 45/h Saturday/Sunday 6-8am road-ride peak, so the zone was redrawn and the two periods are not comparable."
+    },
+    {
+      "SITE_SK": 369,
+      "name": "Kingsway road westbound (to 2024-08-27, original zones)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 882,
+          "start": null,
+          "end": "2024-09-17"
+        }
+      ],
+      "evidence": "Before the camera outage (2024-08-28 to 2024-09-17) East averaged 12-27/day and West 3-11/day with no weekend-morning peak; afterwards East is 0-3/day and West has a 45/h Saturday/Sunday 6-8am road-ride peak, so the zone was redrawn and the two periods are not comparable."
+    },
+    {
+      "SITE_SK": 369,
+      "name": "Kingsway road westbound (from 2024-09-18, redrawn zones)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 882,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Before the camera outage (2024-08-28 to 2024-09-17) East averaged 12-27/day and West 3-11/day with no weekend-morning peak; afterwards East is 0-3/day and West has a 45/h Saturday/Sunday 6-8am road-ride peak, so the zone was redrawn and the two periods are not comparable."
+    },
+    {
+      "SITE_SK": 370,
+      "name": "Kingsway crossing northbound (to 2024-08-27, original zones)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 706,
+          "start": null,
+          "end": "2024-09-17"
+        }
+      ],
+      "evidence": "Crossing zone levels are similar either side of the 2024-09-18 restart (4-9/day), but weekend 6-7am peaks appear only afterwards, so the zones were redrawn when the camera came back; kept as separate series."
+    },
+    {
+      "SITE_SK": 370,
+      "name": "Kingsway crossing northbound (from 2024-09-18, redrawn zones)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 706,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Crossing zone levels are similar either side of the 2024-09-18 restart (4-9/day), but weekend 6-7am peaks appear only afterwards, so the zones were redrawn when the camera came back; kept as separate series."
+    },
+    {
+      "SITE_SK": 370,
+      "name": "Kingsway crossing southbound (to 2024-08-27, original zones)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 830,
+          "start": null,
+          "end": "2024-09-17"
+        }
+      ],
+      "evidence": "Crossing zone levels are similar either side of the 2024-09-18 restart (4-9/day), but weekend 6-7am peaks appear only afterwards, so the zones were redrawn when the camera came back; kept as separate series."
+    },
+    {
+      "SITE_SK": 370,
+      "name": "Kingsway crossing southbound (from 2024-09-18, redrawn zones)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 830,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Crossing zone levels are similar either side of the 2024-09-18 restart (4-9/day), but weekend 6-7am peaks appear only afterwards, so the zones were redrawn when the camera came back; kept as separate series."
+    },
+    {
+      "SITE_SK": 371,
+      "name": "Kingsway south footpath east of Central Rd, eastbound (from 2024-09-18)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 876,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Before the 2024-09-18 restart this zone counted almost nothing (set missing); only the reconfigured zone carries a usable series."
+    },
+    {
+      "SITE_SK": 371,
+      "name": "Kingsway south footpath east of Central Rd, westbound (from 2024-09-18)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 925,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Before the 2024-09-18 restart this zone counted almost nothing (set missing); only the reconfigured zone carries a usable series."
+    },
+    {
+      "SITE_SK": 372,
+      "name": "Westfield entrance footpath northbound (to 2024-08-27, original zones)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 782,
+          "start": null,
+          "end": "2024-09-17"
+        }
+      ],
+      "evidence": "Southbound fell from 34-75/day (evening-peaked) to 9-17/day and northbound rose after the camera came back on 2024-09-18, so the zone definition changed; pre and post are separate series."
+    },
+    {
+      "SITE_SK": 372,
+      "name": "Westfield entrance footpath northbound (from 2024-09-18, redrawn zones)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 782,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Southbound fell from 34-75/day (evening-peaked) to 9-17/day and northbound rose after the camera came back on 2024-09-18, so the zone definition changed; pre and post are separate series."
+    },
+    {
+      "SITE_SK": 372,
+      "name": "Westfield entrance footpath southbound (to 2024-08-27, original zones)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 863,
+          "start": null,
+          "end": "2024-09-17"
+        }
+      ],
+      "evidence": "Southbound fell from 34-75/day (evening-peaked) to 9-17/day and northbound rose after the camera came back on 2024-09-18, so the zone definition changed; pre and post are separate series."
+    },
+    {
+      "SITE_SK": 372,
+      "name": "Westfield entrance footpath southbound (from 2024-09-18, redrawn zones)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 863,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Southbound fell from 34-75/day (evening-peaked) to 9-17/day and northbound rose after the camera came back on 2024-09-18, so the zone definition changed; pre and post are separate series."
+    },
+    {
+      "SITE_SK": 373,
+      "name": "Kingsway south footpath west of Central Rd, westbound (from 2024-09-18)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 722,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Before the 2024-09-18 restart this zone counted almost nothing (set missing); only the reconfigured zone carries a usable series."
+    },
+    {
+      "SITE_SK": 373,
+      "name": "Kingsway south footpath west of Central Rd, eastbound (from 2024-09-18)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 283,
+          "DIRECTION_SK": 751,
+          "start": "2024-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "Before the 2024-09-18 restart this zone counted almost nothing (set missing); only the reconfigured zone carries a usable series."
+    }
+  ],
+  "summary": "This is a single Secure Agility camera at Kingsway/Central Rd, Miranda. It went dark from 2024-08-28 to 2024-09-17 (already set missing) and came back with redrawn zones: the two Kingsway south footpath zones (371, 373) had counted almost nothing before this and are set missing, and the road (369), crossing (370) and Westfield entrance (372) zones change level and profile, so each direction is split into pre- and post-2024-09-18 series. Holiday-period false detections in footpath zone 371 (2024-12-29, 2024-12-31, 2025-01-02 to 01-05) are set missing; the 2024-11-03 early-morning westbound surge (1734 on the road, 887 on the footpath) is kept as a real organised ride."
+}

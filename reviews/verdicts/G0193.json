@@ -1,0 +1,31 @@
+{
+  "group": "G0193",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 193, "DIRECTION_SK": null, "start": "2019-08-23", "end": "2019-08-25",
+      "confidence": "high",
+      "diagnosis": "zero_outage reached back over normal counts before the counter died late on 2019-08-25, removing two and a half days of real data in direction 191 and the afternoon of 08-25 in 237.",
+      "evidence": "Direction 191 raw 48, 34, 38 on 08-23/24/25 against typical 35-55 per day, with non-zero slots spread through the day to 19:00 on 08-25; 237 counted normally to 21:00 on 08-25 (raw 42); both are all zero from 08-26."},
+    {"action": "restore", "SITE_SK": 193, "DIRECTION_SK": null, "start": "2020-08-17", "end": "2020-08-17",
+      "confidence": "medium",
+      "diagnosis": "The counter was already counting normally on its restart day, but zero_outage removed 237's slots from 05:00 to 16:59 and 191's early morning.",
+      "evidence": "237 hourly 1,3,4,4,4,5,0,2,4,6,0,8 from 05h (raw 52 against 52-60 on the following days); 191 raw 74 against 62-69 on the following days."},
+    {"action": "restore", "SITE_SK": 193, "DIRECTION_SK": 237, "start": "2019-06-15", "end": "2019-06-16",
+      "confidence": "medium",
+      "diagnosis": "Real zeros on a very low riding weekend (weather), not an outage: the other direction was also almost empty.",
+      "evidence": "191 recorded 1 bike between 17:00 on 06-15 and 14:00 on 06-16 (6 all day on 06-16); 237 resumed with 5 at 15h on 06-16."},
+    {"action": "restore", "SITE_SK": 193, "DIRECTION_SK": 191, "start": "2022-07-02", "end": "2022-07-03",
+      "confidence": "medium",
+      "diagnosis": "Real zeros on a very low riding weekend (weather), not an outage.",
+      "evidence": "237 recorded 4 and 2 bikes on those days; 191 recorded 1 and 1."},
+    {"action": "restore", "SITE_SK": 193, "DIRECTION_SK": 191, "start": "2023-04-29", "end": "2023-04-30",
+      "confidence": "medium",
+      "diagnosis": "Real zeros on a very low riding Saturday, not an outage.",
+      "evidence": "237 recorded 3 bikes all day on 04-29 (1 after 07:00) while 191 was zero from 07:30; 191 resumed with 2-5 per hour from 09h on 04-30, matching 237's 27."},
+    {"action": "restore", "SITE_SK": 193, "DIRECTION_SK": 191, "start": "2024-06-29", "end": "2024-06-30",
+      "confidence": "medium",
+      "diagnosis": "Real zeros over a low riding evening and morning, not an outage.",
+      "evidence": "237 was also zero from 17:00 on 06-29 until 12:00 on 06-30 and recorded 11 all day on 06-30; 191 recorded 3."}
+  ],
+  "series": [],
+  "summary": "A single Metrocount piezo on the Queens Rd shared path in Parramatta, with steady and balanced directions (about 35-70 bikes per day each). One real outage ran from late 2019-08-25 to 2020-08-16 (all zeros in both directions) and is correctly set to missing, but the fix reached back over real counts at both ends, and on four low riding weekend days it removed one direction's real zeros; these are restored. The two-direction blanks on 2022-07-10 and 2025-10-20 are left missing."
+}

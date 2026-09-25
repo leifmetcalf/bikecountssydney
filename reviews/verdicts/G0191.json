@@ -1,0 +1,56 @@
+{
+  "group": "G0191",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 191, "DIRECTION_SK": null,
+      "start": "2025-07-04", "end": "2025-07-06", "confidence": "medium",
+      "diagnosis": "Counter 342 was failing in its last days at the site: both directions fell far below the adjacent site 190, which it otherwise tracked closely, before the counter was removed.",
+      "evidence": "Site 191 / site 190 daily ratio was 1.00-1.07 up to 2025-07-03, then 0.50 on 07-04 (175 vs 352) and 0.23 on 07-05 (112 vs 483). On 07-06 site 191 recorded 1 bike and site 190 recorded 541."},
+    {"action": "missing", "SITE_SK": 192, "DIRECTION_SK": null,
+      "start": "2026-01-22", "end": "2026-03-25", "confidence": "medium",
+      "diagnosis": "Counter 335 failed: both directions dropped to about a tenth of their level around midday on 2026-01-22 and never recovered, and some days were not published. Flow on the adjacent main path sites 190 and 191 was normal throughout.",
+      "evidence": "Weekly totals were 57-99 per direction before, then 12/18, 3/13, 9/15, 5/3, then zeros. The share of site 191's flow fell from about 6% to 0.1-0.9%. Site 191 / site 190 stayed at 1.06-1.09, so riders were not diverted. Direction 1581 has no records on 2026-02-05..10 and 02-13..18. The next counters read normal levels (393 at about 24 per day)."},
+    {"action": "missing", "SITE_SK": 192, "DIRECTION_SK": null,
+      "start": "2026-04-28", "end": "2026-05-03", "confidence": "medium",
+      "diagnosis": "Temporary counter 342 read normally for six days and then fell to near zero in both directions from midday on 2026-04-28, the same kind of fade this unit showed at site 191 in July 2025.",
+      "evidence": "Site 192 read 16-24 and 10-20 per day on 04-22..27, then 7/8, 0/0, 1/3, 1/2 bikes per day. Sites 190 and 191 were normal (about 3300-3500 per week). Counter 393 read 20-31 per day from 05-09."}
+  ],
+  "series": [
+    {"SITE_SK": 191, "name": "Eastbound / southbound (larger flow, 07:00 peak)", "confidence": "high",
+      "parts": [
+        {"COUNTER_SK": 198, "DIRECTION_SK": 219, "start": null, "end": null},
+        {"COUNTER_SK": 221, "DIRECTION_SK": 296, "start": null, "end": null},
+        {"COUNTER_SK": 298, "DIRECTION_SK": 1089, "start": null, "end": null},
+        {"COUNTER_SK": 342, "DIRECTION_SK": 1719, "start": null, "end": null},
+        {"COUNTER_SK": 348, "DIRECTION_SK": 1734, "start": null, "end": null}],
+      "evidence": "In every counter era this direction is the larger one (1.12-1.17 times the other) and has the sharp 07:00 weekday peak. The labels change from East to South partway through. The site total tracks the adjacent site 190 at a ratio of 1.03-1.10 across all five counters, and the handovers are seamless (298 to 342 January 2025: 197/225 then 191/225 per day), so the counters read comparably."},
+    {"SITE_SK": 191, "name": "Westbound / northbound (smaller flow, 08:00 peak)", "confidence": "high",
+      "parts": [
+        {"COUNTER_SK": 198, "DIRECTION_SK": 236, "start": null, "end": null},
+        {"COUNTER_SK": 221, "DIRECTION_SK": 293, "start": null, "end": null},
+        {"COUNTER_SK": 298, "DIRECTION_SK": 1086, "start": null, "end": null},
+        {"COUNTER_SK": 342, "DIRECTION_SK": 1720, "start": null, "end": null},
+        {"COUNTER_SK": 348, "DIRECTION_SK": 1733, "start": null, "end": null}],
+      "evidence": "In every counter era this direction is the smaller one, with its AM peak at 08:00. The labels change from West to North. It shares the site total's steady ratio to site 190 across all counters."},
+    {"SITE_SK": 192, "name": "Offramp direction A (07-08 AM peak, 15:00 school spike)", "confidence": "medium",
+      "parts": [
+        {"COUNTER_SK": 199, "DIRECTION_SK": 240, "start": null, "end": null},
+        {"COUNTER_SK": 327, "DIRECTION_SK": 1546, "start": null, "end": null},
+        {"COUNTER_SK": 335, "DIRECTION_SK": 1581, "start": null, "end": null},
+        {"COUNTER_SK": 393, "DIRECTION_SK": 1861, "start": null, "end": null}],
+      "evidence": "Matched by weekday hourly profile, because the labels are inconsistent (SE, East, East, then 'West' on counter 393). Each part has a 15:00 spike (1.3-2.0 per hour), an AM peak and a weak PM peak. The level is about 10-13 per day in each era. The site's share of site 191's flow was 5-7% for every counter (327 was 6.7%), so the counters look comparable."},
+    {"SITE_SK": 192, "name": "Offramp direction B (16-17 PM peak)", "confidence": "medium",
+      "parts": [
+        {"COUNTER_SK": 199, "DIRECTION_SK": 249, "start": null, "end": null},
+        {"COUNTER_SK": 327, "DIRECTION_SK": 1544, "start": null, "end": null},
+        {"COUNTER_SK": 335, "DIRECTION_SK": 1582, "start": null, "end": null},
+        {"COUNTER_SK": 393, "DIRECTION_SK": 1862, "start": null, "end": null}],
+      "evidence": "Matched by weekday hourly profile, because the labels are inconsistent (NW, West, West, then 'East' on counter 393). Each part has an 08:00 peak and a 16:00-17:00 PM peak and no 15:00 spike. It is the larger direction at about 13-16 per day in most eras."},
+    {"SITE_SK": 192, "name": "Offramp, counter 342 'West' (short deployment)", "confidence": "low",
+      "parts": [{"COUNTER_SK": 342, "DIRECTION_SK": 1855, "start": null, "end": null}],
+      "evidence": "Only 6 good days (2026-04-22..27). That is too short to match its hourly profile to direction A or B, and the unit is flaky, so it is kept separate."},
+    {"SITE_SK": 192, "name": "Offramp, counter 342 'East' (short deployment)", "confidence": "low",
+      "parts": [{"COUNTER_SK": 342, "DIRECTION_SK": 1856, "start": null, "end": null}],
+      "evidence": "Only 6 good days (2026-04-22..27). That is too short to match its hourly profile to direction A or B, so it is kept separate."}
+  ],
+  "summary": "Site 191 (main river path) is clean and consistent across five counters: it tracks the adjacent site 190 at a ratio of about 1.05 throughout, so each direction forms one series. The only fault is counter 342's fade on 2025-07-04..06. Site 192 (offramp, about 6% of the main path's flow) needs its direction labels matched by hourly profile, because counter 393 swaps East and West. Its counter 335 failed from 2026-01-22 to its removal, and counter 342 failed after six days in April 2026; both periods are set missing. The automatic zero_outage fixes (including the September 2019 month of zeros and May-June 2024) look right."
+}

@@ -1,0 +1,23 @@
+{
+  "group": "G0092",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 92, "DIRECTION_SK": null, "start": "2017-03-04", "end": "2019-08-13",
+     "confidence": "high",
+     "diagnosis": "The counter was effectively dead for 29 months; the only data left after the zero_outage fix are fragments of partial Friday afternoons and late evenings, which make meaningless weekly totals.",
+     "evidence": "From 2017-03-04 both directions are 0 every day except Fridays with 20-150 bikes, e.g. 2017-03-10 counts only 15:30-23:59 and an odd 22:45-23:30 burst; weekly valid_share is 0.02-0.08 (e.g. week of 2017-03-13: 98 bikes vs ~1650 normal); normal counts resume on 2019-08-14 (145/135)."},
+    {"action": "restore", "SITE_SK": 92, "DIRECTION_SK": null, "start": "2025-06-28", "end": "2025-06-29",
+     "confidence": "medium",
+     "diagnosis": "A weekend closure of this path: the zeros are real, because riders moved to the parallel off-ramp path (site 91, 10 m away), so zero_outage should not have set them missing.",
+     "evidence": "Site 92 had 0/0 on 06-28 and 10/13 on 06-29, while site 91 dir 1 rose to 56 and 65 (vs 6-15 on nearby days) and Fleming Park (site 121) was normal at 124-159."},
+    {"action": "restore", "SITE_SK": 92, "DIRECTION_SK": null, "start": "2025-09-12", "end": "2025-09-17",
+     "confidence": "medium",
+     "diagnosis": "Daytime path closures during works: counts stop sharply after the early morning or resume at 17:00, and the missing traffic shows up at site 91 in the same hours, so the zeros are real.",
+     "evidence": "2025-09-16: site 92 dir 3 had 9+12 bikes at 05-06h, then 0 from 07h, while site 91 dir 1 had 39+49 bikes at 07-08h (normally a few); 2025-09-17: 0 until 17h, then 22/18 bikes per hour; site 91 dir 1 was 97-132 per day on these days vs ~15 normally."},
+    {"action": "restore", "SITE_SK": 92, "DIRECTION_SK": null, "start": "2025-11-01", "end": "2025-11-02",
+     "confidence": "medium",
+     "diagnosis": "Another weekend closure with riders diverted to site 91; the zeros are real.",
+     "evidence": "Site 92 had 0/0 and 1/0 while site 91 dir 1 rose to 33 and 66 (vs 7-17 on nearby days); site 121 was running (83, 178)."}
+  ],
+  "series": [],
+  "summary": "Counter 171 is the only counter at the Gore Hill Fwy shared path, so each direction is its own series. It was dead from March 2017 to August 2019 (already mostly missing, and now missing in full), and apart from that the data are sound. Near-zero or reduced counts from 2024-12-27 to 2025-03-16 and on weekdays in late August and September 2025 are real closures and diversions, because the adjacent off-ramp path (site 91) picked up the riders at the same time; the matching 2025 closure days that zero_outage had set missing are restored. The one-direction surge in February 2013 (dir 3 about double, with a PM peak) has plenty of odd counts and matches a similar surge at Fleming Park, so it is kept as real riding."
+}

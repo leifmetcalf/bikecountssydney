@@ -1,0 +1,25 @@
+{
+  "group": "G0119",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 119, "DIRECTION_SK": null, "start": "2016-06-28", "end": "2016-07-03", "confidence": "high",
+      "diagnosis": "Piezo sensor fault producing phantom counts: identical night-time bursts in both directions, then slots saturating at 450.",
+      "evidence": "Daily raw 485/520, 460/7704, 95/6750, 423/2593, 245/11572, 206/15108 against a normal ~50/45; 2016-06-28 04:45-05:45 both directions read 33-37 per slot at identical values; many dir 22 slots at exactly 450."},
+    {"action": "missing", "SITE_SK": 119, "DIRECTION_SK": null, "start": "2016-08-03", "end": "2016-08-09", "confidence": "high",
+      "diagnosis": "Recurrence of the same sensor fault (phantom night-time counts, slots saturating at 450).",
+      "evidence": "Daily raw 463/507, 295/3547, 319/7493, 170/10937, 253/6317, 146/844, 157/9568; dir 22 max slot 450 most days; up to 6408 counts before 05:00."},
+    {"action": "missing", "SITE_SK": 119, "DIRECTION_SK": null, "start": "2016-08-11", "end": "2016-08-16", "confidence": "high",
+      "diagnosis": "Same sensor fault, this time mainly in dir 21, with both directions reading identical inflated values on the first day.",
+      "evidence": "Daily raw dir 21 159, 5105, 192, 1073, 1343, 664 (max slot 120-450) against ~50; 2016-08-11 both directions 159/169 with max slot 25/26; dir 22 138 on 08-12 with 89 counts before 05:00."},
+    {"action": "missing", "SITE_SK": 119, "DIRECTION_SK": null, "start": "2016-08-21", "end": "2016-08-31", "confidence": "high",
+      "diagnosis": "Same sensor fault, affecting both directions alternately, until the counter went offline on 2016-09-01.",
+      "evidence": "Daily raw 334/602, 621/2296, 48/13006, 1506/2947, 67/4334, 4482/2437, 10803/69, 9992/92, 4981/90, 2008/156, 13800/194; slots at 450 and up to 9000 counts before 05:00. The quiet-looking direction on some days (e.g. dir 21 48 on 08-23) sits inside the failing period and can't be trusted."},
+    {"action": "missing", "SITE_SK": 119, "DIRECTION_SK": 22, "start": "2018-10-04", "end": "2021-10-01", "confidence": "medium",
+      "diagnosis": "Southbound (secondary direction) detections fail from a step on 2018-10-04 and get worse over time; normal balance returns only when data resumes in 2022-06.",
+      "evidence": "Weekly dir22/dir21 ratio ~0.9 before (2018-07/09: 59 vs 52 per day) drops to 0.64 (2018), 0.57 (2019), 0.54 (2020), 0.48 (2021), then ~0.97-1.0 from 2022-06 (e.g. 2023: 53 vs 54). The nearby Darragh Ln counter on the same canal stays symmetric throughout (e.g. 2019-11 111/110). The dir 22 hourly profile keeps its PM peak but at lower volume, so this is an undercount, not a swap. The site comment notes MetroCount 'potential issues for secondary direction cyclists' in 2021."},
+    {"action": "uncertain", "SITE_SK": 119, "DIRECTION_SK": null, "start": "2024-01-09", "end": "2025-04-03", "confidence": "low",
+      "diagnosis": "Counts collapse from ~100/day to 0-8/day for 15 months, and the few counts occur only 07:00-17:00, often in single-slot bursts; this looks like a path closure for works (real) rather than a counter fault, but it can't be confirmed.",
+      "evidence": "2023-12 49/45 per day; from 2024-01-10 mostly 0-5 per day in both directions (2024-05/10 mean 3-8/day) with zero counts outside 07:00-17:00 and bursts of 10-36 in single slots. Barton Ave further along the canal carries on normally (~180-200/day per direction), so riding in the corridor continued. The site is listed OFFLINE."}
+  ],
+  "series": [],
+  "summary": "Hawthorne Canal south of Parramatta Rd is one Metrocount piezo counter (2011-2025) with steady ~40-60 bikes/day per direction. In June-August 2016 a sensor fault produced thousands of phantom counts; these are set to missing. From 2018-10 to 2021-10 the southbound direction reads only about half the northbound, which points to a failing secondary-direction detection, so it is set to missing. The near-zero, daytime-only counts from 2024-01 are flagged as uncertain (probably a works closure)."
+}

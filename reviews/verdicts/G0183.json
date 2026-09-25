@@ -1,0 +1,40 @@
+{
+  "group": "G0183",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 183, "DIRECTION_SK": 230, "start": "2019-09-18", "end": "2019-09-18", "confidence": "high",
+      "diagnosis": "Storm day: near-zero counts are real low riding, not an outage.",
+      "evidence": "183 dir 193 had 2 and dir 230 raw 5; site 184 had 0/6 and site 186 had 0/0 the same day, with all recovering on 2019-09-19."},
+    {"action": "restore", "SITE_SK": 183, "DIRECTION_SK": 230, "start": "2021-08-23", "end": "2021-08-24", "confidence": "high",
+      "diagnosis": "Wet day: the zeros are real low riding, not an outage.",
+      "evidence": "2021-08-24 raw 3/7 at 183; site 186 had 0/1, 184 3/2 and 195 16/13 (vs about 200-560 on nearby days)."},
+    {"action": "restore", "SITE_SK": 183, "DIRECTION_SK": 256, "start": "2022-03-07", "end": "2022-03-08", "confidence": "high",
+      "diagnosis": "Flood rain in early March 2022: the zeros are real, and the other direction is equally low.",
+      "evidence": "256 raw 4/1, 257 raw 2/1; site 186 had 0/0 on both days and 195 fell to 24/6."},
+    {"action": "restore", "SITE_SK": 183, "DIRECTION_SK": 256, "start": "2022-04-06", "end": "2022-04-08", "confidence": "high",
+      "diagnosis": "Heavy rain in April 2022: the zeros are real, and the other direction is equally low.",
+      "evidence": "256 raw 2/0/3 and 257 raw 1/1/2; site 184 had 1-3, 186 had 2-17 and 195 had 7-52 (vs about 330 normally)."},
+    {"action": "restore", "SITE_SK": 183, "DIRECTION_SK": null, "start": "2022-07-03", "end": "2022-07-05", "confidence": "high",
+      "diagnosis": "Early-July 2022 flood rain: the zeros are real in both directions.",
+      "evidence": "183 raw 0-3 per direction per day; site 186 had 0-1 and 195 had 3-15 (vs 80+ on 2022-07-07)."},
+    {"action": "restore", "SITE_SK": 183, "DIRECTION_SK": null, "start": "2023-01-06", "end": "2023-01-06", "confidence": "high",
+      "diagnosis": "Wet day: the zeros are real in both directions.",
+      "evidence": "183 raw 3/4; site 186 had 6/8 and 195 had 36/35, against about 300 on the days around it."},
+    {"action": "uncertain", "SITE_SK": 183, "DIRECTION_SK": null, "start": "2021-02-28", "end": "2021-07-12", "confidence": "low",
+      "diagnosis": "Three runs of exact zeros in both directions (2021-03-01 to 03-17, 2021-04-27 to 05-01, 2021-05-10 to 07-11). They could be path closures for works or counter outages, so the automatic missing stays.",
+      "evidence": "Nearby sites 184, 182 and 195 kept normal levels, so this is not weather. Zeros start at midnight Sunday into Monday and end on Mon 07:00, Sat 14:00 and Wed 16:00, and 184/182 rose from about 0.33 to 0.39 during the May-July run, which leans towards a closure. But the 2019 diversion here still let 1-10 bikes a day through, while these runs are 64 days of exact zeros."},
+    {"action": "uncertain", "SITE_SK": 183, "DIRECTION_SK": null, "start": "2023-08-19", "end": "2023-08-20", "confidence": "low",
+      "diagnosis": "Weekend with near-zero counts at 183 only. It could be a weekend closure or a counter fault; the automatic missing stays.",
+      "evidence": "183 raw 1/0 and 3/1, against 195 at 421-540 and 186 at 59-110; 183 was back to 43/27 on Monday."}
+  ],
+  "series": [
+    {"SITE_SK": 183, "name": "Westbound", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 190, "DIRECTION_SK": 230, "start": null, "end": null},
+                {"COUNTER_SK": 213, "DIRECTION_SK": 256, "start": null, "end": null}],
+      "evidence": "Same site and both labelled West. Counter 213 replaced 190 after a 4-day gap (2022-01-23 to 01-28). Levels are comparable: 190 averaged 30/day in Jan 2022 and 213 averaged 39-42/day in late Jan and 30 in Feb. Both West directions show the earlier 6-7am workday start."},
+    {"SITE_SK": 183, "name": "Eastbound", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 190, "DIRECTION_SK": 193, "start": null, "end": null},
+                {"COUNTER_SK": 213, "DIRECTION_SK": 257, "start": null, "end": null}],
+      "evidence": "Same site and both labelled East. Counter 213 replaced 190 after a 4-day gap. Levels are comparable: 190 averaged 34/day in Jan 2022 and 213 averaged 39/day in late Jan and 30 in Feb 2022."}
+  ],
+  "summary": "Site 183 is a single river-path leg. Counter 190 (2019-2022) was followed by counter 213 (2022-2024) with a 4-day gap and comparable levels, so the directions are joined by label. The May-June 2019 near-zero spell is a real diversion (site 185 tripled at the same time), and the level shifts in 2022-2023 are gradual and look real. Several automatic zero_outage fixes on storm and flood days are restored. The long exact-zero runs in 2021 could be closures or outages and stay missing, marked uncertain."
+}

@@ -1,0 +1,374 @@
+{
+ "group": "G0554",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-09-13",
+   "end": "2017-09-13",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-09-19",
+   "end": "2017-09-23",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-09-25",
+   "end": "2017-09-27",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-09-29",
+   "end": "2017-09-29",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-10-01",
+   "end": "2017-10-01",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-10-05",
+   "end": "2017-10-05",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-10-09",
+   "end": "2017-10-09",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-10-12",
+   "end": "2017-10-12",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-10-16",
+   "end": "2017-10-19",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-10-29",
+   "end": "2017-10-30",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-11-14",
+   "end": "2017-11-15",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-11-23",
+   "end": "2017-11-23",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-11-25",
+   "end": "2017-11-26",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-11-29",
+   "end": "2017-12-01",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-12-10",
+   "end": "2017-12-14",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-12-16",
+   "end": "2017-12-16",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-12-19",
+   "end": "2017-12-20",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-12-23",
+   "end": "2017-12-23",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2017-12-29",
+   "end": "2017-12-30",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-01-02",
+   "end": "2018-01-02",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-01-06",
+   "end": "2018-01-07",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-01-18",
+   "end": "2018-01-22",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-01-24",
+   "end": "2018-01-24",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-01-30",
+   "end": "2018-01-30",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-02-07",
+   "end": "2018-02-08",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-02-10",
+   "end": "2018-02-10",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-02-12",
+   "end": "2018-02-12",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-02-14",
+   "end": "2018-02-15",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-02-17",
+   "end": "2018-02-18",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-03-19",
+   "end": "2018-03-19",
+   "confidence": "high",
+   "diagnosis": "Counter 225 dropped out for a block of hours (typically ~14:00-20:00) on this day, zeroing all four channels in both directions through the PM peak, so the daily total is heavily undercounted.",
+   "evidence": "Recurring Sep 2017-Feb 2018 fault: combined N+S raw shows an unbroken run of zero slots covering the afternoon/PM peak (expected 80-580 bikes, 13-48% of the day) with normal counts before and after; N/S ratio jumps to 1.4-2.5 because the lost PM peak is mostly southbound (normally ~1.0)."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 554,
+   "DIRECTION_SK": null,
+   "start": "2018-06-20",
+   "end": "2018-06-20",
+   "confidence": "low",
+   "diagnosis": "Both directions record almost only zeros from 09:30 to 20:15 on a Wednesday after a normal AM peak, which could be a counter outage or a path closure/extreme weather.",
+   "evidence": "Combined raw 351 vs ~860 expected; 334 has AM peak 23-36/slot then 42 consecutive slots of 0 apart from two 1s; 335 likewise; evening slots resume at normal levels; 2018-06-19 was also low (336) suggesting wet weather."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 554,
+   "name": "Bourke St northbound (citybound), EcoCounter 2016-2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 225,
+     "DIRECTION_SK": 334,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Original EcoCounter piezo, North direction (AM peak 08:00)."
+  },
+  {
+   "SITE_SK": 554,
+   "name": "Bourke St southbound, EcoCounter 2016-2025",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 225,
+     "DIRECTION_SK": 335,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Original EcoCounter piezo, South direction (PM peak 17:00)."
+  },
+  {
+   "SITE_SK": 554,
+   "name": "Bourke St northbound (citybound), MetroCount 2025-",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 363,
+     "DIRECTION_SK": 1763,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Replacement MetroCount MC5920 after a 5.5-month gap; same North/AM-peak profile as 334 but reads ~25-44% higher year-on-year (e.g. Mar 2026 1084/day vs Mar 2025 866), more than independent neighbours Anzac Pde (+16%) and Alison Rd tube (+12-19%) though similar to Moore Park Rd tube (+35-48%), so comparability cannot be confirmed; kept separate."
+  },
+  {
+   "SITE_SK": 554,
+   "name": "Bourke St southbound, MetroCount 2025-",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 363,
+     "DIRECTION_SK": 1764,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Replacement MetroCount, South/PM-peak profile matching 335; level ~30% above the old counter with a gap between, so kept separate for the same reason as northbound."
+  }
+ ],
+ "summary": "Bourke St (W) N of Thurlow St cycleway: EcoCounter 225 (2016-05 to 2025-05, 4 channels per direction) replaced by MetroCount 363 from 2025-10; the automatic fixes (long zero outages in 2019, 2020-21 and 2023, two corrupt spike days, and 2022-2024 duplicated records) are correct. Between Sep 2017 and Mar 2018 the old counter repeatedly dropped out for the afternoon/PM peak, which the automatic fixes missed, so 58 such days are set missing; 2018-06-20 is uncertain. The new counter reads 25-44% above the old one after a gap, more than most independent neighbours grew, so old and new counters are kept as separate series."
+}

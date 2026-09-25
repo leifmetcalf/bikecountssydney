@@ -1,0 +1,20 @@
+{
+  "group": "G0538",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 538, "DIRECTION_SK": 1559, "start": "2025-04-23", "end": "2025-04-23",
+      "confidence": "low",
+      "diagnosis": "On counter 331's last day the East direction loses its morning peak while West stays normal, which may be a sensor failing or being removed, or just a quiet school-holiday day.",
+      "evidence": "East 08:00 hour 3 bikes (21 the day before, weekday mean about 50); East day total 73 vs 140 on 2025-04-22; West 173 vs 117; the two directions together are about the same (246 vs 257)."}
+  ],
+  "series": [
+    {"SITE_SK": 538, "name": "Henderson Rd path eastbound (citybound)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 331, "DIRECTION_SK": 1559, "start": null, "end": null},
+                {"COUNTER_SK": 353, "DIRECTION_SK": 1743, "start": null, "end": null}],
+      "evidence": "Same site and orientation, both MetroCount piezo units, no overlap (331 ends 2025-04-23, 353 starts 2025-09-16); East levels are comparable a year apart (Feb-Apr 2025 292/276/253 per day vs Feb-Apr 2026 285/287/306), and the hourly profiles match (08:00 peak 50.4 vs 56.8)."},
+    {"SITE_SK": 538, "name": "Henderson Rd path westbound", "confidence": "high",
+      "parts": [{"COUNTER_SK": 331, "DIRECTION_SK": 1560, "start": null, "end": null},
+                {"COUNTER_SK": 353, "DIRECTION_SK": 1744, "start": null, "end": null}],
+      "evidence": "Same site and orientation, same technology, sequential; West levels are comparable (Feb-Apr 2025 216/208/199 vs Feb-Apr 2026 211/219/234) and the hourly profiles match (17:00 peak 38.8 vs 40.4)."}
+  ],
+  "summary": "Counter 331's automatic halving (2023-10-24 to 2024-05-19) is well founded: there are 0 odd raw slots out of about 25,000 non-zero slots in both directions, the level drops by exactly half at the boundary, and the halved levels match the same months a year later. Counter 353's zero_outage on 2025-10-23 (a full day of zeros in both directions) is correct, and the rest of the record looks clean. Counter 331 is replaced by 353 after a gap from 2025-04 to 2025-09 at matching levels and daily profiles, so each direction is joined into one series."
+}

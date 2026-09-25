@@ -1,0 +1,15 @@
+{
+  "group": "G0173",
+  "decisions": [
+    {"action": "halve", "SITE_SK": 173, "DIRECTION_SK": 108, "start": "2022-02-19", "end": "2022-02-19",
+      "confidence": "medium",
+      "diagnosis": "On the same day the automatic fix halved northbound, southbound was also double-counted (every non-zero slot even) but the fix did not catch it.",
+      "evidence": "2022-02-19 dir 108 raw 40 across 11 non-zero slots with 0 odd (values 2, 6, 8...) vs 7-17 odd slots on surrounding days and a typical Saturday of 10-20; dir 107 on the same day had 22 non-zero slots, all even (raw 60), and was halved."},
+    {"action": "restore", "SITE_SK": 173, "DIRECTION_SK": 108, "start": "2025-06-30", "end": "2025-07-02",
+      "confidence": "medium",
+      "diagnosis": "The southbound zeros marked as a zero_outage were real low riding during the heavy rain around 1 July 2025, not a counter fault.",
+      "evidence": "Both directions low and counting sporadically through the day (107: 14/3/12, 108: 2/2/3 raw); nearby sites collapse on the same days (site 195: ~350/day to 32 and 37 on 07-01/07-02; site 190: 29 and 32; site 125: 16 and 31); 107 was not flagged and 108 reads normally again from 07-03."}
+  ],
+  "series": [],
+  "summary": "A single Metrocount tube counter (122) on the Wigram St path north of the M4 has run continuously since Sept 2021, with one record per slot and a level that tracks the adjacent M4 path counter (site 125), including the rise from late 2024. The automatic fixes are right for the doubled run of 2024-11-28 to 12-08 (all slots even in both directions) and for the multi-day outages of zeros (Jul 2022, Dec 2022, Feb-Mar 2025, May 2025, Oct 2025), but the fix missed southbound doubling on 2022-02-19 and wrongly blanked real rain-day lows for southbound on 2025-06-30 to 07-02."
+}

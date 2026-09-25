@@ -1,0 +1,15 @@
+{
+  "group": "G0546",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 546, "DIRECTION_SK": 1755, "start": "2025-10-22", "end": "2025-10-22",
+      "confidence": "medium",
+      "diagnosis": "zero_outage extended the 2025-10-23 outage back over the West direction's late-evening trickle, which is genuine low night-time riding continuous with the preceding slots.",
+      "evidence": "22:45-23:45 slots read 0,3,2,0,2 (7 bikes) following 3,1,2 at 22:00-22:30; East direction counting normally (12,9,15,5,3) in the same slots."},
+    {"action": "restore", "SITE_SK": 546, "DIRECTION_SK": 1755, "start": "2025-10-24", "end": "2025-10-24",
+      "confidence": "medium",
+      "diagnosis": "zero_outage extended the 2025-10-23 outage forward over the West direction's early-morning trickle after the counter had resumed.",
+      "evidence": "00:00-01:30 slots read 2,1,0,3,2,1,0 (9 bikes), matching the unfixed 01:45-04:30 slots (0-2 each); East direction resumed at 00:00 too (4,8,7,6)."}
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo counter on the Oxford St cycleway (Oct 2025 to Sep 2026), one record per slot, no duplicates, halving or impossible counts; the only fault is a whole-day zero outage on 2025-10-23 in both directions, correctly set missing. The automatic fix also removed 16 genuine late-night/early-morning West-direction bikes on the edges of that outage, which should be restored; low days (weekends, Christmas, 2026-02-28 Mardi Gras parade, school holidays) are real."
+}

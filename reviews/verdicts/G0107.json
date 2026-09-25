@@ -1,0 +1,22 @@
+{
+  "group": "G0107",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 107, "DIRECTION_SK": 62, "start": "2013-02-15", "end": "2013-02-28", "confidence": "medium",
+      "diagnosis": "The South channel also registered northbound riders for two weeks, so South read roughly South plus North while North stayed normal.",
+      "evidence": "South/North daily ratio 1.7-1.95 against a rolling median of 0.79; South minus North = 150-285/day, matching normal South levels (180-230); South's hourly profile gains North's PM peak (48/h vs 17/h in March); ends abruptly by 2013-03-02 (S 41 < N 59)."},
+    {"action": "missing", "SITE_SK": 107, "DIRECTION_SK": null, "start": "2016-02-18", "end": "2016-03-14", "confidence": "medium",
+      "diagnosis": "The failing counter undercounted heavily (North worst) between intermittent outages, while the neighbouring counter 0.3 km away (site 176) was steady.",
+      "evidence": "Daily 107/176 total ratio 0.26-0.58 (normal 0.8-0.9); complete weeks 2016-02-29 and 03-07 total 1717 and 1380 vs ~3500 in 2015 while site 176 held ~4000/week; North/South split flipped (S/N 1.4-1.6 vs 0.86)."},
+    {"action": "missing", "SITE_SK": 107, "DIRECTION_SK": null, "start": "2017-01-14", "end": "2017-01-27", "confidence": "medium",
+      "diagnosis": "Final days before the counter died: undercounting, then a corrupt burst of hundreds per slot on 2017-01-23 ahead of the impossible counts on 2017-01-27.",
+      "evidence": "107/176 ratio 0.27-0.52 on 2017-01-14..20; 2017-01-23 11:30-13:00 slots of 109-618 (North 2769, South 1532 in 1.5 h on a Monday with no event at site 176); 2017-01-27 already flagged impossible_count (6385/9221)."},
+    {"action": "uncertain", "SITE_SK": 107, "DIRECTION_SK": null, "start": "2015-12-10", "end": "2017-01-13", "confidence": "low",
+      "diagnosis": "The counter ran intermittently in this period (recurring Friday gaps, mostly partial days), and some complete days read low against the neighbour, so the remaining complete days may undercount.",
+      "evidence": "Only a handful of complete days per month; 107/176 ratio varies from 0.43-0.67 (e.g. 2016-10-10, 2016-12-03/04, 2017-01-01) to a normal 0.85-1.0 (2016-11-26..29, 2016-12-10..13)."},
+    {"action": "direction_unreliable", "SITE_SK": 107, "DIRECTION_SK": null, "start": "2018-05-07", "end": "2019-12-19", "confidence": "high",
+      "diagnosis": "After the counter was reinstated in May 2018 the North and South labels are swapped relative to 2011-2016 and 2021-2026; the total is unaffected.",
+      "evidence": "In 2011-15 and 2021-26 South carries the AM peak (24-25/h at 06-07h) and North the PM peak (21-26/h at 16-17h); in 2018-19 it is the reverse (North AM 24-26/h, South PM 23/h). North>South in all other years but South>North by ~1.2x throughout 2018-19. The October ride spike that matches site 176 direction 112 lands on 107 North in 2016 but on 107 South in 2018 and 2019."}
+  ],
+  "series": [],
+  "summary": "Single piezo counter on the John Whitton Bridge path, 2011-2026, with long gaps in 2015-2018 and 2020-2021; the automatic fixes (zero outages, the 2022-02-19 halving) check out against the neighbouring site 176. The main problems are a two-week 2013 fault where South also counted northbound riders, a failing counter in 2015-12 to 2017-01 that undercounted and then produced corrupt bursts, and swapped direction labels for 2018-05 to 2019-12. October spikes are real organised rides."
+}

@@ -1,0 +1,187 @@
+{
+ "group": "G0475",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2024-04-12",
+   "end": "2024-04-13",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "4261 and 4816 bikes/day vs median 30; 100-290/hour in both directions, including overnight; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2024-07-23",
+   "end": "2024-07-24",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "3421 and 1282 bikes/day; 130-320/hour from 09:00; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-02-04",
+   "end": "2025-02-06",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "1090, 3194, 1240 bikes/day; up to 460/hour; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-02-08",
+   "end": "2025-02-08",
+   "confidence": "medium",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "221 bikes/day; 15 slots >=5, 6 slots where both directions >=4 (normal <=3); adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-07-06",
+   "end": "2025-07-07",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "3281 and 2933 bikes/day; 400-650/hour midday; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-07-21",
+   "end": "2025-07-22",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "8561 bikes/day (up to 1507/hour), then 253 with 22 slots >=5; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02",
+   "end": "2025-08-02",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "1246 bikes/day; up to 184/hour; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-08-06",
+   "end": "2025-08-06",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "491 bikes/day; 44 slots >=5; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-08",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "521 bikes/day; one slot of 114; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-08-12",
+   "end": "2025-08-13",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "1221 and 379 bikes/day; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-09-06",
+   "end": "2025-09-06",
+   "confidence": "medium",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "229 bikes/day; 12 slots >=5; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-09-15",
+   "end": "2025-09-16",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "901 and 627 bikes/day; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-09-29",
+   "end": "2025-09-29",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "549 bikes/day; 44 slots >=5; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-10-13",
+   "end": "2025-10-13",
+   "confidence": "high",
+   "diagnosis": "Camera phantom detections on the Wattle St NE shared path zone: sustained surges in both directions that no adjacent zone (476, 481, 477) shows.",
+   "evidence": "892 bikes/day; up to 189/hour; adjacent zones 476/481 normal those days"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 475,
+   "DIRECTION_SK": null,
+   "start": "2025-02-01",
+   "end": "2025-10-14",
+   "confidence": "low",
+   "diagnosis": "The same phantom mechanism probably also inflates smaller surge days (100-200/day) that were left in place.",
+   "evidence": "Days such as 2025-03-14 (152), 2025-06-11 (168), 2025-07-05 (162), 2025-09-12 (198), 2025-10-09 (167) vs median 30/day; not matched in adjacent zones"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 476,
+   "DIRECTION_SK": 1378,
+   "start": "2025-07-22",
+   "end": "2025-07-22",
+   "confidence": "low",
+   "diagnosis": "Possible phantom surge in the NW-bound shared path zone, similar to those at site 475.",
+   "evidence": "973 vs ~300-450 on adjacent days; slots of 76 and 60 vs usual <20; SE-bound 353 normal"
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 476,
+   "DIRECTION_SK": 1378,
+   "start": "2025-09-02",
+   "end": "2025-09-02",
+   "confidence": "low",
+   "diagnosis": "Possible phantom surge in the NW-bound shared path zone; could also be real peak riding.",
+   "evidence": "892 vs ~400 on adjacent days; 13:00 hour 176 and 17:00 hour 163"
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 479,
+   "DIRECTION_SK": null,
+   "start": "2024-10-08",
+   "end": "2024-12-09",
+   "confidence": "medium",
+   "diagnosis": "The Kelly St south footpath zone recorded near-zero during works at the intersection; the camera was running and the zeros look like a real closure, not an outage.",
+   "evidence": "Both directions 0-5/day from 2024-10-09 while every other zone counted normally; during the same weeks 476 and 483 stepped up (2024-11-07) and 476/477 again (2024-12-10), and 479 came back on 2024-12-10 with a new pattern (West 40-80/day vs East ~6), which points to construction"
+  }
+ ],
+ "series": [],
+ "summary": "This is a single VivaCity camera (counter 319) at Wattle St and Kelly St, Ultimo, so no series need defining. Zone 475 (Wattle St NE shared path, NW of Kelly St) has intermittent phantom surges of hundreds to thousands of bikes a day in both directions that no neighbouring zone shows, and I set those days to missing. The step changes in Nov and Dec 2024 (476, 483, 477, 479) look like real new infrastructure and are kept, and the 479 footpath zeros during that work are restored as a likely closure."
+}

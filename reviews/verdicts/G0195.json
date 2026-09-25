@@ -1,0 +1,15 @@
+{
+  "group": "G0195",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 195, "DIRECTION_SK": 224, "start": "2022-04-08", "end": "2022-04-09",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed overnight zeros during the April 2022 storm lull, when riding was genuinely near zero at this and every nearby river-path counter.",
+      "evidence": "Site totals 04-06..09 were 76/16/96/170 vs 709 on 04-05; neighbours 191/190/208 fell the same way (58/10/52/133 at 191); East (232) kept its zeros; the removed slots are 19:15-23:59 on 04-08 and 00:00-07:29 on 04-09, when counts are normally near zero."},
+    {"action": "restore", "SITE_SK": 195, "DIRECTION_SK": 232, "start": "2025-08-21", "end": "2025-08-21",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed daytime zeros on a very wet day when both directions and all neighbours recorded almost no riding.",
+      "evidence": "West (224) recorded only 6 bikes that day, with zeros kept 08:00-19:59; neighbour sites 190/191/208 recorded 14/23/47 vs 300-700 normally; 08-20 and 08-22 were also very low (81 and 55 at this site)."}
+  ],
+  "series": [],
+  "summary": "A single Metrocount piezo counter on the Parramatta River escarpment boardwalk, 2021-03-29 to 2026-08-02, with one record per slot and consistent West/East levels throughout; dips in March, April and July 2022, May 2024 and August 2025 are shared by neighbouring river-path counters and are real (weather or floods). The pre-opening days to 2021-04-01 10:00 and the all-warning zero day 2025-10-20 (also zero at sites 190, 191 and 208) are rightly missing. Only two small zero_outage removals on genuinely quiet storm days are restored."
+}

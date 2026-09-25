@@ -1,0 +1,38 @@
+{
+  "group": "G0174",
+  "decisions": [
+    {"action": "direction_unreliable", "SITE_SK": 174, "DIRECTION_SK": null, "start": "2022-07-27", "end": "2022-10-31", "confidence": "high",
+      "diagnosis": "After the tubes were reinstalled following the June-July 2022 outage the two directions are swapped (East labelled 251 carries the westbound flow and vice versa) until the next reinstall on 2022-11-08; totals are right, and the series below reassign the parts.",
+      "evidence": "Workday share of the 07-09h+17-19h peaks that is in the morning: East 0.77-0.81 / West 0.24-0.26 in Mar-May 2022, East 0.19-0.24 / West 0.76-0.78 in Jul-Oct 2022, back to East 0.77 / West 0.24 from 2022-11-09; daily totals stay balanced (e.g. 2022-08-02 E 140 W 133)."},
+    {"action": "direction_unreliable", "SITE_SK": 174, "DIRECTION_SK": null, "start": "2024-10-18", "end": "2026-09-22", "confidence": "high",
+      "diagnosis": "After the 2024-10-17/18 interruption the directions are swapped again for the rest of the record; totals are right, and the series below reassign the parts.",
+      "evidence": "Morning share of peaks: East 0.79-0.81 / West 0.19-0.22 Jan-Sep 2024 and to 2024-10-16 (E am 64 pm 15), then East 0.16-0.22 / West 0.72-0.82 every month Nov 2024-Sep 2026 (2024-10-21 E am 8 pm 61, W am 58 pm 10); E/W weekly ratio stays about 1.0."},
+    {"action": "missing", "SITE_SK": 174, "DIRECTION_SK": 253, "start": "2023-06-26", "end": "2023-06-29", "confidence": "medium",
+      "diagnosis": "Tube failure: eastbound went to zero from mid-morning 2023-06-26 (already set missing) and westbound kept registering only a small fraction of its riders until the full outage from 2023-06-30.",
+      "evidence": "West daily 31, 30, 10, 19 against 779-830 per week (about 115 per weekday) in the surrounding weeks; East 0 on the same days; normal E/W ratio about 1.0."},
+    {"action": "missing", "SITE_SK": 174, "DIRECTION_SK": 80, "start": "2021-04-24", "end": "2021-04-24", "confidence": "medium",
+      "diagnosis": "Westbound detection dropped out for the day while eastbound counted normally, then recovered the next day.",
+      "evidence": "2021-04-24 West 9 (hourly 0-2) vs East 62; on every other full day of counter 108 the E/W ratio is 0.35-0.65 of the total; 2021-04-25 West 61, East 71."}
+  ],
+  "series": [
+    {"SITE_SK": 174, "name": "Eastbound (citybound)", "confidence": "high",
+      "parts": [
+        {"COUNTER_SK": 108, "DIRECTION_SK": 79, "start": null, "end": null},
+        {"COUNTER_SK": 210, "DIRECTION_SK": 251, "start": "2022-01-18", "end": "2022-07-26"},
+        {"COUNTER_SK": 210, "DIRECTION_SK": 253, "start": "2022-07-27", "end": "2022-10-31"},
+        {"COUNTER_SK": 210, "DIRECTION_SK": 251, "start": "2022-11-01", "end": "2024-10-17"},
+        {"COUNTER_SK": 210, "DIRECTION_SK": 253, "start": "2024-10-18", "end": null}
+      ],
+      "evidence": "Counter 210 (same tube model) replaced 108 at the same site after a 4-week gap with a similar level (Dec 2021 ~104/day, Feb 2022 ~94/day per direction); the citybound flow is the one with the morning peak (AM share ~0.78), which sits in 253 during the two swapped periods."},
+    {"SITE_SK": 174, "name": "Westbound (outbound)", "confidence": "high",
+      "parts": [
+        {"COUNTER_SK": 108, "DIRECTION_SK": 80, "start": null, "end": null},
+        {"COUNTER_SK": 210, "DIRECTION_SK": 253, "start": "2022-01-18", "end": "2022-07-26"},
+        {"COUNTER_SK": 210, "DIRECTION_SK": 251, "start": "2022-07-27", "end": "2022-10-31"},
+        {"COUNTER_SK": 210, "DIRECTION_SK": 253, "start": "2022-11-01", "end": "2024-10-17"},
+        {"COUNTER_SK": 210, "DIRECTION_SK": 251, "start": "2024-10-18", "end": null}
+      ],
+      "evidence": "Same replacement as above; the outbound flow is the one with the evening peak (AM share ~0.22), which sits in 251 during the two swapped periods."}
+  ],
+  "summary": "Railway Ave, Stanmore is a clean, well-balanced tube site: counter 108 (2021) was replaced by counter 210 (2022 onward) at a comparable level, and the automatic zero_outage fixes correctly remove the tube outages. The main problem is that the direction labels of counter 210 are swapped from 2022-07-27 to 2022-10-31 and from 2024-10-18 to the end, shown by the morning and evening peaks changing sides after reinstalls; the series reassign the parts accordingly. Two short partial-detection episodes (westbound 2021-04-24 and 2023-06-26 to 06-29) are set missing."
+}

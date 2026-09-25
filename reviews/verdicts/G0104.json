@@ -1,0 +1,15 @@
+{
+  "group": "G0104",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 104, "DIRECTION_SK": null,
+      "start": "2012-05-29", "end": "2012-08-15", "confidence": "high",
+      "diagnosis": "The counter was failing intermittently: the fragments left between the automatic zero_outage runs (a full zero weekday on 2012-06-27, partial days of 1-6 bikes, and isolated bursts) do not reflect riding.",
+      "evidence": "Usual level is 12-13/day per direction; 2012-06-27 kept as 0/0 with 96 valid slots; 2012-06-26 4/5, 07-05 6/5 over ~59 valid slots; 2012-07-25 dir 30 has 19 bikes in a single slot and dir 29 24 in 6 slots, amid weeks of zeros."},
+    {"action": "restore", "SITE_SK": 104, "DIRECTION_SK": 30,
+      "start": "2020-02-08", "end": "2020-02-10", "confidence": "medium",
+      "diagnosis": "The dir 30 zeros during the 8-10 Feb 2020 rain are real low riding, not an outage: dir 29 was just as depressed and dir 30 recorded before and after the gap without a break.",
+      "evidence": "Daily raw 29/30: 02-07 7/3, 02-08 3/3, 02-09 2/0, 02-10 11/7 against a usual ~15/15; the dir 30 gap runs from 02-08 09:45 to 02-10 07:00, when dir 29 had only ~4 bikes."}
+  ],
+  "series": [],
+  "summary": "Site 104 has a single piezo counter (100) with two directions at about 12-20 bikes/day each from 2011 to 2020, broken by long dead-sensor periods of zeros (2011-05 to 2012-03, 2012-05 to 2015-05, 2015-10 to 2015-11, 2017-05, 2018-10 to 2019-04) that the automatic zero_outage fix already sets missing. The only other changes are to set missing the unreliable fragments left inside the 2012 failure, and to restore dir 30's genuine zeros during the February 2020 rain. The site has only one counter, so no series are defined."
+}

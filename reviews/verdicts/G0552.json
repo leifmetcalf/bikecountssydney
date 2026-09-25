@@ -1,0 +1,19 @@
+{
+  "group": "G0552",
+  "decisions": [],
+  "series": [
+    {"SITE_SK": 552, "name": "AM-peak direction (towards city), Ecocounter 241", "confidence": "high",
+      "parts": [{"COUNTER_SK": 241, "DIRECTION_SK": 351, "start": null, "end": null}],
+      "evidence": "DIRECTION 351 (labelled West) peaks at 08:00 in every period checked (84-176/h vs 10-20/h for 350), the same shape as 360/1757 (labelled East, 280/h at 08:00), so 241's labels look swapped relative to 360's; kept separate from 1757 because the new counter reads about 2.2x the old level (8h peak 154-176 -> 280; ~450 -> ~850/day), far beyond growth at Anzac Br (+20-25%) or Kent St after its own replacement (+40%)."},
+    {"SITE_SK": 552, "name": "PM-peak direction (from city), Ecocounter 241", "confidence": "high",
+      "parts": [{"COUNTER_SK": 241, "DIRECTION_SK": 350, "start": null, "end": null}],
+      "evidence": "DIRECTION 350 (labelled East) peaks at 17:00 (58-105/h), matching 360/1758 (labelled West, 223/h at 17:00); separate from 1758 because of the ~2.2x level step across the Aug-Oct 2025 gap between counters."},
+    {"SITE_SK": 552, "name": "AM-peak direction (towards city), Metrocount 360", "confidence": "high",
+      "parts": [{"COUNTER_SK": 360, "DIRECTION_SK": 1757, "start": null, "end": null}],
+      "evidence": "Replacement counter from 2025-10-23, one record per slot, no fixes, stable 5000-7200/week; AM peak at 08:00. Not joined to 241/351 because levels are not comparable (~2.2x)."},
+    {"SITE_SK": 552, "name": "PM-peak direction (from city), Metrocount 360", "confidence": "high",
+      "parts": [{"COUNTER_SK": 360, "DIRECTION_SK": 1758, "start": null, "end": null}],
+      "evidence": "Replacement counter from 2025-10-23, PM peak at 17:00, stable 4400-6400/week; not joined to 241/350 because levels are not comparable (~2.2x)."}
+  ],
+  "summary": "Ecocounter 241 (2021-10 to 2025-08) is sound once the automatic fixes are applied: the all-zero start-up to 2022-03-24 and the multi-week zero outages (Jun-Aug 2023, May-Jul 2025) are correctly set missing, and the whole-day duplicate_record days (raw exactly 2x) are correctly de-duplicated. Metrocount 360 (from 2025-10-23) is clean but reads about 2.2x the old counter in both directions, far more than nearby growth, so old and new counters are kept as separate series. The directional labels of 241 look swapped relative to 360 (241's 'West' carries the AM peak that 360 calls 'East'); the series are named by peak direction."
+}

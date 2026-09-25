@@ -1,0 +1,32 @@
+{
+  "group": "G0577",
+  "decisions": [
+    {"action": "direction_unreliable", "SITE_SK": 577, "DIRECTION_SK": null,
+     "start": "2026-01-27", "end": "2026-03-09", "confidence": "high",
+     "diagnosis": "Until the camera zone was split on 9 Mar (about 11:00), both directions of the greenway were published under 1816 as two distinct records per slot and 1824 did not exist, so 1816 holds the two-way total.",
+     "evidence": "1816 had 1.9-2.0 records per slot with differing values (e.g. [4,7],[7,4]) to 8 Mar, then 1.0; 1816 alone ran 4160-4956/week in Feb-early Mar against 1816+1824 of 4349-4830/week from mid-March; 1824 first counts 9 Mar 10:00."},
+    {"action": "direction_unreliable", "SITE_SK": 578, "DIRECTION_SK": null,
+     "start": "2026-01-27", "end": "2026-03-08", "confidence": "high",
+     "diagnosis": "Before 9 Mar the footpath zone published both directions under 1846 (two records per slot) and 1849 had only a few empty slots, so 1846 holds the two-way total.",
+     "evidence": "1846 had about 1.95 records per slot until early March and 17/day in Feb, against 1846+1849 of about 18/day in March-April; 1849 had 0 bikes in 4 stray slots before 9 Mar and counts from 9 Mar."},
+    {"action": "missing", "SITE_SK": 578, "DIRECTION_SK": 1846,
+     "start": "2026-01-27", "end": "2026-01-27", "confidence": "high",
+     "diagnosis": "This was the camera's first day: it had zeros until it came online at 16:45, and its first slot holds a backlog dump. The same slot at site 577 was 8437 and was removed automatically.",
+     "evidence": "16:45 slot = 131 on a footpath averaging 17/day, while the rest of the day totals 4; at 577 the same slot held 8437 (impossible_count) and the whole day was already set missing."}
+  ],
+  "series": [
+    {"SITE_SK": 577, "name": "Greenway southwest", "confidence": "high",
+     "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1816, "start": null, "end": null}],
+     "evidence": "Single camera counter 384. It is shared with site 578, but that is a different zone (the Old Canterbury Rd footpath) carrying different bikes."},
+    {"SITE_SK": 577, "name": "Greenway northeast", "confidence": "high",
+     "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1824, "start": null, "end": null}],
+     "evidence": "Single camera counter 384; published separately from 9 Mar 2026."},
+    {"SITE_SK": 578, "name": "Old Canterbury Rd footpath westbound", "confidence": "high",
+     "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1846, "start": null, "end": null}],
+     "evidence": "Single camera counter 384. This footpath zone is separate from the greenway zone at 577."},
+    {"SITE_SK": 578, "name": "Old Canterbury Rd footpath eastbound", "confidence": "high",
+     "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1849, "start": null, "end": null}],
+     "evidence": "Single camera counter 384; counts from 9 Mar 2026."}
+  ],
+  "summary": "One VivaCity camera (counter 384) covers a greenway zone (577, about 500-700 bikes/day in both directions together) and a footpath zone (578, about 15/day). Until 8-9 Mar 2026 each zone published both directions under a single direction ID (1816 or 1846), so the split is unreliable there but the totals are right. The only count fault is the backlog dump in the first slot on the start day (27 Jan). Later swings, such as the May drop and the wet late June, move all directions together and are real."
+}

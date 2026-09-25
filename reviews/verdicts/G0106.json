@@ -1,0 +1,24 @@
+{
+  "group": "G0106",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 106, "DIRECTION_SK": 8, "start": "2013-02-15", "end": "2013-02-28",
+      "confidence": "high",
+      "diagnosis": "From mid-morning 15 Feb 2013 the South (8) channel also registered the opposite direction's riders, so it carried its own flow plus a copy of direction 7's flow until the fault cleared by 1 Mar.",
+      "evidence": "Dir 8 workday totals 1033-1450 vs 446-640 in the weeks around, while dir 7 stayed at its usual 670-930; dir 8 gained a PM peak (16h: 164 vs 47 normal) that matches dir 7's PM profile (126), so its extra count is about the same as dir 7's hourly flow; weekly pm8/pm7 ratio 1.16-1.24 vs 0.25-0.37 in every other week before 2022; odd slots stay normal, so not a halving case."},
+    {"action": "missing", "SITE_SK": 106, "DIRECTION_SK": null, "start": "2017-05-18", "end": "2017-05-19",
+      "confidence": "high",
+      "diagnosis": "The counter failed just before a week-long outage: from 18:45 on 18 May both directions logged near-identical false counts, including 100+ per slot in the small hours of 19 May, and the unit then went dead around 11:00.",
+      "evidence": "19 May raw 1102/1055 in only 40-50 active slots, with 868/847 before 05:00 (99th-percentile night total ~20) and slots of 116/109, 131/128 at 03:00-04:00; 18 May 18:45-24:00 pairs 30/30, 37/32, 26/25, 35/30, 36/34 at hours that normally carry under 5 per slot; zeros from 19 May 12:00 to 26 May."}
+  ],
+  "series": [
+    {"SITE_SK": 106, "name": "AM-peak direction (likely northbound, citybound)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 160, "DIRECTION_SK": 8, "start": null, "end": "2021-10-08"},
+                {"COUNTER_SK": 160, "DIRECTION_SK": 7, "start": "2022-07-30", "end": null}],
+      "evidence": "Direction labels swapped when the counter came back after the Oct 2021-Jul 2022 gap. Weekly am7/am8 (06-09h workday) is 0.2-0.75 in every week 2011-2021 but 2.5-4.9 from Aug 2022 on, and pm8/pm7 goes from 0.2-0.5 to 2.3-3.5. The flow is the same; only the direction ids swapped. Totals line up across the gap (Apr 2021 ~517/day, Aug-Sep 2022 ~510/day)."},
+    {"SITE_SK": 106, "name": "PM-peak direction (likely southbound)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 160, "DIRECTION_SK": 7, "start": null, "end": "2021-10-08"},
+                {"COUNTER_SK": 160, "DIRECTION_SK": 8, "start": "2022-07-30", "end": null}],
+      "evidence": "The counterpart of the swap above: direction 7 has the PM peak through Oct 2021 (16-17h ~130/h vs AM ~65), and direction 8 has it from Jul 2022."}
+  ],
+  "summary": "One Metrocount piezo on the Anzac Pde shared path (2011-2025), with long outages the automatic zero_outage fix already handles (Mar 2014-Jul 2015, Dec 2017-Feb 2018, Dec 2018-Sep 2019, Oct 2021-Jul 2022). Two faults are set to missing: in the second half of Feb 2013 the South channel also counted the North flow, and on 18-19 May 2017 both channels logged false counts. When the counter returned in Jul 2022 the direction ids swapped, so the series join direction 8 before the gap with direction 7 after it, and the reverse. Level shifts in Oct 2018 and Sep 2019 (the pre-2019 N/S imbalance evening out, with lower totals) and the 2021 lockdown pattern look like real changes in riding with no sign of a fault. That includes Jul-Aug 2021, which MetroCount flagged for missed hits: the ratio to nearby Alison Rd holds steady through those dates."
+}

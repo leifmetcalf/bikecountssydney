@@ -1,0 +1,11 @@
+{
+  "group": "G0258",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 258, "DIRECTION_SK": 325,
+      "start": "2023-08-18", "end": "2024-06-28", "confidence": "medium",
+      "diagnosis": "When the counter came back from a three-month outage (2023-05-20 to 2023-08-17), West fell to about 5% of its level and lost its evening peak while East was unchanged; this could be a westbound sensor fault or a real diversion of westbound riders (for example, construction beside Union St), and the data cannot tell which.",
+      "evidence": "From 2012 to May 2023 West ran at 0.9-1.1x East (Apr 2023: 571 vs 610/day). From Aug 2023 to Jun 2024 West was 34-52/day against East's 690-770; West's 17:00 weekday mean fell from 115 to 4.3 bikes/hour, and East's evening peak rose only from 48 to 64-72, so East did not pick up the missing bikes. West still has a faint daily pattern, and the drop starts on the first day of data after the outage."}
+  ],
+  "series": [],
+  "summary": "One four-channel Ecocounter piezo on the two-way Union St cycleway in Pyrmont, with balanced East/West flows from 2012 to May 2023. The automatic fixes handle the long all-zero outages (Nov 2018-Jun 2019, Sep-Nov 2020, Mar 2022, May-Aug 2023, Jul 2024 onward) and the exactly repeated extra records on single days (2022-2024) correctly. The one open question is the westbound collapse from Aug 2023 to Jun 2024 (about 95% down, East unchanged): it may be a sensor fault or a real diversion, and it is marked uncertain."
+}

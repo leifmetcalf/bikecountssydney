@@ -1,0 +1,267 @@
+{
+ "group": "G0290",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-02",
+   "confidence": "high",
+   "diagnosis": "Camera commissioning: the north footpath zone reported hundreds of phantom bikes per hour overnight.",
+   "evidence": "645/653 raw 2002/2103 and 3706/3476 per day, 330-420 per hour at 00:00-05:00 on 06-02; later typical is 1-20 per day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2022-06-03",
+   "end": "2022-06-20",
+   "confidence": "medium",
+   "diagnosis": "The footpath zone was still on its commissioning configuration (the one that produced the 06-01/02 garbage) and was reconfigured on 06-21, after which it reads 20-50x lower.",
+   "evidence": "645+653 about 350 per day 06-03..06-20, then 5-25 per day from 06-21 onward with no matching change in the other 13 zones; 400 per day of bikes on a footpath beside a shared path carrying about 100 is implausible."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2024-02-18",
+   "end": "2024-02-19",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the shared path through the night (stationary object tracked repeatedly), in both directions.",
+   "evidence": "462/475 at 56-123 per hour between 18:00 on 02-18 and 11:00 on 02-19, including 00:00-05:00 (night total 301/392 against a usual 0-6)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 318,
+   "DIRECTION_SK": 466,
+   "start": "2023-08-19",
+   "end": "2023-08-20",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts on the left-turn lane in the evening and early morning.",
+   "evidence": "50-104 per hour from 15:00 to 23:00 on 08-19 and 72-106 per hour 05:00-07:00 on 08-20, against usual 10-30."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 318,
+   "DIRECTION_SK": 466,
+   "start": "2024-01-18",
+   "end": "2024-01-18",
+   "confidence": "high",
+   "diagnosis": "Overnight phantom counts on the left-turn lane.",
+   "evidence": "79-275 per hour from 02:00 to 09:00 (day 1407 against a median of about 290)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 318,
+   "DIRECTION_SK": 466,
+   "start": "2024-03-01",
+   "end": "2024-03-02",
+   "confidence": "high",
+   "diagnosis": "Sustained phantom counts on the left-turn lane.",
+   "evidence": "183-254 per hour 14:00-19:00 on 03-01 and 120-173 per hour through 03-02 (days 1540 and 1545 against a median of about 360)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 318,
+   "DIRECTION_SK": 466,
+   "start": "2024-05-06",
+   "end": "2024-05-09",
+   "confidence": "high",
+   "diagnosis": "Phantom counts round the clock on the left-turn lane, recurring over four days.",
+   "evidence": "05-07 records 20-50 per 15 minutes all night (night total 643, usual 0-14, day 2615); evening and morning plateaus of 100-170 per hour on 05-06, 05-08 and 05-09."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 318,
+   "DIRECTION_SK": 466,
+   "start": "2024-06-18",
+   "end": "2024-06-19",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the left-turn lane through two days.",
+   "evidence": "110-350 per hour from 07:00 on 06-18 to 15:00 on 06-19, including nights (days 2717 and 2148 against a median of about 280)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-08-31",
+   "end": "2022-09-02",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "Plateau of 300-500 per hour in both directions for about 40 hours, including 00:00-05:00 (night 1659/2347); days up to 7505 against a median of about 380."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-09-18",
+   "end": "2022-09-20",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "Days of 4950, 10049 and 2414 against a median of about 320; 13-18 flagged hours a day, including nights (night 182/305 on 09-20)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-01-10",
+   "end": "2023-01-12",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "Days of 2425, 1227 and 1602 against a median of about 290; evening and night plateaus in both directions."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-03-11",
+   "end": "2023-03-11",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "826/823 in a day against about 300; three hours 18:00-20:00 at about 300 per hour in both directions."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-08-08",
+   "end": "2023-08-09",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "Evening-to-morning plateau including 00:00-06:00 (night 386/647); days 1587 and 3276 against a median of about 200."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-16",
+   "end": "2023-09-18",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "Days 1762, 4826 and 2145 against about 260-300; 6-12 flagged hours a day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-29",
+   "end": "2023-09-29",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "4282 against a median of about 365; 12 flagged hours."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-12-08",
+   "end": "2023-12-08",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "2437 against a median of about 190; 11:00-16:00 at about 300 per hour extra."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-12-30",
+   "end": "2023-12-30",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "1747 against about 290; five flagged hours with about 1080 extra."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-01-02",
+   "end": "2024-01-06",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "Five consecutive days of 1220-2856 against about 290; 2-7 flagged hours each day with 670-1420 extra."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-01-27",
+   "end": "2024-02-09",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "Two weeks of recurring daily plateaus (5-16 flagged hours a day, 550-3950 extra a day); week totals of 11681 and 9134 against about 1000-1500."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-02-25",
+   "end": "2024-02-25",
+   "confidence": "high",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "2327 against about 330; 15:00-19:00 at about 360 per hour extra."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2025-01-24",
+   "end": "2025-01-24",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "19:00-22:00 plateau, about 1050 extra."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2025-01-28",
+   "end": "2025-01-28",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "14:00-17:00 plateau, about 1680 extra (day 2062 against about 470)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2025-02-27",
+   "end": "2025-02-27",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts on the Lang Rd left-turn crossing: flat plateaus far above the usual level, equal in both directions and often running through the night, which is not riding.",
+   "evidence": "06:00-14:00 plateau, about 2050 extra, on the last day of data."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2025-02-27",
+   "confidence": "medium",
+   "diagnosis": "Outside the removed episodes, the crossing zone still has many shorter 1-3 hour plateaus of 100-700 extra in both directions, and its base level drifts (about 60 per direction per day in late 2022, 250-400 in early 2023, about 110-190 later), so its weekly totals are not dependable.",
+   "evidence": "Over 100 days have hours above 4x the hourly 90th percentile; 470 and 481 rise and fall together. Monthly means of 470 are 62, 264, 332, 112 and 751 for Nov-22, Jan-23, Mar-23, Jul-23 and Feb-24."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-11-05",
+   "confidence": "medium",
+   "diagnosis": "The Moore Park Rd crossing zone reads about 3x higher in this period than after the camera restart on 2022-11-08, with no matching change in the neighbouring zones, which points to a change in zone configuration; the data does not show which level is right.",
+   "evidence": "460/463 about 100/115 per day in Jun-Oct 2022, then about 20/35 from 2022-11-08; 292 and 294 show no step."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2023-05-15",
+   "end": "2023-06-23",
+   "confidence": "medium",
+   "diagnosis": "The same high regime returns between two camera restarts (2023-05-15 and 2023-07-12), and the low regime resumes after the second one.",
+   "evidence": "460/463 about 87/100 per day in May-Jun 2023, about 25/35 from 2023-07-12; 292 and 294 are steady across both restarts."
+  }
+ ],
+ "series": [],
+ "summary": "G0290 is one VivaCity camera (counter 249) at Oxford St / Moore Park Rd / Lang Rd with 15 zone-directions from June 2022 to February 2025, with whole-camera outages that the automatic zero_outage fix handles correctly. The Lang Rd left-turn crossing (319) and to a lesser degree the left-turn lane (318), the shared path (296) and the north footpath (297, during commissioning in June 2022) have phantom-count episodes: flat plateaus that often run overnight, and these are set to missing. Site 319's whole record and the high-level regimes of the Moore Park Rd crossing (293), which change level at camera restarts, are marked uncertain. There is one counter, so no series are defined."
+}

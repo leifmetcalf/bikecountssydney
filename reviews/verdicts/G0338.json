@@ -1,0 +1,1022 @@
+{
+ "group": "G0338",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 338,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 339,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 341,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 342,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 344,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 345,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 346,
+   "DIRECTION_SK": null,
+   "start": "2025-04-24",
+   "end": "2025-07-16",
+   "confidence": "high",
+   "diagnosis": "Camera outage: from the evening of 24 Apr 2025 to midday 16 Jul 2025 the camera published zeros or near-zeros in every zone (partly not caught by zero_outage, e.g. 703/799 kept as 0 in May-June and the morning of 16 Jul).",
+   "evidence": "All 18 directions near 0/day 25 Apr-15 Jul (e.g. 703 weekly 0-5 vs ~3000 before, 799 0-4 vs ~2700); on 16 Jul the camera-wide total is 0 until 11:00, then normal; on 24 Apr it drops to ~20/h after 18:00."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2024-10-09",
+   "end": "2024-10-09",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 1234, 769 770 vs medians 100/170; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2024-10-13",
+   "end": "2024-10-13",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 538 vs 72; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2024-10-20",
+   "end": "2024-10-20",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 352, 769 653 vs 74/88; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2024-10-26",
+   "end": "2024-10-26",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 462, 769 427 vs 74/92; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2024-10-29",
+   "end": "2024-10-29",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 695, 769 1028 vs 103/172; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2024-11-26",
+   "end": "2024-11-26",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 728, 769 545 vs 108/136; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-02-13",
+   "end": "2025-02-13",
+   "confidence": "high",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 1758, 769 2268 vs 119/146; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-03-29",
+   "end": "2025-03-29",
+   "confidence": "high",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 2365, 769 877 vs 96/94; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-04-08",
+   "end": "2025-04-08",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 569, 769 350 vs 103/114; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-07-31",
+   "end": "2025-08-06",
+   "confidence": "high",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "7 days 698 11133, 769 10995 vs ~500/600 expected; 2 Aug 700-1100/h 17:00-23:00; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-08-18",
+   "end": "2025-08-19",
+   "confidence": "high",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 1924, 769 1962 vs ~150/200; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-09-27",
+   "end": "2025-09-27",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 463 vs 84; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-09-30",
+   "end": "2025-09-30",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 752 vs 118; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-10-21",
+   "end": "2025-10-21",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 565, 769 426 vs 117/128; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2025-12-24",
+   "end": "2025-12-24",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 427, 769 330 vs 80/100; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-01-23",
+   "end": "2026-01-23",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 507 vs 93; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-03-07",
+   "end": "2026-03-13",
+   "confidence": "high",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 4902, 769 5574 over 7 days vs ~710/775; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-03-23",
+   "end": "2026-03-23",
+   "confidence": "high",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "769 2100 vs 122; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-04-15",
+   "end": "2026-04-15",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 499, 769 514 vs 103/120; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-04-25",
+   "end": "2026-04-26",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 1132, 769 1469 vs ~200; 25 Apr 265-346/h at 19-21h; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-04-30",
+   "end": "2026-05-02",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 1432, 769 971 vs 271/326; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-05-14",
+   "end": "2026-05-15",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 1487, 769 1453 vs 168/212; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-06-28",
+   "end": "2026-06-28",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 530, 769 372 vs 79/94; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-07-20",
+   "end": "2026-07-20",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 454 vs 73; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-07-31",
+   "end": "2026-07-31",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 603, 769 478 vs 68/79; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-08-20",
+   "end": "2026-08-20",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 313, 769 303 vs 48/73; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 340,
+   "DIRECTION_SK": null,
+   "start": "2026-09-11",
+   "end": "2026-09-11",
+   "confidence": "medium",
+   "diagnosis": "False detections in the Pitt St Mall footpath zone: both directions jump several-fold, often in evening bursts, with no matching rise in any zone riders would enter or leave by.",
+   "evidence": "698 414, 769 276 vs 46/65; adjoining King St/Pitt St zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": 949,
+   "start": "2023-07-15",
+   "end": "2023-07-15",
+   "confidence": "medium",
+   "diagnosis": "Spurious eastbound counts in the King St bike path zone for most of a Saturday, with no matching exits.",
+   "evidence": "949 700 vs weekend median 15, 52-122/h 11:00-19:00; 703 and 838 normal."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 343,
+   "DIRECTION_SK": 949,
+   "start": "2023-11-07",
+   "end": "2023-11-07",
+   "confidence": "low",
+   "diagnosis": "An isolated jump in 949 that may be the same spurious-track fault or real riding.",
+   "evidence": "949 330 vs median 35; other zones normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": 949,
+   "start": "2023-12-23",
+   "end": "2023-12-23",
+   "confidence": "medium",
+   "diagnosis": "Spurious eastbound counts in the King St bike path zone.",
+   "evidence": "949 452 vs weekend median 16; other zones normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": null,
+   "start": "2024-10-28",
+   "end": "2024-10-29",
+   "confidence": "medium",
+   "diagnosis": "Spurious back-and-forth tracks in the King St bike path zone west of Pitt St inflate both directions.",
+   "evidence": "949 675/704 vs median 154; 703 759/929 vs ~600; both directions of zone 343 rise together (e.g. 7 Jan 2025 949 1657, 703 1381) while the zones riders must use to enter or leave (936, 838, 718, 758, 842) do not change"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": null,
+   "start": "2024-11-12",
+   "end": "2024-11-15",
+   "confidence": "high",
+   "diagnosis": "Spurious back-and-forth tracks in the King St bike path zone west of Pitt St inflate both directions.",
+   "evidence": "949 559-1235/day vs ~165; 703 ~750-800 vs ~600; both directions of zone 343 rise together (e.g. 7 Jan 2025 949 1657, 703 1381) while the zones riders must use to enter or leave (936, 838, 718, 758, 842) do not change"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": null,
+   "start": "2024-12-03",
+   "end": "2025-02-16",
+   "confidence": "medium",
+   "diagnosis": "A long period of spurious tracks in the King St bike path zone: 949 and 703 are inflated throughout by an amount that varies from day to day, and the extra riders have no source or destination.",
+   "evidence": "949 weekly 2600-5100 vs ~850-950 in Mar 2025 and ~800-1100 in Jan-Feb 2026; 703 weekly 4100-6100 vs ~3500; 838 flat at ~500/wk; both directions of zone 343 rise together (e.g. 7 Jan 2025 949 1657, 703 1381) while the zones riders must use to enter or leave (936, 838, 718, 758, 842) do not change"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": null,
+   "start": "2025-02-26",
+   "end": "2025-02-28",
+   "confidence": "high",
+   "diagnosis": "Spurious back-and-forth tracks in the King St bike path zone.",
+   "evidence": "949 967/1070/614 vs ~160 on the days either side; 703 956/981/752 vs ~650; both directions of zone 343 rise together (e.g. 7 Jan 2025 949 1657, 703 1381) while the zones riders must use to enter or leave (936, 838, 718, 758, 842) do not change"
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": null,
+   "start": "2025-07-18",
+   "end": "2025-07-19",
+   "confidence": "medium",
+   "diagnosis": "Spurious tracks in the King St bike path zone just after the camera came back.",
+   "evidence": "703 819/477 vs 223/162, 949 405/432 vs 118/71; other zones normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": 949,
+   "start": "2025-11-15",
+   "end": "2025-11-15",
+   "confidence": "medium",
+   "diagnosis": "Spurious eastbound counts in the King St bike path zone.",
+   "evidence": "949 816 (Sat) vs median 90, 138-171/h 10:00-13:00; 838/718 normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": 949,
+   "start": "2025-12-09",
+   "end": "2025-12-09",
+   "confidence": "medium",
+   "diagnosis": "Spurious eastbound counts in the King St bike path zone.",
+   "evidence": "949 636 vs median 154; other zones normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": 949,
+   "start": "2026-06-19",
+   "end": "2026-06-19",
+   "confidence": "medium",
+   "diagnosis": "Spurious eastbound counts in the King St bike path zone.",
+   "evidence": "949 651 vs median 138; other zones normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 343,
+   "DIRECTION_SK": null,
+   "start": "2026-08-20",
+   "end": "2026-08-20",
+   "confidence": "high",
+   "diagnosis": "Spurious tracks in the King St bike path zone, including overnight.",
+   "evidence": "703 1708 vs 381, with 26-50/h at 00:00-05:00; 949 931 vs 131; other zones normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 341,
+   "DIRECTION_SK": null,
+   "start": "2024-10-27",
+   "end": "2024-10-27",
+   "confidence": "medium",
+   "diagnosis": "False detections in the King St south footpath zone west of Pitt St.",
+   "evidence": "736 321, 849 364 vs medians 49/72; adjoining zones unchanged."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 341,
+   "DIRECTION_SK": null,
+   "start": "2026-03-14",
+   "end": "2026-03-14",
+   "confidence": "medium",
+   "diagnosis": "An evening burst of false detections in the King St south footpath zone.",
+   "evidence": "736 415, 849 366 vs 63/71, 50-86/h 19:00-24:00 in both directions."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 341,
+   "DIRECTION_SK": null,
+   "start": "2026-07-21",
+   "end": "2026-07-21",
+   "confidence": "low",
+   "diagnosis": "A burst of false detections in the King St south footpath zone.",
+   "evidence": "736 459, 849 239 vs 65/71; adjoining zones unchanged."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 338,
+   "name": "King St - East of Pitt St Eastbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 758,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 338,
+   "name": "King St - East of Pitt St Eastbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 758,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 338,
+   "name": "King St - East of Pitt St Westbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 859,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 338,
+   "name": "King St - East of Pitt St Westbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 859,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 339,
+   "name": "King St crossing - East of Pitt St Southbound (IN) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 731,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 339,
+   "name": "King St crossing - East of Pitt St Southbound (IN) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 731,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 339,
+   "name": "King St crossing - East of Pitt St Northbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 867,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 339,
+   "name": "King St crossing - East of Pitt St Northbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 867,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 340,
+   "name": "Pitt St - South of King St Southbound (IN) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 698,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 340,
+   "name": "Pitt St - South of King St Southbound (IN) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 698,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 340,
+   "name": "Pitt St - South of King St Northbound (IN) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 769,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 340,
+   "name": "Pitt St - South of King St Northbound (IN) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 769,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 341,
+   "name": "King St (S) - West of Pitt St Eastbound (IN) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 736,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 341,
+   "name": "King St (S) - West of Pitt St Eastbound (IN) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 736,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 341,
+   "name": "King St (S) - West of Pitt St Westbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 849,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 341,
+   "name": "King St (S) - West of Pitt St Westbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 849,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 342,
+   "name": "King St crossing - West of Pitt St Northbound (NONE) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 741,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 342,
+   "name": "King St crossing - West of Pitt St Northbound (NONE) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 741,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 342,
+   "name": "King St crossing - West of Pitt St Southbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 892,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 342,
+   "name": "King St crossing - West of Pitt St Southbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 892,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 343,
+   "name": "King St (bicycle path) - West of Pitt St Westbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 703,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 343,
+   "name": "King St (bicycle path) - West of Pitt St Westbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 703,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 343,
+   "name": "King St (bicycle path) - West of Pitt St Eastbound (IN) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 949,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 343,
+   "name": "King St (bicycle path) - West of Pitt St Eastbound (IN) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 949,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 344,
+   "name": "Pitt St - North of King St Northbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 718,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 344,
+   "name": "Pitt St - North of King St Northbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 718,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 344,
+   "name": "Pitt St - North of King St Southbound (IN) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 842,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 344,
+   "name": "Pitt St - North of King St Southbound (IN) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 842,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 345,
+   "name": "King St (bicycle path) - East of Pitt St Eastbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 838,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 345,
+   "name": "King St (bicycle path) - East of Pitt St Eastbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 838,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 345,
+   "name": "King St (bicycle path) - East of Pitt St Westbound (IN) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 936,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 345,
+   "name": "King St (bicycle path) - East of Pitt St Westbound (IN) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 936,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 346,
+   "name": "King St - West of Pitt St Eastbound (IN) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 719,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 346,
+   "name": "King St - West of Pitt St Eastbound (IN) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 719,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 346,
+   "name": "King St - West of Pitt St Westbound (OUT) to 1 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 799,
+     "start": null,
+     "end": "2024-10-01"
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  },
+  {
+   "SITE_SK": 346,
+   "name": "King St - West of Pitt St Westbound (OUT) from 2 Oct 2024",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 280,
+     "DIRECTION_SK": 799,
+     "start": "2024-10-02",
+     "end": null
+    }
+   ],
+   "evidence": "Camera detection changed at about 13:00 on 2 Oct 2024: every zone stepped up at the same moment (e.g. 799 ~45/day to 200-430, 838 ~5 to ~60, 703 ~250 to ~450, 949 ~25 to ~100). No infrastructure change or event explains it, so counts before and after are not comparable."
+  }
+ ],
+ "summary": "A single VivaCity camera at King St / Pitt St, Sydney (9 zones, 18 directions). It had a camera-wide outage from 24 Apr to 16 Jul 2025 that the automatic fixes only partly caught, and a mid-afternoon step change in detection on 2 Oct 2024 that raised every zone, so each direction is split into a series before and after the change. After the change, the Pitt St Mall footpath (340) and the King St bike path west of Pitt (343, especially from Dec 2024 to mid-Feb 2025) show recurring bursts of false detections, which are set missing."
+}

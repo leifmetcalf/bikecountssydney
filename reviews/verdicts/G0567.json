@@ -1,0 +1,11 @@
+{
+  "group": "G0567",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 567, "DIRECTION_SK": 1794,
+      "start": "2025-11-21", "end": "2026-02-08", "confidence": "low",
+      "diagnosis": "The westbound channel may have dropped out intermittently over this summer: zero_outage fired on westbound only, on 7 days, and several days have westbound far below eastbound. Riding-pattern asymmetry could explain it just as well.",
+      "evidence": "W/E daily ratio median 0.91 over the record, but 0.43 (2025-11-21, 14 zero daytime slots), 0.63 (12-01), 0.55 (12-07, W zero 17:15 to 05:00 next day while E carried 22), 0.43 (12-26), 0.22 (2026-01-11), 0.45 (02-08). Weekly W/E ratio 0.74 (wk 2025-12-01) and 0.73 (wk 2026-02-02) against a usual 0.85-0.95. Eastbound shows no gaps."}
+  ],
+  "series": [],
+  "summary": "A single Metrocount piezo (counter 377) on the Pittwater Rd shared path at North Manly has run from Nov 2024 to Sep 2026 with full coverage, one record per slot and raw equal to clean in every week. Eastbound runs about 10% above westbound throughout, and the mid-2025 winter dip appears in both directions, so it looks like real riding. The only doubt is westbound in Dec 2025 to early Feb 2026. There, short zero_outage runs (left in place) and a few low westbound days hint at intermittent dropouts, so it is marked uncertain rather than changed."
+}

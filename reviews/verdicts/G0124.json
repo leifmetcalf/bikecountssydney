@@ -1,0 +1,20 @@
+{
+  "group": "G0124",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 124, "DIRECTION_SK": null,
+      "start": "2017-12-03", "end": "2019-11-01", "confidence": "high",
+      "diagnosis": "Counter 139 failed in early December 2017; after that it reported only a partial window (about 11:00 to 20:00) on each Friday and zeros for the rest of the week until it was removed, so no week's total is usable.",
+      "evidence": "From 2018-01-01 to 2019-11-01, 93 Fridays have 70 to 100 bikes per direction, all between about 11:15 and 22:30, and every other day is all zeros (one Thursday). Before the failure the site averaged 250 to 340 bikes per direction per day. Dec 2017 has zero runs broken only by Friday fragments and a single full day (Sat 12-16, 249/251). The automatic zero_outage fix already blanks the zeros, but it keeps the partial Friday slots, which would produce weekly totals of about 100 against a normal 1700+."}
+  ],
+  "series": [
+    {"SITE_SK": 124, "name": "Westbound (citybound)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 139, "DIRECTION_SK": 47, "start": null, "end": null},
+                {"COUNTER_SK": 262, "DIRECTION_SK": 664, "start": null, "end": null}],
+      "evidence": "Same site and same MetroCount MC5710 piezo model, with no overlap (139 ends in 2017, 262 starts 2022-07). The West directions of both counters share the same weekday profile, peaking at 07:00-08:00 with a smaller PM peak. Compared with neighbour site 210, 0.5 km away on the same path, the site total was 1.05 to 1.14 times 210's in 2016-17 and 1.03 to 1.10 times in 2022-24, so the two counters read comparably."},
+    {"SITE_SK": 124, "name": "Eastbound (outbound)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 139, "DIRECTION_SK": 48, "start": null, "end": null},
+                {"COUNTER_SK": 262, "DIRECTION_SK": 660, "start": null, "end": null}],
+      "evidence": "Same site and same MC5710 piezo model, with no overlap. The East directions of both counters peak at 06:00 and 16:00-17:00. The level matches neighbour site 210 in both periods (site/210 ratio about 1.1 in 2016-17 and about 1.05 in 2022-24)."}
+  ],
+  "summary": "Counter 139 (2011-2017) and counter 262 (2022-2026) give clean, plausible single-record piezo data, with large one-way ride-event days and flood or rain dips that are real. After its failure in December 2017, counter 139 reported only Friday fragments until November 2019, so that period is set to missing. The two counters' matching directions are joined into one westbound and one eastbound series, because their hourly profiles match and both read about the same relative to the adjacent site 210."
+}

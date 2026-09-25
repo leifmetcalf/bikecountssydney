@@ -1,0 +1,28 @@
+{
+  "group": "G0559",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 559, "DIRECTION_SK": null,
+      "start": "2024-06-14", "end": "2024-07-10", "confidence": "medium",
+      "diagnosis": "Both directions fell to near zero for almost four weeks while nearby CBD counters (King St 548, College St 543) stayed normal; this could be a sensor failure or a real closure of the Pitt St path, and the automatic zero_outage fix has set only some of these days missing.",
+      "evidence": "Weekday totals ~550/dir before and after; 2024-06-15 to 07-09 mostly 0-50/day with small AM-peak remnants (e.g. 06-21 N 124, 06-19 N 26) and normal speeds (~21 km/h median); abrupt recovery at 12:00 on 07-10; weeks 06-17 to 07-01 total 6-240 per direction vs ~2600 normal; 06-06/06-07 already low with a flattened N profile (8am 78 then 24 vs ~120)."}
+  ],
+  "series": [
+    {"SITE_SK": 559, "name": "Northbound", "confidence": "high",
+      "parts": [
+        {"COUNTER_SK": 332, "DIRECTION_SK": 1551, "start": null, "end": "2025-11-19"},
+        {"COUNTER_SK": 368, "DIRECTION_SK": 1773, "start": "2025-11-20", "end": null},
+        {"COUNTER_SK": 380, "DIRECTION_SK": 1800, "start": null, "end": null},
+        {"COUNTER_SK": 387, "DIRECTION_SK": 1800, "start": null, "end": null}
+      ],
+      "evidence": "All North directions share the AM-peak profile (8am ~85-120/h); in the 12-day overlap 332/1551 and 368/1773 read within 1-4% of each other day by day (same bikes, so 332 ends when 368 starts); 380 and 387 are the same unit (ZX349D01) with the same DIRECTION_SK; ratio to King St 548 N stays ~1.0 across the Dec-to-Mar counter changes."},
+    {"SITE_SK": 559, "name": "Southbound", "confidence": "high",
+      "parts": [
+        {"COUNTER_SK": 332, "DIRECTION_SK": 1552, "start": null, "end": "2025-11-19"},
+        {"COUNTER_SK": 368, "DIRECTION_SK": 1774, "start": "2025-11-20", "end": null},
+        {"COUNTER_SK": 380, "DIRECTION_SK": 1799, "start": null, "end": null},
+        {"COUNTER_SK": 387, "DIRECTION_SK": 1799, "start": null, "end": null}
+      ],
+      "evidence": "All South directions share the PM-peak profile (5pm ~75-120/h); overlap 2025-11-20..12-01 shows 368/1774 within 2-8% of 332/1552 daily (same bikes); 380/387 are one unit with the same DIRECTION_SK; ratio to King St 548 S ~0.7 both before (Dec) and after (Mar) the changes."}
+  ],
+  "summary": "Pitt St (W) has one continuous two-way path counted by 332 (2023-10 to 2025-12), then 368, then unit ZX349D01 (380/387); counters read comparably in the overlap and across changes, so each direction is one series with 332 ending when 368 starts. The automatic halving of the doubled 2023-10 to 2024-05-19 period (all raw counts even, level continuous after) and the zero_outage fixes for clear multi-day outages (some shared with King St) are correct. The only unresolved problem is a near-total drop from 2024-06-14 to 2024-07-10 that could be a sensor fault or a real closure."
+}

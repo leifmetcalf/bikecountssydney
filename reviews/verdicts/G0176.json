@@ -1,0 +1,6 @@
+{
+  "group": "G0176",
+  "decisions": [],
+  "series": [],
+  "summary": "Single Metrocount piezo (counter 152) at Parramatta River North west of Bowden St, Meadowbank, with one record per slot and near-complete coverage from 2014-08-25 to 2026-09-20; levels are stable (about 200-300 bikes/day East, 250-350 West) apart from the real 2020-21 COVID lockdown surge (to about 600-735/day in April 2020). The large single-direction West peaks on one mid-October Sunday each year (2289-5108 bikes, concentrated 07:00-11:00) and the similar East peak on 2014-10-12 have the profile of mass group rides and are real; low days coincide with wet weather and are kept. The only fault is a counter outage from about 20:30 on 2025-10-19 to early 2025-10-21 (all zeros, 2025-10-20 zero in both directions), which the automatic zero_outage fix already sets to missing, so no decisions or series are needed."
+}

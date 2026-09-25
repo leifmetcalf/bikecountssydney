@@ -1,0 +1,15 @@
+{
+  "group": "G0198",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 198, "DIRECTION_SK": 223, "start": "2023-11-01", "end": "2023-11-01",
+      "confidence": "high",
+      "diagnosis": "The counter stopped detecting in both directions at about 09:30 on its last day before a 14-month gap; zero_outage nulled the afternoon for 228 but left direction 223 as a complete 103-bike day.",
+      "evidence": "Both directions record 0 in every slot from 10:00 on 2023-11-01 (223: 103 vs ~267/day in Oct 2023), while site 197 40 m away recorded 248 and 217 that day, normal for October (277/231)."},
+    {"action": "restore", "SITE_SK": 198, "DIRECTION_SK": 228, "start": "2022-07-03", "end": "2022-07-03",
+      "confidence": "medium",
+      "diagnosis": "Near-zero daytime counts on this Sunday are real: the flooding rain of early July 2022 almost emptied the riverside paths, so zero_outage should not have nulled 07:30-16:30.",
+      "evidence": "Direction 223 recorded 8 and 228 recorded 2 raw; nearby sites 176 (4/13) and 205 (4/10) were just as low that day; 2 July 13/11 and 4 July 14/13 were also very low."}
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo (counter 184) on the Parramatta River north-bank path at Ermington, 2021-02 to 2023-11 and again from 2025-01, with one record per slot, a stable direction split and no doubling or duplicates. The one real fault is the counter going dead mid-morning on 2023-11-01 before its long gap, and I set direction 223 to missing for that day; the 2025-10-20 zero day is a network-wide outage (neighbours show zero too) and is already set to missing. The large one-way Sunday peaks on 2022-10-16 and 2025-10-12 are organised rides (also at sites 176 and 205) and are kept."
+}

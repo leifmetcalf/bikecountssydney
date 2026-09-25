@@ -1,0 +1,217 @@
+{
+ "group": "G0449",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 449,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera C0001401 started publishing counts at about 17:00 on its first day; the zero slots before then are pre-installation, not riding.",
+   "evidence": "All zones show 0 in every slot 00:00-17:00 on 2024-03-25 and first counts at 17:00-18:00; the automatic fix blanked only 1280/1298/1311/1318, leaving 1214/1234/1245/1332/1412 with ~17 hours of false zeros."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 450,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera C0001401 started publishing counts at about 17:00 on its first day; the zero slots before then are pre-installation, not riding.",
+   "evidence": "All zones show 0 in every slot 00:00-17:00 on 2024-03-25 and first counts at 17:00-18:00; the automatic fix blanked only 1280/1298/1311/1318, leaving 1214/1234/1245/1332/1412 with ~17 hours of false zeros."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 451,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera C0001401 started publishing counts at about 17:00 on its first day; the zero slots before then are pre-installation, not riding.",
+   "evidence": "All zones show 0 in every slot 00:00-17:00 on 2024-03-25 and first counts at 17:00-18:00; the automatic fix blanked only 1280/1298/1311/1318, leaving 1214/1234/1245/1332/1412 with ~17 hours of false zeros."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 452,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera C0001401 started publishing counts at about 17:00 on its first day; the zero slots before then are pre-installation, not riding.",
+   "evidence": "All zones show 0 in every slot 00:00-17:00 on 2024-03-25 and first counts at 17:00-18:00; the automatic fix blanked only 1280/1298/1311/1318, leaving 1214/1234/1245/1332/1412 with ~17 hours of false zeros."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 453,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera C0001401 started publishing counts at about 17:00 on its first day; the zero slots before then are pre-installation, not riding.",
+   "evidence": "All zones show 0 in every slot 00:00-17:00 on 2024-03-25 and first counts at 17:00-18:00; the automatic fix blanked only 1280/1298/1311/1318, leaving 1214/1234/1245/1332/1412 with ~17 hours of false zeros."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 454,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera C0001401 started publishing counts at about 17:00 on its first day; the zero slots before then are pre-installation, not riding.",
+   "evidence": "All zones show 0 in every slot 00:00-17:00 on 2024-03-25 and first counts at 17:00-18:00; the automatic fix blanked only 1280/1298/1311/1318, leaving 1214/1234/1245/1332/1412 with ~17 hours of false zeros."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 455,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Camera C0001401 started publishing counts at about 17:00 on its first day; the zero slots before then are pre-installation, not riding.",
+   "evidence": "All zones show 0 in every slot 00:00-17:00 on 2024-03-25 and first counts at 17:00-18:00; the automatic fix blanked only 1280/1298/1311/1318, leaving 1214/1234/1245/1332/1412 with ~17 hours of false zeros."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 452,
+   "DIRECTION_SK": null,
+   "start": "2024-04-20",
+   "end": "2024-04-21",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "2024-04-20 whole camera ~80 bikes (e.g. 1280 8, 1311 4, 1336 2 vs ~30/day normally); 1298 3, 1318 3."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 452,
+   "DIRECTION_SK": 1318,
+   "start": "2024-05-05",
+   "end": "2024-05-06",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "Camera-wide low days: 1311 6 and 3, 1351/1353/1412 0 on 05-05; 1318 1 and 2."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 452,
+   "DIRECTION_SK": null,
+   "start": "2024-05-31",
+   "end": "2024-06-02",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "2024-06-01 camera total ~25 (1280 1, 1311 2, 1336 0); 1318 0 and 1298 1 are consistent."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 450,
+   "DIRECTION_SK": 1280,
+   "start": "2024-07-01",
+   "end": "2024-07-02",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "2024-07-02 camera very low: 1311 4, 1331 1, 1245 1; 1280 1."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 450,
+   "DIRECTION_SK": 1311,
+   "start": "2024-08-14",
+   "end": "2024-08-15",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "Camera-wide low days: 1280 3 and 10, 1331 4 and 3; 1311 4 and 3."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 451,
+   "DIRECTION_SK": 1303,
+   "start": "2024-11-11",
+   "end": "2024-11-18",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "After the 2024-11-08 camera change 451 fell to ~0-3 bikes/day in both directions (1234 0-1/day those days, 1303 1-3/day for the rest of the record); the zero_outage used the old ~12/day level, so these zeros are consistent with the new regime."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 452,
+   "DIRECTION_SK": null,
+   "start": "2025-01-17",
+   "end": "2025-01-18",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "2025-01-17 camera total ~35 (1280 6, 1311 2, 1336 7) vs ~400 normally."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 453,
+   "DIRECTION_SK": 1412,
+   "start": "2025-01-17",
+   "end": "2025-01-17",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "Same camera-wide low day: 1336 7, 1412 3."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 452,
+   "DIRECTION_SK": 1298,
+   "start": "2025-04-26",
+   "end": "2025-04-27",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "2025-04-27 camera total ~25 (1280 2, 1311 4, 1336 4) vs ~250 normally; 1298 1."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 449,
+   "DIRECTION_SK": null,
+   "start": "2025-05-18",
+   "end": "2025-05-20",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "2025-05-19 (Hunter flood rain) camera total ~30: 1280 1, 1311 3, 1412 4; 1214 and 1331 0 are consistent; 05-18/20 partial blanks on similarly low days."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 449,
+   "DIRECTION_SK": 1331,
+   "start": "2025-06-30",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "2025-07-01 camera very low: 1214 3, 1280 4, 1311 4, 1336 4; 1331 2."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 452,
+   "DIRECTION_SK": 1298,
+   "start": "2025-08-02",
+   "end": "2025-08-03",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed zeros on a heavy-rain day when the whole camera recorded only a small fraction of its usual bikes, so the zeros are plausibly real.",
+   "evidence": "2025-08-02 camera total ~35 (1214 1, 1280 2, 1311 3); 1298 1."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 453,
+   "DIRECTION_SK": null,
+   "start": "2024-11-07",
+   "end": "2025-10-03",
+   "confidence": "low",
+   "diagnosis": "On about 2024-11-07/08 the north-side path zone jumped roughly fivefold while the south footpath zone 451 fell to near zero and other zones rose, which could be new infrastructure or a camera zone/model change.",
+   "evidence": "1336+1412 ~22+19/day in Oct 2024 vs ~108+93 in Dec 2024 and 23+18 in May 2025; 451 1234+1303 ~14+12 -> ~2+2; 450 ~30 -> ~53 each way; IN and OUT totals across the camera stay balanced (~85/85 Oct, ~190/180 Dec); 453 profile after is flat through daylight in both directions."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 451,
+   "DIRECTION_SK": null,
+   "start": "2024-11-07",
+   "end": "2025-10-03",
+   "confidence": "low",
+   "diagnosis": "The footpath zone fell from ~12 to ~1-3 bikes/day per direction at the same step as 453 rose, consistent with riders moving to the north path or with a zone redefinition; many later days are unpublished (all-zero days omitted by the feed).",
+   "evidence": "1234 Oct 2024 14/day -> Dec 2/day; 1303 12 -> 2; step on 2024-11-07/08 coincides with 453 jump; from mid-2025 1234/1303 have 10-15 absent days per month."
+  }
+ ],
+ "series": [],
+ "summary": "One VivaCity-style camera (C0001401) at Parke Ave/Kullaiba Rd, Kotara, split into seven zones, with continuous, internally consistent data (camera-wide IN and OUT totals balance) from 2024-03-25 to 2025-10-03. The first day is pre-installation zeros until ~17:00 and is set missing; every zero_outage fix fell on a camera-wide rain day or in 451's post-November low regime and is restored. A camera-wide step on about 2024-11-08 (453 up ~5x, 450 up ~1.8x, 451 down to ~0) is left as recorded but flagged uncertain for 451 and 453, since it may be new infrastructure or a zone reconfiguration."
+}

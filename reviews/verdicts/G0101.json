@@ -1,0 +1,34 @@
+{
+  "group": "G0101",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 101, "DIRECTION_SK": 65, "start": "2020-02-08", "end": "2020-02-10",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed southbound counts during the February 2020 Sydney storm, when riding really did collapse; northbound (not flagged) shows the same near-zero day.",
+      "evidence": "2020-02-09 raw south 8, north 7 (kept); 02-08 south 106 vs north 86; 02-10 south 566 vs north 472, with a normal commute profile in both directions."},
+    {"action": "restore", "SITE_SK": 101, "DIRECTION_SK": 66, "start": "2016-06-03", "end": "2016-06-06",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed northbound counts during the June 2016 East Coast Low storm; southbound recorded equally low but non-zero counts, so this was real low riding, not an outage.",
+      "evidence": "2016-06-04/05 raw north 13 and 10, south 21 and 13 (kept); surrounding weekdays about 700 each way in both directions."},
+    {"action": "missing", "SITE_SK": 101, "DIRECTION_SK": 66, "start": "2018-10-13", "end": "2021-06-20",
+      "confidence": "medium",
+      "diagnosis": "The piezo undercounted northbound bikes by about 15-20% (site comment: piezo on a steep slope misclassifies bicycles in one direction) until an abrupt fix on 2021-06-21. The tube counter running alongside confirms it.",
+      "evidence": "Piezo N/S ratio was 0.93-0.96 through 2017-09 to 2018-09, then 0.75-0.85 from mid-October 2018 to June 2021, and back to 0.95-1.0 from 2021-06-21. Over 2021-04 to 06 the tube shows N/S 0.98-0.99 and piezo north/tube north 0.78-0.80, against about 0.95 after the fix; piezo south/tube south stays 0.96-0.99 throughout."}
+  ],
+  "series": [
+    {"SITE_SK": 101, "name": "Southbound (citybound)", "confidence": "high",
+      "parts": [
+        {"COUNTER_SK": 156, "DIRECTION_SK": 65, "start": null, "end": "2021-03-18"},
+        {"COUNTER_SK": 157, "DIRECTION_SK": 69, "start": "2021-03-19", "end": "2021-03-26"},
+        {"COUNTER_SK": 156, "DIRECTION_SK": 65, "start": "2021-03-27", "end": null}
+      ],
+      "evidence": "The tube and piezo counted the same bikes on the same path (only one is used on any date). Tube southbound reads within about 1% of the piezo (monthly piezo/tube 0.96-1.0), so it fills the piezo's outage from 2021-03-19 to 2021-03-26."},
+    {"SITE_SK": 101, "name": "Northbound", "confidence": "medium",
+      "parts": [
+        {"COUNTER_SK": 156, "DIRECTION_SK": 66, "start": null, "end": "2018-10-12"},
+        {"COUNTER_SK": 157, "DIRECTION_SK": 70, "start": "2021-03-11", "end": "2021-06-20"},
+        {"COUNTER_SK": 156, "DIRECTION_SK": 66, "start": "2021-06-21", "end": null}
+      ],
+      "evidence": "Same bikes on the same path. The tube supplies northbound while the piezo was undercounting (2021-03-11 to 06-20, which also covers the piezo outage in March 2021). After the fix, tube north reads about 4-6% above piezo north, so the two are comparable. 2018-10-13 to 2021-03-10 has no good northbound data."}
+  ],
+  "summary": "The Sydney Harbour Bridge cycleway piezo (2007-2026) is mostly clean. The automatic fixes are right for the duplicate-measurement period (Dec 2010 to Jun 2011), the doubled days (2022-02-19 and 2026-04-13 to 04-20, every count even in all directions) and the multi-day outages, but two storm-day zero_outage fixes should be restored. Its main fault is a northbound piezo undercount of about 20% from October 2018 to 20 June 2021, confirmed by the parallel tube counter (2021-03 to 2022-12); the tube also fills the piezo's gaps in 2021 within the series."
+}

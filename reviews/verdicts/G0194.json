@@ -1,0 +1,11 @@
+{
+  "group": "G0194",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 194, "DIRECTION_SK": 248, "start": "2021-08-16", "end": "2021-08-16",
+      "confidence": "medium",
+      "diagnosis": "On the day the counter came back from the Jul-Aug 2021 outage, zero_outage also nulled the northbound bursts from 05:30 to 11:45, but these are real counts from a working counter.",
+      "evidence": "248 recorded 25 bikes in 05:30-11:45 (raw 81 vs clean 56 for the day) while 243 recorded about 70 in the same window, a ratio of 0.36 against the usual 0.30-0.35; the counter was clearly counting in both directions by then."}
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo (counter 209) with two directions, consistent from Dec 2020 to Sep 2026 at a steady North/South ratio of about 0.33. The automatic fixes correctly remove the full-counter outages of 2021-07-25 to 2021-08-16 and 2025-10-19 to 2025-10-21, and a few short northbound drop-outs on rainy or flood days; only the northbound morning of 2021-08-16 is restored. The direction-share shifts in late May 2025 (more northbound) and from 2026-09-07 (southbound halves) match opposite changes on the Silverwater Rd West counter (site 196), so they are riders changing route, not faults."
+}

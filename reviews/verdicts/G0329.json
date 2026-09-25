@@ -1,0 +1,436 @@
+{
+ "group": "G0329",
+ "decisions": [
+  {
+   "action": "missing",
+   "SITE_SK": 334,
+   "DIRECTION_SK": null,
+   "start": "2023-10-20",
+   "end": "2024-11-28",
+   "confidence": "high",
+   "diagnosis": "The Cliff Rd (SW) footpath zone intermittently produces phantom counts in both directions in lockstep, including hundreds of 'bikes' per hour overnight, until the camera reconfiguration on 2024-11-29.",
+   "evidence": "Normal level 12-14 (766) and 25-30 (807)/day in Jul-Sep 2023 and all of 2025; spikes of 1287/610 (2023-12-07), 2089/605 (2023-12-11), 1658/1528 (2024-04-23), 2370/1411 (2024-10-14, 216/hr at 00:00-05:00), 2215/1926 (2024-10-15); 5-10 days a month with >=5 counts 22:00-05:00 vs ~0 in clean months; monthly mean 766 294 (Dec 2023), 262 (Oct 2024)."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 330,
+   "DIRECTION_SK": null,
+   "start": "2025-10-14",
+   "end": "2025-10-19",
+   "confidence": "low",
+   "diagnosis": "Six days of very lumpy daytime surges on Harbour St and nearby zones, either a real event or misclassification during one; the data cannot settle which.",
+   "evidence": "879 daily 532, 584, 2423, 1192, 384, 592 vs median ~50 (up to 740/hr 09:00-12:00 on 2025-10-16); similar surges 827 1213/945, 723 474/548, 701 533 on 2025-10-16/17; nights stay at 0."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 331,
+   "DIRECTION_SK": 827,
+   "start": "2025-10-14",
+   "end": "2025-10-17",
+   "confidence": "low",
+   "diagnosis": "Same 2025-10-14..19 daytime surge episode as Harbour St; real event or misclassification.",
+   "evidence": "827 516, 128, 1213, 945 vs median ~80/day; 528/hr at 11:00 on 2025-10-16."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 332,
+   "DIRECTION_SK": 723,
+   "start": "2025-10-14",
+   "end": "2025-10-18",
+   "confidence": "low",
+   "diagnosis": "Same 2025-10 surge episode on the Harbour St crossing.",
+   "evidence": "723 139, 194, 474, 548, 97 vs median 12/day."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 335,
+   "DIRECTION_SK": 701,
+   "start": "2025-10-14",
+   "end": "2025-10-17",
+   "confidence": "low",
+   "diagnosis": "Same 2025-10 surge episode on the Cliff Rd crossing.",
+   "evidence": "701 283, 180, 250, 533 vs median ~50/day."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 329,
+   "name": "South East (OUT), to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 689,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (~45 -> ~90/day (Sep-Nov 2024 vs Sep-Nov 2025: 40->66, 47->73)) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 329,
+   "name": "South East (OUT), from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 689,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (~45 -> ~90/day (Sep-Nov 2024 vs Sep-Nov 2025: 40->66, 47->73)); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 329,
+   "name": "North West (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 745,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  },
+  {
+   "SITE_SK": 330,
+   "name": "North East (IN), to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 817,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (55-65 -> 8-22/day) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 330,
+   "name": "North East (IN), from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 817,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (55-65 -> 8-22/day); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 330,
+   "name": "South West (OUT), to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 879,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (72-81 -> 33-52/day) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 330,
+   "name": "South West (OUT), from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 879,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (72-81 -> 33-52/day); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 331,
+   "name": "North West (OUT), to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 716,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (61-76 -> 16-20/day) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 331,
+   "name": "North West (OUT), from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 716,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (61-76 -> 16-20/day); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 331,
+   "name": "South East (IN), to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 827,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (150-170 -> 66-68/day) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 331,
+   "name": "South East (IN), from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 827,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (150-170 -> 66-68/day); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 332,
+   "name": "South East",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 723,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  },
+  {
+   "SITE_SK": 332,
+   "name": "North West",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 900,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  },
+  {
+   "SITE_SK": 333,
+   "name": "South West (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 764,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  },
+  {
+   "SITE_SK": 333,
+   "name": "North East (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 872,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  },
+  {
+   "SITE_SK": 334,
+   "name": "South East",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 766,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  },
+  {
+   "SITE_SK": 334,
+   "name": "North West",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 807,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  },
+  {
+   "SITE_SK": 335,
+   "name": "South West, to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 701,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (12-16 -> 45-47/day) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 335,
+   "name": "South West, from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 701,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (12-16 -> 45-47/day); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 335,
+   "name": "North East, to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 953,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (13 -> 50/day) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 335,
+   "name": "North East, from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 953,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (13 -> 50/day); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 336,
+   "name": "South East, to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 802,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (59-73 -> 16-24/day) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 336,
+   "name": "South East, from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 802,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (59-73 -> 16-24/day); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 336,
+   "name": "North West, to 2024-11-28",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 826,
+     "start": null,
+     "end": "2024-11-28"
+    }
+   ],
+   "evidence": "Level steps abruptly between 2024-11-28 and 2024-12-01 when many zones of camera C0000301 shift at once (36-37 -> 10-13/day) while the camera total stays similar; looks like a zone redefinition, so before and after are not comparable."
+  },
+  {
+   "SITE_SK": 336,
+   "name": "North West, from 2024-11-29",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 826,
+     "start": "2024-11-29",
+     "end": null
+    }
+   ],
+   "evidence": "Level after the 2024-11-29 step change (36-37 -> 10-13/day); stable from Dec 2024 to Aug 2026."
+  },
+  {
+   "SITE_SK": 337,
+   "name": "South East",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 798,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  },
+  {
+   "SITE_SK": 337,
+   "name": "North West",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 279,
+     "DIRECTION_SK": 883,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Single camera zone direction; level has no step at the 2024-11-29 reconfiguration (same-season monthly means within ~30%)."
+  }
+ ],
+ "summary": "One VivaCity camera (C0000301) covers nine zones at Cliff Rd / Harbour St, Wollongong, from Jul 2023 to Aug 2026, with outages (Nov 2023, Dec 2023-Apr 2024, late May-Aug 2024) already set missing by zero_outage; Sunday mass-ride peaks (2024-04-21, 2024-11-03, 2025-04-27, 2026-04-19) are real. The Cliff Rd (SW) footpath zone (site 334) produced phantom counts, often overnight, from Oct 2023 to Nov 2024 and is set missing for that span, and a six-day daytime surge in Oct 2025 is left as uncertain. On 2024-11-29 the zone split changed abruptly (road zones down, crossings and some paths up, camera total similar), so nine directions are split into before/after series."
+}

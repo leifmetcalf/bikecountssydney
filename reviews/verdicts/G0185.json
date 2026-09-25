@@ -1,0 +1,6 @@
+{
+  "group": "G0185",
+  "decisions": [],
+  "series": [],
+  "summary": "Single Metrocount piezo (counter 192) on the Parramatta River south path west of MacArthur St, one record per slot throughout, with no doubling, duplicates or impossible counts. The two all-zero outages (2019-08-25 to 2019-09-30 and 2021-02-21 to 2021-09-27) are already set missing by zero_outage, and the partial boundary days look right. When counts return in late Sep 2021 both directions sit at about 25% of their earlier level (about 27/day down to 5-10/day). This is a real diversion, not a fault: the new Parramatta Rvr N escarpment path (site 195, about 500/day) opened in April 2021, and the neighbouring south-path and offramp sites 184 and 182 fell by 75-85% at the same time, so the record stands as is."
+}

@@ -1,0 +1,15 @@
+{
+  "group": "G0095",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 95, "DIRECTION_SK": null, "start": "2017-10-01", "end": "2019-09-09",
+      "confidence": "high",
+      "diagnosis": "The counter had failed: it recorded only fragments of days (mostly Friday/Saturday), bursts of hundreds of counts in a handful of slots, and from late 2018 one direction was dead, so the counts left after the automatic fixes are not usable.",
+      "evidence": "Weekly valid share 0-0.36 throughout; spurious slot bursts kept as valid, e.g. 2019-05-03 dir 55 = 575 in 8 slots (192, 162, 69...), 2019-03-02 = 373 in 2 slots, 2019-03-30 = 230 in 7 slots; 2019-04-27 to 05-02 dir 55 has full days of 0-2 bikes while dir 56 was dead; impossible_count days of 620-2713; 2018 directions correlate 0.79-0.97 slot by slot against about -0.35 in normal operation; normal service resumes 2019-09-10."},
+    {"action": "uncertain", "SITE_SK": 95, "DIRECTION_SK": null, "start": "2015-07-01", "end": "2017-09-30",
+      "confidence": "low",
+      "diagnosis": "The level rose steadily while nearby counters stayed flat, and the two directions became more and more alike before the counter failed, which may mean a degrading sensor was overcounting, but the data does not prove it.",
+      "evidence": "Two-way median daily rose from 62-65 (2013-14) to 85-86 (2015-16) and 113 (2017, complete days only), then was 44-66 after the 2019 repair; Falcon St (site 94, 0.6 km) went 16 -> 14 -> 12 over the same years; slot correlation between directions went from 0.10-0.24 (2012-2015 H1) to 0.68 (2015 H2), 0.56 (2016), 0.5-0.6 (2017), and it is negative (-0.25 to -0.45) from 2019-09; dir 56 AM-peak share rose from ~9 to ~15 bikes/day while its PM stayed at ~14; in 2017 some bursts appear equally in both directions (2017-08-23 06:00-07:00: 12/14, 24/17, 20/18, 20/23, 34/25)."}
+  ],
+  "series": [],
+  "summary": "Site 95 (Ridge St, one MetroCount piezo) gives good tidal data in 2012-2016 and again from 2019-09-10 to 2024-10. From 2017 the counter failed on and off, and by 2017-10 to 2019-09-09 it had failed completely: the leftover fragments and spurious bursts should be set to missing. The higher level and closely matched directions in 2015-2017 are flagged as uncertain, as possible overcounting before the failure; the automatic zero_outage fixes elsewhere (2020-03 to 2021-02, 2023-11 to 2024-02 and short outages) are right."
+}

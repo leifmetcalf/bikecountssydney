@@ -1,0 +1,21 @@
+{
+  "group": "G0540",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 540, "DIRECTION_SK": null,
+      "start": "2025-06-04", "end": "2025-07-03", "confidence": "low",
+      "diagnosis": "Both directions fall over three days to near zero for four weeks, then two all-zero days and a clean recovery on 2025-07-04; this could be a path closure or detour, or a failing sensor that was repaired, and no nearby counter was running to tell which.",
+      "evidence": "Weekly E/W 254/280 (w/c 2025-05-26), then 86/81, 39/19, 33/9, 29/13, then 103/88 and 154/160; W 0-3 bikes a day 2025-06-14..06-30 against 30-50 before; the weak evening peak left in the East direction still has a commuting shape; zero_outage already blanks 06-28..07-04 zeros."
+    }
+  ],
+  "series": [
+    {"SITE_SK": 540, "name": "Geddes Ave eastbound", "confidence": "high",
+      "parts": [{"COUNTER_SK": 328, "DIRECTION_SK": 1557, "start": null, "end": null},
+                {"COUNTER_SK": 350, "DIRECTION_SK": 1737, "start": null, "end": null}],
+      "evidence": "350 takes over the day after 328 stops (2025-09-15 to 2025-09-16) with no overlap and no gap. Levels match: 328 East was 44-55 a day in late Aug and early Sep 2025, and 350 East is 42-68 a day in its first weeks. The hourly profiles also match."},
+    {"SITE_SK": 540, "name": "Geddes Ave westbound", "confidence": "high",
+      "parts": [{"COUNTER_SK": 328, "DIRECTION_SK": 1558, "start": null, "end": null},
+                {"COUNTER_SK": 350, "DIRECTION_SK": 1738, "start": null, "end": null}],
+      "evidence": "The handover is seamless on 2025-09-15/16. 328 West was 38-68 a day in late Aug and early Sep 2025, and 350 West is 38-66 a day after the switch. Both have the same citybound West orientation."}
+  ],
+  "summary": "The automatic halving of counter 328 from 2023-10-24 to 2024-05-19 is correct. In that period all 5,190 non-zero slots in both directions are even, and odd counts return abruptly on 2024-05-20. Counter 350 continues 328 seamlessly from 2025-09-16, and the steady growth to about 145 bikes a day per direction by 2026 is shared by both directions, has no spikes and looks real. Only the near-zero June 2025 stretch on 328 is left uncertain."
+}

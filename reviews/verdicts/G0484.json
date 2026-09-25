@@ -1,0 +1,470 @@
+{
+  "group": "G0484",
+  "decisions": [
+    {
+      "action": "uncertain",
+      "SITE_SK": 484,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "medium",
+      "diagnosis": "The camera's detection or zone configuration appears to have changed overnight on 2024-11-08, so counts before that date likely undercount relative to later ones, but the size of the undercount cannot be recovered.",
+      "evidence": "All 14 zones of camera 320 step up from the first morning of 2024-11-08 (camera total 71 on 11-07 to 266 on 11-08, ~90/day in Oct to ~300/day in Nov-Dec) with very uneven weekly ratios (1376 ~8->~100, 1407 ~12->~100, 1346 ~35->~200, 1222 ~85->~320, 1431 ~150->~300, 1329 ~18->~24); the IN:OUT ratio on the road zones falls from ~4.4:1 (1389+1329 vs 1376+1381) to ~1.8:1, and Apr 2025 is 1.6-4x Apr 2024 by zone."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 485,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "medium",
+      "diagnosis": "The camera's detection or zone configuration appears to have changed overnight on 2024-11-08, so counts before that date likely undercount relative to later ones, but the size of the undercount cannot be recovered.",
+      "evidence": "All 14 zones of camera 320 step up from the first morning of 2024-11-08 (camera total 71 on 11-07 to 266 on 11-08, ~90/day in Oct to ~300/day in Nov-Dec) with very uneven weekly ratios (1376 ~8->~100, 1407 ~12->~100, 1346 ~35->~200, 1222 ~85->~320, 1431 ~150->~300, 1329 ~18->~24); the IN:OUT ratio on the road zones falls from ~4.4:1 (1389+1329 vs 1376+1381) to ~1.8:1, and Apr 2025 is 1.6-4x Apr 2024 by zone."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 486,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "medium",
+      "diagnosis": "The camera's detection or zone configuration appears to have changed overnight on 2024-11-08, so counts before that date likely undercount relative to later ones, but the size of the undercount cannot be recovered.",
+      "evidence": "All 14 zones of camera 320 step up from the first morning of 2024-11-08 (camera total 71 on 11-07 to 266 on 11-08, ~90/day in Oct to ~300/day in Nov-Dec) with very uneven weekly ratios (1376 ~8->~100, 1407 ~12->~100, 1346 ~35->~200, 1222 ~85->~320, 1431 ~150->~300, 1329 ~18->~24); the IN:OUT ratio on the road zones falls from ~4.4:1 (1389+1329 vs 1376+1381) to ~1.8:1, and Apr 2025 is 1.6-4x Apr 2024 by zone."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 487,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "medium",
+      "diagnosis": "The camera's detection or zone configuration appears to have changed overnight on 2024-11-08, so counts before that date likely undercount relative to later ones, but the size of the undercount cannot be recovered.",
+      "evidence": "All 14 zones of camera 320 step up from the first morning of 2024-11-08 (camera total 71 on 11-07 to 266 on 11-08, ~90/day in Oct to ~300/day in Nov-Dec) with very uneven weekly ratios (1376 ~8->~100, 1407 ~12->~100, 1346 ~35->~200, 1222 ~85->~320, 1431 ~150->~300, 1329 ~18->~24); the IN:OUT ratio on the road zones falls from ~4.4:1 (1389+1329 vs 1376+1381) to ~1.8:1, and Apr 2025 is 1.6-4x Apr 2024 by zone."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 488,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "medium",
+      "diagnosis": "The camera's detection or zone configuration appears to have changed overnight on 2024-11-08, so counts before that date likely undercount relative to later ones, but the size of the undercount cannot be recovered.",
+      "evidence": "All 14 zones of camera 320 step up from the first morning of 2024-11-08 (camera total 71 on 11-07 to 266 on 11-08, ~90/day in Oct to ~300/day in Nov-Dec) with very uneven weekly ratios (1376 ~8->~100, 1407 ~12->~100, 1346 ~35->~200, 1222 ~85->~320, 1431 ~150->~300, 1329 ~18->~24); the IN:OUT ratio on the road zones falls from ~4.4:1 (1389+1329 vs 1376+1381) to ~1.8:1, and Apr 2025 is 1.6-4x Apr 2024 by zone."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 489,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "medium",
+      "diagnosis": "The camera's detection or zone configuration appears to have changed overnight on 2024-11-08, so counts before that date likely undercount relative to later ones, but the size of the undercount cannot be recovered.",
+      "evidence": "All 14 zones of camera 320 step up from the first morning of 2024-11-08 (camera total 71 on 11-07 to 266 on 11-08, ~90/day in Oct to ~300/day in Nov-Dec) with very uneven weekly ratios (1376 ~8->~100, 1407 ~12->~100, 1346 ~35->~200, 1222 ~85->~320, 1431 ~150->~300, 1329 ~18->~24); the IN:OUT ratio on the road zones falls from ~4.4:1 (1389+1329 vs 1376+1381) to ~1.8:1, and Apr 2025 is 1.6-4x Apr 2024 by zone."
+    },
+    {
+      "action": "uncertain",
+      "SITE_SK": 490,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "medium",
+      "diagnosis": "The camera's detection or zone configuration appears to have changed overnight on 2024-11-08, so counts before that date likely undercount relative to later ones, but the size of the undercount cannot be recovered.",
+      "evidence": "All 14 zones of camera 320 step up from the first morning of 2024-11-08 (camera total 71 on 11-07 to 266 on 11-08, ~90/day in Oct to ~300/day in Nov-Dec) with very uneven weekly ratios (1376 ~8->~100, 1407 ~12->~100, 1346 ~35->~200, 1222 ~85->~320, 1431 ~150->~300, 1329 ~18->~24); the IN:OUT ratio on the road zones falls from ~4.4:1 (1389+1329 vs 1376+1381) to ~1.8:1, and Apr 2025 is 1.6-4x Apr 2024 by zone."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 484,
+      "name": "North West (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1236,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 484,
+      "name": "North West (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1236,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 484,
+      "name": "South East (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1297,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 484,
+      "name": "South East (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1297,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 485,
+      "name": "South West (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1309,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 485,
+      "name": "South West (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1309,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 485,
+      "name": "North East (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1407,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 485,
+      "name": "North East (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1407,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 486,
+      "name": "South East (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1293,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 486,
+      "name": "South East (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1293,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 486,
+      "name": "North West (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1366,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 486,
+      "name": "North West (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1366,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 487,
+      "name": "North East (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1222,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 487,
+      "name": "North East (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1222,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 487,
+      "name": "South West (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1346,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 487,
+      "name": "South West (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1346,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 488,
+      "name": "South West (OUT) (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1376,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 488,
+      "name": "South West (OUT) (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1376,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 488,
+      "name": "North East (IN) (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1389,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 488,
+      "name": "North East (IN) (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1389,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 489,
+      "name": "East (IN) (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1329,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 489,
+      "name": "East (IN) (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1329,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 489,
+      "name": "West (OUT) (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1381,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 489,
+      "name": "West (OUT) (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1381,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 490,
+      "name": "North West (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1431,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 490,
+      "name": "North West (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1431,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    },
+    {
+      "SITE_SK": 490,
+      "name": "South East (to 2024-11-07)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1433,
+          "start": null,
+          "end": "2024-11-07"
+        }
+      ],
+      "evidence": "Camera 320 before the 2024-11-08 step change in detection; kept separate because the later readings are not comparable (zone-specific jumps of 1.3x-12x overnight)."
+    },
+    {
+      "SITE_SK": 490,
+      "name": "South East (from 2024-11-08)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 320,
+          "DIRECTION_SK": 1433,
+          "start": "2024-11-08",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 320 after the 2024-11-08 step change; consistent level and IN/OUT balance from then to the end of data (2025-05-28)."
+    }
+  ],
+  "summary": "One VivaCity-style camera (counter 320) covering 7 zones at Pacific Hwy / Marks Point Rd, Marks Point, 2024-03-25 to 2025-05-28; the June-August 2024 outage and short zone dropouts are already set missing by the automatic zero_outage fixes, and the remaining low days (e.g. 2024-04-05, 2024-09-26, 2025-04-27, 2025-05-22) are camera-wide and look like weather. The main issue is an abrupt, zone-uneven 3-4x step up on 2024-11-08 that also rebalances IN and OUT, pointing to a detection/configuration change, so each direction is split into a series before and after that date and the earlier period is flagged uncertain."
+}

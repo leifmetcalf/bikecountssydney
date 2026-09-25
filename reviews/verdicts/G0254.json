@@ -1,0 +1,19 @@
+{
+  "group": "G0254",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 254, "DIRECTION_SK": null, "start": "2012-02-27", "end": "2012-04-23",
+      "confidence": "high",
+      "diagnosis": "At commissioning the West channel was dead, and the East channel recorded only the westbound flow (evening peak), so eastbound riders went uncounted and the total is wrong until the counter was fixed around midday on 23 Apr 2012.",
+      "evidence": "West 0-18/week from 27 Feb to 22 Apr 2012, then 712 in the week of 23 Apr; East weekday hourly profile in Mar-Apr 2012 shows an 18-19h peak of 15-37 and almost no 7-9h peak (0-9), while from 24 Apr East has a 7-9h peak of 26-36 and West takes the 16-19h peak (30/h), the normal pattern."},
+    {"action": "restore", "SITE_SK": 254, "DIRECTION_SK": 316, "start": "2023-02-15", "end": "2023-03-09",
+      "confidence": "high",
+      "diagnosis": "duplicate_measurement removed one of East's two channels, but this direction always has two records per slot (since 2022) and the two records vary independently, so the raw sum is right.",
+      "evidence": "Records per slot are 2.0 from Mar 2022 on; on 2023-02-20 the channels read [0,6],[5,3],[10,4],[5,1] in the peak slots (not tracking); raw East 193-317/day matches 166-334/day in the week before, while the clean values of 77-161 are half of that."},
+    {"action": "direction_unreliable", "SITE_SK": 254, "DIRECTION_SK": null, "start": "2018-05-28", "end": "2024-10-02",
+      "confidence": "high",
+      "diagnosis": "After the 2016-2018 outage, East (citybound) picks up most westbound riders: it has both the morning and the evening peak, while West is small and flat, but the site total is similar to before.",
+      "evidence": "Weekday hourly peaks: Sep 2015-Mar 2016 East 8h 34 / 17h 10, West 8h 12 / 17h 28; Jul 2018-Feb 2019 East 8h 53 / 17h 33, West 8h 8 / 17h 8 (same shape in 2019-20, 2022, 2023-24). The East:West split went from about 53:47 to about 78:22, while the total stayed at about 250-270/day in 2015-16 and 2018-19 and about 280/day in 2019-20."}
+  ],
+  "series": [],
+  "summary": "The site has a single Ecocounter piezo counter (232), with long outages already set to missing by zero_outage. At commissioning (Feb to 23 Apr 2012) only westbound riders were recorded, on the East channel, so those weeks are set missing for both directions. From the 2018 restart on, the East/West split is unreliable even though the totals look right, and a wrong duplicate_measurement fix that halved East from 15 Feb to 9 Mar 2023 is restored."
+}

@@ -1,0 +1,15 @@
+{
+  "group": "G0115",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 115, "DIRECTION_SK": 37, "start": "2013-02-15", "end": "2013-02-21",
+      "confidence": "medium",
+      "diagnosis": "For seven days eastbound reads almost exactly twice westbound in every hour of the day, then snaps back to parity on 2013-02-22; this looks like the eastbound channel partly double-counting, but odd counts are normal, so it is not a clean doubling that can be halved.",
+      "evidence": "East/West daily 301/163, 728/376, 777/424, 312/157, 475/241, 431/214, 378/191 (ratio 1.83-2.01) vs about 1.0 in the weeks before and after; East weekday hourly profile about 2x its 4-14 Feb and 25 Feb-8 Mar level at almost every hour while West is about 1.1x; odd slots 30-39 of 56-71 non-zero; weeks of 11 and 18 Feb East 2437/1993 vs West 1575/1141."},
+    {"action": "uncertain", "SITE_SK": 115, "DIRECTION_SK": null, "start": "2012-03-05", "end": "2012-04-08",
+      "confidence": "low",
+      "diagnosis": "Eastbound runs about 1.5x westbound for five weeks and returns to parity abruptly on Easter Monday; this may be a sensor fault in the direction split (or a real diversion), and is not settled by the data.",
+      "evidence": "March 2012 mean East 120/day vs West 86/day; daily ratio 1.3-2.3 from 5 Mar to 8 Apr, then 0.94-1.03 from 9 Apr; similar shorter episodes 2011-09-05..09-16 and 2012-01-21..02-03 (ratio 1.4-1.9); elsewhere ratio about 1.0."}
+  ],
+  "series": [],
+  "summary": "Site 115 (M7 shared path west of Sunnyholt Rd) has a single MetroCount piezo counter with one record per slot from Aug 2011 to Mar 2013, and its data is otherwise clean with East and West usually within a few percent of each other. The 14 Oct 2012 eastbound spike (1434, concentrated 07:30-10:30) is an organised ride and is kept; the only concerns are periods where eastbound runs well above westbound, notably 15-21 Feb 2013 at almost exactly 2x, recorded as uncertain. Automatic zero_outage fixes (Nov 2011, Jan 2013, end of record) only affect zero slots and do not change weekly totals."
+}

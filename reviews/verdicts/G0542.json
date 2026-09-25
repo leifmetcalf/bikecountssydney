@@ -1,0 +1,19 @@
+{
+  "group": "G0542",
+  "decisions": [],
+  "series": [
+    {"SITE_SK": 542, "name": "Northbound (citybound), Ecocounter 2013-2025", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 231, "DIRECTION_SK": 322, "start": null, "end": null}],
+      "evidence": "Ecocounter 231 ran 2013-03 to 2025-04-14; MetroCount 355 started 2025-10-11 after a 6-month gap with no overlap and reads about 35% higher (April 2025 1071/day vs April 2026 1443/day for the citybound direction). Other City of Sydney sites replaced at the same time step up similarly (Bourke St N of Thurlow +44%, Kent St +53% April-on-April) while the continuous Anzac Pde counter was about +3% year on year, so the jump is an instrument change and the counters are not comparable."},
+    {"SITE_SK": 542, "name": "Southbound (outbound), Ecocounter 2013-2025", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 231, "DIRECTION_SK": 323, "start": null, "end": null}],
+      "evidence": "Same as northbound: 887/day in April 2025 on counter 231 vs 1212/day in April 2026 on counter 355 (+37%), matching a network-wide step at the counter replacement, so kept separate."},
+    {"SITE_SK": 542, "name": "Citybound (labelled East), MetroCount 2025-", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 355, "DIRECTION_SK": 1747, "start": null, "end": null}],
+      "evidence": "Corresponds to 322 (both citybound; the higher direction by a similar ratio of about 1.2), but the new counter reads about 35% higher, so it is its own series."},
+    {"SITE_SK": 542, "name": "Outbound (labelled West), MetroCount 2025-", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 355, "DIRECTION_SK": 1748, "start": null, "end": null}],
+      "evidence": "Corresponds to 323 (both non-citybound), but the level is not comparable across the counter replacement, so it is its own series."}
+  ],
+  "summary": "Bourke St (W) S of Taylor Sq has a long, clean Ecocounter record (2013-2025), with two long outages (Dec 2014 to Apr 2016 and Mar 2021 to Jan 2022) already set missing by zero_outage, and about 40 days of exact duplicate records (8 records per slot instead of 4) correctly removed by duplicate_record; no further changes are needed. The MetroCount unit that replaced it in Oct 2025 reads about 35% higher, in line with a step-up seen at other City of Sydney sites replaced at the same time, so the old and new counters are kept as separate series."
+}

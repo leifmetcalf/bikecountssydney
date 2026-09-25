@@ -1,0 +1,26 @@
+{
+  "group": "G0186",
+  "decisions": [
+    {"action": "uncertain", "SITE_SK": 186, "DIRECTION_SK": null,
+      "start": "2021-03-29", "end": "2021-05-16", "confidence": "low",
+      "diagnosis": "Seven weeks of pure zeros in both directions after the March 2021 Parramatta River flood, auto-set missing; they may be a real closure of the south-bank path (true zero) rather than a counter outage.",
+      "evidence": "Site 186 weekly total 0 from 2021-03-29 to 2021-05-16 (about 850-1600/week before, 600-800/week after); across the river site 187 rose from about 3,000-4,300/week to 5,200-5,800/week for 2021-03-29 to 2021-04-25 and fell back to about 4,000 once 186 resumed, which points to riders diverting; but April is also school holidays and the step at the end is weak, so the zeros stay missing."}
+  ],
+  "series": [
+    {"SITE_SK": 186, "name": "Westbound", "confidence": "medium",
+      "parts": [
+        {"COUNTER_SK": 189, "DIRECTION_SK": 203, "start": null, "end": null},
+        {"COUNTER_SK": 219, "DIRECTION_SK": 267, "start": null, "end": null},
+        {"COUNTER_SK": 259, "DIRECTION_SK": 637, "start": null, "end": null}
+      ],
+      "evidence": "Same site and same RidePod model, replaced in sequence with gaps of 9 and 2 days and no overlap; the West direction is always the busier one (W/E weekly ratio about 1.5-1.7 on 189 from Feb 2021, 1.4-1.9 on 219 and 1.3-1.8 on 259), with a morning peak around 08:00 on 189 in 2019 and on 259; West levels match across the changeovers (189 early Dec 2021 about 50-60/day, 219 late Dec 2021 about 70-85/day in the holidays, 219 mid-Apr 2022 about 45-100/day, 259 May 2022 about 45-80/day)."},
+    {"SITE_SK": 186, "name": "Eastbound", "confidence": "medium",
+      "parts": [
+        {"COUNTER_SK": 189, "DIRECTION_SK": 204, "start": null, "end": null},
+        {"COUNTER_SK": 219, "DIRECTION_SK": 280, "start": null, "end": null},
+        {"COUNTER_SK": 259, "DIRECTION_SK": 639, "start": null, "end": null}
+      ],
+      "evidence": "Same sequence of replacement counters at the same site; East is the lighter direction on all three counters and peaks in the afternoon (15:00-17:00); its levels match across the changeovers (189 early Dec 2021 about 20-50/day, 219 about 30-60/day, 259 May 2022 about 35-50/day)."}
+  ],
+  "summary": "Parramatta River south-bank path west of Elizabeth St, counted by three RidePod counters one after another (2019-2025) that read at similar levels, so each direction forms one continuous series. The automatic zero_outage fixes cover a real counter outage from Nov 2019 to Oct 2020 (the north-bank site 187 carried on as normal) and several flood periods (Sep 2019, Mar 2021, Feb-Apr 2022, Jul 2022, Apr 2024), and they stand as they are; the only open question is whether the Mar-May 2021 zeros were a real path closure. In Nov 2020 the counter's clock appears about 3 hours early (activity from 03:00, peaks at 15-16h; it corrects on 2 Dec 2020), which only moves counts between slots, and the lasting change in the West/East split from Feb 2021 continues on all later counters, so it is treated as real."
+}

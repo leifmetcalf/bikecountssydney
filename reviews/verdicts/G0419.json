@@ -1,0 +1,1517 @@
+{
+ "group": "G0419",
+ "decisions": [
+  {
+   "action": "restore",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2023-10-26",
+   "end": "2023-11-01",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed genuine zeros on the LHS path, which normally carries only 1-3 bikes a day.",
+   "evidence": "419 raw 0-4/day on these days; its usual level Dec 2023-Feb 2025 is 1-2/day per direction, so zeros are expected; the fix's baseline was inflated by the Nov 2023 diversion."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2023-11-01",
+   "end": "2023-11-08",
+   "confidence": "high",
+   "diagnosis": "zero_outage removed real zeros: riders were diverted from the RHS path (420) to the LHS path (419) from 1 to 16 Nov 2023.",
+   "evidence": "420 fell to 0-5/day while 419 rose from ~3/day to 20-80/day (e.g. 12 Nov: 419 122 vs 420 21); combined 419+420 stayed ~45-150/day, and the tramline zone was unaffected."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 421,
+   "DIRECTION_SK": 1126,
+   "start": "2024-05-17",
+   "end": "2024-05-19",
+   "confidence": "medium",
+   "diagnosis": "zero_outage removed plausible zeros on the low-volume tramline zone; the opposite direction was equally quiet.",
+   "evidence": "1126 raw 3,0,6 vs 1123 3,1,8 on the same days; the paths (420) counted normally, so the camera was working."
+  },
+  {
+   "action": "restore",
+   "SITE_SK": 420,
+   "DIRECTION_SK": 1188,
+   "start": "2024-06-22",
+   "end": "2024-06-22",
+   "confidence": "low",
+   "diagnosis": "Zero westbound day on the RHS path coincides with flow moving onto the tramline zone, as on other diversion days; not an outage.",
+   "evidence": "1182 only 4 and 1188 0 while tramline 421 carried 49+26 that day; camera recorded other zones all day."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-02-29",
+   "end": "2024-03-01",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage published as zeros from 10:00 on 29 Feb to 11:00 on 1 Mar 2024.",
+   "evidence": "Every zone zero for 25 h across a weekday daytime (normal 420 ~ 50-60/day), including the 1 Mar AM peak."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-02-29",
+   "end": "2024-03-01",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage published as zeros from 10:00 on 29 Feb to 11:00 on 1 Mar 2024.",
+   "evidence": "Every zone zero for 25 h across a weekday daytime (normal 420 ~ 50-60/day), including the 1 Mar AM peak."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-02-29",
+   "end": "2024-03-01",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage published as zeros from 10:00 on 29 Feb to 11:00 on 1 Mar 2024.",
+   "evidence": "Every zone zero for 25 h across a weekday daytime (normal 420 ~ 50-60/day), including the 1 Mar AM peak."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-04-05",
+   "end": "2024-04-07",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage published as zeros from 20:00 on 5 Apr to 10:00 on 7 Apr 2024 (plus a 07:15-13:45 gap on 5 Apr).",
+   "evidence": "All six directions zero for 38 h, including all of Saturday 6 Apr; auto-fix only caught site 420."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-04-05",
+   "end": "2024-04-07",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage published as zeros from 20:00 on 5 Apr to 10:00 on 7 Apr 2024 (plus a 07:15-13:45 gap on 5 Apr).",
+   "evidence": "All six directions zero for 38 h, including all of Saturday 6 Apr; auto-fix only caught site 420."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-04-05",
+   "end": "2024-04-07",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage published as zeros from 20:00 on 5 Apr to 10:00 on 7 Apr 2024 (plus a 07:15-13:45 gap on 5 Apr).",
+   "evidence": "All six directions zero for 38 h, including all of Saturday 6 Apr; auto-fix only caught site 420."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-08",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-08",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-06-07",
+   "end": "2024-06-08",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-06-10",
+   "end": "2024-06-10",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-06-10",
+   "end": "2024-06-10",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-06-10",
+   "end": "2024-06-10",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-06-12",
+   "end": "2024-06-12",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-06-15",
+   "end": "2024-06-15",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-06-15",
+   "end": "2024-06-15",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-06-15",
+   "end": "2024-06-15",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-06-17",
+   "end": "2024-06-17",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-06-17",
+   "end": "2024-06-17",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-06-17",
+   "end": "2024-06-17",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-06-19",
+   "end": "2024-06-21",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-06-19",
+   "end": "2024-06-21",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-06-19",
+   "end": "2024-06-21",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-06-23",
+   "end": "2024-06-24",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-06-23",
+   "end": "2024-06-24",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-06-23",
+   "end": "2024-06-24",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-06-26",
+   "end": "2024-06-29",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-06-26",
+   "end": "2024-06-29",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-06-26",
+   "end": "2024-06-29",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-07-01",
+   "end": "2024-07-01",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-07-01",
+   "end": "2024-07-01",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-07-01",
+   "end": "2024-07-01",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-07-05",
+   "end": "2024-07-05",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-07-05",
+   "end": "2024-07-05",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-07-05",
+   "end": "2024-07-05",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-07-09",
+   "end": "2024-07-10",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-07-09",
+   "end": "2024-07-10",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-07-09",
+   "end": "2024-07-10",
+   "confidence": "medium",
+   "diagnosis": "Winter data loss: the whole camera records nothing from the previous evening until ~10:00 local (00:00 UTC), wiping out the morning peak.",
+   "evidence": "Every zone zero 06:00-~10:00 on these days (outside May-Jul this happens only on known outage days); 420 June 2024 weekly totals fell to ~200-330 vs 350-450 in May; mean 06-09h on 1182 halved vs May."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-05-23",
+   "end": "2025-05-24",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-05-23",
+   "end": "2025-05-24",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-05-23",
+   "end": "2025-05-24",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-06-06",
+   "end": "2025-06-06",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-06-06",
+   "end": "2025-06-06",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-06-06",
+   "end": "2025-06-06",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-06-09",
+   "end": "2025-06-12",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-06-09",
+   "end": "2025-06-12",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-06-09",
+   "end": "2025-06-12",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-06-14",
+   "end": "2025-06-14",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-06-14",
+   "end": "2025-06-14",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-06-14",
+   "end": "2025-06-14",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-06-16",
+   "end": "2025-06-19",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-06-16",
+   "end": "2025-06-19",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-06-16",
+   "end": "2025-06-19",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-06-21",
+   "end": "2025-06-26",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-06-21",
+   "end": "2025-06-26",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-06-21",
+   "end": "2025-06-26",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-07-01",
+   "end": "2025-07-02",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-07-04",
+   "end": "2025-07-05",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-07-04",
+   "end": "2025-07-05",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-07-04",
+   "end": "2025-07-05",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-07-07",
+   "end": "2025-07-10",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-07-07",
+   "end": "2025-07-10",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-07-07",
+   "end": "2025-07-10",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-13",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-13",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-07-12",
+   "end": "2025-07-13",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-17",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-17",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-07-15",
+   "end": "2025-07-17",
+   "confidence": "medium",
+   "diagnosis": "Winter 2025 data loss: no slots are published for any zone from the previous evening until ~10:00 local (00:00 UTC), or for whole days (1-2, 12-13, 15-17 Jul).",
+   "evidence": "Every zone empty 06:00-~10:00 (first data 10:00-11:15) on these days, same pattern as winter 2024; multi-day gaps 1 Jul 07:15-2 Jul 09:45, 12 Jul 10:00-14 Jul 01:45, 15 Jul 10:00-17 Jul 19:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-01-30",
+   "end": "2025-02-02",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No records at all 29 Jan 23:30 - 2 Feb 11:15; 30 Jan has a single zero slot, 2 Feb only 52 slots."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-01-30",
+   "end": "2025-02-02",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No records at all 29 Jan 23:30 - 2 Feb 11:15; 30 Jan has a single zero slot, 2 Feb only 52 slots."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-01-30",
+   "end": "2025-02-02",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No records at all 29 Jan 23:30 - 2 Feb 11:15; 30 Jan has a single zero slot, 2 Feb only 52 slots."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-11",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No bikes in any zone from 8 Aug 10:00 to 11 Aug 23:15 (9-10 Aug unpublished)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-11",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No bikes in any zone from 8 Aug 10:00 to 11 Aug 23:15 (9-10 Aug unpublished)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-08-08",
+   "end": "2025-08-11",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No bikes in any zone from 8 Aug 10:00 to 11 Aug 23:15 (9-10 Aug unpublished)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-23",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No bikes in any zone from 22 Aug 09:45 to 24 Aug 04:15 (23 Aug unpublished)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-23",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No bikes in any zone from 22 Aug 09:45 to 24 Aug 04:15 (23 Aug unpublished)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-08-22",
+   "end": "2025-08-23",
+   "confidence": "high",
+   "diagnosis": "Camera outage: the partial days either side of an unpublished gap are incomplete.",
+   "evidence": "No bikes in any zone from 22 Aug 09:45 to 24 Aug 04:15 (23 Aug unpublished)."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-03-06",
+   "end": "2024-03-06",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-03-06",
+   "end": "2024-03-06",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-04-18",
+   "end": "2024-04-18",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-04-29",
+   "end": "2024-04-29",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-08-04",
+   "end": "2024-08-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-08-16",
+   "end": "2024-08-16",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-10",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-10-23",
+   "end": "2024-10-23",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-10-25",
+   "end": "2024-10-25",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-01-13",
+   "end": "2025-01-13",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-09-04",
+   "end": "2025-09-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-09-04",
+   "end": "2025-09-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count for this Sydney day; the auto-fix halved only site 420.",
+   "evidence": "On each day every non-zero slot in all six directions is even (60-92 slots, 0 odd), at about twice normal level; the auto 'halved' fix was applied only to site 420."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": 1188,
+   "start": "2024-07-15",
+   "end": "2024-07-15",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count; 1182 was auto-halved but 1188 was not.",
+   "evidence": "1188 raw 93 with 29 of 30 non-zero slots even; all other zones even that day."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": 1182,
+   "start": "2025-01-06",
+   "end": "2025-01-06",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count; 1188 was auto-halved but 1182 was not.",
+   "evidence": "1182 raw 86, all 29 non-zero slots even; all other zones even that day."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": 1182,
+   "start": "2025-09-04",
+   "end": "2025-09-04",
+   "confidence": "high",
+   "diagnosis": "Whole-camera double count; 1188 was auto-halved but 1182 was not.",
+   "evidence": "1182 raw 105, 31 of 32 non-zero slots even (the odd one at 23:45); 421 all even."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "medium",
+   "diagnosis": "Double count from ~11:30 on 24 Oct continuing through 25 Oct.",
+   "evidence": "421 raw 235 with 16 of 17 non-zero slots even; camera-wide run of 126 even slots from 24 Oct 11:30 to 25 Oct 23:45."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-10-24",
+   "end": "2024-10-24",
+   "confidence": "medium",
+   "diagnosis": "Double count covers only the afternoon (from ~11:30) so the day cannot be simply halved.",
+   "evidence": "420: 19 odd slots before 11:30, all slots even afterwards (part of a 126-slot even run)."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "medium",
+   "diagnosis": "The 4 Aug double count continued until ~09:15 on 5 Aug, doubling the morning peak only.",
+   "evidence": "Camera-wide run of 99 even slots from 4 Aug 04:45 to 5 Aug 09:15; later slots mixed."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "medium",
+   "diagnosis": "The 4 Aug double count continued until ~09:15 on 5 Aug, doubling the morning peak only.",
+   "evidence": "Camera-wide run of 99 even slots from 4 Aug 04:45 to 5 Aug 09:15; later slots mixed."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-08-05",
+   "end": "2024-08-05",
+   "confidence": "medium",
+   "diagnosis": "The 4 Aug double count continued until ~09:15 on 5 Aug, doubling the morning peak only.",
+   "evidence": "Camera-wide run of 99 even slots from 4 Aug 04:45 to 5 Aug 09:15; later slots mixed."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "medium",
+   "diagnosis": "Morning double count (02:15-09:45) after the tripled 3 Oct; the day cannot be simply halved.",
+   "evidence": "34 consecutive even slots across all zones 02:15-09:45; 420 raw 224 vs ~75 normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "medium",
+   "diagnosis": "Morning double count (02:15-09:45) after the tripled 3 Oct; the day cannot be simply halved.",
+   "evidence": "34 consecutive even slots across all zones 02:15-09:45; 420 raw 224 vs ~75 normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-10-04",
+   "end": "2024-10-04",
+   "confidence": "medium",
+   "diagnosis": "Morning double count (02:15-09:45) after the tripled 3 Oct; the day cannot be simply halved.",
+   "evidence": "34 consecutive even slots across all zones 02:15-09:45; 420 raw 224 vs ~75 normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Whole-camera triple count; values cannot be halved.",
+   "evidence": "All 102 non-zero slots in all zones divisible by 3 (00:15-20:45); camera total 591 vs ~100-150 normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Whole-camera triple count; values cannot be halved.",
+   "evidence": "All 102 non-zero slots in all zones divisible by 3 (00:15-20:45); camera total 591 vs ~100-150 normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2024-10-03",
+   "end": "2024-10-03",
+   "confidence": "high",
+   "diagnosis": "Whole-camera triple count; values cannot be halved.",
+   "evidence": "All 102 non-zero slots in all zones divisible by 3 (00:15-20:45); camera total 591 vs ~100-150 normal."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-10",
+   "confidence": "high",
+   "diagnosis": "Whole-camera triple count.",
+   "evidence": "All 31 non-zero slots 22:45 9 Sep - 22:00 10 Sep divisible by 3 across all zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-10",
+   "confidence": "high",
+   "diagnosis": "Whole-camera triple count.",
+   "evidence": "All 31 non-zero slots 22:45 9 Sep - 22:00 10 Sep divisible by 3 across all zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-09-10",
+   "end": "2025-09-10",
+   "confidence": "high",
+   "diagnosis": "Whole-camera triple count.",
+   "evidence": "All 31 non-zero slots 22:45 9 Sep - 22:00 10 Sep divisible by 3 across all zones."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-09-17",
+   "end": "2025-09-17",
+   "confidence": "high",
+   "diagnosis": "Triple count on the path and tramline zones.",
+   "evidence": "420: 69 of 70 non-zero slots divisible by 3 (raw 346); 421: 15 of 16."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-09-17",
+   "end": "2025-09-17",
+   "confidence": "high",
+   "diagnosis": "Triple count on the path and tramline zones.",
+   "evidence": "420: 69 of 70 non-zero slots divisible by 3 (raw 346); 421: 15 of 16."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-10-08",
+   "end": "2025-10-08",
+   "confidence": "high",
+   "diagnosis": "Triple count on the path and tramline zones.",
+   "evidence": "420: all 61 non-zero slots divisible by 3 (raw 333 vs ~130 normal); 421: 15 of 16."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-10-08",
+   "end": "2025-10-08",
+   "confidence": "high",
+   "diagnosis": "Triple count on the path and tramline zones.",
+   "evidence": "420: all 61 non-zero slots divisible by 3 (raw 333 vs ~130 normal); 421: 15 of 16."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-10-11",
+   "end": "2025-10-11",
+   "confidence": "high",
+   "diagnosis": "Triple count on the RHS path.",
+   "evidence": "420: 59 of 62 non-zero slots divisible by 3, raw 402 vs ~130 normal; 419 and 421 not affected."
+  },
+  {
+   "action": "missing",
+   "SITE_SK": 419,
+   "DIRECTION_SK": null,
+   "start": "2025-10-07",
+   "end": "2025-10-07",
+   "confidence": "low",
+   "diagnosis": "The LHS path on this doubled day has a mix of doubled and tripled-looking values (3, 9) that cannot be corrected.",
+   "evidence": "419 raw 29 vs ~5 normal; values 2,2,3,3,4,9,3,3."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": 1188,
+   "start": "2025-10-07",
+   "end": "2025-10-07",
+   "confidence": "high",
+   "diagnosis": "Double count; 1182 was auto-halved but 1188 was not.",
+   "evidence": "1188 raw 111, 28 of 29 non-zero slots even."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-10-07",
+   "end": "2025-10-07",
+   "confidence": "high",
+   "diagnosis": "Double count on the tramline zone, same day as the path.",
+   "evidence": "421 raw 51, 22 of 23 non-zero slots even."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-09-30",
+   "end": "2025-09-30",
+   "confidence": "high",
+   "diagnosis": "Double count on the RHS path (419 and 421 unaffected).",
+   "evidence": "420: 67 of 69 non-zero slots even, raw 298 vs ~130 normal; 421's 13 slots are all 1s."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-10-20",
+   "end": "2025-10-20",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 52 of 56 non-zero slots even (raw 146); 421: 18 of 20."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-10-20",
+   "end": "2025-10-20",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 52 of 56 non-zero slots even (raw 146); 421: 18 of 20."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-11-16",
+   "end": "2025-11-16",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 69 of 71 even (raw 284); 421: 11 of 12."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-11-16",
+   "end": "2025-11-16",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 69 of 71 even (raw 284); 421: 11 of 12."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-11-29",
+   "end": "2025-11-29",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 65 of 68 even (raw 269); 421: 14 of 15."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-11-29",
+   "end": "2025-11-29",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 65 of 68 even (raw 269); 421: 14 of 15."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2025-12-30",
+   "end": "2025-12-30",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 63 of 69 even (raw 304); 421: 16 of 18."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2025-12-30",
+   "end": "2025-12-30",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 63 of 69 even (raw 304); 421: 16 of 18."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 420,
+   "DIRECTION_SK": null,
+   "start": "2026-02-20",
+   "end": "2026-02-20",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 60 of 66 even (raw 268); 421: 17 of 20."
+  },
+  {
+   "action": "halve",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2026-02-20",
+   "end": "2026-02-20",
+   "confidence": "high",
+   "diagnosis": "Double count on the path and tramline zones (the LHS path zone was not doubled).",
+   "evidence": "420: 60 of 66 even (raw 268); 421: 17 of 20."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": 421,
+   "DIRECTION_SK": null,
+   "start": "2023-10-23",
+   "end": "2026-03-18",
+   "confidence": "medium",
+   "diagnosis": "The tramline zone has frequent evening/night bursts of 50-110 'bicycles' an hour while the adjacent paths are near zero, which may be crowds or light-rail works misclassified rather than cyclists.",
+   "evidence": "e.g. 14 Jun 2024 1123 19,67,112,53,35,64,97 per hour 17:00-23:59 (day 714 vs ~15 typical); ~100 days with 60-550, nearly all of it 20:00-05:00; also days when 420 collapses and 421 surges (e.g. 5 Apr, 22 Jun 2024)."
+  },
+  {
+   "action": "uncertain",
+   "SITE_SK": null,
+   "DIRECTION_SK": null,
+   "start": "2025-02-06",
+   "end": "2026-03-18",
+   "confidence": "medium",
+   "diagnosis": "From 6 Feb 2025 the feed publishes only some slots (about half), including some zeros, so the automatic zero fill was not applied; the absent slots look like unpublished zeros, and daily totals are consistent with 2024.",
+   "evidence": "1182 mean 53-77/day in Mar-Nov 2025 vs 44-75 in 2024; nonzero slots per day unchanged (~30) while published slots fell from 96 to ~40-55; no complete days since."
+  }
+ ],
+ "series": [],
+ "summary": "A single VivaCity camera (counter 303) at Tramway Ave, Parramatta, with three zones: the RHS path (420, the main flow ~110-130/day), the LHS path (419, ~3/day except a 1-16 Nov 2023 diversion to it) and the tramline (421, with dubious night bursts). The main faults are whole-camera double (and some triple) counts on single Sydney days, which the auto-fix halved only on some directions, winter data loss before 10:00 local (00:00 UTC) in June-July 2024 and 2025, and several multi-day outages; the Nov 2023 zero_outage fixes on 420 removed real zeros from a diversion. From Feb 2025 the feed omits many zero slots, so days look incomplete although the totals appear correct."
+}

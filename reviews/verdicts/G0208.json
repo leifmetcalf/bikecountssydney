@@ -1,0 +1,19 @@
+{
+  "group": "G0208",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 208, "DIRECTION_SK": 195, "start": "2016-06-05", "end": "2016-06-05",
+      "confidence": "high",
+      "diagnosis": "zero_outage removed genuine zeros on the East Coast Low storm Sunday, when almost nobody rode in either direction.",
+      "evidence": "East raw 2 with 40 slots set missing; West raw 3 on the same day (kept whole); 4 Jun 8/7, 6 Jun 46/54 against ~100-150 on normal weekdays."},
+    {"action": "uncertain", "SITE_SK": 208, "DIRECTION_SK": null, "start": "2024-05-24", "end": "2024-08-06",
+      "confidence": "medium",
+      "diagnosis": "Both directions ran about 25% below the same-path neighbours for ten weeks with sharp start and end, either a local diversion (e.g. path works) or reduced piezo detection; the data cannot tell which.",
+      "evidence": "Site 208 / site 124 daily ratio ~0.97 before 24 May and from 7 Aug, but 0.65-0.87 (mostly ~0.74) between; 208/210 monthly 1.07 normally, 0.88 Jun and 0.79 Jul 2024; East/West split stayed ~1.0; commute-peak hours fell most (7am East 10.9 vs 26.5 after) while day-to-day weather variation still tracked 124."},
+    {"action": "uncertain", "SITE_SK": 208, "DIRECTION_SK": null, "start": "2026-07-13", "end": "2026-07-31",
+      "confidence": "medium",
+      "diagnosis": "Counts fell sharply from 07:00 Monday 13 July to Friday 31 July while neighbours stayed normal, most likely a works closure/diversion at this spot (real) rather than a counter fault, but not confirmed.",
+      "evidence": "East ~20-70/day and West ~90-300/day vs ~250-500 each before and after; East/West ratio 0.2-0.35 against ~1.0 over 11 years; site 124 (1.2 km on the same path) normal (~2000/week per direction) and both sites dip together on 17 Jul (rain); drop starts at 07:00 Monday (06:00 hour still normal), East recovers from 15:00 Fri 31 Jul, fully normal by Sun 2 Aug."}
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo (counter 202) on the Parramatta River north shared path at Rydalmere, running 2015-2026 with near-identical East and West volumes and one record per slot; the Sep-Dec 2023 and 20 Oct 2025 all-zero outages are correctly set missing by zero_outage, and the only fix to undo is the East storm day of 5 Jun 2016. Two site-wide dips are flagged as uncertain rather than faults: a ~25% shortfall against neighbours from late May to early Aug 2024 and a sharp, work-hours-aligned drop from 13 to 31 Jul 2026 (East hit harder), both more likely local diversions than counter errors. No series definition is needed, since there is one counter at one site."
+}

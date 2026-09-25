@@ -1,0 +1,29 @@
+{
+  "group": "G0172",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 172, "DIRECTION_SK": null, "start": "2021-12-10", "end": "2021-12-16", "confidence": "high",
+      "diagnosis": "Tube counter 174 went near-dead in both directions for a week (the auto zero_outage only covered Dec 12-16 and kept the stray counts), while the neighbouring Smith St counter ran normally.",
+      "evidence": "Site 172 daily totals Dec 10-16: 8, 11, 3, 0, 6, 0, 14 vs 28-40 on Dec 6-9 and 37-50 on Dec 17-19; neighbour site 171 had 57-115 per day throughout; 101 recorded 1 and 2 bikes on Dec 10-11."},
+    {"action": "missing", "SITE_SK": 172, "DIRECTION_SK": null, "start": "2024-02-24", "end": "2024-03-08", "confidence": "medium",
+      "diagnosis": "Near the end of its deployment counter 256 kept dropping out in both directions at once for hours at a time, usually from midnight to the afternoon, so daily totals are far too low.",
+      "evidence": "Before Feb 24 the counter almost never had long daytime zero runs; from Feb 24 both directions were zero over the same blocks (Feb 24 09-19h, Feb 26 00-13h, Feb 28 00-15h, Feb 29 00-14h, Mar 1 00-17h, Mar 7-8 00-13/14h), with Feb 27 and Mar 2 all zero; site totals 0-34/day vs 38-52 the week before, while neighbour 171 rose to 116-189/day."},
+    {"action": "missing", "SITE_SK": 172, "DIRECTION_SK": null, "start": "2024-03-14", "end": "2024-03-19", "confidence": "high",
+      "diagnosis": "Counter 256 failed again in its last days: almost nothing was recorded on full days, then on the final day it counted only after 14:00.",
+      "evidence": "Site totals Mar 14-18: 2, 6, 2, 0, 10 vs 41-62 on Mar 11-13; neighbour 171 recorded 124-130/day on Mar 14-16; Mar 19 both directions were zero until 14:00 and the record ends that day."}
+  ],
+  "series": [
+    {"SITE_SK": 172, "name": "Kembla St southbound (2021-22 tube)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 174, "DIRECTION_SK": 101, "start": null, "end": null}],
+      "evidence": "The first tube deployment; kept separate from counter 256 because the 5-month gap and the change in level relative to neighbour 171 (about 0.45x vs 0.6x) mean the two counters cannot be shown to read the same."},
+    {"SITE_SK": 172, "name": "Kembla St northbound (2021-22 tube)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 174, "DIRECTION_SK": 102, "start": null, "end": null}],
+      "evidence": "The first tube deployment; kept separate from counter 256 for the same reason."},
+    {"SITE_SK": 172, "name": "Kembla St southbound (2022-24 tube)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 256, "DIRECTION_SK": 586, "start": null, "end": null}],
+      "evidence": "The second tube deployment; its hourly profile (AM peak southbound) matches 174/101, but its level relative to the neighbour differs."},
+    {"SITE_SK": 172, "name": "Kembla St northbound (2022-24 tube)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 256, "DIRECTION_SK": 567, "start": null, "end": null}],
+      "evidence": "The second tube deployment; its hourly profile (PM peak northbound) matches 174/102, but its level relative to the neighbour differs."}
+  ],
+  "summary": "Two temporary Metrocount tube deployments at Kembla St, Wollongong (174: Sep 2021-Jun 2022; 256: Nov 2022-Mar 2024), with the same direction labels and matching hourly profiles, but a 5-month gap and a different level relative to neighbour site 171, so they are kept as separate series. The auto zero_outage fixes (Dec 2021, late Jan 2022, Dec 29 2023, late Feb-Mar 2024) are right, but they miss that 174 was near-dead Dec 10-16 2021 and that 256 failed intermittently in its last month (Feb 24-Mar 8 and Mar 14-19 2024); those periods are set to missing. The rest of the record, including the Oct 2023 rise and the low March 2022 flood-period counts, looks like real riding."
+}

@@ -1,0 +1,11 @@
+{
+  "group": "G0539",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 539, "DIRECTION_SK": 1742,
+      "start": "2025-10-24", "end": "2025-10-24", "confidence": "medium",
+      "diagnosis": "zero_outage set the first 8 slots (00:00-01:59) after the 23 Oct outage to missing, but the counter was recording then and the small night counts look genuine.",
+      "evidence": "1742 raw 3,0,0,1,1,0,0,0 (5 bikes, all status good) while 1741 recorded 19 bikes in the same slots; the day's raw total of 718 is normal (neighbouring Fridays 650-700). The effect on the weekly total is 5 bikes."}
+  ],
+  "series": [],
+  "summary": "Site 539 has one Metrocount piezo counter (352) with 96 single-record slots a day from 2025-09-16 to 2026-09-22, and clean, steady levels of about 600-880 bikes a day in each direction. The only outage is 2025-10-23: both directions are zero all day and TfNSW flagged it as warning, so the zero_outage fix is right, apart from 8 small night slots on 24 Oct that it should not have set missing. The single 142-bike eastbound slot at 12:15 on Sunday 2026-05-17 has a low median speed (13.9 km/h, against about 20 normally), which fits a slow group ride passing, so it is kept."
+}

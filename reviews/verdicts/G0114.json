@@ -1,0 +1,23 @@
+{
+  "group": "G0114",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 114, "DIRECTION_SK": 35, "start": "2013-02-15", "end": "2013-02-28",
+      "confidence": "medium",
+      "diagnosis": "Eastbound roughly double-counted for exactly two weeks while westbound stayed normal; not an exact doubling (many odd slots) so it cannot be halved.",
+      "evidence": "E/W daily ratio 1.1-1.5 through 2013-02-14 and 1.1-1.3 from 2013-03-02, but 2.28-2.63 on every day 2013-02-15..28, including the rainy 2013-02-23 (36 vs 14), so the excess scales with traffic; E hourly means doubled at every hour with the same shape (e.g. 17h 41.4 vs 21.4 in late Jan) while W hourly matched January; odd_slots 23-44 per day, so not exact doubling."},
+    {"action": "restore", "SITE_SK": 114, "DIRECTION_SK": 35, "start": "2016-06-04", "end": "2016-06-06",
+      "confidence": "medium",
+      "diagnosis": "zero_outage masked eastbound zeros during the June 2016 East Coast Low storm, when westbound riding was also near zero, so the zeros are real.",
+      "evidence": "Raw E 13/0/72 vs W 11/2/68 on 2016-06-04/05/06; E counted odd riders through 2016-06-04 until 17:15 and resumed from 06:15 on 06-06, matching W's pattern; masked slots are all zeros."},
+    {"action": "restore", "SITE_SK": 114, "DIRECTION_SK": null, "start": "2014-10-03", "end": "2014-10-03",
+      "confidence": "medium",
+      "diagnosis": "The counter was back and counting by early morning 2014-10-03; the masked slots are normal overnight zeros plus real early riders.",
+      "evidence": "Masked slots 00:00-05:45 are zeros except W 1,1,3,5 at 04:45-05:30 and E 1 at 05:30; overnight slots 0-18 are zero on ordinary days; restores 1 E and 10 W bikes."},
+    {"action": "restore", "SITE_SK": 114, "DIRECTION_SK": null, "start": "2018-02-11", "end": "2018-02-11",
+      "confidence": "medium",
+      "diagnosis": "The masked Sunday-evening slots before the outage started are a normal evening tail-off, not an outage.",
+      "evidence": "E masked from 18:15 held 0,1,1,4,0,0,1,1,0,2 then night zeros (10 bikes); W masked from 16:15 held 19 bikes tapering to zero by 21:00; day totals 369/249 are typical for a summer Sunday; the outage runs from 2018-02-12."}
+  ],
+  "series": [],
+  "summary": "Single piezo counter (AJ6360KR) on the M7 path west of Norwest Blvd, 2011-08 to 2021-07, with clean data apart from equipment outages (2014-09-25 to 10-03, 2018-02-12 to 2021-02-19, 2021-03-19 to 03-26) that zero_outage correctly sets missing; both directions stop and restart in the same slot. The one data fault is eastbound over-counting at about 2x from 2013-02-15 to 02-28, which is set missing, and a few zero_outage edges (the 2016 storm weekend, 2014-10-03 and 2018-02-11) are restored. The 1379 eastbound on 2012-10-14 is a real mid-morning organised-ride peak."
+}
