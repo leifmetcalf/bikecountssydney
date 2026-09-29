@@ -1,0 +1,1864 @@
+{
+ "group": "G0290",
+ "decisions": [
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-01",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: the camera reported zeros in every zone for most of the morning and 13:30-16:00, so the day's counts are incomplete and cannot be recovered.",
+   "evidence": "Camera-wide total 0 from 00:00-02:15, 07:00-08:00, 08:30-11:30 and 13:30-16:00 on the first day; 297 meanwhile reported 2000+ phantom bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-01",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: the camera reported zeros in every zone for most of the morning and 13:30-16:00, so the day's counts are incomplete and cannot be recovered.",
+   "evidence": "Camera-wide total 0 from 00:00-02:15, 07:00-08:00, 08:30-11:30 and 13:30-16:00 on the first day; 297 meanwhile reported 2000+ phantom bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-01",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: the camera reported zeros in every zone for most of the morning and 13:30-16:00, so the day's counts are incomplete and cannot be recovered.",
+   "evidence": "Camera-wide total 0 from 00:00-02:15, 07:00-08:00, 08:30-11:30 and 13:30-16:00 on the first day; 297 meanwhile reported 2000+ phantom bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-01",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: the camera reported zeros in every zone for most of the morning and 13:30-16:00, so the day's counts are incomplete and cannot be recovered.",
+   "evidence": "Camera-wide total 0 from 00:00-02:15, 07:00-08:00, 08:30-11:30 and 13:30-16:00 on the first day; 297 meanwhile reported 2000+ phantom bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-01",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: the camera reported zeros in every zone for most of the morning and 13:30-16:00, so the day's counts are incomplete and cannot be recovered.",
+   "evidence": "Camera-wide total 0 from 00:00-02:15, 07:00-08:00, 08:30-11:30 and 13:30-16:00 on the first day; 297 meanwhile reported 2000+ phantom bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-01",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: the camera reported zeros in every zone for most of the morning and 13:30-16:00, so the day's counts are incomplete and cannot be recovered.",
+   "evidence": "Camera-wide total 0 from 00:00-02:15, 07:00-08:00, 08:30-11:30 and 13:30-16:00 on the first day; 297 meanwhile reported 2000+ phantom bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-01",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: the camera reported zeros in every zone for most of the morning and 13:30-16:00, so the day's counts are incomplete and cannot be recovered.",
+   "evidence": "Camera-wide total 0 from 00:00-02:15, 07:00-08:00, 08:30-11:30 and 13:30-16:00 on the first day; 297 meanwhile reported 2000+ phantom bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-01",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: the camera reported zeros in every zone for most of the morning and 13:30-16:00, so the day's counts are incomplete and cannot be recovered.",
+   "evidence": "Camera-wide total 0 from 00:00-02:15, 07:00-08:00, 08:30-11:30 and 13:30-16:00 on the first day; 297 meanwhile reported 2000+ phantom bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2022-11-05 16:15",
+   "end": "2022-11-08 09:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (flagged warning) for 2.7 days, including a weekday peak, so bikes passed uncounted.",
+   "evidence": "All 15 directions 0 from Sat 16:15 to Tue 09:45 apart from two stray single counts; normal ~15-25 bikes per slot camera-wide before and after; raw records status 'warning'."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2022-11-05 16:15",
+   "end": "2022-11-08 09:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (flagged warning) for 2.7 days, including a weekday peak, so bikes passed uncounted.",
+   "evidence": "All 15 directions 0 from Sat 16:15 to Tue 09:45 apart from two stray single counts; normal ~15-25 bikes per slot camera-wide before and after; raw records status 'warning'."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2022-11-05 16:15",
+   "end": "2022-11-08 09:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (flagged warning) for 2.7 days, including a weekday peak, so bikes passed uncounted.",
+   "evidence": "All 15 directions 0 from Sat 16:15 to Tue 09:45 apart from two stray single counts; normal ~15-25 bikes per slot camera-wide before and after; raw records status 'warning'."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2022-11-05 16:15",
+   "end": "2022-11-08 09:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (flagged warning) for 2.7 days, including a weekday peak, so bikes passed uncounted.",
+   "evidence": "All 15 directions 0 from Sat 16:15 to Tue 09:45 apart from two stray single counts; normal ~15-25 bikes per slot camera-wide before and after; raw records status 'warning'."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2022-11-05 16:15",
+   "end": "2022-11-08 09:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (flagged warning) for 2.7 days, including a weekday peak, so bikes passed uncounted.",
+   "evidence": "All 15 directions 0 from Sat 16:15 to Tue 09:45 apart from two stray single counts; normal ~15-25 bikes per slot camera-wide before and after; raw records status 'warning'."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2022-11-05 16:15",
+   "end": "2022-11-08 09:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (flagged warning) for 2.7 days, including a weekday peak, so bikes passed uncounted.",
+   "evidence": "All 15 directions 0 from Sat 16:15 to Tue 09:45 apart from two stray single counts; normal ~15-25 bikes per slot camera-wide before and after; raw records status 'warning'."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2022-11-05 16:15",
+   "end": "2022-11-08 09:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (flagged warning) for 2.7 days, including a weekday peak, so bikes passed uncounted.",
+   "evidence": "All 15 directions 0 from Sat 16:15 to Tue 09:45 apart from two stray single counts; normal ~15-25 bikes per slot camera-wide before and after; raw records status 'warning'."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-11-05 16:15",
+   "end": "2022-11-08 09:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (flagged warning) for 2.7 days, including a weekday peak, so bikes passed uncounted.",
+   "evidence": "All 15 directions 0 from Sat 16:15 to Tue 09:45 apart from two stray single counts; normal ~15-25 bikes per slot camera-wide before and after; raw records status 'warning'."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2023-03-20 09:45",
+   "end": "2023-05-14 19:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for eight weeks; bikes passed uncounted and nothing can be recovered.",
+   "evidence": "Camera-wide total 0 for 5321 consecutive slots; counts resume at 20:00 on 14 May with normal levels (35-51 per slot at the next morning peak)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2023-03-20 09:45",
+   "end": "2023-05-14 19:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for eight weeks; bikes passed uncounted and nothing can be recovered.",
+   "evidence": "Camera-wide total 0 for 5321 consecutive slots; counts resume at 20:00 on 14 May with normal levels (35-51 per slot at the next morning peak)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2023-03-20 09:45",
+   "end": "2023-05-14 19:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for eight weeks; bikes passed uncounted and nothing can be recovered.",
+   "evidence": "Camera-wide total 0 for 5321 consecutive slots; counts resume at 20:00 on 14 May with normal levels (35-51 per slot at the next morning peak)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2023-03-20 09:45",
+   "end": "2023-05-14 19:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for eight weeks; bikes passed uncounted and nothing can be recovered.",
+   "evidence": "Camera-wide total 0 for 5321 consecutive slots; counts resume at 20:00 on 14 May with normal levels (35-51 per slot at the next morning peak)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2023-03-20 09:45",
+   "end": "2023-05-14 19:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for eight weeks; bikes passed uncounted and nothing can be recovered.",
+   "evidence": "Camera-wide total 0 for 5321 consecutive slots; counts resume at 20:00 on 14 May with normal levels (35-51 per slot at the next morning peak)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2023-03-20 09:45",
+   "end": "2023-05-14 19:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for eight weeks; bikes passed uncounted and nothing can be recovered.",
+   "evidence": "Camera-wide total 0 for 5321 consecutive slots; counts resume at 20:00 on 14 May with normal levels (35-51 per slot at the next morning peak)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2023-03-20 09:45",
+   "end": "2023-05-14 19:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for eight weeks; bikes passed uncounted and nothing can be recovered.",
+   "evidence": "Camera-wide total 0 for 5321 consecutive slots; counts resume at 20:00 on 14 May with normal levels (35-51 per slot at the next morning peak)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-03-20 09:45",
+   "end": "2023-05-14 19:45",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for eight weeks; bikes passed uncounted and nothing can be recovered.",
+   "evidence": "Camera-wide total 0 for 5321 consecutive slots; counts resume at 20:00 on 14 May with normal levels (35-51 per slot at the next morning peak)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23 18:45",
+   "end": "2023-07-12 10:30",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 19 days.",
+   "evidence": "Camera-wide total 0 for 1792 consecutive slots; 29 bikes in the slot before, 14-29 per slot on resumption."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23 18:45",
+   "end": "2023-07-12 10:30",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 19 days.",
+   "evidence": "Camera-wide total 0 for 1792 consecutive slots; 29 bikes in the slot before, 14-29 per slot on resumption."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23 18:45",
+   "end": "2023-07-12 10:30",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 19 days.",
+   "evidence": "Camera-wide total 0 for 1792 consecutive slots; 29 bikes in the slot before, 14-29 per slot on resumption."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23 18:45",
+   "end": "2023-07-12 10:30",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 19 days.",
+   "evidence": "Camera-wide total 0 for 1792 consecutive slots; 29 bikes in the slot before, 14-29 per slot on resumption."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23 18:45",
+   "end": "2023-07-12 10:30",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 19 days.",
+   "evidence": "Camera-wide total 0 for 1792 consecutive slots; 29 bikes in the slot before, 14-29 per slot on resumption."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23 18:45",
+   "end": "2023-07-12 10:30",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 19 days.",
+   "evidence": "Camera-wide total 0 for 1792 consecutive slots; 29 bikes in the slot before, 14-29 per slot on resumption."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23 18:45",
+   "end": "2023-07-12 10:30",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 19 days.",
+   "evidence": "Camera-wide total 0 for 1792 consecutive slots; 29 bikes in the slot before, 14-29 per slot on resumption."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23 18:45",
+   "end": "2023-07-12 10:30",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 19 days.",
+   "evidence": "Camera-wide total 0 for 1792 consecutive slots; 29 bikes in the slot before, 14-29 per slot on resumption."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 15:45",
+   "confidence": "medium",
+   "diagnosis": "Daytime camera dropout: every zone 0 through a weekday morning peak and midday, then normal again.",
+   "evidence": "Camera-wide 26-60 bikes per slot 07:00-08:00, then 0 for 31 slots, then 14-29 per slot from 16:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 15:45",
+   "confidence": "medium",
+   "diagnosis": "Daytime camera dropout: every zone 0 through a weekday morning peak and midday, then normal again.",
+   "evidence": "Camera-wide 26-60 bikes per slot 07:00-08:00, then 0 for 31 slots, then 14-29 per slot from 16:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 15:45",
+   "confidence": "medium",
+   "diagnosis": "Daytime camera dropout: every zone 0 through a weekday morning peak and midday, then normal again.",
+   "evidence": "Camera-wide 26-60 bikes per slot 07:00-08:00, then 0 for 31 slots, then 14-29 per slot from 16:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 15:45",
+   "confidence": "medium",
+   "diagnosis": "Daytime camera dropout: every zone 0 through a weekday morning peak and midday, then normal again.",
+   "evidence": "Camera-wide 26-60 bikes per slot 07:00-08:00, then 0 for 31 slots, then 14-29 per slot from 16:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 15:45",
+   "confidence": "medium",
+   "diagnosis": "Daytime camera dropout: every zone 0 through a weekday morning peak and midday, then normal again.",
+   "evidence": "Camera-wide 26-60 bikes per slot 07:00-08:00, then 0 for 31 slots, then 14-29 per slot from 16:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 15:45",
+   "confidence": "medium",
+   "diagnosis": "Daytime camera dropout: every zone 0 through a weekday morning peak and midday, then normal again.",
+   "evidence": "Camera-wide 26-60 bikes per slot 07:00-08:00, then 0 for 31 slots, then 14-29 per slot from 16:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 15:45",
+   "confidence": "medium",
+   "diagnosis": "Daytime camera dropout: every zone 0 through a weekday morning peak and midday, then normal again.",
+   "evidence": "Camera-wide 26-60 bikes per slot 07:00-08:00, then 0 for 31 slots, then 14-29 per slot from 16:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 15:45",
+   "confidence": "medium",
+   "diagnosis": "Daytime camera dropout: every zone 0 through a weekday morning peak and midday, then normal again.",
+   "evidence": "Camera-wide 26-60 bikes per slot 07:00-08:00, then 0 for 31 slots, then 14-29 per slot from 16:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout: every zone 0 overnight and through Friday's morning peak until 16:45.",
+   "evidence": "Camera-wide 0 for 68 slots including 07:00-10:00 (normally 60-130 bikes per slot); 19-27 per slot from 17:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout: every zone 0 overnight and through Friday's morning peak until 16:45.",
+   "evidence": "Camera-wide 0 for 68 slots including 07:00-10:00 (normally 60-130 bikes per slot); 19-27 per slot from 17:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout: every zone 0 overnight and through Friday's morning peak until 16:45.",
+   "evidence": "Camera-wide 0 for 68 slots including 07:00-10:00 (normally 60-130 bikes per slot); 19-27 per slot from 17:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout: every zone 0 overnight and through Friday's morning peak until 16:45.",
+   "evidence": "Camera-wide 0 for 68 slots including 07:00-10:00 (normally 60-130 bikes per slot); 19-27 per slot from 17:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout: every zone 0 overnight and through Friday's morning peak until 16:45.",
+   "evidence": "Camera-wide 0 for 68 slots including 07:00-10:00 (normally 60-130 bikes per slot); 19-27 per slot from 17:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout: every zone 0 overnight and through Friday's morning peak until 16:45.",
+   "evidence": "Camera-wide 0 for 68 slots including 07:00-10:00 (normally 60-130 bikes per slot); 19-27 per slot from 17:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout: every zone 0 overnight and through Friday's morning peak until 16:45.",
+   "evidence": "Camera-wide 0 for 68 slots including 07:00-10:00 (normally 60-130 bikes per slot); 19-27 per slot from 17:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout: every zone 0 overnight and through Friday's morning peak until 16:45.",
+   "evidence": "Camera-wide 0 for 68 slots including 07:00-10:00 (normally 60-130 bikes per slot); 19-27 per slot from 17:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:30",
+   "end": "2023-11-13 05:15",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout from early Sunday evening: every zone 0 from 19:30, when Sunday evenings normally carry 100+ bikes after 19:00.",
+   "evidence": "Sunday 19:00-24:00 camera total 17 on 12 Nov vs 109-143 on the neighbouring Sundays; 11 and 6 bikes in the two slots before the run."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:30",
+   "end": "2023-11-13 05:15",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout from early Sunday evening: every zone 0 from 19:30, when Sunday evenings normally carry 100+ bikes after 19:00.",
+   "evidence": "Sunday 19:00-24:00 camera total 17 on 12 Nov vs 109-143 on the neighbouring Sundays; 11 and 6 bikes in the two slots before the run."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:30",
+   "end": "2023-11-13 05:15",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout from early Sunday evening: every zone 0 from 19:30, when Sunday evenings normally carry 100+ bikes after 19:00.",
+   "evidence": "Sunday 19:00-24:00 camera total 17 on 12 Nov vs 109-143 on the neighbouring Sundays; 11 and 6 bikes in the two slots before the run."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:30",
+   "end": "2023-11-13 05:15",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout from early Sunday evening: every zone 0 from 19:30, when Sunday evenings normally carry 100+ bikes after 19:00.",
+   "evidence": "Sunday 19:00-24:00 camera total 17 on 12 Nov vs 109-143 on the neighbouring Sundays; 11 and 6 bikes in the two slots before the run."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:30",
+   "end": "2023-11-13 05:15",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout from early Sunday evening: every zone 0 from 19:30, when Sunday evenings normally carry 100+ bikes after 19:00.",
+   "evidence": "Sunday 19:00-24:00 camera total 17 on 12 Nov vs 109-143 on the neighbouring Sundays; 11 and 6 bikes in the two slots before the run."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:30",
+   "end": "2023-11-13 05:15",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout from early Sunday evening: every zone 0 from 19:30, when Sunday evenings normally carry 100+ bikes after 19:00.",
+   "evidence": "Sunday 19:00-24:00 camera total 17 on 12 Nov vs 109-143 on the neighbouring Sundays; 11 and 6 bikes in the two slots before the run."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:30",
+   "end": "2023-11-13 05:15",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout from early Sunday evening: every zone 0 from 19:30, when Sunday evenings normally carry 100+ bikes after 19:00.",
+   "evidence": "Sunday 19:00-24:00 camera total 17 on 12 Nov vs 109-143 on the neighbouring Sundays; 11 and 6 bikes in the two slots before the run."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:30",
+   "end": "2023-11-13 05:15",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout from early Sunday evening: every zone 0 from 19:30, when Sunday evenings normally carry 100+ bikes after 19:00.",
+   "evidence": "Sunday 19:00-24:00 camera total 17 on 12 Nov vs 109-143 on the neighbouring Sundays; 11 and 6 bikes in the two slots before the run."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2024-01-25 07:45",
+   "end": "2024-01-25 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout in the Thursday morning peak: every zone fell from 26-77 bikes per slot to 0 for two hours.",
+   "evidence": "Camera total 0 for 9 slots 07:45-09:45; the same slots a week earlier had 86-135 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2024-01-25 07:45",
+   "end": "2024-01-25 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout in the Thursday morning peak: every zone fell from 26-77 bikes per slot to 0 for two hours.",
+   "evidence": "Camera total 0 for 9 slots 07:45-09:45; the same slots a week earlier had 86-135 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2024-01-25 07:45",
+   "end": "2024-01-25 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout in the Thursday morning peak: every zone fell from 26-77 bikes per slot to 0 for two hours.",
+   "evidence": "Camera total 0 for 9 slots 07:45-09:45; the same slots a week earlier had 86-135 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2024-01-25 07:45",
+   "end": "2024-01-25 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout in the Thursday morning peak: every zone fell from 26-77 bikes per slot to 0 for two hours.",
+   "evidence": "Camera total 0 for 9 slots 07:45-09:45; the same slots a week earlier had 86-135 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2024-01-25 07:45",
+   "end": "2024-01-25 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout in the Thursday morning peak: every zone fell from 26-77 bikes per slot to 0 for two hours.",
+   "evidence": "Camera total 0 for 9 slots 07:45-09:45; the same slots a week earlier had 86-135 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2024-01-25 07:45",
+   "end": "2024-01-25 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout in the Thursday morning peak: every zone fell from 26-77 bikes per slot to 0 for two hours.",
+   "evidence": "Camera total 0 for 9 slots 07:45-09:45; the same slots a week earlier had 86-135 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2024-01-25 07:45",
+   "end": "2024-01-25 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout in the Thursday morning peak: every zone fell from 26-77 bikes per slot to 0 for two hours.",
+   "evidence": "Camera total 0 for 9 slots 07:45-09:45; the same slots a week earlier had 86-135 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-01-25 07:45",
+   "end": "2024-01-25 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera dropout in the Thursday morning peak: every zone fell from 26-77 bikes per slot to 0 for two hours.",
+   "evidence": "Camera total 0 for 9 slots 07:45-09:45; the same slots a week earlier had 86-135 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2024-09-05 13:00",
+   "end": "2024-09-25 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 20 days.",
+   "evidence": "Camera-wide total 0 for 1909 consecutive slots; 16-31 per slot before, 6-26 after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2024-09-05 13:00",
+   "end": "2024-09-25 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 20 days.",
+   "evidence": "Camera-wide total 0 for 1909 consecutive slots; 16-31 per slot before, 6-26 after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2024-09-05 13:00",
+   "end": "2024-09-25 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 20 days.",
+   "evidence": "Camera-wide total 0 for 1909 consecutive slots; 16-31 per slot before, 6-26 after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2024-09-05 13:00",
+   "end": "2024-09-25 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 20 days.",
+   "evidence": "Camera-wide total 0 for 1909 consecutive slots; 16-31 per slot before, 6-26 after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2024-09-05 13:00",
+   "end": "2024-09-25 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 20 days.",
+   "evidence": "Camera-wide total 0 for 1909 consecutive slots; 16-31 per slot before, 6-26 after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2024-09-05 13:00",
+   "end": "2024-09-25 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 20 days.",
+   "evidence": "Camera-wide total 0 for 1909 consecutive slots; 16-31 per slot before, 6-26 after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2024-09-05 13:00",
+   "end": "2024-09-25 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 20 days.",
+   "evidence": "Camera-wide total 0 for 1909 consecutive slots; 16-31 per slot before, 6-26 after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-09-05 13:00",
+   "end": "2024-09-25 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 20 days.",
+   "evidence": "Camera-wide total 0 for 1909 consecutive slots; 16-31 per slot before, 6-26 after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 290,
+   "DIRECTION_SK": null,
+   "start": "2024-10-11 20:15",
+   "end": "2024-11-03 05:15",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 22 days.",
+   "evidence": "Camera-wide total 0 for 2149 consecutive slots; normal evening/morning counts either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 292,
+   "DIRECTION_SK": null,
+   "start": "2024-10-11 20:15",
+   "end": "2024-11-03 05:15",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 22 days.",
+   "evidence": "Camera-wide total 0 for 2149 consecutive slots; normal evening/morning counts either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 293,
+   "DIRECTION_SK": null,
+   "start": "2024-10-11 20:15",
+   "end": "2024-11-03 05:15",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 22 days.",
+   "evidence": "Camera-wide total 0 for 2149 consecutive slots; normal evening/morning counts either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 294,
+   "DIRECTION_SK": null,
+   "start": "2024-10-11 20:15",
+   "end": "2024-11-03 05:15",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 22 days.",
+   "evidence": "Camera-wide total 0 for 2149 consecutive slots; normal evening/morning counts either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2024-10-11 20:15",
+   "end": "2024-11-03 05:15",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 22 days.",
+   "evidence": "Camera-wide total 0 for 2149 consecutive slots; normal evening/morning counts either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2024-10-11 20:15",
+   "end": "2024-11-03 05:15",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 22 days.",
+   "evidence": "Camera-wide total 0 for 2149 consecutive slots; normal evening/morning counts either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2024-10-11 20:15",
+   "end": "2024-11-03 05:15",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 22 days.",
+   "evidence": "Camera-wide total 0 for 2149 consecutive slots; normal evening/morning counts either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-10-11 20:15",
+   "end": "2024-11-03 05:15",
+   "confidence": "high",
+   "diagnosis": "Camera outage: every zone reported 0 (warning records) for 22 days.",
+   "evidence": "Camera-wide total 0 for 2149 consecutive slots; normal evening/morning counts either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2022-06-02",
+   "confidence": "high",
+   "diagnosis": "Phantom detections in the newly configured footpath zone: hundreds of 'bikes' per hour overnight in both directions cannot be real and the true counts cannot be separated out.",
+   "evidence": "297 reported 2002/2103 and 3706/3476 bikes on 1-2 Jun (300-420 per hour at 00:00-05:00) vs 150-400 per day on 3-20 Jun and <25 per day afterwards."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 297,
+   "DIRECTION_SK": null,
+   "start": "2022-06-03",
+   "end": "2022-06-20",
+   "confidence": "medium",
+   "diagnosis": "The footpath zone counted 150-400 bikes/day until about 08:00 on 21 Jun 2022 and then 1-25/day for the rest of the record while no other zone changed, which looks like a zone redefinition; which level is right cannot be told.",
+   "evidence": "297/645 mean 144/day and 297/653 251/day on 3-20 Jun; 3 and 24/day from 21 Jun; other zones unchanged across the date."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2023-03-19 16:30",
+   "end": "2023-03-19 20:00",
+   "confidence": "medium",
+   "diagnosis": "Phantom track: both directions of the shared path jumped to 20-60 per slot in near-equal amounts while every other zone stayed at 0-5, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "462/475 went from 0-5 to 52/26, 43/34, 46/61, 51/50 per slot 16:30-20:00; adjacent zones 0-3 per slot."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2023-07-30",
+   "end": "2023-07-30",
+   "confidence": "medium",
+   "diagnosis": "Phantom counts: both directions counted 10-16 bikes per hour through the night and then a symmetric burst at 17:30-19:30 that no other zone saw.",
+   "evidence": "296 total 742 vs a normal ~107; 00:00-05:00 had 13-16 per hour in each direction (normally 0)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": null,
+   "start": "2024-02-18 18:00",
+   "end": "2024-02-19 10:45",
+   "confidence": "high",
+   "diagnosis": "Phantom track: both directions counted 50-120 bikes per hour through the night, which cannot be real bikes at 01:00-05:00.",
+   "evidence": "462 had 23-86 and 475 48-123 per hour at 00:00-07:00 on 19 Feb (normally 0-1); counts drop back to 0-5 per hour at 11:00."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 296,
+   "DIRECTION_SK": 462,
+   "start": "2025-02-12",
+   "end": "2025-02-12",
+   "confidence": "low",
+   "diagnosis": "A 16:00-18:00 burst mainly in one direction (40-60 per slot) could be a phantom or a real group; not settled.",
+   "evidence": "462 total 699 vs a normal ~120; 475 also raised but at half the level."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2024-01-18 02:00",
+   "end": "2024-01-18 09:45",
+   "confidence": "medium",
+   "diagnosis": "Phantom detections in the left-turn lane zone: counts several times normal, sustained through hours when the lane is normally empty, and no other zone saw extra bikes, so the extra counts are false and the real ones cannot be separated out.",
+   "evidence": "318 had 79-275 per hour from 02:00 to 08:00 (normally 0 at night and ~60 per hour at the peak); day total 1407 vs a normal ~290."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2024-03-01 14:00",
+   "end": "2024-03-02 18:45",
+   "confidence": "medium",
+   "diagnosis": "Phantom detections in the left-turn lane zone: counts several times normal, sustained through hours when the lane is normally empty, and no other zone saw extra bikes, so the extra counts are false and the real ones cannot be separated out.",
+   "evidence": "318 had 183-254 per hour on the afternoon of 1 Mar and 120-173 per hour on 2 Mar; 1540 and 1545 per day vs a normal ~350; no other zone rose."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2024-05-06 19:00",
+   "end": "2024-05-08 23:45",
+   "confidence": "medium",
+   "diagnosis": "Phantom detections in the left-turn lane zone: counts several times normal, sustained through hours when the lane is normally empty, and no other zone saw extra bikes, so the extra counts are false and the real ones cannot be separated out.",
+   "evidence": "318 had 100-150 per hour right through the night of 6-7 May (normally 0); 7 May total 2615 vs a normal ~365."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 318,
+   "DIRECTION_SK": null,
+   "start": "2024-06-18",
+   "end": "2024-06-19",
+   "confidence": "medium",
+   "diagnosis": "Phantom detections in the left-turn lane zone: counts several times normal, sustained through hours when the lane is normally empty, and no other zone saw extra bikes, so the extra counts are false and the real ones cannot be separated out.",
+   "evidence": "318 had 110-350 per hour from 07:00 on 18 Jun and 13-37 per hour overnight; 2717 and 2148 per day vs a normal ~295."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-08-31",
+   "end": "2022-09-02",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 16630 over 3 day(s) vs a rolling-median baseline of ~950; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-09-17",
+   "end": "2022-09-20",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 18081 over 4 day(s) vs a rolling-median baseline of ~1172; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-12-03",
+   "end": "2022-12-03",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1260 over 1 day(s) vs a rolling-median baseline of ~154; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-12-19",
+   "end": "2022-12-19",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 725 over 1 day(s) vs a rolling-median baseline of ~155; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-01-05",
+   "end": "2023-01-05",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 794 over 1 day(s) vs a rolling-median baseline of ~223; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-01-10",
+   "end": "2023-01-12",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 5254 over 3 day(s) vs a rolling-median baseline of ~872; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-01-15",
+   "end": "2023-01-15",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1079 over 1 day(s) vs a rolling-median baseline of ~344; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-03-11",
+   "end": "2023-03-11",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1649 over 1 day(s) vs a rolling-median baseline of ~538; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-06-14",
+   "end": "2023-06-17",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 3287 over 4 day(s) vs a rolling-median baseline of ~1268; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-06-19",
+   "end": "2023-06-21",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 2380 over 3 day(s) vs a rolling-median baseline of ~825; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-06-23",
+   "end": "2023-06-23",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 594 over 1 day(s) vs a rolling-median baseline of ~255; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-07-30",
+   "end": "2023-07-30",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 815 over 1 day(s) vs a rolling-median baseline of ~210; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-08-08",
+   "end": "2023-08-09",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 4863 over 2 day(s) vs a rolling-median baseline of ~421; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-08-27",
+   "end": "2023-08-27",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1134 over 1 day(s) vs a rolling-median baseline of ~228; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-08-30",
+   "end": "2023-08-30",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 539 over 1 day(s) vs a rolling-median baseline of ~222; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-02",
+   "end": "2023-09-02",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 727 over 1 day(s) vs a rolling-median baseline of ~222; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-06",
+   "end": "2023-09-06",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 584 over 1 day(s) vs a rolling-median baseline of ~226; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-14",
+   "end": "2023-09-14",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 550 over 1 day(s) vs a rolling-median baseline of ~229; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-16",
+   "end": "2023-09-19",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 9707 over 4 day(s) vs a rolling-median baseline of ~924; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-21",
+   "end": "2023-09-21",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 556 over 1 day(s) vs a rolling-median baseline of ~234; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-23",
+   "end": "2023-09-23",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 600 over 1 day(s) vs a rolling-median baseline of ~240; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-09-28",
+   "end": "2023-09-30",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 6340 over 3 day(s) vs a rolling-median baseline of ~701; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-10-07",
+   "end": "2023-10-08",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 2158 over 2 day(s) vs a rolling-median baseline of ~486; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-10-20",
+   "end": "2023-10-20",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1395 over 1 day(s) vs a rolling-median baseline of ~240; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-11-05",
+   "end": "2023-11-05",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 660 over 1 day(s) vs a rolling-median baseline of ~226; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-11-07",
+   "end": "2023-11-07",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1148 over 1 day(s) vs a rolling-median baseline of ~219; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-11-16",
+   "end": "2023-11-17",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 2746 over 2 day(s) vs a rolling-median baseline of ~434; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-11-27",
+   "end": "2023-11-28",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 2038 over 2 day(s) vs a rolling-median baseline of ~438; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-12-08",
+   "end": "2023-12-08",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 2437 over 1 day(s) vs a rolling-median baseline of ~219; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-12-16",
+   "end": "2023-12-16",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 554 over 1 day(s) vs a rolling-median baseline of ~233; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-12-22",
+   "end": "2023-12-22",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1226 over 1 day(s) vs a rolling-median baseline of ~240; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-12-28",
+   "end": "2023-12-28",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 742 over 1 day(s) vs a rolling-median baseline of ~294; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2023-12-30",
+   "end": "2024-01-06",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 14334 over 8 day(s) vs a rolling-median baseline of ~2423; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-01-12",
+   "end": "2024-01-12",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 916 over 1 day(s) vs a rolling-median baseline of ~336; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-01-23",
+   "end": "2024-02-09",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 48497 over 18 day(s) vs a rolling-median baseline of ~6285; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-02-12",
+   "end": "2024-02-12",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1104 over 1 day(s) vs a rolling-median baseline of ~336; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-02-16",
+   "end": "2024-02-18",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 3317 over 3 day(s) vs a rolling-median baseline of ~993; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-02-22",
+   "end": "2024-02-22",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 918 over 1 day(s) vs a rolling-median baseline of ~329; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-02-25",
+   "end": "2024-02-25",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 2327 over 1 day(s) vs a rolling-median baseline of ~333; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-03-09",
+   "end": "2024-03-09",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1591 over 1 day(s) vs a rolling-median baseline of ~370; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-04-03",
+   "end": "2024-04-03",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1440 over 1 day(s) vs a rolling-median baseline of ~279; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-04-11",
+   "end": "2024-04-11",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 672 over 1 day(s) vs a rolling-median baseline of ~281; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-04-28",
+   "end": "2024-04-28",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1291 over 1 day(s) vs a rolling-median baseline of ~263; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-05-17",
+   "end": "2024-05-17",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1241 over 1 day(s) vs a rolling-median baseline of ~308; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-07-12",
+   "end": "2024-07-12",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1411 over 1 day(s) vs a rolling-median baseline of ~332; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-11-06",
+   "end": "2024-11-06",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1285 over 1 day(s) vs a rolling-median baseline of ~226; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-11-26",
+   "end": "2024-11-26",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 890 over 1 day(s) vs a rolling-median baseline of ~212; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-12-18",
+   "end": "2024-12-20",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 2521 over 3 day(s) vs a rolling-median baseline of ~816; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2024-12-23",
+   "end": "2024-12-24",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 3062 over 2 day(s) vs a rolling-median baseline of ~568; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2025-01-14",
+   "end": "2025-01-14",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1026 over 1 day(s) vs a rolling-median baseline of ~380; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2025-01-24",
+   "end": "2025-01-24",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1479 over 1 day(s) vs a rolling-median baseline of ~428; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2025-01-28",
+   "end": "2025-01-28",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 2062 over 1 day(s) vs a rolling-median baseline of ~454; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2025-02-21",
+   "end": "2025-02-21",
+   "confidence": "medium",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 1417 over 1 day(s) vs a rolling-median baseline of ~480; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2025-02-27",
+   "end": "2025-02-27",
+   "confidence": "high",
+   "diagnosis": "Phantom track on the crossing: both directions counted near-equal bursts, often 40-90 per slot for hours and even overnight, while the adjacent zones saw nothing, so the extra counts are not real bikes and cannot be separated from real ones.",
+   "evidence": "319 total 3219 over 1 day(s) vs a rolling-median baseline of ~489; directions 470/481 within ~30% of each other slot by slot; neighbouring crossings 294 and zone 318 unchanged."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 319,
+   "DIRECTION_SK": null,
+   "start": "2022-06-01",
+   "end": "2025-02-27",
+   "confidence": "medium",
+   "diagnosis": "The crossing zone is contaminated by symmetric phantom bursts again and again; smaller bursts on days not set missing (e.g. single slots of 100-170 at 11:15 on several June 2023 days) remain in the data, so its level is doubtful throughout.",
+   "evidence": "54 day ranges with 2.2x to 34x the baseline set missing (~159k extra counts); more 1-2 slot symmetric bursts of 100-300 remain below that threshold."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 297,
+   "name": "Moore Park Rd north footpath westbound, original zone (Jun 2022)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 645,
+     "start": "2022-06-01",
+     "end": "2022-06-20"
+    }
+   ],
+   "evidence": "Level fell from ~144/day to ~3/day from 21 Jun 2022 with no change in other zones: most likely a zone redefinition, so the two periods are not comparable."
+  },
+  {
+   "SITE_SK": 297,
+   "name": "Moore Park Rd north footpath westbound",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 645,
+     "start": "2022-06-21",
+     "end": null
+    }
+   ],
+   "evidence": "Stable low level (1-3/day) from 21 Jun 2022 to the end of the record."
+  },
+  {
+   "SITE_SK": 297,
+   "name": "Moore Park Rd north footpath eastbound, original zone (Jun 2022)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 653,
+     "start": "2022-06-01",
+     "end": "2022-06-20"
+    }
+   ],
+   "evidence": "Level fell from ~251/day to ~10/day from 21 Jun 2022 with no change in other zones: most likely a zone redefinition."
+  },
+  {
+   "SITE_SK": 297,
+   "name": "Moore Park Rd north footpath eastbound",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 653,
+     "start": "2022-06-21",
+     "end": null
+    }
+   ],
+   "evidence": "Stable level (2-16/day) from 21 Jun 2022 to the end."
+  },
+  {
+   "SITE_SK": 290,
+   "name": "Lang Rd northbound (towards Moore Park Rd)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 404,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 290,
+   "name": "Lang Rd southbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 454,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 292,
+   "name": "Moore Park Rd eastbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 390,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 292,
+   "name": "Moore Park Rd westbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 428,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 293,
+   "name": "Moore Park Rd crossing southbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 460,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 293,
+   "name": "Moore Park Rd crossing northbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 463,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 294,
+   "name": "Lang Rd crossing westbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 474,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 294,
+   "name": "Lang Rd crossing eastbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 486,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 296,
+   "name": "Moore Park Rd south path westbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 462,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 296,
+   "name": "Moore Park Rd south path eastbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 475,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 318,
+   "name": "Lang Rd left turn north-west",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 466,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 319,
+   "name": "Lang Rd LT crossing southbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 470,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  },
+  {
+   "SITE_SK": 319,
+   "name": "Lang Rd LT crossing northbound",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 249,
+     "DIRECTION_SK": 481,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Only counter 249 ever counted this zone; each zone of the camera is its own site, so one series per direction."
+  }
+ ],
+ "proposals": [
+  "For camera zones with phantom tracks (319, 318, 296 here): a 'subtract_excess' or 'cap_symmetric' action that removes, slot by slot, the part of the count above a baseline taken from the same zone's normal days, where both directions rise together and no neighbouring zone does. This would keep the real bikes in the affected days instead of setting the whole day missing; the phantom bursts here sit on top of a normal profile and the real share is usually 10-30% of the day."
+ ],
+ "tools": {
+  "useful": [
+   "zeros: showed the camera-wide outages at once, since all 15 directions share the same start and end",
+   "daily/slots pivots: exposed the symmetric phantom bursts on 319 and the overnight counts on 318/296",
+   "raw: confirmed the outage days are 'warning' records and the short dropouts are 'good' zeros",
+   "overview: 297's level collapse after June 2022 and the multi-month gaps"
+  ],
+  "not_useful": [
+   "spikes: flagged nothing because the 99.9th percentile of 319 is itself inflated by the phantoms and the bursts spread over many slots rather than one",
+   "doubled/duplicates/absent_zeros: nothing relevant for this camera"
+  ],
+  "improve": [
+   "spikes: use a robust baseline (e.g. median of the slot-of-day over workdays) and flag multi-hour runs, not single slots above a record-wide percentile",
+   "zeros: add an option to find stretches where the whole counter (all sites/directions) is 0 together, with the daytime share, which separates outages from quiet nights"
+  ],
+  "add": [
+   "A camera-wide view: per slot, the total across all zones plus which zones deviate, to tell a single-zone phantom from a real crowd that crosses several zones",
+   "A symmetry detector for a zone's two directions (both up together, ratio near 1) against its neighbours, since that is the signature of a jittering phantom track"
+  ]
+ },
+ "summary": "One camera (249) covers eight zones at Oxford St/Moore Park Rd/Lang Rd; its five camera-wide outages (Nov 2022, Mar-May 2023, Jun-Jul 2023, Sep 2024, Oct-Nov 2024) and several short dropouts are set missing. The Lang Rd LT crossing (319) is repeatedly swamped by symmetric phantom bursts (54 day ranges, ~159k false counts), and 318 and 296 have a few, all set missing. The 297 footpath recorded phantoms on its first two days and then fell about 20-fold on 21 Jun 2022, apparently a zone redefinition, so its series is split there."
+}

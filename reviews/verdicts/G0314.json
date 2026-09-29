@@ -1,0 +1,1230 @@
+{
+ "group": "G0314",
+ "decisions": [
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2022-06-08 14:00",
+   "end": "2022-06-09 16:00",
+   "confidence": "medium",
+   "diagnosis": "Counter 250 reported zeros in every direction for 26 hours including a full daytime; nothing was published while bikes passed, so the counts cannot be recovered.",
+   "evidence": "All four directions 0 from 06-08 14:00 to 06-09 16:00; the same hours on other days carry ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2022-06-08 14:00",
+   "end": "2022-06-09 16:00",
+   "confidence": "medium",
+   "diagnosis": "Counter 250 reported zeros in every direction for 26 hours including a full daytime; nothing was published while bikes passed, so the counts cannot be recovered.",
+   "evidence": "All four directions 0 from 06-08 14:00 to 06-09 16:00; the same hours on other days carry ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2022-06-23 08:30",
+   "end": "2022-06-23 23:45",
+   "confidence": "medium",
+   "diagnosis": "Counter 250 stopped counting on its last day (all directions 0 from 08:30), so the rest of the day cannot be recovered.",
+   "evidence": "All four directions 0 from 08:30; usual ~225 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2022-06-23 08:30",
+   "end": "2022-06-23 23:45",
+   "confidence": "medium",
+   "diagnosis": "Counter 250 stopped counting on its last day (all directions 0 from 08:30), so the rest of the day cannot be recovered.",
+   "evidence": "All four directions 0 from 08:30; usual ~225 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12 00:00",
+   "end": "2023-07-12 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 was not yet counting on its first day before 10:00 (every zone 0), so those hours cannot be recovered.",
+   "evidence": "All 14 directions 0 until 09:45, counts from 10:00; usual ~190 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12 00:00",
+   "end": "2023-07-12 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 was not yet counting on its first day before 10:00 (every zone 0), so those hours cannot be recovered.",
+   "evidence": "All 14 directions 0 until 09:45, counts from 10:00; usual ~190 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12 00:00",
+   "end": "2023-07-12 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 was not yet counting on its first day before 10:00 (every zone 0), so those hours cannot be recovered.",
+   "evidence": "All 14 directions 0 until 09:45, counts from 10:00; usual ~190 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12 00:00",
+   "end": "2023-07-12 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 was not yet counting on its first day before 10:00 (every zone 0), so those hours cannot be recovered.",
+   "evidence": "All 14 directions 0 until 09:45, counts from 10:00; usual ~190 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12 00:00",
+   "end": "2023-07-12 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 was not yet counting on its first day before 10:00 (every zone 0), so those hours cannot be recovered.",
+   "evidence": "All 14 directions 0 until 09:45, counts from 10:00; usual ~190 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12 00:00",
+   "end": "2023-07-12 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 was not yet counting on its first day before 10:00 (every zone 0), so those hours cannot be recovered.",
+   "evidence": "All 14 directions 0 until 09:45, counts from 10:00; usual ~190 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12 00:00",
+   "end": "2023-07-12 09:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 was not yet counting on its first day before 10:00 (every zone 0), so those hours cannot be recovered.",
+   "evidence": "All 14 directions 0 until 09:45, counts from 10:00; usual ~190 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 16:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone through a weekday daytime with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 08:15-16:00, normal counts resume 16:15 with no burst; usual ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 16:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone through a weekday daytime with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 08:15-16:00, normal counts resume 16:15 with no burst; usual ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 16:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone through a weekday daytime with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 08:15-16:00, normal counts resume 16:15 with no burst; usual ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 16:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone through a weekday daytime with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 08:15-16:00, normal counts resume 16:15 with no burst; usual ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 16:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone through a weekday daytime with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 08:15-16:00, normal counts resume 16:15 with no burst; usual ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 16:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone through a weekday daytime with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 08:15-16:00, normal counts resume 16:15 with no burst; usual ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:15",
+   "end": "2023-09-20 16:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone through a weekday daytime with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 08:15-16:00, normal counts resume 16:15 with no burst; usual ~370 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone for 17 hours of a Friday with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 00:00-16:45, normal counts from 17:00 with no burst; usual ~520 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone for 17 hours of a Friday with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 00:00-16:45, normal counts from 17:00 with no burst; usual ~520 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone for 17 hours of a Friday with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 00:00-16:45, normal counts from 17:00 with no burst; usual ~520 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone for 17 hours of a Friday with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 00:00-16:45, normal counts from 17:00 with no burst; usual ~520 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone for 17 hours of a Friday with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 00:00-16:45, normal counts from 17:00 with no burst; usual ~520 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone for 17 hours of a Friday with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 00:00-16:45, normal counts from 17:00 with no burst; usual ~520 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2023-11-10 00:00",
+   "end": "2023-11-10 16:45",
+   "confidence": "high",
+   "diagnosis": "Camera 278 reported 0 in every zone for 17 hours of a Friday with no backlog afterwards, so it was down and the counts are lost.",
+   "evidence": "All 14 directions 0 00:00-16:45, normal counts from 17:00 with no burst; usual ~520 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:15",
+   "end": "2023-11-13 04:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 reported 0 in every zone overnight Sunday-Monday, including evening hours that normally have riders, with no backlog afterwards.",
+   "evidence": "All 14 directions 0 19:15-04:45; usual ~150 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:15",
+   "end": "2023-11-13 04:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 reported 0 in every zone overnight Sunday-Monday, including evening hours that normally have riders, with no backlog afterwards.",
+   "evidence": "All 14 directions 0 19:15-04:45; usual ~150 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:15",
+   "end": "2023-11-13 04:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 reported 0 in every zone overnight Sunday-Monday, including evening hours that normally have riders, with no backlog afterwards.",
+   "evidence": "All 14 directions 0 19:15-04:45; usual ~150 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:15",
+   "end": "2023-11-13 04:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 reported 0 in every zone overnight Sunday-Monday, including evening hours that normally have riders, with no backlog afterwards.",
+   "evidence": "All 14 directions 0 19:15-04:45; usual ~150 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:15",
+   "end": "2023-11-13 04:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 reported 0 in every zone overnight Sunday-Monday, including evening hours that normally have riders, with no backlog afterwards.",
+   "evidence": "All 14 directions 0 19:15-04:45; usual ~150 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:15",
+   "end": "2023-11-13 04:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 reported 0 in every zone overnight Sunday-Monday, including evening hours that normally have riders, with no backlog afterwards.",
+   "evidence": "All 14 directions 0 19:15-04:45; usual ~150 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2023-11-12 19:15",
+   "end": "2023-11-13 04:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 reported 0 in every zone overnight Sunday-Monday, including evening hours that normally have riders, with no backlog afterwards.",
+   "evidence": "All 14 directions 0 19:15-04:45; usual ~150 bikes in those hours."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2024-05-11 06:45",
+   "end": "2024-08-29 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 stopped detecting on 2024-05-11 and kept publishing zeros in every zone for 3.5 months on George St in the CBD; the riders were never counted, so nothing can be recovered.",
+   "evidence": "Last non-zero slots 2024-05-11 06:00-06:30; every direction 0 on every day to 2024-08-28; counts resume 2024-08-29 from 10:15 at ~230-300 bikes/day. Nearby Pitt/King camera and Harbour Bridge counted normally through June-August."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2024-05-11 06:45",
+   "end": "2024-08-29 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 stopped detecting on 2024-05-11 and kept publishing zeros in every zone for 3.5 months on George St in the CBD; the riders were never counted, so nothing can be recovered.",
+   "evidence": "Last non-zero slots 2024-05-11 06:00-06:30; every direction 0 on every day to 2024-08-28; counts resume 2024-08-29 from 10:15 at ~230-300 bikes/day. Nearby Pitt/King camera and Harbour Bridge counted normally through June-August."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2024-05-11 06:45",
+   "end": "2024-08-29 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 stopped detecting on 2024-05-11 and kept publishing zeros in every zone for 3.5 months on George St in the CBD; the riders were never counted, so nothing can be recovered.",
+   "evidence": "Last non-zero slots 2024-05-11 06:00-06:30; every direction 0 on every day to 2024-08-28; counts resume 2024-08-29 from 10:15 at ~230-300 bikes/day. Nearby Pitt/King camera and Harbour Bridge counted normally through June-August."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2024-05-11 06:45",
+   "end": "2024-08-29 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 stopped detecting on 2024-05-11 and kept publishing zeros in every zone for 3.5 months on George St in the CBD; the riders were never counted, so nothing can be recovered.",
+   "evidence": "Last non-zero slots 2024-05-11 06:00-06:30; every direction 0 on every day to 2024-08-28; counts resume 2024-08-29 from 10:15 at ~230-300 bikes/day. Nearby Pitt/King camera and Harbour Bridge counted normally through June-August."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2024-05-11 06:45",
+   "end": "2024-08-29 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 stopped detecting on 2024-05-11 and kept publishing zeros in every zone for 3.5 months on George St in the CBD; the riders were never counted, so nothing can be recovered.",
+   "evidence": "Last non-zero slots 2024-05-11 06:00-06:30; every direction 0 on every day to 2024-08-28; counts resume 2024-08-29 from 10:15 at ~230-300 bikes/day. Nearby Pitt/King camera and Harbour Bridge counted normally through June-August."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2024-05-11 06:45",
+   "end": "2024-08-29 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 stopped detecting on 2024-05-11 and kept publishing zeros in every zone for 3.5 months on George St in the CBD; the riders were never counted, so nothing can be recovered.",
+   "evidence": "Last non-zero slots 2024-05-11 06:00-06:30; every direction 0 on every day to 2024-08-28; counts resume 2024-08-29 from 10:15 at ~230-300 bikes/day. Nearby Pitt/King camera and Harbour Bridge counted normally through June-August."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2024-05-11 06:45",
+   "end": "2024-08-29 10:00",
+   "confidence": "high",
+   "diagnosis": "Camera 278 stopped detecting on 2024-05-11 and kept publishing zeros in every zone for 3.5 months on George St in the CBD; the riders were never counted, so nothing can be recovered.",
+   "evidence": "Last non-zero slots 2024-05-11 06:00-06:30; every direction 0 on every day to 2024-08-28; counts resume 2024-08-29 from 10:15 at ~230-300 bikes/day. Nearby Pitt/King camera and Harbour Bridge counted normally through June-August."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2024-05-08",
+   "end": "2024-09-28",
+   "confidence": "medium",
+   "diagnosis": "The Curtin Pl zone failed on 2024-05-08: direction 929 stopped publishing entirely and 746 fell to 0, and neither came back before the camera's gap; the riders were not counted.",
+   "evidence": "929 has no records 2024-05-08 to 2025-12-07; 746 0 on 05-08..05-10 and totals 5 bikes over Aug 29-Sep 28 versus ~2-10/day before."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2024-09-28 13:15",
+   "end": "2024-09-28 23:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 stopped counting part way through its last day before a 14-month gap (every zone 0 from 13:15), so the rest of the day cannot be recovered.",
+   "evidence": "All 13 publishing directions 0 from 13:15; usual ~330 bikes in those hours; no data from 2024-09-29 to 2025-11-26."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2024-09-28 13:15",
+   "end": "2024-09-28 23:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 stopped counting part way through its last day before a 14-month gap (every zone 0 from 13:15), so the rest of the day cannot be recovered.",
+   "evidence": "All 13 publishing directions 0 from 13:15; usual ~330 bikes in those hours; no data from 2024-09-29 to 2025-11-26."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2024-09-28 13:15",
+   "end": "2024-09-28 23:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 stopped counting part way through its last day before a 14-month gap (every zone 0 from 13:15), so the rest of the day cannot be recovered.",
+   "evidence": "All 13 publishing directions 0 from 13:15; usual ~330 bikes in those hours; no data from 2024-09-29 to 2025-11-26."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2024-09-28 13:15",
+   "end": "2024-09-28 23:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 stopped counting part way through its last day before a 14-month gap (every zone 0 from 13:15), so the rest of the day cannot be recovered.",
+   "evidence": "All 13 publishing directions 0 from 13:15; usual ~330 bikes in those hours; no data from 2024-09-29 to 2025-11-26."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2024-09-28 13:15",
+   "end": "2024-09-28 23:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 stopped counting part way through its last day before a 14-month gap (every zone 0 from 13:15), so the rest of the day cannot be recovered.",
+   "evidence": "All 13 publishing directions 0 from 13:15; usual ~330 bikes in those hours; no data from 2024-09-29 to 2025-11-26."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2024-09-28 13:15",
+   "end": "2024-09-28 23:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 stopped counting part way through its last day before a 14-month gap (every zone 0 from 13:15), so the rest of the day cannot be recovered.",
+   "evidence": "All 13 publishing directions 0 from 13:15; usual ~330 bikes in those hours; no data from 2024-09-29 to 2025-11-26."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2024-09-28 13:15",
+   "end": "2024-09-28 23:45",
+   "confidence": "medium",
+   "diagnosis": "Camera 278 stopped counting part way through its last day before a 14-month gap (every zone 0 from 13:15), so the rest of the day cannot be recovered.",
+   "evidence": "All 13 publishing directions 0 from 13:15; usual ~330 bikes in those hours; no data from 2024-09-29 to 2025-11-26."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2025-11-27",
+   "end": "2025-11-27",
+   "confidence": "medium",
+   "diagnosis": "Recommissioning day of camera 278: only 7 of 14 directions published and they total 27 bikes against ~830 the next day, so the camera was not counting properly.",
+   "evidence": "2025-11-27: 7 directions, 27 bikes, 0 in 22+ consecutive hours per direction; 2025-11-28: 12 directions, 827 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2025-11-27",
+   "end": "2025-11-27",
+   "confidence": "medium",
+   "diagnosis": "Recommissioning day of camera 278: only 7 of 14 directions published and they total 27 bikes against ~830 the next day, so the camera was not counting properly.",
+   "evidence": "2025-11-27: 7 directions, 27 bikes, 0 in 22+ consecutive hours per direction; 2025-11-28: 12 directions, 827 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2025-11-27",
+   "end": "2025-11-27",
+   "confidence": "medium",
+   "diagnosis": "Recommissioning day of camera 278: only 7 of 14 directions published and they total 27 bikes against ~830 the next day, so the camera was not counting properly.",
+   "evidence": "2025-11-27: 7 directions, 27 bikes, 0 in 22+ consecutive hours per direction; 2025-11-28: 12 directions, 827 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2025-11-27",
+   "end": "2025-11-27",
+   "confidence": "medium",
+   "diagnosis": "Recommissioning day of camera 278: only 7 of 14 directions published and they total 27 bikes against ~830 the next day, so the camera was not counting properly.",
+   "evidence": "2025-11-27: 7 directions, 27 bikes, 0 in 22+ consecutive hours per direction; 2025-11-28: 12 directions, 827 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2025-11-27",
+   "end": "2025-11-27",
+   "confidence": "medium",
+   "diagnosis": "Recommissioning day of camera 278: only 7 of 14 directions published and they total 27 bikes against ~830 the next day, so the camera was not counting properly.",
+   "evidence": "2025-11-27: 7 directions, 27 bikes, 0 in 22+ consecutive hours per direction; 2025-11-28: 12 directions, 827 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2025-11-27",
+   "end": "2025-11-27",
+   "confidence": "medium",
+   "diagnosis": "Recommissioning day of camera 278: only 7 of 14 directions published and they total 27 bikes against ~830 the next day, so the camera was not counting properly.",
+   "evidence": "2025-11-27: 7 directions, 27 bikes, 0 in 22+ consecutive hours per direction; 2025-11-28: 12 directions, 827 bikes."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2025-11-27",
+   "end": "2025-11-27",
+   "confidence": "medium",
+   "diagnosis": "Recommissioning day of camera 278: only 7 of 14 directions published and they total 27 bikes against ~830 the next day, so the camera was not counting properly.",
+   "evidence": "2025-11-27: 7 directions, 27 bikes, 0 in 22+ consecutive hours per direction; 2025-11-28: 12 directions, 827 bikes."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "Since recommissioning the VivaCity feed leaves out zero slots (low-volume zones 320 and 324 publish only slots with bikes, others drop occasional zero slots), so absent slots on days the camera published are zeros.",
+   "evidence": "320/324 directions have 2-27 of 30 days per month with records and absent_zeros flags weeks with no zero slot; 738/809 miss whole days in Jan-Feb 2026 while the camera published; the 2026-01-31 outage is recovered by the backlog slot 2026-02-01 09:30 in the same week."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 320,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "Since recommissioning the VivaCity feed leaves out zero slots (low-volume zones 320 and 324 publish only slots with bikes, others drop occasional zero slots), so absent slots on days the camera published are zeros.",
+   "evidence": "320/324 directions have 2-27 of 30 days per month with records and absent_zeros flags weeks with no zero slot; 738/809 miss whole days in Jan-Feb 2026 while the camera published; the 2026-01-31 outage is recovered by the backlog slot 2026-02-01 09:30 in the same week."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "Since recommissioning the VivaCity feed leaves out zero slots (low-volume zones 320 and 324 publish only slots with bikes, others drop occasional zero slots), so absent slots on days the camera published are zeros.",
+   "evidence": "320/324 directions have 2-27 of 30 days per month with records and absent_zeros flags weeks with no zero slot; 738/809 miss whole days in Jan-Feb 2026 while the camera published; the 2026-01-31 outage is recovered by the backlog slot 2026-02-01 09:30 in the same week."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 325,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "Since recommissioning the VivaCity feed leaves out zero slots (low-volume zones 320 and 324 publish only slots with bikes, others drop occasional zero slots), so absent slots on days the camera published are zeros.",
+   "evidence": "320/324 directions have 2-27 of 30 days per month with records and absent_zeros flags weeks with no zero slot; 738/809 miss whole days in Jan-Feb 2026 while the camera published; the 2026-01-31 outage is recovered by the backlog slot 2026-02-01 09:30 in the same week."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "Since recommissioning the VivaCity feed leaves out zero slots (low-volume zones 320 and 324 publish only slots with bikes, others drop occasional zero slots), so absent slots on days the camera published are zeros.",
+   "evidence": "320/324 directions have 2-27 of 30 days per month with records and absent_zeros flags weeks with no zero slot; 738/809 miss whole days in Jan-Feb 2026 while the camera published; the 2026-01-31 outage is recovered by the backlog slot 2026-02-01 09:30 in the same week."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "Since recommissioning the VivaCity feed leaves out zero slots (low-volume zones 320 and 324 publish only slots with bikes, others drop occasional zero slots), so absent slots on days the camera published are zeros.",
+   "evidence": "320/324 directions have 2-27 of 30 days per month with records and absent_zeros flags weeks with no zero slot; 738/809 miss whole days in Jan-Feb 2026 while the camera published; the 2026-01-31 outage is recovered by the backlog slot 2026-02-01 09:30 in the same week."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2025-11-28",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "Since recommissioning the VivaCity feed leaves out zero slots (low-volume zones 320 and 324 publish only slots with bikes, others drop occasional zero slots), so absent slots on days the camera published are zeros.",
+   "evidence": "320/324 directions have 2-27 of 30 days per month with records and absent_zeros flags weeks with no zero slot; 738/809 miss whole days in Jan-Feb 2026 while the camera published; the 2026-01-31 outage is recovered by the backlog slot 2026-02-01 09:30 in the same week."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": 869,
+   "start": "2026-02-13 06:45",
+   "end": "2026-02-13 07:30",
+   "confidence": "medium",
+   "diagnosis": "Direction 869 recorded 871 bikes in an hour (519 in one 15-minute slot) while every adjoining zone that those riders must pass through recorded 0-9; a tracking artefact multiplied counts and the true value cannot be recovered.",
+   "evidence": "869: 52, 210, 519, 90 in 06:45-07:30 vs usual ~1-2; 906, 314, 325, 327 zones 0-9 per slot at the same time."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 328,
+   "DIRECTION_SK": null,
+   "start": "2026-08-14 12:30",
+   "end": "2026-08-14 13:15",
+   "confidence": "medium",
+   "diagnosis": "Both directions at 328 jumped to 75-290 bikes per slot for 45 minutes while every adjoining zone stayed at normal levels; a tracking artefact multiplied counts and the true value cannot be recovered.",
+   "evidence": "869: 112, 75, 85 and 906: 22, 290, 186, 211 in 12:30-13:15 vs usual 3-15; zones 314/325/326/327 at 0-33 per slot."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 327,
+   "DIRECTION_SK": null,
+   "start": "2026-01-20",
+   "end": "2026-03-03",
+   "confidence": "medium",
+   "diagnosis": "Both directions of the Margaret St zone fell to about 5% of their level for six weeks and then recovered, while every other zone was normal; this could be a zone that lost detection (occlusion) or a real closure of Margaret St.",
+   "evidence": "738/809 ~70-150 bikes/day before 2026-01-19 and after 2026-03-04, 1-17/day between; other zones unchanged."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 324,
+   "DIRECTION_SK": null,
+   "start": "2026-06-16",
+   "end": null,
+   "confidence": "low",
+   "diagnosis": "Curtin Pl rose from ~2 bikes/day to ~170-190/day per direction over two weeks from mid June 2026, with a strong lunchtime peak in both directions; it may be a real new flow (e.g. delivery riders) or a zone reconfiguration.",
+   "evidence": "746/929 weekly ~10 through early June 2026, ~1150-1500/week from July; hourly peak 12-13h ~35-40/h each direction; IN and OUT balanced."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2023-08-29",
+   "end": "2023-09-01",
+   "confidence": "low",
+   "diagnosis": "Both directions at George St (W) south of Margaret St ran 3-20 times their usual level all day for four weekdays, including late evening, while other zones were normal; could be a diversion onto the footpath or a detection artefact.",
+   "evidence": "875: 658, 502, 589, 418/day vs ~20; 814: ~390/day vs ~170."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 326,
+   "DIRECTION_SK": null,
+   "start": "2025-12-11",
+   "end": "2025-12-15",
+   "confidence": "low",
+   "diagnosis": "Both directions at 326 ran 3-8 times their usual level for five days, all day, while other zones were normal; could be a diversion or a detection artefact.",
+   "evidence": "875: 700, 792, 769, 463, 482/day vs ~90-110; 814: 424-668/day vs ~160."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 314,
+   "DIRECTION_SK": null,
+   "start": "2024-08-29",
+   "end": "2024-09-28",
+   "confidence": "low",
+   "diagnosis": "After the camera restarted in August 2024 both George St (E) north directions read far lower than before the outage (792 about a fifth), while most other zones matched their pre-outage levels; the zone may have been redrawn.",
+   "evidence": "700: ~48/day Apr 2024 vs ~19/day Sep 2024; 792: ~16 vs ~3; 738, 809, 814, 847 within 20% of April."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 314,
+   "name": "East (counter 250 trial, 2022)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 250,
+     "DIRECTION_SK": 501,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Two-week 2022 trial camera with East/West zones that do not match camera 278's North/South zones; not joinable."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "West (counter 250 trial, 2022)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 250,
+     "DIRECTION_SK": 505,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Two-week 2022 trial camera; different zone definitions from camera 278."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "Southbound (IN) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 700,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "Southbound (IN) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 700,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "Northbound (OUT) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 792,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 314,
+   "name": "Northbound (OUT) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 792,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "East (counter 250 trial, 2022)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 250,
+     "DIRECTION_SK": 506,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Counter 250 recorded ~50-100 bikes/day per direction here, camera 278 ~0-1/day: plainly different zones, not joinable."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "West (counter 250 trial, 2022)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 250,
+     "DIRECTION_SK": 507,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Counter 250 levels are ~100 times camera 278's at this site; different zones."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "Eastbound (OUT) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 690,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "Eastbound (OUT) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 690,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "Westbound (IN) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 761,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 320,
+   "name": "Westbound (IN) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 761,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 324,
+   "name": "Westbound (IN) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 746,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 324,
+   "name": "Westbound (IN) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 746,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 324,
+   "name": "Eastbound (OUT) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 929,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 324,
+   "name": "Eastbound (OUT) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 929,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 325,
+   "name": "Southbound (OUT) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 847,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 325,
+   "name": "Southbound (OUT) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 847,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 325,
+   "name": "Northbound (IN) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 905,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 325,
+   "name": "Northbound (IN) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 905,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 326,
+   "name": "Northbound (IN) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 814,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 326,
+   "name": "Northbound (IN) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 814,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 326,
+   "name": "Southbound (OUT) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 875,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 326,
+   "name": "Southbound (OUT) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 875,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 327,
+   "name": "Westbound (OUT) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 738,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 327,
+   "name": "Westbound (OUT) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 738,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 327,
+   "name": "Eastbound (IN) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 809,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 327,
+   "name": "Eastbound (IN) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 809,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 328,
+   "name": "Northbound (OUT) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 869,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 328,
+   "name": "Northbound (OUT) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 869,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  },
+  {
+   "SITE_SK": 328,
+   "name": "Southbound (IN) (2023-2024)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 906,
+     "start": null,
+     "end": "2024-12-31"
+    }
+   ],
+   "evidence": "Camera 278 before its 14-month gap (Sep 2024 - Nov 2025)."
+  },
+  {
+   "SITE_SK": 328,
+   "name": "Southbound (IN) (from Nov 2025)",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 278,
+     "DIRECTION_SK": 906,
+     "start": "2025-01-01",
+     "end": null
+    }
+   ],
+   "evidence": "After the gap the camera reads 2-3 times higher in most zones and the IN/OUT balance changed (IN ~2x OUT before, ~1:1 after), pointing at a new zone set-up or detection model (the Pitt/King camera 280 stepped up ~2.3x in Oct 2024 while the Harbour Bridge piezo did not); comparability cannot be established, so the periods are separate series."
+  }
+ ],
+ "proposals": [
+  "Backlog slots: camera 278 twice dumped a whole outage into one slot (2025-12-18 03:00 after a 6.5 h gap, and 2026-02-01 09:30 after ~32 h absent from 2026-01-31 01:00). Weekly totals are right as published because each dump falls in the same week, but a fix that spreads a dump slot back over the empty slots it covers, in proportion to the direction's usual profile, would also make the daily and 15-minute views right."
+ ],
+ "tools": {
+  "useful": [
+   "weekly(wide=True): the whole camera record at a glance, showing the 2024 dead period, the 14-month gap, the post-gap level step and zone-specific episodes",
+   "counter_days: pinned the start and end of the 2024 zero period and the partial recommissioning day",
+   "zeros(counter=True): listed every camera-wide outage, including short ones (2023-09-20, 2023-11-10) that weekly views hide",
+   "slots pivoted by direction: separated single-zone tracking artefacts (2026-02-13, 2026-08-14) from backlog dumps (2026-02-01 09:30) by comparing adjoining zones",
+   "hourly: showed the lunchtime profile of the new Curtin Pl flow",
+   "monthly across neighbours: the Pitt/King camera also stepped up ~2.3x in late 2024, supporting separate series"
+  ],
+  "not_useful": [
+   "doubled/duplicates: nothing to find on a single-record camera feed",
+   "spikes: 554 rows at usual=0 for many low-volume zones; needed heavy aggregation to use"
+  ],
+  "improve": [
+   "spikes: add a column with what the other zones of the same camera did in the same slots, so single-zone artefacts stand out from real group rides",
+   "zeros: flag whether the stretch ends in a slot far above usual (a backlog dump) so outages that were recovered are distinguishable from lost ones",
+   "overview: a wide per-month view (like weekly wide) would save a pivot for cameras with many zones"
+  ],
+  "add": [
+   "camera_zones(counter, date range): per slot, every zone of the camera side by side with the zone's usual value, to judge whether a burst passed through adjacent zones",
+   "level_step(site): ratio of each direction's level after vs before a data gap, next to the same ratio at other cameras and reference counters over the same dates"
+  ]
+ },
+ "summary": "Camera 278 at George St / Margaret St / Curtin Pl published zeros from 2024-05-11 to 2024-08-29 and had several shorter camera-wide outages and single-zone tracking artefacts, all set missing; since recommissioning in Nov 2025 the feed omits zero slots, so it is zero-filled. After its 14-month gap the camera reads 2-3 times higher with a different IN/OUT balance, so each direction is split into a 2023-2024 and a 2025+ series, and the 2022 trial counter 250 stays separate. Margaret St's six-week collapse in early 2026, Curtin Pl's large rise from June 2026 and multi-day surges at 326 are flagged uncertain."
+}

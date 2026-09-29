@@ -1,0 +1,6 @@
+{
+  "group": "G0558",
+  "decisions": [],
+  "series": [],
+  "summary": "Site 558 (Edmund Resch Reserve, Redfern) has one Metrocount piezo counter (369) with East and West directions, complete for all 307 days from 2025-11-20 to 2026-09-22: one record per slot, no warnings and no automatic fixes (clean equals raw). Daily totals of 137-626 per direction, a steady East/West ratio (0.84-1.32 per day), about 40% odd slots, no slot above 59 and an ordinary commuter hourly profile show no doubling, outages or direction swaps; the low weeks fall on the Christmas period and in the May-July winter. The whole record stands as it is, and the single counter needs no series definition."
+}

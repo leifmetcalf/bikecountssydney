@@ -1,0 +1,148 @@
+{
+  "group": "G0190",
+  "decisions": [
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 190,
+      "DIRECTION_SK": null,
+      "start": "2019-04-29",
+      "end": "2019-09-29",
+      "confidence": "high",
+      "diagnosis": "Counter 197 reported 0 in both directions for five months while riders kept passing; the counts were never recorded so they cannot be recovered.",
+      "evidence": "Both directions 0 from 2019-04-28 evening until 2019-09-30 00:15 (3701 h); adjacent site 191 (10 m away) kept ~290-610 per day, e.g. 2019-04-29 191=304 vs 190=0, 2019-09-29 191=610 vs 190=0; 190 normally reads ~0.94x site 191."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 190,
+      "DIRECTION_SK": null,
+      "start": "2022-05-16",
+      "end": "2022-05-18",
+      "confidence": "high",
+      "diagnosis": "Counter 197 reported 0 in both directions for three full days while the path was in normal use; the counts were not recorded and cannot be recovered.",
+      "evidence": "Zeros 2022-05-15 22:00 to 2022-05-19 05:30 in both directions; site 191 368/413/399 and 187 458/511/498 on the same days; normal counts resume 2022-05-19 06:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 190,
+      "DIRECTION_SK": null,
+      "start": "2024-12-24",
+      "end": "2025-01-03",
+      "confidence": "high",
+      "diagnosis": "Counter 299 reported 0 (warning status) in both directions for 11 days over Christmas while riders kept passing; the counts cannot be recovered.",
+      "evidence": "Zeros 2024-12-23 23:15/23:45 to 2025-01-04 00:00; adjacent site 191 recorded 272-734 per day (e.g. 12-31: 734) while 190 had 0; 190 tracked 191 at ~0.94 immediately before and after."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 190,
+      "DIRECTION_SK": null,
+      "start": "2025-10-20",
+      "end": "2025-10-20",
+      "confidence": "medium",
+      "diagnosis": "A midnight-to-midnight day of warning-status zeros shared with the separate counters at sites 191 and 195 looks like a data outage filled with zeros, not a real absence of riders.",
+      "evidence": "190, 191 and 195 all exactly 0 on Monday 2025-10-20, zeros aligned to 00:00-24:00, status warning; site 124 on the same river path recorded 623; the neighbouring days were 752 and 448 at 190."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 190,
+      "DIRECTION_SK": null,
+      "start": "2026-03-01",
+      "end": "2026-04-19",
+      "confidence": "high",
+      "diagnosis": "Counter 299's sensor failed from 1 March 2026 until it was replaced by counter 391 on 22 April: direction 1087 dropped to 5-40% of normal and 1088 swung between large overcounts and undercounts, so neither the split nor the total can be trusted or recovered.",
+      "evidence": "Before March the 1087/1088 totals ran at 0.92-0.95x site 191 and 1087 about equal to 1088; from 2026-03-01 1087 = 6-138 per day against 191's 150-340 per direction; 1088 = 418 on 03-06 and 383 on 03-08 (191: 187-224, 109-142), then 43-116 on weekdays from 03-23 (191: ~200-270); the site total ranged from 0.27x to 1.72x of 191; replacement counter 391 read 0.94-0.95x of 191 again from 2026-04-22."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 190,
+      "name": "North-east / North (towards the city)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 197,
+          "DIRECTION_SK": 192,
+          "start": null,
+          "end": null
+        },
+        {
+          "COUNTER_SK": 299,
+          "DIRECTION_SK": 1088,
+          "start": null,
+          "end": null
+        },
+        {
+          "COUNTER_SK": 391,
+          "DIRECTION_SK": 1857,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "The three counters replaced one another at the same site in sequence with no overlap. The weekday hourly profiles match: the peak is at 08:00 with a weaker 07:00 (192: 9.3/15.9; 1088: 12.2/20.3; 1857: 10.5/16.3), and 15:00 is lower than in the other direction. The 299 and 391 labels (North) agree with each other. Each counter's site total reads a steady ~0.93-0.96x of adjacent site 191, so their levels are comparable."
+    },
+    {
+      "SITE_SK": 190,
+      "name": "South-west / South (away from the city)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 197,
+          "DIRECTION_SK": 201,
+          "start": null,
+          "end": null
+        },
+        {
+          "COUNTER_SK": 299,
+          "DIRECTION_SK": 1087,
+          "start": null,
+          "end": null
+        },
+        {
+          "COUNTER_SK": 391,
+          "DIRECTION_SK": 1859,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "The three counters replaced one another in sequence. The weekday profiles match: 07:00 is at or above 08:00 (201: 13.4/11.6; 1087: 18.4/14.7; 1859: 14.3/13.1), and 15:00 is stronger than in the other direction. The 299 and 391 labels (South) agree. The levels against site 191 are stable across the counter changes."
+    }
+  ],
+  "proposals": [],
+  "summary": "Site 190 on the Parramatta River north bank tracks adjacent site 191 closely (about 0.94x) across all three counters, so three direction pairs of counter replacements form two continuous series. The faults are counter 197 reporting zeros from May to September 2019 and on 16-18 May 2022, counter 299 reporting zeros over Christmas 2024/25, a shared outage day on 20 October 2025, and counter 299's sensor failing in March-April 2026 before its replacement; all are set missing. Other short zero days (Feb 2020, Jul 2020, Mar 2021, Aug 2021, Feb/Mar/Jul 2022, Apr 2024) match the neighbours and are real weather or flooding lows.",
+  "tools": {
+    "useful": [
+      "overview: one table exposed the 2019 five-month zero months and the March 2026 collapse of direction 1087 at a glance",
+      "zeros: listed every long zero stretch with exact start/end slots, which gave precise fault bounds (2019, May 2022, Christmas 2024, Oct 2025)",
+      "neighbours: found site 191 10 m away, the reference that separated counter faults from real weather/flood lows",
+      "daily: pivoting 190 against 191/187/195 by day was the decisive evidence for every decision and for rejecting weather-driven zeros",
+      "hourly: weekday profiles (07:00 vs 08:00 peak, 15:00 level) matched directions across the three counters for the series",
+      "slots: confirmed the exact slot where the 2026 fault began and where 2019/2022 outages ended",
+      "raw: showed the warning status on the Oct 2025 and Dec 2024 zero days",
+      "weekly: confirmed complete coverage around counter changeovers"
+    ],
+    "not_useful": [
+      "doubled, duplicates, spikes: returned nothing for this single-record piezo site (correctly, but no information)",
+      "absent_zeros: camera-only, not applicable to piezo counters",
+      "channels: records_per_slot was always 1.0, so nothing to inspect",
+      "monthly: overview already gave the same per-day means",
+      "calendar: returned UNKNOWN/UNK public and school holiday fields for 2026, so it could not explain the late-March 2026 weekday drop",
+      "events: not needed; weather lows were settled by neighbours instead",
+      "meta: the brief already contained the same tables"
+    ],
+    "improve": [
+      "zeros: add a min_hours filter default nearer 20 h or a flag for whether neighbours were also zero, since the 6 h default lists ~3500 overnight gaps",
+      "neighbours: include direction SKs and an option to return daily totals of the nearest sites aligned with the reviewed site",
+      "daily: return a wide option (one column per direction) to avoid manual pivots",
+      "calendar: fill 2026 public/school holidays instead of UNKNOWN",
+      "hourly: add a peak-shape similarity score between directions of different counters to support series matching"
+    ],
+    "add": [
+      "a ratio-to-neighbour tool: daily and monthly ratio of a site's total (and each direction) to its closest co-located site, flagging runs where the ratio departs from its long-run median; this would have found all five faults directly",
+      "a direction-matching tool: correlate hourly profiles of every direction of successive counters at a site and propose pairings"
+    ]
+  }
+}

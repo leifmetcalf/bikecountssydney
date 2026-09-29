@@ -1,0 +1,74 @@
+{
+  "group": "G0541",
+  "decisions": [
+    {"action": "missing", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2018-05-15", "end": "2018-06-01 15:45", "confidence": "high",
+      "diagnosis": "Counter 234 reported only zeros from installation until it started counting mid-afternoon on 1 June 2018; the riders who passed were never recorded, so nothing can be recovered.",
+      "evidence": "424 h of zeros in both directions (248 daytime h); first counts arrive at 16:00 on 2018-06-01 and the next week is 4450-5862 bikes; neighbour 267 had its usual counts (623 bikes on the 2 days of week 2018-05-28)."},
+    {"action": "direction_unreliable", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2018-06-01", "end": "2019-04-14", "confidence": "medium",
+      "diagnosis": "Before the 2019 outage the counter assigned most riders of both directions to 312, so the split is wrong; the site total matches neighbours at the same ratio as after 2020.",
+      "evidence": "312:313 weekly ratio median 2.56 in 2018 vs 0.96-1.04 in 2020-2024 and 1.05-1.13 on the new counter 354; in Aug-Nov 2018 both directions peak at 08:00 and 17:00 (312 141/117, 313 51/31 per h), whereas from 2020 the flow is tidal (312 AM 147 vs PM 46, 313 AM 65 vs PM 121); direction correlation 0.76 vs about 0.5 later; site total / site 254 is 3.0-3.5 both before and after."},
+    {"action": "missing", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2019-04-15", "end": "2020-01-12", "confidence": "high",
+      "diagnosis": "Counter 234 failed on 15 April 2019 (erratic hourly counts that morning, then zeros) and reported zeros for nine months while riders passed; nothing was recorded, so the counts cannot be recovered.",
+      "evidence": "2019-04-15 total 234 bikes vs 700-1300 on the previous weekdays; zeros from 20:45 on 2019-04-15 to 12:00 on 2020-01-13 (6543 h); neighbours 267 and 268 carried 4000-6600 and 1300-2600 bikes a week throughout."},
+    {"action": "missing", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2020-01-13", "end": "2020-01-24 10:45", "confidence": "medium",
+      "diagnosis": "When the counter restarted it counted erratically for eleven days (false counts overnight, the 312 morning peak missing, days at a quarter of the usual level) and then went to zeros again; these counts are not real, and the real ones cannot be recovered.",
+      "evidence": "2020-01-14 312 records 18-111 bikes an hour from 00:00 to 05:59 (a steady 3 per slot) against about 1-3 an hour normally; 312 at 08:00 on 2020-01-15 is 42 bikes vs 250 from 28 January; 21-23 January total 457/309/239 (ratio to 267 0.23-0.35, usual 1.2-1.9); zeros from 23:30 on the 23rd to 10:45 on the 24th; clean tidal profiles resume from 24 January."},
+    {"action": "drop_duplicates", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2022-04-10", "end": "2024-10-28", "confidence": "high",
+      "diagnosis": "On about 30 days the feed published each of the counter's two channel records twice (on one day, one channel only), so those days show double counts that are all even.",
+      "evidence": "duplicates() flags 29 runs per direction, with 96 of 96 matched slots on each day; those days have 4 records per slot (3 on 2024-02-26 for 312 and on 2024-01-22 for 313) against the usual 2, 0 odd slots, and double the adjacent days (e.g. 2024-10-10 312 1666 vs 796 on the day before); 2020-11 is left alone: that month changed from 1 to 2 channels, and the repeats there are coincidental equal values (18-24 bikes)."},
+    {"action": "missing", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2022-07-15", "end": "2022-08-03 04:45", "confidence": "high",
+      "diagnosis": "The counter reported zeros in both directions for 19 days while neighbours had normal traffic, so the riders who passed are lost.",
+      "evidence": "461 h of zeros (266 daytime h, about 17000 bikes usual); 254 recorded 1130 and 1965 in the zero weeks; 541 resumes at 559/547 on 2022-08-03."},
+    {"action": "missing", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2023-08-18 12:00", "end": "2023-08-19 05:00", "confidence": "medium",
+      "diagnosis": "A 17-hour outage in both directions from Friday midday: the counter stopped recording, so these slots have no real counts.",
+      "evidence": "zeros() with counter=True: 17.25 h in both directions, 8 of them daytime h, with about 622 bikes usual in those slots; 2023-08-18 total 397 vs 1211-1352 on the days before."},
+    {"action": "missing", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2024-10-29", "end": "2025-04-16", "confidence": "high",
+      "diagnosis": "Counter 234 failed on 29 October 2024 and reported zeros until it was removed, apart from a few erratic fragments; nothing real was recorded, so nothing can be recovered.",
+      "evidence": "Zeros from 2024-10-29 to 2025-04-16 apart from 111 bikes on 2024-11-26, 370 on 2024-11-27, and a 234-bike burst in 2 slots at 20:15 on 2024-12-15 (usual 6); the week before the failure had about 1500 bikes a day."},
+    {"action": "missing", "factor": null, "SITE_SK": 541, "DIRECTION_SK": null,
+      "start": "2025-10-23", "end": "2025-10-23", "confidence": "high",
+      "diagnosis": "A feed outage: counter 354 reported a full day of zeros, as did many other sites, so the day's real counts are missing from the feed.",
+      "evidence": "2025-10-23 was 0 at 541, 538, 539 and 540 (all Metrocount council counters), which carried 1950/482/1327/122 the day before; network() shows 37 zero sites that day vs 0-3 on the days around it."}
+  ],
+  "series": [
+    {"SITE_SK": 541, "name": "Eastbound / citybound (NE)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 234, "DIRECTION_SK": 312, "start": null, "end": null},
+                {"COUNTER_SK": 354, "DIRECTION_SK": 1746, "start": null, "end": null}],
+      "evidence": "Same piezo location, both marked citybound, both with a morning-peak tidal profile (312 147/h at 08:00 in 2020, 1746 167/h at 08:00 in 2025); the site total relative to Anzac Br (103) is 1.32-1.34 in Sep-Oct 2024 on counter 234 and 1.24-1.30 in Sep-Nov 2025 on 354, so the two counters read comparably; per-direction level about 800/day before and after the gap."},
+    {"SITE_SK": 541, "name": "Westbound / outbound (SW)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 234, "DIRECTION_SK": 313, "start": null, "end": null},
+                {"COUNTER_SK": 354, "DIRECTION_SK": 1745, "start": null, "end": null}],
+      "evidence": "Same location, both not citybound, both with an evening-peak profile (313 121/h at 17:00 in 2020, 1745 161/h at 17:00 in 2025); comparable levels (313 836/day in Oct 2024, 1745 793/day in Oct 2025) and the same ratio to Anzac Br across the gap."}
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: showed the long zero stretches, the jump from 1 to 2 records per slot in Nov 2020, and the direction imbalance before 2019 at a glance",
+      "duplicates/doubled: identified every doubled day exactly, with the number of matched slots",
+      "zeros(counter=True): gave the exact start and end slots for each outage",
+      "hourly: the AM/PM peak pattern showed that the direction split before 2019 was wrong and matched the directions of the two counters",
+      "compare: the neighbour ratios confirmed the outages and that the total level held across the 2019-2020 gap",
+      "network: confirmed that 2025-10-23 was a feed-wide outage"
+    ],
+    "not_useful": [
+      "spikes: mostly flagged small 20-30 bike slots on doubled days, which the duplicates tool already explains"
+    ],
+    "improve": [
+      "compare: when counters are replaced, allow comparison against a distant site with a long record (it drops weeks where any of the others is incomplete, so the pre-gap reference was short)",
+      "channels: show the record values in full rather than truncating the list with an ellipsis"
+    ],
+    "add": [
+      "a per-day hour-by-direction pivot (hourly totals for each day) to spot commissioning oddities such as the overnight counts in Jan 2020",
+      "a peak-direction check: the share of each direction's AM vs PM peak per month, to flag periods where the direction split looks wrong"
+    ]
+  },
+  "summary": "Wilson St (S) was counted by Ecocounter 234 (2018-2025) and then by Metrocount 354 (from Sep 2025); the old counter had several dead periods (May 2018, Apr 2019 to Jan 2020 plus an erratic restart, Jul 2022, and Oct 2024 to its removal), about 30 days of duplicated records, and a wrong direction split before 2019. After those fixes, the two counters read comparably against Anzac Bridge and their directions match by peak profile, so each direction is joined into one series across the counter change."
+}

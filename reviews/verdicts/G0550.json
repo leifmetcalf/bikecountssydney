@@ -1,0 +1,51 @@
+{
+  "group": "G0550",
+  "decisions": [
+    {"action": "drop_duplicates", "factor": null, "SITE_SK": 550, "DIRECTION_SK": null,
+      "start": "2022-04-01", "end": "2024-11-30", "confidence": "high",
+      "diagnosis": "On about 40 scattered days the feed published every one of the 4 channel records twice (one channel on 2024-02-26 for direction 337), doubling those days' totals; dropping the exact repeats restores them.",
+      "evidence": "duplicates(): every extra record exactly repeats another (matched_slots = slots), 8 records per slot instead of 4, e.g. 2024-03-24/25 +726 bikes per direction; doubled() level 1.4-2.5 on the same days; neighbour sites 254 and 554 show the same doubling on 2022-09-08 and 2022-09-10."},
+    {"action": "missing", "factor": null, "SITE_SK": 550, "DIRECTION_SK": null,
+      "start": "2016-05-16 03:30", "end": "2016-05-16 14:00", "confidence": "medium",
+      "diagnosis": "Both directions report zero through the whole day on the counter's first day of data (installation or commissioning), so the riders who passed were not counted and cannot be recovered.",
+      "evidence": "zeros(counter=True): 10.75 h, 8.25 daytime h, usual 248 bikes; day totals 109/147 vs 277/242 the next day."},
+    {"action": "missing", "factor": null, "SITE_SK": 550, "DIRECTION_SK": null,
+      "start": "2018-06-01 13:45", "end": "2018-06-08 05:15", "confidence": "high",
+      "diagnosis": "The counter stopped detecting mid-afternoon and reported 'good' zeros for a week in both directions while neighbours counted normally; the lost counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 159.75 h, usual 3160 bikes; site 254 had 230-555 per direction per day in the same days; counts stop abruptly after slot 54 on 2018-06-01."},
+    {"action": "missing", "factor": null, "SITE_SK": 550, "DIRECTION_SK": null,
+      "start": "2020-12-07 04:45", "end": "2021-01-20 14:30", "confidence": "high",
+      "diagnosis": "Six weeks of all-zero 'good' records in both directions while nearby site 254 counted normally (sibling City of Sydney Ecocounter 554 had a similar outage); the counts were never delivered and cannot be recovered.",
+      "evidence": "zeros(counter=True): 1066 h, usual 21129 bikes; 254 had 350-900 per direction per day; 550 resumed at ~330/290 per day from 2021-01-21."},
+    {"action": "missing", "factor": null, "SITE_SK": 550, "DIRECTION_SK": null,
+      "start": "2021-06-24 04:45", "end": "2021-06-24 11:15", "confidence": "medium",
+      "diagnosis": "Both directions read zero through a weekday morning peak and then resumed normally, a counter outage (likely a maintenance visit); the riders in those slots cannot be recovered.",
+      "evidence": "zeros(counter=True): 6.75 h, 5.5 daytime h, usual 188 bikes; day total 142/121 vs 282/222 the day before; neighbours normal."},
+    {"action": "missing", "factor": null, "SITE_SK": 550, "DIRECTION_SK": null,
+      "start": "2022-08-06 23:15", "end": "2022-09-08 08:45", "confidence": "high",
+      "diagnosis": "Both directions reported 'good' zeros for a month while neighbours 254 and 554 counted normally; nothing was backfilled, so the counts are lost.",
+      "evidence": "zeros(counter=True): 777.75 h, usual 15686 bikes; 254 had 360-700 per direction per day throughout; counts resume at 09:00 on 2022-09-08."},
+    {"action": "missing", "factor": null, "SITE_SK": 550, "DIRECTION_SK": null,
+      "start": "2023-06-30", "end": "2023-07-03 05:45", "confidence": "high",
+      "diagnosis": "TfNSW flagged three whole days as 'warning' zeros in both directions while neighbour 254 counted 400-540 per direction per day; the counts were not recorded.",
+      "evidence": "raw status 'warning' on 2023-06-30 to 2023-07-02; zeros(counter=True) 78 h, usual 1250 bikes; days either side ~250-390 per direction."}
+  ],
+  "series": [
+    {"SITE_SK": 550, "name": "George St northbound (citybound)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 226, "DIRECTION_SK": 336, "start": null, "end": null},
+                {"COUNTER_SK": 362, "DIRECTION_SK": 1762, "start": null, "end": null}],
+      "evidence": "Metrocount 362 replaced Ecocounter 226 on the same path after a 5-month gap; the northbound hourly workday profile is almost identical (Feb-Apr 2025: 41.7/73.6/31.0 at 7/8/9h vs Nov 2025-Mar 2026: 41.7/71.0/30.1), and the site's ratio to continuous neighbours is unchanged (to 106: ~1.0-1.1 before and after; to 158: ~0.8-0.9 before and after)."},
+    {"SITE_SK": 550, "name": "George St southbound", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 226, "DIRECTION_SK": 337, "start": null, "end": null},
+                {"COUNTER_SK": 362, "DIRECTION_SK": 1761, "start": null, "end": null}],
+      "evidence": "Same replacement; the southbound hourly profile matches closely (17h: 66.2 before vs 65.3 after, 8h: 29.2 vs 31.0), the north/south ratio is similar (1.15 vs 1.19), and the ratios to neighbours 106 and 158 are unchanged across the gap."}
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": ["duplicates: showed whole days where every record repeated exactly, with matched_slots equal to slots", "zeros(counter=True): listed every outage with the bikes lost", "daily(wide=True) across neighbours: showed that the zero stretches were local to this counter", "compare: ratios to continuous neighbours 106 and 158 across the counter change", "hourly: near-identical profiles confirmed the direction mapping and that the new counter reads comparably", "raw: warning statuses and load dates"],
+    "not_useful": ["spikes: only single-slot 20-30 bike blips, all plausible riding", "events: nothing relevant to this site"],
+    "improve": ["channels: the list columns are truncated in the printout; an option to explode records into columns would show duplicate pairs directly", "compare: flag neighbours that themselves change counter within the range (541, 538, 561 all did here)"],
+    "add": ["a tool comparing a site's level before and after a counter replacement against neighbours with continuous counters, same season, giving a single ratio change"]
+  },
+  "summary": "Site 550 (George St, Waterloo) has a long Ecocounter record (2016-2025) and a Metrocount replacement from October 2025. The Ecocounter record has about 40 days where every record was published twice (fixed by drop_duplicates) and five multi-hour to six-week outages with all-zero records while neighbours counted normally (set missing). The replacement counter's hourly profiles and ratios to continuous neighbours match the old one, so each direction is joined into one series."
+}

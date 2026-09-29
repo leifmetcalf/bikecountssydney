@@ -1,0 +1,72 @@
+{
+  "group": "G0428",
+  "decisions": [
+    {"action": "missing", "factor": null, "SITE_SK": 428, "DIRECTION_SK": null, "start": "2024-03-25 00:00", "end": "2024-03-25 16:45", "confidence": "medium",
+     "diagnosis": "Commissioning day: the whole camera reported 0 until 16:45 on its first day, so riders before it started counting cannot be recovered.",
+     "evidence": "zeros(counter=True): all 8 directions 0 from 2024-03-25 00:00 to 16:45 (11 daytime hours, usual 310 bikes); normal counts from then on."},
+    {"action": "missing", "factor": null, "SITE_SK": 429, "DIRECTION_SK": null, "start": "2024-03-25 00:00", "end": "2024-03-25 16:45", "confidence": "medium",
+     "diagnosis": "Commissioning day: the whole camera reported 0 until 16:45 on its first day, so riders before it started counting cannot be recovered.",
+     "evidence": "zeros(counter=True): all 8 directions 0 from 2024-03-25 00:00 to 16:45 (usual 310 bikes camera-wide)."},
+    {"action": "missing", "factor": null, "SITE_SK": 430, "DIRECTION_SK": null, "start": "2024-03-25 00:00", "end": "2024-03-25 16:45", "confidence": "medium",
+     "diagnosis": "Commissioning day: the whole camera reported 0 until 16:45 on its first day, so riders before it started counting cannot be recovered.",
+     "evidence": "zeros(counter=True): all 8 directions 0 from 2024-03-25 00:00 to 16:45 (usual 310 bikes camera-wide)."},
+    {"action": "missing", "factor": null, "SITE_SK": 431, "DIRECTION_SK": null, "start": "2024-03-25 00:00", "end": "2024-03-25 16:45", "confidence": "medium",
+     "diagnosis": "Commissioning day: the whole camera reported 0 until 16:45 on its first day, so riders before it started counting cannot be recovered.",
+     "evidence": "zeros(counter=True): all 8 directions 0 from 2024-03-25 00:00 to 16:45 (usual 310 bikes camera-wide)."},
+    {"action": "missing", "factor": null, "SITE_SK": 428, "DIRECTION_SK": null, "start": "2024-06-13 12:00", "end": "2024-08-29 10:00", "confidence": "high",
+     "diagnosis": "Camera outage: every zone of counter 312 reported 0 (flagged warning) for 11 weeks while riders passed, so the counts cannot be recovered.",
+     "evidence": "zeros(counter=True): 1846 h of 0 across all 8 directions, usual 36053 bikes; 1348 was ~90/day before and ~60-100/day after; raw status 'warning'."},
+    {"action": "missing", "factor": null, "SITE_SK": 429, "DIRECTION_SK": null, "start": "2024-06-13 12:00", "end": "2024-08-29 10:00", "confidence": "high",
+     "diagnosis": "Camera outage: every zone of counter 312 reported 0 (flagged warning) for 11 weeks while riders passed, so the counts cannot be recovered.",
+     "evidence": "zeros(counter=True): 1846 h of 0 across all 8 directions, usual 36053 bikes; raw status 'warning'."},
+    {"action": "missing", "factor": null, "SITE_SK": 430, "DIRECTION_SK": null, "start": "2024-06-13 12:00", "end": "2024-08-29 10:00", "confidence": "high",
+     "diagnosis": "Camera outage: every zone of counter 312 reported 0 (flagged warning) for 11 weeks while riders passed, so the counts cannot be recovered.",
+     "evidence": "zeros(counter=True): 1846 h of 0 across all 8 directions, usual 36053 bikes; raw status 'warning'."},
+    {"action": "missing", "factor": null, "SITE_SK": 431, "DIRECTION_SK": null, "start": "2024-06-13 12:00", "end": "2024-08-29 10:00", "confidence": "high",
+     "diagnosis": "Camera outage: every zone of counter 312 reported 0 (flagged warning) for 11 weeks while riders passed, so the counts cannot be recovered.",
+     "evidence": "zeros(counter=True): 1846 h of 0 across all 8 directions, usual 36053 bikes; raw status 'warning'."},
+    {"action": "zero_fill", "factor": null, "SITE_SK": 430, "DIRECTION_SK": null, "start": "2024-03-25", "end": null, "confidence": "high",
+     "diagnosis": "The camera feed leaves out zero slots for this low-volume zone on some days, publishing only the slots with bikes.",
+     "evidence": "Days with 1-5 slots, every one non-zero (e.g. 1223 on 2025-11-26: 5 slots, 7 bikes; 1215 on 2026-05-28: 1 slot) while the other zones of the camera publish 96 slots."},
+    {"action": "zero_fill", "factor": null, "SITE_SK": 431, "DIRECTION_SK": null, "start": "2024-03-25", "end": null, "confidence": "high",
+     "diagnosis": "The camera feed leaves out zero slots for these crossing zones, publishing only the slots with bikes (1410 from mid-2025 is mostly absent).",
+     "evidence": "1410: complete days until 2025-06, then only 5-24 complete days a month and 25 partial days averaging 1.1 slots, all non-zero (2025-11-05: one slot 09:00 with 1 bike); absent_zeros flags 1410 2025-11-03..09; 1375 has 4 such days."},
+    {"action": "missing", "factor": null, "SITE_SK": 430, "DIRECTION_SK": null, "start": "2025-12-20", "end": "2025-12-20", "confidence": "high",
+     "diagnosis": "Phantom detections in this zone only: hundreds of 'bikes' per 15 minutes all day on a path that carries about 10 a day, with no matching riders in the neighbouring zones, so the real handful of bikes cannot be separated out.",
+     "evidence": "1223: 31189 bikes (500-1187 per slot 05:00-13:30), 1215: 1338, against ~10/day each normally; 428/429 normal (123/85/20/183); IN/OUT balance broken (IN 1338 vs OUT 31189 at this site)."},
+    {"action": "missing", "factor": null, "SITE_SK": 430, "DIRECTION_SK": null, "start": "2025-12-27", "end": "2025-12-31", "confidence": "high",
+     "diagnosis": "Phantom detections in this zone only: thousands of 'bikes' a day in bursts of up to 800 per 15 minutes, with the neighbouring zones at their usual levels, so the real few bikes cannot be recovered.",
+     "evidence": "1215/1223 daily: 12-27 2893/2285, 12-28 2675/2118, 12-29 251/3955, 12-30 4865/4462, 12-31 1252/2866 vs ~10-20 normally; e.g. 12-27 19:30 1215=691, 1223=1194 while 1247/1253/1348 had 0-2."},
+    {"action": "uncertain", "factor": null, "SITE_SK": 430, "DIRECTION_SK": null, "start": "2025-11-07", "end": "2026-01-02", "confidence": "low",
+     "diagnosis": "On several other days this zone has short bursts of tens of bikes not seen in the neighbouring zones, possibly the same phantom detections at a smaller scale or real groups; the evidence does not settle it.",
+     "evidence": "Day totals 1215/1223: 11-07 103/48 (83 in 11:45-12:15), 11-20 88/70 (16:00-18:00), 12-11 180/126 (51/36 at 14:00), 12-23 246/167 (single slots of 29-41), 01-02 56/163 (96 at 15:30); 428/429 unremarkable at those times."}
+  ],
+  "series": [
+    {"SITE_SK": 428, "name": "Crossing eastbound (OUT, citybound)", "confidence": "high", "parts": [{"COUNTER_SK": 312, "DIRECTION_SK": 1247, "start": null, "end": null}], "evidence": "Only counter at the site; one direction per series."},
+    {"SITE_SK": 428, "name": "Crossing westbound (IN)", "confidence": "high", "parts": [{"COUNTER_SK": 312, "DIRECTION_SK": 1334, "start": null, "end": null}], "evidence": "Only counter at the site; one direction per series."},
+    {"SITE_SK": 429, "name": "West path N of crossing southbound (OUT)", "confidence": "high", "parts": [{"COUNTER_SK": 312, "DIRECTION_SK": 1253, "start": null, "end": null}], "evidence": "Only counter at the site; one direction per series."},
+    {"SITE_SK": 429, "name": "West path N of crossing northbound (IN)", "confidence": "high", "parts": [{"COUNTER_SK": 312, "DIRECTION_SK": 1348, "start": null, "end": null}], "evidence": "Only counter at the site; one direction per series."},
+    {"SITE_SK": 430, "name": "West path S of crossing southbound (IN)", "confidence": "medium", "parts": [{"COUNTER_SK": 312, "DIRECTION_SK": 1215, "start": null, "end": null}], "evidence": "Only counter at the site. Level stepped from ~5 to ~50/day on 2026-07-28 together with 1253 (130->220) and 1223, with camera IN/OUT still balanced (393/404), so read as a real route change rather than a zone reconfiguration; kept as one series."},
+    {"SITE_SK": 430, "name": "West path S of crossing northbound (OUT)", "confidence": "medium", "parts": [{"COUNTER_SK": 312, "DIRECTION_SK": 1223, "start": null, "end": null}], "evidence": "Only counter at the site; same 2026-07-28 step as 1215, judged real."},
+    {"SITE_SK": 431, "name": "Road northbound", "confidence": "high", "parts": [{"COUNTER_SK": 312, "DIRECTION_SK": 1375, "start": null, "end": null}], "evidence": "Only counter at the site; one direction per series."},
+    {"SITE_SK": 431, "name": "Road southbound", "confidence": "high", "parts": [{"COUNTER_SK": 312, "DIRECTION_SK": 1410, "start": null, "end": null}], "evidence": "Only counter at the site; one direction per series."}
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview (pivoted): showed the Jul-Aug 2024 zero months, the Dec 2025 blow-up at site 430 and the falling complete-day count of 1410",
+      "zeros(counter=True): pinned the 2024-06-13..08-29 outage and commissioning-day zeros, and showed short night outages coincide with heavy rain",
+      "spikes: listed every phantom burst at 430 and the 2026-04-11 event at 429",
+      "slots pivoted across all directions: showed the 430 bursts had no counterpart in neighbouring zones",
+      "counter_days: IN/OUT balance around the 2026-07-28 level step",
+      "weather: explained overnight zero stretches as heavy rain"
+    ],
+    "not_useful": ["duplicates/doubled: nothing to find for a single-record camera", "events: nothing relevant to Pyrmont"],
+    "improve": [
+      "daily: the count column is called 'count' while wide output and docs suggest 'total'; consistent naming would help",
+      "zeros(counter=True): could flag which stretches coincide with heavy rain from weather()"
+    ],
+    "add": ["a per-camera view that shows each zone's slot count against the sum of the other zones, to flag zone-only bursts directly"]
+  },
+  "summary": "Camera 312 at the Pyrmont Bridge Rd ramp to Anzac Bridge covers four zones; it was dead for 11 weeks (2024-06-13 to 2024-08-29) and its first morning, both set missing. Zone 430 (west path south of the crossing, ~10 bikes/day) had phantom detections of thousands of bikes on 2025-12-20 and 2025-12-27..31, set missing, with smaller unexplained bursts marked uncertain. The feed drops zero slots for zones 430 and 431, so they are zero-filled; the 2026-07-28 level step at 430/429 is kept as a real change."
+}

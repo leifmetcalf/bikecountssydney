@@ -1,0 +1,161 @@
+{
+  "group": "G0091",
+  "decisions": [
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2012-09-20 00:00",
+      "end": "2012-09-20 14:15",
+      "confidence": "medium",
+      "diagnosis": "Installation day: the counter reported 0 until it started recording at about 14:30, so those hours were not counted.",
+      "evidence": "First day of data; 14.5 h of zeros from midnight incl. 8.5 daytime hours (usual 17 bikes), normal counts after."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2014-10-31",
+      "end": "2014-11-06",
+      "confidence": "high",
+      "diagnosis": "Both this counter and the adjacent site 92 counter reported 0 for seven full days in fine weather, so neither was counting; the counts cannot be recovered.",
+      "evidence": "177 h counter-wide zeros 2014-10-30 20:00 to 2014-11-07 05:00 (usual ~197 bikes); site 92 also 0 on the same days; 0 mm rain, 21-30 C."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2017-02-01",
+      "end": "2017-02-03 11:45",
+      "confidence": "high",
+      "diagnosis": "The counter recorded only in short windows starting around Friday noon (consistent with a failing power supply serviced weekly, shared with the adjacent counter at site 92) and reported 0 the rest of the time, so the true counts are not in the data.",
+      "evidence": "Wed-Thu 2017-02-01/02 all 0 while site 92 had 272/301 bikes; recording resumed Fri 2017-02-03 12:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2017-02-07",
+      "end": "2017-02-10",
+      "confidence": "high",
+      "diagnosis": "The counter recorded only in short windows starting around Friday noon (consistent with a failing power supply serviced weekly, shared with the adjacent counter at site 92) and reported 0 the rest of the time, so the true counts are not in the data.",
+      "evidence": "Recording stopped 2017-02-07 ~04:00; 0-1 bikes/day Tue-Fri while site 92 had 150-330/day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2017-02-13",
+      "end": "2018-12-28 11:45",
+      "confidence": "high",
+      "diagnosis": "The counter recorded only in short windows starting around Friday noon (consistent with a failing power supply serviced weekly, shared with the adjacent counter at site 92) and reported 0 the rest of the time, so the true counts are not in the data. TfNSW published zeros for the unrecorded hours.",
+      "evidence": "From 2017-02-13 to 2018-12-28, 847 of 852 bikes fell on Fridays between 12:00 and 23:00 and every other day was 0; weekly totals 0-18 vs 120-220 before; site 92 (10 m away) shows the same Friday-only pattern from March 2017. Normal recording resumed 2018-12-28/29."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2019-01-06",
+      "end": "2019-01-18 11:45",
+      "confidence": "high",
+      "diagnosis": "The counter recorded only in short windows starting around Friday noon (consistent with a failing power supply serviced weekly, shared with the adjacent counter at site 92) and reported 0 the rest of the time, so the true counts are not in the data.",
+      "evidence": "2019-01-06 to 01-17 all 0 except a Friday 2019-01-11 12:00-17:00 window (14 bikes); normal recording from Fri 2019-01-18 12:15 on (20-50 bikes/day)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2019-02-20 16:45",
+      "end": "2019-04-05 11:45",
+      "confidence": "high",
+      "diagnosis": "The counter recorded only in short windows starting around Friday noon (consistent with a failing power supply serviced weekly, shared with the adjacent counter at site 92) and reported 0 the rest of the time, so the true counts are not in the data.",
+      "evidence": "Recording stopped 2019-02-20 ~16:30; until 2019-04-05 only Friday 12:00-18:00 windows had counts (4-16 bikes) and all other days were 0; normal from 2019-04-05 13:45 (26-52 bikes/day)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2019-07-23 09:00",
+      "end": "2019-07-26 12:45",
+      "confidence": "medium",
+      "diagnosis": "The counter reported 0 in both directions for three dry weekdays at a site that otherwise records 20-35 bikes a day, so it was not counting; the counts cannot be recovered.",
+      "evidence": "76 h counter-wide zeros incl. 46 daytime hours (usual 85 bikes); 0 mm rain on 07-24; days either side 24-33 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2019-08-09 08:45",
+      "end": "2019-08-13 11:45",
+      "confidence": "medium",
+      "diagnosis": "The counter reported 0 in both directions for four dry days, so it was not counting; the counts cannot be recovered.",
+      "evidence": "99 h counter-wide zeros incl. 59 daytime hours (usual 120 bikes); 0.2 mm rain; days either side 20-38 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2020-03-20 11:30",
+      "end": "2020-03-23 11:30",
+      "confidence": "medium",
+      "diagnosis": "The counter reported 0 across a dry weekend while the adjacent site 92 kept counting, so it was not counting; the counts cannot be recovered.",
+      "evidence": "72 h counter-wide zeros (usual 90 bikes); site 92 had 117 and 147 bikes on 03-21/22; 0 mm rain."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2021-03-19 07:45",
+      "end": "2021-03-26 11:30",
+      "confidence": "medium",
+      "diagnosis": "This counter and the adjacent site 92 counter both reported 0 for a week, including the dry 24-25 March when site 121 had about 600 bikes a day, so they were not counting (likely storm/flood damage); the counts cannot be recovered.",
+      "evidence": "172 h counter-wide zeros (usual 204 bikes); site 92 also 0 03-20 to 03-25; site 121 642 and 596 bikes on 03-24/25 with 0-2 mm rain."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 91,
+      "DIRECTION_SK": null,
+      "start": "2021-10-08 11:30",
+      "end": "2021-10-08 23:45",
+      "confidence": "medium",
+      "diagnosis": "The counter stopped counting at about 11:30 on its last day before an eight-month gap in the data, so the zeros after that are not real counts.",
+      "evidence": "Zeros from 11:30 to the end of 2021-10-08 (usual 13 bikes), then no data until 2022-06-04."
+    }
+  ],
+  "series": [],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview/monthly: showed the near-zero 2017-2018 block and the 2025 surges at a glance",
+      "compare(by=day) with site 92 and 121: showed 91 rises exactly when 92 (main path) is closed (Jan-Mar 2025, Aug-Sep 2025), i.e. a real detour, and confirmed shared zero outages",
+      "slots grouped by weekday/hour: revealed the Friday-noon-only recording pattern, the key evidence for the 2017-2019 fault",
+      "zeros(counter=True, min_hours=48): listed the weekly zero stretches and short outages",
+      "weather: separated rain-day zeros (real) from dry-day outages"
+    ],
+    "not_useful": [
+      "doubled/duplicates: nothing found for a single-channel low-volume piezo",
+      "spikes: only flagged four single-slot 05:30 bursts that look like a real group ride"
+    ],
+    "improve": [
+      "zeros: at a low-volume site it lists hundreds of normal overnight stretches; a filter on usual_bikes or daytime_hours as a parameter would help",
+      "compare: allow by='month' to avoid aggregating weekly output by hand"
+    ],
+    "add": [
+      "a weekday x hour heatmap of non-zero slots per period, to spot recording-window faults like the Friday-only pattern",
+      "a tool listing each day's first and last non-zero slot, to find when a counter stopped or started recording"
+    ]
+  },
+  "summary": "Single piezo counter on a low-volume offramp path (about 20-30 bikes/day). From Feb 2017 to Apr 2019 it recorded only in short windows from around Friday noon and published zeros otherwise (the adjacent site 92 shows the same pattern), so those periods are set missing, as are several multi-day dry-weather outages. The big rises in Jan-Mar 2025 and Aug-Sep 2025 are real detours while the main path at site 92 was closed, and rain-day zeros are kept."
+}

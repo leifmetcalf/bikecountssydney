@@ -1,0 +1,64 @@
+{
+  "group": "G0542",
+  "decisions": [
+    {"action": "missing", "factor": null, "SITE_SK": 542, "DIRECTION_SK": null,
+     "start": "2013-08-18", "end": "2013-08-18", "confidence": "medium",
+     "diagnosis": "Counter 231 reported 'good' zeros in every slot of a Sunday in both directions while riders passed (days either side are normal), so the true counts were never recorded and cannot be recovered.",
+     "evidence": "2013-08-17 584/497, 2013-08-18 0/0 (96 slots, status good), 2013-08-19 770/693; zero run 00:00 Aug 18 to ~05:00 Aug 19."},
+    {"action": "missing", "factor": null, "SITE_SK": 542, "DIRECTION_SK": null,
+     "start": "2014-12-12 00:00", "end": "2016-04-30 13:30", "confidence": "high",
+     "diagnosis": "Counter 231 failed and reported 'good' zeros in both directions for 16 months on a busy commuter cycleway; nothing was counted so the period cannot be recovered.",
+     "evidence": "Normal days to 2014-12-11 (443/441); every slot 0 from 2014-12-11 23:30 to 2016-04-30 13:30; counts resume Saturday afternoon 2016-04-30 and 848/847 on Monday 2016-05-02."},
+    {"action": "missing", "factor": null, "SITE_SK": 542, "DIRECTION_SK": null,
+     "start": "2021-03-15 03:00", "end": "2022-01-22 05:00", "confidence": "high",
+     "diagnosis": "Counter 231 failed and reported 'good' zeros in both directions for ten months while neighbouring counters kept counting, so the counts cannot be recovered.",
+     "evidence": "2021-03-15 Monday totals 1/5 (zero from ~02:45/03:30) while 544/554/551 had 1824/1583/1353; zero until 2022-01-22 05:00, then 803/678 that day."},
+    {"action": "missing", "factor": null, "SITE_SK": 542, "DIRECTION_SK": null,
+     "start": "2023-06-30", "end": "2023-07-02", "confidence": "high",
+     "diagnosis": "Feed outage: all records are 'warning' zeros and every nearby site is zero on the same three days, so no counts exist to recover.",
+     "evidence": "0/0 on 2023-06-30..07-02 (2304 warning records) vs 849/721 on 06-29 and 738/695 on 07-03; 545 also 0 those days only."},
+    {"action": "missing", "factor": null, "SITE_SK": 542, "DIRECTION_SK": null,
+     "start": "2025-10-23", "end": "2025-10-23", "confidence": "high",
+     "diagnosis": "Feed outage for counter 355: a full weekday of 'warning' zeros, zero at every nearby site too, so no counts exist to recover.",
+     "evidence": "1747/1748: 1260/1087 on 10-22, 0/0 on 10-23 (192 warning records), 1270/1087 on 10-24; sites 543-546 also 0 that day."},
+    {"action": "drop_duplicates", "factor": null, "SITE_SK": 542, "DIRECTION_SK": null,
+     "start": "2022-04-01", "end": "2024-11-30", "confidence": "high",
+     "diagnosis": "On about 40 whole days counter 231's four channel records were loaded twice (8 records per slot, each an exact copy), doubling those days' totals.",
+     "evidence": "duplicates(): every slot matched on each flagged day (e.g. 2024-03-24/25 192/192 slots, +1809 bikes on 322); those days have 0 odd slots and daily totals ~2x neighbours (322: 1618, 2000 vs ~1000-1100); records_per_slot 8.0 vs 4.0."}
+  ],
+  "series": [
+    {"SITE_SK": 542, "name": "Northbound (citybound)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 231, "DIRECTION_SK": 322, "start": null, "end": null},
+               {"COUNTER_SK": 355, "DIRECTION_SK": 1747, "start": null, "end": null}],
+     "evidence": "Same site, both piezo, no overlap (231 ends 2025-04-14, 355 starts 2025-10-11); 322 and 1747 both citybound with the same AM-peak profile (8am 174 vs 192/h, 5pm 76 vs 85/h) and the same share of the site (~54%); the ~45% year-on-year rise Dec-Jan matches the continuous Moore Park Rd tube (168: +37%/+45%), so the new counter reads comparably."},
+    {"SITE_SK": 542, "name": "Southbound (outbound)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 231, "DIRECTION_SK": 323, "start": null, "end": null},
+               {"COUNTER_SK": 355, "DIRECTION_SK": 1748, "start": null, "end": null}],
+     "evidence": "323 and 1748 both non-citybound with the same PM-peak profile (5pm 151 vs 166/h, 8am 51 vs 55/h); direction ratio 322/323 ~1.19 before and 1747/1748 ~1.18 after; level change matches area-wide growth at the independent site 168."}
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: month grid made the two long zero outages and the months with records_per_slot > 4 obvious at once",
+      "duplicates/doubled: pinpointed every duplicated-load day, with matched slots and repeated bikes",
+      "channels: showed each record repeated pairwise (e.g. [2,2,7,7,0,0,0,0]), confirming exact duplicates",
+      "zeros: exact start/end of the outage runs",
+      "hourly: matched directions of old and new counters by AM/PM peak",
+      "neighbours + daily/monthly on neighbour sites: separated network-wide outages and rain days from counter faults, and a continuous tube site checked counter comparability"
+    ],
+    "not_useful": [
+      "spikes: nothing flagged here",
+      "events: no entries for the dates in question"
+    ],
+    "improve": [
+      "weekly/daily: an option to return a wide table (one column per direction) would save pivots",
+      "monthly: for multi-counter sites include a per-site total column",
+      "channels: column names differ from slots (no time/count), making joins awkward"
+    ],
+    "add": [
+      "a multi-site daily comparison tool: daily totals for a site and its neighbours side by side, flagging days where only this site is zero",
+      "a counter-swap comparison: same-season year-on-year ratio for the site vs. nearby continuous counters"
+    ]
+  },
+  "summary": "Bourke St cycleway at Taylor Sq, counted by Ecocounter 231 (2013-2025) and Metrocount 355 (from Oct 2025). Counter 231 reported zeros during two long failures (Dec 2014-Apr 2016, Mar 2021-Jan 2022), plus a single dead Sunday, and there were network-wide feed outages in 2023 and 2025; all of these are set missing. About 40 days in 2022-2024 were loaded twice and need their duplicates dropped. The old and new counters' matching directions are joined into northbound and southbound series."
+}

@@ -1,0 +1,560 @@
+{
+  "group": "G0389",
+  "decisions": [
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 389,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From late June 2025 the feed stops publishing zero slots and zero-total days for this camera's zones, while the camera itself reports every day.",
+      "evidence": "Up to 2025-06-24 every direction has 96 slots every day, including 10-23 zero-total days a month on quiet zones; after it no zero-total day is published (one exception), quiet zones drop to 3-15 days a month, and from Oct 2025 days with only 1-18 non-zero slots appear; busy zones of the same camera report every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 390,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots and zero-total days from late June 2025 (same camera-wide change).",
+      "evidence": "759 has 23-31 days a month after June 2025 with 0 zero-total days, versus 1-2 zero days a month before; partial days of a few slots from Oct 2025."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 391,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots and zero-total days from late June 2025.",
+      "evidence": "832/862 had 4-17 zero days a month to June 2025; afterwards 2-25 published days a month, none with a zero total."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 392,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots and zero-total days from late June 2025.",
+      "evidence": "704/783 had 9-20 zero days a month; afterwards 8-19 published days a month, none zero."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 393,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots and zero-total days from late June 2025.",
+      "evidence": "854/902 had 10-20 zero days a month; afterwards 11-26 published days a month, none zero, with partial days from Oct 2025."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 394,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots from late June 2025.",
+      "evidence": "894 missing single days (2025-07-07, 2025-08-09, 2026-08-12) and some partial days while the camera reported."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 395,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots and zero-total days from late June 2025.",
+      "evidence": "748/811 had 9-23 zero days a month; afterwards 2-20 published days a month, many with only a few slots."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 396,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots from late June 2025.",
+      "evidence": "895 has occasional partial days (e.g. Jan-Mar 2026); 786 complete; same camera-wide feed change."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 397,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots from late June 2025.",
+      "evidence": "805/877 missing single days (2025-07-01, 2025-09-01, 2026-07-06, 2026-08-17) and occasional partial days."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 398,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots from late June 2025.",
+      "evidence": "710 missing 2026-08-17, 806 has partial days in Jul 2026; same camera-wide feed change."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 399,
+      "DIRECTION_SK": null,
+      "start": "2025-06-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Feed omits zero slots and zero-total days from late June 2025.",
+      "evidence": "743 had 8-16 zero days a month to June 2025, afterwards 7-27 published days a month, none zero; 887 missing 7 single days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 389,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every one of the 22 zones reports 0 (flagged warning on whole days) for 13 days; the bikes that passed were not counted and cannot be recovered.",
+      "evidence": "Camera-wide zero from 2023-09-27 08:45 to 2023-10-10 09:15 (1251 slots) against a 29-day median of 60-70 bikes a day; counts resume at 9-11 an hour."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 390,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots; median camera total 60-70/day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 391,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 392,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 393,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 394,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots; 717 normally ~13/day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 395,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 396,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots; 786 normally ~30/day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 397,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 398,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 399,
+      "DIRECTION_SK": null,
+      "start": "2023-09-27 08:45",
+      "end": "2023-10-10 09:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 1251 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 389,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera outage: all zones report 0 (whole days flagged warning) for 8.5 days; counts cannot be recovered.",
+      "evidence": "Camera-wide zero from 2023-11-20 19:45 to 2023-11-29 17:00 against a median ~100 bikes/day; counts resume 17:15 on 11-29."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 390,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0, median camera total ~100/day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 391,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 392,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 393,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 394,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 395,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 396,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 397,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 398,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 399,
+      "DIRECTION_SK": null,
+      "start": "2023-11-21 00:00",
+      "end": "2023-11-29 17:00",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 389,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera outage: all zones report 0 (whole days flagged warning) for 5 days; counts cannot be recovered.",
+      "evidence": "Camera-wide zero from 2024-06-07 08:45 to 2024-06-12 14:15 (503 slots) against a median ~110 bikes/day; 15 bikes in the hour after it resumes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 390,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 391,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 392,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 393,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 394,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 395,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 396,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 397,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 398,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 399,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 08:45",
+      "end": "2024-06-12 14:15",
+      "confidence": "high",
+      "diagnosis": "Camera-wide outage reported as zeros; counts cannot be recovered.",
+      "evidence": "All zones 0 for 503 slots."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 389,
+      "DIRECTION_SK": null,
+      "start": "2023-11-10 00:00",
+      "end": "2023-11-10 17:00",
+      "confidence": "low",
+      "diagnosis": "All 22 zones report 0 from 21:30 on 11-09 to 17:00 on Friday 11-10, which may be a short camera outage (the camera had multi-day outages either side) or a very wet day; it applies to every site of the camera (389-399).",
+      "evidence": "Camera total 22 on 2023-11-10 against a median of 105, all of it after 17:15 (3-4 an hour in the evening); the day before had 29 in the 08:00 hour."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 396,
+      "DIRECTION_SK": 786,
+      "start": "2024-06-14 10:00",
+      "end": "2024-06-14 12:30",
+      "confidence": "medium",
+      "diagnosis": "About 450 bikes are counted in this one footpath zone in 2.5 hours with nothing entering or leaving through any other zone, so the same objects were counted over and over inside the zone (tracking error or activity confined to the footpath), not bikes passing; the true count is unrecoverable.",
+      "evidence": "786 slots 16,1,0,8,55,44,76,25,44,141,20 (daily 481 against a median of 26); the other 21 zones together have under 20 bikes in the same window; no matching OUT or crossing counts."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 396,
+      "DIRECTION_SK": 786,
+      "start": "2024-06-17 09:45",
+      "end": "2024-06-17 12:15",
+      "confidence": "medium",
+      "diagnosis": "Same single-zone burst as 2024-06-14: about 290 bikes counted in this zone alone with no matching movement in any other zone, so they are repeated counts inside the zone, not riders passing; unrecoverable.",
+      "evidence": "786 hourly 11, 44, 201, 28 from 09:00-12:59 (daily 307 against a median of 32); all other zones together 1, 1, 4, 1 in those hours."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 390,
+      "DIRECTION_SK": null,
+      "start": "2024-11-04",
+      "end": "2026-09-26",
+      "confidence": "low",
+      "diagnosis": "The Lawrence Hargrave Dr road-lane zones (390, and 399/887 to a lesser degree) step up 3-5x from November 2024 and stay up through two winters, which may be a zone or classification change after the camera was reconfigured, or a real shift of riders onto the road; there is no evidence of a fault mechanism, so the counts stand.",
+      "evidence": "759 per day 1-4 (Jul 2023-Oct 2024) then 6-21; 939 3-9 then 14-36 (winter 2025 still 14-17 against 3-5 in winter 2024); 396/786 over the same period stays flat at 20-50."
+    }
+  ],
+  "series": [],
+  "proposals": [
+    "Make zero_fill apply to whole absent days for a camera direction whenever any other direction of the same camera published that day. After 2025-06-24 this feed leaves out entire zero-total days for quiet zones (e.g. 389/735 has 3-17 days a month instead of 28-31), as well as zero slots within days. If zero_fill only fills slots on days that direction published, those weeks would stay short or incomplete even though the camera was running (busy zones 717/786/806 report every day)."
+  ],
+  "tools": {
+    "useful": [
+      "overview: the monthly complete_days pivot showed at once when the feed started leaving out zeros (mid-2025) and which zones it affected",
+      "daily: zero-day and slots-per-day counts per month showed zero-total days vanish after 2025-06-24 while other zones of the camera kept reporting",
+      "slots: summing all zones per slot located the camera-wide outages to the slot, and showed the single-zone bursts on 786 in 2024-06",
+      "raw: the Status column confirmed the outage days were flagged warning on every zone",
+      "absent_zeros: confirmed the zero omission, though it only flags weeks with not a single zero"
+    ],
+    "not_useful": [
+      "duplicates, doubled, spikes: nothing found; spikes misses the 786 bursts because its 200-per-slot floor is far above what a low-volume camera does",
+      "zeros: on a camera with 1-2 bikes a day per zone, per-direction zero stretches are mostly real and swamp the output; what matters is camera-wide zero stretches"
+    ],
+    "improve": [
+      "zeros: add a camera-wide mode that reports stretches where every zone of a counter is 0 at once",
+      "spikes: scale min_count to the direction's level, or add a mode that flags a zone whose daily total is many times its median while the rest of the camera is normal",
+      "absent_zeros: also report direction-days that are missing entirely while other directions of the same counter published"
+    ],
+    "add": [
+      "camera balance: per day, IN versus OUT (and crossing) totals across all zones of a camera, to show counts that enter a zone without leaving through any other",
+      "camera coverage: per day, how many of the counter's directions published and how many slots, to separate feed omissions from outages"
+    ]
+  },
+  "summary": "One VivaCity-style camera (counter 286) watches 11 zones at Lawrence Hargrave Dr / Rawson St in Coledale, most carrying only a few bikes a day. The feed has three camera-wide outages reported as zeros (2023-09-27 to 10-10, 2023-11-21 to 11-29 and 2024-06-07 to 06-12), which I set missing. From 2025-06-25 it leaves out zero slots and whole zero days (zero_fill), and two single-zone bursts on 396/786 in June 2024 count the same objects many times inside one zone and are set missing; the Gong Ride days (2024-11-03, 2025-11-02) and the monthly Sunday group rides are real."
+}

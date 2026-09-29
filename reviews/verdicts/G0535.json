@@ -1,0 +1,15 @@
+{
+  "group": "G0535",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 535, "DIRECTION_SK": null,
+      "start": "2024-11-14", "end": "2024-11-14", "confidence": "high",
+      "diagnosis": "First day of the record: both directions are zero from 00:00 to 14:00 and counts only begin mid-afternoon, so the camera was commissioned during the day and the morning zeros are padding, not observed zeros.",
+      "evidence": "Both directions 0 in every slot 00:00-13:59 including the 06:00-09:00 peak (usual ~5-6 bikes/h combined); first counts at 14:00; day totals 31/11 against a partial-day pattern."},
+    {"action": "missing", "SITE_SK": 535, "DIRECTION_SK": null,
+      "start": "2025-01-30", "end": "2025-01-30", "confidence": "high",
+      "diagnosis": "Last day of the record: counts stop at 10:00 in both directions and every slot to midnight is zero, so the camera stopped reporting mid-morning and the rest of the day is zero padding.",
+      "evidence": "Both directions 0 from 10:00 to 23:59 (13+ hours incl. the 19:00 peak, usually ~3.6-3.9/h per direction); ~70% of a normal day's ~50 bikes (~37 expected) fell in those zeros; next longest daytime all-zero run in the whole record is 8 h (partial first day, Christmas Day)."}
+  ],
+  "series": [],
+  "summary": "Single Secure Agility camera (counter 338) at Camden Valley Way SW of Narellan Rd, running only 2024-11-14 to 2025-01-30 with ~25-30 bikes/day per direction, one record per slot and no automatic fixes. The record is consistent throughout (Australia Day holiday evening peak and Christmas lows are real); only the partial first day (counting starts 14:00) and partial last day (counting stops 10:00) are set to missing. One counter, so each direction is its own series."
+}

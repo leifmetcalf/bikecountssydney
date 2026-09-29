@@ -1,0 +1,1166 @@
+{
+ "group": "G0464",
+ "decisions": [
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 464,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 464,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 464,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 464,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 465,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 465,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 465,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 465,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 466,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 467,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 467,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 467,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 467,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 468,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 468,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 468,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 468,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 469,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 469,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 469,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 469,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 470,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 470,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 470,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 470,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 471,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 471,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 471,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 471,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 473,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 473,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 473,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 473,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 474,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (from mid-2025 whole days, from Oct 2025 also zero slots within days), so absent slots are zeros.",
+   "evidence": "All partial days (e.g. 465, 466, 468 zones) publish only non-zero slots, never a published 0; missing whole days fall on low-volume zones (465 ~2/day) and rainy days while the other zones of counter 318 published; absent_zeros finds no week without zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 474,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25 00:00",
+   "end": "2024-03-25 16:45",
+   "confidence": "high",
+   "diagnosis": "Commissioning day: every zone of camera 318 reports 0 until 17:00 on its first day, so the camera was not yet counting; the riders passing cannot be recovered.",
+   "evidence": "Counter-wide zero stretch 2024-03-25 00:00-16:45 (11 daytime hours, usual ~290 bikes), then counts 2-16/hour at once from 17:00."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 474,
+   "DIRECTION_SK": null,
+   "start": "2024-09-27 18:15",
+   "end": "2024-10-04 13:00",
+   "confidence": "high",
+   "diagnosis": "Whole-camera outage: all 22 directions of counter 318 report 0 for almost seven days in dry weather, so the counts are lost and cannot be recovered.",
+   "evidence": "zeros(counter=True): 2024-09-27 18:15 to 2024-10-04 13:00, 163 h, 93 daytime hours, usual 3331 bikes; daily totals 0 on 2024-09-28..10-03 with rain 0-4 mm; counts resume at 13:15 on 10-04."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 474,
+   "DIRECTION_SK": null,
+   "start": "2024-03-25",
+   "end": "2024-11-06",
+   "confidence": "medium",
+   "diagnosis": "On 2024-11-07 the camera's counts roughly doubled in most zones within a day, together with the same vendor's camera 319 (Wattle St), which points at a detection/classification change rather than riding, so the early level may be an undercount (or the later an overcount).",
+   "evidence": "Counter 318 daily ~300 (Oct 2024) -> 640-700 from 2024-11-08; counter 319 ~300 -> 658-967 on 11-07/08; camera 281 (Swanson St) unchanged ~1800-2100; 473/1209 ~30 -> ~70/day, 464 ~5 -> ~20, 468 ~1 -> ~15. Series are split at this date."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2026-07-25",
+   "end": "2026-08-14",
+   "confidence": "medium",
+   "diagnosis": "Both road directions of Sydney Park Rd W recorded hundreds of extra 'bicycles' in a working-hours pattern that appear in no other zone of the intersection, i.e. objects misclassified as bikes (likely roadworks), and the real riders cannot be separated from them.",
+   "evidence": "472/1251 daily 266-744 on 07-25..07-31 and 85-360 to 08-14 vs 30-90 before and after; 1275 186-528 vs 50-110; weekly correlation of the two directions 0.75-0.85 vs 0.1-0.2 normally; no matching rise at 473/474/469/470; counter IN/OUT imbalance 675/918 on 07-29."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 472,
+   "DIRECTION_SK": null,
+   "start": "2026-08-15",
+   "end": "2026-08-30",
+   "confidence": "low",
+   "diagnosis": "Tail of the 2026 misclassification episode: 1251 stays somewhat high and 1275 low, and the two may still be contaminated.",
+   "evidence": "1251 43-95/day, 1275 11-43/day (usual 50-80); weekly ratio 1251/1275 about 2 vs 0.7-0.9 before and after; normal from 2026-08-31."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 473,
+   "DIRECTION_SK": 1209,
+   "start": "2026-07-25",
+   "end": "2026-08-28",
+   "confidence": "low",
+   "diagnosis": "Mitchell Rd outbound (NE) fell to a quarter of its usual level during the same episode that inflated 472, which may be a view obstruction by roadworks or a real detour; the data does not settle which.",
+   "evidence": "473/1209 ~15-30/day from 2026-07-25 to 08-28 vs 80-115 before and 70-100 after; other direction 1322 unchanged (~25-40)."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 464,
+   "name": "East (NONE) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1292,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 464,
+   "name": "East (NONE) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1292,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 464,
+   "name": "West (NONE) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1386,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 464,
+   "name": "West (NONE) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1386,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 465,
+   "name": "West (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1347,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 465,
+   "name": "West (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1347,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 465,
+   "name": "East (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1393,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 465,
+   "name": "East (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1393,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 466,
+   "name": "North East (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1290,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 466,
+   "name": "North East (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1290,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 466,
+   "name": "South West (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1354,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 466,
+   "name": "South West (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1354,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 467,
+   "name": "East (NONE) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1289,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 467,
+   "name": "East (NONE) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1289,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 467,
+   "name": "West (NONE) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1340,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 467,
+   "name": "West (NONE) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1340,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 468,
+   "name": "North East (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1328,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 468,
+   "name": "North East (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1328,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 468,
+   "name": "South West (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1359,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 468,
+   "name": "South West (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1359,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 469,
+   "name": "East (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1288,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 469,
+   "name": "East (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1288,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 469,
+   "name": "West (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1404,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 469,
+   "name": "West (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1404,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 470,
+   "name": "South (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1313,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 470,
+   "name": "South (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1313,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 470,
+   "name": "North (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1379,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 470,
+   "name": "North (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1379,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 471,
+   "name": "North (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1252,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 471,
+   "name": "North (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1252,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 471,
+   "name": "South (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1295,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 471,
+   "name": "South (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1295,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 472,
+   "name": "West (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1251,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 472,
+   "name": "West (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1251,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 472,
+   "name": "East (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1275,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 472,
+   "name": "East (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1275,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 473,
+   "name": "North East (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1209,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 473,
+   "name": "North East (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1209,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 473,
+   "name": "South West (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1322,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 473,
+   "name": "South West (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1322,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 474,
+   "name": "West (IN) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1206,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 474,
+   "name": "West (IN) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1206,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 474,
+   "name": "East (OUT) before 2024-11-07 detection change",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1270,
+     "start": null,
+     "end": "2024-11-06"
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  },
+  {
+   "SITE_SK": 474,
+   "name": "East (OUT) from 2024-11-07",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 318,
+     "DIRECTION_SK": 1270,
+     "start": "2024-11-07",
+     "end": null
+    }
+   ],
+   "evidence": "One camera (318) for the whole record; its level roughly doubled on 2024-11-07 in step with the same vendor's camera 319 while other cameras did not, so the two levels are kept as separate series."
+  }
+ ],
+ "proposals": [
+  "A zone-level 'phantom detection' fix: for camera zones where misclassified objects add counts in a working-hours pattern (472 in Jul-Aug 2026), estimate the true bikes from the zone's paired zones (e.g. IN/OUT flow conservation across the intersection) instead of setting the weeks missing; not available, so 472 is set missing."
+ ],
+ "tools": {
+  "useful": [
+   "overview: monthly per-day levels showed the Nov 2024 step, the 466 dead periods and the 472 July 2026 surge at a glance",
+   "counter_days: whole-camera zero days and the IN/OUT imbalance during the 472 surge",
+   "zeros(counter=True): pinpointed the Sep-Oct 2024 outage and the commissioning-day gap",
+   "neighbours(cameras=True) + counter_days on other cameras: showed camera 319 doubled the same day, identifying a vendor change",
+   "directions: correlation between 472's two directions jumped to 0.85 during the surge",
+   "hourly: working-hours shape of the 472 excess"
+  ],
+  "not_useful": [
+   "duplicates/doubled: nothing for this camera",
+   "zeros(min_hours=24): hundreds of rows for quiet zones, mostly real quiet periods"
+  ],
+  "improve": [
+   "zeros: rank by daytime usual bikes relative to the zone's own level in that month, not the whole-record average, to avoid flooding with quiet zones",
+   "daily/weekly wide: label columns with SITE_SK as well as DIRECTION_SK"
+  ],
+  "add": [
+   "a step detector across all counters of one vendor/technology on the same day (level changes shared by several counters point at software updates)",
+   "a camera flow-balance view per zone pair (IN into one approach vs OUT from the others) to spot phantom or missed detections"
+  ]
+ },
+ "summary": "Camera 318 at Sydney Park Rd & Mitchell Rd has one whole-camera outage (2024-09-27 to 10-04) and a commissioning-day gap, both set missing, and leaves out zero slots, which are filled. On 2024-11-07 its counts roughly doubled together with the same vendor's camera 319, so every direction is split into before/after series. In July-August 2026, Sydney Park Rd W (472) recorded hundreds of phantom bikes, set missing, while Mitchell Rd outbound (473/1209) dropped (left uncertain); the dead spells at 466 look like real path closures, with riders moving to 469."
+}

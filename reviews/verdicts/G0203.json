@@ -1,0 +1,22 @@
+{
+  "group": "G0203",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 203, "DIRECTION_SK": null, "start": "2021-08-23", "end": "2021-08-24", "confidence": "high",
+      "diagnosis": "zero_outage removed genuine zeros on a very low-riding (wet) day; the counter was working.",
+      "evidence": "2021-08-24 site total 5 bikes (both directions near zero together); neighbours on the same day: site 204 had 5 (vs 485 on 08-22), site 194 had 7 (vs 605)."},
+    {"action": "restore", "SITE_SK": 203, "DIRECTION_SK": null, "start": "2022-07-01", "end": "2022-07-05", "confidence": "high",
+      "diagnosis": "zero_outage removed genuine zeros during the early-July 2022 Sydney rain/flood days; riding collapsed at every nearby counter.",
+      "evidence": "Site 203 daily totals 2,1,0,2,4 for 1-5 July (vs 20-25 before); site 204 had 28,6,11,16,17 (vs ~125) and site 194 32,7,5,15,11 (vs ~200); recovery follows over 6-8 July at all three."},
+    {"action": "restore", "SITE_SK": 203, "DIRECTION_SK": 355, "start": "2023-01-06", "end": "2023-01-07", "confidence": "high",
+      "diagnosis": "zero_outage removed genuine zeros on a wet low-riding day; the other direction and neighbours dipped equally.",
+      "evidence": "2023-01-06: 354=3, 355=4 (usual ~15 each); site 204 had 23 (vs 118-140) and site 194 51 (vs 151-241)."},
+    {"action": "restore", "SITE_SK": 203, "DIRECTION_SK": 355, "start": "2023-04-01", "end": "2023-04-03", "confidence": "high",
+      "diagnosis": "zero_outage removed genuine zeros on a wet day; riding collapsed at all nearby counters.",
+      "evidence": "2023-04-02: 354=4, 355=0; site 204 had 20 (vs 146) and site 194 5 (vs 249)."},
+    {"action": "restore", "SITE_SK": 203, "DIRECTION_SK": 355, "start": "2024-04-05", "end": "2024-04-06", "confidence": "high",
+      "diagnosis": "zero_outage removed genuine zeros on the 5 April 2024 heavy-rain day.",
+      "evidence": "2024-04-05: 354=2, 355=1; site 204 had 13 (vs 75-167) and site 194 8 (vs 119-269)."}
+  ],
+  "series": [],
+  "summary": "Single piezo counter 242 (two directions) with a continuous, clean record from June 2021 to September 2026: one record per slot, no duplicates, halving or impossible counts, and the two directions track each other closely throughout. The only automatic changes are zero_outage fixes on five short periods, all of them wet days on which both directions and the adjacent counters 204 and 194 dropped to near zero together, so they are genuine low counts and are restored. The high 2021 levels (July-October lockdown) are real riding, and no series definition is needed."
+}

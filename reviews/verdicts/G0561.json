@@ -1,0 +1,141 @@
+{
+  "group": "G0561",
+  "decisions": [
+    {
+      "action": "drop_duplicates",
+      "factor": null,
+      "SITE_SK": 561,
+      "DIRECTION_SK": null,
+      "start": "2022-04-10",
+      "end": "2024-11-30",
+      "confidence": "high",
+      "diagnosis": "On 27 scattered one- and two-day runs the feed published counter 240's two channel records twice (4 records per slot instead of 2), doubling those days' totals.",
+      "evidence": "duplicates(): every extra record exactly repeats another in 96/96 (or 192/192) slots on each run, e.g. 2024-10-10 slot 33 records [0,0,2,2] vs normal [x,y]; doubled() level 1.2-2.5 on the same days; records_per_slot 2.06-2.52 in the affected months, 2.0 otherwise."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 561,
+      "DIRECTION_SK": null,
+      "start": "2022-04-20",
+      "end": "2022-05-31",
+      "confidence": "high",
+      "diagnosis": "Counter 240 stopped counting after 22:30 on 2022-04-19 and reported only 'warning' zeros for six weeks before going silent until July, so the riders who passed cannot be recovered.",
+      "evidence": "384 warning records per day, all 0, 2022-04-20..2022-05-31 in both directions; preceding days 90-140 bikes/day; no data at all in June 2022."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 561,
+      "DIRECTION_SK": null,
+      "start": "2023-07-01",
+      "end": "2023-07-02",
+      "confidence": "medium",
+      "diagnosis": "Whole-weekend zeros flagged 'warning' in both directions during a network-wide outage (about 40 sites flagged, neighbour 550 also at 0), so the feed lost the counts rather than riders being absent.",
+      "evidence": "768 warning records, all 0; adjacent weekends 148-162 bikes/day; network() 40 warning sites on 2023-07-01/02; 2023-06-30 and 07-03 normal (165, 119)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 561,
+      "DIRECTION_SK": null,
+      "start": "2026-01-29 20:00",
+      "end": "2026-02-16 19:45",
+      "confidence": "high",
+      "diagnosis": "Counter 371 had an outage: it flagged whole days 'warning', published only one direction on several days and nothing at all on four, and the near-zero counts on its other days cannot be recovered, so the riders who passed are lost.",
+      "evidence": "2026-01-29 20:00 to 02-16 19:45: 1780 all-warning 01-30..02-01, both directions all-warning 02-05, 1779 all-warning 02-12..15; no records at all 02-07..02-10; only one direction published 02-02 and 02-11..15; daily totals 0-12 against 156-330 either side, while neighbours 540/550/555/537 were steady (550 ~900 per weekday); counts resume abruptly at 20:00 on 02-16."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 561,
+      "DIRECTION_SK": null,
+      "start": "2026-07-01 19:15",
+      "end": "2026-07-02 01:30",
+      "confidence": "low",
+      "diagnosis": "A 6.5-hour evening run of zeros in both directions on counter 371 may be a short dropout, but at about 100 bikes it is small and could be weather or chance.",
+      "evidence": "zeros(counter=True) 2026-07-01 19:15-01:30, usual_bikes 98; day total 322 vs 365-415 on nearby weekdays; 0.4 mm rain."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 561,
+      "name": "Eastbound (Ecocounter 240)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 240,
+          "DIRECTION_SK": 348,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Counter 240 ended 2025-04-02 and Metrocount 371 started 2025-11-08 after a 7-month gap with no overlap; levels are similar (Apr 2025 234/day, Nov 2025 227/day; Mar 2025 210 vs Mar 2026 257) and hourly profiles match, but all nearby reference sites (540, 550, 537) also changed counters in 2025, so comparability cannot be checked; kept separate."
+    },
+    {
+      "SITE_SK": 561,
+      "name": "Westbound (Ecocounter 240)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 240,
+          "DIRECTION_SK": 349,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "As for eastbound: West 349 (Apr 2025 126/day) and 1780 (Nov 2025 140/day) look similar but a different vendor after a 7-month gap cannot be verified as comparable."
+    },
+    {
+      "SITE_SK": 561,
+      "name": "Eastbound (Metrocount 371)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 371,
+          "DIRECTION_SK": 1779,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Replacement counter, East orientation like 348; separate series because comparability with 240 is unverifiable."
+    },
+    {
+      "SITE_SK": 561,
+      "name": "Westbound (Metrocount 371)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 371,
+          "DIRECTION_SK": 1780,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Replacement counter, West orientation like 349; separate series because comparability with 240 is unverifiable."
+    }
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "duplicates: pinpointed every duplicated day with exact-repeat counts",
+      "channels: showed each channel repeated [a,a,b,b]",
+      "zeros(counter=True): found both outages and the 2026 dropout",
+      "compare(by='day'): showed neighbours normal during the 2026 dropout",
+      "raw: status per day distinguished warning from good zeros"
+    ],
+    "not_useful": [
+      "events: nothing local listed",
+      "spikes: only single-slot bursts of 20-36, plausibly real"
+    ],
+    "improve": [
+      "channels: list columns truncate by default; show full lists",
+      "raw: 'slot' column clashes with slot_label-derived names in group_by (duplicate column error when aggregating)",
+      "compare: note when reference sites themselves changed counters in the window"
+    ],
+    "add": [
+      "a counter-handover tool comparing a site's old and new counter levels against neighbours' ratios for matching months in adjacent years"
+    ]
+  },
+  "summary": "Epsom Rd (Zetland) had Ecocounter 240 (2020-12 to 2025-04), then Metrocount 371 (2025-11 on). Counter 240 has 27 runs of fully duplicated channel records (drop_duplicates) and two warning-zero outages set missing (Apr-May 2022, 1-2 Jul 2023). Counter 371 had an outage from 2026-01-29 20:00 to 2026-02-16 19:45, shown by warning flags, days with no records and days with only one direction, and it is set missing. The two counters are kept as separate series because comparability across the 7-month gap cannot be verified."
+}

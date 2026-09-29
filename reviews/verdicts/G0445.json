@@ -1,0 +1,244 @@
+{
+  "group": "G0445",
+  "decisions": [
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 446,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "high",
+      "diagnosis": "Every bicycle in this camera zone is reported twice: every non-zero 15-minute count over the whole record is even, and slot-to-slot variance is twice that of the camera's undoubled crossing zone (445).",
+      "evidence": "1301: 469/469 and 1307: 162/162 non-zero slots even; site 445 on the same camera has 63% odd non-zero slots; variance/mean of low-count workday slots 2.3-2.9 here vs 1.5 at 445 (halving gives ~1.3-1.45)"
+    },
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 447,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Every bicycle in this camera zone is reported twice: every non-zero 15-minute count over the whole record is even, and slot-to-slot variance is twice that of the camera's undoubled crossing zone (445).",
+      "evidence": "1296: 31755/31755 and 1411: 26161/26161 non-zero slots even, 2024-03-25 to 2026-09-26; site 445 on the same camera has 63% odd non-zero slots; variance/mean of low-count workday slots 2.3-2.9 here vs 1.5 at 445 (halving gives ~1.3-1.45)"
+    },
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 448,
+      "DIRECTION_SK": null,
+      "start": "2024-03-25",
+      "end": "2024-11-07",
+      "confidence": "high",
+      "diagnosis": "Every bicycle in this camera zone is reported twice: every non-zero 15-minute count over the whole record is even, and slot-to-slot variance is twice that of the camera's undoubled crossing zone (445).",
+      "evidence": "1377: 3278/3278 and 1392: 4578/4578 non-zero slots even; site 445 on the same camera has 63% odd non-zero slots; variance/mean of low-count workday slots 2.3-2.9 here vs 1.5 at 445 (halving gives ~1.3-1.45)"
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 447,
+      "DIRECTION_SK": null,
+      "start": "2024-11-07 17:00",
+      "end": "2024-11-21 09:45",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting (the other three zones stopped publishing altogether) but zone 447 kept reporting zeros for two weeks; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "counter-wide zero stretch 2024-11-07 17:00 to 2024-11-21 09:45 (329 h, 189 daytime h, usual ~3900 raw bikes); counts resume 2024-11-21 10:00 at ~150-250/day; nearby tube site 158 normal throughout"
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 445,
+      "DIRECTION_SK": null,
+      "start": "2024-11-07 17:00",
+      "end": "2024-11-07 23:45",
+      "confidence": "medium",
+      "diagnosis": "Final evening of this zone: the camera failed at 17:00 (start of the two-week outage seen at 447) and the zone published zeros until the end of the day before stopping, so the evening peak was not counted and cannot be recovered.",
+      "evidence": "all 8 camera directions last non-zero by 16:45 on 2024-11-07, all zero through 23:45, no data after; 447 zero until 2024-11-21 09:45"
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 446,
+      "DIRECTION_SK": null,
+      "start": "2024-11-07 17:00",
+      "end": "2024-11-07 23:45",
+      "confidence": "medium",
+      "diagnosis": "Final evening of this zone: the camera failed at 17:00 (start of the two-week outage seen at 447) and the zone published zeros until the end of the day before stopping, so the evening peak was not counted and cannot be recovered.",
+      "evidence": "all 8 camera directions last non-zero by 16:45 on 2024-11-07, all zero through 23:45, no data after; 447 zero until 2024-11-21 09:45"
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 448,
+      "DIRECTION_SK": null,
+      "start": "2024-11-07 17:00",
+      "end": "2024-11-07 23:45",
+      "confidence": "medium",
+      "diagnosis": "Final evening of this zone: the camera failed at 17:00 (start of the two-week outage seen at 447) and the zone published zeros until the end of the day before stopping, so the evening peak was not counted and cannot be recovered.",
+      "evidence": "all 8 camera directions last non-zero by 16:45 on 2024-11-07, all zero through 23:45, no data after; 447 zero until 2024-11-21 09:45"
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 445,
+      "DIRECTION_SK": null,
+      "start": "2024-07-11",
+      "end": "2024-10-03",
+      "confidence": "low",
+      "diagnosis": "The crossing zone drops abruptly from ~2,500 to ~20 bikes a week while the north path (447) and road (448) zones rise the same day, which is either a real closure/diversion (construction) or a redrawn camera zone; the data do not settle which.",
+      "evidence": "445 daily 190/235 on 2024-07-10 -> 2/2 on 2024-07-12; 447 raw weekly 300 -> 2,000-2,900; tube site 158 on Alison Rd steady at ~4,400-6,800/week throughout; 445 returns to ~2,700/week in the week of 2024-10-07"
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 448,
+      "DIRECTION_SK": null,
+      "start": "2024-10-04",
+      "end": "2024-11-07",
+      "confidence": "low",
+      "diagnosis": "The road zone jumps from ~400 to 1,300-4,500 raw bikes per direction a week while the north path zone 447 falls to almost nothing, consistent with the path being closed and riders using the road, but the camera's total also rises well above its earlier share of nearby site 158, so some misclassified road users cannot be ruled out.",
+      "evidence": "448 raw weekly (1377+1392) ~800 in Sep -> 8,302 in week of 2024-10-21; 447 raw 2,756 -> 174; camera total / site 158: ~0.5 Mar-Sep (after halving) vs ~0.8 late Oct; the path zone 447 recovers to ~2,000/week raw from 2024-11-21"
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 445,
+      "name": "Alison Rd crossing W of Doncaster Ave, southbound (OUT)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 315,
+          "DIRECTION_SK": 1263,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "One camera (counter 315) with a separate zone per site; each zone-direction counts its own riders and no other counter ran here, so each direction is its own series."
+    },
+    {
+      "SITE_SK": 445,
+      "name": "Alison Rd crossing W of Doncaster Ave, northbound (IN)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 315,
+          "DIRECTION_SK": 1266,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "One camera (counter 315) with a separate zone per site; each zone-direction counts its own riders and no other counter ran here, so each direction is its own series."
+    },
+    {
+      "SITE_SK": 446,
+      "name": "Alison Rd north path W of Doncaster Ave, south-east (IN)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 315,
+          "DIRECTION_SK": 1301,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "One camera (counter 315) with a separate zone per site; each zone-direction counts its own riders and no other counter ran here, so each direction is its own series."
+    },
+    {
+      "SITE_SK": 446,
+      "name": "Alison Rd north path W of Doncaster Ave, north-west (OUT)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 315,
+          "DIRECTION_SK": 1307,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "One camera (counter 315) with a separate zone per site; each zone-direction counts its own riders and no other counter ran here, so each direction is its own series."
+    },
+    {
+      "SITE_SK": 447,
+      "name": "Alison Rd north path E of Doncaster Ave, north-west / citybound (IN)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 315,
+          "DIRECTION_SK": 1296,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "One camera (counter 315) with a separate zone per site; each zone-direction counts its own riders and no other counter ran here, so each direction is its own series."
+    },
+    {
+      "SITE_SK": 447,
+      "name": "Alison Rd north path E of Doncaster Ave, south-east (OUT)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 315,
+          "DIRECTION_SK": 1411,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "One camera (counter 315) with a separate zone per site; each zone-direction counts its own riders and no other counter ran here, so each direction is its own series."
+    },
+    {
+      "SITE_SK": 448,
+      "name": "Alison Rd road W of Doncaster Ave, north-west",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 315,
+          "DIRECTION_SK": 1377,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "One camera (counter 315) with a separate zone per site; each zone-direction counts its own riders and no other counter ran here, so each direction is its own series."
+    },
+    {
+      "SITE_SK": 448,
+      "name": "Alison Rd road W of Doncaster Ave, south-east",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 315,
+          "DIRECTION_SK": 1392,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "One camera (counter 315) with a separate zone per site; each zone-direction counts its own riders and no other counter ran here, so each direction is its own series."
+    }
+  ],
+  "proposals": [
+    "Camera darkness/rain dropouts: on many wet winter evenings (e.g. 2024-06-01 17:00 to 06-02 07:30, 2024-06-14, 2025-05-22) every zone of counter 315 reads 0 from dusk to dawn while ~100-300 bikes would usually pass; a tool that flags counter-wide zero stretches starting at dusk on rainy days, compared against a nearby non-camera counter (site 158), would let reviewers decide whether these are camera blindness (set missing) or real low riding."
+  ],
+  "tools": {
+    "useful": [
+      "doubled: immediately showed every non-zero count at 446/447/448 is even over the whole record, against a normal 445",
+      "counter_days / weekly wide: showed the abrupt zone-to-zone shifts on 2024-07-11 and 2024-10-04 and the stop on 2024-11-07",
+      "zeros(counter=True): found the 2024-11-07 to 2024-11-21 outage and the recurring dusk-to-dawn zeros",
+      "compare against site 158: showed the corridor's riding stayed steady while the zones swapped riders",
+      "neighbours(cameras=True): found tube site 158 on Alison Rd 400 m away"
+    ],
+    "not_useful": [
+      "doubled level: null here because the zones have no odd days at all to compare against",
+      "duplicates / absent_zeros: nothing to find for this camera",
+      "events: no entries for this location"
+    ],
+    "improve": [
+      "doubled: when level is null, compare with the camera's other zones or report the slot variance/mean ratio, which separates doubled from natural counts",
+      "zeros(counter=True): add rain_mm and whether the stretch starts near dusk"
+    ],
+    "add": [
+      "a per-counter zone-share view: each zone's share of the camera total per week, to spot zone reassignments at a glance",
+      "a dispersion check (variance/mean of low-count slots) per direction, as independent evidence for scaling"
+    ]
+  },
+  "summary": "Camera 315 at Alison Rd and Doncaster Ave reports every bike twice in zones 446, 447 and 448 (all counts even over the whole record, double the natural variance), so these are scaled by 0.5, while the crossing zone 445 is counted normally. The camera failed on 2024-11-07 at 17:00: three zones then stopped, and 447 published zeros until 2024-11-21 09:45, which is set missing. Riders moved abruptly between the crossing, path and road zones in July and October 2024 while nearby site 158 stayed steady, most likely construction diversions, so these shifts are recorded as uncertain and not changed."
+}

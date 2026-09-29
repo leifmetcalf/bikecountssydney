@@ -1,0 +1,2888 @@
+{
+  "group": "G0347",
+  "decisions": [
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The camera feed leaves out zero slots and whole zero days for quiet zones (no counts are missing, only the zero rows).",
+      "evidence": "Low-volume zones (767, 770, 947, ~0-1 bike/day) lack whole days in 2023-07, 2023-12, 2024-01, 2024-12; from 2025-06 many zones average 48-93 of 96 slots per day while the counter publishes every day."
+    },
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "Every bike in both Railway Pde (W) footpath zones is counted twice: across the whole record not one non-zero 15-minute count is odd.",
+      "evidence": "756: 0 odd of 58,838 non-zero slots; 778: 0 odd of 43,219 (other zones ~60% odd, e.g. 858 40,244/70,042). Halving 356 brings the camera's IN/OUT totals into balance (e.g. 2025: IN 7,300 vs OUT 8,000/week before, ~6,570 vs ~6,435 after)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12 00:00",
+      "end": "2023-07-12 09:45",
+      "confidence": "medium",
+      "diagnosis": "All 26 zone-directions read 0 from midnight until 09:45 on the first day of the record, as the camera was being commissioned; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "Counter-wide zero 00:00-09:45 (4 daytime hours, usual ~454 bikes); counting begins 10:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2023-09-20 08:15",
+      "end": "2023-09-20 16:00",
+      "confidence": "high",
+      "diagnosis": "The camera stopped counting for 8 daytime hours on a Wednesday, all zones at 0 at once; the bikes are not recorded anywhere.",
+      "evidence": "Counter-wide zero 08:15-16:00, usual ~672 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2023-11-09 23:30",
+      "end": "2023-11-10 16:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reads 0 through Friday morning and early afternoon; the counts were not recorded.",
+      "evidence": "Counter-wide zero 17.5 h incl. 11 daytime hours, usual ~961 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2023-11-12 19:30",
+      "end": "2023-11-13 05:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone reads 0 overnight including a Sunday evening that usually carries bikes; a counter outage whose counts cannot be recovered.",
+      "evidence": "Counter-wide zero 10.5 h, usual ~228 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2024-03-05 21:30",
+      "end": "2024-03-27 09:45",
+      "confidence": "high",
+      "diagnosis": "Three-week camera outage: all 26 zone-directions report 0 (flagged warning) while nearby counters (538, 254, 541) run normally; nothing was recorded.",
+      "evidence": "Counter-wide zero 516 h, usual ~30,900 bikes; 538 Henderson Rd 6,200/week through the gap."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2025-01-01 07:30",
+      "end": "2025-01-02 09:00",
+      "confidence": "high",
+      "diagnosis": "The camera went dark on New Year's Day morning (bikes were being counted up to 07:30) until next morning; the day's riders were not recorded.",
+      "evidence": "Counter-wide zero 25.75 h, usual ~1,536 bikes; 192 bikes counted 00:00-07:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03 06:45",
+      "end": "2025-01-06 13:00",
+      "confidence": "high",
+      "diagnosis": "Second outage over the weekend of 3-6 Jan 2025: all zones at 0; not recoverable.",
+      "evidence": "Counter-wide zero 78.5 h, usual ~4,626 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2025-05-06 08:00",
+      "end": "2025-06-20 10:45",
+      "confidence": "high",
+      "diagnosis": "Six-week camera outage: all zones at 0 from the Tuesday morning peak until 20 June; the counts were never recorded.",
+      "evidence": "Counter-wide zero 1,083 h, usual ~65,400 bikes; counting stops abruptly after 180 bikes in 07:00-08:00 on 6 May and resumes 11:00 on 20 June at normal levels."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record carries 0 in every zone from 15:00, the slots after the download time on the day it was added; they are not real counts and cannot be recovered from this download.",
+      "evidence": "Counter-wide zero from 15:00 on 2026-09-26 (records added 2026-09-26, status good), usual ~568 bikes.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 347,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 348,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 349,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 350,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 351,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 352,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 353,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 354,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 355,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 357,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 358,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2023-07-12",
+      "end": "2024-01-24 14:45",
+      "confidence": "medium",
+      "diagnosis": "Every zone of the camera roughly doubled within one afternoon (about 15:00 on Wed 24 Jan 2024) with no change at nearby counters, which points at a detection/configuration change at the camera; counts before and after may not be comparable, but nothing shows which level is right.",
+      "evidence": "Camera ~4,100 bikes/week before vs ~9,000-9,500 after; 359/538 ratio 0.05 -> 0.11, 359/254 0.14 -> 0.30; hourly total 44-83 before vs 105-170 from 16:00 on 24 Jan; counts stay odd/normal-looking."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 359,
+      "DIRECTION_SK": null,
+      "start": "2024-01-24 15:00",
+      "end": "2024-10-02 13:45",
+      "confidence": "low",
+      "diagnosis": "A second step-up at about 14:00 on Wed 2 Oct 2024, strongest in the Swanson St zones (347, 354, 355), may be another camera reconfiguration or a real change in routes; the data does not settle which.",
+      "evidence": "Camera ~8,000 bikes/week in Sep 2024 vs 11,000-14,000 from Oct; 347/750 2 -> ~30/day, 355/866 8 -> ~35/day, 354/858 ~145 -> ~310/day, 351/688 barely changed; 359/538 ratio 0.16 -> 0.28."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 356,
+      "DIRECTION_SK": null,
+      "start": "2025-04-13",
+      "end": "2025-04-14",
+      "confidence": "low",
+      "diagnosis": "Both 356 directions ran at about twice their usual level on 13-14 Apr 2025, with 100 bikes (raw) at midnight, while every other zone was normal; could be an event or false detections.",
+      "evidence": "756: 600 and 1,178 vs ~470 on neighbouring days; 778: 262 and 606 vs ~230; other zones normal."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 347,
+      "name": "East to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 750,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 347,
+      "name": "East 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 750,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 347,
+      "name": "East from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 750,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 347,
+      "name": "West to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 753,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 347,
+      "name": "West 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 753,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 347,
+      "name": "West from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 753,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 348,
+      "name": "South to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 770,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 348,
+      "name": "South 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 770,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 348,
+      "name": "South from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 770,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 348,
+      "name": "North to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 947,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 348,
+      "name": "North 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 947,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 348,
+      "name": "North from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 947,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 349,
+      "name": "East to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 737,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 349,
+      "name": "East 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 737,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 349,
+      "name": "East from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 737,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 349,
+      "name": "West to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 787,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 349,
+      "name": "West 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 787,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 349,
+      "name": "West from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 787,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 350,
+      "name": "South to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 914,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 350,
+      "name": "South 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 914,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 350,
+      "name": "South from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 914,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 350,
+      "name": "North to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 951,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 350,
+      "name": "North 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 951,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 350,
+      "name": "North from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 951,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 351,
+      "name": "South to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 688,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 351,
+      "name": "South 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 688,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 351,
+      "name": "South from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 688,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 351,
+      "name": "North to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 916,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 351,
+      "name": "North 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 916,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 351,
+      "name": "North from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 916,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 352,
+      "name": "East to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 816,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 352,
+      "name": "East 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 816,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 352,
+      "name": "East from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 816,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 352,
+      "name": "West to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 946,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 352,
+      "name": "West 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 946,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 352,
+      "name": "West from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 946,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 353,
+      "name": "South to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 705,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 353,
+      "name": "South 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 705,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 353,
+      "name": "South from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 705,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 353,
+      "name": "North to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 907,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 353,
+      "name": "North 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 907,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 353,
+      "name": "North from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 907,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 354,
+      "name": "East to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 858,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 354,
+      "name": "East 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 858,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 354,
+      "name": "East from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 858,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 354,
+      "name": "West to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 944,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 354,
+      "name": "West 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 944,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 354,
+      "name": "West from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 944,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 355,
+      "name": "East to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 820,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 355,
+      "name": "East 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 820,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 355,
+      "name": "East from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 820,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 355,
+      "name": "West to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 866,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 355,
+      "name": "West 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 866,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 355,
+      "name": "West from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 866,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 356,
+      "name": "North East to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 756,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 356,
+      "name": "North East 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 756,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 356,
+      "name": "North East from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 756,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 356,
+      "name": "South West to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 778,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 356,
+      "name": "South West 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 778,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 356,
+      "name": "South West from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 778,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 357,
+      "name": "West to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 711,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 357,
+      "name": "West 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 711,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 357,
+      "name": "West from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 711,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 357,
+      "name": "East to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 890,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 357,
+      "name": "East 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 890,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 357,
+      "name": "East from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 890,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 358,
+      "name": "North to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 767,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 358,
+      "name": "North 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 767,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 358,
+      "name": "North from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 767,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 358,
+      "name": "South to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 841,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 358,
+      "name": "South 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 841,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 358,
+      "name": "South from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 841,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 359,
+      "name": "North to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 726,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 359,
+      "name": "North 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 726,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 359,
+      "name": "North from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 726,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 359,
+      "name": "South to 2024-01-23 (before first camera step)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 788,
+          "start": null,
+          "end": "2024-01-23"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 359,
+      "name": "South 2024-01-24 to 2024-10-01 (between camera steps)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 788,
+          "start": "2024-01-24",
+          "end": "2024-10-01"
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    },
+    {
+      "SITE_SK": 359,
+      "name": "South from 2024-10-02 (after second camera step)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 281,
+          "DIRECTION_SK": 788,
+          "start": "2024-10-02",
+          "end": null
+        }
+      ],
+      "evidence": "Camera 281 stepped up in every zone within hours on 2024-01-24 (~15:00, about x2) and again on 2024-10-02 (~14:00) while nearby counters 538/254/541 stayed flat, so levels on either side may not be comparable; split so no trend runs across the steps (the step days go with the later level)."
+    }
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "counter_days: showed the counter-wide outages and the 2024-01-24 camera-wide step at a glance",
+      "zeros(counter=True): listed every camera-wide outage with usual bikes",
+      "doubled: caught site 356 as all-even over the whole record",
+      "compare: showed that nearby counters (538, 254, 541) stayed flat across the camera's steps",
+      "slots/raw: confirmed the step hour, the 2025-11-13 backlog dump into 11:30 and the placeholder zeros on the last day",
+      "weather: explained the 1 Jul 2025 low as 73 mm of rain"
+    ],
+    "not_useful": [
+      "duplicates: nothing to find for a one-record-per-slot camera",
+      "absent_zeros: only flagged a few one-off weeks of a quiet zone"
+    ],
+    "improve": [
+      "doubled: level is null when the whole record is even; comparing against the camera's IN/OUT balance or other zones would give a level",
+      "zeros: the per-direction list is long (698 rows) for a 26-zone camera; an option to drop stretches inside counter-wide outages would help",
+      "daily(wide=True): include SITE_SK in column names for camera groups"
+    ],
+    "add": [
+      "steps: detect abrupt level changes of a whole counter (all its directions together) against nearby counters, with the time of the change",
+      "camera_balance: weekly IN vs OUT totals for a camera, and how they change if a site's counts are scaled, to test double-counting hypotheses"
+    ]
+  },
+  "summary": "One Secure Agility camera (281) at Erskineville Rd/Swanson St covers 13 zone sites; the Railway Pde (W) footpath zone (356) counts every bike twice for the whole record (no odd count in 100k slots) and is halved, the feed's omitted zeros are filled, and nine camera-wide outages (notably 5-27 Mar 2024 and 6 May-20 Jun 2025) are set missing. The camera's level stepped up sharply on 24 Jan 2024 and again on 2 Oct 2024 with no matching change at nearby counters; these are recorded as uncertain because nothing shows which level is right. Each counter-direction is split into three series at those steps (to 2024-01-23, 2024-01-24 to 2024-10-01, from 2024-10-02) so no trend runs across them."
+}

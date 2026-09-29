@@ -1,0 +1,685 @@
+{
+ "group": "G0569",
+ "decisions": [
+  {
+   "action": "direction_unreliable",
+   "factor": null,
+   "SITE_SK": 569,
+   "DIRECTION_SK": null,
+   "start": "2025-12-30",
+   "end": "2026-03-09 10:45",
+   "confidence": "high",
+   "diagnosis": "Until 2026-03-09 11:00 the camera published both directions' records under direction 1838 (two records per slot, one per direction), so 1838 holds the two-way total and 1812 is absent or holds stray fragments.",
+   "evidence": "1838 has ~1.9 records/slot before and exactly 1 after; on the rare slots where 1812 has a record, 1838 has only one; 1838's pre-split weekly level equals 1838+1812 after the split (e.g. site 570: 4697 in week of 03-02 vs 4741/4738 in weeks of 03-09/03-16), and the ratio to nearby tube site 162 stays ~0.8-0.9 across the split."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 569,
+   "DIRECTION_SK": null,
+   "start": "2026-01-27 00:00",
+   "end": "2026-01-27 16:45",
+   "confidence": "high",
+   "diagnosis": "After an outage from 2026-01-17 10:45 (heavy rain day) the camera reported zeros until 16:30 on 01-27, then dumped the whole outage backlog into the 16:45 slot; the backlog cannot be assigned to days or weeks with the available actions, so the zeros and the dump slot are set missing.",
+   "evidence": "All zones 0 from 00:00-16:30 on 01-27; the 16:45 slot holds e.g. 7874 (1817), 7757 (1820), 16388 (1848), 5877 (1828), 3079 (1851), ~10 days of normal riding; week of 01-26 at site 570 is 12559, ratio 2.07 to site 162 against ~0.85-0.9 otherwise."
+  },
+  {
+   "action": "direction_unreliable",
+   "factor": null,
+   "SITE_SK": 570,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09 10:45",
+   "confidence": "high",
+   "diagnosis": "Until 2026-03-09 11:00 the camera published both directions' records under direction 1820 (two records per slot, one per direction), so 1820 holds the two-way total and 1839 is absent or holds stray fragments.",
+   "evidence": "1820 has ~1.9 records/slot before and exactly 1 after; on the rare slots where 1839 has a record, 1820 has only one; 1820's pre-split weekly level equals 1820+1839 after the split (e.g. site 570: 4697 in week of 03-02 vs 4741/4738 in weeks of 03-09/03-16), and the ratio to nearby tube site 162 stays ~0.8-0.9 across the split."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 570,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29 00:00",
+   "end": "2025-12-29 19:30",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera published zero placeholders before it started counting at about 19:45 (09:00 UTC); the riders who passed then were never counted, so the slots cannot be recovered.",
+   "evidence": "Every zone of counter 383 is 0 from 00:00 to 19:30 on 2025-12-29 and all start counting within 15 minutes of each other (usual ~2000 bikes in those hours across the camera)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 570,
+   "DIRECTION_SK": null,
+   "start": "2026-01-27 00:00",
+   "end": "2026-01-27 16:45",
+   "confidence": "high",
+   "diagnosis": "After an outage from 2026-01-17 10:45 (heavy rain day) the camera reported zeros until 16:30 on 01-27, then dumped the whole outage backlog into the 16:45 slot; the backlog cannot be assigned to days or weeks with the available actions, so the zeros and the dump slot are set missing.",
+   "evidence": "All zones 0 from 00:00-16:30 on 01-27; the 16:45 slot holds e.g. 7874 (1817), 7757 (1820), 16388 (1848), 5877 (1828), 3079 (1851), ~10 days of normal riding; week of 01-26 at site 570 is 12559, ratio 2.07 to site 162 against ~0.85-0.9 otherwise."
+  },
+  {
+   "action": "direction_unreliable",
+   "factor": null,
+   "SITE_SK": 571,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09 10:45",
+   "confidence": "high",
+   "diagnosis": "Until 2026-03-09 11:00 the camera published both directions' records under direction 1817 (two records per slot, one per direction), so 1817 holds the two-way total and 1805 is absent or holds stray fragments.",
+   "evidence": "1817 has ~1.9 records/slot before and exactly 1 after; on the rare slots where 1805 has a record, 1817 has only one; 1817's pre-split weekly level equals 1817+1805 after the split (e.g. site 570: 4697 in week of 03-02 vs 4741/4738 in weeks of 03-09/03-16), and the ratio to nearby tube site 162 stays ~0.8-0.9 across the split."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 571,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29 00:00",
+   "end": "2025-12-29 19:30",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera published zero placeholders before it started counting at about 19:45 (09:00 UTC); the riders who passed then were never counted, so the slots cannot be recovered.",
+   "evidence": "Every zone of counter 383 is 0 from 00:00 to 19:30 on 2025-12-29 and all start counting within 15 minutes of each other (usual ~2000 bikes in those hours across the camera)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 571,
+   "DIRECTION_SK": null,
+   "start": "2026-01-27 00:00",
+   "end": "2026-01-27 16:45",
+   "confidence": "high",
+   "diagnosis": "After an outage from 2026-01-17 10:45 (heavy rain day) the camera reported zeros until 16:30 on 01-27, then dumped the whole outage backlog into the 16:45 slot; the backlog cannot be assigned to days or weeks with the available actions, so the zeros and the dump slot are set missing.",
+   "evidence": "All zones 0 from 00:00-16:30 on 01-27; the 16:45 slot holds e.g. 7874 (1817), 7757 (1820), 16388 (1848), 5877 (1828), 3079 (1851), ~10 days of normal riding; week of 01-26 at site 570 is 12559, ratio 2.07 to site 162 against ~0.85-0.9 otherwise."
+  },
+  {
+   "action": "direction_unreliable",
+   "factor": null,
+   "SITE_SK": 572,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09 10:45",
+   "confidence": "high",
+   "diagnosis": "Until 2026-03-09 11:00 the camera published both directions' records under direction 1828 (two records per slot, one per direction), so 1828 holds the two-way total and 1804 is absent or holds stray fragments.",
+   "evidence": "1828 has ~1.9 records/slot before and exactly 1 after; on the rare slots where 1804 has a record, 1828 has only one; 1828's pre-split weekly level equals 1828+1804 after the split (e.g. site 570: 4697 in week of 03-02 vs 4741/4738 in weeks of 03-09/03-16), and the ratio to nearby tube site 162 stays ~0.8-0.9 across the split."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 572,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29 00:00",
+   "end": "2025-12-29 19:30",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera published zero placeholders before it started counting at about 19:45 (09:00 UTC); the riders who passed then were never counted, so the slots cannot be recovered.",
+   "evidence": "Every zone of counter 383 is 0 from 00:00 to 19:30 on 2025-12-29 and all start counting within 15 minutes of each other (usual ~2000 bikes in those hours across the camera)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 572,
+   "DIRECTION_SK": null,
+   "start": "2026-01-27 00:00",
+   "end": "2026-01-27 16:45",
+   "confidence": "high",
+   "diagnosis": "After an outage from 2026-01-17 10:45 (heavy rain day) the camera reported zeros until 16:30 on 01-27, then dumped the whole outage backlog into the 16:45 slot; the backlog cannot be assigned to days or weeks with the available actions, so the zeros and the dump slot are set missing.",
+   "evidence": "All zones 0 from 00:00-16:30 on 01-27; the 16:45 slot holds e.g. 7874 (1817), 7757 (1820), 16388 (1848), 5877 (1828), 3079 (1851), ~10 days of normal riding; week of 01-26 at site 570 is 12559, ratio 2.07 to site 162 against ~0.85-0.9 otherwise."
+  },
+  {
+   "action": "direction_unreliable",
+   "factor": null,
+   "SITE_SK": 573,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09 10:45",
+   "confidence": "high",
+   "diagnosis": "Until 2026-03-09 11:00 the camera published both directions' records under direction 1851 (two records per slot, one per direction), so 1851 holds the two-way total and 1835 is absent or holds stray fragments.",
+   "evidence": "1851 has ~1.9 records/slot before and exactly 1 after; on the rare slots where 1835 has a record, 1851 has only one; 1851's pre-split weekly level equals 1851+1835 after the split (e.g. site 570: 4697 in week of 03-02 vs 4741/4738 in weeks of 03-09/03-16), and the ratio to nearby tube site 162 stays ~0.8-0.9 across the split."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 573,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29 00:00",
+   "end": "2025-12-29 19:30",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera published zero placeholders before it started counting at about 19:45 (09:00 UTC); the riders who passed then were never counted, so the slots cannot be recovered.",
+   "evidence": "Every zone of counter 383 is 0 from 00:00 to 19:30 on 2025-12-29 and all start counting within 15 minutes of each other (usual ~2000 bikes in those hours across the camera)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 573,
+   "DIRECTION_SK": null,
+   "start": "2026-01-27 00:00",
+   "end": "2026-01-27 16:45",
+   "confidence": "high",
+   "diagnosis": "After an outage from 2026-01-17 10:45 (heavy rain day) the camera reported zeros until 16:30 on 01-27, then dumped the whole outage backlog into the 16:45 slot; the backlog cannot be assigned to days or weeks with the available actions, so the zeros and the dump slot are set missing.",
+   "evidence": "All zones 0 from 00:00-16:30 on 01-27; the 16:45 slot holds e.g. 7874 (1817), 7757 (1820), 16388 (1848), 5877 (1828), 3079 (1851), ~10 days of normal riding; week of 01-26 at site 570 is 12559, ratio 2.07 to site 162 against ~0.85-0.9 otherwise."
+  },
+  {
+   "action": "direction_unreliable",
+   "factor": null,
+   "SITE_SK": 574,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09 10:45",
+   "confidence": "high",
+   "diagnosis": "Until 2026-03-09 11:00 the camera published both directions' records under direction 1848 (two records per slot, one per direction), so 1848 holds the two-way total and 1825 is absent or holds stray fragments.",
+   "evidence": "1848 has ~1.9 records/slot before and exactly 1 after; on the rare slots where 1825 has a record, 1848 has only one; 1848's pre-split weekly level equals 1848+1825 after the split (e.g. site 570: 4697 in week of 03-02 vs 4741/4738 in weeks of 03-09/03-16), and the ratio to nearby tube site 162 stays ~0.8-0.9 across the split."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 574,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29 00:00",
+   "end": "2025-12-29 19:30",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera published zero placeholders before it started counting at about 19:45 (09:00 UTC); the riders who passed then were never counted, so the slots cannot be recovered.",
+   "evidence": "Every zone of counter 383 is 0 from 00:00 to 19:30 on 2025-12-29 and all start counting within 15 minutes of each other (usual ~2000 bikes in those hours across the camera)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 574,
+   "DIRECTION_SK": null,
+   "start": "2026-01-27 00:00",
+   "end": "2026-01-27 16:45",
+   "confidence": "high",
+   "diagnosis": "After an outage from 2026-01-17 10:45 (heavy rain day) the camera reported zeros until 16:30 on 01-27, then dumped the whole outage backlog into the 16:45 slot; the backlog cannot be assigned to days or weeks with the available actions, so the zeros and the dump slot are set missing.",
+   "evidence": "All zones 0 from 00:00-16:30 on 01-27; the 16:45 slot holds e.g. 7874 (1817), 7757 (1820), 16388 (1848), 5877 (1828), 3079 (1851), ~10 days of normal riding; week of 01-26 at site 570 is 12559, ratio 2.07 to site 162 against ~0.85-0.9 otherwise."
+  },
+  {
+   "action": "direction_unreliable",
+   "factor": null,
+   "SITE_SK": 575,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09 10:45",
+   "confidence": "high",
+   "diagnosis": "Until 2026-03-09 11:00 the camera published both directions' records under direction 1853 (two records per slot, one per direction), so 1853 holds the two-way total and 1852 is absent or holds stray fragments.",
+   "evidence": "1853 has ~1.9 records/slot before and exactly 1 after; on the rare slots where 1852 has a record, 1853 has only one; 1853's pre-split weekly level equals 1853+1852 after the split (e.g. site 570: 4697 in week of 03-02 vs 4741/4738 in weeks of 03-09/03-16), and the ratio to nearby tube site 162 stays ~0.8-0.9 across the split."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 575,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29 00:00",
+   "end": "2025-12-29 19:30",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera published zero placeholders before it started counting at about 19:45 (09:00 UTC); the riders who passed then were never counted, so the slots cannot be recovered.",
+   "evidence": "Every zone of counter 383 is 0 from 00:00 to 19:30 on 2025-12-29 and all start counting within 15 minutes of each other (usual ~2000 bikes in those hours across the camera)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 575,
+   "DIRECTION_SK": null,
+   "start": "2026-01-27 00:00",
+   "end": "2026-01-27 16:45",
+   "confidence": "high",
+   "diagnosis": "After an outage from 2026-01-17 10:45 (heavy rain day) the camera reported zeros until 16:30 on 01-27, then dumped the whole outage backlog into the 16:45 slot; the backlog cannot be assigned to days or weeks with the available actions, so the zeros and the dump slot are set missing.",
+   "evidence": "All zones 0 from 00:00-16:30 on 01-27; the 16:45 slot holds e.g. 7874 (1817), 7757 (1820), 16388 (1848), 5877 (1828), 3079 (1851), ~10 days of normal riding; week of 01-26 at site 570 is 12559, ratio 2.07 to site 162 against ~0.85-0.9 otherwise."
+  },
+  {
+   "action": "direction_unreliable",
+   "factor": null,
+   "SITE_SK": 576,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29",
+   "end": "2026-03-09 10:45",
+   "confidence": "high",
+   "diagnosis": "Until 2026-03-09 11:00 the camera published both directions' records under direction 1813 (two records per slot, one per direction), so 1813 holds the two-way total and 1830 is absent or holds stray fragments.",
+   "evidence": "1813 has ~1.9 records/slot before and exactly 1 after; on the rare slots where 1830 has a record, 1813 has only one; 1813's pre-split weekly level equals 1813+1830 after the split (e.g. site 570: 4697 in week of 03-02 vs 4741/4738 in weeks of 03-09/03-16), and the ratio to nearby tube site 162 stays ~0.8-0.9 across the split."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 576,
+   "DIRECTION_SK": null,
+   "start": "2025-12-29 00:00",
+   "end": "2025-12-29 19:30",
+   "confidence": "high",
+   "diagnosis": "Installation day: the camera published zero placeholders before it started counting at about 19:45 (09:00 UTC); the riders who passed then were never counted, so the slots cannot be recovered.",
+   "evidence": "Every zone of counter 383 is 0 from 00:00 to 19:30 on 2025-12-29 and all start counting within 15 minutes of each other (usual ~2000 bikes in those hours across the camera)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 576,
+   "DIRECTION_SK": null,
+   "start": "2026-01-27 00:00",
+   "end": "2026-01-27 16:45",
+   "confidence": "high",
+   "diagnosis": "After an outage from 2026-01-17 10:45 (heavy rain day) the camera reported zeros until 16:30 on 01-27, then dumped the whole outage backlog into the 16:45 slot; the backlog cannot be assigned to days or weeks with the available actions, so the zeros and the dump slot are set missing.",
+   "evidence": "All zones 0 from 00:00-16:30 on 01-27; the 16:45 slot holds e.g. 7874 (1817), 7757 (1820), 16388 (1848), 5877 (1828), 3079 (1851), ~10 days of normal riding; week of 01-26 at site 570 is 12559, ratio 2.07 to site 162 against ~0.85-0.9 otherwise."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 574,
+   "DIRECTION_SK": null,
+   "start": "2026-08-29 17:15",
+   "end": "2026-08-29 17:45",
+   "confidence": "medium",
+   "diagnosis": "A burst of 1640 (1848) and 333 (1825) 'bikes' in 45 minutes on a Saturday evening at this one zone only, far beyond any other slot; it may be a crowd of pedestrians classified as bicycles (e.g. event crowd), or a real mass ride, and the data does not settle which.",
+   "evidence": "1848: 676/575/389 in 17:15-17:45 vs usual ~40; no matching rise at the adjacent zones (570/571/572/573 in single digits); lifts week of 08-24 at 1848 to 5557 vs 3000-4000 around it."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 569,
+   "name": "both directions (before direction split)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1838,
+     "start": null,
+     "end": "2026-03-08"
+    },
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1812,
+     "start": null,
+     "end": "2026-03-08"
+    }
+   ],
+   "evidence": "Before 2026-03-09 both directions' records were published under 1838 (plus a few correctly labelled fragments under 1812); together they are the two-way total, at the same level as the later sum of the two directions."
+  },
+  {
+   "SITE_SK": 569,
+   "name": "West (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1838,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "From 2026-03-09 (11:00) 1838 carries only its own direction, one record per slot; the morning of 03-09 is flagged direction_unreliable."
+  },
+  {
+   "SITE_SK": 569,
+   "name": "East (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1812,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "1812 starts publishing properly on 2026-03-09 11:00; earlier fragments belong to the two-way series."
+  },
+  {
+   "SITE_SK": 570,
+   "name": "both directions (before direction split)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1820,
+     "start": null,
+     "end": "2026-03-08"
+    },
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1839,
+     "start": null,
+     "end": "2026-03-08"
+    }
+   ],
+   "evidence": "Before 2026-03-09 both directions' records were published under 1820 (plus a few correctly labelled fragments under 1839); together they are the two-way total, at the same level as the later sum of the two directions."
+  },
+  {
+   "SITE_SK": 570,
+   "name": "North (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1820,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "From 2026-03-09 (11:00) 1820 carries only its own direction, one record per slot; the morning of 03-09 is flagged direction_unreliable."
+  },
+  {
+   "SITE_SK": 570,
+   "name": "South (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1839,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "1839 starts publishing properly on 2026-03-09 11:00; earlier fragments belong to the two-way series."
+  },
+  {
+   "SITE_SK": 571,
+   "name": "both directions (before direction split)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1817,
+     "start": null,
+     "end": "2026-03-08"
+    },
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1805,
+     "start": null,
+     "end": "2026-03-08"
+    }
+   ],
+   "evidence": "Before 2026-03-09 both directions' records were published under 1817 (plus a few correctly labelled fragments under 1805); together they are the two-way total, at the same level as the later sum of the two directions."
+  },
+  {
+   "SITE_SK": 571,
+   "name": "East (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1817,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "From 2026-03-09 (11:00) 1817 carries only its own direction, one record per slot; the morning of 03-09 is flagged direction_unreliable."
+  },
+  {
+   "SITE_SK": 571,
+   "name": "West (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1805,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "1805 starts publishing properly on 2026-03-09 11:00; earlier fragments belong to the two-way series."
+  },
+  {
+   "SITE_SK": 572,
+   "name": "both directions (before direction split)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1828,
+     "start": null,
+     "end": "2026-03-08"
+    },
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1804,
+     "start": null,
+     "end": "2026-03-08"
+    }
+   ],
+   "evidence": "Before 2026-03-09 both directions' records were published under 1828 (plus a few correctly labelled fragments under 1804); together they are the two-way total, at the same level as the later sum of the two directions."
+  },
+  {
+   "SITE_SK": 572,
+   "name": "West (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1828,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "From 2026-03-09 (11:00) 1828 carries only its own direction, one record per slot; the morning of 03-09 is flagged direction_unreliable."
+  },
+  {
+   "SITE_SK": 572,
+   "name": "East (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1804,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "1804 starts publishing properly on 2026-03-09 11:00; earlier fragments belong to the two-way series."
+  },
+  {
+   "SITE_SK": 573,
+   "name": "both directions (before direction split)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1851,
+     "start": null,
+     "end": "2026-03-08"
+    },
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1835,
+     "start": null,
+     "end": "2026-03-08"
+    }
+   ],
+   "evidence": "Before 2026-03-09 both directions' records were published under 1851 (plus a few correctly labelled fragments under 1835); together they are the two-way total, at the same level as the later sum of the two directions."
+  },
+  {
+   "SITE_SK": 573,
+   "name": "North (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1851,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "From 2026-03-09 (11:00) 1851 carries only its own direction, one record per slot; the morning of 03-09 is flagged direction_unreliable."
+  },
+  {
+   "SITE_SK": 573,
+   "name": "South (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1835,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "1835 starts publishing properly on 2026-03-09 11:00; earlier fragments belong to the two-way series."
+  },
+  {
+   "SITE_SK": 574,
+   "name": "both directions (before direction split)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1848,
+     "start": null,
+     "end": "2026-03-08"
+    },
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1825,
+     "start": null,
+     "end": "2026-03-08"
+    }
+   ],
+   "evidence": "Before 2026-03-09 both directions' records were published under 1848 (plus a few correctly labelled fragments under 1825); together they are the two-way total, at the same level as the later sum of the two directions."
+  },
+  {
+   "SITE_SK": 574,
+   "name": "West (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1848,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "From 2026-03-09 (11:00) 1848 carries only its own direction, one record per slot; the morning of 03-09 is flagged direction_unreliable."
+  },
+  {
+   "SITE_SK": 574,
+   "name": "East (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1825,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "1825 starts publishing properly on 2026-03-09 11:00; earlier fragments belong to the two-way series."
+  },
+  {
+   "SITE_SK": 575,
+   "name": "both directions (before direction split)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1853,
+     "start": null,
+     "end": "2026-03-08"
+    },
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1852,
+     "start": null,
+     "end": "2026-03-08"
+    }
+   ],
+   "evidence": "Before 2026-03-09 both directions' records were published under 1853 (plus a few correctly labelled fragments under 1852); together they are the two-way total, at the same level as the later sum of the two directions."
+  },
+  {
+   "SITE_SK": 575,
+   "name": "East (OUT)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1853,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "From 2026-03-09 (11:00) 1853 carries only its own direction, one record per slot; the morning of 03-09 is flagged direction_unreliable."
+  },
+  {
+   "SITE_SK": 575,
+   "name": "West (IN)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1852,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "1852 starts publishing properly on 2026-03-09 11:00; earlier fragments belong to the two-way series."
+  },
+  {
+   "SITE_SK": 576,
+   "name": "both directions (before direction split)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1813,
+     "start": null,
+     "end": "2026-03-08"
+    },
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1830,
+     "start": null,
+     "end": "2026-03-08"
+    }
+   ],
+   "evidence": "Before 2026-03-09 both directions' records were published under 1813 (plus a few correctly labelled fragments under 1830); together they are the two-way total, at the same level as the later sum of the two directions."
+  },
+  {
+   "SITE_SK": 576,
+   "name": "South",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1813,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "From 2026-03-09 (11:00) 1813 carries only its own direction, one record per slot; the morning of 03-09 is flagged direction_unreliable."
+  },
+  {
+   "SITE_SK": 576,
+   "name": "North",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 383,
+     "DIRECTION_SK": 1830,
+     "start": "2026-03-09",
+     "end": null
+    }
+   ],
+   "evidence": "1830 starts publishing properly on 2026-03-09 11:00; earlier fragments belong to the two-way series."
+  }
+ ],
+ "proposals": [
+  "Redistribute the outage backlog: the 2026-01-27 16:45 slot at each site of counter 383 holds the counts accumulated from 2026-01-17 10:45 to 2026-01-27 16:30; an action that spreads a dumped slot's count over a named outage window (e.g. evenly per day, or by the direction's own profile from the adjacent weeks) would recover ~10 days of totals (weeks of 01-12, 01-19, 01-26) instead of setting them missing.",
+  "Split merged directions: before 2026-03-09 11:00 each slot of counter 383's main directions holds two records, one per direction; if the feed's record IDs or a later TfNSW re-publish identify which record belongs to which direction, an action that moves one record per slot to the sibling DIRECTION_SK would restore the per-direction split for Dec 2025 - Mar 2026."
+ ],
+ "tools": {
+  "useful": [
+   "overview: records_per_slot ~1.9 then 1.0 exposed the merged-direction period immediately",
+   "daily(wide) / weekly(wide): showed the pre-split level equals the post-split sum and the 01-27 backlog",
+   "slots: pinned the split to 2026-03-09 11:00 and the dump to the 16:45 slot",
+   "raw/channels: showed the zero-placeholder pattern (same-day load holds the counts, next-day load a 0) and that the two records in a slot are distinct directions",
+   "zeros(counter=True): found installation-day and 01-27 camera-wide zero stretches",
+   "compare: steady ratio to tube site 162 confirmed January levels are real and the 01-26 week is not",
+   "spikes: flagged the 08-29 burst at 574; with ratio=4 revealed public-holiday leisure peaks"
+  ],
+  "not_useful": [
+   "duplicates: flagged March 1-9 'repeats' that are the two directions' records coinciding or zero placeholders, not true duplicates",
+   "doubled: nothing relevant",
+   "events: empty for this period"
+  ],
+  "improve": [
+   "duplicates: compare against the direction's usual record count per load date, and ignore zero placeholders and coincident equal counts of distinct records",
+   "spikes: default thresholds list hundreds of trivial runs at busy zones; sort by excess bikes or add a minimum excess",
+   "daily: returns 'count', while the brief and help say 'total'; align names"
+  ],
+  "add": [
+   "a tool listing, per camera, when each direction started publishing and records-per-slot changes, to spot direction-merge periods directly",
+   "a backlog detector: a single slot holding roughly the sum of a preceding outage's usual riding"
+  ]
+ },
+ "summary": "Counter 383, a camera at the Cooks to Cove Greenway / Marion St crossing, published both directions of every zone under one direction until 2026-03-09 11:00. Totals stay right but the split is wrong, so each site has a two-way series before the split and per-direction series after it. The installation-day zeros (2025-12-29) and the 2026-01-27 outage zeros plus the one-slot backlog dump are set missing, and a one-off 45-minute burst at site 574 on 2026-08-29 is flagged uncertain."
+}

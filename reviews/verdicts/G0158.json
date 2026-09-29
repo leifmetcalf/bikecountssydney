@@ -1,0 +1,138 @@
+{
+  "group": "G0158",
+  "decisions": [
+    {
+      "action": "direction_unreliable",
+      "factor": null,
+      "SITE_SK": 158,
+      "DIRECTION_SK": null,
+      "start": "2023-09-18 00:00",
+      "end": "2023-09-18 12:00",
+      "confidence": "high",
+      "diagnosis": "The direction labels swapped at about 12:15 on 2023-09-18 (tubes apparently reinstalled the other way round); the series switch parts on that date, so the morning before the flip is assigned to the wrong flow, but the total across directions is right.",
+      "evidence": "On 2023-09-18 direction 93 carries both the morning peak (07-08h 187 vs 94's 64) and the evening peak (17-18h 193 vs 71), with a 0/0 slot at 12:15; before that day the 07-08h/17-18h ratio is ~3.1 for 93 and ~0.37 for 94 (Mar-Aug 2023), and from 2023-09-19 on it is ~0.35 for 93 and ~3.2 for 94; daily totals of the two directions are unchanged across the swap."
+    },
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 158,
+      "DIRECTION_SK": null,
+      "start": "2022-02-19",
+      "end": "2022-02-19",
+      "confidence": "high",
+      "diagnosis": "Every bike was counted twice for this one day in both directions: every non-zero slot is even, at about twice the level of the surrounding weekend days.",
+      "evidence": "0 odd slots of 70 (dir 93) and 75 (dir 94) non-zero slots; totals 612/520 vs 350/316 on Sun 20th; doubled() level 2.28/2.13; last odd slot 2022-02-18 23:30-23:45, first odd again 2022-02-20 01:00-01:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 158,
+      "DIRECTION_SK": 93,
+      "start": "2024-03-07 00:00",
+      "end": "2024-03-08 12:00",
+      "confidence": "medium",
+      "diagnosis": "Direction 93 (the SE flow after the 2023-09-18 label swap) undercounted all of 7 March (1-6 per slot at peaks, often a flat 1) and then read 0 until midday on the 8th; the riders it missed were not recorded anywhere, so they cannot be recovered.",
+      "evidence": "Dir 93 on 2024-03-07: 193 bikes, 17:00 hour 20 vs usual ~110, 08:00 hour 15 vs ~42, 14:00-16:15 exactly 1 per slot; dir 94 normal that day (579, not inflated); dir 93 0 from 22:45 on the 7th to 12:00 on the 8th, back to 5-25 per slot from 12:15."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 158,
+      "DIRECTION_SK": 94,
+      "start": "2024-03-07 22:45",
+      "end": "2024-03-08 12:00",
+      "confidence": "medium",
+      "diagnosis": "The counter stopped recording overnight and through a weekday morning peak (both tubes); the missed bikes cannot be recovered.",
+      "evidence": "Dir 94 on 2024-03-08 00:00-12:00: 11 bikes total in 0-2 per slot across the 07:00-09:00 peak that usually carries ~220; normal counts resume at 12:15."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 158,
+      "DIRECTION_SK": null,
+      "start": "2024-05-23 00:00",
+      "end": "2024-05-23 13:30",
+      "confidence": "high",
+      "diagnosis": "The counter reported 0 in both directions through the morning peak while bikes were passing, so the missed bikes cannot be recovered.",
+      "evidence": "Both directions 0 from 00:00 to 13:30 on Thu 2024-05-23 (usual ~450 bikes in those daytime hours), normal counts from 13:45; day totals 361/149 vs ~500 on nearby weekdays."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 158,
+      "DIRECTION_SK": null,
+      "start": "2025-10-23",
+      "end": "2025-10-23",
+      "confidence": "high",
+      "diagnosis": "A network-wide feed outage left the whole day at 0 in both directions; the counts are lost.",
+      "evidence": "Both directions 0 all 96 slots on Thu 2025-10-23 (usual ~900 bikes a day); network() shows 37 sites at 0 that day vs 0-3 on the days around it; 489/466 the next day."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 158,
+      "name": "North West (citybound)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 155,
+          "DIRECTION_SK": 93,
+          "start": null,
+          "end": "2023-09-17"
+        },
+        {
+          "COUNTER_SK": 155,
+          "DIRECTION_SK": 94,
+          "start": "2023-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "The citybound flow has the weekday morning peak; it is labelled 93 until 2023-09-17 (07-08h/17-18h ratio ~3) and 94 from 2023-09-18 12:15 (ratio ~3.2), with the mirror image in the other label and a steady site total."
+    },
+    {
+      "SITE_SK": 158,
+      "name": "South East (outbound)",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 155,
+          "DIRECTION_SK": 94,
+          "start": null,
+          "end": "2023-09-17"
+        },
+        {
+          "COUNTER_SK": 155,
+          "DIRECTION_SK": 93,
+          "start": "2023-09-18",
+          "end": null
+        }
+      ],
+      "evidence": "The outbound flow has the weekday evening peak; it is labelled 94 until 2023-09-17 and 93 from 2023-09-18 12:15, after the label swap."
+    }
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: showed full coverage, 1 record per slot, and one low month (July 2022), which turned out to be real",
+      "zeros(counter=True): picked out the three daytime outages straight away",
+      "doubled: found the single all-even day 2022-02-19",
+      "slots: slot detail showed the 2024-03-07 dir 93 undercount (a flat 1 per slot) and where each outage started and ended",
+      "hourly: compared the 2024-03-07 profile with normal weeks",
+      "weather: 93 mm of rain on 2022-07-02 and more over the next days explain the July 2022 dip",
+      "network: confirmed that 2025-10-23 was a network-wide outage"
+    ],
+    "not_useful": [
+      "duplicates: empty, since the counter always has one record per slot",
+      "events: nothing listed for this site"
+    ],
+    "improve": [
+      "zeros: add a flag for partial undercount (a direction far below its usual level but not 0), like dir 93 on 2024-03-07, which zeros only caught through the overnight tail",
+      "spikes: the many one-slot Friday ~22:00 bursts of 20-30 look like stadium or event crowds; showing the weekday or a link to events would help"
+    ],
+    "add": [
+      "a per-day tool for direction share against the usual share for that weekday, to flag a single tube failing while the other reads normally",
+      "a tool that tracks each direction's morning/evening peak ratio over time and flags when the labels swap: I missed the 2023-09-18 swap because monthly totals and balance stayed level"
+    ]
+  },
+  "summary": "Site 158 (Alison Rd shared path, Metrocount tube) has an unusually clean, complete record from June 2021 to September 2026, with directions well balanced and the level trending up. Five fixes: halve the double-counted day 2022-02-19, and set missing the 2024-03-07/08 tube fault (dir 93 undercount then an outage in both directions), the morning outage on 2024-05-23 and the network-wide 0 day on 2025-10-23. The July 2022 dip comes from heavy rain and stands, as do the short Friday-night bursts and the 2022-02-16 morning surge. The direction labels swapped at midday on 2023-09-18, so the NW (citybound) and SE series switch from 93/94 to 94/93 on that date, and the morning of the swap day is marked direction_unreliable."
+}

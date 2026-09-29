@@ -1,0 +1,1665 @@
+{
+  "group": "G0493",
+  "decisions": [
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 493,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 493,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 493,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 493,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 493,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 493,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 493,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 494,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 494,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 494,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 494,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 494,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 494,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 494,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 495,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 495,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 495,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 495,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 495,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 495,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 495,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 496,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 496,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 496,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 496,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 496,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 496,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 496,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 497,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 497,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 497,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 497,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 497,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 497,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 497,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 498,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 498,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 498,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 498,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 498,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 498,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 498,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 499,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 499,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 499,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 499,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 499,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 499,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 499,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 500,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 500,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 500,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 500,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 500,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 500,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 500,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 501,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 501,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 501,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 501,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 501,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 501,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 501,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 502,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 502,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 502,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 502,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 502,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 502,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 502,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 503,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 503,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 503,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 503,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 503,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 503,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 503,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 504,
+      "DIRECTION_SK": null,
+      "start": "2025-06-15",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "From 2025-06-15 the feed stops publishing zero direction-days, and from November 2025 some zero slots within days as well; the absent values are zeros.",
+      "evidence": "Before 2025-06-15: 1296 of 8884 direction-days are published with a total of 0 and every direction-day has 96 slots. From 2025-06-15: only 26 zero-total days out of 8939, and 566 part-days, all from 2025-11. On every day the counter publishes, all 96 slots are covered by some direction. The low-volume zones (1498, 1573, 1574, 1570, 1572) lose most of their days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 504,
+      "DIRECTION_SK": null,
+      "start": "2024-06-07 00:00",
+      "end": "2024-06-07 16:30",
+      "confidence": "high",
+      "diagnosis": "The camera was being commissioned: every zone is 0 until 16:45 on its first day, and the real counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all published directions are 0 from 2024-06-07 00:00 to 16:30 (10.75 daytime hours, usual 37 bikes). Only 7 of the 24 directions publish that day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 504,
+      "DIRECTION_SK": null,
+      "start": "2025-10-02 15:15",
+      "end": "2025-10-02 23:45",
+      "confidence": "high",
+      "diagnosis": "The camera failed: every zone reads 0 on a dry Thursday afternoon, just before a five-week gap with no data, so the counts cannot be recovered.",
+      "evidence": "All 20 published directions are 0 from 15:15 (usual 74 bikes, 0 mm rain). There is no data from 2025-10-03 to 2025-11-09."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 504,
+      "DIRECTION_SK": null,
+      "start": "2025-11-10 00:00",
+      "end": "2025-11-10 20:45",
+      "confidence": "high",
+      "diagnosis": "The camera came back after the five-week outage at about 21:00; the zeros published before then are padding, not counts, and cannot be recovered.",
+      "evidence": "Only 5 directions publish on 2025-11-10, all 0 until 20:45 (usual 84 bikes, 0 mm rain), then 17 bikes from 21:00. The next day is normal (274 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 504,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05 00:00",
+      "end": "2026-08-05 12:15",
+      "confidence": "high",
+      "diagnosis": "The camera came back after an outage (no data 2026-07-29 to 2026-08-04); every zone reads 0 all morning on a dry weekday, and the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): 2026-08-05 00:00-12:15 is 0 in all directions (6.5 daytime hours, usual 79 bikes, 0 mm rain). Counts resume from 12:30, and 08-06 is normal."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 504,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 14:45",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day was downloaded while still in progress: the slots after about 14:45 are zero-filled rather than counted, and cannot be recovered from this download.",
+      "evidence": "All 21 directions are 0 from 14:45 to 23:45 (usual 72 bikes). Every record for 2026-09-26 was added on 2026-09-26, and network() shows the whole dataset only partly loaded on 09-25 and 09-26.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 504,
+      "DIRECTION_SK": null,
+      "start": "2024-09-27",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "The camera's zone and classification setup appears to have changed during the all-zone outage of 2024-09-26 18:00 to 09-27 05:30; the counts step up and the IN/OUT balance breaks, and it is unclear which regime is right.",
+      "evidence": "Camera bikes per day are about 112 in Aug-Sep 2024 and 185-208 from Oct 2024. The ratio to the Dobroyd Pde tube (site 160) steps from 0.17 to 0.26-0.30, and IN/OUT moves from 0.94-1.06 to 1.34-1.50, where the camera should give about 1. By zone: 1459 goes from about 15/day to about 5/day while 1481, 1462, 1471 and 1456 rise, and the hourly profiles change (1459 loses its evening peak)."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 501,
+      "DIRECTION_SK": 1516,
+      "start": "2026-05-07 19:00",
+      "end": "2026-05-07 19:00",
+      "confidence": "low",
+      "diagnosis": "A single slot of 81 bikes heading in on Broughton St with no matching outbound flow in any zone; it could be a group ride or a misdetection.",
+      "evidence": "1516 at 19:00 counted 81 bikes against a usual level of 0-1; 1459 counted 2 and no other zone had more than 1. By contrast, other bunches (2025-09-24 07:15, 2026-03-03 10:00, 2026-09-05 07:15) show matching IN and OUT counts."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 493,
+      "name": "Broughton St crossing - SW of Gipps St: South East OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1565,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 493,
+      "name": "Broughton St crossing - SW of Gipps St: South East OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1565,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 493,
+      "name": "Broughton St crossing - SW of Gipps St: North West IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1569,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 493,
+      "name": "Broughton St crossing - SW of Gipps St: North West IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1569,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 494,
+      "name": "Broughton St (W) - S of Gipps St: South OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1481,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 494,
+      "name": "Broughton St (W) - S of Gipps St: South OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1481,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 494,
+      "name": "Broughton St (W) - S of Gipps St: North IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1509,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 494,
+      "name": "Broughton St (W) - S of Gipps St: North IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1509,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 495,
+      "name": "Gipps St (SW) - NW of Broughton St: South East IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1566,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 495,
+      "name": "Gipps St (SW) - NW of Broughton St: South East IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1566,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 495,
+      "name": "Gipps St (SW) - NW of Broughton St: North West OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1571,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 495,
+      "name": "Gipps St (SW) - NW of Broughton St: North West OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1571,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 496,
+      "name": "Gipps St crossing - NW of Broughton St: South West NONE (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1464,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 496,
+      "name": "Gipps St crossing - NW of Broughton St: South West NONE (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1464,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 496,
+      "name": "Gipps St crossing - NW of Broughton St: North East NONE (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1520,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 496,
+      "name": "Gipps St crossing - NW of Broughton St: North East NONE (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1520,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 497,
+      "name": "Gipps St (NE) - NW of Broughton St: South East IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1573,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 497,
+      "name": "Gipps St (NE) - NW of Broughton St: South East IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1573,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 497,
+      "name": "Gipps St (NE) - NW of Broughton St: North West OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1574,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 497,
+      "name": "Gipps St (NE) - NW of Broughton St: North West OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1574,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 498,
+      "name": "Broughton St (NW) - NE of Gipps St: North East OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1462,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 498,
+      "name": "Broughton St (NW) - NE of Gipps St: North East OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1462,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 498,
+      "name": "Broughton St (NW) - NE of Gipps St: South West IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1508,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 498,
+      "name": "Broughton St (NW) - NE of Gipps St: South West IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1508,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 499,
+      "name": "Broughton St crossing - NE of Gipps St: North West IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1567,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 499,
+      "name": "Broughton St crossing - NE of Gipps St: North West IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1567,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 499,
+      "name": "Broughton St crossing - NE of Gipps St: South East OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1568,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 499,
+      "name": "Broughton St crossing - NE of Gipps St: South East OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1568,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 500,
+      "name": "Gipps St crossing - SE of Broughton St: North East NONE (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1570,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 500,
+      "name": "Gipps St crossing - SE of Broughton St: North East NONE (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1570,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 500,
+      "name": "Gipps St crossing - SE of Broughton St: South West NONE (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1572,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 500,
+      "name": "Gipps St crossing - SE of Broughton St: South West NONE (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1572,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 501,
+      "name": "Broughton St - S of Gipps St: South OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1459,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 501,
+      "name": "Broughton St - S of Gipps St: South OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1459,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 501,
+      "name": "Broughton St - S of Gipps St: North IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1516,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 501,
+      "name": "Broughton St - S of Gipps St: North IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1516,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 502,
+      "name": "Gipps St - NW of Broughton St: North West OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1456,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 502,
+      "name": "Gipps St - NW of Broughton St: North West OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1456,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 502,
+      "name": "Gipps St - NW of Broughton St: South East IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1473,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 502,
+      "name": "Gipps St - NW of Broughton St: South East IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1473,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 503,
+      "name": "Broughton St - NE of Gipps St: South West IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1452,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 503,
+      "name": "Broughton St - NE of Gipps St: South West IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1452,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 503,
+      "name": "Broughton St - NE of Gipps St: North East OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1454,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 503,
+      "name": "Broughton St - NE of Gipps St: North East OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1454,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 504,
+      "name": "Gipps St - SE of Broughton St: North West IN (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1471,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 504,
+      "name": "Gipps St - SE of Broughton St: North West IN (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1471,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 504,
+      "name": "Gipps St - SE of Broughton St: South East OUT (to 2024-09-26)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1498,
+          "start": null,
+          "end": "2024-09-26"
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    },
+    {
+      "SITE_SK": 504,
+      "name": "Gipps St - SE of Broughton St: South East OUT (from 2024-09-27)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 322,
+          "DIRECTION_SK": 1498,
+          "start": "2024-09-27",
+          "end": null
+        }
+      ],
+      "evidence": "Single camera zone. Split at the apparent reconfiguration during the 2024-09-26/27 outage: the camera's total steps up by about 65% against the Dobroyd Pde tube, and IN/OUT goes from about 1.0 to 1.4, so levels either side may not be comparable."
+    }
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "counter_days: showed the zero-omission era (directions per day falling from 24 to 14-23 after 2025-06-15), the absent days, and the IN/OUT imbalance that exposed the Sept 2024 step",
+      "zeros(counter=True): found every all-zone outage stretch, which weather() then separated from rainy days",
+      "network: separated the feed-wide 2025-07-01/02 drop (heavy rain) and the partial final download from faults at this camera",
+      "compare: the ratio to the Dobroyd Pde tube confirmed the step change at the end of Sept 2024",
+      "duplicates: showed the 2024-11-29 duplicates repeat only zeros, so no change is needed",
+      "hourly: showed the zone profiles changing across the Sept 2024 step"
+    ],
+    "not_useful": [
+      "zeros per direction: the camera zones carry 0-15 bikes a day, so multi-day zero stretches are normal and the list is mostly noise",
+      "absent_zeros: flagged only the tiny zones, and counter_days showed the omission more clearly",
+      "doubled: nothing found"
+    ],
+    "improve": [
+      "zeros: add rain_mm for the day to each stretch, since most all-zone stretches here were storms",
+      "daily: name the count column consistently (it is 'count' in daily but 'bikes' in counter_days)",
+      "meta: SITE_SK is a string in meta()['sites'] but an integer elsewhere",
+      "compare: allow comparing a whole counter (all its sites) against another site, not only one site"
+    ],
+    "add": [
+      "a step detector: per counter, the ratio of daily totals to a stable reference site and the IN/OUT balance, with the change points marked",
+      "a tool listing, per counter, the days on which each direction is absent while the counter publishes, split by pre- and post-zero-omission era"
+    ]
+  },
+  "summary": "G0493 is one Secure Agility camera (counter 322) at Gipps St / Broughton St, Concord, split into 12 low-volume zones. From 2025-06-15 the feed omits zero direction-days, and from November 2025 some zero slots, so this needs zero_fill; five all-zone zero stretches (commissioning, the start and end of the 2025-10/11 outage, the 2026-08 restart, and the partial last day) are set missing, while the other all-zone zero stretches fall on heavy-rain days and stand. The camera's totals and IN/OUT balance step at 2024-09-27, apparently a reconfiguration, so each zone's series is split there and the later period is flagged uncertain."
+}

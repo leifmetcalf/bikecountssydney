@@ -1,0 +1,558 @@
+{
+ "group": "G0098",
+ "decisions": [
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-09-26 00:00",
+   "end": "2012-09-26 14:30",
+   "confidence": "high",
+   "diagnosis": "Counter installed mid-afternoon on its first day; the zeros before that are not counts and cannot be recovered.",
+   "evidence": "Both directions 0 until 15:00, then 68 has a normal PM peak (26/h)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-10-04 07:15",
+   "end": "2012-10-04 17:00",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; 0 rain; 68 zero 07:15-17:00, 67 near-zero; day totals 35/16 vs ~140/130 on neighbouring weekdays; 66 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-10-15 09:30",
+   "end": "2012-10-15 13:15",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 27 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-10-18 08:45",
+   "end": "2012-10-18 12:45",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 31 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-10-26 06:15",
+   "end": "2012-10-26 11:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; AM peak cut, 75 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-10-29 07:30",
+   "end": "2012-10-29 12:15",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 67 19,14 in hours 5-6 then 0; 53 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-10-30 06:30",
+   "end": "2012-10-30 14:00",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 86 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-11-06 07:30",
+   "end": "2012-11-06 11:15",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 47 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-11-07 06:30",
+   "end": "2012-11-07 12:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 67 32 in hour 5 then 0; 78 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-11-08 06:45",
+   "end": "2012-11-08 11:30",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; 64 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-11-09 06:45",
+   "end": "2012-11-09 12:30",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; 71 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-11-27 06:45",
+   "end": "2012-11-27 11:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; 66 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-11-30 06:45",
+   "end": "2012-11-30 13:30",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; 78 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-12-07 08:45",
+   "end": "2012-12-07 14:30",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 43 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-12-17 07:00",
+   "end": "2012-12-19 12:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; days 39/22, 8/5, 15/18 vs ~60-80 per direction, counts only in isolated slots; 250 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2012-12-20 07:00",
+   "end": "2012-12-20 11:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 61 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-01-10 08:00",
+   "end": "2013-01-10 12:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 46 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-01-11 07:15",
+   "end": "2013-01-11 11:15",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 52 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-01-17 07:30",
+   "end": "2013-01-17 14:00",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 67 21,32 in hours 5-6 then 0; 65 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-01-18 07:15",
+   "end": "2013-01-18 15:15",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 81 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-01-21 07:00",
+   "end": "2013-01-21 14:15",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 78 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-01-31 07:00",
+   "end": "2013-01-31 13:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 74 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-02-04 09:30",
+   "end": "2013-02-04 13:15",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 27 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-02-08 07:00",
+   "end": "2013-02-08 13:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 67 24 in hour 6 then 0; 74 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-02-11 07:45",
+   "end": "2013-02-11 12:45",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; 51 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-02-14 07:15",
+   "end": "2013-02-14 13:00",
+   "confidence": "high",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; 67 17,10 in 06:45/07:00 slots then 0; 64 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-02-26 09:15",
+   "end": "2013-02-26 13:00",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 27 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-03-07 09:00",
+   "end": "2013-03-07 13:00",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 29 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-03-11 08:30",
+   "end": "2013-03-11 13:00",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 37 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-03-18 08:30",
+   "end": "2013-03-18 13:15",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 67 33 in hour 7 then 0; 38 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-03-19 09:15",
+   "end": "2013-03-19 13:00",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; dry; 27 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2013-04-17 09:45",
+   "end": "2013-04-17 13:30",
+   "confidence": "medium",
+   "diagnosis": "Early-life counter dropout: both directions go dead mid-morning (often right after the AM peak starts) and resume in the afternoon, so riders passing were not recorded and cannot be recovered.",
+   "evidence": "Counter-level zero stretch; 26 usual bikes expected in the window"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 67,
+   "start": "2012-10-04 18:30",
+   "end": "2012-10-05 13:15",
+   "confidence": "medium",
+   "diagnosis": "Direction 67 stayed dead after the counter dropout of 2012-10-04 while 68 recorded riders; its counts cannot be recovered.",
+   "evidence": "67 zero for 19h incl. 9 daytime hours on a dry day while 68 had riders in the morning."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 67,
+   "start": "2012-11-23 06:30",
+   "end": "2012-11-23 13:30",
+   "confidence": "medium",
+   "diagnosis": "Same early-life dropout on direction 67 only, cutting its AM peak.",
+   "evidence": "67 zero 06:30-13:30 on a dry Friday (56 usual) while 68 recorded 67 bikes that day."
+  },
+  {
+   "action": "subtract_other",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 67,
+   "start": "2013-02-15",
+   "end": "2013-02-28",
+   "confidence": "high",
+   "diagnosis": "Direction 67 also registered the riders of direction 68 (its PM peak mirrors 68's slot by slot), roughly doubling it for two weeks.",
+   "evidence": "Daily 67/68 ratio 1.8-2.7 on 2013-02-15..28 vs ~1.0 before and after; a_covers_b 0.97-1.0 every day (0.18-0.43 outside); 67 PM hours 16-17 32/30 vs 68's 24/24, normally 8/6."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2014-03-04",
+   "end": "2014-04-27",
+   "confidence": "low",
+   "diagnosis": "Both directions collapse to near zero in dry weather and recover gradually over seven weeks; could be a path closure/detour (real) or a failing sensor, and the data does not settle which.",
+   "evidence": "Weekly total 154 (w/c 2014-03-10) vs ~1480 in Feb; ratio to Anzac Br (103) falls 0.14 -> 0.013 and climbs back to 0.14 by end of April; 2014-03-14 had 1 bike each way."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2014-10-30 22:45",
+   "end": "2014-11-07 04:00",
+   "confidence": "high",
+   "diagnosis": "Week-long outage of the counter/feed reported as zeros while riders passed; nothing to recover.",
+   "evidence": "14-15 sites network-wide at 0/warning 2014-10-31..11-06 vs 9 either side"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2017-05-19 12:45",
+   "end": "2017-05-26 12:45",
+   "confidence": "high",
+   "diagnosis": "Week-long outage of the counter/feed reported as zeros while riders passed; nothing to recover.",
+   "evidence": "28 sites network-wide at 0/warning 2017-05-20..25 vs ~10 either side"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2019-03-22 11:45",
+   "end": "2019-03-29 11:45",
+   "confidence": "high",
+   "diagnosis": "Week-long outage of the counter/feed reported as zeros while riders passed; nothing to recover.",
+   "evidence": "exactly 7 days of zero in both directions; ~20 sites at 0 network-wide"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 67,
+   "start": "2018-10-10",
+   "end": "2019-05-05",
+   "confidence": "high",
+   "diagnosis": "Direction 67's sensor failed intermittently: it records nothing for most of each night and morning, losing nearly its whole citybound AM peak, while 68 keeps its usual level; the lost riders cannot be recovered.",
+   "evidence": "67 AM (06-09) mostly 0-15 vs 50-80 in Sep 2018 while 68 AM unchanged; 67/68 weekly ratio 0.28-0.6 vs ~1.05 before and after; dozens of 67-only zero stretches running ~17:00 to ~10:00."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 67,
+   "start": "2019-05-06",
+   "end": "2019-08-25",
+   "confidence": "low",
+   "diagnosis": "Direction 67 largely recovered (AM peak 40-75) but still has intermittent dead days in this spell of the same fault.",
+   "evidence": "Weekly 67/68 ratio mostly 0.9-1.2, but 2019-06-10, 06-13, 07-04..07-08 have 67 totals 10-23 vs 68 35-90."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 67,
+   "start": "2019-07-04",
+   "end": "2019-07-08",
+   "confidence": "medium",
+   "diagnosis": "Direction 67 dead again for five days within the partial recovery.",
+   "evidence": "67 day totals 16,11,14,10,13 vs 68 48,35,51,43,82 and 67 ~80-100 on the weeks either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 67,
+   "start": "2019-08-26",
+   "end": "2020-03-20",
+   "confidence": "high",
+   "diagnosis": "The intermittent failure of direction 67 returned: its AM peak disappears again and many days are mostly zero; the counts cannot be recovered.",
+   "evidence": "67 AM (06-09) mostly 0-10 vs 40-70 in Jul-Aug 2019; weekly 67/68 ratio 0.19-0.8; frequent 67-only overnight-to-morning zero stretches."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 68,
+   "start": "2019-05-27",
+   "end": "2019-06-05",
+   "confidence": "medium",
+   "diagnosis": "Direction 68 dropped most of its riders (PM peak nearly gone) in dry weather while 67 counted normally; lost counts cannot be recovered.",
+   "evidence": "68 days 15,34,29,28,34,22,42,39,12,34 with PM peak 0-16 vs ~50 and ~90/day before; 67 normal (78-98) and 0 rain on 05-27..29."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": 68,
+   "start": "2018-10-10",
+   "end": "2020-03-20",
+   "confidence": "low",
+   "diagnosis": "The counter was faulty on 67 throughout this era and 68's AM counter-flow is sometimes suspiciously low, so 68 may also under-count at times.",
+   "evidence": "68 AM (06-09) often 0-6 in May 2019 and Oct-Dec 2019 vs ~15 normally; monthly 68 55-95/day."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2020-03-20 11:45",
+   "end": "2020-03-20 23:45",
+   "confidence": "high",
+   "diagnosis": "Counter stopped mid-day on a dry weekday before the 14-month gap in the record.",
+   "evidence": "Both directions 0 from 11:45 on a dry 35C Friday; next data 2021-05."
+  },
+  {
+   "action": "scale",
+   "factor": 0.5,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2022-02-19",
+   "end": "2022-02-19",
+   "confidence": "high",
+   "diagnosis": "Every bike was counted twice on this day: all non-zero counts in both directions are even at about twice the usual Saturday level.",
+   "evidence": "41 and 43 non-zero slots all even (odd_slots 0 vs 22-29 on adjacent days); totals 206/158 vs 76/57 the previous Saturday; doubled() level 2.8/2.2."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 98,
+   "DIRECTION_SK": null,
+   "start": "2025-10-22 22:30",
+   "end": "2025-10-24 04:30",
+   "confidence": "high",
+   "diagnosis": "Feed-wide outage reported as zeros.",
+   "evidence": "37 sites at 0 and 39 with warnings network-wide on 2025-10-23 vs ~3 either side; dry day."
+  }
+ ],
+ "series": [],
+ "proposals": [],
+ "tools": {
+  "useful": [
+   "overview: exposed the 2018-10..2020-03 split between directions and the Feb 2013 surge at a glance",
+   "zeros(counter=True): listed the early-life daytime dropouts and the week-long outages",
+   "directions(by='day'): a_covers_b of 0.97-1.0 pinned the Feb 2013 double-counting of 68 into 67 to exact days",
+   "network: confirmed the week-long zero spells were feed-wide",
+   "doubled: found the single doubled day 2022-02-19",
+   "compare: showed the March 2014 collapse was specific to this site",
+   "weather: separated storm zeros from dry-day faults"
+  ],
+  "not_useful": [
+   "duplicates: single-channel counter, nothing to find",
+   "spikes: only isolated one-slot bursts of 20-39, plausibly real groups"
+  ],
+  "improve": [
+   "zeros: add rain_mm and a weekday flag so dry-weekday dropouts stand out without a separate join",
+   "hourly: an option to return per-day hourly vectors would save hand-rolled pivots"
+  ],
+  "add": [
+   "a per-day AM/PM peak table per direction (bikes in 06-09 and 16-19) with a ratio to the direction's recent median, to date partial sensor failures like direction 67 in 2018-2020"
+  ]
+ },
+ "summary": "A single Metrocount piezo on the Iron Cove Bridge path, mostly sound but with early-life (2012-13) daytime dropouts, a two-week spell in Feb 2013 where direction 67 also counted 68's riders, feed-wide week-long outages, and a doubled day on 2022-02-19. Direction 67 failed intermittently from Oct 2018 to the March 2020 gap, losing most of its citybound AM peak, so it is set missing except a partly recovered spell in mid-2019 flagged uncertain. The March-April 2014 collapse in both directions may be a closure or a fault and is left uncertain; no series definitions are needed."
+}

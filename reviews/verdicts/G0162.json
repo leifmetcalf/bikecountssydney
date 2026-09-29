@@ -1,0 +1,466 @@
+{
+  "group": "G0162",
+  "decisions": [
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2022-02-19",
+      "end": "2022-02-19",
+      "confidence": "high",
+      "diagnosis": "Feed-wide doubling on this day: every count at site 162 is even and the day is ~2x, as at neighbouring sites 160, 98 and 174 on the same date.",
+      "evidence": "All 113 non-zero slots even (doubled level 2.5/2.4); 162 total 978 vs 314-579 on nearby days; sites 160, 98, 174 also all-even on 2022-02-19."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2022-03-09",
+      "end": "2022-04-09",
+      "confidence": "high",
+      "diagnosis": "Tube counter 104 stopped registering riders every night to midday (and on some whole days) while counting normally in warm afternoons; the lost counts cannot be recovered.",
+      "evidence": "05:00-10:00 counts 0 on every day 2022-03-09..04-01 (Feb weekdays ~150); first count of day 11:30-17:15; whole-day zeros with warning status on dry days 03-14, 03-24/25, 03-29, 03-31, 04-01, 04-07; ratio to site 160 fell from 0.45 to 0.13-0.23."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2022-04-10",
+      "end": "2022-05-13",
+      "confidence": "low",
+      "diagnosis": "Counter 104 mornings stay depressed after the March failure (possible partial loss of sensitivity), but school holidays/Easter and rain also shift riding to afternoons.",
+      "evidence": "AM/PM ratio 0.22-0.47 vs 0.7-0.9 in Jan-Feb 2022 and 0.73-0.86 from mid-May; first count of the day ~06:00-07:45 vs 00:15-04:30 from 2022-05-14; ratio to site 160 0.32-0.38 vs ~0.45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2022-08-08",
+      "end": "2022-08-15",
+      "confidence": "high",
+      "diagnosis": "Counter 148 reported zeros (warning status) for a week while bikes passed; unrecoverable.",
+      "evidence": "Both directions 0 from 2022-08-07 21:15 to 2022-08-15 16:15; site 160 had 285-799 bikes/day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2023-07-11",
+      "end": "2023-07-20",
+      "confidence": "high",
+      "diagnosis": "Counter 148 reported zeros (mostly warning status) while bikes passed; unrecoverable.",
+      "evidence": "Both directions 0 from 2023-07-11 13:30 to 2023-07-20 16:15 (partial days either end: 96/76 and 33/49); site 160 normal 447-650/day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2024-05-22",
+      "end": "2024-05-23",
+      "confidence": "high",
+      "diagnosis": "Counter 148 reported zeros (warning) while bikes passed; unrecoverable.",
+      "evidence": "0 from 2024-05-21 22:00 to 2024-05-23 15:15; site 160 673/678 bikes those days."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2025-06-19",
+      "end": "2025-06-25",
+      "confidence": "medium",
+      "diagnosis": "Both directions of counter 148 dropped to ~30% of normal on dry days, starting mid-morning 06-19 and recovering abruptly 06-25 17:00, while site 160 was normal: a partial counter fault or a local path closure/detour.",
+      "evidence": "Daily 597/617 ~40-60 vs 100-230 before and after; site 160 395-890/day unchanged."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2025-10-23",
+      "end": "2025-10-23",
+      "confidence": "high",
+      "diagnosis": "Feed-wide outage: the whole day is 0 with warning status at 37 sites including 162 and 160.",
+      "evidence": "network(): 37 zero sites on 2025-10-23 vs 0-3 on adjacent days; 162 had 248-283 bikes on 10-22/10-24."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2025-11-03",
+      "end": "2025-11-11",
+      "confidence": "high",
+      "diagnosis": "Counter 148 stopped counting (zeros, warning status) until it was reinstalled on 2025-11-11; unrecoverable.",
+      "evidence": "0 from 2025-11-03 09:45 to 2025-11-11 13:30; site 160 5483 bikes that week."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 162,
+      "DIRECTION_SK": null,
+      "start": "2025-12-13",
+      "end": null,
+      "confidence": "low",
+      "diagnosis": "Counter 148 at site 162 stepped to 2-3x its long-run level from 2025-12-13 with no gap or reinstall and no matching change at nearby site 160; median speeds are unchanged (~20 km/h, so not pedestrians) and the new level persists with normal seasonality, so it may be a real local change (new link or diversion), but a counting change cannot be ruled out.",
+      "evidence": "Weekly both directions ~2400-2800 before vs 5000-11000 after; ratio to site 160 steady 0.44-0.55 for 2021-2025, ~0.9-1.4 after; overnight counts unchanged, weekend midday up ~3x; odd counts normal, 1 record per slot."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2021-03-11",
+      "end": "2021-03-15",
+      "confidence": "high",
+      "diagnosis": "Counter 148 installation days: near-zero counts (warning on 77) before the counter began registering normally on 2021-03-16.",
+      "evidence": "Daily 4/14, 0/1, 0/2, 0/2, 3/14 vs 23/62 from 03-16; zeros 03-11 12:45 to 03-15 14:15."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2022-02-13",
+      "end": "2022-02-20",
+      "confidence": "high",
+      "diagnosis": "Counter 211 reported zeros (warning status) while bikes passed; unrecoverable.",
+      "evidence": "0 from 2022-02-13 07:45 to 2022-02-21 02:15; 33/59 the day before, 47/100 after."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2022-09-06",
+      "end": "2022-09-06",
+      "confidence": "high",
+      "diagnosis": "Counter 211 reported (near) zeros for the day (warning on 250) before a gap with no data.",
+      "evidence": "0/5 bikes vs 34/74 the day before; zero 07:15-23:45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2022-09-13",
+      "end": "2022-09-13",
+      "confidence": "medium",
+      "diagnosis": "Counter 211 restarted mid-day after a gap; the morning is zero, so the day's total is short.",
+      "evidence": "Zero 00:00-12:45; 27/42 vs 41/73 next day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2023-05-16",
+      "end": "2023-06-05",
+      "confidence": "high",
+      "diagnosis": "Counter 211 reported zeros (warning status) for three weeks while bikes passed; unrecoverable.",
+      "evidence": "0 from 2023-05-16 10:15 to 2023-06-05 11:15; 59/111 before, 51/98 after."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2024-03-16",
+      "end": "2024-03-21",
+      "confidence": "medium",
+      "diagnosis": "Counter 211 failed: West (250) reported zeros with warning status and East (252) fell to 1-28 a day, so the totals are not real.",
+      "evidence": "250: 18,0,0,0,0,80; 252: 89,28,2,1,1,113 vs 131/212 on 03-15 and 104/217 on 03-22; counter-level zeros 03-17 19:00 to 03-21 08:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2024-08-05",
+      "end": "2024-08-12",
+      "confidence": "high",
+      "diagnosis": "Counter 211 reported zeros (warning status) while bikes passed; unrecoverable.",
+      "evidence": "0 from 2024-08-05 10:15 to 2024-08-12 09:45; ~50/100 either side."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2025-01-03",
+      "end": "2025-01-09",
+      "confidence": "high",
+      "diagnosis": "Counter 211 reported zeros (warning status) while bikes passed; unrecoverable.",
+      "evidence": "0 from 2025-01-03 05:45 to 2025-01-09 10:00; 56/122 before, 82/165 after."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2025-06-09",
+      "end": "2025-06-12",
+      "confidence": "high",
+      "diagnosis": "Counter 211 reported zeros (warning status) while bikes passed; unrecoverable.",
+      "evidence": "0 from 2025-06-09 09:30 to 2025-06-12 14:30."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2025-06-22",
+      "end": "2025-06-30",
+      "confidence": "high",
+      "diagnosis": "Counter 211 reported zeros (warning status) while bikes passed; unrecoverable.",
+      "evidence": "0 from 2025-06-22 10:15 to 2025-06-30 14:30; ~110/200 per day either side."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2025-10-09",
+      "end": "2025-10-23",
+      "confidence": "high",
+      "diagnosis": "Counter 211 reported zeros (warning status) for two weeks while bikes passed; unrecoverable.",
+      "evidence": "0 from 2025-10-09 05:30 to 2025-10-24 01:00; 127/244 before, 115/262 after."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2025-12-15",
+      "end": "2025-12-16",
+      "confidence": "medium",
+      "diagnosis": "Counter 211 reported zeros for a day while bikes passed.",
+      "evidence": "0 from 2025-12-15 10:00 to 2025-12-16 12:45; 10/43 and 88/143 vs 95/204 and 116/232 either side."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2026-01-30",
+      "end": "2026-01-30",
+      "confidence": "high",
+      "diagnosis": "Counter 211 zero from early morning before a gap with no data (counter removed/down).",
+      "evidence": "2/2 bikes vs 140/277 the day before; zero 05:30-23:45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2026-02-11",
+      "end": "2026-02-11",
+      "confidence": "medium",
+      "diagnosis": "Counter 211 restarted at 17:00 after a gap; the day's total is short.",
+      "evidence": "Zero 00:00-17:00; 41/97 vs 100/232 next day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2026-05-29",
+      "end": "2026-05-29",
+      "confidence": "high",
+      "diagnosis": "Counter 211 zero from early morning before a gap with no data.",
+      "evidence": "4/1 bikes vs 82/173 the day before; zero 05:00-23:45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 175,
+      "DIRECTION_SK": null,
+      "start": "2026-06-09",
+      "end": "2026-06-09",
+      "confidence": "medium",
+      "diagnosis": "Counter 211 restarted at 13:30 after a gap (reinstall); the day's total is short.",
+      "evidence": "Zero 00:00-13:30; 159/106 vs 257/154 next day."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 162,
+      "name": "Hawthorne Canal North (counter 104)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 104,
+          "DIRECTION_SK": 81,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Counter 104's two directions have near-identical hourly profiles and speeds, so they cannot be matched to counter 148's unlabelled directions 597/617; kept separate."
+    },
+    {
+      "SITE_SK": 162,
+      "name": "Hawthorne Canal South (counter 104)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 104,
+          "DIRECTION_SK": 82,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "As above: no way to tell which counter-148 direction carries the same flow."
+    },
+    {
+      "SITE_SK": 162,
+      "name": "Hawthorne Canal AM-peak direction (counter 148, to 2025-12-12)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 148,
+          "DIRECTION_SK": 597,
+          "start": "2022-06-01",
+          "end": "2025-11-02"
+        },
+        {
+          "COUNTER_SK": 148,
+          "DIRECTION_SK": 617,
+          "start": "2025-11-11",
+          "end": "2025-12-12"
+        }
+      ],
+      "evidence": "Before the 2025-11-03..11 outage 597 was AM-heavy (weekday 06-09h 35 vs 16-19h 29 in 2025) and faster (~21-22.8 vs ~20 km/h); after the reinstall on 2025-11-11 617 is AM-heavy (54 vs 36) and 597 PM-heavy (41 vs 55), so the labels swapped at the reinstall."
+    },
+    {
+      "SITE_SK": 162,
+      "name": "Hawthorne Canal PM-peak direction (counter 148, to 2025-12-12)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 148,
+          "DIRECTION_SK": 617,
+          "start": "2022-06-01",
+          "end": "2025-11-02"
+        },
+        {
+          "COUNTER_SK": 148,
+          "DIRECTION_SK": 597,
+          "start": "2025-11-11",
+          "end": "2025-12-12"
+        }
+      ],
+      "evidence": "Mirror of the AM-peak series: 617 PM-heavy before the Nov 2025 reinstall, 597 PM-heavy after."
+    },
+    {
+      "SITE_SK": 162,
+      "name": "Hawthorne Canal AM-peak direction (counter 148, from 2025-12-13, new level)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 148,
+          "DIRECTION_SK": 617,
+          "start": "2025-12-13",
+          "end": null
+        }
+      ],
+      "evidence": "Counts stepped to 2-3x on 2025-12-13 with no change at nearby site 160; it is unclear whether the new level is comparable, so it is a separate series. 617 stays AM-heavy (weekday 89 vs 61)."
+    },
+    {
+      "SITE_SK": 162,
+      "name": "Hawthorne Canal PM-peak direction (counter 148, from 2025-12-13, new level)",
+      "confidence": "low",
+      "parts": [
+        {
+          "COUNTER_SK": 148,
+          "DIRECTION_SK": 597,
+          "start": "2025-12-13",
+          "end": null
+        }
+      ],
+      "evidence": "Same level break; 597 stays PM-heavy (50 vs 103)."
+    },
+    {
+      "SITE_SK": 175,
+      "name": "High St West (citybound)",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 148,
+          "DIRECTION_SK": 77,
+          "start": "2021-03-11",
+          "end": "2022-01-18"
+        },
+        {
+          "COUNTER_SK": 211,
+          "DIRECTION_SK": 250,
+          "start": "2022-01-22",
+          "end": "2026-06-08"
+        },
+        {
+          "COUNTER_SK": 211,
+          "DIRECTION_SK": 252,
+          "start": "2026-06-09",
+          "end": null
+        }
+      ],
+      "evidence": "West is the low-volume fast flow (~30-34 km/h median, about half of East) on 148/77 and 211/250 until the 2026-05-29..06-09 gap; from the reinstall on 2026-06-09, 252 is the low-volume fast flow (31.5 km/h, ~110/day) and 250 the high-volume slow one (22.7 km/h), so the labels swapped. Counter 211 continues 148's level (Dec 2021 34/66 vs Jan 2022 35/72)."
+    },
+    {
+      "SITE_SK": 175,
+      "name": "High St East",
+      "confidence": "medium",
+      "parts": [
+        {
+          "COUNTER_SK": 148,
+          "DIRECTION_SK": 78,
+          "start": "2021-03-11",
+          "end": "2022-01-18"
+        },
+        {
+          "COUNTER_SK": 211,
+          "DIRECTION_SK": 252,
+          "start": "2022-01-22",
+          "end": "2026-06-08"
+        },
+        {
+          "COUNTER_SK": 211,
+          "DIRECTION_SK": 250,
+          "start": "2026-06-09",
+          "end": null
+        }
+      ],
+      "evidence": "High-volume slower flow (~18-24 km/h): 148/78, then 211/252, then 211/250 after the June 2026 label swap."
+    }
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: monthly level per direction exposed the March 2022 collapse, the Dec 2025 step at 162 and the June 2026 direction flip at 175",
+      "zeros(counter=True) with a daytime filter: listed every outage with precise start/end times",
+      "compare(162,[160]): a very steady ~0.5 ratio showed counter 104 and 148 read alike, and isolated the Dec 2025 step and the 2022/2025 under-counts to site 162",
+      "raw speeds: unchanged speeds after the Dec 2025 step argued against pedestrians, and swapped speeds confirmed the label swaps",
+      "doubled + network: showed 2022-02-19 was a feed-wide doubling and 2025-10-23 a feed-wide outage",
+      "hourly: AM/PM peak direction revealed the Nov 2025 label swap at 162"
+    ],
+    "not_useful": [
+      "spikes: dominated by the lockdown and post-Dec-2025 level, little new information here",
+      "duplicates: nothing found (1 record per slot throughout)"
+    ],
+    "improve": [
+      "hourly: an option to return one summed row per site or an AM/PM ratio per day/week would save custom code",
+      "zeros: an option to merge overnight-to-midday stretches into one per-day summary, since daily partial failures (2022-03) produce dozens of rows",
+      "daily: include the direction's speed median so label swaps and sensor changes show without going to raw"
+    ],
+    "add": [
+      "a per-week direction fingerprint (AM/PM share, median speed) per direction, flagging when two directions swap characteristics \u2014 this would find label swaps after reinstalls directly",
+      "a first-count-of-day / last-count-of-day tool, which shows tube sensitivity failures like March-May 2022"
+    ]
+  },
+  "summary": "Site 162 (Hawthorne Canal): counter 104 failed in the mornings from March to early April 2022 (set missing, recovery uncertain to mid-May); counter 148 has several zero outages, swapped direction labels at its Nov 2025 reinstall, and stepped to 2-3x from 2025-12-13 with no matching change nearby (kept, flagged uncertain, series split). Site 175 (High St Randwick): counter 211 continues counter 148 at the same level, with many zero outages set missing and a direction-label swap at the 2026-06-09 reinstall, handled with dated series parts; 2022-02-19 was a feed-wide doubling (scaled 0.5 at 162)."
+}

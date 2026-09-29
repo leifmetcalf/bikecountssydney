@@ -1,0 +1,31 @@
+{
+  "group": "G0509",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 510, "DIRECTION_SK": 1443, "start": "2024-06-14", "end": "2024-06-15",
+      "confidence": "medium",
+      "diagnosis": "zero_outage removed zeros on a day the whole camera was near-empty (likely weather), so the zeros are real low riding rather than a zone outage.",
+      "evidence": "On 2024-06-15 every zone was near zero (1478: 1, 1500: 1, 1490: 1, 1493: 6, 1517: 7 vs usual 10-27/day); 1443 recorded 1 again after the blanked stretch; raw totals unchanged at 15 and 1."},
+    {"action": "restore", "SITE_SK": 510, "DIRECTION_SK": 1443, "start": "2025-01-17", "end": "2025-01-18",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked a night-to-midday stretch on a camera-wide very low two days (likely weather); the other zones were equally quiet, so the zeros are plausible.",
+      "evidence": "2025-01-17 all zones low (1478: 3, 1500: 2, 1490: 0, 1493: 8 vs usual 23-67/day); 1443 kept counting within the stretch at 11:00 on 01-18 and resumed normally that afternoon."},
+    {"action": "restore", "SITE_SK": 509, "DIRECTION_SK": 1517, "start": "2025-01-17", "end": "2025-01-18",
+      "confidence": "medium",
+      "diagnosis": "Same camera-wide low period as 1443; the zeros from 17:00 on 01-17 to 14:00 on 01-18 fit the other zones' near-zero counts.",
+      "evidence": "Other zones had 0-2 bikes per hour through the same stretch; 1517 resumed with 2-5/hour from 14:00 on 01-18."},
+    {"action": "uncertain", "SITE_SK": 509, "DIRECTION_SK": null, "start": "2024-11-08", "end": "2025-02-08",
+      "confidence": "low",
+      "diagnosis": "A step change on Fri 2024-11-08 lifted four of six zones (1517, 1443, 1478, 1500) about 2.5x and it held until the end of the record; it could be a real new route or diversion, or a change to the camera's detection.",
+      "evidence": "Weekly 1443 about 140 to about 500, 1517 about 170 to about 510, 1478 about 80 to about 250, 1500 about 80 to about 270, while 1493 (about 160) and 1490 stayed flat; the paired through-zones rose together (IN/OUT balance improved from 416/270 to 1004/902), the counts are integers with a normal commuter hourly shape, and there was no holiday. Kept as recorded."},
+    {"action": "uncertain", "SITE_SK": 510, "DIRECTION_SK": 1443, "start": "2024-11-08", "end": "2025-02-08",
+      "confidence": "low",
+      "diagnosis": "Same 8 Nov 2024 step as site 509; 1443 is the NE exit continuing from 1517 and rose by the same factor.",
+      "evidence": "Weekly about 140 before and about 500 after; the other direction here, 1493, stayed flat at about 160."},
+    {"action": "uncertain", "SITE_SK": 511, "DIRECTION_SK": 1478, "start": "2024-11-08", "end": "2025-02-08",
+      "confidence": "low",
+      "diagnosis": "Same 8 Nov 2024 step; 1478 (NW approach) rose in step with 1500, the SW exit it feeds.",
+      "evidence": "Weekly about 80 before and about 250 after; 1490 stayed at about 30-90."}
+  ],
+  "series": [],
+  "summary": "Camera C0002001 at the Hannell St/Honeysuckle Dr intersection in Wickham has one counter across three zone sites from May 2024 to Feb 2025, with complete, single-record data. The few zero_outage fixes fall on camera-wide very low days and are restored. A sustained 2.5x rise from 8 Nov 2024 in four zones is plausibly real but unexplained, so it is flagged uncertain and kept; no series definitions are needed."
+}

@@ -1,0 +1,83 @@
+{
+  "group": "G0163",
+  "decisions": [
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2021-08-13 23:15", "end": "2021-08-26 05:00", "confidence": "high",
+     "diagnosis": "The tube counter reported only zeros (flagged warning) for 12 days while nearby counters recorded normal riding, so the counts are lost and cannot be recovered.",
+     "evidence": "Both directions 0 on every slot from 2021-08-14 to 08-25 (warning status); site 158 recorded 53-1155 bikes/day meanwhile; site 163 recorded 652 on 08-13 and 617 on 08-26."},
+    {"action": "scale", "factor": 0.5, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2022-02-19", "end": "2022-02-19", "confidence": "high",
+     "diagnosis": "Every count on this day is even and about twice the usual level, and the same happened on the same day at the nearby Metrocount tube sites 158, 164 and 168, so every bike was counted twice.",
+     "evidence": "103: 554 bikes, 0 odd of 66 non-zero slots (level 2.28); 104: 456, 0 odd of 59 (level 2.36); days either side 316/235 and 306/220; doubled() flags 158, 164, 168 on 2022-02-19 at levels 2.0-3.0."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": 104, "start": "2022-11-23", "end": "2022-12-12", "confidence": "medium",
+     "diagnosis": "The eastbound tube under-registered from 23 Nov until the counter was serviced on 13 Dec 2022 (both directions jumped back overnight), so the missed bikes cannot be recovered.",
+     "evidence": "103/104 ratio steady at 1.3-1.4 until 11-22, then 1.5-2.1 from 11-23 (104 fell 359 -> 266 while 103 stayed ~500); on 12-13 104 jumped 150 -> 494 and 163/168 ratio 1.24 -> 1.92 with no change at the neighbours; 104 PM-peak hour 33 vs 45-49 in Oct-Nov."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": 103, "start": "2022-11-30", "end": "2022-12-12", "confidence": "medium",
+     "diagnosis": "The westbound direction also under-registered in the fortnight before the 13 Dec 2022 service, dropping well below the neighbours and recovering in one step, so those counts are lost.",
+     "evidence": "163/168 ratio fell from ~1.9 to 1.16-1.3 from 11-30 and 163/158 from ~0.9 to 0.55-0.7; 103 ~300-450/day on workdays in Dec 1-12 vs 510-522 on Dec 13-15; step back up on 12-13 unmatched by neighbours."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2023-07-12 06:00", "end": "2023-07-20 14:45", "confidence": "high",
+     "diagnosis": "The counter stopped registering at 06:00 on 12 July and reported only zeros (warning on full days) until 14:45 on 20 July, while riders clearly passed, so the counts cannot be recovered.",
+     "evidence": "Both directions 0 in every slot 07-12 06:00 to 07-20 14:45 after 5-6 bikes/slot at 05:00-05:45; normal ~500/day per direction either side; usual bikes in the stretch ~8700."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2024-07-17 23:30", "end": "2024-07-18 08:30", "confidence": "medium",
+     "diagnosis": "The counter registered nothing through a Thursday morning peak until 08:45 while nearby counters had normal riding, so the morning's counts are lost.",
+     "evidence": "Both directions 0 from 23:30 to 08:30 (4 bikes in the 08:00 hour, 47 at 09:00); site 158 recorded 23/44/81/138 and 168 5/13/39/78 in hours 5-8; this site usually ~250 bikes in those slots."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2025-09-11 09:30", "end": "2025-09-11 14:30", "confidence": "medium",
+     "diagnosis": "After 122 mm of rain on 10 Sep 2025 the tubes stopped registering intermittently; here both directions read 0 for five daytime hours while site 158 had riders.",
+     "evidence": "0 in every slot 09:30-14:30 in both directions; 158 recorded 3-17 bikes/hour in those hours; counts resume at 14:45."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2025-09-11 21:15", "end": "2025-09-12 09:30", "confidence": "medium",
+     "diagnosis": "The same post-rain tube failure blanked the night and the Friday morning peak, so these counts are lost.",
+     "evidence": "Hours 5-8 on 09-12: 0/0/3/9 at 163 vs 23/51/101/139 at 158; usual workday 8am hour here ~130-190."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2025-09-12 21:30", "end": "2025-09-13 08:45", "confidence": "medium",
+     "diagnosis": "The tubes again registered nothing overnight until 09:00 on Saturday, while riders passed at the neighbours.",
+     "evidence": "Hours 5-8 on 09-13: 0/0/0/2 at 163 vs 12/38/44/59 at 158; 94 bikes at 163 in the 09:00 hour."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2025-09-13 22:45", "end": "2025-09-14 08:15", "confidence": "medium",
+     "diagnosis": "The tubes again registered nothing overnight until 08:30 on Sunday, while riders passed at the neighbours.",
+     "evidence": "Hours 5-7 on 09-14: 0/0/0 at 163 vs 5/39/33 at 158; 70 bikes at 163 in the 09:00 hour."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2025-09-16 02:00", "end": "2025-09-16 10:15", "confidence": "medium",
+     "diagnosis": "A last episode of the post-rain tube failure cut the Tuesday morning peak to a few bikes, so those counts are lost.",
+     "evidence": "Hours 6-9 on 09-16: 5/13/20/2 at 163 vs 55/152/185/72 at 158 and 59/98/135/71 at 163 the day before; normal from 10:30."},
+    {"action": "missing", "factor": null, "SITE_SK": 163, "DIRECTION_SK": null, "start": "2025-10-23", "end": "2025-10-23", "confidence": "high",
+     "diagnosis": "A network-wide feed outage published a warning zero day for this and 36 other sites, so the day's counts are absent, not zero.",
+     "evidence": "Both directions 0 all day (warning) between 1639 and 1591 bikes on the days either side; network(): 37 zero sites and 39 warning sites on 2025-10-23 vs 0-3 on neighbouring days."},
+    {"action": "uncertain", "factor": null, "SITE_SK": 163, "DIRECTION_SK": 103, "start": "2026-07-29", "end": null, "confidence": "medium",
+     "diagnosis": "Westbound counts fell in two steps (29 Jul and 31 Aug 2026) to about half their usual share while eastbound held its level, which looks like the tube under-registering as in late 2022, but no service step has confirmed it yet and a real diversion cannot be ruled out.",
+     "evidence": "103/104 ratio 1.10-1.16 through June 2026, 0.75-0.9 from 07-29, 0.43-0.66 from 08-31; 103 8am hour 59 in Sep 2026 vs 148 in May-Jun while 104 17h hour 100 vs 95; 163/158 weekly ratio 1.45-1.6 in Jun falling to 0.94-1.0 in Sep."}
+  ],
+  "series": [
+    {"SITE_SK": 163, "name": "Westbound (towards city), before Dec 2022 service", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 168, "DIRECTION_SK": 103, "start": null, "end": "2022-12-12"}],
+     "evidence": "When the counter was serviced on 2022-12-13 the direction split changed abruptly (103/104 from ~1.3 to ~1.07) and the level against the neighbours rose (163/168 ~1.9-2.0 before vs 2.1-2.3 after), so the readings before and after may not be comparable."},
+    {"SITE_SK": 163, "name": "Westbound (towards city), from Dec 2022 service", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 168, "DIRECTION_SK": 103, "start": "2022-12-13", "end": null}],
+     "evidence": "Readings after the 2022-12-13 step; the split and neighbour ratios are stable from then until the mid-2026 westbound decline."},
+    {"SITE_SK": 163, "name": "Eastbound, before Dec 2022 service", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 168, "DIRECTION_SK": 104, "start": null, "end": "2022-12-12"}],
+     "evidence": "Eastbound read about 25% below westbound until Dec 2022 and about 8% below it afterwards; the change coincides with the service step on 2022-12-13, so which level is right cannot be told."},
+    {"SITE_SK": 163, "name": "Eastbound, from Dec 2022 service", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 168, "DIRECTION_SK": 104, "start": "2022-12-13", "end": null}],
+     "evidence": "Readings after the 2022-12-13 step, with a steady split against westbound through mid-2026."}
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "zeros(counter=True): found the multi-day outages and the short morning blackouts (2024-07-18, Sep 2025)",
+      "doubled: flagged 2022-02-19, and running it on the neighbours showed the same day doubled at all nearby Metrocount sites",
+      "directions: the weekly ratio exposed the Nov-Dec 2022 eastbound under-count, the Dec 2022 split change and the mid-2026 westbound decline",
+      "compare(by='day') with weather joined: separated the counter faults from rain and holiday dips",
+      "network: confirmed that 2025-10-23 was a feed-wide outage",
+      "hourly: showed that the 2026 westbound loss is proportional across the day and not a direction swap"
+    ],
+    "not_useful": [
+      "spikes: the Friday ~22:00 eastbound bursts look like regular group rides and did not affect weekly totals",
+      "duplicates: single-record counter, nothing to find"
+    ],
+    "improve": [
+      "zeros: report partial-loss mornings (counts far below neighbours but not exactly 0), such as 2025-09-16",
+      "hourly: allow dropping the SITE_SK/COUNTER_SK columns consistently; slots pivot with a datetime and int columns cannot be transposed easily",
+      "doubled: add an option to check the same dates at neighbours automatically"
+    ],
+    "add": [
+      "a step detector on the direction ratio and on the ratio to neighbours, listing dates of abrupt level or split changes (service or reinstall events)",
+      "a per-day 'share of neighbour' series over the whole record, to spot gradual tube degradation"
+    ]
+  },
+  "summary": "Site 163 is a single Metrocount tube counter on the Oxford St (Bondi Junction) bike path with complete coverage from June 2021 and strong growth. Faults are counter outages (Aug 2021, Jul 2023, short mornings in 2024 and Sep 2025 after heavy rain, a feed-wide zero day in Oct 2025), a network-wide doubled day on 2022-02-19, and tube under-counting before a service on 2022-12-13 that also changed the direction split, so the series are split there. Westbound has fallen to about half its usual share since late July 2026; this is marked uncertain and still ongoing."
+}

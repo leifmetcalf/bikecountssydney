@@ -1,0 +1,6 @@
+{
+  "group": "G0556",
+  "decisions": [],
+  "series": [],
+  "summary": "Site 556 (Pyrmont Bridge Rd (N) - W of Murray St) has one piezo counter (372) running continuously from 2025-11-08 to 2026-09-22 with 96/96 valid slots every day, one record per slot, no warning records and no automatic fixes; raw equals clean throughout. Daily totals (498-1807 per direction) follow holidays (Christmas/New Year and the January lows) with no step changes, spikes (max slot 134) or zero outages (at least 76 non-zero slots per day). The North/South split is steady (ratio 1.07 +/- 0.06) with mirrored AM/PM commute peaks, so the record stands as is and each direction is its own series. Note that the Citybound flag marks South as YES even though South peaks in the PM, which suggests the flag may be reversed; this does not affect totals."
+}

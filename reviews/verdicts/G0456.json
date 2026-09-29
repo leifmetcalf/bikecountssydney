@@ -1,0 +1,170 @@
+{
+  "group": "G0456",
+  "decisions": [
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 456,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The VivaCity feed stops publishing zero slots and whole zero days for this zone from late June 2025 (and some zero days around New Year 2024/25), so absent slots on days the camera published are true zeros.",
+      "evidence": "Before 2025-06-22 every published day has all 96 slots and low zones had many zero-total days (e.g. 1277: 84 of 216, 1323: 86 of 214, 1250: 110 of 211); afterwards almost no zero-total days are published (0-2 per direction) while a similar share of days is absent (1277 has 184 of 456 days), and from late Oct 2025 the partial days contain only non-zero slots (slots == nonzero_slots). The camera published some zone on every day of the record."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 457,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The VivaCity feed stops publishing zero slots and whole zero days for this zone from late June 2025 (and some zero days around New Year 2024/25), so absent slots on days the camera published are true zeros.",
+      "evidence": "Before 2025-06-22 every published day has all 96 slots and low zones had many zero-total days (e.g. 1277: 84 of 216, 1323: 86 of 214, 1250: 110 of 211); afterwards almost no zero-total days are published (0-2 per direction) while a similar share of days is absent (1277 has 184 of 456 days), and from late Oct 2025 the partial days contain only non-zero slots (slots == nonzero_slots). The camera published some zone on every day of the record."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 458,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The VivaCity feed stops publishing zero slots and whole zero days for this zone from late June 2025 (and some zero days around New Year 2024/25), so absent slots on days the camera published are true zeros.",
+      "evidence": "Before 2025-06-22 every published day has all 96 slots and low zones had many zero-total days (e.g. 1277: 84 of 216, 1323: 86 of 214, 1250: 110 of 211); afterwards almost no zero-total days are published (0-2 per direction) while a similar share of days is absent (1277 has 184 of 456 days), and from late Oct 2025 the partial days contain only non-zero slots (slots == nonzero_slots). The camera published some zone on every day of the record."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 459,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The VivaCity feed stops publishing zero slots and whole zero days for this zone from late June 2025 (and some zero days around New Year 2024/25), so absent slots on days the camera published are true zeros.",
+      "evidence": "Before 2025-06-22 every published day has all 96 slots and low zones had many zero-total days (e.g. 1277: 84 of 216, 1323: 86 of 214, 1250: 110 of 211); afterwards almost no zero-total days are published (0-2 per direction) while a similar share of days is absent (1277 has 184 of 456 days), and from late Oct 2025 the partial days contain only non-zero slots (slots == nonzero_slots). The camera published some zone on every day of the record."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 460,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The VivaCity feed stops publishing zero slots and whole zero days for this zone from late June 2025 (and some zero days around New Year 2024/25), so absent slots on days the camera published are true zeros.",
+      "evidence": "Before 2025-06-22 every published day has all 96 slots and low zones had many zero-total days (e.g. 1277: 84 of 216, 1323: 86 of 214, 1250: 110 of 211); afterwards almost no zero-total days are published (0-2 per direction) while a similar share of days is absent (1277 has 184 of 456 days), and from late Oct 2025 the partial days contain only non-zero slots (slots == nonzero_slots). The camera published some zone on every day of the record."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 461,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The VivaCity feed stops publishing zero slots and whole zero days for this zone from late June 2025 (and some zero days around New Year 2024/25), so absent slots on days the camera published are true zeros.",
+      "evidence": "Before 2025-06-22 every published day has all 96 slots and low zones had many zero-total days (e.g. 1277: 84 of 216, 1323: 86 of 214, 1250: 110 of 211); afterwards almost no zero-total days are published (0-2 per direction) while a similar share of days is absent (1277 has 184 of 456 days), and from late Oct 2025 the partial days contain only non-zero slots (slots == nonzero_slots). The camera published some zone on every day of the record."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 462,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The VivaCity feed stops publishing zero slots and whole zero days for this zone from late June 2025 (and some zero days around New Year 2024/25), so absent slots on days the camera published are true zeros.",
+      "evidence": "Before 2025-06-22 every published day has all 96 slots and low zones had many zero-total days (e.g. 1277: 84 of 216, 1323: 86 of 214, 1250: 110 of 211); afterwards almost no zero-total days are published (0-2 per direction) while a similar share of days is absent (1277 has 184 of 456 days), and from late Oct 2025 the partial days contain only non-zero slots (slots == nonzero_slots). The camera published some zone on every day of the record."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 463,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The VivaCity feed stops publishing zero slots and whole zero days for this zone from late June 2025 (and some zero days around New Year 2024/25), so absent slots on days the camera published are true zeros.",
+      "evidence": "Before 2025-06-22 every published day has all 96 slots and low zones had many zero-total days (e.g. 1277: 84 of 216, 1323: 86 of 214, 1250: 110 of 211); afterwards almost no zero-total days are published (0-2 per direction) while a similar share of days is absent (1277 has 184 of 456 days), and from late Oct 2025 the partial days contain only non-zero slots (slots == nonzero_slots). The camera published some zone on every day of the record."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 462,
+      "DIRECTION_SK": null,
+      "start": "2026-06-29",
+      "end": null,
+      "confidence": "medium",
+      "diagnosis": "Episodes of night-time 'bicycles' in both directions of the New Line Rd road-lane zone, likely misclassification during night roadworks or similar, but there is no mechanism to separate them from real riders.",
+      "evidence": "Night (21:00-05:00) bikes per week in 1264/1267 were 0-4 through June 2026, then 18/17 (wk 06-29), 51/53 (wk 07-06), 156/192 (wk 08-03), 33/22 (wk 08-31); 2026-08-06 01:00-01:45 recorded 12,18,15,6 northbound and 16,27,17,7 southbound at once; weekly totals 215/249 in wk 08-03 against about 20-40 usually; the mean per day rose from 3-6 to 8-15 in Aug-Sep 2026."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 456,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05",
+      "end": "2026-08-07",
+      "confidence": "low",
+      "diagnosis": "This zone shares in the 2026-08-05/07 night-time burst centred on site 462, which is possibly misclassification during night works.",
+      "evidence": "1314 night 45 in wk 08-03 vs usual 1-5"
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 461,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05",
+      "end": "2026-08-07",
+      "confidence": "low",
+      "diagnosis": "This zone shares in the 2026-08-05/07 night-time burst centred on site 462, which is possibly misclassification during night works.",
+      "evidence": "1246/1250 15/16 on 08-06 and 16/6 on 08-07 vs usual about 2/day"
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 463,
+      "DIRECTION_SK": null,
+      "start": "2026-08-05",
+      "end": "2026-08-07",
+      "confidence": "low",
+      "diagnosis": "This zone shares in the 2026-08-05/07 night-time burst centred on site 462, which is possibly misclassification during night works.",
+      "evidence": "1374 17 and 28 on 08-06/07 vs usual 3-6; night 49 in the week vs usual 1-2"
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 462,
+      "DIRECTION_SK": null,
+      "start": "2025-07-12 07:30",
+      "end": "2025-07-12 07:30",
+      "confidence": "low",
+      "diagnosis": "One slot with 36 northbound and 37 southbound in the road-lane zone and almost nothing in the adjoining zones; this may be a group ride or a misclassification.",
+      "evidence": "1264=36, 1267=37 at 07:30 on Sat 2025-07-12; usual 0; other zones had 0-3 in that slot."
+    }
+  ],
+  "series": [],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview/daily: days and slots per direction showed the whole zero days vanishing after 2025-06-22 and the partial days holding only non-zero slots after Oct 2025",
+      "counter_days: confirmed the camera published every day, so the absent zone-days are zeros and not outages",
+      "weather: explained the counter-wide low days (2025-07-30 to 08-03 rain, 2026-01-10 at 42C, 2026-01-17 with 127 mm)",
+      "spikes and slots: exposed the 462 night bursts and the 2025-07-12 07:30 pair"
+    ],
+    "not_useful": [
+      "doubled/duplicates: nothing to find on single-record camera zones",
+      "zeros(counter=True): mostly overnight stretches at a very low-volume camera, so most rows are noise"
+    ],
+    "improve": [
+      "zeros(counter=True): add a filter on daytime_hours/usual_bikes, or sort by them, so the few meaningful rows stand out",
+      "absent_zeros: also flag directions whose published zero-total days drop sharply between periods (whole zero days omitted), which it misses"
+    ],
+    "add": [
+      "a night-share tool: bikes between 21:00 and 05:00 per direction and week against the direction's usual share, to flag misclassification episodes"
+    ]
+  },
+  "summary": "One VivaCity camera (counter 317) with eight low-volume zones at Castle Hill Rd / New Line Rd. From late June 2025 the feed drops zero slots and whole zero days, so every site gets zero_fill over the whole record. Low days match heavy rain or heat; the unexplained night-time bursts in 2026 in the New Line Rd road zone (462), and briefly in 456, 461 and 463, are recorded as uncertain."
+}

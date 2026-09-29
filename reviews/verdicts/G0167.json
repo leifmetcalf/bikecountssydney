@@ -1,0 +1,16 @@
+{
+  "group": "G0167",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 167, "DIRECTION_SK": 97, "start": "2022-04-29", "end": "2022-04-29",
+      "confidence": "high",
+      "diagnosis": "The temporary tube counter was removed about 10:00 on its last day; direction 97's zeros after that were kept while direction 98's were already set missing, so the day is incomplete.",
+      "evidence": "Both directions count normally to 09:45-10:00 (97: 53, 98: 31 by then vs ~150-200 on prior days) then pure zeros to midnight in both; 98 already zero_outage from 10:00, 97 left as 96 valid slots."},
+    {"action": "missing", "SITE_SK": 167, "DIRECTION_SK": 97, "start": "2021-07-03 22:00", "end": "2021-07-08 06:00", "confidence": "high", "diagnosis": "The counter stopped: zeros found by the former automatic zero-outage rule and kept by the reviewer."},
+    {"action": "missing", "SITE_SK": 167, "DIRECTION_SK": 98, "start": "2021-07-03 20:45", "end": "2021-07-08 06:45", "confidence": "high", "diagnosis": "The counter stopped: zeros found by the former automatic zero-outage rule and kept by the reviewer."},
+    {"action": "missing", "SITE_SK": 167, "DIRECTION_SK": 98, "start": "2022-04-29 10:00", "end": "2022-04-29 23:45", "confidence": "high", "diagnosis": "The counter stopped: zeros found by the former automatic zero-outage rule and kept by the reviewer."},
+    {"action": "scale", "factor": 0.5, "SITE_SK": 167, "DIRECTION_SK": 97, "start": "2022-02-19", "end": "2022-02-19", "confidence": "high", "diagnosis": "Every non-zero count is even at about twice the surrounding level: counted twice (found by a former automatic rule)."},
+    {"action": "scale", "factor": 0.5, "SITE_SK": 167, "DIRECTION_SK": 98, "start": "2022-02-19", "end": "2022-02-19", "confidence": "high", "diagnosis": "Every non-zero count is even at about twice the surrounding level: counted twice (found by a former automatic rule)."}
+  ],
+  "series": [],
+  "summary": "Site 167 is a single temporary Metrocount tube counter (24 Jun 2021 to 29 Apr 2022) with a stable, plausible two-direction record. The automatic fixes look right: the all-zero outage from the evening of 3 July to the morning of 8 July 2021 in both directions, and the halving of 19 Feb 2022, when every count in both directions was even at twice the neighbouring days. The only change is setting 29 Apr 2022 in direction 97 to missing, because the counter was removed mid-morning; low days in late Nov 2021 and 24 Aug 2021 are spread across the whole day, consistent with rain and lockdown, and are kept."
+}

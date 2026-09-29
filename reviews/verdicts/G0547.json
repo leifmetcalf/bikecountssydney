@@ -1,0 +1,430 @@
+{
+ "group": "G0547",
+ "decisions": [
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2012-01-20",
+   "end": "2012-02-27 20:45",
+   "confidence": "high",
+   "diagnosis": "Counter 239 published only zeros before it started counting; riders were passing (Kent St counter 549 counted 600-900/day from 2012-02-02), and nothing records the missed bikes.",
+   "evidence": "Both directions 0 for 933 h; counts begin 2012-02-27 21:00 and the next day is 906/992 vs 549's 742/870."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2012-07-06 23:15",
+   "end": "2012-07-08 05:30",
+   "confidence": "medium",
+   "diagnosis": "Whole-counter outage (Kent St 549 was also 0 the same day) reported as zeros on a dry Saturday; the bikes are not recoverable.",
+   "evidence": "2012-07-07 Sat 0/0 at 568 and 0/0 at 549; usual Saturday ~230+320; rain 0.2 mm."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2014-07-08 05:00",
+   "end": "2014-08-04 09:30",
+   "confidence": "high",
+   "diagnosis": "Counter stopped counting and reported zeros for four weeks while riders passed; no counts to recover.",
+   "evidence": "0/0 every day 07-09..08-03 vs 675/758 on 07-07; 549 counted normally (e.g. 571/687 on 08-04)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2014-08-07 13:45",
+   "end": "2014-10-13 14:00",
+   "confidence": "high",
+   "diagnosis": "Counter mostly offline (zeros) with occasional reconnections that dumped hundreds to thousands of stored counts into single slots; neither the zeros nor the dumps give real slot or week totals.",
+   "evidence": "Zeros for weeks, interrupted by single-record values like 560, 1637, 1424 at night (e.g. 2014-10-13 02:15 = 1424); days such as 2014-09-19 at 3617/1661; normal counting resumes 2014-10-13 14:15."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2016-03-15 23:15",
+   "end": "2016-04-01 05:45",
+   "confidence": "high",
+   "diagnosis": "Counter reported zeros for 16 days mid-March 2016 while the cycleway was in use (normal counts either side); counts unrecoverable.",
+   "evidence": "0/0 2016-03-16..03-31 vs ~850/950 on weekdays before and after; 549 was also out, but from 03-09, so not a shared closure."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2018-10-03 14:00",
+   "end": "2019-06-09 08:00",
+   "confidence": "high",
+   "diagnosis": "Counter failed and reported zeros for eight months while riders passed (Kent St 549 kept counting normal volumes); unrecoverable.",
+   "evidence": "Both directions exactly 0 for 5970 h; 549 at 300-900/day through the gap; 568 resumes 2019-06-09 at levels in line with 549 (853/976 vs 798/958 on 06-11)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2020-10-19 02:15",
+   "end": "2021-03-02 13:45",
+   "confidence": "high",
+   "diagnosis": "Counter reported zeros for four and a half months (not a closure: exact zeros around the clock, same pattern as other outages of this counter); unrecoverable.",
+   "evidence": "0/0 every day 2020-10-20..2021-03-01 vs ~650/800 weekdays either side; resumes mid-day 2021-03-02."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2022-06-06 00:15",
+   "end": "2022-06-22 12:45",
+   "confidence": "high",
+   "diagnosis": "Counter outage: 16 days of zeros published with doubled (8-record) zero slots, then normal counts resume mid-day; the riders in the gap are not recoverable.",
+   "evidence": "0/0 2022-06-07..06-21 with 8 records/slot (normal 4); 520-600/day before and after."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2022-04-10",
+   "end": "2022-04-10",
+   "confidence": "high",
+   "diagnosis": "Every record of the day was published twice, doubling the day's total.",
+   "evidence": "96/96 slots with 8 records where the extras exactly repeat others; 684/948 vs 455/549 and 328/383 on neighbouring Sundays; repeats add 342/472 bikes."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2022-07-31",
+   "end": "2022-07-31",
+   "confidence": "high",
+   "diagnosis": "Every record of the day was published twice, doubling the day's total.",
+   "evidence": "All slots have 7-8 records with pairs of identical values; 512/820 vs 311/421 and 340/474 on neighbouring Sundays."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2022-09-08",
+   "end": "2022-09-08",
+   "confidence": "high",
+   "diagnosis": "Every record of the day was published twice, doubling the day's total.",
+   "evidence": "All slots 8 records in identical pairs; 1284/1476 vs 579/688 and 402/512 on neighbouring Thursdays."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2022-09-10",
+   "end": "2022-09-10",
+   "confidence": "high",
+   "diagnosis": "Every record of the day was published twice, doubling the day's total.",
+   "evidence": "All slots 8 records in identical pairs; 652/914 vs 190/246 and 361/474 on neighbouring Saturdays."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": null,
+   "start": "2023-02-07 20:15",
+   "end": "2023-02-18",
+   "confidence": "high",
+   "diagnosis": "Counter 239 failed at the end of its record: zeros broken by corrupt records of thousands (values like 510, 1022, 2046, 4094, 4606 i.e. bit-pattern garbage), then zeros to the end.",
+   "evidence": "2023-02-08 totals 15871/19130 and 2023-02-09 9765/1589 against ~800/1000 normal; zeros 2023-02-09 12:15 to 2023-02-18."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 328,
+   "start": "2012-08-28 18:15",
+   "end": "2012-08-28 18:15",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 255 (error sentinel) in a slot whose other records are 39/0/23"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2013-01-05 11:30",
+   "end": "2013-01-05 11:30",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 255, others 0/0/3"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2013-08-17 19:30",
+   "end": "2013-08-17 19:30",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 255, others 0; neighbouring slots 0-3"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2015-02-04 15:45",
+   "end": "2015-02-04 15:45",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 255, others 0/4/6"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 328,
+   "start": "2015-11-10 08:30",
+   "end": "2015-11-10 08:30",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 255, others 19/3/3"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 328,
+   "start": "2017-09-07 08:30",
+   "end": "2017-09-07 08:30",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 255, others 0/0/8"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2017-02-04 11:45",
+   "end": "2017-02-04 17:00",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record per slot at 500-1114 for five hours on a Saturday: day total 14414 vs 266 the other way and 269 at Kent St 549"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2017-02-07 06:45",
+   "end": "2017-02-07 06:45",
+   "confidence": "medium",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 122 where neighbouring slots are ~10"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2017-02-07 19:45",
+   "end": "2017-02-07 19:45",
+   "confidence": "medium",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 140 where neighbouring slots are 0-3"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2017-10-30 06:15",
+   "end": "2017-10-30 06:15",
+   "confidence": "medium",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 214 where neighbouring slots are 5-15"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2017-11-22 18:15",
+   "end": "2017-11-22 18:30",
+   "confidence": "medium",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "records 305 and 122 where neighbouring slots are 10-20"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2017-12-04 18:30",
+   "end": "2017-12-04 18:30",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 778 (day 1212 vs ~900 usual)"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2017-12-27 19:45",
+   "end": "2017-12-27 20:00",
+   "confidence": "high",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "records 168 and 936 at 20:00 in the Christmas break where neighbouring slots are 0-6"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2018-03-12 18:00",
+   "end": "2018-03-12 18:00",
+   "confidence": "medium",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 152 where neighbouring slots are ~20"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2018-04-03 18:00",
+   "end": "2018-04-03 18:00",
+   "confidence": "medium",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 118 where neighbouring slots are ~15"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2018-04-11 18:00",
+   "end": "2018-04-11 18:00",
+   "confidence": "medium",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 176 where neighbouring slots are ~20"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2018-05-04 18:45",
+   "end": "2018-05-04 18:45",
+   "confidence": "medium",
+   "diagnosis": "A single record of the slot carries an implausible glitch value (sensor/logger error, 255 being an error sentinel); the slot's true count is unknown until the bad record alone can be dropped.",
+   "evidence": "one record = 323 where neighbouring slots are 0-25"
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 568,
+   "DIRECTION_SK": 329,
+   "start": "2019-09-13 07:15",
+   "end": "2019-09-13 09:15",
+   "confidence": "low",
+   "diagnosis": "Friday morning peak about double normal, concentrated in single records per slot; could be a real diversion/event or a glitch.",
+   "evidence": "329 day total 1500 vs ~900 usual and 684 at Kent St 549 (normal ratio ~1.1); slot records 120, 137, 238, 185, 207."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 568,
+   "name": "King St citybound (morning peak), counter 239",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 239,
+     "DIRECTION_SK": 329,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Ecocounter 239, 2012-2023; morning-peak direction. Kept separate from Metrocount 366: 2.7-year gap, different counter, and level differs (~590/day in 2022 vs ~1000/day in 2026)."
+  },
+  {
+   "SITE_SK": 568,
+   "name": "King St outbound (evening peak), counter 239",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 239,
+     "DIRECTION_SK": 328,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Ecocounter 239, 2012-2023; evening-peak direction. Not joined to 366 for the same reasons."
+  },
+  {
+   "SITE_SK": 568,
+   "name": "King St citybound (morning peak), counter 366",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 366,
+     "DIRECTION_SK": 1770,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Same Metrocount counter 366 published under site 547 until 2026-02-15 and site 568 from 2026-02-16 with no change in level (week of 02-09: 12281 vs week of 02-16: 12987; ratio to Kent St 549 ~1.06 before and ~1.08-1.1 after); covers the 547 data too."
+  },
+  {
+   "SITE_SK": 568,
+   "name": "King St outbound (evening peak), counter 366",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 366,
+     "DIRECTION_SK": 1769,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Same counter 366 moved from site 547 to 568 in the metadata on 2026-02-16 with continuous daily counts (e.g. 459 Sun 02-15 then 869 Mon 02-16, 1086 Tue); covers the 547 data too."
+  }
+ ],
+ "proposals": [
+  "Drop individual records equal to 255 (and similar isolated single-record glitches) on Ecocounter 239 at site 568 while keeping the slot's other three records: the other records are plausible, so the slot count could be recovered instead of set missing (slots listed in the 'missing' decisions of 2012-2018)."
+ ],
+ "tools": {
+  "useful": [
+   "overview: exposed the long zero months and the 6.05 records/slot in June 2022 at a glance",
+   "zeros: exact start/end of each outage",
+   "duplicates: pinpointed the four doubled days in 2022",
+   "channels: showed that glitches sit in one of the four records (255 sentinel, 778, 936) and the 2017-02-04 fault",
+   "raw: listing all records >= 60 found the 255 sentinel values and bit-pattern garbage in 2023",
+   "daily(wide) with a neighbour: Kent St 549 proved riders passed during 568's zero stretches",
+   "compare: confirmed counter 366 kept its level when relabelled from 547 to 568"
+  ],
+  "not_useful": [
+   "spikes: missed the 2014 dump slots (1424 etc.) and the 18:00 single-slot glitches",
+   "events: nothing listed for this site's dates"
+  ],
+  "improve": [
+   "spikes: flag single slots far above usual even when the direction's typical level is moderate, and report the per-record breakdown",
+   "compare: exclude or flag weeks where the neighbour itself is broken (549 has a near-zero direction from 2016), otherwise ratios mislead"
+  ],
+  "add": [
+   "record_outliers: per counter, records that equal sentinel values (255, 2^n-2) or exceed the slot's other records by a large factor"
+  ]
+ },
+ "summary": "Site 568 (King St cycleway) has Ecocounter 239 from 2012 to 2023 with several multi-week to eight-month outages published as zeros, dump/garbage records around failures (2014, 2023), four doubled days in 2022, and scattered single-record glitches (255 sentinels, a five-hour 14000-bike fault on 2017-02-04). Metrocount 366 ran at site 547 then site 568 from 2026-02-16 with no level change, so each of its directions is one series across both sites. The two counters are kept as separate series because of the 2.7-year gap and different level."
+}

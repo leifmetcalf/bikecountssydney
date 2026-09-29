@@ -1,0 +1,71 @@
+{
+  "group": "G0577",
+  "decisions": [
+    {"action": "missing", "factor": null, "SITE_SK": 577, "DIRECTION_SK": null,
+      "start": "2026-01-27 00:00", "end": "2026-01-27 16:45", "confidence": "high",
+      "diagnosis": "Commissioning day: the camera reported zeros until 16:30 while bikes passed, then dumped an accumulated backlog into the 16:45 slot, so the counts cannot be placed in time or known to belong to this day.",
+      "evidence": "1816 zero 00:00-16:30 (10.75 daytime hours, usual ~200 bikes), then 8437 bikes in slot 16:45 (usual 6); day total 8733 vs ~800-900 on the following days."},
+    {"action": "missing", "factor": null, "SITE_SK": 578, "DIRECTION_SK": null,
+      "start": "2026-01-27 00:00", "end": "2026-01-27 16:45", "confidence": "high",
+      "diagnosis": "Same commissioning backlog as site 577 on the same camera: zeros all day then an accumulated dump at 16:45 that cannot be distributed.",
+      "evidence": "1846 zero until 16:30 then 131 bikes at 16:45 (usual 0); day total 135 vs 10-28 on the following days."},
+    {"action": "direction_unreliable", "factor": null, "SITE_SK": 577, "DIRECTION_SK": null,
+      "start": "2026-01-27 17:00", "end": "2026-03-09 10:45", "confidence": "high",
+      "diagnosis": "Before the feed was split, both directions of the greenway zone were published under 1816 (South West) as two records per slot, and 1824 (North East) did not exist or reported zeros, so the site total is right but the direction split is not.",
+      "evidence": "1816 has ~1.93 records per slot with differing values (e.g. [7,4],[8,7]) until 2026-03-09 10:45, then exactly 1 record from 11:00 (00:00 UTC) when 1824 starts carrying counts; 1816 Feb ~674/day matches later 1816+1824 (~420+400 in Mar-Apr, each ~50%); 1824 published zeros 00:00-10:45 on 03-09 (usual 106)."},
+    {"action": "direction_unreliable", "factor": null, "SITE_SK": 578, "DIRECTION_SK": null,
+      "start": "2026-01-27 17:00", "end": "2026-03-08", "confidence": "medium",
+      "diagnosis": "Before the split, both directions of the footpath zone were published under 1846 (West) as two records per slot; 1849 (East) only has stray zero slots in February and nothing on 03-08, so the total is right but the split is not.",
+      "evidence": "1846 ~1.9-2.0 records per slot until 2026-03-07, one record from 03-08; 1849 real data from 2026-03-09; 1846 Feb ~17/day matches later West+East ~9+9/day; 1849 in Feb is 4 single zero slots."},
+    {"action": "uncertain", "factor": null, "SITE_SK": 577, "DIRECTION_SK": 1816,
+      "start": "2026-02-07 19:30", "end": "2026-02-07 19:30", "confidence": "low",
+      "diagnosis": "A single-slot burst of 159 bikes on a Saturday evening in one direction only; could be a group ride or a misclassified crowd, with no mechanism to show a fault.",
+      "evidence": "159 bikes vs 9 and 1 in the adjacent slots (usual 1); footpath 1846 only 2."},
+    {"action": "uncertain", "factor": null, "SITE_SK": 577, "DIRECTION_SK": 1816,
+      "start": "2026-04-26 18:00", "end": "2026-04-26 18:00", "confidence": "low",
+      "diagnosis": "A single-slot burst of 145 bikes on a Sunday evening in South West only; plausibly a group ride, possibly a misclassified crowd.",
+      "evidence": "145 bikes vs 3 and 7 in the adjacent slots (usual 3); North East 1824 had 10 in the same slot."}
+  ],
+  "series": [
+    {"SITE_SK": 577, "name": "Greenway, both directions combined (before feed split)", "confidence": "high",
+      "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1816, "start": null, "end": "2026-03-08"}],
+      "evidence": "Until 2026-03-09 1816 carried two records per slot, one per direction; its level (~674/day in Feb) is the two-way total, so joining it to the later one-way 1816 would make a false halving."},
+    {"SITE_SK": 577, "name": "Greenway South West", "confidence": "high",
+      "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1816, "start": "2026-03-09", "end": null}],
+      "evidence": "1816 is a single direction from 2026-03-09 11:00; the morning of 03-09 is covered by direction_unreliable."},
+    {"SITE_SK": 577, "name": "Greenway North East", "confidence": "high",
+      "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1824, "start": "2026-03-09", "end": null}],
+      "evidence": "1824 first appears 2026-03-09 and balances 1816 (ratio ~1.0-1.1 weekly)."},
+    {"SITE_SK": 578, "name": "Old Canterbury Rd footpath, both directions combined (before feed split)", "confidence": "medium",
+      "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1846, "start": null, "end": "2026-03-08"}],
+      "evidence": "1846 carried two records per slot until 2026-03-07 (~17/day, the two-way total); 03-08 is ambiguous (one record, no 1849)."},
+    {"SITE_SK": 578, "name": "Old Canterbury Rd footpath West", "confidence": "high",
+      "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1846, "start": "2026-03-09", "end": null}],
+      "evidence": "1846 single direction once 1849 starts on 2026-03-09."},
+    {"SITE_SK": 578, "name": "Old Canterbury Rd footpath East", "confidence": "high",
+      "parts": [{"COUNTER_SK": 384, "DIRECTION_SK": 1849, "start": "2026-03-09", "end": null}],
+      "evidence": "1849 has real counts from 2026-03-09; its February records are stray zero slots while East riders were counted under 1846."}
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: records_per_slot ~1.95 in Jan-Feb dropping to 1.0 in March pointed straight at the merged-direction period",
+      "slots (pivoted by direction with records): pinned the split to 2026-03-09 11:00 local (00:00 UTC) and showed 1824 publishing zeros before it",
+      "spikes: found the 8437-bike commissioning dump and the two weekend single-slot bursts",
+      "counter_days: confirmed the whole camera went from 2 to 4 directions on 03-09",
+      "directions: showed the directions are balanced and independent after the split"
+    ],
+    "not_useful": [
+      "duplicates: flagged Mar 1-9 as duplicate records, but the extra records are the other direction, not repeats; equal values were coincidental (mostly zeros)",
+      "channels: shows UTC slots with a mix of load dates, which made it hard to line up with the Sydney-time slots from slots()"
+    ],
+    "improve": [
+      "duplicates: report how many extra records differ from the others; a high non-matching share points at merged directions rather than duplication",
+      "channels: add a Sydney-time column so records line up with slots()"
+    ],
+    "add": [
+      "a tool that detects a change in records per slot within a direction and reports the exact slot of the change and which other direction appeared at the same time"
+    ]
+  },
+  "summary": "One VivaCity camera covering the Cooks to Cove Greenway (577) and an Old Canterbury Rd footpath (578). Until 2026-03-09 each zone published both directions under a single direction (two records per slot), so the totals are right but the direction split is not; those periods are marked direction_unreliable and made their own combined series. The commissioning day 2026-01-27 (zeros then an 8437-bike backlog dump at 16:45) is set missing; the rest of the record looks sound."
+}

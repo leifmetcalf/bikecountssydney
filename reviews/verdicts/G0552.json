@@ -1,0 +1,459 @@
+{
+ "group": "G0552",
+ "decisions": [
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2021-10-05",
+   "end": "2022-03-24 15:45",
+   "confidence": "high",
+   "diagnosis": "Counter 241 was not yet counting: TfNSW back-filled 5.5 months of exact zeros (loaded 2022-03-24, the day counting began mid-afternoon), so the riders who passed cannot be recovered.",
+   "evidence": "Both directions exactly 0 on every slot 2021-10-05 to 2022-03-24 15:45 (4096 h), records loaded in bulk on 2022-03-24/04-21/08-17; nearby Union St (258) recorded 5-9k bikes/week over the same weeks; counts start at a normal level from 2022-03-24 16:00 (~3.6k/week by April)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2023-06-30",
+   "end": "2023-07-02",
+   "confidence": "high",
+   "diagnosis": "Counter outage: the counter reported zeros (TfNSW-flagged warning) while riders kept passing, so the counts cannot be recovered.",
+   "evidence": "Both directions 0 all day with every record flagged 'warning' on 30 Jun-2 Jul 2023 (Fri-Sun); ~560-760 bikes/day on the days either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2023-07-22 17:30",
+   "end": "2023-08-18 10:45",
+   "confidence": "high",
+   "diagnosis": "Counter outage: the counter reported zeros (TfNSW-flagged warning) while riders kept passing, so the counts cannot be recovered.",
+   "evidence": "Both directions 0 from Sat 22 Jul 17:30 to Fri 18 Aug 11:00, whole days flagged 'warning' (384/384 records); weeks either side ~4.8-5.0k bikes; resumes straight at normal level."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2025-05-10 23:45",
+   "end": "2025-06-04 16:30",
+   "confidence": "high",
+   "diagnosis": "Counter outage: the counter reported zeros (TfNSW-flagged warning) while riders kept passing, so the counts cannot be recovered.",
+   "evidence": "Both directions 0 from 10 May 23:45 to 4 Jun 16:45, whole days flagged 'warning'; ~6.1k bikes the week before and ~5.3k two weeks after."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2025-06-21 23:45",
+   "end": "2025-07-04 03:45",
+   "confidence": "high",
+   "diagnosis": "Counter outage: the counter reported zeros (TfNSW-flagged warning) while riders kept passing, so the counts cannot be recovered.",
+   "evidence": "Both directions 0 from 21 Jun 23:45 to 4 Jul, whole days flagged 'warning'; ~5.6k bikes/week either side."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2025-08-02 03:15",
+   "end": "2025-08-02",
+   "confidence": "medium",
+   "diagnosis": "Counter 241 stopped counting in the early hours of its last day of data; the zeros after 03:15 are not real and cannot be recovered.",
+   "evidence": "10 bikes 00:00-03:15 then 0 for the rest of Sat 2 Aug 2025 (both directions) while Anzac Bridge (103) had 170; no further data from counter 241."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2022-04-10",
+   "end": "2022-04-10",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (522 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2022-06-06",
+   "end": "2022-06-06",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (546 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2022-06-21",
+   "end": "2022-06-21",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (652 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2022-07-31",
+   "end": "2022-07-31",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (388 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2022-09-08",
+   "end": "2022-09-08",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (711 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2022-09-10",
+   "end": "2022-09-10",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (471 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2023-02-14",
+   "end": "2023-02-14",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (607 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2023-04-23",
+   "end": "2023-04-23",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (389 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2023-05-23",
+   "end": "2023-05-23",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (806 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2023-07-20",
+   "end": "2023-07-20",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (843 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2023-10-06",
+   "end": "2023-10-06",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (739 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2023-12-08",
+   "end": "2023-12-08",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (629 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-01-09",
+   "end": "2024-01-09",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (804 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-01-22",
+   "end": "2024-01-22",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (909 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-02-26",
+   "end": "2024-02-26",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (487 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-03-24",
+   "end": "2024-03-25",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (1290 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-06-23",
+   "end": "2024-06-24",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (867 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-06-30",
+   "end": "2024-07-01",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (782 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-08-01",
+   "end": "2024-08-02",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (899 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-09-11",
+   "end": "2024-09-12",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (1873 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-09-25",
+   "end": "2024-09-26",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (1274 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-10-10",
+   "end": "2024-10-11",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (1840 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-10-15",
+   "end": "2024-10-16",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (1664 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-10-20",
+   "end": "2024-10-21",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (1547 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-10-28",
+   "end": "2024-10-29",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (2328 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-11-14",
+   "end": "2024-11-15",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (1793 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2024-11-29",
+   "end": "2024-11-30",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 384 direction-slots, all extras exact repeats (787 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  },
+  {
+   "action": "drop_duplicates",
+   "factor": null,
+   "SITE_SK": 552,
+   "DIRECTION_SK": null,
+   "start": "2025-06-21",
+   "end": "2025-06-21",
+   "confidence": "high",
+   "diagnosis": "Counter 241's two channel records were each published twice on these days, doubling the day's total; the repeats are exact copies.",
+   "evidence": "4 records per slot instead of the usual 2 on 192 direction-slots, all extras exact repeats (502 repeated bikes); doubled() puts these days at ~2x nearby odd-count days."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 552,
+   "name": "Counter 241 West (AM-peak direction)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 241,
+     "DIRECTION_SK": 351,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Separate from counter 360: 360 reads ~2.2x the level of 241 (about 1,500-1,600 vs 700-900 bikes/day total) after a 2.5-month gap with no overlap, so the two installations cannot be shown to read comparably."
+  },
+  {
+   "SITE_SK": 552,
+   "name": "Counter 241 East (PM-peak direction)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 241,
+     "DIRECTION_SK": 350,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Kept separate from counter 360 for the same level change (~2.2x) and no overlap."
+  },
+  {
+   "SITE_SK": 552,
+   "name": "Counter 360 East (AM-peak direction)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 360,
+     "DIRECTION_SK": 1757,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Same flow as 241 West by hourly profile (AM peak 8-9am; labels are swapped between the counters), but not joined because the level is ~2.2x higher with no overlap to calibrate."
+  },
+  {
+   "SITE_SK": 552,
+   "name": "Counter 360 West (PM-peak direction)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 360,
+     "DIRECTION_SK": 1758,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Same flow as 241 East by hourly profile (PM peak 5-6pm), not joined because of the unexplained ~2.2x level change and no overlap."
+  }
+ ],
+ "proposals": [],
+ "tools": {
+  "useful": [
+   "raw: ADDED_UPDATED dates showed the 2021-22 zeros were bulk-loaded on the day counting started, and Status showed the outage days are flagged warning",
+   "zeros(counter=True): found every outage with exact edges",
+   "duplicates/channels: showed each two-channel record published twice ([a,a,b,b]) on the flagged days",
+   "hourly: showed the East/West labels are swapped between counters 241 and 360",
+   "weekly(wide)+compare: level of each counter and the neighbour context",
+   "weather/compare by day: explained the late-July 2025 dip as heavy rain"
+  ],
+  "not_useful": [
+   "compare with 258: that site has its own level step in Aug 2023 and long zero runs, so ratios were noisy"
+  ],
+  "improve": [
+   "duplicates: merge runs across directions and give one row per date range",
+   "overview: output is wide and long; a pivot per month with directions as columns would be easier to read"
+  ],
+  "add": [
+   "a per-day load-date/status summary tool (records, warnings, load dates per counter-day) to spot back-filled placeholder zeros quickly"
+  ]
+ },
+ "summary": "Site 552 (Miller St, Pyrmont) has Ecocounter 241 (Oct 2021-Aug 2025) and Metrocount 360 (Oct 2025 on). Counter 241's first 5.5 months are back-filled zeros before counting began, it had four warning-flagged outages, and 28 day-runs where both channel records were published twice (drop_duplicates). Counter 360 reads ~2.2x the level of 241 with swapped direction labels and no overlap, so each counter-direction is its own series."
+}

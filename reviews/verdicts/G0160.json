@@ -1,0 +1,46 @@
+{
+  "group": "G0160",
+  "decisions": [
+    {"action": "scale", "factor": 0.5, "SITE_SK": 160, "DIRECTION_SK": null,
+      "start": "2022-02-19", "end": "2022-02-19", "confidence": "high",
+      "diagnosis": "Every bike was counted twice on this one day: every non-zero slot in both directions is even, and the tube counter at site 162 shows the same all-even doubling on the same day, pointing at a feed/processing doubling.",
+      "evidence": "0 odd of 64 (East) and 0 of 60 (West) non-zero slots vs 23-44 odd slots on neighbouring days; totals 1026/834 vs 629/537 next day; doubled() level 1.92/2.13; site 162 also all-even that day (level 2.15/2.11); halved to ~513/417, plausible for a dry Saturday."},
+    {"action": "missing", "factor": null, "SITE_SK": 160, "DIRECTION_SK": null,
+      "start": "2022-07-29 13:45", "end": "2022-08-01 12:30", "confidence": "high",
+      "diagnosis": "The counter stopped detecting mid-afternoon on a dry Friday and reported zeros in both directions for three days; the bikes that passed were not recorded, so they cannot be recovered.",
+      "evidence": "Both directions 0 from 13:45 on 29 Jul (3-4 bikes per slot before) to 12:45 on 1 Aug apart from a single 1; weekend totals 0/0 while site 162 recorded 416 and 405 and weather was dry (0-0.2 mm); ~2300 usual bikes in the stretch."},
+    {"action": "missing", "factor": null, "SITE_SK": 160, "DIRECTION_SK": null,
+      "start": "2024-10-07 18:15", "end": "2024-10-10 11:00", "confidence": "high",
+      "diagnosis": "The counter went to zero abruptly during the evening peak and stayed at zero in both directions for about 2.7 days while neighbouring counters recorded normal traffic; the unrecorded bikes cannot be recovered.",
+      "evidence": "Slots of 6-16 bikes up to 18:00 on 7 Oct then 0 until 11:15 on 10 Oct (a single 1 at 12:00 on 9 Oct); 8-9 Oct totals 0 and 1 while site 162 had 230 and 311 and site 98 152 and 237; rain only 0.2-0.8 mm; ~1750 usual bikes."},
+    {"action": "missing", "factor": null, "SITE_SK": 160, "DIRECTION_SK": null,
+      "start": "2025-10-23", "end": "2025-10-23", "confidence": "high",
+      "diagnosis": "A network-wide feed outage: every record for the day is a 'warning' zero, as at 37 sites across the network, so the day's counts were never delivered and cannot be recovered.",
+      "evidence": "96/96 records per direction status 'warning' with count 0; network() shows 37 zero sites on 2025-10-23 vs 0-3 on adjacent days, and sites 162 and 98 also 0; dry day; 22 Oct 308/287 and 24 Oct 389/332."}
+  ],
+  "series": [],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: showed a clean, complete record with one record per slot and plausible seasonal levels (2021 lockdown peak, July 2022 floods)",
+      "zeros(counter=True): found the three multi-day outages among many ordinary overnight zero runs",
+      "doubled: flagged 2022-02-19 in both directions; running it on neighbour 162 showed the same day doubled there",
+      "network: confirmed 2025-10-23 was a feed-wide outage and the other two were local",
+      "compare(by='day') and weather: showed neighbours normal and dry weather during the local outages, and July 2022 lows matched extreme rain",
+      "slots: gave exact start and end slots of each outage"
+    ],
+    "not_useful": [
+      "spikes: only single 15-minute bunches of 23-47 bikes (group rides), none affecting weekly totals",
+      "duplicates: nothing for a single-record tube counter"
+    ],
+    "improve": [
+      "zeros: an option to drop overnight-only stretches (daytime_hours == 0) would cut 150 rows to the handful that matter",
+      "doubled: report whether other sites are doubled on the same days, to distinguish feed-wide from counter-specific doubling",
+      "daily(wide=True): optionally join weather and a neighbour's total directly"
+    ],
+    "add": [
+      "a per-day list of sites whose counts are all even (network-wide doubling detector), analogous to network()'s zero_sites"
+    ]
+  },
+  "summary": "Site 160 is a single Metrocount tube counter with a clean, complete record from Feb 2021 to Sep 2026 and no series joins needed. Four faults change weekly totals: one day (2022-02-19) doubled in both directions, also seen at tube site 162, scaled by 0.5; two local outages of zeros (29 Jul-1 Aug 2022, 7-10 Oct 2024) and a network-wide warning-zero day (23 Oct 2025) set missing. Low periods such as the July 2022 floods and the high 2021 lockdown months are real riding."
+}

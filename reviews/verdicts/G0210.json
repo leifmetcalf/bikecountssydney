@@ -1,0 +1,28 @@
+{
+  "group": "G0210",
+  "decisions": [],
+  "series": [],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: showed complete coverage (every day complete, 1.0 records per slot) for both directions over 2015-06 to 2025-10 in one table once pivoted by direction",
+      "daily: pivoted by direction with a west/east ratio, it isolated the few unusual days (mid-October Sunday event peaks, 2025-03-11 eastbound group, storm days) for inspection",
+      "slots: confirmed the October Sunday peaks are a 08:00-09:15 westbound surge (e.g. 308 bikes in one slot on 2015-10-18) and the 2025-03-11 excess is ~100 eastbound riders in 45 minutes, both real riding",
+      "hourly: compared direction profiles across 2024 and 2025 to check the 2025 shift in the west/east ratio showed no fault signature",
+      "doubled/duplicates/spikes: all empty, quickly ruling out the main fault types"
+    ],
+    "not_useful": [
+      "zeros: returned 4062 stretches, almost all ordinary overnight quiet on a shared path; the few longer ones (14-17 h) are afternoon-to-morning on rainy weekends",
+      "events: only one event listed, not covering this site's annual October ride"
+    ],
+    "improve": [
+      "zeros: add an option to exclude stretches that lie within typical overnight hours for the direction, or rank by how many normally-busy slots they cover",
+      "overview: offer a wide format with directions side by side",
+      "daily: include a column for the other direction's total or the directional ratio"
+    ],
+    "add": [
+      "a directional-balance tool: monthly ratio between a site's directions with change points flagged"
+    ]
+  },
+  "summary": "Site 210 (Parramatta River north, west of James Ruse Dr) has one Metrocount piezo counter with complete, single-record data for both directions from June 2015 to October 2025, and no duplicates, doubling, spikes or fault-like zero runs. The unusual days are real riding: an annual mid-October Sunday westbound ride surge, a group of about 100 eastbound riders on 2025-03-11, and low days during storms such as June 2016 and July 2022. The west/east ratio drifts from about 1.03 to 1.13 from April 2025, but there is no mechanism for a fault, so the whole record stands and each direction is its own series."
+}

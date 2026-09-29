@@ -1,0 +1,73 @@
+{
+  "group": "G0092",
+  "decisions": [
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2012-09-20 00:00", "end": "2012-09-20 14:00", "confidence": "medium",
+      "diagnosis": "First day of the record: both directions are 0 until the counter starts counting at 14:15, so the morning was not counted and cannot be recovered.",
+      "evidence": "Zero run 00:00-14:00 on 2012-09-20 (8.25 daytime hours, usual ~129 bikes); counts start 14:15 in both directions."},
+    {"action": "subtract_other", "factor": null, "SITE_SK": 92, "DIRECTION_SK": 3,
+      "start": "2013-02-01", "end": "2013-02-07", "confidence": "high",
+      "diagnosis": "Direction 3 (South East) also counted direction 4's riders: in almost every slot it has at least as many bikes as direction 4, and its PM peak copies direction 4's.",
+      "evidence": "Daily a_covers_b 0.975-1.0 (normally ~0.4-0.5), dir 3/dir 4 ratio 2.1-2.6 (normally ~1.2); e.g. 2013-02-05 681 vs 317, and 681-317=364 matches normal dir 3 weekdays (~300-340); switches on at midnight 1 Feb and off at midnight 8 Feb."},
+    {"action": "subtract_other", "factor": null, "SITE_SK": 92, "DIRECTION_SK": 3,
+      "start": "2013-02-15", "end": "2013-02-28", "confidence": "high",
+      "diagnosis": "Same fault as 1-7 Feb 2013: direction 3 counts its own riders plus direction 4's, on whole days from 15 Feb through 28 Feb.",
+      "evidence": "Daily a_covers_b 0.977-1.0, ratio 2.0-2.8 on every day 15-28 Feb; 8-14 Feb and 1 Mar are back to a_covers_b ~0.4 and ratio ~1.1-1.2; e.g. 2013-02-19 646 vs 303 -> 343 after subtraction."},
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2014-02-07", "end": "2014-02-13", "confidence": "high",
+      "diagnosis": "Exactly seven days of zeros in both directions, flagged warning, between normal days; the logger recorded nothing while riders passed (adjacent offramp counter 91 kept counting), so the counts are lost.",
+      "evidence": "Dir 3/4 315/274 on Thu 6 Feb, 0/0 Fri 7 - Thu 13 Feb, 181/176 Fri 14 Feb; site 91 normal (21-52/day) throughout."},
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2014-10-31", "end": "2014-11-06", "confidence": "high",
+      "diagnosis": "Exactly seven days (Fri-Thu) of zeros in both directions flagged warning between normal weekdays: a logger outage, counts unrecoverable.",
+      "evidence": "284/256 on 30 Oct, 0/0 31 Oct-6 Nov (warning), 212/192 on 7 Nov; usual ~1375 daytime bikes lost."},
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2015-02-20", "end": "2015-02-26", "confidence": "high",
+      "diagnosis": "Exactly seven days (Fri-Thu) of zeros in both directions flagged warning; site 91 next to it counted normally, so this is a logger outage and the counts are lost.",
+      "evidence": "284/235 on 19 Feb, 0/0 20-26 Feb (warning), 165/165 on 27 Feb; site 91 20-32/day in the same days."},
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2017-03-04", "end": "2019-08-13 12:15", "confidence": "high",
+      "diagnosis": "The counter failed: from March 2017 it recorded only a Friday-midday-to-night fragment each week (zeros flagged warning the other six days), then only zeros from 27 Apr 2018 until it restarted at 12:30 on 13 Aug 2019, so no week in this period has a true total.",
+      "evidence": "Weekly zero runs of ~160 h (Fri/Sat night to Fri ~12:00) every week Mar 2017-Apr 2018, weekly totals ~130 vs ~2300 before; then 11,344 h of continuous zeros to 2019-08-13 12:15; counts resume at 12:30 at ~150/day per direction."},
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2021-03-19 11:00", "end": "2021-03-26 11:30", "confidence": "medium",
+      "diagnosis": "Exactly seven days of zeros starting and ending late on a Friday morning, the signature of a logger outage between services; Fleming Park (121) counted 300+/day on 24-25 Mar, so the zeros are not riding, and counts are lost.",
+      "evidence": "Last count 10:45 on 19 Mar, first count 11:45 on 26 Mar; 0/0 on 20-25 Mar (warning); site 121 330/312 and 298/298 on 24-25 Mar. Some of the early days coincide with the March 2021 floods, so the loss is smaller than a normal week."},
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2021-07-09 11:30", "end": "2021-07-23 12:30", "confidence": "high",
+      "diagnosis": "Fourteen days of zeros from Friday late morning to Friday midday, same logger-outage signature; sites 91 and 121 counted normally throughout, so riders passed uncounted.",
+      "evidence": "Last count 11:15 on 9 Jul, first 12:45 on 23 Jul; 0/0 10-22 Jul (warning); site 91 16-61/day and site 121 170-650/day in the same days."},
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2021-09-24 12:30", "end": "2021-10-01 12:15", "confidence": "high",
+      "diagnosis": "Seven days of zeros from Friday midday to Friday midday while sites 91 and 121 counted normally: a logger outage, counts lost.",
+      "evidence": "Last count 12:15 on 24 Sep, first 12:30 on 1 Oct; 0/0 25-30 Sep (warning); site 121 209-433/day, site 91 15-40/day meanwhile."},
+    {"action": "missing", "factor": null, "SITE_SK": 92, "DIRECTION_SK": null,
+      "start": "2021-10-08 11:45", "end": "2021-10-08 23:45", "confidence": "medium",
+      "diagnosis": "On the last day before the eight-month gap in the record, both directions go to 0 after 11:30 on a Friday, the same midday cut-off as the logger outages, so the afternoon was not counted.",
+      "evidence": "Last non-zero slot 11:30 on 2021-10-08, all zeros for the rest of the day including the PM peak (normally 50+ bikes); no data then until 2022-06-04."}
+  ],
+  "series": [],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: showed the whole story at once (Feb 2013 dir 3 jump, 2017-2019 collapse, 2025 zeros, level change).",
+      "zeros(counter=True): exact start and end slots of the outages, and the weekly Friday-fragment pattern in 2017-18.",
+      "directions(by='day'): a_covers_b ~1.0 pinned the Feb 2013 dir 3 double-count to exact days.",
+      "daily(wide=True) joined across sites 91/92/121: showed that the Jan-Mar 2025 and Aug-Sep 2025 zeros at 92 coincide with extra riders on the offramp path (91), i.e. a real closure/diversion, whereas the 2014/2015/2021 outages had normal neighbours.",
+      "compare: 92/121 ratio stable enough (0.5-0.6 in 2012-13, ~0.47 in 2020-24) to treat the post-2019 lower level as real.",
+      "raw: status flags and ADDED_UPDATED dates."
+    ],
+    "not_useful": [
+      "doubled, duplicates: empty for this single-record-per-slot piezo.",
+      "spikes: dominated by real 06:00 group rides; hundreds of rows with little signal."
+    ],
+    "improve": [
+      "zeros: a filter for min daytime_hours would avoid a 40 KB dump of routine overnight zeros.",
+      "compare: optionally per direction, and a daily mode that joins neighbours' daily totals in one wide table."
+    ],
+    "add": [
+      "A tool listing, for a zero run at one site, what nearby sites did in the same days (normal, zero, or elevated) to separate outages from closures with diversions."
+    ]
+  },
+  "summary": "Single MetroCount piezo on the Gore Hill Fwy path, counting both directions since 2012. Faults: direction 3 also counted direction 4's riders on 1-7 and 15-28 Feb 2013 (subtract), several exact week-long logger outages (2014, 2015, 2021) and a counter failure from Mar 2017 to Aug 2019 (missing). The Jan-Mar 2025 and Aug-Sep 2025 weekday-daytime zeros are kept as real path closures, because the adjacent offramp counter (91) picked up the diverted riders at the same times."
+}

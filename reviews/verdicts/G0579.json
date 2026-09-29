@@ -1,0 +1,11 @@
+{
+  "group": "G0579",
+  "decisions": [
+    {"action": "missing", "SITE_SK": 579, "DIRECTION_SK": null, "start": "2026-06-02", "end": "2026-06-02",
+      "confidence": "medium",
+      "diagnosis": "Installation day: the camera recorded nothing until about 11:15, so the day's zeros before then are not real and the day total is only a fragment.",
+      "evidence": "2026-06-02 totals 3 N / 17 S with no bikes in 00:00-11:14 (including the morning peak), against 27-41 N / 64-92 S on the following weekdays; first non-zero slot 11:15."}
+  ],
+  "series": [],
+  "summary": "One Secure Agility camera (counter 385) on the Cooks to Cove Greenway shared path, with two directions and complete, single-record data from 2026-06-02 to 2026-09-24; no automatic fixes fired. Levels rise steadily from June into September, with busy weekends and low days that look like weather, so they are kept as they are; southbound runs about 30-60% above northbound, and the evening counts drop off sharply at dusk, which tracks sunset month by month. That looks like the camera missing riders in the dark rather than a fault that could be fixed. Only the partial installation day, 2026-06-02, is set to missing."
+}

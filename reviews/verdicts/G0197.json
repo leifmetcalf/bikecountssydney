@@ -1,0 +1,87 @@
+{
+  "group": "G0197",
+  "decisions": [
+    {
+      "action": "restore",
+      "SITE_SK": 197,
+      "DIRECTION_SK": null,
+      "start": "2021-03-20",
+      "end": "2021-03-23",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked real zeros during the March 2021 NSW floods.",
+      "evidence": "197 raw 2-6/day per direction; 198/199 only 18-82/day vs ~330 normal. Neighbouring sites 198/199 (40 m away) were also far below normal those days, and this site carries about 1/7 of their flow, so near-zero is expected"
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 197,
+      "DIRECTION_SK": 205,
+      "start": "2021-11-21",
+      "end": "2021-11-21",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked real zeros on a wet low-traffic Sunday.",
+      "evidence": "205 raw 4; 198/199 raw 48-49 vs ~320 normal."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 197,
+      "DIRECTION_SK": 247,
+      "start": "2022-03-07",
+      "end": "2022-03-08",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked real zeros during the March 2022 Sydney floods.",
+      "evidence": "247 raw 9 and 2; 198/199 raw 31-84 vs ~210 normal."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 197,
+      "DIRECTION_SK": null,
+      "start": "2022-04-06",
+      "end": "2022-04-08",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked real zeros on rain days.",
+      "evidence": "197 raw 0-9 per direction; 198/199 raw 33-86 vs ~290 normal."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 197,
+      "DIRECTION_SK": null,
+      "start": "2022-07-02",
+      "end": "2022-07-06",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked real zeros during the July 2022 floods.",
+      "evidence": "197 raw 0-6 per direction; 198/199 raw 10-32 vs ~160 normal; both 197 directions near zero together."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 197,
+      "DIRECTION_SK": 247,
+      "start": "2023-01-06",
+      "end": "2023-01-07",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked real zeros on a very low day when both directions read near zero.",
+      "evidence": "2023-01-06: 205 raw 2 and 247 raw 2 over the same slots; 247 then reads a normal 55 on 01-07."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 197,
+      "DIRECTION_SK": 247,
+      "start": "2023-02-14",
+      "end": "2023-02-14",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked a midday run of zeros on a low-count weekday; it is consistent with sparse riding.",
+      "evidence": "247 zeros 10:30-17:15 while 205 counted 12 in those slots; the day total of 14 is within normal noise at ~40/day."
+    },
+    {
+      "action": "restore",
+      "SITE_SK": 197,
+      "DIRECTION_SK": 247,
+      "start": "2023-04-29",
+      "end": "2023-04-30",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked zeros from 09:15 on 04-29 to 08:00 on 04-30, while 205 was also almost silent, which points to rain rather than an outage.",
+      "evidence": "205 counted only 3 in the same 92 slots; 198/199 had just 176-205 on Saturday 04-29."
+    }
+  ],
+  "series": [],
+  "summary": "Single piezo counter 183 on the Parramatta River north path at Atkins Rd, reading ~40-50 bikes/day per direction with a consistent profile. The Jul-Oct 2021 rise (Sydney lockdown, also seen at every neighbour) and the 17 Aug to ~16 Nov 2023 five-fold rise (traffic diverted from the adjacent Atkins St path, site 199, which fell to ~5/day in exactly those months) are real. The only changes restore zero_outage fixes that blanked genuine rain and flood-day zeros."
+}

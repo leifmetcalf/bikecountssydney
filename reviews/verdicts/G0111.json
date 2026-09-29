@@ -1,0 +1,72 @@
+{
+  "group": "G0111",
+  "decisions": [
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 111,
+      "DIRECTION_SK": null,
+      "start": "2016-12-15 16:15",
+      "end": "2019-03-29",
+      "confidence": "high",
+      "diagnosis": "From 16:15 on 2016-12-15 the counter stopped detecting bikes except in short weekly windows (mostly Friday roughly 11:00-20:00), and in those windows both directions record near-identical counts in the same slots. That is a detector fault, not riding, and the bikes it missed cannot be recovered.",
+      "evidence": "Daily totals of 8-21 per direction up to 2016-12-15, then exact zeros for 6-7 days a week in both directions through 2019. rv.zeros shows about 160-hour zero runs that end Friday around midday nearly every week. The nearby M7 site 114 kept about 1,000-2,000 bikes a week over the same time. The E/W slot correlation rises from 0.34-0.47 (2011-2016) to 0.86-0.997 (2017-2018), with most non-zero slots equal in both directions (e.g. 2018 H2: 144 of 148 non-zero slots equal). Monthly means are 0-4 per day against 20-40 before."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 111,
+      "DIRECTION_SK": null,
+      "start": "2016-03-01",
+      "end": "2016-12-15",
+      "confidence": "low",
+      "diagnosis": "Counts fell well below earlier years and dropped very low in winter 2016 while the nearby M7 counter did not. This may be the piezo losing sensitivity before it failed in December, but the hourly profile keeps its normal shape and counts recover in spring, so a real local drop cannot be ruled out.",
+      "evidence": "Site 111 over site 114 weekly ratio: about 0.10-0.17 in 2015, 0.07-0.10 in Mar-May 2016, 0.013-0.05 from 2016-06-06 to 07-31, about 0.12 in Oct 2016, then about 0.08. Monthly means per direction: Jun 2016 6, Jul 4-5, against 24-29 in Jun-Jul 2015. Site 114 fell only from about 160 to about 145 per day."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 111,
+      "DIRECTION_SK": null,
+      "start": "2013-02-15",
+      "end": "2013-02-28",
+      "confidence": "low",
+      "diagnosis": "The East/West split moved from about 1:1 to about 1:4 (West higher) for two weeks. On the same day the neighbouring M7 site 114 shifted its split the same way, which points to a real temporary route change rather than a direction fault, so the counts are kept.",
+      "evidence": "At 111, East was 6-17 per day and West 23-83 from Feb 15-28, against about equal before and after (e.g. Mar 3-6 at 13-26 each). At 114, direction 35 over 36 went from about 1.3 to about 2.5 starting 2013-02-15. The E+W total at 111 (about 45-100 per day) is in line with January."
+    }
+  ],
+  "series": [],
+  "proposals": [],
+  "summary": "Single piezo counter (166) at Merindah Rd, Baulkham Hills, with clean single-record data and about 20-40 bikes per day per direction from 2011 to 2015. From 2016-12-15 16:15 the counter only registered bikes in brief weekly (mostly Friday) windows, with counts mirrored in both directions, so everything from then to the end of the record in 2019 is set missing. The low 2016 counts (especially June-July) and a two-week shift in the direction split in February 2013 are flagged uncertain; the neighbouring M7 counter shifted its direction split the same way in February 2013, which points to a real cause.",
+  "tools": {
+    "useful": [
+      "overview: one table showed the whole record, the 2016 fall to 0-4 per day and the one-sided February 2013 shift",
+      "zeros: the run list showed the weekly zero runs from Dec 2016 to 2019, each ending on Friday around midday",
+      "daily: pinned the failure to 2016-12-15 and showed the East-only drop in February 2013",
+      "slots: showed East and West had near-identical counts in the same slots during the post-2016 Friday windows",
+      "weekly: a site 111 to site 114 ratio showed the winter 2016 dip was local",
+      "monthly: comparing site 111 with neighbour 114 ruled out a regional decline",
+      "hourly: showed the 2016 profile kept its shape (scaled down), and the Feb 2013 West profile looked like both directions combined",
+      "neighbours: found M7 site 114, whose own February 2013 direction shift pointed to a real cause"
+    ],
+    "not_useful": [
+      "doubled, duplicates, spikes: returned nothing (single-record piezo with low counts), though they were quick to rule out",
+      "absent_zeros: not relevant because this is not a camera",
+      "channels, raw: always one record per slot, so they added nothing beyond slots",
+      "calendar: not needed because no holiday questions came up",
+      "events: holds a single event and nothing near this site",
+      "meta: the brief already contained everything it shows"
+    ],
+    "improve": [
+      "zeros: add an option to merge runs broken by a few non-zero slots, or to summarise zero share per week; the 2017-2018 period produced about 90 near-identical rows",
+      "daily/weekly: add a wide option (one column per direction) and an option to add neighbour sites as columns with a ratio",
+      "overview: add a column for the correlation between directions, or the share of non-zero slots equal in both, to flag mirrored counts",
+      "hourly: accept several periods at once for side-by-side comparison"
+    ],
+    "add": [
+      "direction agreement: per direction pair and month, the share of non-zero slots equal in both directions and the correlation, to flag mirrored-count faults and shifts in the split",
+      "neighbour ratio: weekly total of a site over a chosen neighbour (or the median of several), with breakpoints flagged, to separate local drops from regional ones",
+      "weekday coverage: per week, the hours or weekdays with any counts, to spot counters that only work in recurring windows"
+    ]
+  }
+}

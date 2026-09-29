@@ -1,0 +1,82 @@
+{
+  "group": "G0112",
+  "decisions": [
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 112,
+      "DIRECTION_SK": null,
+      "start": "2017-05-19 10:45",
+      "end": "2017-05-26 12:30",
+      "confidence": "medium",
+      "diagnosis": "Both directions read exactly 0 for seven days (Fri to Fri, stopping and resuming in working hours) on a path that normally carries 100-200 bikes a day; this could be a counter outage reporting zeros or a path closure for works, and with no nearby counter the data cannot tell them apart.",
+      "evidence": "Daily N/S: 05-18 60/59, 05-19 14/17, 05-20..05-25 all 0/0 (TfNSW status warning), 05-26 9/40, 05-27 65/108; last counts 09:15 (N) and 10:30 (S) on 05-19, first again 12:45 (S) and 15:00 (N) on 05-26; no rain event or holiday known for that week."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 112,
+      "DIRECTION_SK": null,
+      "start": "2021-02-26 11:15",
+      "end": "2021-03-02 07:30",
+      "confidence": "medium",
+      "diagnosis": "Both directions cut out in the same slot (Fri 11:15) and came back together at Tue 07:45 with normal peak counts, which could be a counter outage or a short path closure; no neighbour is available to check whether bikes passed.",
+      "evidence": "02-26 11:00 slot 4/6 bikes, then exact 0 in both directions until 03-02 07:45 (5/1); 02-27..03-01 daily 0/0 with warning status, against surrounding weekend days of 114-136 N / 190-226 S."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 112,
+      "DIRECTION_SK": null,
+      "start": "2021-03-19 11:00",
+      "end": "2021-03-26 11:00",
+      "confidence": "low",
+      "diagnosis": "Seven days of exact zeros in both directions coincide with the March 2021 NSW flood rain, so they may be real (a flooded or closed path by the Georges River) or a counter that stopped while waterlogged; the data do not settle it.",
+      "evidence": "03-18 14/29 and 03-19 13/24 (rain), 03-20..03-25 0/0 with warning status, resuming 03-26 ~11:00 with 37/67 and a 151/351 rebound Sunday 03-28; other very wet days here (2016-06-05, 2018-11-28) also read 0 or near 0."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 112,
+      "DIRECTION_SK": null,
+      "start": "2021-07-16",
+      "end": "2021-08-13",
+      "confidence": "low",
+      "diagnosis": "TfNSW's site comment says MetroCount raised potential issues with this period, but the counts show no clear fault: the north/south split is lower than usual, as in the weeks just after it and in the 2019 winter.",
+      "evidence": "Weekly S/N ratio 1.01-1.43 in the period vs 1.06-1.16 for 2021-08-16..09-20 and 0.75-1.4 in May-Aug 2019; totals follow the 2021 lockdown-winter level (about 60/80 per day); no zeros, duplicates or even-count runs."
+    }
+  ],
+  "series": [],
+  "proposals": [],
+  "summary": "Site 112 has a single MC5720 piezo counter (154) with an almost unbroken 1-record-per-slot record from July 2011 to September 2026, a gap from October 2021 to August 2022, and no duplicate, doubled or spike faults; the March-Sunday peaks are a recurring organised ride, and the April 2020 surge is the COVID-era boom. The only questionable periods are three week-long runs of exact zeros in both directions (May 2017, Feb-Mar 2021, and March 2021 during the floods), recorded as uncertain because no neighbouring counter can show whether bikes passed, plus a low-confidence note on the July-August 2021 period flagged in TfNSW's site comment. With one counter at one site, no series definition is needed.",
+  "tools": {
+    "useful": [
+      "overview: the side-by-side monthly per_day and records_per_slot for both directions showed at once a complete, single-record record with one 2021-2022 gap",
+      "daily: day totals around each zero run showed clean week-long 0/0 blocks against normal neighbouring days and short rain-day dips",
+      "weekly: the per-week south/north ratio showed the 2019 and 2021 winter direction-split drift was recurring, not confined to the flagged 2021 period",
+      "slots: showed both directions stopping in the same slot (2021-02-26 11:15) and resuming together, and the scattered single counts on 2021-03-14",
+      "raw: Status and ADDED_UPDATED_DATETIME showed the zero runs are TfNSW 'warning' days, all loaded in one 2021-11-29 batch",
+      "zeros: with min_hours=24 it isolated the handful of multi-day zero runs from nightly zeros",
+      "spikes: with a low ratio it revealed the recurring second-Sunday-of-March ride peaks",
+      "doubled/duplicates: empty results quickly ruled out double counting and repeated records"
+    ],
+    "not_useful": [
+      "neighbours: returned nothing within 5 km, so there was no way to test whether bikes passed during zero runs",
+      "events: only one event listed near this site, not the recurring March ride or the March 2021 floods",
+      "calendar: holidays only; no weather, which was the main question for zero days",
+      "zeros (default 6 h): thousands of overnight rows at a low-volume site buried the real candidates",
+      "channels, absent_zeros, hourly, monthly: not needed for a single-channel piezo with complete slots; overview already gave the monthly levels"
+    ],
+    "improve": [
+      "zeros: add a per-day summary option (whole days at 0 in all directions at once) or scale the default min_hours to the direction's night-time quiet",
+      "daily/weekly: offer a wide format with directions as columns and weekday name, since every review pivots them",
+      "spikes: flag runs of consecutive spike slots as one event with a date, so recurring organised rides are easy to spot",
+      "events: include recurring annual rides and major weather (e.g. 2016-06 East Coast Low, 2018-11-28 storm, 2021-03 floods)"
+    ],
+    "add": [
+      "a daily rainfall tool (BOM station near the site) to judge whether zero or low days are weather",
+      "a site-comment/maintenance log tool listing TfNSW or vendor notes with dates, to tell counter outages from path closures",
+      "a direction-ratio tool showing the per-week split between directions with its seasonal typical range, to judge direction_unreliable"
+    ]
+  }
+}

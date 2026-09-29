@@ -1,0 +1,76 @@
+{
+  "group": "G0560",
+  "decisions": [
+    {"action": "missing", "factor": null, "SITE_SK": 560, "DIRECTION_SK": null,
+     "start": "2014-08-16", "end": "2014-10-10 06:45", "confidence": "high",
+     "diagnosis": "Commissioning period: counter 229 registered almost nothing (0-9 bikes a day, one day of 101) until it started counting properly on 2014-10-10 07:00; the riders who passed were not recorded and cannot be recovered.",
+     "evidence": "Daily totals 2014-08-16..2014-10-09 are 0-9 except 2014-10-06 (101), then 149, 306, 380, 231 from 2014-10-10; zeros(counter=True) shows daytime zero runs throughout Aug-Sep 2014."},
+    {"action": "missing", "factor": null, "SITE_SK": 560, "DIRECTION_SK": null,
+     "start": "2015-09-05 23:00", "end": "2015-09-16 09:30", "confidence": "high",
+     "diagnosis": "Counter 229 reported flat zeros in both directions for ten days while it had been counting ~400 bikes a day, then resumed at the same level: a counter outage whose counts cannot be recovered.",
+     "evidence": "2015-09-05 350 bikes, 2015-09-06..15 all 0 (both directions, all slots), 2015-09-17 371."},
+    {"action": "missing", "factor": null, "SITE_SK": 560, "DIRECTION_SK": null,
+     "start": "2015-09-19 23:30", "end": "2015-09-24 08:30", "confidence": "high",
+     "diagnosis": "Intermittent outage of counter 229: flat zeros in both directions between days of normal counts; not recoverable.",
+     "evidence": "2015-09-19 251, 2015-09-20..23 all 0, 2015-09-24 counts resume at 09:00 (155 for the day)."},
+    {"action": "missing", "factor": null, "SITE_SK": 560, "DIRECTION_SK": null,
+     "start": "2015-09-24 22:30", "end": "2016-04-30 12:30", "confidence": "high",
+     "diagnosis": "Counter 229 outage: seven months of flat zeros in both directions, 'good' status, ending with counts resuming at the prior level; other City of Sydney piezo counters show similar long dead spells, so these zeros are a fault, not a closure, and cannot be recovered.",
+     "evidence": "Zero run 5246 h (usual ~53,000 bikes); 2016-04-30 counts start 12:45 (205), May 2016 424/day vs Aug 2015 372/day."},
+    {"action": "missing", "factor": null, "SITE_SK": 560, "DIRECTION_SK": null,
+     "start": "2017-07-27 23:30", "end": "2018-06-01 09:00", "confidence": "high",
+     "diagnosis": "Counter 229 outage: ten months of flat zeros in both directions after a normal day, then counts resume at the prior level; not recoverable.",
+     "evidence": "2017-07-27 449 bikes, 2017-07-28..2018-05-31 all 0, 2018-06-01 counting from ~09:15; zero run 7402 h, usual ~74,700 bikes; neighbours 103/258/544 kept counting normally."},
+    {"action": "missing", "factor": null, "SITE_SK": 560, "DIRECTION_SK": null,
+     "start": "2018-08-13 01:45", "end": "2019-06-09 13:15", "confidence": "high",
+     "diagnosis": "Counter 229 outage: ten months of flat zeros after a normal weekend, then counts resume at the prior level; not recoverable.",
+     "evidence": "2018-08-12 324 bikes, 2018-08-13 3, then 0 until 2019-06-09 afternoon (217), 2019-06-10 548; zero run 7212 h, usual ~72,800 bikes."},
+    {"action": "missing", "factor": null, "SITE_SK": 560, "DIRECTION_SK": null,
+     "start": "2020-08-19 21:30", "end": "2020-11-06 07:45", "confidence": "high",
+     "diagnosis": "Counter 229 outage: 11 weeks of flat zeros in both directions between days of ~500 bikes; when it resumed it reported two channels per slot, consistent with a repair/reconfiguration; not recoverable.",
+     "evidence": "2020-08-19 511, 2020-08-20..2020-11-05 all 0, 2020-11-06 363 (from 08:00), 2020-11-08 558; zero run 1882 h, usual ~19,000 bikes."},
+    {"action": "missing", "factor": null, "SITE_SK": 560, "DIRECTION_SK": null,
+     "start": "2021-12-24 23:45", "end": "2022-12-14", "confidence": "high",
+     "diagnosis": "Counter 229 failed for good: a year of flat zeros in both directions (some days flagged 'warning') until its record ends; the counts cannot be recovered.",
+     "evidence": "2021-12-24 416 bikes, 2021-12-25..2022-12-14 all 0 (8520 h, usual ~86,000 bikes); 768 'warning' records in Dec 2021; neighbours 544/258/551 counting normally in 2022."}
+  ],
+  "series": [
+    {"SITE_SK": 560, "name": "Northbound / outbound (counter 229, 2014-2022)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 229, "DIRECTION_SK": 330, "start": null, "end": null}],
+     "evidence": "Only counter-direction of the Ecocounter unit for this flow; kept separate from counter 370 because there is no overlap (a ~3-year gap) and no neighbour with a single continuous counter across 2021-2025 to show the two units read comparably."},
+    {"SITE_SK": 560, "name": "Southbound / citybound (counter 229, 2014-2022)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 229, "DIRECTION_SK": 331, "start": null, "end": null}],
+     "evidence": "Only counter-direction of the Ecocounter unit for this flow; kept separate from 370/1778 for the same reason (no overlap, different vendor, cannot confirm comparable readings)."},
+    {"SITE_SK": 560, "name": "Westbound / outbound (counter 370, 2025-)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 370, "DIRECTION_SK": 1777, "start": null, "end": null}],
+     "evidence": "Metrocount replacement; its hourly profile (PM peak 30/h at 17:00) matches 330 (PM peak 34/h), so it carries the same flow as 330, but it is kept as its own series because comparability across the 2022-2025 gap cannot be checked."},
+    {"SITE_SK": 560, "name": "Eastbound / citybound (counter 370, 2025-)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 370, "DIRECTION_SK": 1778, "start": null, "end": null}],
+     "evidence": "Metrocount replacement; AM peak 34/h at 08:00 matches 331 (41/h at 08:00) and both are flagged citybound, so it is the same flow as 331, but kept separate for lack of any overlap to verify level."}
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "zeros(counter=True): gave the exact slot boundaries of every outage of counter 229",
+      "daily(wide=True): confirmed each outage edge and the commissioning period at a glance",
+      "channels: showed the 2020-11 switch to two records per slot is two distinct channels (e.g. [8,0],[0,5],[3,14]), not duplicates",
+      "hourly: matched 330<->1777 and 331<->1778 by AM/PM commute peaks",
+      "monthly on neighbours: showed other City of Sydney counters with the same kind of long dead spells while nearby counters kept counting",
+      "directions: ruled out mirroring on counter 370 despite the West/East ratio drifting 1.2 -> 1.0 -> 1.1"
+    ],
+    "not_useful": [
+      "duplicates: flagged 2020-11-16..30 only because the month mixes 1- and 2-channel days; the 'matched' slots are coincidental equal values (mostly zeros), so drop_duplicates would be wrong there",
+      "spikes: at a path with low median counts every 20-bike slot is flagged; all were ordinary riding"
+    ],
+    "improve": [
+      "duplicates: compute the usual record count per direction from the neighbouring days rather than the calendar month, so a mid-month channel change is not reported as duplication",
+      "overview: a wide view (a column per direction) would be easier to scan than one row per direction-month",
+      "spikes: require a higher absolute floor or compare with the same weekday/hour mean rather than the median to cut false positives on quiet paths"
+    ],
+    "add": [
+      "a tool listing the first and last non-zero slot around each long zero run, with the day totals either side, to set decision edges directly",
+      "a cross-gap comparison tool: for a replaced counter, find neighbours with a single counter spanning both periods and report the ratio before and after"
+    ]
+  },
+  "summary": "Site 560 had an Ecocounter piezo (229, 2014-2022) that was dead for long stretches (Sep 2015-Apr 2016, Jul 2017-Jun 2018, Aug 2018-Jun 2019, Aug-Nov 2020 and from Christmas 2021 to its end) plus a weak commissioning period, all set missing; the counts between outages look sound, including the 2020-11 switch to two channels per slot. The Metrocount replacement (370, from Nov 2025) shows no faults. Directions 330/1777 and 331/1778 carry the same flows by their commute profiles, but with a 3-year gap and a different vendor they are kept as four separate series."
+}

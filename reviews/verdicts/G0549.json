@@ -1,0 +1,328 @@
+{
+ "group": "G0549",
+ "decisions": [
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2012-01-20",
+   "end": "2012-02-02 11:45",
+   "confidence": "high",
+   "diagnosis": "Counter 238 published only zeros in both directions before it started counting; nothing was recorded, so the counts cannot be recovered.",
+   "evidence": "324 h of zeros in both directions from the first record; first bikes 2012-02-02 12:00, then about 1,100/day"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2012-07-06 23:30",
+   "end": "2012-07-07",
+   "confidence": "medium",
+   "diagnosis": "The counter reported 0 in both directions for a whole dry Saturday, so it recorded nothing while bikes passed; nothing can be recovered.",
+   "evidence": "0/0 on 2012-07-07 (0.2 mm rain); Harbour Bridge 554 the same day; usual Saturday about 280 here"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": 327,
+   "start": "2012-07-08 13:00",
+   "end": "2012-07-08 19:00",
+   "confidence": "medium",
+   "diagnosis": "The day after an outage, one record of the southbound direction carried isolated bursts of 120-410 bikes per slot, with ordinary slots of 1-17 in between. That points to a sensor fault rather than riders, and the true counts cannot be separated out.",
+   "evidence": "S slots 13:00=200 (one record of 198), 13:15=411 (one record of 410), 14:00=321, 14:15=195, 17:00-17:30 up to 195, 18:45=122; day S 2268 vs N 210; Harbour Bridge not elevated (939)"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2013-08-18",
+   "end": "2013-08-18",
+   "confidence": "medium",
+   "diagnosis": "The counter reported 0 in both directions for a whole dry day and recorded nothing; the counts cannot be recovered.",
+   "evidence": "0/0 all day (0 mm rain); usual Sunday about 280"
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2013-09-20",
+   "end": "2013-12-08",
+   "confidence": "low",
+   "diagnosis": "Both directions dropped abruptly while nearby sites stayed at their usual level. It could be partial sensor failure or local works diverting riders off the path, and the data cannot tell which.",
+   "evidence": "N about 70/day vs 500 before, S about 350 vs 600; ratio to Harbour Bridge 0.55 -> 0.15-0.20 and back to 0.55 on 2013-12-09; weekend N was not as reduced as weekday N"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2014-06-03 09:15",
+   "end": "2014-07-10 13:30",
+   "confidence": "medium",
+   "diagnosis": "The counter reported 0 in both directions for five weeks apart from a few counts during an apparent site visit on 2014-06-20 14:30-14:45. It recorded nothing, so the counts cannot be recovered.",
+   "evidence": "892 h of zeros; only 1-3 bikes on 2014-06-20 14:30-14:45; about 1,100/day before and after"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2014-10-17",
+   "end": "2015-02-10 05:45",
+   "confidence": "high",
+   "diagnosis": "The counter reported only zeros in both directions for four months and recorded nothing; the counts cannot be recovered.",
+   "evidence": "2790 h of zeros; 771/918 on 2014-10-16 and S back to about 900/day on 2015-02-10"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": 326,
+   "start": "2015-02-10 06:00",
+   "end": "2015-04-24 12:45",
+   "confidence": "high",
+   "diagnosis": "When the counter resumed, only the southbound sensor worked: northbound registered a handful of bikes a day until the counter was reset on 2015-04-24. The riders were not detected, so the counts cannot be recovered.",
+   "evidence": "N 0-18/day vs S 800-900 on weekdays; N back to 683 on 2015-04-27 after a counter-wide gap on 2015-04-24 until 13:00"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2015-04-24 00:00",
+   "end": "2015-04-24 12:45",
+   "confidence": "high",
+   "diagnosis": "Both directions read 0 until 13:00 while the counter was apparently serviced; nothing was recorded, so it cannot be recovered.",
+   "evidence": "0 in all slots 00:00-12:45 on a Friday; after 13:00 both directions count normally"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2015-06-02",
+   "end": "2015-06-02",
+   "confidence": "medium",
+   "diagnosis": "A whole dry weekday of zeros in both directions; the counter recorded nothing.",
+   "evidence": "0/0 (0 mm rain); usual about 730 bikes in those hours"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2015-08-05",
+   "end": "2015-08-05",
+   "confidence": "medium",
+   "diagnosis": "A whole dry weekday of zeros in both directions; the counter recorded nothing.",
+   "evidence": "0/0 (0 mm rain); usual about 730"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2015-10-02",
+   "end": "2015-10-02",
+   "confidence": "medium",
+   "diagnosis": "A whole dry weekday of zeros in both directions; the counter recorded nothing.",
+   "evidence": "0/0 (0 mm rain); usual about 730"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2015-10-04",
+   "end": "2015-10-04",
+   "confidence": "medium",
+   "diagnosis": "A whole dry Sunday of zeros in both directions; the counter recorded nothing.",
+   "evidence": "0/0 (0 mm rain, 33.8 C); usual about 280"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2015-10-21",
+   "end": "2015-10-21",
+   "confidence": "medium",
+   "diagnosis": "A whole weekday of zeros in both directions; the counter recorded nothing.",
+   "evidence": "0/0 (8.4 mm rain does not bring a CBD cycleway to 0); usual about 730"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2016-02-08",
+   "end": "2016-02-08",
+   "confidence": "medium",
+   "diagnosis": "A whole dry weekday of zeros in both directions; the counter recorded nothing.",
+   "evidence": "0/0 (0 mm rain); usual about 730"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2016-03-09",
+   "end": "2016-04-01",
+   "confidence": "high",
+   "diagnosis": "The counter reported only zeros in both directions for 24 days and recorded nothing.",
+   "evidence": "581 h of zeros; 798/972 on 2016-03-08 and normal counts from 2016-04-02"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": 326,
+   "start": "2016-06-23 11:00",
+   "end": "2018-06-01",
+   "confidence": "high",
+   "diagnosis": "The northbound sensor failed mid-morning and for almost two years registered only a few bikes a day while southbound counted normally. Northbound riders were simply not detected, so the counts cannot be recovered.",
+   "evidence": "N 106 at 08:00 on 2016-06-23, then 0 from 11:00; N about 10/day vs S about 540/day until 2018-06-01; N back to 550 on 2018-06-04; S did not rise, so it was not absorbing northbound riders"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2018-11-28 06:00",
+   "end": "2019-03-02 10:45",
+   "confidence": "high",
+   "diagnosis": "The counter reported only zeros in both directions for three months and recorded nothing.",
+   "evidence": "2261 h of zeros; 770/982 on 2018-11-27 and normal counts from 2019-03-02 11:00"
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2020-05-18 21:30",
+   "end": "2023-08-18",
+   "confidence": "high",
+   "diagnosis": "Counter 238 died and kept publishing zeros in both directions for three years until its record ended; nothing was recorded.",
+   "evidence": "28,490 h of zeros; about 3,500 bikes/week per direction just before; the Metrocount replacement counted about 1,600/day from 2025"
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2012-05-26 19:15",
+   "end": "2012-05-27 12:45",
+   "confidence": "low",
+   "diagnosis": "Both directions read 0 for 17.75 h over a dry weekend. It could be a short counter dropout or a quiet spell, and it is small against the weekly total.",
+   "evidence": "usual about 173 bikes in that span; 0 mm rain"
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2013-03-24 08:00",
+   "end": "2013-03-24 16:00",
+   "confidence": "low",
+   "diagnosis": "Both directions read 0 for 8 daytime hours on a dry Sunday. It could be a counter dropout or a closure of the path.",
+   "evidence": "usual about 176 bikes; 0 mm rain; no event listed"
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 549,
+   "DIRECTION_SK": null,
+   "start": "2014-02-22 03:15",
+   "end": "2014-02-22 15:30",
+   "confidence": "low",
+   "diagnosis": "Both directions read 0 for most of a dry Saturday, broken by one slot. It could be a counter dropout or a closure.",
+   "evidence": "usual about 190 bikes; 0 mm rain"
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 549,
+   "name": "Northbound (Ecocounter 2012-2020)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 238,
+     "DIRECTION_SK": 326,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Counter 238's northbound direction; it ended in 2020 and a 5-year gap separates it from the Metrocount, whose level (about 720/day vs about 560 in 2019) cannot be checked against it."
+  },
+  {
+   "SITE_SK": 549,
+   "name": "Southbound (Ecocounter 2012-2020)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 238,
+     "DIRECTION_SK": 327,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Counter 238's southbound direction; kept separate from the Metrocount for the same reason."
+  },
+  {
+   "SITE_SK": 549,
+   "name": "Northbound (Metrocount 2025-)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 365,
+     "DIRECTION_SK": 1767,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Replacement counter from 2025-10-23; it never overlaps counter 238, so there is no way to calibrate the join."
+  },
+  {
+   "SITE_SK": 549,
+   "name": "Southbound (Metrocount 2025-)",
+   "confidence": "high",
+   "parts": [
+    {
+     "COUNTER_SK": 365,
+     "DIRECTION_SK": 1768,
+     "start": null,
+     "end": null
+    }
+   ],
+   "evidence": "Replacement counter from 2025-10-23; it never overlaps counter 238."
+  }
+ ],
+ "proposals": [],
+ "tools": {
+  "useful": [
+   "overview: the monthly pivot per direction showed at once the dead periods, the three northbound-only failures and the 2013 dip",
+   "zeros(counter=True): exact boundaries of every outage, including single whole-day dropouts and the 2015-04-24 morning reset",
+   "channels: showed the 2012-07-08 bursts sitting in a single record (410 in one of four)",
+   "compare: Harbour Bridge and King St stayed flat through the 2013 dip, so it is local",
+   "daily + weather: ruled out rain for the whole-day zeros and found exact transition days"
+  ],
+  "not_useful": [
+   "spikes: its 'usual' baseline is a median over the whole record, so two years of a dead northbound sensor turned every ordinary commuter peak into a 'spike'",
+   "duplicates: only flagged all-zero days inside the dead 2020-2023 period",
+   "doubled: nothing found"
+  ],
+  "improve": [
+   "spikes: compute 'usual' from a rolling window (e.g. +/-60 days) of non-zero days, so long outages do not distort it",
+   "channels: records are listed in ID order, so they cannot be followed as channels from slot to slot; a stable channel index would let a reviewer see which sensor failed"
+  ],
+  "add": [
+   "a direction-ratio tracker: the daily N/S ratio with runs where it departs from its long-run level, to find one-direction sensor failures directly"
+  ]
+ },
+ "summary": "Kent St (E) south of Margaret St was counted by an Ecocounter (2012-2020) and, after a 5-year gap, by a Metrocount (2025-). The Ecocounter had many whole-counter outages (weeks to months of zeros, plus single dead days), two long northbound-only sensor failures (2015-02 to 2015-04 and 2016-06 to 2018-06), and a burst of phantom southbound counts on 2012-07-08; all are set missing. A 2013 dip in both directions stays uncertain, the Metrocount data looks clean, and the two counters are kept as separate series."
+}

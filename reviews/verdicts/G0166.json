@@ -1,0 +1,11 @@
+{
+  "group": "G0166",
+  "decisions": [
+    {"action": "direction_unreliable", "SITE_SK": 166, "DIRECTION_SK": null,
+      "start": "2022-03-10", "end": "2022-03-24", "confidence": "medium",
+      "diagnosis": "Partway through 2022-03-10 the two directions swap their commuter profiles (probably the tube was relaid or reversed), so for the last 15 days North and South are exchanged relative to the rest of the record, but the two-way total stays on the usual level.",
+      "evidence": "From Jun 2021 to 2022-03-09, North (96) has the morning peak and South (95) the evening peak on workdays (Feb 2022 means: 07-09h 96=51.6 vs 95=26.4; 17-19h 96=42.8 vs 95=65.6), and South is higher every month. From 2022-03-11 this reverses (e.g. 03-15: AM 96=52 vs 95=94, PM 96=125 vs 95=60), and North now carries the larger daily total (e.g. 03-22: 437 vs 350). On 03-10, North has the morning peak (10-19 per slot) and also the evening peak (19-24 per slot). The two-way workday total is still about 700-800, the same as in February."}
+  ],
+  "series": [],
+  "summary": "G0166 is a single temporary Metrocount tube counter on Pitt St north of Martin Pl. It gives clean, complete 15-minute data from 2021-06-23 to 2022-03-24, with no automatic fixes, one record per slot, and plausible low days from weather, lockdown and holidays. The only fault is a swap of the direction labels from midday 2022-03-10 to the end of the record, which is flagged as direction_unreliable because the totals are still right."
+}

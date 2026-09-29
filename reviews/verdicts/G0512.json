@@ -1,0 +1,295 @@
+{
+  "group": "G0512",
+  "decisions": [
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 518,
+      "DIRECTION_SK": 1468,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The feed leaves out zero slots (and whole zero days) for this very quiet zone (about 2 bikes/day), so its partial days hold only non-zero slots.",
+      "evidence": "80 of 561 days have 1-7 slots, all non-zero; about 110 counter days missing entirely while the other 11 zones published 96 slots; absent_zeros flags week 2026-07-27."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 517,
+      "DIRECTION_SK": 1461,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The feed left out zero slots on a few days, leaving only the non-zero slots.",
+      "evidence": "2026-07-06 has 2 slots (both non-zero) and 2026-09-22 has 3 slots (all non-zero), while the other zones have 96."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 518,
+      "DIRECTION_SK": 1502,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The feed left out zero slots on a few days, leaving only the non-zero slots.",
+      "evidence": "2026-08-02 has 1 slot and 2026-09-20 has 8 slots, all non-zero."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 519,
+      "DIRECTION_SK": 1477,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The feed left out zero slots on some days.",
+      "evidence": "2026-07-09 has 1 non-zero slot; 2 days missing entirely (June and July 2026) while the counter published."
+    },
+    {
+      "action": "zero_fill",
+      "factor": null,
+      "SITE_SK": 520,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18",
+      "end": null,
+      "confidence": "high",
+      "diagnosis": "The feed left out zero slots for these low-volume zones on some days.",
+      "evidence": "1514: 2026-01-10 11 slots, 2026-07-06 2 slots, 2026-08-25 5 slots, all non-zero; 1526: 2026-08-02 4 slots, 2026-09-20 6 slots, and 8 days missing entirely."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 512,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18 00:00",
+      "end": "2024-11-18 08:45",
+      "confidence": "medium",
+      "diagnosis": "The camera reported zeros in every zone before it began counting on its first day; the counts cannot be recovered.",
+      "evidence": "zeros(counter=True): all 12 directions at 0 from 00:00 to 08:45 on 2024-11-18 (3 daytime hours, usually about 570 bikes)."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 516,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18 00:00",
+      "end": "2024-11-18 08:45",
+      "confidence": "medium",
+      "diagnosis": "Same as the other sites: the whole camera was at 0 before it began counting; the counts cannot be recovered.",
+      "evidence": "Counter-wide zero stretch 00:00-08:45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 517,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18 00:00",
+      "end": "2024-11-18 08:45",
+      "confidence": "medium",
+      "diagnosis": "Same as the other sites: the whole camera was at 0 before it began counting.",
+      "evidence": "Counter-wide zero stretch 00:00-08:45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 518,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18 00:00",
+      "end": "2024-11-18 08:45",
+      "confidence": "medium",
+      "diagnosis": "Same as the other sites: the whole camera was at 0 before it began counting.",
+      "evidence": "Counter-wide zero stretch 00:00-08:45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 519,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18 00:00",
+      "end": "2024-11-18 08:45",
+      "confidence": "medium",
+      "diagnosis": "Same as the other sites: the whole camera was at 0 before it began counting.",
+      "evidence": "Counter-wide zero stretch 00:00-08:45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 520,
+      "DIRECTION_SK": null,
+      "start": "2024-11-18 00:00",
+      "end": "2024-11-18 08:45",
+      "confidence": "medium",
+      "diagnosis": "Same as the other sites: the whole camera was at 0 before it began counting.",
+      "evidence": "Counter-wide zero stretch 00:00-08:45."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 512,
+      "DIRECTION_SK": null,
+      "start": "2025-09-27 04:45",
+      "end": "2025-10-02 09:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage: every zone reported 0 from early 2025-09-27, published nothing 28 Sep to 1 Oct, and reported 0 again until 09:45 on 2 Oct; the bikes that passed were not recorded, so the counts cannot be recovered.",
+      "evidence": "zeros(counter=True) 2025-09-27 04:45-23:45 (usual 1540 bikes) and 2025-10-02 00:00-09:45 (usual 694); day totals 76 on 09-27 against about 1900; network shows about 215 sites were normal those days."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 516,
+      "DIRECTION_SK": null,
+      "start": "2025-09-27 04:45",
+      "end": "2025-10-02 09:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage (see site 512); the counts cannot be recovered.",
+      "evidence": "1501 at 8 and 1524 at 30 on 09-27 (usually about 400-500 each); 0 until 09:45 on 10-02."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 517,
+      "DIRECTION_SK": null,
+      "start": "2025-09-27 04:45",
+      "end": "2025-10-02 09:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage (see site 512); the counts cannot be recovered.",
+      "evidence": "Counter-wide zero stretches."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 518,
+      "DIRECTION_SK": null,
+      "start": "2025-09-27 04:45",
+      "end": "2025-10-02 09:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage (see site 512); the counts cannot be recovered.",
+      "evidence": "Counter-wide zero stretches."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 519,
+      "DIRECTION_SK": null,
+      "start": "2025-09-27 04:45",
+      "end": "2025-10-02 09:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage (see site 512); the counts cannot be recovered.",
+      "evidence": "Counter-wide zero stretches."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 520,
+      "DIRECTION_SK": null,
+      "start": "2025-09-27 04:45",
+      "end": "2025-10-02 09:45",
+      "confidence": "high",
+      "diagnosis": "Camera outage (see site 512); the counts cannot be recovered.",
+      "evidence": "Counter-wide zero stretches."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 512,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "The last day of the record is cut off: every zone is 0 from 15:00, which looks like zero-padding of data not yet delivered and not a real lull, so those counts are unknown.",
+      "evidence": "All 11 publishing zones sum to 7-33 per slot until 14:45, then exactly 0 in every slot to 23:45 on a Saturday afternoon (usually about 510 bikes); network shows only 111 sites on 09-26 against about 160 earlier in the week.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 516,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "Cut-off last day (see site 512).",
+      "evidence": "Counter-wide 0 from 15:00.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 517,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "Cut-off last day (see site 512).",
+      "evidence": "Counter-wide 0 from 15:00.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 518,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "Cut-off last day (see site 512).",
+      "evidence": "Counter-wide 0 from 15:00.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 519,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "Cut-off last day (see site 512).",
+      "evidence": "Counter-wide 0 from 15:00.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 520,
+      "DIRECTION_SK": null,
+      "start": "2026-09-26 15:00",
+      "end": "2026-09-26 23:45",
+      "confidence": "medium",
+      "diagnosis": "Cut-off last day (see site 512).",
+      "evidence": "Counter-wide 0 from 15:00.",
+      "rejected": true,
+      "rejection": "The last day of the download is provisional: later loads add the real counts, which this would then erase."
+    }
+  ],
+  "series": [],
+  "proposals": [],
+  "tools": {
+    "useful": [
+      "overview: pivoted by month, it showed at once that the levels are steady and that 518/1468 loses days from mid-2025",
+      "zeros(counter=True): pinpointed the three camera-wide outages (start of record, 27 Sep-2 Oct 2025, last-day cut-off)",
+      "daily: slots below 96 made it clear that partial days hold only non-zero slots (omitted zeros)",
+      "weather: explained the long evening and overnight zero runs on the bike path (72-122 mm rain days)",
+      "network: confirmed the 2025-09-27 outage was local, and that 2026-09-25/26 is a partial feed"
+    ],
+    "not_useful": [
+      "duplicates/doubled: empty for this single-record camera",
+      "events: nothing listed for this area"
+    ],
+    "improve": [
+      "zeros: add each stretch's day rain_mm so that weather-driven lulls can be told apart from faults without a second lookup",
+      "overview: offer a wide per-month pivot directly; the long form has 276 rows for 12 directions",
+      "daily: a flag for days where every published slot is non-zero (omitted zeros) would save a manual check"
+    ],
+    "add": [
+      "a per-counter summary of days and slots missing per direction against the counter's publishing days, to size zero_fill needs quickly",
+      "a check for the latest days of the record: whether the final hours are 0 across all zones while the network is shrinking (feed truncation)"
+    ]
+  },
+  "summary": "A single Secure Agility camera (324) covers six zones at Oxford St and York Rd, Bondi Junction; the busy Oxford St cycleway zones (512, 516) are clean and consistent, with seasonal and rain-driven variation. The low-volume road zones (518/1468 above all, plus 517, 519 and 520) have zero slots and zero days left out by the feed, which zero_fill restores. There were three camera-wide stretches of false zeros: the start of the record on 2024-11-18, an outage from 27 Sep to 2 Oct 2025, and the afternoon of the last day (2026-09-26), which looks cut off; all three are set missing, and no series definition is needed."
+}

@@ -1,0 +1,97 @@
+{
+  "group": "G0125",
+  "decisions": [
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 125,
+      "DIRECTION_SK": null,
+      "start": "2011-11-10 17:30",
+      "end": "2012-03-15 15:15",
+      "confidence": "high",
+      "diagnosis": "The newly installed counter stopped detecting and reported only zeros in both directions for four months, then resumed at its former level; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "2011-11-02..10 both directions 9-22/day; 2011-11-11..2012-03-14 exactly 0 in both directions every day (flagged warning) while Elizabeth St Br (123) and Parramatta Rvr N (124) kept 70-230/day; from 2012-03-16 back to 10-23/day."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 125,
+      "DIRECTION_SK": null,
+      "start": "2015-07-29",
+      "end": "2017-12-01",
+      "confidence": "medium",
+      "diagnosis": "The M4 path at this point was out of normal use for works: the counts in this period are work-site traffic (weekday working hours, identical in both directions, big symmetric bursts, zero at weekends), not riders, and the bikes cannot be separated from it.",
+      "evidence": "Before: 12-20/day, AM peak SW (dir 50) and PM peak NE (dir 49), weekend riding 30-50/week. 2015-08..2017-11: weekend totals ~0 almost every week, hourly profile only 06:00-16:00 with no evening peak, the two directions near-equal (e.g. 2015-12-17 124/121, 2016-04-11 week 180/171, 2017-07-31 week 189/197, 2017-11-28 14:30 slot 16/18), many all-zero weeks. M4 - West of Fox St (96), 1 km east, kept 13-17/day through Aug-Oct 2015 while this site read 0-1/day. Normal commuter/weekend pattern returns from 2017-12-02."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 125,
+      "DIRECTION_SK": null,
+      "start": "2018-10-03 13:30",
+      "end": "2018-10-17 06:00",
+      "confidence": "medium",
+      "diagnosis": "Both directions report exactly zero for two weeks on a path that carries ~20 bikes a day including weekends, then resume abruptly; a counter outage reporting zeros, so the counts cannot be recovered.",
+      "evidence": "2018-09-26..10-03 5-19/day per direction; 2018-10-04..10-15 0/0 every day; resumes 2018-10-17 and is back to 5-19/day by 10-19. No single stray count in 13 days, unlike the 2015-17 works period."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 125,
+      "DIRECTION_SK": null,
+      "start": "2025-09-09 17:30",
+      "end": "2025-10-15 12:30",
+      "confidence": "high",
+      "diagnosis": "The counter reported only zeros in both directions for five weeks while riding continued nearby, then resumed at its prior level mid-day; the bikes that passed were not recorded and cannot be recovered.",
+      "evidence": "2025-09-01..09 19-33/day per direction; 2025-09-10..10-14 exactly 0 both directions every day; Wigram St - North of M4 (173, 140 m away) steady 35-90/day throughout; from 2025-10-15 12:45 back to 28-56/day."
+    },
+    {
+      "action": "uncertain",
+      "factor": null,
+      "SITE_SK": 125,
+      "DIRECTION_SK": 50,
+      "start": "2013-02-15",
+      "end": "2013-02-28",
+      "confidence": "low",
+      "diagnosis": "South West direction ran at about three times its usual level for two weeks while North East and the neighbouring M4 counter stayed normal; could be real diverted riding or spurious triggers, no mechanism is evident.",
+      "evidence": "Dir 50 54-108/day on weekdays vs dir 49 20-36/day and site 96 10-24/day; counts spread 1-3 per slot through 05:45-20:30; returns to parity with dir 49 from 2013-03-04."
+    }
+  ],
+  "series": [],
+  "proposals": [],
+  "summary": "Single piezo counter on the M4 shared path at Harris Park, one series per direction. The record is sound apart from three stretches where the counter reported only zeros while bikes were riding (Nov 2011-Mar 2012, Oct 2018, Sep-Oct 2025) and Aug 2015-Nov 2017, when the path was taken up by works and the counts are weekday work-site traffic rather than riders; all four are set missing. A two-week rise in the South West direction in Feb 2013 is flagged uncertain, and the Sunday burst on 2013-03-03 looks like a real group ride and is kept.",
+  "tools": {
+    "useful": [
+      "overview: month-by-direction levels exposed every problem period at once (2011-12..2012-02 zeros, 2015-08..2017-11 collapse, 2018-10 dip, 2025-09 drop)",
+      "zeros: gave exact slot-level start/end of the dead stretches for decision boundaries (min_hours=48 kept it readable)",
+      "monthly: side-by-side with site 96 showed the 2015-17 collapse was local to this site",
+      "daily: with day-of-week and neighbour columns it revealed weekday-only, direction-symmetric counts in 2015-17 and the 2013-02 dir-50 excess",
+      "hourly: the 06:00-16:00 flat profile with no commuter peaks in 2015-17 was the key evidence that counts were work-site traffic, not riders",
+      "slots: confirmed edges of outages and the symmetric bursts (e.g. 16/18 in one slot) and the 2013-03-03 group-ride burst",
+      "neighbours: found site 173 (140 m) and site 96 on the same M4 path as references",
+      "raw: status column confirmed warnings only flag zero days (not independent evidence)",
+      "meta: confirmed a single counter/site so no series definition was needed"
+    ],
+    "not_useful": [
+      "doubled / duplicates / spikes: returned nothing for this single-channel low-volume site (spikes threshold min_count=200 exceeds anything here)",
+      "absent_zeros: camera-only, not applicable to a piezo",
+      "channels: one record per slot throughout, so it added nothing over slots",
+      "events: only one unrelated event listed; no entries for local works/closures",
+      "calendar: not needed; school holidays only marginally relevant to the 2018-10 outage",
+      "weekly: not called directly; I built weekday/weekend weekly sums myself from daily"
+    ],
+    "improve": [
+      "zeros: option to merge stretches separated by a few isolated counts, so a long outage/closure with stray hits shows as one period instead of ~100 rows",
+      "daily: include weekday name and an optional list of neighbour sites pivoted into columns",
+      "weekly: add weekday vs weekend totals and a direction-balance ratio",
+      "spikes: scale min_count to the site's level so low-volume sites can surface bursts like 281/day on 2013-03-03",
+      "raw: the warning status is redundant with zero days; a summary of warning runs would suffice"
+    ],
+    "add": [
+      "profile_shift: per month, correlation of the hourly profile and weekend share against the site's own long-run norm, to flag periods where counts are non-rider traffic (construction, plant) as in 2015-17",
+      "compare(site, neighbours): ratio of daily totals against the best-correlated nearby counter over time, to separate a dead counter from a real drop",
+      "direction_balance: running ratio between directions to flag one-direction excesses like dir 50 in Feb 2013",
+      "a works/closures register (e.g. M4 widening 2015-17) alongside events"
+    ]
+  }
+}

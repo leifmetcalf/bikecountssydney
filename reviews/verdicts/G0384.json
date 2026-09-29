@@ -1,0 +1,652 @@
+{
+ "group": "G0384",
+ "decisions": [
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 384,
+   "DIRECTION_SK": null,
+   "start": "2023-07-26 20:45",
+   "end": "2023-08-10 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera C0000901 was down and reported zeros in every zone for 15 days; the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2023-07-26 20:45 to 2023-08-10 15:00 (354 h); on the days either side all zones count normally (e.g. 385/870 5-13 a day, 386/884 4-25 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 385,
+   "DIRECTION_SK": null,
+   "start": "2023-07-26 20:45",
+   "end": "2023-08-10 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera C0000901 was down and reported zeros in every zone for 15 days; the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2023-07-26 20:45 to 2023-08-10 15:00 (354 h); on the days either side all zones count normally (e.g. 385/870 5-13 a day, 386/884 4-25 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2023-07-26 20:45",
+   "end": "2023-08-10 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera C0000901 was down and reported zeros in every zone for 15 days; the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2023-07-26 20:45 to 2023-08-10 15:00 (354 h); on the days either side all zones count normally (e.g. 385/870 5-13 a day, 386/884 4-25 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2023-07-26 20:45",
+   "end": "2023-08-10 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera C0000901 was down and reported zeros in every zone for 15 days; the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2023-07-26 20:45 to 2023-08-10 15:00 (354 h); on the days either side all zones count normally (e.g. 385/870 5-13 a day, 386/884 4-25 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": null,
+   "start": "2023-07-26 20:45",
+   "end": "2023-08-10 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera C0000901 was down and reported zeros in every zone for 15 days; the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2023-07-26 20:45 to 2023-08-10 15:00 (354 h); on the days either side all zones count normally (e.g. 385/870 5-13 a day, 386/884 4-25 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 384,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:00",
+   "end": "2023-09-20 16:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide daytime outage: every zone reports 0 for 8 daylight hours, so the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 08:00 to 16:00; that daytime window normally carries about 50 bikes across the camera."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 385,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:00",
+   "end": "2023-09-20 16:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide daytime outage: every zone reports 0 for 8 daylight hours, so the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 08:00 to 16:00; that daytime window normally carries about 50 bikes across the camera."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:00",
+   "end": "2023-09-20 16:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide daytime outage: every zone reports 0 for 8 daylight hours, so the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 08:00 to 16:00; that daytime window normally carries about 50 bikes across the camera."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:00",
+   "end": "2023-09-20 16:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide daytime outage: every zone reports 0 for 8 daylight hours, so the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 08:00 to 16:00; that daytime window normally carries about 50 bikes across the camera."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": null,
+   "start": "2023-09-20 08:00",
+   "end": "2023-09-20 16:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide daytime outage: every zone reports 0 for 8 daylight hours, so the riders who passed were not recorded and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 08:00 to 16:00; that daytime window normally carries about 50 bikes across the camera."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 384,
+   "DIRECTION_SK": null,
+   "start": "2023-11-09 23:30",
+   "end": "2023-11-10 17:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage: every zone reports 0 through the night and most of the next day, so the lost counts cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 17.75 h (11.25 of them in daylight), against about 96 bikes usual; the day before and the day after are normal."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 385,
+   "DIRECTION_SK": null,
+   "start": "2023-11-09 23:30",
+   "end": "2023-11-10 17:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage: every zone reports 0 through the night and most of the next day, so the lost counts cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 17.75 h (11.25 of them in daylight), against about 96 bikes usual; the day before and the day after are normal."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2023-11-09 23:30",
+   "end": "2023-11-10 17:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage: every zone reports 0 through the night and most of the next day, so the lost counts cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 17.75 h (11.25 of them in daylight), against about 96 bikes usual; the day before and the day after are normal."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2023-11-09 23:30",
+   "end": "2023-11-10 17:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage: every zone reports 0 through the night and most of the next day, so the lost counts cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 17.75 h (11.25 of them in daylight), against about 96 bikes usual; the day before and the day after are normal."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": null,
+   "start": "2023-11-09 23:30",
+   "end": "2023-11-10 17:00",
+   "confidence": "medium",
+   "diagnosis": "Camera-wide outage: every zone reports 0 through the night and most of the next day, so the lost counts cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 17.75 h (11.25 of them in daylight), against about 96 bikes usual; the day before and the day after are normal."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 384,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06 04:00",
+   "end": "2024-04-08 09:30",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage over a weekend: every zone reports 0 for 54 hours, so the riders are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 53.75 h (31.75 in daylight), against about 564 bikes usual."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 385,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06 04:00",
+   "end": "2024-04-08 09:30",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage over a weekend: every zone reports 0 for 54 hours, so the riders are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 53.75 h (31.75 in daylight), against about 564 bikes usual."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06 04:00",
+   "end": "2024-04-08 09:30",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage over a weekend: every zone reports 0 for 54 hours, so the riders are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 53.75 h (31.75 in daylight), against about 564 bikes usual."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06 04:00",
+   "end": "2024-04-08 09:30",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage over a weekend: every zone reports 0 for 54 hours, so the riders are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 53.75 h (31.75 in daylight), against about 564 bikes usual."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": null,
+   "start": "2024-04-06 04:00",
+   "end": "2024-04-08 09:30",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage over a weekend: every zone reports 0 for 54 hours, so the riders are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 for 53.75 h (31.75 in daylight), against about 564 bikes usual."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 384,
+   "DIRECTION_SK": null,
+   "start": "2024-05-06 18:15",
+   "end": "2024-08-29 09:00",
+   "confidence": "high",
+   "diagnosis": "The camera was down for almost four months and published zeros in every zone; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-05-06 18:15 to 2024-08-29 09:00 (2751 h); before and after, 385 counts 3-10 a day and 386 counts 5-30 a day in each direction."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 385,
+   "DIRECTION_SK": null,
+   "start": "2024-05-06 18:15",
+   "end": "2024-08-29 09:00",
+   "confidence": "high",
+   "diagnosis": "The camera was down for almost four months and published zeros in every zone; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-05-06 18:15 to 2024-08-29 09:00 (2751 h); before and after, 385 counts 3-10 a day and 386 counts 5-30 a day in each direction."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2024-05-06 18:15",
+   "end": "2024-08-29 09:00",
+   "confidence": "high",
+   "diagnosis": "The camera was down for almost four months and published zeros in every zone; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-05-06 18:15 to 2024-08-29 09:00 (2751 h); before and after, 385 counts 3-10 a day and 386 counts 5-30 a day in each direction."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2024-05-06 18:15",
+   "end": "2024-08-29 09:00",
+   "confidence": "high",
+   "diagnosis": "The camera was down for almost four months and published zeros in every zone; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-05-06 18:15 to 2024-08-29 09:00 (2751 h); before and after, 385 counts 3-10 a day and 386 counts 5-30 a day in each direction."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": null,
+   "start": "2024-05-06 18:15",
+   "end": "2024-08-29 09:00",
+   "confidence": "high",
+   "diagnosis": "The camera was down for almost four months and published zeros in every zone; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-05-06 18:15 to 2024-08-29 09:00 (2751 h); before and after, 385 counts 3-10 a day and 386 counts 5-30 a day in each direction."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 384,
+   "DIRECTION_SK": null,
+   "start": "2024-11-29 08:45",
+   "end": "2024-12-09 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage of 10 days, reporting zeros, that ended with the camera being reconfigured; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-11-29 08:45 to 2024-12-09 15:00 (246 h); the zone levels change after it, e.g. 387/881 goes from about 150-350 a day to about 10-25 a day."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 385,
+   "DIRECTION_SK": null,
+   "start": "2024-11-29 08:45",
+   "end": "2024-12-09 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage of 10 days, reporting zeros, that ended with the camera being reconfigured; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-11-29 08:45 to 2024-12-09 15:00 (246 h); the zone levels change after it, e.g. 387/881 goes from about 150-350 a day to about 10-25 a day."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2024-11-29 08:45",
+   "end": "2024-12-09 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage of 10 days, reporting zeros, that ended with the camera being reconfigured; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-11-29 08:45 to 2024-12-09 15:00 (246 h); the zone levels change after it, e.g. 387/881 goes from about 150-350 a day to about 10-25 a day."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2024-11-29 08:45",
+   "end": "2024-12-09 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage of 10 days, reporting zeros, that ended with the camera being reconfigured; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-11-29 08:45 to 2024-12-09 15:00 (246 h); the zone levels change after it, e.g. 387/881 goes from about 150-350 a day to about 10-25 a day."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": null,
+   "start": "2024-11-29 08:45",
+   "end": "2024-12-09 15:00",
+   "confidence": "high",
+   "diagnosis": "Camera-wide outage of 10 days, reporting zeros, that ended with the camera being reconfigured; the counts are lost and cannot be recovered.",
+   "evidence": "All 10 directions are 0 from 2024-11-29 08:45 to 2024-12-09 15:00 (246 h); the zone levels change after it, e.g. 387/881 goes from about 150-350 a day to about 10-25 a day."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 384,
+   "DIRECTION_SK": null,
+   "start": "2025-05-22",
+   "end": "2025-09-03",
+   "confidence": "high",
+   "diagnosis": "Through winter 2025 the camera repeatedly went dark (it looks like a power or solar failure) from mid-afternoon to the next morning, and sometimes for days at a time, reporting zeros or nothing. Every week is short by an unknown amount, and the lost hours cannot be recovered.",
+   "evidence": "Counter-wide daily totals fall from 35-70 (April to mid-May) to 0-5 on 2025-05-22..06-12, then on most days the last non-zero slot is at 13-16h with zeros to the next morning (e.g. 06-16..06-25, 07-16..07-28). From 06-19 whole zone-days are also missing (dirs 1-9 of 10). Full days with evening counts return from 2025-09-04 (69-120 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 385,
+   "DIRECTION_SK": null,
+   "start": "2025-05-22",
+   "end": "2025-09-03",
+   "confidence": "high",
+   "diagnosis": "Through winter 2025 the camera repeatedly went dark (it looks like a power or solar failure) from mid-afternoon to the next morning, and sometimes for days at a time, reporting zeros or nothing. Every week is short by an unknown amount, and the lost hours cannot be recovered.",
+   "evidence": "Counter-wide daily totals fall from 35-70 (April to mid-May) to 0-5 on 2025-05-22..06-12, then on most days the last non-zero slot is at 13-16h with zeros to the next morning (e.g. 06-16..06-25, 07-16..07-28). From 06-19 whole zone-days are also missing (dirs 1-9 of 10). Full days with evening counts return from 2025-09-04 (69-120 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2025-05-22",
+   "end": "2025-09-03",
+   "confidence": "high",
+   "diagnosis": "Through winter 2025 the camera repeatedly went dark (it looks like a power or solar failure) from mid-afternoon to the next morning, and sometimes for days at a time, reporting zeros or nothing. Every week is short by an unknown amount, and the lost hours cannot be recovered.",
+   "evidence": "Counter-wide daily totals fall from 35-70 (April to mid-May) to 0-5 on 2025-05-22..06-12, then on most days the last non-zero slot is at 13-16h with zeros to the next morning (e.g. 06-16..06-25, 07-16..07-28). From 06-19 whole zone-days are also missing (dirs 1-9 of 10). Full days with evening counts return from 2025-09-04 (69-120 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2025-05-22",
+   "end": "2025-09-03",
+   "confidence": "high",
+   "diagnosis": "Through winter 2025 the camera repeatedly went dark (it looks like a power or solar failure) from mid-afternoon to the next morning, and sometimes for days at a time, reporting zeros or nothing. Every week is short by an unknown amount, and the lost hours cannot be recovered.",
+   "evidence": "Counter-wide daily totals fall from 35-70 (April to mid-May) to 0-5 on 2025-05-22..06-12, then on most days the last non-zero slot is at 13-16h with zeros to the next morning (e.g. 06-16..06-25, 07-16..07-28). From 06-19 whole zone-days are also missing (dirs 1-9 of 10). Full days with evening counts return from 2025-09-04 (69-120 a day)."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": null,
+   "start": "2025-05-22",
+   "end": "2025-09-03",
+   "confidence": "high",
+   "diagnosis": "Through winter 2025 the camera repeatedly went dark (it looks like a power or solar failure) from mid-afternoon to the next morning, and sometimes for days at a time, reporting zeros or nothing. Every week is short by an unknown amount, and the lost hours cannot be recovered.",
+   "evidence": "Counter-wide daily totals fall from 35-70 (April to mid-May) to 0-5 on 2025-05-22..06-12, then on most days the last non-zero slot is at 13-16h with zeros to the next morning (e.g. 06-16..06-25, 07-16..07-28). From 06-19 whole zone-days are also missing (dirs 1-9 of 10). Full days with evening counts return from 2025-09-04 (69-120 a day)."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 384,
+   "DIRECTION_SK": null,
+   "start": "2025-06-19",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "From June 2025 the feed leaves out zero slots and whole zero zone-days, so days that published only their non-zero slots should be filled with zeros.",
+   "evidence": "From 2025-10-07 low-volume zones publish days with only 1-4 slots (e.g. 384/852 on 2025-10-15 has 1 slot with 1 bike; 823 has 39 such days, 884 34 and 852 29). Zero days all but vanish: 884 had 22 zero days in 140 in Jan-May 2025 but 6 in 370 published days afterwards, and the camera publishes 7-9 of its 10 zones on most days. absent_zeros finds nothing because each published day still has zeros."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 385,
+   "DIRECTION_SK": null,
+   "start": "2025-06-19",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "From June 2025 the feed leaves out zero slots and whole zero zone-days, so days that published only their non-zero slots should be filled with zeros.",
+   "evidence": "From 2025-10-07 low-volume zones publish days with only 1-4 slots (e.g. 384/852 on 2025-10-15 has 1 slot with 1 bike; 823 has 39 such days, 884 34 and 852 29). Zero days all but vanish: 884 had 22 zero days in 140 in Jan-May 2025 but 6 in 370 published days afterwards, and the camera publishes 7-9 of its 10 zones on most days. absent_zeros finds nothing because each published day still has zeros."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2025-06-19",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "From June 2025 the feed leaves out zero slots and whole zero zone-days, so days that published only their non-zero slots should be filled with zeros.",
+   "evidence": "From 2025-10-07 low-volume zones publish days with only 1-4 slots (e.g. 384/852 on 2025-10-15 has 1 slot with 1 bike; 823 has 39 such days, 884 34 and 852 29). Zero days all but vanish: 884 had 22 zero days in 140 in Jan-May 2025 but 6 in 370 published days afterwards, and the camera publishes 7-9 of its 10 zones on most days. absent_zeros finds nothing because each published day still has zeros."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2025-06-19",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "From June 2025 the feed leaves out zero slots and whole zero zone-days, so days that published only their non-zero slots should be filled with zeros.",
+   "evidence": "From 2025-10-07 low-volume zones publish days with only 1-4 slots (e.g. 384/852 on 2025-10-15 has 1 slot with 1 bike; 823 has 39 such days, 884 34 and 852 29). Zero days all but vanish: 884 had 22 zero days in 140 in Jan-May 2025 but 6 in 370 published days afterwards, and the camera publishes 7-9 of its 10 zones on most days. absent_zeros finds nothing because each published day still has zeros."
+  },
+  {
+   "action": "zero_fill",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": null,
+   "start": "2025-06-19",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "From June 2025 the feed leaves out zero slots and whole zero zone-days, so days that published only their non-zero slots should be filled with zeros.",
+   "evidence": "From 2025-10-07 low-volume zones publish days with only 1-4 slots (e.g. 384/852 on 2025-10-15 has 1 slot with 1 bike; 823 has 39 such days, 884 34 and 852 29). Zero days all but vanish: 884 had 22 zero days in 140 in Jan-May 2025 but 6 in 370 published days afterwards, and the camera publishes 7-9 of its 10 zones on most days. absent_zeros finds nothing because each published day still has zeros."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-11-28",
+   "confidence": "high",
+   "diagnosis": "Before the December 2024 reconfiguration this zone counted false 'bikes' after dark (surges that start at dusk and move with the season and daylight saving), and daytime counts were also about 5x the later level. Real riders cannot be separated from the false detections, so the counts cannot be recovered.",
+   "evidence": "881 hourly totals: the evening surge starts at 17h in Jul 2023 (17h 413, 18h 678) but at 20h in Jan 2024 (19h 79, 20h 756, 21h 1023), following sunset. Night hours (21-03) exceed daytime (07-16) every month, e.g. Oct 2024 4210 vs 1480, and 927 is similar (3344 vs 2911). Zones 384, 385 and 386 of the same camera count about 0 at night (e.g. 870 0-3 a month). After 2024-12-09, 387 falls to about 10-20 a day with a normal commute profile and night hours near 0."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": 694,
+   "start": "2023-07-12",
+   "end": null,
+   "confidence": "high",
+   "diagnosis": "The southbound IN zone of the off-ramp crossing counts false detections after dark throughout the record: its evening surge follows sunset through the seasons, and night counts are 2-8x daytime counts. Real crossings cannot be separated from the false detections.",
+   "evidence": "694 by hour: Jun 2026 17h 19, 18h 78; Jan 2026 20h 20, 21h 55; Jul 2023 17h 45, 18h 73; Jan 2024 21h 118, 22h 187. Night (21-03) against daytime (07-16) counts: 2023-10 425/138, 2025-11 288/35, 2026-08 190/44. The other zones of the camera record about 0 at night."
+  },
+  {
+   "action": "missing",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": 709,
+   "start": "2023-07-12",
+   "end": "2024-11-28",
+   "confidence": "medium",
+   "diagnosis": "The northbound OUT zone of the off-ramp crossing had the same dark-hour false detections as 387 and 388/694 before the December 2024 reconfiguration: night counts exceed daytime counts, with late-evening surges that follow sunset. The counts cannot be recovered.",
+   "evidence": "709 night (21-03h) against daytime (07-16h): 2023-12 278/165, 2024-01 342/255 (22h 133 against 19h 19), 2024-10 192/267. Dec 2024 to Mar 2025 looks like normal riding (peak at 15-18h, night 74-133 against 207-266 in the day)."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 388,
+   "DIRECTION_SK": 709,
+   "start": "2024-12-09",
+   "end": null,
+   "confidence": "low",
+   "diagnosis": "After the reconfiguration, night counts at this ramp crossing are still high and from mid-2025 exceed daytime counts, which suggests residual dark-hour false detections. There is no clean dusk-tracking step to prove it.",
+   "evidence": "709 at 0-05h against 08-13h: 2025-11 76 vs 18, 2026-07 68 vs 14; a 5am peak in Jul-Aug 2025 (38 and 31 a month) at a motorway off-ramp crossing. Zones 384-386 are about 0 at those hours."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 387,
+   "DIRECTION_SK": null,
+   "start": "2025-09-04",
+   "end": null,
+   "confidence": "low",
+   "diagnosis": "From September 2025 this zone again records as many bikes at 0-4h as at midday, unlike Dec 2024 to Apr 2025, which suggests the dark-hour false detections partly returned. The size of the effect is not settled.",
+   "evidence": "881 in Sep 2025: 0-04h 80 against 09-13h 36 (22h 31, 23h 28); 927 in Sep-Nov 2025 0-05h about 30-40 against 09-13h about 35-50. In Jan-Mar 2025 night hours were 0-10 a month. Zones 384/385/386 stay near 0 at night."
+  },
+  {
+   "action": "uncertain",
+   "factor": null,
+   "SITE_SK": 386,
+   "DIRECTION_SK": null,
+   "start": "2023-07-12",
+   "end": "2024-11-28",
+   "confidence": "low",
+   "diagnosis": "Both crossing directions read 4-5x higher before the December 2024 reconfiguration than after it. The zone may have been redrawn, so the two periods may not be comparable; they are split into separate series.",
+   "evidence": "884/915 averaged 12-21 and 9-16 a day in Sep 2023 to Nov 2024, and 1-6 and 1-4 a day from Dec 2024 onwards. The step coincides with the 2024-11-29..12-09 outage, after which 387 also changed by about 20x."
+  }
+ ],
+ "series": [
+  {
+   "SITE_SK": 385,
+   "name": "South West (OUT) before Dec 2024 reconfiguration",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 285,
+     "DIRECTION_SK": 784,
+     "start": null,
+     "end": "2024-12-08"
+    }
+   ],
+   "evidence": "The camera was down from 2024-11-29 to 2024-12-09 and came back with different zone levels (386 about 4x lower, 385 higher, 387 about 20x lower), so the periods before and after may not be comparable."
+  },
+  {
+   "SITE_SK": 385,
+   "name": "South West (OUT) after Dec 2024 reconfiguration",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 285,
+     "DIRECTION_SK": 784,
+     "start": "2024-12-09",
+     "end": null
+    }
+   ],
+   "evidence": "The same counter-direction after the December 2024 reconfiguration, kept apart from the earlier period."
+  },
+  {
+   "SITE_SK": 385,
+   "name": "North East (IN, citybound) before Dec 2024 reconfiguration",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 285,
+     "DIRECTION_SK": 870,
+     "start": null,
+     "end": "2024-12-08"
+    }
+   ],
+   "evidence": "The camera was down from 2024-11-29 to 2024-12-09 and came back with different zone levels (386 about 4x lower, 385 higher, 387 about 20x lower), so the periods before and after may not be comparable."
+  },
+  {
+   "SITE_SK": 385,
+   "name": "North East (IN, citybound) after Dec 2024 reconfiguration",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 285,
+     "DIRECTION_SK": 870,
+     "start": "2024-12-09",
+     "end": null
+    }
+   ],
+   "evidence": "The same counter-direction after the December 2024 reconfiguration, kept apart from the earlier period."
+  },
+  {
+   "SITE_SK": 386,
+   "name": "West crossing before Dec 2024 reconfiguration",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 285,
+     "DIRECTION_SK": 884,
+     "start": null,
+     "end": "2024-12-08"
+    }
+   ],
+   "evidence": "The camera was down from 2024-11-29 to 2024-12-09 and came back with different zone levels (386 about 4x lower, 385 higher, 387 about 20x lower), so the periods before and after may not be comparable."
+  },
+  {
+   "SITE_SK": 386,
+   "name": "West crossing after Dec 2024 reconfiguration",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 285,
+     "DIRECTION_SK": 884,
+     "start": "2024-12-09",
+     "end": null
+    }
+   ],
+   "evidence": "The same counter-direction after the December 2024 reconfiguration, kept apart from the earlier period."
+  },
+  {
+   "SITE_SK": 386,
+   "name": "East crossing before Dec 2024 reconfiguration",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 285,
+     "DIRECTION_SK": 915,
+     "start": null,
+     "end": "2024-12-08"
+    }
+   ],
+   "evidence": "The camera was down from 2024-11-29 to 2024-12-09 and came back with different zone levels (386 about 4x lower, 385 higher, 387 about 20x lower), so the periods before and after may not be comparable."
+  },
+  {
+   "SITE_SK": 386,
+   "name": "East crossing after Dec 2024 reconfiguration",
+   "confidence": "medium",
+   "parts": [
+    {
+     "COUNTER_SK": 285,
+     "DIRECTION_SK": 915,
+     "start": "2024-12-09",
+     "end": null
+    }
+   ],
+   "evidence": "The same counter-direction after the December 2024 reconfiguration, kept apart from the earlier period."
+  }
+ ],
+ "proposals": [
+  "Daylight-only masking for camera zones with dark-hour false detections (387 before 2024-12, 388/694 throughout): set slots between civil dusk and dawn to missing and keep the daylight slots, marking the weekly totals as daylight-only. That would keep the usable daytime counts instead of dropping the whole period; it needs a sunrise/sunset table and a way to flag partial-day totals."
+ ],
+ "tools": {
+  "useful": [
+   "overview/monthly: showed the Dec 2024 level step at 386/387 and the 2024 and 2025 winter outages",
+   "zeros(counter=True): listed every camera-wide outage, including the winter-2025 daily afternoon-to-morning blackouts",
+   "slots, pivoted to hour by month: showed the evening surges following sunset (dark-hour false detections) at 387 and 388",
+   "counter_days: showed zones missing from June 2025 and the Oct 2025 gap",
+   "daily(wide=True): showed the outage edges clearly"
+  ],
+  "not_useful": [
+   "absent_zeros: returned nothing although the feed leaves out zero slots and zone-days from mid-2025, because each week still has some zeros",
+   "duplicates/doubled: nothing relevant for this camera",
+   "zeros usual_bikes: inflated by the phantom-heavy early period, so it overstates the loss in 2025"
+  ],
+  "improve": [
+   "absent_zeros: also flag direction-days with fewer than 96 slots and zone-days absent while the counter published other zones",
+   "hourly: add a by-month mode (hour x month) so that dusk-tracking artefacts show without custom code",
+   "zeros usual_bikes: compute it from nearby weeks rather than the whole record"
+  ],
+  "add": [
+   "A night/day check: per direction and month, counts in dark hours (from sunrise/sunset) against daylight hours, compared with the camera's other zones, to flag false detections in the dark",
+   "A per-counter daily 'active window' (first and last non-zero slot) to spot partial-day power failures"
+  ]
+ },
+ "summary": "Camera C0000901 at King Georges Rd / M5 has five camera-wide outages that report zeros (Jul-Aug 2023, Apr 2024, May-Aug 2024, Nov-Dec 2024) and a winter-2025 run of afternoon-to-morning blackouts; all of these are set missing, and zero slots left out of the feed from June 2025 are filled. Zone 387 (before the Dec 2024 reconfiguration) and 388 southbound (throughout) count false detections after dark that follow sunset, so they are set missing, while 388 northbound and 387 after Sep 2025 are uncertain. 385 and 386 are split into series before and after the Dec 2024 reconfiguration, which changed their levels."
+}

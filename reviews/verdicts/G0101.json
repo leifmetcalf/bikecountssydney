@@ -1,0 +1,279 @@
+{
+  "group": "G0101",
+  "decisions": [
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2007-12-14 00:00",
+      "end": "2007-12-14 09:30",
+      "confidence": "medium",
+      "diagnosis": "First day of the record: the piezo reports zeros until it was switched on mid-morning, so the morning's riders were never counted and cannot be recovered.",
+      "evidence": "Both directions 0 from 00:00 to 09:30 on the first day (9.75 h, incl. the AM peak), normal counts from then on."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2010-12-03 10:30",
+      "end": "2010-12-17 15:45",
+      "confidence": "high",
+      "diagnosis": "Counter outage (all records 'warning' zeros, starting and ending mid-day, followed by a reconfigured unit reporting two channels); riders passed uncounted and nothing can be recovered.",
+      "evidence": "Every slot 0 in both directions for 14 days, all flagged warning; days either side 700-1240 bikes per direction on weekdays."
+    },
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2010-12-23 11:00",
+      "end": "2011-06-16 10:30",
+      "confidence": "high",
+      "diagnosis": "After the Dec-2010 outage the piezo reported two records (channels) per slot that each counted every bike, so the slot sum counts every rider twice.",
+      "evidence": "records_per_slot 2.0; second record was a warning zero 17-23 Dec, then non-zero and often identical to the first (e.g. 2010-12-23 PM, 2011-06-16 AM pairs [9,9],[13,12]); daily totals ~2.0x adjacent periods (Feb 2011 1885/day vs 816 Feb 2010 and 1023 Feb 2012; 6-9 Jun 2011 weekdays 1980-2220 vs 20-23 Jun 1000-1095 with one record); second record stops 2011-06-16 10:45 and level halves exactly then. Between 2011-01-21 and 2011-04-04 the two records disagree slot by slot (abs diff ~40% of total) but the daily sums stay at 2x."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2011-08-19 13:15",
+      "end": "2011-08-26 02:30",
+      "confidence": "high",
+      "diagnosis": "Counter outage: warning zeros for a week starting and ending at arbitrary times of day, bikes uncounted.",
+      "evidence": "All slots 0 and flagged warning 2011-08-20..25 (daytime usual ~9,575 bikes); ~1700 bikes/day both sides."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2013-02-25 09:15",
+      "end": "2013-02-27 08:30",
+      "confidence": "high",
+      "diagnosis": "Counter outage: warning zeros from mid-morning to mid-morning on weekdays, bikes uncounted.",
+      "evidence": "47.5 h at 0 incl. 2 weekday peaks (usual ~3,390 daytime bikes); 2013-02-28 2,435 bikes."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2015-02-18 09:30",
+      "end": "2015-03-04 07:15",
+      "confidence": "high",
+      "diagnosis": "Counter outage of two weeks (warning zeros with a few stray 1s and one 18-bike day), bikes uncounted.",
+      "evidence": "Total 20 bikes in 14 days vs 2,280-2,860 per day before and 1,600-2,600 after; records mostly flagged warning."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2017-05-19 11:45",
+      "end": "2017-05-26 11:45",
+      "confidence": "high",
+      "diagnosis": "Counter outage of exactly seven days (warning zeros), bikes uncounted.",
+      "evidence": "0 from 11:45 to 11:45 a week later, flagged warning; 2,246-2,372 bikes/day before."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": 66,
+      "start": "2018-10-13",
+      "end": "2021-06-18 11:45",
+      "confidence": "medium",
+      "diagnosis": "The piezo sits on a steep slope and for northbound riders classified many bicycles into a non-bicycle class (TfNSW site comment, MetroCount algorithm fix mid-2021); the misclassified bikes are not in the published data and the share lost varied from week to week, so the counts are too low by an unknown amount and cannot be recovered.",
+      "evidence": "Weekly North/South ratio 0.94-0.97 for 2008-Sep 2018, drops to ~0.80 (0.73-0.91) from the week of 2018-10-15, back to 0.97-1.0 from 2021-06-21 after the 18 Jun site visit; during the overlap piezo North / tube North = 0.78 (Apr-mid Jun 2021) vs 0.94 after the fix, while piezo South / tube South stayed 0.96-0.99; implied weekly loss ~9-27%, not a constant factor."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": 65,
+      "start": "2021-03-19 11:00",
+      "end": "2021-03-26 10:45",
+      "confidence": "high",
+      "diagnosis": "Piezo outage (warning zeros, part of a network-wide feed gap) while the co-located tube counted normally; bikes uncounted by the piezo.",
+      "evidence": "Piezo 0 for exactly 7 days; tube 69/70 counted 4,262/4,207 in week of 2021-03-22; network shows 19 sites at 0 on 20-25 Mar."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": 66,
+      "start": "2021-03-19 11:00",
+      "end": "2021-03-26 10:45",
+      "confidence": "high",
+      "diagnosis": "Piezo outage (warning zeros) while the co-located tube counted normally; bikes uncounted by the piezo.",
+      "evidence": "As for direction 65."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": 65,
+      "start": "2021-06-18 12:00",
+      "end": "2021-06-18 23:45",
+      "confidence": "high",
+      "diagnosis": "Piezo reported zeros during the 18 Jun 2021 site visit / algorithm change while the tube counted the PM peak; those riders cannot be recovered from the piezo.",
+      "evidence": "Piezo 0 from 12:00 to midnight; tube 69/70 recorded 535/546 for the day vs piezo 357/168, with 12-22 bikes/hour at 17:00-18:00."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": 66,
+      "start": "2021-06-18 12:00",
+      "end": "2021-06-18 23:45",
+      "confidence": "high",
+      "diagnosis": "Piezo reported zeros during the 18 Jun 2021 site visit while the tube counted; riders uncounted.",
+      "evidence": "As for direction 65."
+    },
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2022-02-19",
+      "end": "2022-02-19",
+      "confidence": "high",
+      "diagnosis": "Every count of both counters (piezo and tube) was doubled on this one day, a processing doubling of the day's data.",
+      "evidence": "All four directions have 0 odd slots out of 65-73 non-zero slots; totals 978/978/984/1026 vs 431-781 on neighbouring weekend days, halved values fit the adjacent days; doubled() level 2.1-2.3."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": 69,
+      "start": "2022-07-13",
+      "end": "2022-07-13",
+      "confidence": "high",
+      "diagnosis": "Tube reported zeros for a whole weekday while the piezo counted bikes; riders uncounted by the tube.",
+      "evidence": "Tube 69/70 0 from 2022-07-12 23:45 to 2022-07-14 01:45; piezo 65/66 433/388 on 2022-07-13; tube matches piezo within 2% on the days either side."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": 70,
+      "start": "2022-07-13",
+      "end": "2022-07-13",
+      "confidence": "high",
+      "diagnosis": "Tube reported zeros for a whole weekday while the piezo counted bikes.",
+      "evidence": "As for direction 69."
+    },
+    {
+      "action": "missing",
+      "factor": null,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2025-10-23",
+      "end": "2025-10-23",
+      "confidence": "high",
+      "diagnosis": "Network-wide feed outage: the whole day is warning zeros here and at 36 other sites; bikes passed uncounted.",
+      "evidence": "0 bikes on a Thursday (1,339-1,433 on the adjacent days); network(): 37 zero sites and 39 warning sites that day vs 0-3 either side."
+    },
+    {
+      "action": "scale",
+      "factor": 0.5,
+      "SITE_SK": 101,
+      "DIRECTION_SK": null,
+      "start": "2026-04-13",
+      "end": "2026-04-20",
+      "confidence": "high",
+      "diagnosis": "For eight days every piezo count in both directions is even at about twice the usual level: every bike was counted twice.",
+      "evidence": "0 odd slots out of 78-87 non-zero slots per day per direction (40-50 odd slots on every other day); weekday totals 2,074-2,402 vs 887-1,141 before and after in dry weather; odd counts resume exactly at midnight 04-12/04-21; doubled() level 2.4."
+    }
+  ],
+  "series": [
+    {
+      "SITE_SK": 101,
+      "name": "Southbound (citybound) piezo",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 156,
+          "DIRECTION_SK": 65,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "The permanent piezo's southbound direction, 2007-2026. The tube ran alongside it 2021-03-11..2022-12-13 counting the same riders (slot counts often identical), so it is kept separate."
+    },
+    {
+      "SITE_SK": 101,
+      "name": "Northbound piezo",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 156,
+          "DIRECTION_SK": 66,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "The permanent piezo's northbound direction, 2007-2026 (2018-10-13..2021-06-18 set missing for the misclassification undercount)."
+    },
+    {
+      "SITE_SK": 101,
+      "name": "Southbound (citybound) tube",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 157,
+          "DIRECTION_SK": 69,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Temporary calibration tube, concurrent with the piezo and counting the same bikes (65/69 = 0.96-1.0), so not joinable."
+    },
+    {
+      "SITE_SK": 101,
+      "name": "Northbound tube",
+      "confidence": "high",
+      "parts": [
+        {
+          "COUNTER_SK": 157,
+          "DIRECTION_SK": 70,
+          "start": null,
+          "end": null
+        }
+      ],
+      "evidence": "Temporary calibration tube, concurrent with the piezo and counting the same bikes, so not joinable."
+    }
+  ],
+  "proposals": [
+    "Clock shift for the piezo (counter 156, site 101) during daylight saving before mid-2021: its daily profile peaks an hour earlier than the tube in March 2021 (correlation with the tube 0.53 unshifted vs 0.83 shifted by one hour, 0.97-0.997 in every later month) and in DST months of 2010-2011 the peaks sit an hour earlier than in winter, so the piezo stamped standard time; a shift of +1 hour during DST periods up to the 2021 fix would correct the within-day slots. Weekly totals are unaffected (only the midnight boundary moves).",
+    "Recover the northbound piezo (counter 156, direction 66, site 101) counts for 2018-10-13..2021-06-18 11:45 by adding back the bicycles MetroCount's piezo placed in non-bicycle classes: if TfNSW/MetroCount can publish the per-class counts, or reprocess the stored raw axle events with the corrected mid-2021 classification algorithm, the true bicycle counts could be rebuilt slot by slot; until then the period is missing."
+  ],
+  "tools": {
+    "useful": [
+      "overview: records_per_slot 2.0 in Dec 2010-Jun 2011 and the direction imbalance from 2018-10 stood out immediately",
+      "channels / raw: showed the two records per slot in 2011 were near-identical copies of the same riders at the start and end of the period, and warning zeros in Dec 2010",
+      "doubled: found 2026-04-13..20 and the one-day 2022-02-19 doubling on both counters",
+      "zeros(counter=True): listed all outages with their mid-day start/end times",
+      "weekly(wide=True): the 66/65 and piezo/tube ratios pinpointed the 2018-10 step and the June 2021 fix",
+      "network: confirmed the 2025-10-23 and March 2021 feed gaps",
+      "weather: explained the low months (Aug 2014, Aug 2025, Jul 2022) as rain"
+    ],
+    "not_useful": [
+      "duplicates: flagged only Dec 2010 (warning zero second records, harmless) and missed the Jan-Jun 2011 double channel because 2 records was the month's 'usual'",
+      "spikes: long list of organised early-Sunday rides and events, none faults"
+    ],
+    "improve": [
+      "duplicates: compare records per slot against a longer baseline (e.g. the direction's modal records per slot over the year) so a whole-month second channel is flagged",
+      "doubled: could also report runs where the sum of channels is ~2x while each channel alone is at the usual level",
+      "weekly: an option to add ratio columns between chosen directions would save hand computation"
+    ],
+    "add": [
+      "a direction-ratio change-point tool: weekly ratio between directions (or between co-located counters) with detected steps",
+      "a lag/shift tool: best clock offset between two co-located counters or between seasons, to spot DST handling faults"
+    ]
+  },
+  "summary": "Sydney Harbour Bridge cycleway: a permanent piezo (2007-2026) plus a co-located calibration tube (2021-2022) that counts the same riders. Faults are several multi-day counter outages (set missing), doubling from a second channel Dec 2010-Jun 2011 and all-even doubled days on 2022-02-19 and 2026-04-13..20 (scaled 0.5), and a documented northbound misclassification undercount Oct 2018-Jun 2021 of varying size (set missing pending reprocessing). Each counter-direction is its own series."
+}

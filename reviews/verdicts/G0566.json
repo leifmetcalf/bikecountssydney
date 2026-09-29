@@ -1,0 +1,11 @@
+{
+  "group": "G0566",
+  "decisions": [
+    {"action": "restore", "SITE_SK": 566, "DIRECTION_SK": 1798, "start": "2025-07-01", "end": "2025-07-02",
+      "confidence": "medium",
+      "diagnosis": "zero_outage blanked westbound zeros from 1 Jul 08:00 to 2 Jul 05:59, but this was a storm day when riding nearly stopped, so the zeros are real.",
+      "evidence": "Eastbound on the same counter recorded only 7 (1 Jul) and 13 (2 Jul) bikes against ~100/day usual; neighbour site 567 fell from 325 on 30 Jun to 34 and 67; westbound resumed normally with 19 on 2 Jul and 66 on 3 Jul."}
+  ],
+  "series": [],
+  "summary": "Single Metrocount piezo counter (379) at South Creek, Cromer, running continuously from Nov 2024 to Sep 2026 with one record per slot, no duplicates or doubling, and a stable east/west split (~1.03-1.08). The low days (1-2 Jul, 30 Jul-2 Aug, 20-22 Aug, 10 Sep 2025) hit both directions and neighbour site 567 at the same time, so they are wet weather rather than faults. The only change is to restore a zero_outage on westbound on 1-2 Jul 2025, where the zeros match the storm."
+}

@@ -1,0 +1,45 @@
+{
+  "group": "G0540",
+  "decisions": [
+    {"action": "scale", "factor": 0.5, "SITE_SK": 540, "DIRECTION_SK": null,
+     "start": "2023-10-24", "end": "2024-05-19", "confidence": "high",
+     "diagnosis": "Counter 328 counted every bike twice in both directions from installation until 19 May 2024, so the counts should be halved.",
+     "evidence": "Over 209 days every non-zero slot is even: 1557 had 2000 twos, 287 fours and 0 odd slots; 1558 had 2444 twos, 340 fours and 0 odd slots. On 20 May 2024 odd counts appear in both directions at once, and daily totals halve overnight: 1557 went from 14-16 to 6-9 and 1558 from 30-40 to 10-18. Mostly 1s follow."},
+    {"action": "missing", "factor": null, "SITE_SK": 540, "DIRECTION_SK": null,
+     "start": "2025-06-04", "end": "2025-07-04 16:00", "confidence": "medium",
+     "diagnosis": "Counter 328 lost nearly all detections in both directions for a month and then recovered abruptly mid-afternoon, which points to a sensor fault; the bikes it missed cannot be recovered.",
+     "evidence": "Daily totals fell from 25-60 to 0-10, with 9 whole days of warning-flagged zeros (1558: 17, 19, 27, 29 and 30 Jun and 1-3 Jul; 1557: 2-3 Jul). Weekly totals were 39/19, 33/9 and 29/13 against 250-330 before. Buckland St (254) nearby was normal (2640-3141 a week). West fell much further than East. Counts resumed at 16:15 on Friday 4 Jul, and the next days ran at 18-49 a day."},
+    {"action": "missing", "factor": null, "SITE_SK": 540, "DIRECTION_SK": null,
+     "start": "2025-10-23", "end": "2025-10-23", "confidence": "high",
+     "diagnosis": "Counter 350 reported a whole weekday of warning-flagged zeros in both directions while bikes were passing; nothing was recorded, so it cannot be recovered.",
+     "evidence": "23 Oct 2025 (a normal weekday): 96 warning records of 0 in each direction. The days either side had 63/59 and 68/76 bikes, and counts stop after 22:30 on the 22nd and resume at 05:45 on the 24th."},
+    {"action": "uncertain", "factor": null, "SITE_SK": 540, "DIRECTION_SK": 1557,
+     "start": "2024-12-12 07:15", "end": "2024-12-17 12:15", "confidence": "low",
+     "diagnosis": "The East direction nearly stopped counting for five days, with two warning-flagged zero days, while West kept counting; this may be a partial sensor fault, but at this site's low volume it cannot be settled.",
+     "evidence": "East daily totals were 2, 1, 2, 0 and 0 (warnings on 15 and 16 Dec) against 9-16 in the days before and 10-18 after. West recorded 9, 4, 6, 3 and 7. East evening peaks of 8-10 bikes on 10-11 Dec vanish until 17 Dec."}
+  ],
+  "series": [
+    {"SITE_SK": 540, "name": "Geddes Ave eastbound", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 328, "DIRECTION_SK": 1557, "start": null, "end": "2025-09-15"},
+               {"COUNTER_SK": 350, "DIRECTION_SK": 1737, "start": "2025-09-16", "end": null}],
+     "evidence": "Counter 350 replaced 328 at the same site with no overlap (328 ends 15 Sep 2025, 350 starts 16 Sep), both labelled East. The level carries on: 328 had 41/day in Sep 2025 and 53 on 15 Sep; 350 had 42-68/day in the following week, in line with the site's steady growth."},
+    {"SITE_SK": 540, "name": "Geddes Ave westbound (citybound)", "confidence": "medium",
+     "parts": [{"COUNTER_SK": 328, "DIRECTION_SK": 1558, "start": null, "end": "2025-09-15"},
+               {"COUNTER_SK": 350, "DIRECTION_SK": 1738, "start": "2025-09-16", "end": null}],
+     "evidence": "This is a like-for-like replacement in the West direction: 328 had 44/day in Sep 2025 and 51 on 15 Sep; 350 had 38-66/day in the following two weeks. The East/West balance is the same before and after."}
+  ],
+  "proposals": [],
+  "tools": {
+    "useful": ["doubled: flagged the 209-day all-even run in both directions straight away",
+               "daily with odd_slots/nonzero_slots: showed the exact day doubling ended (19 to 20 May 2024)",
+               "weekly across the site and a neighbour (254): showed the June 2025 collapse was local",
+               "raw Status: warning flags confirmed the whole-day outages",
+               "hourly: compared the daily shape before, during and after the June 2025 drop"],
+    "not_useful": ["zeros at the default 6 hours: at a low-volume site almost every night qualifies, so the list is swamped; min_hours=24 was needed",
+                   "events: nothing listed for this area"],
+    "improve": ["zeros: scale the threshold to the direction's volume, or rank runs by the bikes they should have had",
+                "doubled: report the date of the first odd slot after a run so the boundary can be seen without checking by hand"],
+    "add": ["a tool that lists warning-flagged days next to the other direction's count and the counts of nearby sites that day"]
+  },
+  "summary": "Site 540 is a low-volume Zetland bike path with strong growth. Counter 328 double-counted in both directions until 19 May 2024, so those counts are halved. It then nearly stopped detecting from 4 June to 4 July 2025, and counter 350 had a whole-day warning outage on 23 Oct 2025; both periods are set missing. The Sep 2025 counter replacement reads comparably, so each direction is one continuous series."
+}
